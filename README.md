@@ -2,6 +2,27 @@
 
 Blender asset workspace with [MCP for Blender](https://github.com/ahujasid/mcp-for-blender).
 
+## Asset art direction
+
+For reference-led authoring and review, start with the single
+[`asset-art-direction` skill](.agents/skills/asset-art-direction/SKILL.md).
+Its small task router links focused supporting pages; they are not separately
+invocable skills. Pi discovers project `.agents/skills/` entries on demand;
+`/skill:asset-art-direction` explicitly loads this entry. Other clients' discovery
+must be verified separately.
+
+- [Reference authority, 26 images and 32 mapped views](.agents/skills/asset-art-direction/references/index.md)
+- [D01–D09 visual standards](.agents/skills/asset-art-direction/design/index.md)
+- [Concrete Blender procedures](.agents/skills/asset-art-direction/blender/index.md)
+- [Existing pipeline owners and command side effects](.agents/skills/asset-art-direction/pipeline/index.md)
+- [Guidance verification and visual acceptance](.agents/skills/asset-art-direction/review/index.md)
+
+These qualitative standards preserve selective organic softness and broad planes;
+dreaming-forest assets are authored adaptations, not supplied-reference matches.
+Numeric art calibration and actual game occupied-pixel sizes remain provisional.
+Installing guidance changes no asset and authorizes no rebuild/render/export,
+quality pilot, rollout or game integration. Those operations need separate scope.
+
 ## Local asset catalog
 
 From the repository root, start the permanent catalog with Python 3.11+:
@@ -279,15 +300,13 @@ Use canonical `environment/components/forest_<name>` IDs to check or refresh
 individual component exports. Forest grid validation covers both libraries and
 checks that embedded components match their respective authored prototypes.
 
-Forest hexes use a flat-top footprint with radius **2.55**, meadow surface
-**Z = 0**, and foundation bottom **Z = −0.36** in Blender. Neighbor columns are
-**3.825** apart; rows are **4.41672956** apart, with alternate columns offset by
-half a row. Both bridge rivers connect the north and south edges with matching
-water height and channel width. Individual tile roots retain those dimensions
-as custom properties. `verify_forest_blender.py` checks every vertex against
-the six tile edges and compares embedded component meshes with the current
-library prototypes. The standard asset check also round-trips every tile and
-component through GLB and checks repeated mesh sharing.
+Forest hexes retain the flat-top footprint, origin/root placement and bridge-river
+north/south endpoint contracts. Dimensions and neighbor spacing have one numeric
+owner: [`art_style.HEX`](tools/asset_pack/art_style.py). See
+[environment conventions](.agents/skills/asset-art-direction/families/environment.md)
+and [check selection](.agents/skills/asset-art-direction/pipeline/index.md#checks)
+for footprint/base, geometry-signature freshness and round-trip reuse coverage.
+Library geometry checks are not complete material/UV/normal or art judgments.
 
 Build and review the new sets in isolated workers:
 
@@ -307,26 +326,17 @@ a subset. Builders overwrite generated sources; preserve manual refinements firs
 `render_previews.py` renders existing presentation scenes without saving sources;
 pass forest tile IDs to render them too. Use the catalog thumbnail command for
 portable component previews. Both archive manifests retain the original filenames
-and checksums; provenance notes record what the supplied archives contain. The new
-buildings and forest tiles have a painted material finish: related color gradients
-inside facets, fine timber grain, restrained stone cracks, leaf veins and root-to-tip
-shading. `painted_finish.py` samples deterministic surface fields directly into
-512-pixel image maps (1024 for crystals and receiving ground), with Base Color,
-Roughness, tangent Normal and masked Emission inputs on Principled BSDF materials.
-This avoids unsupported procedural node networks in GLB exports. PNGs live beside
-the source category in `textures/`; each source also packs its images. Shared
-prototype-local UVs preserve repeated mesh reuse.
-
-Crystal facets stay sharp, with irregular rings, blue/cyan/violet color washes and
-thin painted edge highlights. Mushroom caps are smoother; leaves have varied,
-curved silhouettes. Small stone bevels replace raised crack strokes, runes sit on
-the monolith's stone face, and fine grass tufts soften ground intersections. Terrain
-maps blend soft contact occlusion and local cyan/amber bounce into receiving surfaces,
-replacing hard light disks. These authored cues remain visible without scene lights.
-Presentation scenes render at 1200 × 1200 with 64 samples, larger Area Lights and
-subtle compositor Fog Glow. The halo is presentation-only; a game renderer can use
-the exported emission maps for its own bloom. Shared refinements are authored in the
-library and propagated to every forest tile.
+and checksums; provenance notes record what the supplied archives contain. The painted-finish pass added portable packed image maps to these buildings and
+forest tiles, prototype-local UVs for repeated mesh reuse, and local receiving-ground
+shading. Category-local PNGs remain beside sources in `textures/`. The procedures
+and important existing-UV/named-image refresh caveats now live in
+[UV/maps](.agents/skills/asset-art-direction/blender/uv-maps.md),
+[contacts](.agents/skills/asset-art-direction/blender/contacts.md) and
+[emission/water](.agents/skills/asset-art-direction/blender/emission-water.md).
+Current texture/preview values remain solely in
+[`art_style.py`](tools/asset_pack/art_style.py); saved scenes can retain older settings.
+Source compositor glow does not travel in GLB and needs a consumer-renderer effect.
+The pass history is not a new reference-fidelity or current-library freshness result.
 
 After the standard asset checks, audit the packed image maps, source UVs and matching
 embedded GLB texture channels with:
@@ -399,29 +409,17 @@ also offers a 3D viewer and a downloadable ZIP of the sources, exports, and scri
 
 ## Asset development checks
 
-The short visual rules are in [AGENTS.md](AGENTS.md). Numeric settings live in
-[`tools/asset_pack/art_style.py`](tools/asset_pack/art_style.py), a pure Python
-configuration shared by builders, Blender helpers and validators. The base palette
-keeps established unit/faction colors; the painted palette carries the building and
-forest finish. Mesh helpers use the shared bevel policy; forest builders derive
-facets, organic smoothing, UV names and hex dimensions from it; unit builders use
-its rounded-material and animation conventions. `geometry.studio()` applies the
-common preview preset, and repeated applications preserve light energy and reuse
-the compositor. Previously authored source files retain their saved presentation
-until an explicit rebuild; style checks never restyle or save them.
-
-The fast style tests run within `mise run check`. `mise run style-tests` creates
-temporary Blender fixtures and tests actual node/material application, selective
-normals, idempotent lighting, color encoding, packed maps, UVs, shared unit clips,
-attachments and a real GLB texture export. `mise run asset-style-check -- <IDs>`
-inspects selected existing sources; `--all` checks the catalog. It enforces native
-Principled materials, required painted map channels/color spaces, texture sizes,
-UVs, shape-specific normal treatment, root/hex conventions, unit sockets and clip/FPS
-conventions.
-Individual painted assets also check the saved presentation preset; older assets
-and shared libraries keep their authored presentation settings. Visual resemblance,
-palette balance and silhouette readability still require render/reference review.
-CI runs both the fixture tests and catalog style audit after Blender installation.
+[AGENTS.md](AGENTS.md) retains quick workspace conventions. Detailed visual criteria
+are owned by the [D01–D09 standards](.agents/skills/asset-art-direction/design/index.md),
+procedures by the [Blender index](.agents/skills/asset-art-direction/blender/index.md),
+and numeric settings by [`art_style.py`](tools/asset_pack/art_style.py).
+The [pipeline/check index](.agents/skills/asset-art-direction/pipeline/index.md#checks)
+explains each command's coverage and side effects without introducing another
+builder/exporter. Style audits inspect existing sources without saving or restyling;
+older assets/shared libraries retain existing preview exemptions. Fixture tests use
+temporary assets and include a real test GLB export. CI runs fixture and catalog
+source-style checks after Blender installation. Mechanical success never certifies
+visual resemblance, palette balance, animation appeal or target-size readability.
 
 Run `mise run check` for Python lint, Python and JavaScript syntax, worker safety
 checks, and fast unit tests. Ruff is pinned in `requirements-checks.txt`; the local
