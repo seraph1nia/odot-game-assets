@@ -101,7 +101,7 @@ Full isolated worker logs remain `.cache/asset-check/logs/quality-*.log`.
 Current source/export hash-bound mechanical results remain
 `exports/validation.json`; none substitutes for missing visual evidence.
 
-## Completed selected static evidence — portable acceptance remains open
+## Completed selected static evidence — pre-portable checkpoint
 
 Both original workers remain **failed partial jobs**: they completed the same
 15 IDs, then raised `KeyError: 'hex_hollow_watchers'` in reference-only `BY_ID`.
@@ -131,7 +131,7 @@ The crossbow feather closure preserves standalone/equipped grip pivots and scale
 Skeleton/action/loop/socket interfaces remain; no normal-speed or portable glow
 acceptance is inferred from stills.
 
-### Browser review — scheduling resolved; portable palette defect remains
+### Browser review — historical scheduling and palette diagnosis
 
 The missing-runtime diagnosis below is historical. Following explicit steering
 `004.msg`, a task-private official Chrome for Testing **155.0.8059.39** was

@@ -25,7 +25,8 @@ reference links and exact selectors remain in [coverage](coverage.md).
   [crystal grove](evidence/hex_crystal_grove-480.jpg) retain visibly wider stone
   margins. The smaller internal mark is not a 96-pixel recognition improvement.
   Floating shrine glyphs/circles were deliberately not shrunk. No emission-power
-  or compositor change; portable bloom-off/on judgment remains open.
+  or compositor change; [portable review](portable-review.md) owns the later
+  emission/body observations and unavailable-bloom limitation.
 - **D06, foam contact:** complete floating bubble circles gave the channel a
   decorative overlay. Opened/elongated them into contact-facing crescents.
   Both [woodland bridge](evidence/hex_woodland_bridge-480.jpg) and

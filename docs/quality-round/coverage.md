@@ -157,4 +157,3 @@ The standalone crossbow and equipped `characters/evil_ranged_unit` copy form
 the explicit bolt-feather closure. Hood/scarf belong only to the unit. Knight plume
 belongs only to the knight. Diagonal-UV cleanup belongs only to five buildings'
 unique cuboids; shared village kit prototype UVs/geometry/materials are untouched.
-

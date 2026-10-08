@@ -6,7 +6,7 @@ proven material loss for exactly six audited IDs. Seven real Blender fixtures,
 checks pass; source bytes remain unchanged. The captures and motion observations
 below still bind the **pre-fix GLBs**, not the newly corrected exports; their
 superseded copies and original metadata remain in
-[history/before-material-fix](history/before-material-fix/README.md).
+[history/before-material-fix](README.md).
 
 New captures are paused after the strict old/new GLB mapping found 131 Weaver UV
 accessor byte differences, with maximum numeric delta 1.1920928955078125e-7.
@@ -14,8 +14,8 @@ Other compared Weaver geometry/normal/transform/scene fields are identical.
 No exact UV-byte preservation or completed material-only motion mapping is claimed.
 The unchanged source UVs were not rewritten. Firstmate has the concrete diagnostic
 for steering before any rerender/retry. See
-[loss boundary](material-loss-boundary.json), [105-ID closure](material-closure.json)
-and [selected corrected-material audit](material-closure-after.json).
+[loss boundary](../../material-loss-boundary.json), [105-ID closure](../../material-closure.json)
+and [selected corrected-material audit](../../material-closure-after.json).
 
 Reviewer: implementation worker. **Not whole-catalog acceptance or shipping.**
 The review uses official task-private Chrome 155.0.8059.39, the existing catalog
