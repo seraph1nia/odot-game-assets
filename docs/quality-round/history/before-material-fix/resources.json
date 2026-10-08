@@ -1,0 +1,773 @@
+{
+  "counting": "Unique GLB mesh-primitive triangles; material/image definitions; physical file bytes. Not instances, GPU memory, draw calls or FPS.",
+  "assets": [
+    {
+      "id": "buildings/archery_range",
+      "source": "sources/buildings/archery_range.blend",
+      "before": {
+        "bytes": 5483064,
+        "triangles": 41298,
+        "materials": 38,
+        "animations": [],
+        "version": "773325095940b3b3379338e2d84af5398c41a922b676e5f1f15ef3762babbf81",
+        "images": 31
+      },
+      "after": {
+        "bytes": 5304400,
+        "triangles": 40838,
+        "materials": 37,
+        "animations": [],
+        "version": "4e231c7a9e6032b7e609961dac15637a44ab45996c3ec21d5ab79f74c3fa8069",
+        "images": 30
+      },
+      "delta": {
+        "triangles": -460,
+        "materials": -1,
+        "bytes": -178664,
+        "images": -1
+      },
+      "source_sha256_before": "989f03c4a6fde7ab2b0cf7a3c06d0541366e893b4ee8de5910d16a09b5e862ee",
+      "source_sha256_after": "d0dfd35060be8fbd501f136034338212d1b53f220ccf2671a7e4d558262085bb"
+    },
+    {
+      "id": "buildings/metal_mine",
+      "source": "sources/buildings/metal_mine.blend",
+      "before": {
+        "bytes": 5252972,
+        "triangles": 36248,
+        "materials": 35,
+        "animations": [],
+        "version": "f03e7487735ac055a06acf7c6715cae87ff9cd771284168ee16fcf0b6cd1cbaa",
+        "images": 32
+      },
+      "after": {
+        "bytes": 5223804,
+        "triangles": 35968,
+        "materials": 35,
+        "animations": [],
+        "version": "5e5419d4deec0b78f6c742522a91e666ccd0762ec116bfb089efe9e17ebe3030",
+        "images": 32
+      },
+      "delta": {
+        "triangles": -280,
+        "materials": 0,
+        "bytes": -29168,
+        "images": 0
+      },
+      "source_sha256_before": "f8542f1bfbb3d10a3ab311d88a5feb753aab08db4984baeafdbc943c971db431",
+      "source_sha256_after": "546ad3d95cf50f9f699ef6775057fa2222c51002bcc82b93471587ecd97ae5f6"
+    },
+    {
+      "id": "buildings/research_tower",
+      "source": "sources/buildings/research_tower.blend",
+      "before": {
+        "bytes": 5611168,
+        "triangles": 41962,
+        "materials": 36,
+        "animations": [],
+        "version": "22ee71ebef473aec72d869d49cc1faa12d724ed8c4f408abb68d15d678d09ac4",
+        "images": 32
+      },
+      "after": {
+        "bytes": 5588324,
+        "triangles": 41742,
+        "materials": 36,
+        "animations": [],
+        "version": "3c049de6133c307e32b30a2258f50ae3041067bd8302f5d8b578219b91fd0dbd",
+        "images": 32
+      },
+      "delta": {
+        "triangles": -220,
+        "materials": 0,
+        "bytes": -22844,
+        "images": 0
+      },
+      "source_sha256_before": "9d21564ac373944fbc42fdf3c68402077901a308a840b84907f071d2c6473020",
+      "source_sha256_after": "133f2edf621fbbb7fa8f07f0208d32d96d4ebe6ba07c06b2973cbe4b93c45ada"
+    },
+    {
+      "id": "buildings/town_hall",
+      "source": "sources/buildings/town_hall.blend",
+      "before": {
+        "bytes": 8849548,
+        "triangles": 88355,
+        "materials": 30,
+        "animations": [],
+        "version": "d4e38bbf4a1754701211f937b6eee79fb105b03a13e547c179ba18172822150b",
+        "images": 31
+      },
+      "after": {
+        "bytes": 8639132,
+        "triangles": 87575,
+        "materials": 29,
+        "animations": [],
+        "version": "8150f41e63cdbae8e5073ab780c2a82f43d8e20d8612dba5c229af43aba3ce62",
+        "images": 30
+      },
+      "delta": {
+        "triangles": -780,
+        "materials": -1,
+        "bytes": -210416,
+        "images": -1
+      },
+      "source_sha256_before": "036733bcf95c606f3de582c97aee33e33dcf610fe260132bbbbf37fb60f43cc1",
+      "source_sha256_after": "3409702dfdb2048dbde2d4506195fc4d5f4b5f98e8cb0cbe663ef845357f3191"
+    },
+    {
+      "id": "buildings/weaver",
+      "source": "sources/buildings/weaver.blend",
+      "before": {
+        "bytes": 5427916,
+        "triangles": 38908,
+        "materials": 33,
+        "animations": [],
+        "version": "bbffda6346918180bfe8b72cd54870dde97559cafc66309e078c52318c1f5247",
+        "images": 32
+      },
+      "after": {
+        "bytes": 5405336,
+        "triangles": 38688,
+        "materials": 33,
+        "animations": [],
+        "version": "9deff9a03dfcf308c2f3fc691886616f72c5ea3db6f7d50f1eb724abea39aacc",
+        "images": 32
+      },
+      "delta": {
+        "triangles": -220,
+        "materials": 0,
+        "bytes": -22580,
+        "images": 0
+      },
+      "source_sha256_before": "2cd6cdc70b302f2c5017d383a959706369f1b71bcfd8e180c6eea833e81bfae6",
+      "source_sha256_after": "2aae72e09cecbe0a27be92e6b1f55a48c1b05dad4e6c4440792a083d9566d9d4"
+    },
+    {
+      "id": "characters/evil_ranged_unit",
+      "source": "sources/characters/evil_ranged_unit.blend",
+      "before": {
+        "bytes": 712228,
+        "triangles": 7151,
+        "materials": 23,
+        "animations": [
+          {
+            "name": "attack",
+            "duration": 1.0416666666666667,
+            "loop": null
+          },
+          {
+            "name": "death",
+            "duration": 1.2916666666666667,
+            "loop": null
+          },
+          {
+            "name": "hit",
+            "duration": 0.5416666666666666,
+            "loop": null
+          },
+          {
+            "name": "idle",
+            "duration": 2.0416666666666665,
+            "loop": null
+          },
+          {
+            "name": "run",
+            "duration": 0.7916666666666666,
+            "loop": null
+          },
+          {
+            "name": "walk",
+            "duration": 1.0416666666666667,
+            "loop": null
+          }
+        ],
+        "version": "5808c64a27e3ae9e0ce193c1b979625d76c55b50d96bc390e73415a5df7a95bc",
+        "images": 0
+      },
+      "after": {
+        "bytes": 715128,
+        "triangles": 7175,
+        "materials": 24,
+        "animations": [
+          {
+            "name": "attack",
+            "duration": 1.0416666666666667,
+            "loop": null
+          },
+          {
+            "name": "death",
+            "duration": 1.2916666666666667,
+            "loop": null
+          },
+          {
+            "name": "hit",
+            "duration": 0.5416666666666666,
+            "loop": null
+          },
+          {
+            "name": "idle",
+            "duration": 2.0416666666666665,
+            "loop": null
+          },
+          {
+            "name": "run",
+            "duration": 0.7916666666666666,
+            "loop": null
+          },
+          {
+            "name": "walk",
+            "duration": 1.0416666666666667,
+            "loop": null
+          }
+        ],
+        "version": "5cfd435e31be7f1e74e0846f782a4e4449ce93f3f5462d7712aef3d407b3ca6e",
+        "images": 0
+      },
+      "delta": {
+        "triangles": 24,
+        "materials": 1,
+        "bytes": 2900,
+        "images": 0
+      },
+      "source_sha256_before": "d580d1f9c5f8a1b7f5e12a0bc1bbdd03228d3d4033c383d9ae78eaa582c1e6ac",
+      "source_sha256_after": "0012e1c46c11764d4c85878ee7f127bf6d4b539c97a568be1e9fa00d81387057"
+    },
+    {
+      "id": "characters/knight",
+      "source": "sources/characters/knight.blend",
+      "before": {
+        "bytes": 662780,
+        "triangles": 6986,
+        "materials": 13,
+        "animations": [
+          {
+            "name": "attack",
+            "duration": 1.0416666666666667,
+            "loop": null
+          },
+          {
+            "name": "death",
+            "duration": 1.2916666666666667,
+            "loop": null
+          },
+          {
+            "name": "hit",
+            "duration": 0.5416666666666666,
+            "loop": null
+          },
+          {
+            "name": "idle",
+            "duration": 2.0416666666666665,
+            "loop": null
+          },
+          {
+            "name": "run",
+            "duration": 0.7916666666666666,
+            "loop": null
+          },
+          {
+            "name": "walk",
+            "duration": 1.0416666666666667,
+            "loop": null
+          }
+        ],
+        "version": "1ffa02091ffae7617cd7cbb1c1108150703409086e8380f12c080e9f6bbb2130",
+        "images": 0
+      },
+      "after": {
+        "bytes": 662780,
+        "triangles": 6986,
+        "materials": 13,
+        "animations": [
+          {
+            "name": "attack",
+            "duration": 1.0416666666666667,
+            "loop": null
+          },
+          {
+            "name": "death",
+            "duration": 1.2916666666666667,
+            "loop": null
+          },
+          {
+            "name": "hit",
+            "duration": 0.5416666666666666,
+            "loop": null
+          },
+          {
+            "name": "idle",
+            "duration": 2.0416666666666665,
+            "loop": null
+          },
+          {
+            "name": "run",
+            "duration": 0.7916666666666666,
+            "loop": null
+          },
+          {
+            "name": "walk",
+            "duration": 1.0416666666666667,
+            "loop": null
+          }
+        ],
+        "version": "2e63744934d9e35f0f848aa5158306223b7086320b3181acaf5b74f38a4f3281",
+        "images": 0
+      },
+      "delta": {
+        "triangles": 0,
+        "materials": 0,
+        "bytes": 0,
+        "images": 0
+      },
+      "source_sha256_before": "950180d36ace11a1845a5ef23256d2bacf357bb8e4f5a6838584d55d0557c6ee",
+      "source_sha256_after": "b8e5d3e130a502d4bb894431836066c63ad9f53b53225f10fbe0960fdc341f6b"
+    },
+    {
+      "id": "environment/components/forest_foam",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "before": {
+        "bytes": 1366764,
+        "triangles": 976,
+        "materials": 2,
+        "animations": [],
+        "version": "a6b6b5d01a5e52263786e58b577b41815d704c454cb93d81a877c5dfa66092e8",
+        "images": 6
+      },
+      "after": {
+        "bytes": 1352792,
+        "triangles": 704,
+        "materials": 2,
+        "animations": [],
+        "version": "6dc24a66b6d4dd4c8e717872bccdefd2b381d63dbf83eb4aa41fdaa6b58e4e0e",
+        "images": 6
+      },
+      "delta": {
+        "triangles": -272,
+        "materials": 0,
+        "bytes": -13972,
+        "images": 0
+      },
+      "source_sha256_before": "2694b3b6350c122093558c729d073b38204b4cb7df5ceafea0ef1ad3e6ca683a",
+      "source_sha256_after": "dd0793ce691d3e495659114315c4fdd5912b4364353d1739e16bf690f7bcc4c6"
+    },
+    {
+      "id": "environment/components/forest_mushroom_blue",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "before": {
+        "bytes": 1619716,
+        "triangles": 1900,
+        "materials": 5,
+        "animations": [],
+        "version": "b34f746791a47c73b4608a732900521c4cc11e7cb810f2ce2304a6849a4c6c91",
+        "images": 9
+      },
+      "after": {
+        "bytes": 1602776,
+        "triangles": 1780,
+        "materials": 5,
+        "animations": [],
+        "version": "ba30dde4fb33305feb871bd7bc9944cca97f03cfad65f8877bcbbd8474336928",
+        "images": 9
+      },
+      "delta": {
+        "triangles": -120,
+        "materials": 0,
+        "bytes": -16940,
+        "images": 0
+      },
+      "source_sha256_before": "2694b3b6350c122093558c729d073b38204b4cb7df5ceafea0ef1ad3e6ca683a",
+      "source_sha256_after": "dd0793ce691d3e495659114315c4fdd5912b4364353d1739e16bf690f7bcc4c6"
+    },
+    {
+      "id": "environment/components/forest_mushroom_purple",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "before": {
+        "bytes": 1629700,
+        "triangles": 1900,
+        "materials": 5,
+        "animations": [],
+        "version": "fe6e178aa81e09e163ed69d7c96a5e196c73cdc87f766508cfbce985917abd91",
+        "images": 9
+      },
+      "after": {
+        "bytes": 1612752,
+        "triangles": 1780,
+        "materials": 5,
+        "animations": [],
+        "version": "b2ff7dae743e9c7f10ca104bc6eac316092af7dc06d7fca0ff6be0fdf76aa050",
+        "images": 9
+      },
+      "delta": {
+        "triangles": -120,
+        "materials": 0,
+        "bytes": -16948,
+        "images": 0
+      },
+      "source_sha256_before": "2694b3b6350c122093558c729d073b38204b4cb7df5ceafea0ef1ad3e6ca683a",
+      "source_sha256_after": "dd0793ce691d3e495659114315c4fdd5912b4364353d1739e16bf690f7bcc4c6"
+    },
+    {
+      "id": "environment/components/forest_rune_monolith",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "before": {
+        "bytes": 390584,
+        "triangles": 368,
+        "materials": 3,
+        "animations": [],
+        "version": "c6fb4c929116d719923852d02c7cc8197fd94131d753a54866c1c50d82c2df60",
+        "images": 4
+      },
+      "after": {
+        "bytes": 390584,
+        "triangles": 368,
+        "materials": 3,
+        "animations": [],
+        "version": "c1c95012bf110bee07f0a6c4a9ec6a83310fd4ad6eb5c321888afc5e80626ff4",
+        "images": 4
+      },
+      "delta": {
+        "triangles": 0,
+        "materials": 0,
+        "bytes": 0,
+        "images": 0
+      },
+      "source_sha256_before": "2694b3b6350c122093558c729d073b38204b4cb7df5ceafea0ef1ad3e6ca683a",
+      "source_sha256_after": "dd0793ce691d3e495659114315c4fdd5912b4364353d1739e16bf690f7bcc4c6"
+    },
+    {
+      "id": "environment/hex_bioluminescent_grove",
+      "source": "sources/environment/hex_bioluminescent_grove.blend",
+      "before": {
+        "bytes": 6879756,
+        "triangles": 8392,
+        "materials": 41,
+        "animations": [],
+        "version": "8b94aa8c805109f35af8459de70c538557493f2c1f87c0039be84f368b215720",
+        "images": 36
+      },
+      "after": {
+        "bytes": 6857464,
+        "triangles": 8152,
+        "materials": 41,
+        "animations": [],
+        "version": "7b2c22d173fd200ded0b90e265e69ab0b165fb4b71899bd6617a422964c77eb0",
+        "images": 36
+      },
+      "delta": {
+        "triangles": -240,
+        "materials": 0,
+        "bytes": -22292,
+        "images": 0
+      },
+      "source_sha256_before": "ab131b6216beb0d35a7431b89381d7c6cbeb92a8a1342f6ae4d74f947edf361e",
+      "source_sha256_after": "451189945e69f9bae84b0f4173fcaf5839a954dc2e3107426f1081f05301d414"
+    },
+    {
+      "id": "environment/hex_butterfly_glade",
+      "source": "sources/environment/hex_butterfly_glade.blend",
+      "before": {
+        "bytes": 6042676,
+        "triangles": 14234,
+        "materials": 45,
+        "animations": [],
+        "version": "88f0569f9c880509f93acb2f8c4f3bebee94506b070d66d3de339d3fef233cb9",
+        "images": 45
+      },
+      "after": {
+        "bytes": 6036788,
+        "triangles": 14114,
+        "materials": 45,
+        "animations": [],
+        "version": "03f110e09953dee4144d29aa1955a2ec4478d521775c3cc55980f40e43fa8c32",
+        "images": 45
+      },
+      "delta": {
+        "triangles": -120,
+        "materials": 0,
+        "bytes": -5888,
+        "images": 0
+      },
+      "source_sha256_before": "82a553ff192d20a66fec81da7c4065fe6abd6fe3f23f7aa77d44a8ce7d4b8c8b",
+      "source_sha256_after": "b03fd88a3f69b56c3bd9b18bcc19d1e5cb5aeec1a80c564571a03c9ff6e14af9"
+    },
+    {
+      "id": "environment/hex_crystal_grove",
+      "source": "sources/environment/hex_crystal_grove.blend",
+      "before": {
+        "bytes": 8572872,
+        "triangles": 8248,
+        "materials": 40,
+        "animations": [],
+        "version": "065f7a0e01e07565eac078fd1b2cbc4eef2f2d2ee562fa197dc507550ecd8169",
+        "images": 35
+      },
+      "after": {
+        "bytes": 8552212,
+        "triangles": 8008,
+        "materials": 40,
+        "animations": [],
+        "version": "728cd5c29cdc2c765d39ef592922d673221b9e871d737f82e08f13ce804caa86",
+        "images": 35
+      },
+      "delta": {
+        "triangles": -240,
+        "materials": 0,
+        "bytes": -20660,
+        "images": 0
+      },
+      "source_sha256_before": "a5c2c1655c3170f8c2aba3b0ebe33e0e6192f141373b061751ac61abe1885884",
+      "source_sha256_after": "6b053ede80e39a01fb3603d489f579369a1c8d2c30afc55bc981dbf56605010a"
+    },
+    {
+      "id": "environment/hex_crystal_shrine",
+      "source": "sources/environment/hex_crystal_shrine.blend",
+      "before": {
+        "bytes": 8785512,
+        "triangles": 10748,
+        "materials": 44,
+        "animations": [],
+        "version": "7e6ac9aa491a2bda302fb4d80a58959e23d369ad3b170bc0268496628f6a9279",
+        "images": 35
+      },
+      "after": {
+        "bytes": 8764480,
+        "triangles": 10508,
+        "materials": 44,
+        "animations": [],
+        "version": "0ab696cc206e490e28dc586b98654541644471e3a023aacc7596632ef7147faa",
+        "images": 35
+      },
+      "delta": {
+        "triangles": -240,
+        "materials": 0,
+        "bytes": -21032,
+        "images": 0
+      },
+      "source_sha256_before": "233e583b47250eb91992e9e4d967f6dee48f29d81bfc217f1d505884701d89d7",
+      "source_sha256_after": "e55ac555e0ef39a06eeb7d291317ea341990830e954536af1fdeb53108709239"
+    },
+    {
+      "id": "environment/hex_dream_menagerie",
+      "source": "sources/environment/hex_dream_menagerie.blend",
+      "before": {
+        "bytes": 8390756,
+        "triangles": 20456,
+        "materials": 56,
+        "animations": [],
+        "version": "b951f6fffc707a2b7ef3314e0659f4c72450dddec9ebb58bb4f55098433bb67a",
+        "images": 49
+      },
+      "after": {
+        "bytes": 8369724,
+        "triangles": 20216,
+        "materials": 56,
+        "animations": [],
+        "version": "0e03d4ba320b7f61fafc490ae8cbf51833613cdc2fce07ab4ab34baecc7fffb6",
+        "images": 49
+      },
+      "delta": {
+        "triangles": -240,
+        "materials": 0,
+        "bytes": -21032,
+        "images": 0
+      },
+      "source_sha256_before": "3152a9c23c5affdbce818aad11c4e4c1dd51482c634fbc7d8754a922c5adc285",
+      "source_sha256_after": "99437463d17283601633f3a25e235291f9e29e00e63a8df5710616ec0b25c67b"
+    },
+    {
+      "id": "environment/hex_glowing_mushrooms",
+      "source": "sources/environment/hex_glowing_mushrooms.blend",
+      "before": {
+        "bytes": 8514664,
+        "triangles": 7880,
+        "materials": 37,
+        "animations": [],
+        "version": "a2e59df05aa671bcd2ab41dc3363051679c6785a2c1fc2706b415e5a453172a5",
+        "images": 35
+      },
+      "after": {
+        "bytes": 8492372,
+        "triangles": 7640,
+        "materials": 37,
+        "animations": [],
+        "version": "4370d473b6e98712b21eddc1cde95c06eb36bb5cd94271326642f43ffc5282f3",
+        "images": 35
+      },
+      "delta": {
+        "triangles": -240,
+        "materials": 0,
+        "bytes": -22292,
+        "images": 0
+      },
+      "source_sha256_before": "a8c7897a587a311a8a81353eca457e90c679542807a04a1b38cd8c7cd6b283c6",
+      "source_sha256_after": "e7a8788959e75f419816410df01cdc4a80b0bd1b945b14ac4b5a57d04af1c59b"
+    },
+    {
+      "id": "environment/hex_hollow_watchers",
+      "source": "sources/environment/hex_hollow_watchers.blend",
+      "before": {
+        "bytes": 8267572,
+        "triangles": 19280,
+        "materials": 51,
+        "animations": [],
+        "version": "c3e7367fea62376e21fad6866b1fd8b94fdfb1af3f1005316d7e2353600f9701",
+        "images": 47
+      },
+      "after": {
+        "bytes": 8246048,
+        "triangles": 19040,
+        "materials": 51,
+        "animations": [],
+        "version": "4c19ebcc713f3ab244f325d54d68e5ccee64df0e62670b57457035d7b3b1b607",
+        "images": 47
+      },
+      "delta": {
+        "triangles": -240,
+        "materials": 0,
+        "bytes": -21524,
+        "images": 0
+      },
+      "source_sha256_before": "8f9c6ff4c7383ff94ba709ee8cadfffa4369bcb8ffa0ece18ef85d597ddb53de",
+      "source_sha256_after": "cb7eb6adf63a6d9a4191d5508b06149d62bb211a68bbc776d9601dbcb8a90dd5"
+    },
+    {
+      "id": "environment/hex_lantern_bridge",
+      "source": "sources/environment/hex_lantern_bridge.blend",
+      "before": {
+        "bytes": 7681604,
+        "triangles": 10422,
+        "materials": 49,
+        "animations": [],
+        "version": "7139818ffda722002f52385ed47e46d0fc687ce3bfc03b08d3d292967f338c95",
+        "images": 46
+      },
+      "after": {
+        "bytes": 7646580,
+        "triangles": 9910,
+        "materials": 49,
+        "animations": [],
+        "version": "2c4528dd617964d2bd85641280fbaa00727b10b681c07302a18bf28d15e021e8",
+        "images": 46
+      },
+      "delta": {
+        "triangles": -512,
+        "materials": 0,
+        "bytes": -35024,
+        "images": 0
+      },
+      "source_sha256_before": "ec221caa0f55edc6d35f22467dafdd937b3c5ccdfca7adc53cf978d4fd43e6f1",
+      "source_sha256_after": "e8c69f3f9c1674936997369e68484767c200758d245e46b69b4977d5e5311bee"
+    },
+    {
+      "id": "environment/hex_mystical_grove",
+      "source": "sources/environment/hex_mystical_grove.blend",
+      "before": {
+        "bytes": 8554384,
+        "triangles": 7880,
+        "materials": 37,
+        "animations": [],
+        "version": "2571f36dbfd74a08d078bbbc4daff293d6cf139f97038a1809eedf6bb1cc81c5",
+        "images": 35
+      },
+      "after": {
+        "bytes": 8532720,
+        "triangles": 7640,
+        "materials": 37,
+        "animations": [],
+        "version": "b9dd65a0d0fa79b21fc5fa83b7b4ea6503e83b40f551666cd378fa8305f33efc",
+        "images": 35
+      },
+      "delta": {
+        "triangles": -240,
+        "materials": 0,
+        "bytes": -21664,
+        "images": 0
+      },
+      "source_sha256_before": "c385965366762644f654c7d10a7fa7a97b4dc1513611f3b2e5faa3e339a922b4",
+      "source_sha256_after": "5f1a27f72a1baf8bac2a0e258f491b765c35d95efcdd5aeb8a0b9817c671c958"
+    },
+    {
+      "id": "environment/hex_rune_shrine",
+      "source": "sources/environment/hex_rune_shrine.blend",
+      "before": {
+        "bytes": 7184748,
+        "triangles": 10218,
+        "materials": 44,
+        "animations": [],
+        "version": "7b762f9055e0cd5e1f35ac698f102e5b70d7525bb54d590896ae20237de6da32",
+        "images": 39
+      },
+      "after": {
+        "bytes": 7178844,
+        "triangles": 10098,
+        "materials": 44,
+        "animations": [],
+        "version": "34101a5c2a91e97adefaa336cabbb5f582fd9964669616bc9f8c09c896543e91",
+        "images": 39
+      },
+      "delta": {
+        "triangles": -120,
+        "materials": 0,
+        "bytes": -5904,
+        "images": 0
+      },
+      "source_sha256_before": "aa929218be364a7dee08173dbc27681e3a78a39b272fe5ade948ee6fe3a3135d",
+      "source_sha256_after": "06c7f9bf9e293451fbf2eda80e28e241a534e6cbe7b0c45ee7cac7d633aa0e30"
+    },
+    {
+      "id": "environment/hex_woodland_bridge",
+      "source": "sources/environment/hex_woodland_bridge.blend",
+      "before": {
+        "bytes": 7843060,
+        "triangles": 11394,
+        "materials": 57,
+        "animations": [],
+        "version": "2195443dbb4712b58dc623c3dbf1fa3d3037f212ed3cd30db24f4c026f113024",
+        "images": 47
+      },
+      "after": {
+        "bytes": 7808052,
+        "triangles": 10882,
+        "materials": 57,
+        "animations": [],
+        "version": "f61bc6212b37fc0c41a372b906520e8c18d9d52ef330365e963f5f7ee83eb118",
+        "images": 47
+      },
+      "delta": {
+        "triangles": -512,
+        "materials": 0,
+        "bytes": -35008,
+        "images": 0
+      },
+      "source_sha256_before": "5ef380393fc58110cd59c605c50d90f64d2e15efe5929ea3e445c5ed894e3c89",
+      "source_sha256_after": "910802a0a01b1011d175510b9f271bc8b63ffbe608f83a6abe9ccce02910bf2e"
+    },
+    {
+      "id": "props/crossbow",
+      "source": "sources/props/crossbow.blend",
+      "before": {
+        "bytes": 49168,
+        "triangles": 814,
+        "materials": 7,
+        "animations": [],
+        "version": "b98c917d5829c3065f1cc05fe0b2fdf2745bb834cdb15e689765b372c9b91502",
+        "images": 0
+      },
+      "after": {
+        "bytes": 52036,
+        "triangles": 838,
+        "materials": 8,
+        "animations": [],
+        "version": "b226f620315dcc4c8a345d48eeba5fb1f4174aa8f3b349d86eaa80c0b4b7b1a8",
+        "images": 0
+      },
+      "delta": {
+        "triangles": 24,
+        "materials": 1,
+        "bytes": 2868,
+        "images": 0
+      },
+      "source_sha256_before": "2d94ccbb243500e2fefbe10a9a88e6587774a9d75383a5e227a2f2d1f39f59b0",
+      "source_sha256_after": "27e6cf2f83d61c3c4f5c96fe1eac19477ab1b71fd9cd0a14526e9d89d398ccc6"
+    }
+  ]
+}

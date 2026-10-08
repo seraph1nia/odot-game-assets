@@ -1,0 +1,12 @@
+test_ambiguous_alias_is_refused_but_a_single_canonical_id_is_valid (tools.asset_pack.test_render_previews.PreviewSelectionTests.test_ambiguous_alias_is_refused_but_a_single_canonical_id_is_valid) ... ok
+test_canonical_unit_id_renders_the_authored_source (tools.asset_pack.test_render_previews.PreviewSelectionTests.test_canonical_unit_id_renders_the_authored_source) ... ok
+test_distinct_canonical_ids_cannot_overwrite_the_same_preview_filename (tools.asset_pack.test_render_previews.PreviewSelectionTests.test_distinct_canonical_ids_cannot_overwrite_the_same_preview_filename) ... ok
+test_dreaming_aliases_render_authoritative_sources_without_saving_them (tools.asset_pack.test_render_previews.PreviewSelectionTests.test_dreaming_aliases_render_authoritative_sources_without_saving_them) ... ok
+test_invalid_source_schema_is_refused_before_opening_blender (tools.asset_pack.test_render_previews.PreviewSelectionTests.test_invalid_source_schema_is_refused_before_opening_blender) ... ok
+test_normal_forest_and_building_aliases_preserve_existing_output_names (tools.asset_pack.test_render_previews.PreviewSelectionTests.test_normal_forest_and_building_aliases_preserve_existing_output_names) ... ok
+test_unknown_selection_is_refused_before_opening_any_source (tools.asset_pack.test_render_previews.PreviewSelectionTests.test_unknown_selection_is_refused_before_opening_any_source) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.016s
+
+OK

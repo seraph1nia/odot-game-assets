@@ -1,0 +1,24 @@
+00:00.322  blend            | Read blend: "/tmp/tmpc4pbi6h0/sources/props/fixture.blend"
+Info: Saved as "fixture.blend"
+INFO Draco is available, use library at /home/bart/.local/opt/blender-5.2.2-linux-x64/lib/libbf_intern_draco_bridge.so
+INFO MeshOptimizer is available, use library at /home/bart/.local/opt/blender-5.2.2-linux-x64/lib/libbf_intern_meshopt_bridge.so
+10:20:35 | INFO: Starting glTF 2.0 export
+10:20:35 | INFO: Extracting primitive: Default red
+10:20:35 | INFO: Primitives created: 1
+10:20:35 | INFO: Extracting primitive: Default red
+10:20:35 | INFO: Primitives created: 1
+10:20:35 | INFO: Finished glTF 2.0 export in 0.006931781768798828 s
+00:00.382  blend            | Read blend: "/tmp/tmpc4pbi6h0/sources/props/fixture.blend"
+
+Exported props/fixture; source unchanged
+Info: Saved as "fixture.blend"
+10:20:35 | INFO: Starting glTF 2.0 export
+10:20:35 | INFO: Extracting primitive: Default red
+10:20:35 | INFO: Primitives created: 1
+10:20:35 | INFO: Finished glTF 2.0 export in 0.003297090530395508 s
+
+Exported props/fixture; source unchanged
+{"boundary": "Blender5.2 exporter nodes.__gather_mesh gltf_apply modifier branch takes evaluated to_mesh materials; object effective slots remain correct", "original_data": ["fixture_red"], "object_effective": ["fixture_blue"], "evaluated_effective": ["fixture_blue"], "evaluated_to_mesh_data": ["fixture_red"], "True": {"triangles": 216, "materials": 1, "bytes": 16220, "blue_override_primitive_materials": ["fixture_red"]}, "False": {"triangles": 24, "materials": 2, "bytes": 2352, "blue_override_primitive_materials": ["fixture_blue"]}, "option_decision": "export_apply=False preserves OBJECT color but omits authored Bevel geometry (triangle difference); not a compatible correction. RetainTrue and normalize only evaluated material-loss meshes export-only."}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

@@ -1,0 +1,347 @@
+{
+  "quality-matched-before": {
+    "outcome": "failed nonzero at unsupported dreaming ID",
+    "failure": "KeyError: 'hex_hollow_watchers' in render_previews.py BY_ID lookup",
+    "completed_names": [
+      "archery_range",
+      "research_tower",
+      "metal_mine",
+      "weaver",
+      "town_hall",
+      "knight",
+      "evil_ranged_unit",
+      "hex_crystal_grove",
+      "hex_rune_shrine",
+      "hex_glowing_mushrooms",
+      "hex_lantern_bridge",
+      "hex_woodland_bridge",
+      "hex_bioluminescent_grove",
+      "hex_crystal_shrine",
+      "hex_mystical_grove"
+    ],
+    "completed_count": 15,
+    "log": ".cache/asset-check/logs/quality-matched-before.log",
+    "completed_artifacts": {
+      "archery_range": {
+        "path": "docs/quality-round/evidence/before/archery_range.png",
+        "sha256": "8009f1e7ee98886f6e6642af7aa6995e3bce3c6b206e6be79d35fabf9b082496"
+      },
+      "research_tower": {
+        "path": "docs/quality-round/evidence/before/research_tower.png",
+        "sha256": "0189d0d492d4e5d2592704a3705f08911e69befb7768fa55ec6cf9a856f14157"
+      },
+      "metal_mine": {
+        "path": "docs/quality-round/evidence/before/metal_mine.png",
+        "sha256": "cdab4189abcec068a5c44486e7496d8e50b0bd6c78e818bbd834cbfb84d5da30"
+      },
+      "weaver": {
+        "path": "docs/quality-round/evidence/before/weaver.png",
+        "sha256": "1e84a53583facb1d5e37ab61514922a2a287c5216628d03cd617cd7ea5741eb6"
+      },
+      "town_hall": {
+        "path": "docs/quality-round/evidence/before/town_hall.png",
+        "sha256": "7a4e16edb310313febcd93e70ae98d6c5570464a6248ebe676ccbe5ec52ea24f"
+      },
+      "knight": {
+        "path": "docs/quality-round/evidence/before/knight.png",
+        "sha256": "a79808ba1b052c700080a13208d0532c17fcd862d7ee8f226ef5786d4b5d7466"
+      },
+      "evil_ranged_unit": {
+        "path": "docs/quality-round/evidence/before/evil_ranged_unit.png",
+        "sha256": "52898f7ad50974c63fbbef878593599c39f53ee9d2af80c626cab3fc29b6de7e"
+      },
+      "hex_crystal_grove": {
+        "path": "docs/quality-round/evidence/before/hex_crystal_grove.png",
+        "sha256": "fa70cdf9fad777beb97583578e922e2dbb431bfbbd85d43606555cb91f7844e9"
+      },
+      "hex_rune_shrine": {
+        "path": "docs/quality-round/evidence/before/hex_rune_shrine.png",
+        "sha256": "a5f771c0def68c1d8969c5b1a536f4fd174857b2abbfb4a0a65fc80c46706934"
+      },
+      "hex_glowing_mushrooms": {
+        "path": "docs/quality-round/evidence/before/hex_glowing_mushrooms.png",
+        "sha256": "9884bacc69e95880170eec8dbec6ede2dbdee93eb2fdd2a3727884423c2444f2"
+      },
+      "hex_lantern_bridge": {
+        "path": "docs/quality-round/evidence/before/hex_lantern_bridge.png",
+        "sha256": "4023c77ddbeb357c88d795c5705e4f7141080ce35fde553237ab3e009c042b1c"
+      },
+      "hex_woodland_bridge": {
+        "path": "docs/quality-round/evidence/before/hex_woodland_bridge.png",
+        "sha256": "a025816f9974128f37bbfcbeaf7bb900e68e2cb2ee1276d1532c52ad05a33720"
+      },
+      "hex_bioluminescent_grove": {
+        "path": "docs/quality-round/evidence/before/hex_bioluminescent_grove.png",
+        "sha256": "f3770565492e8744019e10569fd99a42482d7dfa44f1d6d13b147ba92bf2899f"
+      },
+      "hex_crystal_shrine": {
+        "path": "docs/quality-round/evidence/before/hex_crystal_shrine.png",
+        "sha256": "8ba1b63b3d1ba21392cb70aff6dbb5082d5981dda58e87d7aa957c6693a31dd0"
+      },
+      "hex_mystical_grove": {
+        "path": "docs/quality-round/evidence/before/hex_mystical_grove.png",
+        "sha256": "69dfaaf4a2eb6c20d765caa5740c5949631d27965211463548747c8b486af70a"
+      }
+    }
+  },
+  "quality-matched-after": {
+    "outcome": "failed nonzero at unsupported dreaming ID",
+    "failure": "KeyError: 'hex_hollow_watchers' in render_previews.py BY_ID lookup",
+    "completed_names": [
+      "archery_range",
+      "research_tower",
+      "metal_mine",
+      "weaver",
+      "town_hall",
+      "knight",
+      "evil_ranged_unit",
+      "hex_crystal_grove",
+      "hex_rune_shrine",
+      "hex_glowing_mushrooms",
+      "hex_lantern_bridge",
+      "hex_woodland_bridge",
+      "hex_bioluminescent_grove",
+      "hex_crystal_shrine",
+      "hex_mystical_grove"
+    ],
+    "completed_count": 15,
+    "log": ".cache/asset-check/logs/quality-matched-after.log",
+    "completed_artifacts": {
+      "archery_range": {
+        "path": "exports/previews/archery_range.png",
+        "sha256": "17152ecec7a12ede23ce3e07db03b19de7a7572b287b0d75ba45443d3b20eb8b"
+      },
+      "research_tower": {
+        "path": "exports/previews/research_tower.png",
+        "sha256": "f06807cdb646f1132670793c43129008eb131b76260cba02a01dd6e68e75529f"
+      },
+      "metal_mine": {
+        "path": "exports/previews/metal_mine.png",
+        "sha256": "2975c744f7f2922ea5dfa22889340f4fb95d23c483add87f77ffb5ad7ee77c17"
+      },
+      "weaver": {
+        "path": "exports/previews/weaver.png",
+        "sha256": "97c1c2d176776b0504f127a7c645a76bcf47a33dde9d7ff2d646a0003c8a1e50"
+      },
+      "town_hall": {
+        "path": "docs/quality-round/evidence/iteration1/town_hall.png",
+        "sha256": "313a01604beccd5641ee902534bc1a5bf5fbdd8782283856fe69b2b0ebcfcc14"
+      },
+      "knight": {
+        "path": "exports/previews/knight.png",
+        "sha256": "16cc9d3e17d3e818a52607cff902c26504828e88f32d244f59da665a07346676"
+      },
+      "evil_ranged_unit": {
+        "path": "docs/quality-round/evidence/iteration1/evil_ranged_unit.png",
+        "sha256": "8d17505351fd0df8496cf4a551f5b55217483292a9cf5d962830d2d060d2a219"
+      },
+      "hex_crystal_grove": {
+        "path": "exports/previews/hex_crystal_grove.png",
+        "sha256": "2ba2ea309ea52231e660a5918d236f5590c57fb9c6ba38fba0662d2b6dd891e4"
+      },
+      "hex_rune_shrine": {
+        "path": "exports/previews/hex_rune_shrine.png",
+        "sha256": "c4652149993adb715db9f430b39d769cd43852257cd932d9979504196cb00e7b"
+      },
+      "hex_glowing_mushrooms": {
+        "path": "exports/previews/hex_glowing_mushrooms.png",
+        "sha256": "fe00c31215439ae7d357f36aa33166d515a205a360def6f4e421cef6c4a1dc38"
+      },
+      "hex_lantern_bridge": {
+        "path": "exports/previews/hex_lantern_bridge.png",
+        "sha256": "e8a26c5e38a70ee0cf3f71658d99e19384bc49fd5165b37dc037b1ff7b37b19a"
+      },
+      "hex_woodland_bridge": {
+        "path": "exports/previews/hex_woodland_bridge.png",
+        "sha256": "76a6f7ac39069343067fccbd4e4fdbb7fc8fd2f776075352c3a5de81bef16fdd"
+      },
+      "hex_bioluminescent_grove": {
+        "path": "exports/previews/hex_bioluminescent_grove.png",
+        "sha256": "5feadfdbde86503e4011d392c7185b67b2d0eed0e6fcda4f404aefd61cc0a11e"
+      },
+      "hex_crystal_shrine": {
+        "path": "exports/previews/hex_crystal_shrine.png",
+        "sha256": "b63879edde70c17797ff7d88d31444209a9a3a05d6ce9512c754cb46f61d8c93"
+      },
+      "hex_mystical_grove": {
+        "path": "exports/previews/hex_mystical_grove.png",
+        "sha256": "aecc44b5609881e7085945723a7f49e0e09520e9aab62e7454d76f06298e3087"
+      }
+    }
+  },
+  "unrendered_names": [],
+  "additional_iteration2_renders_pending": [],
+  "artifact_sha256": {
+    "docs/quality-round/evidence/archery_range-480.jpg": "04086f98f05435d479bb0ba7bc006323a99ffe8a9836875c5312a7ab482cfbb6",
+    "docs/quality-round/evidence/archery_range-192.jpg": "168aeeecac4ee21972ca3b94e1880aa20abed7c1840bfcdeda03b216f8577b46",
+    "docs/quality-round/evidence/research_tower-480.jpg": "d16e58636a70e2bb7b4134826386c2659a96130cf4f89a9a68b5097f83729d6b",
+    "docs/quality-round/evidence/research_tower-192.jpg": "f4e4b6418dcbf06050adc2ff7eeccdc98bfe8117072d825375945ea22ed0b343",
+    "docs/quality-round/evidence/metal_mine-480.jpg": "480d6f3b2b61d7658b8c0082e5c51ba90c46d9410a4d2832c580387e1a17a60d",
+    "docs/quality-round/evidence/metal_mine-192.jpg": "07124855b06ccda1958b999e1079480e3f156965350ad806fed9940dc4a29a2d",
+    "docs/quality-round/evidence/weaver-480.jpg": "828974e152ad9e4711dbff43a7fcdb7f777301b74371512d8c81d96c61df1a00",
+    "docs/quality-round/evidence/weaver-192.jpg": "38fc4e672bcf7ffe4a2c09e4383c6b1c7d2d082a9c60cb9738c94bbe0cd7b2fb",
+    "docs/quality-round/evidence/town_hall-480.jpg": "39d8711cfd76405911059a040c8ae90522f58fcc4745b0feadc3db64d44ba6f7",
+    "docs/quality-round/evidence/town_hall-192.jpg": "24051e5dce7ae5ad7d597794e8bb017c6852a17113836b9c915798de20478959",
+    "docs/quality-round/evidence/archery_range-96.jpg": "47af686680bc90c3eb25a021d4848707bc50718b60bb02ea87895a4e50e01087",
+    "docs/quality-round/evidence/research_tower-96.jpg": "8017239c266aba3df8cadc27a05d4c95764776aa59d23612d6be0ecacfdf111f",
+    "docs/quality-round/evidence/metal_mine-96.jpg": "1ca8a403ff6bd3af38a598e99f739c27adc59e933d0049eadf194d5905c28d53",
+    "docs/quality-round/evidence/weaver-96.jpg": "a53f734d04d692b4b4f5e7350390009a11da1400a2f36bfb9888c6489ef39241",
+    "docs/quality-round/evidence/town_hall-96.jpg": "712a872d8f98e34c1b260140ca05e993d6a397911b9913ac46e7f6beb495f76a",
+    "docs/quality-round/evidence/knight-480.jpg": "a96a52c09367b07e285d90b5fa34da537f9e0519b727212b0a64f171768c62ec",
+    "docs/quality-round/evidence/knight-192.jpg": "640023d1e2054297bf31695702a2460d9a3f22caf3b6da5fe411a46f7875a98e",
+    "docs/quality-round/evidence/knight-96.jpg": "ced97e78939e730cf8e26b0e2f6d413269fb41f8ffb26c15fbc7cba9cb87cc3b",
+    "docs/quality-round/evidence/evil_ranged_unit-480.jpg": "8863ddfae2ed2eaf160fc26f980ed4cafdea1987907cc38236530d819ac1a148",
+    "docs/quality-round/evidence/evil_ranged_unit-192.jpg": "eff7527e896f3c5445f845bab8dae6d0740ea7bcd8549d0cb34e56af21c0db60",
+    "docs/quality-round/evidence/evil_ranged_unit-96.jpg": "fcb506abc9609da7f1cd090cad61ec082c5f0d2a7a32ced1b5cbec1decb1a03e",
+    "docs/quality-round/evidence/hex_crystal_grove-480.jpg": "ad6828f6e5b477bf04524f579982c81bc78e0955f1573aba0e7ce09068a2045e",
+    "docs/quality-round/evidence/hex_crystal_grove-192.jpg": "f4201ad3a53bdccdc9c08e67fac71ca21061fbf08200e9737ee10d9aee07d7c2",
+    "docs/quality-round/evidence/hex_crystal_grove-96.jpg": "74995867088049f718ad5be7eea4080e6a647b59173eaaa724d74bbc900757f9",
+    "docs/quality-round/evidence/hex_rune_shrine-480.jpg": "9ca1314fa7ece1a7e3331fbb2d3d36abd4d6d587aed128ce3a3c0d41c244ffd8",
+    "docs/quality-round/evidence/hex_rune_shrine-192.jpg": "d4ca744164343037fd6a5fdf516f0f18d5c1b007198fd6fbb2069f89b5dbc106",
+    "docs/quality-round/evidence/hex_rune_shrine-96.jpg": "4cc6f6dddf07d98968190b6f2e8c36dfa51c054231cda525bcf6e16c4e18cd0c",
+    "docs/quality-round/evidence/hex_glowing_mushrooms-480.jpg": "d7e8dd583ebc5f6b28bb43e9984737e830a96b473c080ba0faac36ae4709389b",
+    "docs/quality-round/evidence/hex_glowing_mushrooms-192.jpg": "1da00b175e4c71b5cc45864104ec80b42906c9cfdb51808b6efc01b911cb7e44",
+    "docs/quality-round/evidence/hex_glowing_mushrooms-96.jpg": "7efb5fde459c98361f760c8a2a691db24b14f7cff48c894d3c63be60ca334ac9",
+    "docs/quality-round/evidence/hex_lantern_bridge-480.jpg": "be55cd2cfd87e34ae18e230069cb55797a23a8a223a27ecfa2941b2f6c17946e",
+    "docs/quality-round/evidence/hex_lantern_bridge-192.jpg": "5b41425d2ac28d8206775f28cc9a510dc52cef777ac2ff27bcbd16ed9d73eba9",
+    "docs/quality-round/evidence/hex_lantern_bridge-96.jpg": "d0ac84c893f8395e93669d82eda5108f65ceafbc307826540299311a3e989e1d",
+    "docs/quality-round/evidence/hex_woodland_bridge-480.jpg": "4744a77b01e83a0b27457a88c37df0134f808eeb55faad213fa13d1b4f7d111c",
+    "docs/quality-round/evidence/hex_woodland_bridge-192.jpg": "2ac565e8ab0791d0f2478c922430dafd1bb17f62591e7ed15f8e8896cd27bbbc",
+    "docs/quality-round/evidence/hex_woodland_bridge-96.jpg": "d566c2e55f80957f2e1fadc4b971085303d09fd14422f1c104de6b63642f5862",
+    "docs/quality-round/evidence/hex_bioluminescent_grove-480.jpg": "4e3df65ef28f6327eff37ceebd3c079d8c3b344f0e8de694d2b42db0205765fb",
+    "docs/quality-round/evidence/hex_bioluminescent_grove-192.jpg": "8863ee61b1e6d5187a95b6956901955f44d6ca15884e001b94129facb98596f3",
+    "docs/quality-round/evidence/hex_bioluminescent_grove-96.jpg": "3494a43cee46d7a69ec00fdbf07a7f3642b3299d9551f86ec86354e65c840956",
+    "docs/quality-round/evidence/hex_crystal_shrine-480.jpg": "383013c2e067900e658a96ec59918107e99a6cb3f95bcd3a3b4227bbd681d15d",
+    "docs/quality-round/evidence/hex_crystal_shrine-192.jpg": "7d068246bd11ad47f13839a9c532caeace320daab431c1cee58630cde256692f",
+    "docs/quality-round/evidence/hex_crystal_shrine-96.jpg": "c956b9eeeec6cf516c50a931eff1399b14d72d2798ad2f516b2b3376b9dd2cac",
+    "docs/quality-round/evidence/hex_mystical_grove-480.jpg": "dc1f5460a61f14aae52423a998f740da835536c165349245786465c7b3051a3d",
+    "docs/quality-round/evidence/hex_mystical_grove-192.jpg": "f3d2233998501052fac9540673ee08284c5eb6710fe493846a53413fd6a8ac3a",
+    "docs/quality-round/evidence/hex_mystical_grove-96.jpg": "6fff6176891d844cbfd0f8cc0d8aa6fc7aa9e61a095a3a036bf6baaf36fd4bdd",
+    "docs/quality-round/evidence/hex_hollow_watchers-480.jpg": "e68c7044eb2abe5cae8943ad6309c0f249f7c924a3c501a179c6998f81744a7a",
+    "docs/quality-round/evidence/hex_hollow_watchers-192.jpg": "0d74b310358460919a6c3db178d820021a22e028cad6ba374c369d335c71f36e",
+    "docs/quality-round/evidence/hex_hollow_watchers-96.jpg": "1c32d63fe80fff1d5ee00cf56888db428c5c8c162716f873135c7570c0647493",
+    "docs/quality-round/evidence/hex_butterfly_glade-480.jpg": "d274787a3213d32a71aab4f341b2ce4a986c38647689afb4e9504b82eee8ef5f",
+    "docs/quality-round/evidence/hex_butterfly_glade-192.jpg": "955c4b649790e5d2d9fe11f4379067c3e210d2ee7e152dfe069ae8a23769af59",
+    "docs/quality-round/evidence/hex_butterfly_glade-96.jpg": "40a16c0751bef05ce42e63d10adf9063b2a4921b125b4c7254d31df33ca7d987",
+    "docs/quality-round/evidence/hex_dream_menagerie-480.jpg": "7254aa5a59fc8b3fcf5ca521b986c7763601a9eb5e611cf5658de80ffb970e74",
+    "docs/quality-round/evidence/hex_dream_menagerie-192.jpg": "be8fa6b1a243ddb8104d9fe990c1fb6b7128104e87504efe3fddf13fcbdee9b5",
+    "docs/quality-round/evidence/hex_dream_menagerie-96.jpg": "0b71c15988eaf40ebf29aebd9358f23463a70f99f6b34b6dc5c1232de22a8d1b",
+    "docs/quality-round/evidence/before/archery_range.png": "8009f1e7ee98886f6e6642af7aa6995e3bce3c6b206e6be79d35fabf9b082496",
+    "docs/quality-round/evidence/before/research_tower.png": "0189d0d492d4e5d2592704a3705f08911e69befb7768fa55ec6cf9a856f14157",
+    "docs/quality-round/evidence/before/metal_mine.png": "cdab4189abcec068a5c44486e7496d8e50b0bd6c78e818bbd834cbfb84d5da30",
+    "docs/quality-round/evidence/before/weaver.png": "1e84a53583facb1d5e37ab61514922a2a287c5216628d03cd617cd7ea5741eb6",
+    "docs/quality-round/evidence/before/town_hall.png": "7a4e16edb310313febcd93e70ae98d6c5570464a6248ebe676ccbe5ec52ea24f",
+    "docs/quality-round/evidence/before/knight.png": "a79808ba1b052c700080a13208d0532c17fcd862d7ee8f226ef5786d4b5d7466",
+    "docs/quality-round/evidence/before/evil_ranged_unit.png": "52898f7ad50974c63fbbef878593599c39f53ee9d2af80c626cab3fc29b6de7e",
+    "docs/quality-round/evidence/before/hex_crystal_grove.png": "fa70cdf9fad777beb97583578e922e2dbb431bfbbd85d43606555cb91f7844e9",
+    "docs/quality-round/evidence/before/hex_rune_shrine.png": "a5f771c0def68c1d8969c5b1a536f4fd174857b2abbfb4a0a65fc80c46706934",
+    "docs/quality-round/evidence/before/hex_glowing_mushrooms.png": "9884bacc69e95880170eec8dbec6ede2dbdee93eb2fdd2a3727884423c2444f2",
+    "docs/quality-round/evidence/before/hex_lantern_bridge.png": "4023c77ddbeb357c88d795c5705e4f7141080ce35fde553237ab3e009c042b1c",
+    "docs/quality-round/evidence/before/hex_woodland_bridge.png": "a025816f9974128f37bbfcbeaf7bb900e68e2cb2ee1276d1532c52ad05a33720",
+    "docs/quality-round/evidence/before/hex_bioluminescent_grove.png": "f3770565492e8744019e10569fd99a42482d7dfa44f1d6d13b147ba92bf2899f",
+    "docs/quality-round/evidence/before/hex_crystal_shrine.png": "8ba1b63b3d1ba21392cb70aff6dbb5082d5981dda58e87d7aa957c6693a31dd0",
+    "docs/quality-round/evidence/before/hex_mystical_grove.png": "69dfaaf4a2eb6c20d765caa5740c5949631d27965211463548747c8b486af70a",
+    "docs/quality-round/evidence/before/hex_hollow_watchers.png": "3220c2a7e5c2ff64619334b11a0558d7e5b0ac903d728cde94b3f5988b5d9afe",
+    "docs/quality-round/evidence/before/hex_butterfly_glade.png": "0e0622f1ea3f5ef7f13cfe3e95fd3c04cc2a7297c32c8ad1a7a9ceae9f910985",
+    "docs/quality-round/evidence/before/hex_dream_menagerie.png": "4e7cf837c34dab1d958fbe5aa8f3317bc93407897bf0b89f23f06711b3b61bf4",
+    "exports/previews/archery_range.png": "17152ecec7a12ede23ce3e07db03b19de7a7572b287b0d75ba45443d3b20eb8b",
+    "exports/previews/research_tower.png": "f06807cdb646f1132670793c43129008eb131b76260cba02a01dd6e68e75529f",
+    "exports/previews/metal_mine.png": "2975c744f7f2922ea5dfa22889340f4fb95d23c483add87f77ffb5ad7ee77c17",
+    "exports/previews/weaver.png": "97c1c2d176776b0504f127a7c645a76bcf47a33dde9d7ff2d646a0003c8a1e50",
+    "exports/previews/town_hall.png": "5659201317086a808b4b22c7a59c2c7960c3619b765c4ae49193da7357125d93",
+    "exports/previews/knight.png": "16cc9d3e17d3e818a52607cff902c26504828e88f32d244f59da665a07346676",
+    "exports/previews/evil_ranged_unit.png": "fe2d6259e196d3afa94e9ed5125467e6adfce52699e18a006136b90706b60d18",
+    "exports/previews/hex_crystal_grove.png": "2ba2ea309ea52231e660a5918d236f5590c57fb9c6ba38fba0662d2b6dd891e4",
+    "exports/previews/hex_rune_shrine.png": "c4652149993adb715db9f430b39d769cd43852257cd932d9979504196cb00e7b",
+    "exports/previews/hex_glowing_mushrooms.png": "fe00c31215439ae7d357f36aa33166d515a205a360def6f4e421cef6c4a1dc38",
+    "exports/previews/hex_lantern_bridge.png": "e8a26c5e38a70ee0cf3f71658d99e19384bc49fd5165b37dc037b1ff7b37b19a",
+    "exports/previews/hex_woodland_bridge.png": "76a6f7ac39069343067fccbd4e4fdbb7fc8fd2f776075352c3a5de81bef16fdd",
+    "exports/previews/hex_bioluminescent_grove.png": "5feadfdbde86503e4011d392c7185b67b2d0eed0e6fcda4f404aefd61cc0a11e",
+    "exports/previews/hex_crystal_shrine.png": "b63879edde70c17797ff7d88d31444209a9a3a05d6ce9512c754cb46f61d8c93",
+    "exports/previews/hex_mystical_grove.png": "aecc44b5609881e7085945723a7f49e0e09520e9aab62e7454d76f06298e3087",
+    "exports/previews/hex_hollow_watchers.png": "37aac975856826b75cc2514ac360631fb0536048bbd23ceef6ae437ab8800eac",
+    "exports/previews/hex_butterfly_glade.png": "21eeb1e3211b2050f57a91ed421d397f040ecfe1037cdbdd3fefbfe7e979f1e5",
+    "exports/previews/hex_dream_menagerie.png": "f81978d3d181fa350467a6a88fbbe10433c87a375b286c949a2b97c074bbac84",
+    "docs/quality-round/evidence/iteration1/town_hall.png": "313a01604beccd5641ee902534bc1a5bf5fbdd8782283856fe69b2b0ebcfcc14",
+    "docs/quality-round/evidence/iteration1/evil_ranged_unit.png": "8d17505351fd0df8496cf4a551f5b55217483292a9cf5d962830d2d060d2a219"
+  },
+  "catalog_server_cleanup": "Stopped only task-owned catalog PID 3872156 after verifying cmdline and worktree cwd; can restart existing serve route after browser is authorized.",
+  "original_missing_names": [
+    "hex_hollow_watchers",
+    "hex_butterfly_glade",
+    "hex_dream_menagerie"
+  ],
+  "quality-remaining-before": {
+    "outcome": "passed",
+    "completed_names": [
+      "hex_hollow_watchers",
+      "hex_butterfly_glade",
+      "hex_dream_menagerie"
+    ],
+    "completed_count": 3,
+    "duration_seconds": 188.74,
+    "log": ".cache/asset-check/logs/quality-remaining-before.log"
+  },
+  "quality-remaining-after": {
+    "outcome": "passed",
+    "completed_names": [
+      "hex_hollow_watchers",
+      "hex_butterfly_glade",
+      "hex_dream_menagerie",
+      "town_hall",
+      "evil_ranged_unit"
+    ],
+    "completed_count": 5,
+    "duration_seconds": 260.52,
+    "log": ".cache/asset-check/logs/quality-remaining-after.log"
+  },
+  "current_complete_pairs": [
+    "buildings/archery_range",
+    "buildings/research_tower",
+    "buildings/metal_mine",
+    "buildings/weaver",
+    "buildings/town_hall",
+    "characters/knight",
+    "characters/evil_ranged_unit",
+    "environment/hex_crystal_grove",
+    "environment/hex_rune_shrine",
+    "environment/hex_glowing_mushrooms",
+    "environment/hex_lantern_bridge",
+    "environment/hex_woodland_bridge",
+    "environment/hex_bioluminescent_grove",
+    "environment/hex_crystal_shrine",
+    "environment/hex_mystical_grove",
+    "environment/hex_hollow_watchers",
+    "environment/hex_butterfly_glade",
+    "environment/hex_dream_menagerie"
+  ],
+  "selection_regression": {
+    "before": "Executed dreaming selection test failed with KeyError: 'hex_hollow_watchers'",
+    "after": "7 executed behavioral tests passed; existing fast suite now 47 tests",
+    "logs": [
+      ".cache/quality-round/render-selection-before-test.log",
+      ".cache/quality-round/render-selection-after-test.log",
+      ".cache/quality-round/fast-selection-checks.log"
+    ],
+    "provenance": "render-selection.json",
+    "original_files_verified": 473,
+    "baseline_staging": "Byte-preserving local copy of sources, original manifest and unchanged association bytes; no symlinks escape planner root; existing 15 preview pairs left intact.",
+    "published_logs": [
+      "checks/render-selection-before-test.log",
+      "checks/render-selection-after-test.log",
+      "checks/fast-selection-checks.log"
+    ]
+  },
+  "preserved_iteration1": {
+    "buildings/town_hall": {
+      "source": ".cache/quality-round/iteration1/sources/buildings/town_hall.blend",
+      "source_sha256": "997c81bb03e56320ef0b13437541400b8a0fe6ef96af9124e51d669a90b9d84e",
+      "after_image": "docs/quality-round/evidence/iteration1/town_hall.png"
+    },
+    "characters/evil_ranged_unit": {
+      "source": ".cache/quality-round/iteration1/sources/characters/evil_ranged_unit.blend",
+      "source_sha256": "0405bdb597712be613e55a9c0efc1cf533d3ab2320c37979c63f5c9a3a5a2e32",
+      "after_image": "docs/quality-round/evidence/iteration1/evil_ranged_unit.png"
+    }
+  }
+}

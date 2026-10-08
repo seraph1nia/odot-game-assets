@@ -1,0 +1,1599 @@
+00:00.301  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/buildings/weaver.blend"
+INFO Draco is available, use library at /home/bart/.local/opt/blender-5.2.2-linux-x64/lib/libbf_intern_draco_bridge.so
+INFO MeshOptimizer is available, use library at /home/bart/.local/opt/blender-5.2.2-linux-x64/lib/libbf_intern_meshopt_bridge.so
+10:31:51 | INFO: Starting glTF 2.0 export
+10:31:51 | INFO: Extracting primitive: Arched keystone course.018
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Arched keystone course.019
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Arched keystone course.020
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Arched keystone course.021
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Arched keystone course.022
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Arched keystone course.023
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Arched keystone course.024
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Arched keystone course.025
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Arched keystone course.026
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Banner hanging rod.003
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Awning front beam.001
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Canopy support rib.002
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Canopy support rib.003
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Canopy upright.002
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Canopy upright.003
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Canvas canopy stripe.011
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Canvas canopy stripe.001
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Canvas canopy stripe.010
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Canvas canopy stripe.003
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Canvas canopy stripe.009
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Canvas canopy stripe.005
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Canvas canopy stripe.008
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Canvas canopy stripe.007
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Carved roof verge.012
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Carved roof verge.013
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Carved roof verge.014
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Carved roof verge.015
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Carved timber grain.012
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Carved timber grain.013
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Carved timber grain.014
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Carved timber grain.015
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Carved timber grain.016
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Carved timber grain.017
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Carved timber grain.018
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Carved timber grain.019
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney dark opening.002
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney mortar joint.012
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney mortar joint.013
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney mortar joint.014
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney mortar joint.015
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney mortar joint.016
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney mortar joint.017
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney side mortar.012
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney side mortar.013
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney side mortar.014
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney side mortar.015
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney side mortar.016
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney side mortar.017
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney stone course.012
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney stone course.013
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney stone course.014
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney stone course.015
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney stone course.016
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chimney stone course.017
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chunky roof joinery.018
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chunky roof joinery.019
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chunky roof joinery.020
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chunky roof joinery.021
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chunky roof joinery.022
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Chunky roof joinery.023
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Cloth heraldic banner.003
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Corner upright.012
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Corner upright.013
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Corner upright.014
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Corner upright.015
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Cottage walls.003
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dark inset timber peg.042
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dark inset timber peg.043
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dark inset timber peg.044
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dark inset timber peg.045
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dark inset timber peg.046
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dark inset timber peg.047
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dark inset timber peg.048
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dark inset timber peg.049
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door brass handle.002
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door iron strap.004
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door iron strap.005
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door jamb stone.016
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door jamb stone.017
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door jamb stone.018
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door jamb stone.019
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door jamb stone.020
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door jamb stone.021
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door jamb stone.022
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door jamb stone.023
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door plank.010
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door plank.011
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door plank.012
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door plank.013
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Door plank.014
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Doorway recess.002
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dyed cloth roll
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dyed cloth roll.001
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dyed cloth roll.002
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dyed cloth roll.003
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dyed cloth roll.004
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dyed cloth roll.005
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Eave knee brace.012
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Eave knee brace.013
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Eave knee brace.014
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Eave knee brace.015
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fence post.018
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fence post.019
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fence post.020
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fence post.021
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fence post.022
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fence post.023
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fence rail.012
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fence rail.013
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fence rail.014
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fence rail.015
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fine woven cloth stripe
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fine woven cloth stripe.001
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fine woven cloth stripe.002
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fine woven cloth stripe.003
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fine woven cloth stripe.004
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fine woven cloth stripe.005
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Fine woven cloth stripe.006
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Folded fabric
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Folded fabric.001
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Folded fabric.002
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.060
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.061
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.062
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.063
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.064
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.065
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.066
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.067
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.068
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.069
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.070
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.071
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.072
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.073
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.074
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.075
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.076
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.077
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.078
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Front limestone block.079
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable brace.012
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable brace.013
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable brace.014
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable brace.015
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable king post.006
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable king post.007
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable tie beam.006
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable tie beam.007
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable vertical board.030
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable vertical board.031
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable vertical board.032
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable vertical board.033
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable vertical board.034
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable vertical board.035
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable vertical board.036
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable vertical board.037
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable vertical board.038
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Gable vertical board.039
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Arched window frame.004
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dormer body.002
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dormer gable.002
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dark roof overlap seam.168
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Shingle reflected edge.168
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Soft edged blue roof tile.003
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dark roof overlap seam.169
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Shingle reflected edge.169
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dark roof overlap seam.170
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Shingle reflected edge.170
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Dark roof overlap seam.171
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Shingle reflected edge.171
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Warm arched window.004
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Window dark recess.004
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Window golden intensity pane.008
+10:31:51 | INFO: Primitives created: 1
+10:31:51 | INFO: Extracting primitive: Window golden intensity pane.009
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Window lower amber shade.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Window mullion.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Window sill.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Window transom.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Gold banner border.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Gold banner border.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Heavy doorway frame.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Heavy timber capital.012
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Heavy timber capital.013
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Heavy timber capital.014
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Heavy timber capital.015
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Lantern bracket.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Lantern chain.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Lantern amber glass.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Lantern bottom.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Lantern corner.012
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Lantern corner.013
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Lantern corner.014
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Lantern corner.015
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Lantern hanger.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Lantern roof.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Limestone entrance step.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Limestone entrance step.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Limestone entrance step.008
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open chimney rim.008
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open chimney rim.009
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open chimney rim.010
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open chimney rim.011
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Barrel inner lip.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Inside barrel shadow.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel iron hoop.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel iron hoop.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel rim.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel stave seam.012
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel stave seam.013
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel stave seam.014
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel stave seam.015
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel stave seam.016
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel stave seam.017
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel stave seam.018
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel stave seam.019
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel stave seam.020
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel stave seam.021
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel stave seam.022
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel stave seam.023
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Open barrel staves.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Path stepping stone.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Path stepping stone.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Path stepping stone.008
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Projecting timber footing.012
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Projecting timber footing.013
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Projecting timber footing.014
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Projecting timber footing.015
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Ridge peg.009
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Ridge peg.010
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Ridge peg.011
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Ridge timber.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Roof eave.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Roof eave.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Roof timber underlay.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Roof timber underlay.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.128
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.128
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.129
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.129
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.130
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.130
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.131
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.131
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.132
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.132
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.133
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.133
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.134
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.134
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.135
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.135
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.136
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.136
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.137
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.137
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.138
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.138
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.139
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.139
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.140
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.140
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.141
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.141
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.142
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.142
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.143
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.143
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.144
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.144
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.145
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.145
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.146
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.146
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.147
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.147
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.148
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.148
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.149
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.149
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.150
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.150
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.151
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.151
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.152
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.152
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.153
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.153
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.154
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.154
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.155
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.155
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.156
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.156
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.157
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.157
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.158
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.158
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.159
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.159
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.160
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.160
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.161
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.161
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.162
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.162
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.163
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.163
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.164
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.164
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.165
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.165
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.166
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.166
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark roof overlap seam.167
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shingle reflected edge.167
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Round iron joinery rivet.012
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Round iron joinery rivet.013
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Round iron joinery rivet.014
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Round iron joinery rivet.015
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Round iron joinery rivet.016
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Round iron joinery rivet.017
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Round iron joinery rivet.018
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Round iron joinery rivet.019
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Leaf cluster.048
+10:31:52 | INFO: Primitives created: 3
+10:31:52 | INFO: Extracting primitive: Leaf cluster.049
+10:31:52 | INFO: Primitives created: 3
+10:31:52 | INFO: Extracting primitive: Leaf cluster.050
+10:31:52 | INFO: Primitives created: 3
+10:31:52 | INFO: Extracting primitive: Leaf cluster.051
+10:31:52 | INFO: Primitives created: 3
+10:31:52 | INFO: Extracting primitive: Side limestone block.120
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.121
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.122
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.123
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.124
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.125
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.126
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.127
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.128
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.129
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.130
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.131
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.132
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.133
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.134
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.135
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.136
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.137
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.138
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.139
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.140
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.141
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.142
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.143
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.144
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.145
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.146
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.147
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.148
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.149
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.150
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.151
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.152
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.153
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.154
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.155
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.156
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.157
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.158
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side limestone block.159
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side wall diagonal.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side wall diagonal.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side wall lower tie.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Side wall lower tie.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Table leg.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Table leg.005
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Table leg.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Table leg.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Table stretcher.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Table top plank.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Table top plank.005
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Table top plank.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Table top plank.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Thread spool
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Thread spool wooden end
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Thread spool wooden end.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Thread spool wooden end.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Thread spool wooden end.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Thread spool wooden end.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Thread spool wooden end.005
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Thread spool.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Thread spool.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Timber gable.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Timber gable.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Wall cross beam.012
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Wall cross beam.013
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Wall cross beam.014
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Wall cross beam.015
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Weaver dye jar
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Weaver dye jar.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Cloth beam axle
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Cloth beam axle.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom beam
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom beam.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom shuttle
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom upright
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom upright.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom upright.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom upright.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread.005
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread.008
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread.009
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread.010
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread.011
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread.012
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread.013
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread.014
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Loom warp thread.015
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Woven striped cloth
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Woven striped cloth.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Woven striped cloth.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Woven striped cloth.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Woven striped cloth.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Woven striped cloth.005
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Woven striped cloth.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Woven striped cloth.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Woven cloth sign
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Woven cloth sign.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Woven cloth sign.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Woven cloth sign.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Woven cloth sign.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Woven cloth sign.005
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Finished glTF 2.0 export in 1.107147455215454 s
+00:01.848  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/characters/evil_berserker_unit.blend"
+
+Exported buildings/weaver; source unchanged
+10:31:52 | INFO: Starting glTF 2.0 export
+10:31:52 | INFO: Extracting primitive: Armored boot toe.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Armored boot toe.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Armored skirt side plate.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Armored skirt side plate.005
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Bare barbarian chest
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Bent dark helmet horn.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Bent dark helmet horn.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Boot cuff.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Boot cuff.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Boot sole.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Boot sole.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Chibi glove.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Chibi glove.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Crimson shoulder tattoo
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Crossed leather chest harness.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Crossed leather chest harness.005
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark faceted helmet.001
+10:31:52 | INFO: Primitives created: 2
+10:31:52 | INFO: Extracting primitive: Dark wrist bracer.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Dark wrist bracer.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Forearm sleeve.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Forearm sleeve.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Glove thumb.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Glove thumb.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Heavy shoulder plate.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Helmet central nasal ridge.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Helmet ear band.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Helmet ear band.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Helmet hanging cheek plate.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Helmet hanging cheek plate.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Helmet iron brow.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Knee leather binding.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Knee leather binding.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Leather belt.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Leather wrist cuff.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Leather wrist cuff.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Neck.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Oversized leather boot.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Oversized leather boot.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Red horn tip.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Red horn tip.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Red skull eye.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Red skull eye.005
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Rounded tunic shoulder.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Rounded tunic shoulder.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Shoulder plate rim.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Tapered tunic.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Tattered red tabard.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Trouser shin.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Trouser shin.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Trouser thigh.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Trouser thigh.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Tunic skirt panel.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Tunic skirt panel.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Upper sleeve.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Upper sleeve.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Bone cheek.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Bone cheek.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Carved bone skull.003
+10:31:52 | INFO: Primitives created: 2
+10:31:52 | INFO: Extracting primitive: Dark nasal inset.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Skull upper tooth.018
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Skull upper tooth.019
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Skull upper tooth.020
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Skull upper tooth.021
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Skull upper tooth.022
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Skull upper tooth.023
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Socket darkness.006
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Socket darkness.007
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Forged armor spike.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Axe ash handle
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Crimson axe blade motif
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Forged crescent axe blade
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Grip wrapping
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Grip wrapping.001
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Grip wrapping.002
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Grip wrapping.003
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Grip wrapping.004
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Grip wrapping.005
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Iron axe socket
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Leather axe grip
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Sharpened axe cutting edge
+10:31:52 | INFO: Primitives created: 1
+10:31:52 | INFO: Extracting primitive: Crimson axe blade motif.001
+10:31:52 | INFO: Primitives created: 1
+10:31:53 | INFO: Finished glTF 2.0 export in 0.5580704212188721 s
+00:02.491  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/characters/evil_mage_unit.blend"
+
+Exported characters/evil_berserker_unit; source unchanged
+10:31:53 | INFO: Starting glTF 2.0 export
+10:31:53 | INFO: Extracting primitive: Angled ember eye
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Angled ember eye.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Armored boot toe.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Armored boot toe.003
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Bent dark helmet horn
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Bent dark helmet horn.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Boot cuff.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Boot cuff.003
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Boot sole.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Boot sole.003
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Chibi face.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Chibi glove.004
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Chibi glove.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Dark wrist bracer.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Dark wrist bracer.003
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Diagonal shoulder strap
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Diagonal shoulder strap.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Faceted travelling cape
+10:31:53 | INFO: Primitives created: 2
+10:31:53 | INFO: Extracting primitive: Folded cloth collar
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Forearm sleeve.004
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Forearm sleeve.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Glove thumb.004
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Glove thumb.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Knee leather binding.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Knee leather binding.003
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Leather belt.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Leather wrist cuff.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Leather wrist cuff.003
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Mage leather satchel
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Neck.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Open cloth hood
+10:31:53 | INFO: Primitives created: 2
+10:31:53 | INFO: Extracting primitive: Oversized leather boot.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Oversized leather boot.003
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Red horn tip
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Red horn tip.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Rounded tunic shoulder.004
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Rounded tunic shoulder.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Satchel brass clasp
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Satchel flap
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Tapered tunic.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Tattered red tabard.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Trouser shin.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Trouser shin.003
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Trouser thigh.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Trouser thigh.003
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Tunic skirt panel.004
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Tunic skirt panel.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Upper sleeve.004
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Upper sleeve.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Bone cheek.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Bone cheek.003
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Carved bone skull.001
+10:31:53 | INFO: Primitives created: 2
+10:31:53 | INFO: Extracting primitive: Dark nasal inset.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Skull upper tooth.006
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Skull upper tooth.007
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Skull upper tooth.008
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Skull upper tooth.009
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Skull upper tooth.010
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Skull upper tooth.011
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Socket darkness.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Socket darkness.003
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Bright flame heart
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Curling flame tongue
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Curling flame tongue.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Iron staff crown
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Red magical flame
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Staff crooked claw
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Staff crooked claw.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Staff grip wrap
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Staff grip wrap.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Staff grip wrap.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Twisted dark staff shaft
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Bright flame heart.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Curling flame tongue.002
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Curling flame tongue.003
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Extracting primitive: Red magical flame.001
+10:31:53 | INFO: Primitives created: 1
+10:31:53 | INFO: Finished glTF 2.0 export in 0.5043230056762695 s
+00:03.073  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/characters/evil_melee_unit.blend"
+
+Exported characters/evil_mage_unit; source unchanged
+10:31:54 | INFO: Starting glTF 2.0 export
+10:31:54 | INFO: Extracting primitive: Armored boot toe
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Armored boot toe.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Armored skirt side plate
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Armored skirt side plate.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Boot cuff
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Boot cuff.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Boot sole
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Boot sole.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Buckle opening
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Buckle tongue
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Chibi glove
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Chibi glove.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Crossed leather chest harness
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Crossed leather chest harness.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Dark breastplate
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Dark faceted helmet
+10:31:54 | INFO: Primitives created: 2
+10:31:54 | INFO: Extracting primitive: Dark wrist bracer
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Dark wrist bracer.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Forearm sleeve.003
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Forearm sleeve.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Glove thumb
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Glove thumb.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Gold belt buckle
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Heavy shoulder plate
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Heavy shoulder plate.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Helmet central nasal ridge
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Helmet ear band
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Helmet ear band.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Helmet hanging cheek plate
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Helmet hanging cheek plate.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Helmet iron brow
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Knee leather binding
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Knee leather binding.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Leather belt
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Leather wrist cuff
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Leather wrist cuff.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Neck.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Oversized leather boot
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Oversized leather boot.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Red skull eye
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Red skull eye.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Rounded tunic shoulder.003
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Rounded tunic shoulder.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Shoulder plate rim
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Shoulder plate rim.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Tapered tunic.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Tattered red tabard
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Trouser shin
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Trouser shin.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Trouser thigh
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Trouser thigh.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Tunic skirt panel.003
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Tunic skirt panel.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Upper sleeve.003
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Upper sleeve.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Bone cheek
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Bone cheek.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Carved bone skull
+10:31:54 | INFO: Primitives created: 2
+10:31:54 | INFO: Extracting primitive: Dark nasal inset
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Skull upper tooth
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Skull upper tooth.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Skull upper tooth.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Skull upper tooth.003
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Skull upper tooth.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Skull upper tooth.005
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Socket darkness
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Socket darkness.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Forged armor spike
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Shield gold heraldry
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Shield blue field.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Shield gold rim.013
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Shield gold rim.012
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Shield gold rim.011
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Shield gold rim.010
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Shield gold rim.009
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Shield gold rim.008
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Shield gold rim.007
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Shield hand grip
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Sword broad faceted blade
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Sword gold guard
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Sword grip wrap
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Sword grip wrap.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Sword grip wrap.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Sword grip wrap.003
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Sword leather grip
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Sword pommel
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Finished glTF 2.0 export in 0.5287251472473145 s
+00:03.679  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/characters/evil_ranged_unit.blend"
+
+Exported characters/evil_melee_unit; source unchanged
+10:31:54 | INFO: Starting glTF 2.0 export
+10:31:54 | INFO: Extracting primitive: Armored boot toe.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Armored boot toe.005
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Armored skirt side plate.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Armored skirt side plate.003
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Boot cuff.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Boot cuff.005
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Boot sole.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Boot sole.005
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Buckle opening.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Buckle tongue.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Chibi glove.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Chibi glove.005
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Crossed leather chest harness.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Crossed leather chest harness.003
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Dark breastplate.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Dark wrist bracer.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Dark wrist bracer.005
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Faceted travelling cape.001
+10:31:54 | INFO: Primitives created: 2
+10:31:54 | INFO: Extracting primitive: Folded cloth collar.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Forearm sleeve.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Forearm sleeve.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Glove thumb.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Glove thumb.005
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Gold belt buckle.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Heavy shoulder plate.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Heavy shoulder plate.003
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Knee leather binding.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Knee leather binding.005
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Leather arrow quiver
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Leather belt.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Leather wrist cuff.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Leather wrist cuff.005
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Neck.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Open cloth hood.001
+10:31:54 | INFO: Primitives created: 2
+10:31:54 | INFO: Extracting primitive: Oversized leather boot.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Oversized leather boot.005
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Quiver spare arrow
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Quiver spare arrow.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Quiver spare arrow.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Quiver spare arrow.003
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Quiver spare arrow.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Quiver white fletching
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Quiver white fletching.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Quiver white fletching.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Quiver white fletching.003
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Quiver white fletching.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Quiver white fletching.005
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Quiver white fletching.006
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Quiver white fletching.007
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Quiver white fletching.008
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Quiver white fletching.009
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Red skull eye.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Red skull eye.003
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Rounded tunic shoulder.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Rounded tunic shoulder.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Shoulder plate rim.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Shoulder plate rim.003
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Tapered tunic.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Tattered red tabard.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Trouser shin.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Trouser shin.005
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Trouser thigh.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Trouser thigh.005
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Tunic skirt panel.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Tunic skirt panel.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Upper sleeve.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Upper sleeve.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Bone cheek.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Bone cheek.005
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Carved bone skull.002
+10:31:54 | INFO: Primitives created: 2
+10:31:54 | INFO: Extracting primitive: Dark nasal inset.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Skull upper tooth.012
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Skull upper tooth.013
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Skull upper tooth.014
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Skull upper tooth.015
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Skull upper tooth.016
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Skull upper tooth.017
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Socket darkness.004
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Socket darkness.005
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Forged armor spike.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Crossbow bolt point
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Crossbow curved bow limbs
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Crossbow iron stock band
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Crossbow iron stock band.001
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Crossbow iron stock band.002
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Crossbow pistol grip
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Crossbow rear stock
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Crossbow wooden stock
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Loaded bolt ivory fletching 1
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Loaded bolt ivory fletching 2
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Loaded crossbow bolt
+10:31:54 | INFO: Primitives created: 1
+10:31:54 | INFO: Extracting primitive: Taut crossbow string
+10:31:54 | INFO: Primitives created: 1
+10:31:55 | INFO: Finished glTF 2.0 export in 0.6058003902435303 s
+00:04.362  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/props/evil_shield.blend"
+
+Exported characters/evil_ranged_unit; source unchanged
+10:31:55 | INFO: Starting glTF 2.0 export
+10:31:55 | INFO: Extracting primitive: Shield gold heraldry
+10:31:55 | INFO: Primitives created: 1
+10:31:55 | INFO: Extracting primitive: Shield blue field.001
+10:31:55 | INFO: Primitives created: 1
+10:31:55 | INFO: Extracting primitive: Shield gold rim.013
+10:31:55 | INFO: Primitives created: 1
+10:31:55 | INFO: Extracting primitive: Shield gold rim.012
+10:31:55 | INFO: Primitives created: 1
+10:31:55 | INFO: Extracting primitive: Shield gold rim.011
+10:31:55 | INFO: Primitives created: 1
+10:31:55 | INFO: Extracting primitive: Shield gold rim.010
+10:31:55 | INFO: Primitives created: 1
+10:31:55 | INFO: Extracting primitive: Shield gold rim.009
+10:31:55 | INFO: Primitives created: 1
+10:31:55 | INFO: Extracting primitive: Shield gold rim.008
+10:31:55 | INFO: Primitives created: 1
+10:31:55 | INFO: Extracting primitive: Shield gold rim.007
+10:31:55 | INFO: Primitives created: 1
+10:31:55 | INFO: Extracting primitive: Shield hand grip
+10:31:55 | INFO: Primitives created: 1
+10:31:55 | INFO: Finished glTF 2.0 export in 0.0134124755859375 s
+
+Exported props/evil_shield; source unchanged
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

@@ -1,0 +1,4466 @@
+{
+  "runtime": "5.2.2 LTS",
+  "boundary": "effective evaluated OBJECT slots differ from evaluated to_mesh DATA and actual GLB primitive semantics",
+  "count": 6,
+  "affected": [],
+  "entries": [
+    {
+      "id": "buildings/weaver",
+      "job": {
+        "id": "buildings/weaver",
+        "source": "sources/buildings/weaver.blend",
+        "collection": null,
+        "object": null
+      },
+      "source_sha256": "2aae72e09cecbe0a27be92e6b1f55a48c1b05dad4e6c4440792a083d9566d9d4",
+      "old_glb_sha256": "5ae574a7d6ef44c6523735a162cfcc69f64cdfedad0976ca8925899e8617c51c",
+      "semantic_losses": [],
+      "all_overrides": [
+        {
+          "object": "Soft edged blue roof tile.044",
+          "parent": "roof_tile_instance.043",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.043",
+          "parent": "roof_tile_instance.042",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_light"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_light"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_light"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.042",
+          "parent": "roof_tile_instance.041",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.041",
+          "parent": "roof_tile_instance.040",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.040",
+          "parent": "roof_tile_instance.039",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.039",
+          "parent": "roof_tile_instance.038",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_light"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_light"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_light"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.038",
+          "parent": "roof_tile_instance.037",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.037",
+          "parent": "roof_tile_instance.036",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.036",
+          "parent": "roof_tile_instance.035",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.035",
+          "parent": "roof_tile_instance.034",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.034",
+          "parent": "roof_tile_instance.033",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_light"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_light"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_light"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.033",
+          "parent": "roof_tile_instance.032",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.032",
+          "parent": "roof_tile_instance.031",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.031",
+          "parent": "roof_tile_instance.030",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.030",
+          "parent": "roof_tile_instance.029",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.029",
+          "parent": "roof_tile_instance.028",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_light"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_light"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_light"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.028",
+          "parent": "roof_tile_instance.027",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_light"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_light"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_light"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.027",
+          "parent": "roof_tile_instance.026",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.026",
+          "parent": "roof_tile_instance.025",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.025",
+          "parent": "roof_tile_instance.024",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.024",
+          "parent": "roof_tile_instance.023",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.023",
+          "parent": "roof_tile_instance.022",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.022",
+          "parent": "roof_tile_instance.021",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.021",
+          "parent": "roof_tile_instance.020",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.020",
+          "parent": "roof_tile_instance.019",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.019",
+          "parent": "roof_tile_instance.018",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.018",
+          "parent": "roof_tile_instance.017",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.017",
+          "parent": "roof_tile_instance.016",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_light"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_light"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_light"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.016",
+          "parent": "roof_tile_instance.015",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.015",
+          "parent": "roof_tile_instance.014",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.014",
+          "parent": "roof_tile_instance.013",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_light"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_light"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_light"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.013",
+          "parent": "roof_tile_instance.012",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.012",
+          "parent": "roof_tile_instance.011",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.011",
+          "parent": "roof_tile_instance.010",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.010",
+          "parent": "roof_tile_instance.009",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.009",
+          "parent": "roof_tile_instance.008",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.008",
+          "parent": "roof_tile_instance.007",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.007",
+          "parent": "roof_tile_instance.006",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.006",
+          "parent": "roof_tile_instance.005",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_dark"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_dark"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.005",
+          "parent": "roof_tile_instance.004",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue_light"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue_light"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue_light"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.004",
+          "parent": "roof_tile_instance.003",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.003",
+          "parent": "roof_tile_instance.002",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.002",
+          "parent": "roof_tile_instance.001",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Soft edged blue roof tile.001",
+          "parent": "roof_tile_instance",
+          "mesh": "Soft edged blue roof tile.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "roof_blue"
+          ],
+          "data": [
+            "roof_blue.004"
+          ],
+          "evaluated_effective": [
+            "roof_blue"
+          ],
+          "evaluated_data": [
+            "roof_blue.004"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "roof_blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Canvas canopy stripe.006",
+          "parent": "Blue linen striped work awning",
+          "mesh": "Canvas canopy stripe.006",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "blue"
+          ],
+          "data": [
+            "red"
+          ],
+          "evaluated_effective": [
+            "blue"
+          ],
+          "evaluated_data": [
+            "red"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "SOLIDIFY"
+          ],
+          "glb_materials": [
+            "blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Canvas canopy stripe.004",
+          "parent": "Blue linen striped work awning",
+          "mesh": "Canvas canopy stripe.004",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "blue"
+          ],
+          "data": [
+            "red"
+          ],
+          "evaluated_effective": [
+            "blue"
+          ],
+          "evaluated_data": [
+            "red"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "SOLIDIFY"
+          ],
+          "glb_materials": [
+            "blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Canvas canopy stripe.002",
+          "parent": "Blue linen striped work awning",
+          "mesh": "Canvas canopy stripe.002",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "blue"
+          ],
+          "data": [
+            "red"
+          ],
+          "evaluated_effective": [
+            "blue"
+          ],
+          "evaluated_data": [
+            "red"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "SOLIDIFY"
+          ],
+          "glb_materials": [
+            "blue"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Canvas canopy stripe",
+          "parent": "Blue linen striped work awning",
+          "mesh": "Canvas canopy stripe",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "blue"
+          ],
+          "data": [
+            "red"
+          ],
+          "evaluated_effective": [
+            "blue"
+          ],
+          "evaluated_data": [
+            "red"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "SOLIDIFY"
+          ],
+          "glb_materials": [
+            "blue"
+          ],
+          "glb_semantic_mismatch": false
+        }
+      ],
+      "unmatched_overrides": [],
+      "collection_instances": []
+    },
+    {
+      "id": "characters/evil_berserker_unit",
+      "job": {
+        "id": "characters/evil_berserker_unit",
+        "source": "sources/characters/evil_berserker_unit.blend",
+        "collection": null,
+        "object": null
+      },
+      "source_sha256": "774f19be402b03dc3c5645c8ee0db01be47953e33da2d46d00cdef4e9751d01a",
+      "old_glb_sha256": "371fd32a39b756620c53508545146af90147cef4bd423182ad4d0ab1b75bcfe8",
+      "semantic_losses": [],
+      "all_overrides": [
+        {
+          "object": "Upper sleeve.001",
+          "parent": "rig",
+          "mesh": "Upper sleeve.007",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "skin"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "skin"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "skin"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Upper sleeve",
+          "parent": "rig",
+          "mesh": "Upper sleeve.006",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "skin"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "skin"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "skin"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Tunic skirt panel.001",
+          "parent": "rig",
+          "mesh": "Tunic skirt panel.007",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Tunic skirt panel",
+          "parent": "rig",
+          "mesh": "Tunic skirt panel.006",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Tapered tunic",
+          "parent": "rig",
+          "mesh": "Tapered tunic.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "skin"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "skin"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "skin"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Sharpened axe cutting edge.002",
+          "parent": "evil_axe",
+          "mesh": "Sharpened axe cutting edge",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "silver"
+          ],
+          "data": [
+            "silver_light.001"
+          ],
+          "evaluated_effective": [
+            "silver"
+          ],
+          "evaluated_data": [
+            "silver_light.001"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "silver"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Sharpened axe cutting edge.001",
+          "parent": "evil_axe_offhand",
+          "mesh": "Sharpened axe cutting edge",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "silver"
+          ],
+          "data": [
+            "silver_light.001"
+          ],
+          "evaluated_effective": [
+            "silver"
+          ],
+          "evaluated_data": [
+            "silver_light.001"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "silver"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Rounded tunic shoulder.001",
+          "parent": "rig",
+          "mesh": "Rounded tunic shoulder.007",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "skin"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "skin"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "skin"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Rounded tunic shoulder",
+          "parent": "rig",
+          "mesh": "Rounded tunic shoulder.006",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "skin"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "skin"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "skin"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Iron axe socket.002",
+          "parent": "evil_axe",
+          "mesh": "Iron axe socket",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "silver_dark.001"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "silver_dark.001"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Iron axe socket.001",
+          "parent": "evil_axe_offhand",
+          "mesh": "Iron axe socket",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "silver_dark.001"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "silver_dark.001"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Glove thumb.001",
+          "parent": "rig",
+          "mesh": "Glove thumb.007",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "skin"
+          ],
+          "data": [
+            "leather_light"
+          ],
+          "evaluated_effective": [
+            "skin"
+          ],
+          "evaluated_data": [
+            "leather_light"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "skin"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Glove thumb",
+          "parent": "rig",
+          "mesh": "Glove thumb.006",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "skin"
+          ],
+          "data": [
+            "leather_light"
+          ],
+          "evaluated_effective": [
+            "skin"
+          ],
+          "evaluated_data": [
+            "leather_light"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "skin"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Forged crescent axe blade.002",
+          "parent": "evil_axe",
+          "mesh": "Forged crescent axe blade",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "silver.001"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "silver.001"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Forged crescent axe blade.001",
+          "parent": "evil_axe_offhand",
+          "mesh": "Forged crescent axe blade",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "silver.001"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "silver.001"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Forearm sleeve.001",
+          "parent": "rig",
+          "mesh": "Forearm sleeve.007",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "skin"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "skin"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "skin"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Forearm sleeve",
+          "parent": "rig",
+          "mesh": "Forearm sleeve.006",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "skin"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "skin"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "skin"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Chibi glove.001",
+          "parent": "rig",
+          "mesh": "Chibi glove.007",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "skin"
+          ],
+          "data": [
+            "leather"
+          ],
+          "evaluated_effective": [
+            "skin"
+          ],
+          "evaluated_data": [
+            "leather"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "skin"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Chibi glove",
+          "parent": "rig",
+          "mesh": "Chibi glove.006",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "skin"
+          ],
+          "data": [
+            "leather"
+          ],
+          "evaluated_effective": [
+            "skin"
+          ],
+          "evaluated_data": [
+            "leather"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "skin"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Axe ash handle.002",
+          "parent": "evil_axe",
+          "mesh": "Axe ash handle",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "wood_dark"
+          ],
+          "data": [
+            "wood_light.001"
+          ],
+          "evaluated_effective": [
+            "wood_dark"
+          ],
+          "evaluated_data": [
+            "wood_light.001"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "wood_dark"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Axe ash handle.001",
+          "parent": "evil_axe_offhand",
+          "mesh": "Axe ash handle",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "wood_dark"
+          ],
+          "data": [
+            "wood_light.001"
+          ],
+          "evaluated_effective": [
+            "wood_dark"
+          ],
+          "evaluated_data": [
+            "wood_light.001"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "wood_dark"
+          ],
+          "glb_semantic_mismatch": false
+        }
+      ],
+      "unmatched_overrides": [],
+      "collection_instances": []
+    },
+    {
+      "id": "characters/evil_mage_unit",
+      "job": {
+        "id": "characters/evil_mage_unit",
+        "source": "sources/characters/evil_mage_unit.blend",
+        "collection": null,
+        "object": null
+      },
+      "source_sha256": "21c5a5699a9e529554fdc37d04bf1ba8b534b3f81d242d2179e9ddb7d5af623a",
+      "old_glb_sha256": "465f5c8ef85a51d91da8789bf9afda968d647b9a1ca354a106baf3682fdf01e9",
+      "semantic_losses": [],
+      "all_overrides": [
+        {
+          "object": "Upper sleeve.001",
+          "parent": "rig",
+          "mesh": "Upper sleeve.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_purple"
+          ],
+          "data": [
+            "purple"
+          ],
+          "evaluated_effective": [
+            "evil_purple"
+          ],
+          "evaluated_data": [
+            "purple"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_purple"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Upper sleeve",
+          "parent": "rig",
+          "mesh": "Upper sleeve.002",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_purple"
+          ],
+          "data": [
+            "purple"
+          ],
+          "evaluated_effective": [
+            "evil_purple"
+          ],
+          "evaluated_data": [
+            "purple"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_purple"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Tunic skirt panel.001",
+          "parent": "rig",
+          "mesh": "Tunic skirt panel.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_purple"
+          ],
+          "data": [
+            "purple"
+          ],
+          "evaluated_effective": [
+            "evil_purple"
+          ],
+          "evaluated_data": [
+            "purple"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_purple"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Tunic skirt panel",
+          "parent": "rig",
+          "mesh": "Tunic skirt panel.002",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_purple"
+          ],
+          "data": [
+            "purple"
+          ],
+          "evaluated_effective": [
+            "evil_purple"
+          ],
+          "evaluated_data": [
+            "purple"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_purple"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Tapered tunic",
+          "parent": "rig",
+          "mesh": "Tapered tunic.001",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_purple"
+          ],
+          "data": [
+            "purple"
+          ],
+          "evaluated_effective": [
+            "evil_purple"
+          ],
+          "evaluated_data": [
+            "purple"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_purple"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Rounded tunic shoulder.001",
+          "parent": "rig",
+          "mesh": "Rounded tunic shoulder.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_purple"
+          ],
+          "data": [
+            "purple"
+          ],
+          "evaluated_effective": [
+            "evil_purple"
+          ],
+          "evaluated_data": [
+            "purple"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_purple"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Rounded tunic shoulder",
+          "parent": "rig",
+          "mesh": "Rounded tunic shoulder.002",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_purple"
+          ],
+          "data": [
+            "purple"
+          ],
+          "evaluated_effective": [
+            "evil_purple"
+          ],
+          "evaluated_data": [
+            "purple"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_purple"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Neck",
+          "parent": "rig",
+          "mesh": "Neck.001",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "black"
+          ],
+          "data": [
+            "face_dark"
+          ],
+          "evaluated_effective": [
+            "black"
+          ],
+          "evaluated_data": [
+            "face_dark"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "black"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Glove thumb.001",
+          "parent": "rig",
+          "mesh": "Glove thumb.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "black"
+          ],
+          "data": [
+            "skin"
+          ],
+          "evaluated_effective": [
+            "black"
+          ],
+          "evaluated_data": [
+            "skin"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "black"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Glove thumb",
+          "parent": "rig",
+          "mesh": "Glove thumb.002",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "black"
+          ],
+          "data": [
+            "skin"
+          ],
+          "evaluated_effective": [
+            "black"
+          ],
+          "evaluated_data": [
+            "skin"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "black"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Forearm sleeve.001",
+          "parent": "rig",
+          "mesh": "Forearm sleeve.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_purple"
+          ],
+          "data": [
+            "purple"
+          ],
+          "evaluated_effective": [
+            "evil_purple"
+          ],
+          "evaluated_data": [
+            "purple"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_purple"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Forearm sleeve",
+          "parent": "rig",
+          "mesh": "Forearm sleeve.002",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_purple"
+          ],
+          "data": [
+            "purple"
+          ],
+          "evaluated_effective": [
+            "evil_purple"
+          ],
+          "evaluated_data": [
+            "purple"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_purple"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Chibi glove.001",
+          "parent": "rig",
+          "mesh": "Chibi glove.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "black"
+          ],
+          "data": [
+            "skin"
+          ],
+          "evaluated_effective": [
+            "black"
+          ],
+          "evaluated_data": [
+            "skin"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "black"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Chibi glove",
+          "parent": "rig",
+          "mesh": "Chibi glove.002",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "black"
+          ],
+          "data": [
+            "skin"
+          ],
+          "evaluated_effective": [
+            "black"
+          ],
+          "evaluated_data": [
+            "skin"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "black"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Chibi face",
+          "parent": "rig",
+          "mesh": "Chibi face.001",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "black"
+          ],
+          "data": [
+            "face_dark"
+          ],
+          "evaluated_effective": [
+            "black"
+          ],
+          "evaluated_data": [
+            "face_dark"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "black"
+          ],
+          "glb_semantic_mismatch": false
+        }
+      ],
+      "unmatched_overrides": [],
+      "collection_instances": []
+    },
+    {
+      "id": "characters/evil_melee_unit",
+      "job": {
+        "id": "characters/evil_melee_unit",
+        "source": "sources/characters/evil_melee_unit.blend",
+        "collection": null,
+        "object": null
+      },
+      "source_sha256": "74ff32dce87cbae236e49670333f5ca6cd3c0a77a52052ee8ca7c85cb6b52fbf",
+      "old_glb_sha256": "143406e23d41dfe78d4b10085ec5411ec9103d9a756f12768e21e190c55a3cab",
+      "semantic_losses": [],
+      "all_overrides": [
+        {
+          "object": "Upper sleeve.001",
+          "parent": "rig",
+          "mesh": "Upper sleeve.001",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Upper sleeve",
+          "parent": "rig",
+          "mesh": "Upper sleeve",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Tunic skirt panel.001",
+          "parent": "rig",
+          "mesh": "Tunic skirt panel.001",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Tunic skirt panel",
+          "parent": "rig",
+          "mesh": "Tunic skirt panel",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Tapered tunic",
+          "parent": "rig",
+          "mesh": "Tapered tunic",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Sword grip wrap.003",
+          "parent": "evil_sword",
+          "mesh": "Sword grip wrap.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "black"
+          ],
+          "data": [
+            "wood_dark"
+          ],
+          "evaluated_effective": [
+            "black"
+          ],
+          "evaluated_data": [
+            "wood_dark"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "black"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Sword grip wrap.002",
+          "parent": "evil_sword",
+          "mesh": "Sword grip wrap.002",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "black"
+          ],
+          "data": [
+            "wood_dark"
+          ],
+          "evaluated_effective": [
+            "black"
+          ],
+          "evaluated_data": [
+            "wood_dark"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "black"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Sword grip wrap.001",
+          "parent": "evil_sword",
+          "mesh": "Sword grip wrap.001",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "black"
+          ],
+          "data": [
+            "wood_dark"
+          ],
+          "evaluated_effective": [
+            "black"
+          ],
+          "evaluated_data": [
+            "wood_dark"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "black"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Sword grip wrap",
+          "parent": "evil_sword",
+          "mesh": "Sword grip wrap",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "black"
+          ],
+          "data": [
+            "wood_dark"
+          ],
+          "evaluated_effective": [
+            "black"
+          ],
+          "evaluated_data": [
+            "wood_dark"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "black"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Sword broad faceted blade",
+          "parent": "evil_sword",
+          "mesh": "Sword broad faceted blade",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "silver_light"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "silver_light"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Shield gold rim.006",
+          "parent": "evil_shield",
+          "mesh": "Shield gold rim.006",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "gold"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "gold"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Shield gold rim.005",
+          "parent": "evil_shield",
+          "mesh": "Shield gold rim.005",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "gold"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "gold"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Shield gold rim.004",
+          "parent": "evil_shield",
+          "mesh": "Shield gold rim.004",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "gold"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "gold"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Shield gold rim.003",
+          "parent": "evil_shield",
+          "mesh": "Shield gold rim.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "gold"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "gold"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Shield gold rim.002",
+          "parent": "evil_shield",
+          "mesh": "Shield gold rim.002",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "gold"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "gold"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Shield gold rim.001",
+          "parent": "evil_shield",
+          "mesh": "Shield gold rim.001",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "gold"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "gold"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Shield gold rim",
+          "parent": "evil_shield",
+          "mesh": "Shield gold rim",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "gold"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "gold"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Shield blue field",
+          "parent": "evil_shield",
+          "mesh": "Shield blue field",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Rounded tunic shoulder.001",
+          "parent": "rig",
+          "mesh": "Rounded tunic shoulder.001",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Rounded tunic shoulder",
+          "parent": "rig",
+          "mesh": "Rounded tunic shoulder",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Neck",
+          "parent": "rig",
+          "mesh": "Neck",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "black"
+          ],
+          "data": [
+            "skin"
+          ],
+          "evaluated_effective": [
+            "black"
+          ],
+          "evaluated_data": [
+            "skin"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "black"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Forearm sleeve.001",
+          "parent": "rig",
+          "mesh": "Forearm sleeve.001",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Forearm sleeve",
+          "parent": "rig",
+          "mesh": "Forearm sleeve",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Crimson shield emblem",
+          "parent": "evil_shield",
+          "mesh": "Shield gold heraldry",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_red"
+          ],
+          "data": [
+            "gold_light"
+          ],
+          "evaluated_effective": [
+            "evil_red"
+          ],
+          "evaluated_data": [
+            "gold_light"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "evil_red"
+          ],
+          "glb_semantic_mismatch": false
+        }
+      ],
+      "unmatched_overrides": [],
+      "collection_instances": []
+    },
+    {
+      "id": "characters/evil_ranged_unit",
+      "job": {
+        "id": "characters/evil_ranged_unit",
+        "source": "sources/characters/evil_ranged_unit.blend",
+        "collection": null,
+        "object": null
+      },
+      "source_sha256": "0012e1c46c11764d4c85878ee7f127bf6d4b539c97a568be1e9fa00d81387057",
+      "old_glb_sha256": "3723fcd68797e7f0cc0871a6bef05ad8206d444c9b4c46c8d15363d2c863cae9",
+      "semantic_losses": [],
+      "all_overrides": [
+        {
+          "object": "Upper sleeve.001",
+          "parent": "rig",
+          "mesh": "Upper sleeve.005",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Upper sleeve",
+          "parent": "rig",
+          "mesh": "Upper sleeve.004",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Tunic skirt panel.001",
+          "parent": "rig",
+          "mesh": "Tunic skirt panel.005",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Tunic skirt panel",
+          "parent": "rig",
+          "mesh": "Tunic skirt panel.004",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Tapered tunic",
+          "parent": "rig",
+          "mesh": "Tapered tunic.002",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Rounded tunic shoulder.001",
+          "parent": "rig",
+          "mesh": "Rounded tunic shoulder.005",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Rounded tunic shoulder",
+          "parent": "rig",
+          "mesh": "Rounded tunic shoulder.004",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Neck",
+          "parent": "rig",
+          "mesh": "Neck.002",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "black"
+          ],
+          "data": [
+            "skin"
+          ],
+          "evaluated_effective": [
+            "black"
+          ],
+          "evaluated_data": [
+            "skin"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "black"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Forearm sleeve.001",
+          "parent": "rig",
+          "mesh": "Forearm sleeve.005",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Forearm sleeve",
+          "parent": "rig",
+          "mesh": "Forearm sleeve.004",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Folded cloth collar",
+          "parent": "rig",
+          "mesh": "Folded cloth collar.001",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_red"
+          ],
+          "data": [
+            "evil_purple"
+          ],
+          "evaluated_effective": [
+            "evil_red"
+          ],
+          "evaluated_data": [
+            "evil_purple"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "ARMATURE"
+          ],
+          "glb_materials": [
+            "evil_red"
+          ],
+          "glb_semantic_mismatch": false
+        }
+      ],
+      "unmatched_overrides": [],
+      "collection_instances": []
+    },
+    {
+      "id": "props/evil_shield",
+      "job": {
+        "id": "props/evil_shield",
+        "source": "sources/props/evil_shield.blend",
+        "collection": null,
+        "object": null
+      },
+      "source_sha256": "0187cc11eedd383bce20b44f104ead882606dae6775996dd43db8b58756d7363",
+      "old_glb_sha256": "7357f62b1a09bf07d9bc92301882692e42bfc353e5286021b14835bff8a007b2",
+      "semantic_losses": [],
+      "all_overrides": [
+        {
+          "object": "Shield gold rim.006",
+          "parent": "evil_shield",
+          "mesh": "Shield gold rim.006",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "gold"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "gold"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Shield gold rim.005",
+          "parent": "evil_shield",
+          "mesh": "Shield gold rim.005",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "gold"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "gold"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Shield gold rim.004",
+          "parent": "evil_shield",
+          "mesh": "Shield gold rim.004",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "gold"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "gold"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Shield gold rim.003",
+          "parent": "evil_shield",
+          "mesh": "Shield gold rim.003",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "gold"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "gold"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Shield gold rim.002",
+          "parent": "evil_shield",
+          "mesh": "Shield gold rim.002",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "gold"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "gold"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Shield gold rim.001",
+          "parent": "evil_shield",
+          "mesh": "Shield gold rim.001",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "gold"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "gold"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Shield gold rim",
+          "parent": "evil_shield",
+          "mesh": "Shield gold rim",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_edge"
+          ],
+          "data": [
+            "gold"
+          ],
+          "evaluated_effective": [
+            "evil_edge"
+          ],
+          "evaluated_data": [
+            "gold"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_edge"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Shield blue field",
+          "parent": "evil_shield",
+          "mesh": "Shield blue field",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_steel"
+          ],
+          "data": [
+            "blue"
+          ],
+          "evaluated_effective": [
+            "evil_steel"
+          ],
+          "evaluated_data": [
+            "blue"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [
+            "BEVEL"
+          ],
+          "glb_materials": [
+            "evil_steel"
+          ],
+          "glb_semantic_mismatch": false
+        },
+        {
+          "object": "Crimson shield emblem",
+          "parent": "evil_shield",
+          "mesh": "Shield gold heraldry",
+          "kit_asset": null,
+          "kit_source": null,
+          "links": [
+            "OBJECT"
+          ],
+          "effective": [
+            "evil_red"
+          ],
+          "data": [
+            "gold_light"
+          ],
+          "evaluated_effective": [
+            "evil_red"
+          ],
+          "evaluated_data": [
+            "gold_light"
+          ],
+          "used_indices": [
+            0
+          ],
+          "semantic_loss_indices": [
+            0
+          ],
+          "modifiers": [],
+          "glb_materials": [
+            "evil_red"
+          ],
+          "glb_semantic_mismatch": false
+        }
+      ],
+      "unmatched_overrides": [],
+      "collection_instances": []
+    }
+  ]
+}

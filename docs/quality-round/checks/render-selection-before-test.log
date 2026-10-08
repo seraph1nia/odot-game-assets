@@ -1,0 +1,19 @@
+test_dreaming_aliases_render_authoritative_sources_without_saving_them (tools.asset_pack.test_render_previews.PreviewSelectionTests.test_dreaming_aliases_render_authoritative_sources_without_saving_them) ... ERROR
+
+======================================================================
+ERROR: test_dreaming_aliases_render_authoritative_sources_without_saving_them (tools.asset_pack.test_render_previews.PreviewSelectionTests.test_dreaming_aliases_render_authoritative_sources_without_saving_them)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/tools/asset_pack/test_render_previews.py", line 61, in test_dreaming_aliases_render_authoritative_sources_without_saving_them
+    self.run_selection(['hex_hollow_watchers', 'hex_butterfly_glade', 'hex_dream_menagerie'])
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/tools/asset_pack/test_render_previews.py", line 57, in run_selection
+    self.module.main(names)
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/tools/asset_pack/render_previews.py", line 13, in main
+    asset=BY_ID[name]
+          ~~~~~^^^^^^
+KeyError: 'hex_hollow_watchers'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (errors=1)

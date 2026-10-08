@@ -1,0 +1,42 @@
+test_shared_red_data_blue_object_override (__main__.SelectedMaterialTests.test_shared_red_data_blue_object_override) ... 00:00.323  blend            | Read blend: "/tmp/tmplwrnpwdj/sources/props/fixture.blend"
+Info: Saved as "fixture.blend"
+INFO Draco is available, use library at /home/bart/.local/opt/blender-5.2.2-linux-x64/lib/libbf_intern_draco_bridge.so
+INFO MeshOptimizer is available, use library at /home/bart/.local/opt/blender-5.2.2-linux-x64/lib/libbf_intern_meshopt_bridge.so
+10:20:35 | INFO: Starting glTF 2.0 export
+10:20:35 | INFO: Extracting primitive: Default red
+10:20:35 | INFO: Primitives created: 1
+10:20:35 | INFO: Extracting primitive: Default red
+10:20:35 | INFO: Primitives created: 1
+10:20:35 | INFO: Finished glTF 2.0 export in 0.007174253463745117 s
+FAIL
+
+======================================================================
+FAIL: test_shared_red_data_blue_object_override (__main__.SelectedMaterialTests.test_shared_red_data_blue_object_override)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/tools/asset_catalog/test_export_materials_blender.py", line 120, in test_shared_red_data_blue_object_override
+    self.assert_materials(doc, 'Blue override', ['fixture_blue'])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/tools/asset_catalog/test_export_materials_blender.py", line 107, in assert_materials
+    self.assertEqual(actual, set(expected), (name, actual, expected))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Items in the first set but not the second:
+'fixture_red'
+Items in the second set but not the first:
+'fixture_blue' : ('Blue override', {'fixture_red'}, ['fixture_blue'])
+
+----------------------------------------------------------------------
+Ran 1 test in 0.094s
+
+FAILED (failures=1)
+Traceback (most recent call last):
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/tools/asset_catalog/test_export_materials_blender.py", line 187, in <module>
+    raise RuntimeError('Selected-export material regression failed')
+RuntimeError: Selected-export material regression failed
+
+Exported props/fixture; source unchanged
+
+Error: script failed, file: '/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/tools/asset_catalog/test_export_materials_blender.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit
