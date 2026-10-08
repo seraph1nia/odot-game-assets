@@ -40,7 +40,7 @@ def read_glb(path: Path) -> dict:
         clips.append({'name': animation.get('name') or f'animation_{number}',
                       'duration': max(ends) if ends else None,
                       'loop': loop if isinstance(loop, bool) else None})
-    return {'bytes': length, 'triangles': triangles,
+    return {'bytes': length, 'meshes': len(document.get('meshes', [])), 'triangles': triangles,
             'materials': len(document.get('materials', [])), 'animations': clips,
             'version': digest}
 

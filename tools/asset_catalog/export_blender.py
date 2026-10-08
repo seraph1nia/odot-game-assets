@@ -114,7 +114,7 @@ def main():
             workspace.cleanup()
         key = target.relative_to(repo_root).as_posix()
         reports[key] = reports.get(key, {}) | {'file': key, 'bytes': facts['bytes'],
-                       'triangles': facts['triangles'], 'materials': facts['materials'],
+                       'meshes': facts['meshes'], 'triangles': facts['triangles'], 'materials': facts['materials'],
                        'animations': [clip['name'] for clip in facts['animations']],
                        'source': job['source']}
         instances = [obj for obj in objects if obj.get('kit_asset')]

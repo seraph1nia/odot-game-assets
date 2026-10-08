@@ -637,7 +637,7 @@
     {
       "file": "exports/characters/evil_ranged_unit.glb",
       "bytes": 714932,
-      "meshes": 90,
+      "meshes": 92,
       "triangles": 7175,
       "materials": 23,
       "animations": [
@@ -674,7 +674,7 @@
     {
       "file": "exports/props/crossbow.glb",
       "bytes": 52036,
-      "meshes": 10,
+      "meshes": 12,
       "triangles": 838,
       "materials": 8,
       "animations": [],
