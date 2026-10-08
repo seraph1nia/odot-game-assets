@@ -144,10 +144,11 @@
   },
   {
     "asset": "knight",
+    "asset_id": "characters/knight",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "950180d36ace11a1845a5ef23256d2bacf357bb8e4f5a6838584d55d0557c6ee",
-    "glb_sha256": "1ffa02091ffae7617cd7cbb1c1108150703409086e8380f12c080e9f6bbb2130",
+    "source_sha256": "b8e5d3e130a502d4bb894431836066c63ad9f53b53225f10fbe0960fdc341f6b",
+    "glb_sha256": "2e63744934d9e35f0f848aa5158306223b7086320b3181acaf5b74f38a4f3281",
     "clips": {
       "attack": "finite geometry; playback checked",
       "death": "finite geometry; playback checked",
@@ -207,10 +208,11 @@
   },
   {
     "asset": "evil_melee_unit",
+    "asset_id": "characters/evil_melee_unit",
     "round_trip_max_bounds_error": 1e-06,
     "geometry_finite": true,
     "source_sha256": "74ff32dce87cbae236e49670333f5ca6cd3c0a77a52052ee8ca7c85cb6b52fbf",
-    "glb_sha256": "9d97c29db7eb0e1639508b0ec7943bb7bd062bda5fed8a24219d92c9a7bc3e84",
+    "glb_sha256": "143406e23d41dfe78d4b10085ec5411ec9103d9a756f12768e21e190c55a3cab",
     "shared_kit_instances": {
       "skull": 1,
       "spike": 5
@@ -226,10 +228,11 @@
   },
   {
     "asset": "evil_mage_unit",
+    "asset_id": "characters/evil_mage_unit",
     "round_trip_max_bounds_error": 1e-06,
     "geometry_finite": true,
     "source_sha256": "21c5a5699a9e529554fdc37d04bf1ba8b534b3f81d242d2179e9ddb7d5af623a",
-    "glb_sha256": "e7c0d79a21d618124db1a43258110c830e0a6a4163144f092107294edfab438d",
+    "glb_sha256": "465f5c8ef85a51d91da8789bf9afda968d647b9a1ca354a106baf3682fdf01e9",
     "shared_kit_instances": {
       "skull": 1
     },
@@ -244,10 +247,11 @@
   },
   {
     "asset": "evil_ranged_unit",
+    "asset_id": "characters/evil_ranged_unit",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "d580d1f9c5f8a1b7f5e12a0bc1bbdd03228d3d4033c383d9ae78eaa582c1e6ac",
-    "glb_sha256": "5808c64a27e3ae9e0ce193c1b979625d76c55b50d96bc390e73415a5df7a95bc",
+    "source_sha256": "0012e1c46c11764d4c85878ee7f127bf6d4b539c97a568be1e9fa00d81387057",
+    "glb_sha256": "3723fcd68797e7f0cc0871a6bef05ad8206d444c9b4c46c8d15363d2c863cae9",
     "shared_kit_instances": {
       "skull": 1,
       "spike": 2
@@ -263,14 +267,15 @@
   },
   {
     "asset": "evil_berserker_unit",
+    "asset_id": "characters/evil_berserker_unit",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "774f19be402b03dc3c5645c8ee0db01be47953e33da2d46d00cdef4e9751d01a",
-    "glb_sha256": "3902fd908b742c9ab2b3e5d8dfcb052a2e61dde50ee56fc48eec0041893fe3fb",
+    "glb_sha256": "371fd32a39b756620c53508545146af90147cef4bd423182ad4d0ab1b75bcfe8",
     "shared_kit_instances": {
+      "axe": 2,
       "skull": 2,
-      "spike": 1,
-      "axe": 2
+      "spike": 1
     },
     "clips": {
       "attack": "finite geometry; playback checked",
@@ -286,8 +291,8 @@
     "asset_id": "buildings/archery_range",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "989f03c4a6fde7ab2b0cf7a3c06d0541366e893b4ee8de5910d16a09b5e862ee",
-    "glb_sha256": "773325095940b3b3379338e2d84af5398c41a922b676e5f1f15ef3762babbf81",
+    "source_sha256": "d0dfd35060be8fbd501f136034338212d1b53f220ccf2671a7e4d558262085bb",
+    "glb_sha256": "4e231c7a9e6032b7e609961dac15637a44ab45996c3ec21d5ab79f74c3fa8069",
     "shared_kit_instances": {
       "arrow": 12,
       "lantern": 1,
@@ -303,8 +308,8 @@
     "asset_id": "buildings/metal_mine",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "f8542f1bfbb3d10a3ab311d88a5feb753aab08db4984baeafdbc943c971db431",
-    "glb_sha256": "f03e7487735ac055a06acf7c6715cae87ff9cd771284168ee16fcf0b6cd1cbaa",
+    "source_sha256": "546ad3d95cf50f9f699ef6775057fa2222c51002bcc82b93471587ecd97ae5f6",
+    "glb_sha256": "5e5419d4deec0b78f6c742522a91e666ccd0762ec116bfb089efe9e17ebe3030",
     "shared_kit_instances": {
       "crate": 2,
       "lantern": 1,
@@ -318,8 +323,8 @@
     "asset_id": "buildings/research_tower",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "9d21564ac373944fbc42fdf3c68402077901a308a840b84907f071d2c6473020",
-    "glb_sha256": "22ee71ebef473aec72d869d49cc1faa12d724ed8c4f408abb68d15d678d09ac4",
+    "source_sha256": "133f2edf621fbbb7fa8f07f0208d32d96d4ebe6ba07c06b2973cbe4b93c45ada",
+    "glb_sha256": "3c049de6133c307e32b30a2258f50ae3041067bd8302f5d8b578219b91fd0dbd",
     "shared_kit_instances": {
       "book": 6,
       "crate": 1,
@@ -333,8 +338,8 @@
     "asset_id": "buildings/town_hall",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "036733bcf95c606f3de582c97aee33e33dcf610fe260132bbbbf37fb60f43cc1",
-    "glb_sha256": "d4e38bbf4a1754701211f937b6eee79fb105b03a13e547c179ba18172822150b",
+    "source_sha256": "3409702dfdb2048dbde2d4506195fc4d5f4b5f98e8cb0cbe663ef845357f3191",
+    "glb_sha256": "8150f41e63cdbae8e5073ab780c2a82f43d8e20d8612dba5c229af43aba3ce62",
     "shared_kit_instances": {
       "bench": 1,
       "lantern": 2,
@@ -348,8 +353,8 @@
     "asset_id": "buildings/weaver",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "2cd6cdc70b302f2c5017d383a959706369f1b71bcfd8e180c6eea833e81bfae6",
-    "glb_sha256": "bbffda6346918180bfe8b72cd54870dde97559cafc66309e078c52318c1f5247",
+    "source_sha256": "2aae72e09cecbe0a27be92e6b1f55a48c1b05dad4e6c4440792a083d9566d9d4",
+    "glb_sha256": "5ae574a7d6ef44c6523735a162cfcc69f64cdfedad0976ca8925899e8617c51c",
     "shared_kit_instances": {
       "lantern": 1,
       "open_barrel": 2,
@@ -418,8 +423,8 @@
     "asset_id": "environment/components/forest_foam",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "2694b3b6350c122093558c729d073b38204b4cb7df5ceafea0ef1ad3e6ca683a",
-    "glb_sha256": "a6b6b5d01a5e52263786e58b577b41815d704c454cb93d81a877c5dfa66092e8"
+    "source_sha256": "dd0793ce691d3e495659114315c4fdd5912b4364353d1739e16bf690f7bcc4c6",
+    "glb_sha256": "6dc24a66b6d4dd4c8e717872bccdefd2b381d63dbf83eb4aa41fdaa6b58e4e0e"
   },
   {
     "asset": "environment/components/forest_hex_meadow",
@@ -466,16 +471,16 @@
     "asset_id": "environment/components/forest_mushroom_blue",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "2694b3b6350c122093558c729d073b38204b4cb7df5ceafea0ef1ad3e6ca683a",
-    "glb_sha256": "b34f746791a47c73b4608a732900521c4cc11e7cb810f2ce2304a6849a4c6c91"
+    "source_sha256": "dd0793ce691d3e495659114315c4fdd5912b4364353d1739e16bf690f7bcc4c6",
+    "glb_sha256": "ba30dde4fb33305feb871bd7bc9944cca97f03cfad65f8877bcbbd8474336928"
   },
   {
     "asset": "environment/components/forest_mushroom_purple",
     "asset_id": "environment/components/forest_mushroom_purple",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "2694b3b6350c122093558c729d073b38204b4cb7df5ceafea0ef1ad3e6ca683a",
-    "glb_sha256": "fe6e178aa81e09e163ed69d7c96a5e196c73cdc87f766508cfbce985917abd91"
+    "source_sha256": "dd0793ce691d3e495659114315c4fdd5912b4364353d1739e16bf690f7bcc4c6",
+    "glb_sha256": "b2ff7dae743e9c7f10ca104bc6eac316092af7dc06d7fca0ff6be0fdf76aa050"
   },
   {
     "asset": "environment/components/forest_mushroom_small",
@@ -514,8 +519,8 @@
     "asset_id": "environment/components/forest_rune_monolith",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "2694b3b6350c122093558c729d073b38204b4cb7df5ceafea0ef1ad3e6ca683a",
-    "glb_sha256": "c6fb4c929116d719923852d02c7cc8197fd94131d753a54866c1c50d82c2df60"
+    "source_sha256": "dd0793ce691d3e495659114315c4fdd5912b4364353d1739e16bf690f7bcc4c6",
+    "glb_sha256": "c1c95012bf110bee07f0a6c4a9ec6a83310fd4ad6eb5c321888afc5e80626ff4"
   },
   {
     "asset": "environment/components/forest_shrine_plinth",
@@ -562,8 +567,8 @@
     "asset_id": "environment/hex_bioluminescent_grove",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "ab131b6216beb0d35a7431b89381d7c6cbeb92a8a1342f6ae4d74f947edf361e",
-    "glb_sha256": "8b94aa8c805109f35af8459de70c538557493f2c1f87c0039be84f368b215720",
+    "source_sha256": "451189945e69f9bae84b0f4173fcaf5839a954dc2e3107426f1081f05301d414",
+    "glb_sha256": "7b2c22d173fd200ded0b90e265e69ab0b165fb4b71899bd6617a422964c77eb0",
     "shared_kit_instances": {
       "forest_boulder": 5,
       "forest_crystal_blue": 1,
@@ -583,8 +588,8 @@
     "asset_id": "environment/hex_crystal_grove",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "a5c2c1655c3170f8c2aba3b0ebe33e0e6192f141373b061751ac61abe1885884",
-    "glb_sha256": "065f7a0e01e07565eac078fd1b2cbc4eef2f2d2ee562fa197dc507550ecd8169",
+    "source_sha256": "6b053ede80e39a01fb3603d489f579369a1c8d2c30afc55bc981dbf56605010a",
+    "glb_sha256": "728cd5c29cdc2c765d39ef592922d673221b9e871d737f82e08f13ce804caa86",
     "shared_kit_instances": {
       "forest_boulder": 5,
       "forest_crystal_blue": 3,
@@ -604,8 +609,8 @@
     "asset_id": "environment/hex_crystal_shrine",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "233e583b47250eb91992e9e4d967f6dee48f29d81bfc217f1d505884701d89d7",
-    "glb_sha256": "7e6ac9aa491a2bda302fb4d80a58959e23d369ad3b170bc0268496628f6a9279",
+    "source_sha256": "e55ac555e0ef39a06eeb7d291317ea341990830e954536af1fdeb53108709239",
+    "glb_sha256": "0ab696cc206e490e28dc586b98654541644471e3a023aacc7596632ef7147faa",
     "shared_kit_instances": {
       "forest_boulder": 5,
       "forest_crystal_blue": 5,
@@ -627,8 +632,8 @@
     "asset_id": "environment/hex_glowing_mushrooms",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "a8c7897a587a311a8a81353eca457e90c679542807a04a1b38cd8c7cd6b283c6",
-    "glb_sha256": "a2e59df05aa671bcd2ab41dc3363051679c6785a2c1fc2706b415e5a453172a5",
+    "source_sha256": "e7a8788959e75f419816410df01cdc4a80b0bd1b945b14ac4b5a57d04af1c59b",
+    "glb_sha256": "4370d473b6e98712b21eddc1cde95c06eb36bb5cd94271326642f43ffc5282f3",
     "shared_kit_instances": {
       "forest_boulder": 5,
       "forest_crystal_blue": 1,
@@ -647,8 +652,8 @@
     "asset_id": "environment/hex_lantern_bridge",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "ec221caa0f55edc6d35f22467dafdd937b3c5ccdfca7adc53cf978d4fd43e6f1",
-    "glb_sha256": "7139818ffda722002f52385ed47e46d0fc687ce3bfc03b08d3d292967f338c95",
+    "source_sha256": "e8c69f3f9c1674936997369e68484767c200758d245e46b69b4977d5e5311bee",
+    "glb_sha256": "2c4528dd617964d2bd85641280fbaa00727b10b681c07302a18bf28d15e021e8",
     "shared_kit_instances": {
       "forest_boulder": 9,
       "forest_crystal_blue": 1,
@@ -671,8 +676,8 @@
     "asset_id": "environment/hex_mystical_grove",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "c385965366762644f654c7d10a7fa7a97b4dc1513611f3b2e5faa3e339a922b4",
-    "glb_sha256": "2571f36dbfd74a08d078bbbc4daff293d6cf139f97038a1809eedf6bb1cc81c5",
+    "source_sha256": "5f1a27f72a1baf8bac2a0e258f491b765c35d95efcdd5aeb8a0b9817c671c958",
+    "glb_sha256": "b9dd65a0d0fa79b21fc5fa83b7b4ea6503e83b40f551666cd378fa8305f33efc",
     "shared_kit_instances": {
       "forest_boulder": 6,
       "forest_crystal_blue": 3,
@@ -691,8 +696,8 @@
     "asset_id": "environment/hex_rune_shrine",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "aa929218be364a7dee08173dbc27681e3a78a39b272fe5ade948ee6fe3a3135d",
-    "glb_sha256": "7b762f9055e0cd5e1f35ac698f102e5b70d7525bb54d590896ae20237de6da32",
+    "source_sha256": "06c7f9bf9e293451fbf2eda80e28e241a534e6cbe7b0c45ee7cac7d633aa0e30",
+    "glb_sha256": "34101a5c2a91e97adefaa336cabbb5f582fd9964669616bc9f8c09c896543e91",
     "shared_kit_instances": {
       "forest_boulder": 5,
       "forest_crystal_blue": 2,
@@ -713,8 +718,8 @@
     "asset_id": "environment/hex_woodland_bridge",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "5ef380393fc58110cd59c605c50d90f64d2e15efe5929ea3e445c5ed894e3c89",
-    "glb_sha256": "2195443dbb4712b58dc623c3dbf1fa3d3037f212ed3cd30db24f4c026f113024",
+    "source_sha256": "910802a0a01b1011d175510b9f271bc8b63ffbe608f83a6abe9ccce02910bf2e",
+    "glb_sha256": "f61bc6212b37fc0c41a372b906520e8c18d9d52ef330365e963f5f7ee83eb118",
     "shared_kit_instances": {
       "forest_boulder": 9,
       "forest_bridge_plank": 15,
@@ -810,8 +815,8 @@
     "asset_id": "environment/hex_butterfly_glade",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "82a553ff192d20a66fec81da7c4065fe6abd6fe3f23f7aa77d44a8ce7d4b8c8b",
-    "glb_sha256": "88f0569f9c880509f93acb2f8c4f3bebee94506b070d66d3de339d3fef233cb9",
+    "source_sha256": "b03fd88a3f69b56c3bd9b18bcc19d1e5cb5aeec1a80c564571a03c9ff6e14af9",
+    "glb_sha256": "03f110e09953dee4144d29aa1955a2ec4478d521775c3cc55980f40e43fa8c32",
     "shared_kit_instances": {
       "forest_boulder": 1,
       "forest_butterfly_cyan": 2,
@@ -833,8 +838,8 @@
     "asset_id": "environment/hex_dream_menagerie",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "3152a9c23c5affdbce818aad11c4e4c1dd51482c634fbc7d8754a922c5adc285",
-    "glb_sha256": "b951f6fffc707a2b7ef3314e0659f4c72450dddec9ebb58bb4f55098433bb67a",
+    "source_sha256": "99437463d17283601633f3a25e235291f9e29e00e63a8df5710616ec0b25c67b",
+    "glb_sha256": "0e03d4ba320b7f61fafc490ae8cbf51833613cdc2fce07ab4ab34baecc7fffb6",
     "shared_kit_instances": {
       "forest_boulder": 1,
       "forest_butterfly_cyan": 1,
@@ -858,8 +863,8 @@
     "asset_id": "environment/hex_hollow_watchers",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "8f9c6ff4c7383ff94ba709ee8cadfffa4369bcb8ffa0ece18ef85d597ddb53de",
-    "glb_sha256": "c3e7367fea62376e21fad6866b1fd8b94fdfb1af3f1005316d7e2353600f9701",
+    "source_sha256": "cb7eb6adf63a6d9a4191d5508b06149d62bb211a68bbc776d9601dbcb8a90dd5",
+    "glb_sha256": "4c19ebcc713f3ab244f325d54d68e5ccee64df0e62670b57457035d7b3b1b607",
     "shared_kit_instances": {
       "forest_boulder": 1,
       "forest_crystal_purple": 1,
@@ -876,5 +881,21 @@
       "forest_mushroom_small": 3,
       "forest_spiral_fern": 1
     }
+  },
+  {
+    "asset": "props/crossbow",
+    "asset_id": "props/crossbow",
+    "round_trip_max_bounds_error": 0.0,
+    "geometry_finite": true,
+    "source_sha256": "27e6cf2f83d61c3c4f5c96fe1eac19477ab1b71fd9cd0a14526e9d89d398ccc6",
+    "glb_sha256": "b226f620315dcc4c8a345d48eeba5fb1f4174aa8f3b349d86eaa80c0b4b7b1a8"
+  },
+  {
+    "asset": "props/evil_shield",
+    "asset_id": "props/evil_shield",
+    "round_trip_max_bounds_error": 0.0,
+    "geometry_finite": true,
+    "source_sha256": "0187cc11eedd383bce20b44f104ead882606dae6775996dd43db8b58756d7363",
+    "glb_sha256": "7357f62b1a09bf07d9bc92301882692e42bfc353e5286021b14835bff8a007b2"
   }
 ]

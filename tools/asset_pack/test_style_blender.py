@@ -191,5 +191,9 @@ class BlenderStyleTests(unittest.TestCase):
 
 
 if __name__=='__main__':
-    result=unittest.TextTestRunner(verbosity=2).run(unittest.defaultTestLoader.loadTestsFromTestCase(BlenderStyleTests))
+    sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
+    from tools.asset_catalog.test_export_materials_blender import SelectedMaterialTests
+    suite=unittest.TestSuite(unittest.defaultTestLoader.loadTestsFromTestCase(cls)
+                             for cls in (BlenderStyleTests,SelectedMaterialTests))
+    result=unittest.TextTestRunner(verbosity=2).run(suite)
     if not result.wasSuccessful():raise RuntimeError('Blender art style regression tests failed')

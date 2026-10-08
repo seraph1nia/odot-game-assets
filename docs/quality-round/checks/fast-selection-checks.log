@@ -1,0 +1,8 @@
+[check] $ python3 -m tools.checks
+All checks passed!
+...............................................
+----------------------------------------------------------------------
+Ran 47 tests in 0.076s
+
+OK
+Fast checks passed; 47 tests and 2 inline JavaScript programs

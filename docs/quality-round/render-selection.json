@@ -1,0 +1,102 @@
+{
+  "before": [
+    {
+      "id": "environment/hex_hollow_watchers",
+      "source": "sources/environment/hex_hollow_watchers.blend",
+      "collection": null,
+      "object": null,
+      "absolute_source": "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/.cache/quality-round/matched-before/sources/environment/hex_hollow_watchers.blend",
+      "source_sha256": "8f9c6ff4c7383ff94ba709ee8cadfffa4369bcb8ffa0ece18ef85d597ddb53de"
+    },
+    {
+      "id": "environment/hex_butterfly_glade",
+      "source": "sources/environment/hex_butterfly_glade.blend",
+      "collection": null,
+      "object": null,
+      "absolute_source": "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/.cache/quality-round/matched-before/sources/environment/hex_butterfly_glade.blend",
+      "source_sha256": "82a553ff192d20a66fec81da7c4065fe6abd6fe3f23f7aa77d44a8ce7d4b8c8b"
+    },
+    {
+      "id": "environment/hex_dream_menagerie",
+      "source": "sources/environment/hex_dream_menagerie.blend",
+      "collection": null,
+      "object": null,
+      "absolute_source": "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/.cache/quality-round/matched-before/sources/environment/hex_dream_menagerie.blend",
+      "source_sha256": "3152a9c23c5affdbce818aad11c4e4c1dd51482c634fbc7d8754a922c5adc285"
+    },
+    {
+      "id": "environment/hex_crystal_grove",
+      "source": "sources/environment/hex_crystal_grove.blend",
+      "collection": null,
+      "object": null,
+      "absolute_source": "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/.cache/quality-round/matched-before/sources/environment/hex_crystal_grove.blend",
+      "source_sha256": "a5c2c1655c3170f8c2aba3b0ebe33e0e6192f141373b061751ac61abe1885884"
+    },
+    {
+      "id": "buildings/archery_range",
+      "source": "sources/buildings/archery_range.blend",
+      "collection": null,
+      "object": null,
+      "absolute_source": "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/.cache/quality-round/matched-before/sources/buildings/archery_range.blend",
+      "source_sha256": "989f03c4a6fde7ab2b0cf7a3c06d0541366e893b4ee8de5910d16a09b5e862ee"
+    },
+    {
+      "id": "characters/knight",
+      "source": "sources/characters/knight.blend",
+      "collection": null,
+      "object": null,
+      "absolute_source": "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/.cache/quality-round/matched-before/sources/characters/knight.blend",
+      "source_sha256": "950180d36ace11a1845a5ef23256d2bacf357bb8e4f5a6838584d55d0557c6ee"
+    }
+  ],
+  "after": [
+    {
+      "id": "environment/hex_hollow_watchers",
+      "source": "sources/environment/hex_hollow_watchers.blend",
+      "collection": null,
+      "object": null,
+      "absolute_source": "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/hex_hollow_watchers.blend",
+      "source_sha256": "cb7eb6adf63a6d9a4191d5508b06149d62bb211a68bbc776d9601dbcb8a90dd5"
+    },
+    {
+      "id": "environment/hex_butterfly_glade",
+      "source": "sources/environment/hex_butterfly_glade.blend",
+      "collection": null,
+      "object": null,
+      "absolute_source": "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/hex_butterfly_glade.blend",
+      "source_sha256": "b03fd88a3f69b56c3bd9b18bcc19d1e5cb5aeec1a80c564571a03c9ff6e14af9"
+    },
+    {
+      "id": "environment/hex_dream_menagerie",
+      "source": "sources/environment/hex_dream_menagerie.blend",
+      "collection": null,
+      "object": null,
+      "absolute_source": "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/hex_dream_menagerie.blend",
+      "source_sha256": "99437463d17283601633f3a25e235291f9e29e00e63a8df5710616ec0b25c67b"
+    },
+    {
+      "id": "environment/hex_crystal_grove",
+      "source": "sources/environment/hex_crystal_grove.blend",
+      "collection": null,
+      "object": null,
+      "absolute_source": "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/hex_crystal_grove.blend",
+      "source_sha256": "6b053ede80e39a01fb3603d489f579369a1c8d2c30afc55bc981dbf56605010a"
+    },
+    {
+      "id": "buildings/archery_range",
+      "source": "sources/buildings/archery_range.blend",
+      "collection": null,
+      "object": null,
+      "absolute_source": "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/buildings/archery_range.blend",
+      "source_sha256": "d0dfd35060be8fbd501f136034338212d1b53f220ccf2671a7e4d558262085bb"
+    },
+    {
+      "id": "characters/knight",
+      "source": "sources/characters/knight.blend",
+      "collection": null,
+      "object": null,
+      "absolute_source": "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/characters/knight.blend",
+      "source_sha256": "b8e5d3e130a502d4bb894431836066c63ad9f53b53225f10fbe0960fdc341f6b"
+    }
+  ]
+}

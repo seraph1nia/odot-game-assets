@@ -1,0 +1,32 @@
+{
+  "boundary": "Blender5.2 exporter nodes.__gather_mesh gltf_apply modifier branch takes evaluated to_mesh materials; object effective slots remain correct",
+  "original_data": [
+    "fixture_red"
+  ],
+  "object_effective": [
+    "fixture_blue"
+  ],
+  "evaluated_effective": [
+    "fixture_blue"
+  ],
+  "evaluated_to_mesh_data": [
+    "fixture_red"
+  ],
+  "True": {
+    "triangles": 216,
+    "materials": 1,
+    "bytes": 16220,
+    "blue_override_primitive_materials": [
+      "fixture_red"
+    ]
+  },
+  "False": {
+    "triangles": 24,
+    "materials": 2,
+    "bytes": 2352,
+    "blue_override_primitive_materials": [
+      "fixture_blue"
+    ]
+  },
+  "option_decision": "export_apply=False preserves OBJECT color but omits authored Bevel geometry (triangle difference); not a compatible correction. RetainTrue and normalize only evaluated material-loss meshes export-only."
+}

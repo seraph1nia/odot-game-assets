@@ -417,7 +417,8 @@ The [pipeline/check index](.agents/skills/asset-art-direction/pipeline/index.md#
 explains each command's coverage and side effects without introducing another
 builder/exporter. Style audits inspect existing sources without saving or restyling;
 older assets/shared libraries retain existing preview exemptions. Fixture tests use
-temporary assets and include a real test GLB export. CI runs fixture and catalog
+temporary assets and include real selected GLB exports, effective DATA/OBJECT
+material precedence, shared variants and failure cleanup. CI runs fixture and catalog
 source-style checks after Blender installation. Mechanical success never certifies
 visual resemblance, palette balance, animation appeal or target-size readability.
 
@@ -446,11 +447,27 @@ invalidate cached results. An unchanged verified run starts no Blender workers.
 Set `BLENDER` or pass `--blender /path/to/blender` to choose the executable; otherwise
 the runner uses PATH or this machine's pinned Blender installation.
 
+Selected export preserves effective object material overrides even when Blender's
+applied-modifier mesh conversion returns only underlying DATA materials. Only
+modified divergent meshes get temporary, shared per-effective-slot variants;
+original data/slot bindings are restored and variants removed in `finally`, also
+on failure. Source geometry/materials are never rewritten, and modifier application
+and skin/action export remain enabled. The actual regression and affected closure
+are documented in [the quality-round fidelity report](docs/quality-round/export-fidelity.md).
+
 Shared kit geometry is embedded in individual models. A kit edit invalidates checks
 for dependent models and library exports, but exporting existing sources cannot
 propagate that edit into their embedded geometry. The command reports this when it
 detects a library change. Rebuild the affected models explicitly using the commands
 above after preserving manual edits, then rerun their checks.
+
+Saved-source `render_previews.py` accepts canonical IDs or unambiguous short names,
+including the three dreaming tiles. It resolves source ownership through the
+existing catalog export planner (associations override manifest fields), not the
+supplied-reference-only pack list. Unknown/ambiguous names and preview filename
+collisions fail before opening a source. It renders the saved whole presentation
+scene without rebuilding or saving it; component thumbnails remain a separate
+GLB-render route.
 
 Every worker prints a start, finish, duration, and log location. Full logs and job
 timings are retained in `.cache/asset-check/`; failures print the final twenty log

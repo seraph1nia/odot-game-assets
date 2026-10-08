@@ -1,0 +1,132 @@
+[
+  {
+    "original": "docs/quality-round/evidence/portable/buildings/weaver/current-on.png",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/portable/buildings/weaver/current-on.png",
+    "sha256": "e2d386a95b642c1e54c71d2a59b3e5f907b9f4059f0e6323f4c1d2b69385543e"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_berserker_unit/current-idle.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_berserker_unit/current-idle.webm",
+    "sha256": "7973e86c210c88f1f3d14ad2d3340dbb7277369c02e712ff4a84e0746849c496"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_berserker_unit/current-walk.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_berserker_unit/current-walk.webm",
+    "sha256": "6333b98b4d183fc9a5dcb9c02feb0933a897647c3a6506545461dfeba377b569"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_berserker_unit/current-run.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_berserker_unit/current-run.webm",
+    "sha256": "6210d4076395323e85d95b968c0612739811df929c364abdadd6c5c74659ea27"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_berserker_unit/current-attack.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_berserker_unit/current-attack.webm",
+    "sha256": "e0e1cf93ee550522bf32253492115d296aa522a5c235735a7d70b2aaaaa58a2f"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_berserker_unit/current-hit.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_berserker_unit/current-hit.webm",
+    "sha256": "ec95387b848eba998464267105b54635426c3999d073c64729508fdc02b89786"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_berserker_unit/current-death.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_berserker_unit/current-death.webm",
+    "sha256": "f1fb68e554a6f3790569a842166a4f156864d56c6e1b8123dbdfa12f2975e63c"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_mage_unit/current-idle.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_mage_unit/current-idle.webm",
+    "sha256": "2ae3b45b0c55033f781b42519506546d875e99be5d38406ead36c95f82c8a668"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_mage_unit/current-walk.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_mage_unit/current-walk.webm",
+    "sha256": "a3e4adf7106c3b6d123d8d1f8bf836bd0c004006f0ce2ac4d670f11a4c8c9fed"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_mage_unit/current-run.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_mage_unit/current-run.webm",
+    "sha256": "e15f1eaa1a032074b5b96a456688ebd9b20eaf776f059e8b6b766b330e331859"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_mage_unit/current-attack.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_mage_unit/current-attack.webm",
+    "sha256": "e514e8aa29f7c54eb4134301d3a1dfacc93c4b60af14ac29589b4760de1a220b"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_mage_unit/current-hit.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_mage_unit/current-hit.webm",
+    "sha256": "93cd680f41439d7885b8a6a81fd89624a1399f21b6ccbbf8bea085dea271bc9f"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_mage_unit/current-death.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_mage_unit/current-death.webm",
+    "sha256": "47742cf43ddccd230c36353d4108904ab37e12b8a9117d4b108585eaf6f6d1d2"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_melee_unit/current-idle.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_melee_unit/current-idle.webm",
+    "sha256": "ce9ba538c5293cac444140690563a460fa45bb1c8092650aee4f7d42333a5dcc"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_melee_unit/current-walk.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_melee_unit/current-walk.webm",
+    "sha256": "302d3b87aeb34a17574e5249b5e6df67b382543704819dfa548b2a18a1f607e8"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_melee_unit/current-run.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_melee_unit/current-run.webm",
+    "sha256": "08de21eef8660e3d4a9ed0fe51bb22e1bab869e6fa2decc49f7b313ee01f515d"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_melee_unit/current-attack.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_melee_unit/current-attack.webm",
+    "sha256": "8fe05852ded55fabac2dbc8f23e996c74a22109d8e437fdd7f40aab52a76fd1f"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_melee_unit/current-hit.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_melee_unit/current-hit.webm",
+    "sha256": "6581d8b01a6d0cdf24e577cc438c4c2cfb93ba70fada0a886ab18842ee22fc01"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_melee_unit/current-death.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_melee_unit/current-death.webm",
+    "sha256": "9df4b6b5a7007f312cfe1086400a960f3a94e5e5f2036949051f7ec6acc24ca0"
+  },
+  {
+    "original": "docs/quality-round/evidence/portable/characters/evil_ranged_unit/current-on.png",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/portable/characters/evil_ranged_unit/current-on.png",
+    "sha256": "b2f45855bced85179c1cc42f220a4976331de5c05758d3bd2f1256f1c016e92d"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_ranged_unit/current-idle.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_ranged_unit/current-idle.webm",
+    "sha256": "7e63699be1d15cdbc3be908de75dcf628dbd713c0ebc6422d0c6028525e32dd6"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_ranged_unit/current-walk.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_ranged_unit/current-walk.webm",
+    "sha256": "7f41b2647fa465378150663e5ccda301bc3d8a17857e63dc27a0489aab67e905"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_ranged_unit/current-run.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_ranged_unit/current-run.webm",
+    "sha256": "899cf370accee4e565d9b8a5e19e1f7ed25e21f4ea03cb24561a74160edcf6c4"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_ranged_unit/current-attack.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_ranged_unit/current-attack.webm",
+    "sha256": "73c0876fa9074076fc52f30ad9a9492fdf507e8349820fa778e4defb4dfa8c1e"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_ranged_unit/current-hit.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_ranged_unit/current-hit.webm",
+    "sha256": "aec4f4d5b1d1cb268a07ff01804bd41e24b0fecf32d9837c07478d35cdce7f8d"
+  },
+  {
+    "original": "docs/quality-round/evidence/motion/evil_ranged_unit/current-death.webm",
+    "preserved": "docs/quality-round/history/before-material-fix/evidence/motion/evil_ranged_unit/current-death.webm",
+    "sha256": "a8fe13623f74a0def3881a555699ad8c2d763d6b14f6f848b3eade8d1d52e089"
+  }
+]

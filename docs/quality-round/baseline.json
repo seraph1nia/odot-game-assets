@@ -1,0 +1,4748 @@
+{
+  "revision": "e929786c734a3c6e555311e396bace60bcb0bcad",
+  "runtime": "Blender 5.2.2 LTS d13f752e3b9c",
+  "standard": "e929786",
+  "files": {
+    "exports/asset_manifest.json": {
+      "sha256": "c009f6250ae801dd175e3c1f45067acd4cbee4dc8b6b749b2e7e5340632eb806",
+      "bytes": 40777
+    },
+    "exports/audio/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "exports/buildings/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "exports/buildings/archery_range.glb": {
+      "sha256": "773325095940b3b3379338e2d84af5398c41a922b676e5f1f15ef3762babbf81",
+      "bytes": 5483064
+    },
+    "exports/buildings/arrow_tower.glb": {
+      "sha256": "c23bada7f7e3fee2ba1a954cb55efcb8de68731136e9785e9de9ea7d6a030a76",
+      "bytes": 1261112
+    },
+    "exports/buildings/bakery.glb": {
+      "sha256": "643158e9b686a6a1d9e1f8b90533da47deb57923baa3b7a3e1e1a3bc894e27fe",
+      "bytes": 1607316
+    },
+    "exports/buildings/barracks.glb": {
+      "sha256": "142fc3044369e6e6af04f4dd3c81966280d7ccffe2d335a9033f103d2e1ade7b",
+      "bytes": 1480168
+    },
+    "exports/buildings/bombarding_tower.glb": {
+      "sha256": "d85259b5fd09e071d15d1da153312b07556017cbbd7b6746b5b1319a709840a8",
+      "bytes": 1082380
+    },
+    "exports/buildings/gold_mine.glb": {
+      "sha256": "9b7dd112218fe0241c89ec7482cb0175c35219e82f3091f4270de97b1036902f",
+      "bytes": 789880
+    },
+    "exports/buildings/magic_academy.glb": {
+      "sha256": "e2bcefa7a3ead6afff0400198b895d4b5af448c4e831aa24653c3c92438107c4",
+      "bytes": 1480140
+    },
+    "exports/buildings/metal_mine.glb": {
+      "sha256": "f03e7487735ac055a06acf7c6715cae87ff9cd771284168ee16fcf0b6cd1cbaa",
+      "bytes": 5252972
+    },
+    "exports/buildings/research_tower.glb": {
+      "sha256": "22ee71ebef473aec72d869d49cc1faa12d724ed8c4f408abb68d15d678d09ac4",
+      "bytes": 5611168
+    },
+    "exports/buildings/stone_cutter.glb": {
+      "sha256": "b794740ad916ed966cdde669e0fe582820b30051524260cdf8564b39e732d384",
+      "bytes": 1279604
+    },
+    "exports/buildings/tavern.glb": {
+      "sha256": "2a72735cd74e43cecee0c2ea777d3657cfad4e2f57a950a545805700f67dff29",
+      "bytes": 1562028
+    },
+    "exports/buildings/town_hall.glb": {
+      "sha256": "d4e38bbf4a1754701211f937b6eee79fb105b03a13e547c179ba18172822150b",
+      "bytes": 8849548
+    },
+    "exports/buildings/trade_market.glb": {
+      "sha256": "3279b62cc6eb67da1ff95210b91735575daa0aa93f1ddf79e8ad3b8ab6d09fdb",
+      "bytes": 1256240
+    },
+    "exports/buildings/tree_house.glb": {
+      "sha256": "77b46f53fa0dc56e1a7102e9f14dd4d04ad474167f4ef626c8c718519d476d5e",
+      "bytes": 796256
+    },
+    "exports/buildings/weaver.glb": {
+      "sha256": "bbffda6346918180bfe8b72cd54870dde97559cafc66309e078c52318c1f5247",
+      "bytes": 5427916
+    },
+    "exports/buildings/woodcutter_hut.glb": {
+      "sha256": "145107c3a2f3154da970bd1a76ecfba0110af7c841aa211324ac6415d39e33ee",
+      "bytes": 1376604
+    },
+    "exports/characters/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "exports/characters/archer.glb": {
+      "sha256": "904f890755acd43276e5f4f832a0194ac7f2485b07095f44a40f1990d700fc42",
+      "bytes": 455172
+    },
+    "exports/characters/berserker.glb": {
+      "sha256": "a9782457f77466439d5881f6c0051cd84ad7173ec6a364aac8a094a4cfa25930",
+      "bytes": 1080084
+    },
+    "exports/characters/evil_berserker_unit.glb": {
+      "sha256": "3902fd908b742c9ab2b3e5d8dfcb052a2e61dde50ee56fc48eec0041893fe3fb",
+      "bytes": 716616
+    },
+    "exports/characters/evil_mage_unit.glb": {
+      "sha256": "e7c0d79a21d618124db1a43258110c830e0a6a4163144f092107294edfab438d",
+      "bytes": 631112
+    },
+    "exports/characters/evil_melee_unit.glb": {
+      "sha256": "9d97c29db7eb0e1639508b0ec7943bb7bd062bda5fed8a24219d92c9a7bc3e84",
+      "bytes": 791840
+    },
+    "exports/characters/evil_ranged_unit.glb": {
+      "sha256": "5808c64a27e3ae9e0ce193c1b979625d76c55b50d96bc390e73415a5df7a95bc",
+      "bytes": 712228
+    },
+    "exports/characters/knight.glb": {
+      "sha256": "1ffa02091ffae7617cd7cbb1c1108150703409086e8380f12c080e9f6bbb2130",
+      "bytes": 662780
+    },
+    "exports/characters/mage.glb": {
+      "sha256": "76b9980295c51ea178878afb6fc7a5ea7e93af2ccf2930e0bcffcbd99ff6ff55",
+      "bytes": 509272
+    },
+    "exports/effects/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "exports/environment/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "exports/environment/components/forest_boulder.glb": {
+      "sha256": "88d721b332224223a91b03f0185a80079b29da321c126af8f11d70fbf9335c1e",
+      "bytes": 532572
+    },
+    "exports/environment/components/forest_bridge_plank.glb": {
+      "sha256": "3bbe29bf0da09a8854e91fa1a1d0d7cec4101fe364599f97b92258ba2517955e",
+      "bytes": 350896
+    },
+    "exports/environment/components/forest_bridge_post.glb": {
+      "sha256": "3203700af34d91dd830a51bf0c139a5af6bb811d80632e3dc0da9f5b5697a0dc",
+      "bytes": 513848
+    },
+    "exports/environment/components/forest_bridge_rail.glb": {
+      "sha256": "530d673b3b837a5bec8437fcb0a042be09c6340defbb14eea4144efff549715a",
+      "bytes": 355064
+    },
+    "exports/environment/components/forest_butterfly_cyan.glb": {
+      "sha256": "43067049e83fc117922c16f186133bb991bd31793fe353e6f5f597615028fcf6",
+      "bytes": 557464
+    },
+    "exports/environment/components/forest_butterfly_sunset.glb": {
+      "sha256": "56134d27ae19dabdf491ef5ae923305196bcc18a1815cf78d3d52ef2ee963594",
+      "bytes": 557688
+    },
+    "exports/environment/components/forest_crystal_blue.glb": {
+      "sha256": "66bbe689d10d2cc87b262247adb8d461f6c99e0318416a8067efb44eab915a47",
+      "bytes": 3243124
+    },
+    "exports/environment/components/forest_crystal_purple.glb": {
+      "sha256": "43225b52a57a1ca1aa435f7ea40938db4952aae3231d9391f93248656e32c543",
+      "bytes": 2116972
+    },
+    "exports/environment/components/forest_fern.glb": {
+      "sha256": "4758429b9344dd459518dccb51807a63353b5cce8d48b3ef97dbf905514d5ec9",
+      "bytes": 414796
+    },
+    "exports/environment/components/forest_foam.glb": {
+      "sha256": "a6b6b5d01a5e52263786e58b577b41815d704c454cb93d81a877c5dfa66092e8",
+      "bytes": 1366764
+    },
+    "exports/environment/components/forest_hex_meadow.glb": {
+      "sha256": "36406de0a4db79e007694d1b2e83418ed1e46ea370c9b65780ea93be676d4829",
+      "bytes": 355240
+    },
+    "exports/environment/components/forest_hex_stream.glb": {
+      "sha256": "c83cf0f4509e2183a20eff14d8a82f97ef687edc8ab3e46c8d66ac008aac315b",
+      "bytes": 522936
+    },
+    "exports/environment/components/forest_hollow_tree.glb": {
+      "sha256": "c8f5cf4f06aef9cc7414d879cd3bb4755407fbec4169c5c4f5aa8d22e678f8ea",
+      "bytes": 2280864
+    },
+    "exports/environment/components/forest_jackalope.glb": {
+      "sha256": "f6d8ff16aec90fb4e3960a99f9412a0fc80365a6aef1fb463159883e29ab5448",
+      "bytes": 832100
+    },
+    "exports/environment/components/forest_lantern_flower.glb": {
+      "sha256": "cb386f1001b948e126970bb0d51fc3e87e19639d9cd1e8269070066d89ab456e",
+      "bytes": 513188
+    },
+    "exports/environment/components/forest_lantern_post.glb": {
+      "sha256": "3dc307419001367a0954c26d7e68294ce538f9ff6d4c454595dbb569e5c9b87d",
+      "bytes": 814724
+    },
+    "exports/environment/components/forest_lantern_snail.glb": {
+      "sha256": "b2693993b574e86743cfa5cb133831be1483e70d99af8121886f731bae4b9c65",
+      "bytes": 887236
+    },
+    "exports/environment/components/forest_leaf_clump.glb": {
+      "sha256": "3b41297dc9e70d3d111b13c911bd272aa58e808531b8d59ef54ad3fccad86a09",
+      "bytes": 334612
+    },
+    "exports/environment/components/forest_moon_moth.glb": {
+      "sha256": "d5f8a0224aa3d36342d9c2c9b993e630919985ce9071a8a4c445c6e0549aef48",
+      "bytes": 443248
+    },
+    "exports/environment/components/forest_moss.glb": {
+      "sha256": "12ddfecd05b27bd16faeaf73b0965d381a81428567341f762d8ec625205d8469",
+      "bytes": 344188
+    },
+    "exports/environment/components/forest_mushroom_blue.glb": {
+      "sha256": "b34f746791a47c73b4608a732900521c4cc11e7cb810f2ce2304a6849a4c6c91",
+      "bytes": 1619716
+    },
+    "exports/environment/components/forest_mushroom_purple.glb": {
+      "sha256": "fe6e178aa81e09e163ed69d7c96a5e196c73cdc87f766508cfbce985917abd91",
+      "bytes": 1629700
+    },
+    "exports/environment/components/forest_mushroom_small.glb": {
+      "sha256": "c98d4556cb00aafd690419a9a1298bd6b5aa01cc25dd02a56d107e212aec2f27",
+      "bytes": 1619876
+    },
+    "exports/environment/components/forest_root.glb": {
+      "sha256": "05e9b439119815638f850301327865d9379931eb172c5e998e91d473147a72a4",
+      "bytes": 417868
+    },
+    "exports/environment/components/forest_rune_circle.glb": {
+      "sha256": "50e7e76938c15693fa655e751ec4648beef7e69f29691a555bb1febc4a3f8ed2",
+      "bytes": 122584
+    },
+    "exports/environment/components/forest_rune_diamond.glb": {
+      "sha256": "8df109603befea666f724ab5c0dd78f56c916c02c95fba857b4874684de09cf2",
+      "bytes": 16612
+    },
+    "exports/environment/components/forest_rune_monolith.glb": {
+      "sha256": "c6fb4c929116d719923852d02c7cc8197fd94131d753a54866c1c50d82c2df60",
+      "bytes": 390584
+    },
+    "exports/environment/components/forest_shrine_plinth.glb": {
+      "sha256": "0048c6c81f4a0e17c506a935b8b3525f3ee8953e4765622d1c7359d972117ebe",
+      "bytes": 443148
+    },
+    "exports/environment/components/forest_spiral_fern.glb": {
+      "sha256": "dbc8161adb560e647dfdbe1965f660e33d882ba666b1f2a7d411b4e3e3a8b306",
+      "bytes": 440444
+    },
+    "exports/environment/components/forest_spiral_tree.glb": {
+      "sha256": "c49a9dfd4cd1ebd52a05c04eddeeb72c88fb83eee599410764fe1c2981b82260",
+      "bytes": 1038932
+    },
+    "exports/environment/components/forest_stone_arch_block.glb": {
+      "sha256": "058ec621f97be94b7d78717830c00341b7f3841d009f080b417477d8be90ec80",
+      "bytes": 228780
+    },
+    "exports/environment/components/forest_stone_block.glb": {
+      "sha256": "69c953ea885275355092859af46f1afe13d65babef98c78d612ce33ec4c35f48",
+      "bytes": 228764
+    },
+    "exports/environment/components/forest_tree_snag.glb": {
+      "sha256": "6f3920303ed5104cb1fc554dc45b7b42c175420212391d5d8a17c2ca0c551c3e",
+      "bytes": 441064
+    },
+    "exports/environment/components/forest_waterfall.glb": {
+      "sha256": "8438d9f1b06450daa5d4e4ad48dd3dac43cd09eb4056bd8b4c293e5bcde205a4",
+      "bytes": 1307000
+    },
+    "exports/environment/hex_bioluminescent_grove.glb": {
+      "sha256": "8b94aa8c805109f35af8459de70c538557493f2c1f87c0039be84f368b215720",
+      "bytes": 6879756
+    },
+    "exports/environment/hex_butterfly_glade.glb": {
+      "sha256": "88f0569f9c880509f93acb2f8c4f3bebee94506b070d66d3de339d3fef233cb9",
+      "bytes": 6042676
+    },
+    "exports/environment/hex_crystal_grove.glb": {
+      "sha256": "065f7a0e01e07565eac078fd1b2cbc4eef2f2d2ee562fa197dc507550ecd8169",
+      "bytes": 8572872
+    },
+    "exports/environment/hex_crystal_shrine.glb": {
+      "sha256": "7e6ac9aa491a2bda302fb4d80a58959e23d369ad3b170bc0268496628f6a9279",
+      "bytes": 8785512
+    },
+    "exports/environment/hex_dream_menagerie.glb": {
+      "sha256": "b951f6fffc707a2b7ef3314e0659f4c72450dddec9ebb58bb4f55098433bb67a",
+      "bytes": 8390756
+    },
+    "exports/environment/hex_glowing_mushrooms.glb": {
+      "sha256": "a2e59df05aa671bcd2ab41dc3363051679c6785a2c1fc2706b415e5a453172a5",
+      "bytes": 8514664
+    },
+    "exports/environment/hex_hollow_watchers.glb": {
+      "sha256": "c3e7367fea62376e21fad6866b1fd8b94fdfb1af3f1005316d7e2353600f9701",
+      "bytes": 8267572
+    },
+    "exports/environment/hex_lantern_bridge.glb": {
+      "sha256": "7139818ffda722002f52385ed47e46d0fc687ce3bfc03b08d3d292967f338c95",
+      "bytes": 7681604
+    },
+    "exports/environment/hex_meadow_building.glb": {
+      "sha256": "240a93d7a6ba3cf88dddea5704327e0c13f52699c00bc923524b69a6726d6c40",
+      "bytes": 228636
+    },
+    "exports/environment/hex_meadow_character.glb": {
+      "sha256": "71ada6837e3a1a8bf0b363638ea22947fce902db7297e698910dfff52b1d5ffd",
+      "bytes": 210264
+    },
+    "exports/environment/hex_mystical_grove.glb": {
+      "sha256": "2571f36dbfd74a08d078bbbc4daff293d6cf139f97038a1809eedf6bb1cc81c5",
+      "bytes": 8554384
+    },
+    "exports/environment/hex_rune_shrine.glb": {
+      "sha256": "7b762f9055e0cd5e1f35ac698f102e5b70d7525bb54d590896ae20237de6da32",
+      "bytes": 7184748
+    },
+    "exports/environment/hex_woodland_bridge.glb": {
+      "sha256": "2195443dbb4712b58dc623c3dbf1fa3d3037f212ed3cd30db24f4c026f113024",
+      "bytes": 7843060
+    },
+    "exports/previews/archer.png": {
+      "sha256": "65101e81ff5efe0cd4b38ed31465a6e2aa9ac2346231ad343eba3bfd0f479011",
+      "bytes": 955622
+    },
+    "exports/previews/archery_range.png": {
+      "sha256": "b706ae18d8c302c3e32646fde27d2857960789ddac9d82d5a4b61a9cc75ac46c",
+      "bytes": 1826438
+    },
+    "exports/previews/arrow_tower.png": {
+      "sha256": "ea4b3fd42d44e9b8fe3ee76024f139ed66f691151da0e26917750f7175fb956c",
+      "bytes": 1047093
+    },
+    "exports/previews/autobattler_overview.png": {
+      "sha256": "09438a8f25939896f94a25a35bcbbe3a818d37732e77f1d2c4c350a0342dccf3",
+      "bytes": 2814065
+    },
+    "exports/previews/bakery.png": {
+      "sha256": "0b85bef06294d2e727bc953f9a6a342942f5a4daac4343306b12792fa114b529",
+      "bytes": 1042813
+    },
+    "exports/previews/barracks.png": {
+      "sha256": "ebf4b5da69d7b92f3a46e22e68a8326f83d5168b3d43b6fcdcb43a09acc0c186",
+      "bytes": 1036251
+    },
+    "exports/previews/berserker.png": {
+      "sha256": "74490634d44e492255492250aac7b37a8839ba8cb0e021de2abe4cccbfd9779a",
+      "bytes": 1001153
+    },
+    "exports/previews/bombarding_tower.png": {
+      "sha256": "d04d9b732249e06f1f29b7b09c701a2df9697de74061bf933e69686de4fa69ec",
+      "bytes": 1007912
+    },
+    "exports/previews/evil_berserker_unit.png": {
+      "sha256": "75c12746c9dee260ea70bec5e57f6099635399261708f4dc384372ad4c5f70bb",
+      "bytes": 996170
+    },
+    "exports/previews/evil_mage_unit.png": {
+      "sha256": "5bbafcea6b79323934fef31d94f5d898cbc84d080dfd3400dfc7317650d6cb5e",
+      "bytes": 954698
+    },
+    "exports/previews/evil_melee_unit.png": {
+      "sha256": "0e2bfb6a266e2c0607cc26880078ce537f64544f3fc6bd00801dc20d0d29be14",
+      "bytes": 963524
+    },
+    "exports/previews/evil_overview.png": {
+      "sha256": "744de79793945c1cf7bff663238c09c49e30b05e942e158e5f52b893bdffd32b",
+      "bytes": 2499549
+    },
+    "exports/previews/evil_ranged_unit.png": {
+      "sha256": "894cc20d7b03f0f23f51aed52505dbba4f487b2a06d520e0c75f5914dbadfe29",
+      "bytes": 951125
+    },
+    "exports/previews/gold_mine.png": {
+      "sha256": "2f4a5514a1264830b8e98df3c878a5b17a4b9bd5c17b82d0492968c5969c05ad",
+      "bytes": 1016819
+    },
+    "exports/previews/hex_bioluminescent_grove.png": {
+      "sha256": "89a9cb3520336a8e452461387dd2113ea7a098ec9ac8818ec4afe30fbd602ce1",
+      "bytes": 1678437
+    },
+    "exports/previews/hex_butterfly_glade.png": {
+      "sha256": "6f4ac5dfd6f4f3e6da40c5b911e3fcab549b7ba36f5953880031f78675e66fc2",
+      "bytes": 1660761
+    },
+    "exports/previews/hex_crystal_grove.png": {
+      "sha256": "6af51aee831675fd9cd7e7d76ad22d3d02000292d2aa3c365d757446dbf807d6",
+      "bytes": 1655615
+    },
+    "exports/previews/hex_crystal_shrine.png": {
+      "sha256": "1b27e2ae847374e469af6612d7f4bb4b6e494689a4defe034084b8d0b4312f0a",
+      "bytes": 1658551
+    },
+    "exports/previews/hex_dream_menagerie.png": {
+      "sha256": "787fc0f91a3ab8f08f4aa76999ede6e44779d77a1e66bc76c4915aa8e9b13df9",
+      "bytes": 1612533
+    },
+    "exports/previews/hex_glowing_mushrooms.png": {
+      "sha256": "d5db6c7c6944dfe8715eaa175f525868be52d2dcb8dbe2d58f618c79d617c93a",
+      "bytes": 1646163
+    },
+    "exports/previews/hex_hollow_watchers.png": {
+      "sha256": "432bc06365c4df70f2151bb4540c46c44a925ef5393b339d421d0a96ebcd3188",
+      "bytes": 1632696
+    },
+    "exports/previews/hex_lantern_bridge.png": {
+      "sha256": "88b9ea77ee2791864e3bceac9e684cd578e2d4e42fe6c8df5a8c252b36c62f3a",
+      "bytes": 1659772
+    },
+    "exports/previews/hex_mystical_grove.png": {
+      "sha256": "026b5bf3470af18b513dc62380908c3edf48d7ae8b7bda21059569fec9b4d872",
+      "bytes": 1633947
+    },
+    "exports/previews/hex_rune_shrine.png": {
+      "sha256": "f9e45959982c51465feadd0466315890224ff67dd6f885a1cfcc73d341b1ecda",
+      "bytes": 1693663
+    },
+    "exports/previews/hex_woodland_bridge.png": {
+      "sha256": "40e3335c9a2cf344420c79c9e46d89fcc8db4f5ce1a4c61515be858a91348bbd",
+      "bytes": 1673713
+    },
+    "exports/previews/knight.png": {
+      "sha256": "695235ea6a7ce120ca009e0fe9102fb0fe8010379ab08ad25e7b70a2de857824",
+      "bytes": 988048
+    },
+    "exports/previews/mage.png": {
+      "sha256": "2bab8bf72e57c9f5efb58dc4d6198086c45a4b4c24ed94eebda935a8a9929224",
+      "bytes": 989781
+    },
+    "exports/previews/magic_academy.png": {
+      "sha256": "3b618c237516b37bac6d8e3a26b632775f32865b7b191e3890da6ea4849e22ba",
+      "bytes": 1017955
+    },
+    "exports/previews/metal_mine.png": {
+      "sha256": "0dcb7cb66e9b8340e0d700574463a528c66dc54592652ed9cbe25f120b945796",
+      "bytes": 1757607
+    },
+    "exports/previews/overview.png": {
+      "sha256": "ac10e9b533d621dbde7119bc0ce4fb5cf7fc64db2f7c7bfb06bd6a0916d51f7e",
+      "bytes": 2608031
+    },
+    "exports/previews/research_tower.png": {
+      "sha256": "f8605af8c3ab447df0b8e8b22c00a3d197a6d3fa47b8508f78fd65877af82f0f",
+      "bytes": 1823764
+    },
+    "exports/previews/stone_cutter.png": {
+      "sha256": "a63b683339af18b06c7075da1a31adc4632ea3b72eda68adfea6668a6adac22b",
+      "bytes": 1042164
+    },
+    "exports/previews/tavern.png": {
+      "sha256": "1ea1feb8962978adbc51f8ad6d564a82c5c3e00de31ab0b0ae28180468397f53",
+      "bytes": 1058190
+    },
+    "exports/previews/town_hall.png": {
+      "sha256": "4d417a2fbf226de261b01c37535ae91c6c47dfb37d91d2ce564185419cc04ca9",
+      "bytes": 1916582
+    },
+    "exports/previews/trade_market.png": {
+      "sha256": "788e628b8b09c8c92898ad799182b85a1f4b6277b436612a023ce73e86a3c22d",
+      "bytes": 1017376
+    },
+    "exports/previews/tree_house.png": {
+      "sha256": "8e990e8b4dd8863fd5866da2c92beed82d940aef2f78d18e38874e2cea6fff2d",
+      "bytes": 1043970
+    },
+    "exports/previews/weaver.png": {
+      "sha256": "32dbc3d32033cec2bef93d1ea96e57687c3330b4da015c7a9ae94f2b03f6536c",
+      "bytes": 1823889
+    },
+    "exports/previews/woodcutter_hut.png": {
+      "sha256": "c5c1cf2b26b3ffbbdda13ba6d4d8df84336d6e25c067ba5009f5e8024e354d7b",
+      "bytes": 1021014
+    },
+    "exports/props/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "exports/props/arrow.glb": {
+      "sha256": "c699a5cfb4c0df39f88fdb4a8c7b29bb4f196589d46c24a13d377423b515c397",
+      "bytes": 4960
+    },
+    "exports/props/axe.glb": {
+      "sha256": "ce8e678056501236ef0842476bd390a24e8110b19db420eccb2b29562adcf1a8",
+      "bytes": 64960
+    },
+    "exports/props/axe_offhand.glb": {
+      "sha256": "208bbed25fc15561ea2bba17f9d2e4fffd48f2aa49d3c659424412e5e7110149",
+      "bytes": 64968
+    },
+    "exports/props/bow.glb": {
+      "sha256": "c5725360b6b27da5ff8f127d1eaa84b08cf8d8ec894564d9f1b2cdf16a2dbe84",
+      "bytes": 15964
+    },
+    "exports/props/crossbow.glb": {
+      "sha256": "b98c917d5829c3065f1cc05fe0b2fdf2745bb834cdb15e689765b372c9b91502",
+      "bytes": 49168
+    },
+    "exports/props/evil_axe.glb": {
+      "sha256": "68b6548973685d099a689812b81634b6888f070d1aa7e8f27fe808cdb1546122",
+      "bytes": 66040
+    },
+    "exports/props/evil_axe_offhand.glb": {
+      "sha256": "ec530814a8aa485c87383d73892aa987e67a6cb1e49a1a0fe4989f10d1ff2c06",
+      "bytes": 66040
+    },
+    "exports/props/evil_hand_flame.glb": {
+      "sha256": "2a5ce2c0d6bbf99087444db11228976f1fd8b3364ebee1e78f95697eca98f583",
+      "bytes": 11568
+    },
+    "exports/props/evil_shield.glb": {
+      "sha256": "19ac0f606cb5d9b70529b8ed5e4f2b08a375db9d72c7102c219d75c34aa8e67f",
+      "bytes": 65076
+    },
+    "exports/props/evil_staff.glb": {
+      "sha256": "eb691fe2587d3f986e1ffc517cb1fadfd78fc8bf970d098ca0eb1116e6e1a29e",
+      "bytes": 44572
+    },
+    "exports/props/evil_sword.glb": {
+      "sha256": "5c762005c61c0d409d8f4bfc73691e3f5d877935d78ac5bbda8d892bdd2e8856",
+      "bytes": 41580
+    },
+    "exports/props/kit_arrow.glb": {
+      "sha256": "e6abe58dd890875f9145f257f20110ac256126ffefec576974dc54b715c6ecbc",
+      "bytes": 4840
+    },
+    "exports/props/kit_axe.glb": {
+      "sha256": "d114921f83b0c1884476cc84f7a82bc2e716de684cf17eb1de732105630eca3b",
+      "bytes": 64840
+    },
+    "exports/props/kit_barrel.glb": {
+      "sha256": "f0b9e517005a7ed474ef812638df72dbc3aa2e4f1b74b7145a0d714993530505",
+      "bytes": 43640
+    },
+    "exports/props/kit_bench.glb": {
+      "sha256": "7bb672a180d1c47e688a921f50e81e5b91c90742f0e9862b182d71360c34c04a",
+      "bytes": 31024
+    },
+    "exports/props/kit_book.glb": {
+      "sha256": "26f8c966a14ffb6cb14d88d0d901fec95bad51d1b4805a9125f5902499f716b2",
+      "bytes": 36232
+    },
+    "exports/props/kit_cannonball.glb": {
+      "sha256": "a1c481ac12d25b8bf1ac75916a2e485405c7524352eb8809a56d9f964f36ee59",
+      "bytes": 7420
+    },
+    "exports/props/kit_crate.glb": {
+      "sha256": "028c087d09acc750e137035caa32985318bd56f002aadd9b3a776b6f321735bf",
+      "bytes": 106308
+    },
+    "exports/props/kit_lantern.glb": {
+      "sha256": "490e7e48e0c2eaeef2da5f53ab9be631bb85e6609315bbee466c63f14363a92c",
+      "bytes": 44856
+    },
+    "exports/props/kit_mug.glb": {
+      "sha256": "e196448af6ccdf0b92a70935ae4611dcf1c640b2a4fc37627bae34b5b2f7c6a4",
+      "bytes": 45640
+    },
+    "exports/props/kit_open_barrel.glb": {
+      "sha256": "baeb2fa060bae123666252f3225814350f7be726c1a655dd7d08914eacce3172",
+      "bytes": 52532
+    },
+    "exports/props/kit_open_crate.glb": {
+      "sha256": "544609a16eaa953ad380f283d8286ce256742452680047d3f8f2c6a0ae6735f4",
+      "bytes": 90172
+    },
+    "exports/props/kit_parcel.glb": {
+      "sha256": "4a49bff67c836c80f2cf17418e7306f5685a7b7c736d488d46dd37ef04f931b7",
+      "bytes": 24268
+    },
+    "exports/props/kit_pine.glb": {
+      "sha256": "cf28aa3d7993aef40496fb4c706bcc9877ee8c571d24204fc2354df31c2751e4",
+      "bytes": 12328
+    },
+    "exports/props/kit_roof_tile.glb": {
+      "sha256": "6f45ca8d6785b3912e014e8a236e21e52b9c97376a16d8ce44fab7b0021f623a",
+      "bytes": 7012
+    },
+    "exports/props/kit_shrub.glb": {
+      "sha256": "397c6251efa9cd2e876e7896a699f94cecdb4d8dfa4f677939a6f0d811dd70ad",
+      "bytes": 33280
+    },
+    "exports/props/kit_skull.glb": {
+      "sha256": "5aa41b17d3390ef8bf2a3f4418dcc148f63994164197980cc4b762e5cc3578e1",
+      "bytes": 126200
+    },
+    "exports/props/kit_spear.glb": {
+      "sha256": "f8de355f656c58cf1f2a64ac3c658fa227fe0102ee329da6be3087889dc730cf",
+      "bytes": 18508
+    },
+    "exports/props/kit_spike.glb": {
+      "sha256": "d291e286bcfecd8b29b56f049b0904ed5829a1e5ed2140d0ba8a32fe13c3f472",
+      "bytes": 2240
+    },
+    "exports/props/kit_stone_block.glb": {
+      "sha256": "723dcd07e16553211e9a5590c1101b369371441210435594d5482354e323ec0c",
+      "bytes": 6976
+    },
+    "exports/props/kit_target.glb": {
+      "sha256": "991d682bea6337b0c9579b7f8bf16ef13889f4b3d949f1fd0e1c4297b803862b",
+      "bytes": 41276
+    },
+    "exports/props/shield.glb": {
+      "sha256": "08509c87f1b092eea4131b2a7b2b0b0b2d8395dfd9fc17634b95b871ae177564",
+      "bytes": 65068
+    },
+    "exports/props/staff.glb": {
+      "sha256": "463069697a45662a1cfae72b4eaa54040c6fb207fd6ec9a5af7abd1d15d46fba",
+      "bytes": 74652
+    },
+    "exports/props/sword.glb": {
+      "sha256": "5b0e9ad9a9521ef29bbf4b3425e8af3617fd9cec016012cbdf38511c2ede8822",
+      "bytes": 41564
+    },
+    "exports/thumbnails/buildings/archery_range.png": {
+      "sha256": "28d04779cf23c5006632be171ac89b65ad5c7c4ecf8ac2f393945b4313eabd5c",
+      "bytes": 300022
+    },
+    "exports/thumbnails/buildings/arrow_tower.png": {
+      "sha256": "31bf49c1d87535838047d48021e02865e7ae4233aa313436f3f87a5e3ddae1a2",
+      "bytes": 287932
+    },
+    "exports/thumbnails/buildings/bakery.png": {
+      "sha256": "50e5af8e9c4d5fe7ecd64cd2a9de442d8e8287a3d8d229dbe08ccaadf19f969d",
+      "bytes": 286476
+    },
+    "exports/thumbnails/buildings/barracks.png": {
+      "sha256": "7922d02ac2e8d50f9841a14ccadfe5e126b3c652cc1b203ca64880c004bcbde5",
+      "bytes": 288014
+    },
+    "exports/thumbnails/buildings/bombarding_tower.png": {
+      "sha256": "80ca59a55a6636d538ec02dbc5178542cf1a37cf667f839e26ab713b2c451871",
+      "bytes": 279828
+    },
+    "exports/thumbnails/buildings/gold_mine.png": {
+      "sha256": "097f55a2a755719fcc1f33a5f684af776f85eeae36b4bf742210d63e8b2aecf8",
+      "bytes": 277995
+    },
+    "exports/thumbnails/buildings/magic_academy.png": {
+      "sha256": "6aaecbd97e38b607d6c533d69afa765bdee73eedcb1ad9ddd14b827f29036a03",
+      "bytes": 279249
+    },
+    "exports/thumbnails/buildings/metal_mine.png": {
+      "sha256": "9e2fab8e78573332d9f77aaa2c6a25bdb420f0f51a6dc174e9b13f2ba5b483e7",
+      "bytes": 287055
+    },
+    "exports/thumbnails/buildings/research_tower.png": {
+      "sha256": "59a3c19bd8eec55740bac0966b4405bfaad326c7ce2513b65c5b4ffe3848575e",
+      "bytes": 288060
+    },
+    "exports/thumbnails/buildings/stone_cutter.png": {
+      "sha256": "9a0b2d8eca4cb571938290de54fc03ea4adf0be828cd8ef3008c0ca8ab2732e9",
+      "bytes": 288657
+    },
+    "exports/thumbnails/buildings/tavern.png": {
+      "sha256": "683a1ce0ba546b08af4a844085572b8f4b5ff641558c3a65ef2632f0090e22aa",
+      "bytes": 294707
+    },
+    "exports/thumbnails/buildings/town_hall.png": {
+      "sha256": "ca18f305090de12a64138ba08b829ea6ed6fa205d99701dca8b573f0112c2fb2",
+      "bytes": 297613
+    },
+    "exports/thumbnails/buildings/trade_market.png": {
+      "sha256": "19a43d27f7ee9a4da3472f9e645c1fe3708f3962ed1eb421ed52913cc974fb68",
+      "bytes": 288540
+    },
+    "exports/thumbnails/buildings/tree_house.png": {
+      "sha256": "f1069a2ad998f06f76f8c159800ae4266d6392affba7fc267caabd96e94ea458",
+      "bytes": 282098
+    },
+    "exports/thumbnails/buildings/weaver.png": {
+      "sha256": "f089aa2c7c874704c468c94360815bc44da918d6bf566a269ad4e103ed089a10",
+      "bytes": 292874
+    },
+    "exports/thumbnails/buildings/woodcutter_hut.png": {
+      "sha256": "3f9a76f110a4f571a66fefe11d9ae79bbc3cde5a94bfa1fcb1ce7e0a46d5a595",
+      "bytes": 277448
+    },
+    "exports/thumbnails/characters/archer.png": {
+      "sha256": "aacef9950aa10251cfe194d6c10050fa20be4ab00e8dca10868ca5e0618af037",
+      "bytes": 246346
+    },
+    "exports/thumbnails/characters/berserker.png": {
+      "sha256": "5593962232affebabcc91b90015dfc4f41d5290d4aae0d4396624c98b3d78d5e",
+      "bytes": 255618
+    },
+    "exports/thumbnails/characters/knight.png": {
+      "sha256": "2864c7a984ad71636a07fbceb7982618f58e02c5a06bf0586e966eb8bd28da49",
+      "bytes": 252115
+    },
+    "exports/thumbnails/characters/mage.png": {
+      "sha256": "41fb0b17ae707f9de04866474485ab2471ea62e84707771fcac69ee3ad82c05d",
+      "bytes": 249685
+    },
+    "exports/thumbnails/environment/components/forest_boulder.png": {
+      "sha256": "ad53264f49e1de0c4ab8e2d0b65c18124d2c92e4d60ffd218cf16e8a2fb31999",
+      "bytes": 232103
+    },
+    "exports/thumbnails/environment/components/forest_bridge_plank.png": {
+      "sha256": "2491712d19f6c861b7761bbe313028580b8e46ad5d4e6cf8552a962099c702e3",
+      "bytes": 242579
+    },
+    "exports/thumbnails/environment/components/forest_bridge_post.png": {
+      "sha256": "ffcae28125dcffda181ec9d637fe457eabb9d1750ac48c5fd39f7ec5b4596936",
+      "bytes": 239313
+    },
+    "exports/thumbnails/environment/components/forest_bridge_rail.png": {
+      "sha256": "0c24a17b3f44b8da4a383716e19dfc3177d6e9d5637bc635dbda860e978b588b",
+      "bytes": 232891
+    },
+    "exports/thumbnails/environment/components/forest_butterfly_cyan.png": {
+      "sha256": "912b6590aa0d527be25828b7963577de05e201249176953c70333fa68fb85b4a",
+      "bytes": 235149
+    },
+    "exports/thumbnails/environment/components/forest_butterfly_sunset.png": {
+      "sha256": "9c46230012d80aec90addb64967ba47146967accaf1c0fe374e69145b720f1c6",
+      "bytes": 234634
+    },
+    "exports/thumbnails/environment/components/forest_crystal_blue.png": {
+      "sha256": "3fa6b8caf1b6a9337a644bdcbfdbd56935499b4702756ad3973607ec7ab8f0dc",
+      "bytes": 239410
+    },
+    "exports/thumbnails/environment/components/forest_crystal_purple.png": {
+      "sha256": "5d1697831faa83d6c24468d6d921d58575e516344a18ea1726651c968457b167",
+      "bytes": 233714
+    },
+    "exports/thumbnails/environment/components/forest_fern.png": {
+      "sha256": "ab3efc9d891720b026c7a27deca6e38226c1bd4f7e45e02303ce750c021ddb5a",
+      "bytes": 262605
+    },
+    "exports/thumbnails/environment/components/forest_foam.png": {
+      "sha256": "66c10b842004e318e458a3ffb62e6e67f613cc3c392ac04df3887ea1c901edf5",
+      "bytes": 238958
+    },
+    "exports/thumbnails/environment/components/forest_hex_meadow.png": {
+      "sha256": "fdd43d1c2a666719ec00dbcf381bd958c23c90f7c1d7b38a4b894813387ebe66",
+      "bytes": 226489
+    },
+    "exports/thumbnails/environment/components/forest_hex_stream.png": {
+      "sha256": "1192d69a3c5762467c30a0798e71b9941f4397f2ddd4db537a22ada7f440892e",
+      "bytes": 234847
+    },
+    "exports/thumbnails/environment/components/forest_hollow_tree.png": {
+      "sha256": "9300546056fb431efe3f37d5be14f8c4e5a552cd099dbe4439a1810e510eacd1",
+      "bytes": 253964
+    },
+    "exports/thumbnails/environment/components/forest_jackalope.png": {
+      "sha256": "7a8839793ca4a71514f825cbb50b4c588cc4a40a35933b48f8c5a1990d6ce965",
+      "bytes": 251506
+    },
+    "exports/thumbnails/environment/components/forest_lantern_flower.png": {
+      "sha256": "32d68d312d457fac8dcc8b3b4d5767123e943a34cd9a1369b57c2a507913aacd",
+      "bytes": 240149
+    },
+    "exports/thumbnails/environment/components/forest_lantern_post.png": {
+      "sha256": "5972eea9874fa72da043e6376afdffaea54d40d7c9960aec1c8b26e4399fe826",
+      "bytes": 235300
+    },
+    "exports/thumbnails/environment/components/forest_lantern_snail.png": {
+      "sha256": "3bca882b055404c86e185ec0033f4f95940369734662ff2e8d59081a3da6a355",
+      "bytes": 247004
+    },
+    "exports/thumbnails/environment/components/forest_leaf_clump.png": {
+      "sha256": "f4cbafcc58b81d13c213a5cb4e275ae4ebd4da86dd0b182862b6b15c14864eef",
+      "bytes": 229593
+    },
+    "exports/thumbnails/environment/components/forest_moon_moth.png": {
+      "sha256": "58cbdb254a48d44cfb3035607d9987b0ddc62f0dde9bfbaf4f5d73bb50365943",
+      "bytes": 230530
+    },
+    "exports/thumbnails/environment/components/forest_moss.png": {
+      "sha256": "3ec69664573e872a5f02e9e3048bf97d9d6fb3eabc3fb1d6726c117f758e274d",
+      "bytes": 232194
+    },
+    "exports/thumbnails/environment/components/forest_mushroom_blue.png": {
+      "sha256": "3b59abfb9d4f20c617668ebb8599f75e8b07ae4657ecbb1b66150f9faef18552",
+      "bytes": 234124
+    },
+    "exports/thumbnails/environment/components/forest_mushroom_purple.png": {
+      "sha256": "f3fa984c55521bab258e34fdbf19a6b4123f945c9e40bf162263e53e0a53edc4",
+      "bytes": 234365
+    },
+    "exports/thumbnails/environment/components/forest_mushroom_small.png": {
+      "sha256": "ea4e5fd2df2d90c0b2c753ae6b724ff2d4e3a94d0268c85c583dcb9df6964edd",
+      "bytes": 228569
+    },
+    "exports/thumbnails/environment/components/forest_root.png": {
+      "sha256": "9f6327ff7d6dd699bd7de3c82e6522811e9be5f7a79dcd49206e80cc6cca6ef8",
+      "bytes": 231849
+    },
+    "exports/thumbnails/environment/components/forest_rune_circle.png": {
+      "sha256": "5162a32132e10269bf4332edb6d9f175b7cdb77e208b3e5fde94be251090655b",
+      "bytes": 233073
+    },
+    "exports/thumbnails/environment/components/forest_rune_diamond.png": {
+      "sha256": "817cb30064bfa18c6bcb301c32169ff674a14fe6dba26a73ae712fdac6dfea15",
+      "bytes": 230754
+    },
+    "exports/thumbnails/environment/components/forest_rune_monolith.png": {
+      "sha256": "9d635150eacecce0fcf8b1328096ef707c94bf8d502968038cb55a2e0f394bae",
+      "bytes": 236574
+    },
+    "exports/thumbnails/environment/components/forest_shrine_plinth.png": {
+      "sha256": "1c8937da58856684699b591b0764cc759c6273ae9deb61cfb327177d403f2f7f",
+      "bytes": 236847
+    },
+    "exports/thumbnails/environment/components/forest_spiral_fern.png": {
+      "sha256": "d8d1c1ea4fd6520eeeb1ebf85575f948291bed28e786b915ffcb531257795c03",
+      "bytes": 255269
+    },
+    "exports/thumbnails/environment/components/forest_spiral_tree.png": {
+      "sha256": "3aeb9bd3c048956e02aa97ac98efc3c139821a9751f4cbb978b2a64912fc80e4",
+      "bytes": 257342
+    },
+    "exports/thumbnails/environment/components/forest_stone_arch_block.png": {
+      "sha256": "7136f3a1340d97e8b44c0cf4085ac24ddf047b7e09ccf5488631fd4dd8757d1b",
+      "bytes": 237275
+    },
+    "exports/thumbnails/environment/components/forest_stone_block.png": {
+      "sha256": "26c3998ed5c317115bcd36a454603a2c90bcd43d7c8591b41ca8fc9d435e12dd",
+      "bytes": 235673
+    },
+    "exports/thumbnails/environment/components/forest_tree_snag.png": {
+      "sha256": "0503135a7bc7feae010354b64a0215133593d75d0846a1c94d3c2ad5e560637c",
+      "bytes": 240083
+    },
+    "exports/thumbnails/environment/components/forest_waterfall.png": {
+      "sha256": "53ce8a5070bbc14dba9aee8ba14e4e0f40a70943c268d3af7e52fc91ecf77661",
+      "bytes": 258306
+    },
+    "exports/thumbnails/environment/hex_bioluminescent_grove.png": {
+      "sha256": "3a1d78e8e34108c4ba37720caf7b8c3bc81a7819662008b7f3dc3268f9e50cba",
+      "bytes": 264650
+    },
+    "exports/thumbnails/environment/hex_crystal_grove.png": {
+      "sha256": "703818f83ffd8166a0714e3d105605ef585d9bc92f1a6a9a062abe4c24cb1957",
+      "bytes": 261179
+    },
+    "exports/thumbnails/environment/hex_crystal_shrine.png": {
+      "sha256": "0cb4c4ad24a1b61f96ce859ff7800d5a7c352dee39f63ccf546a5e53fe98594d",
+      "bytes": 264196
+    },
+    "exports/thumbnails/environment/hex_glowing_mushrooms.png": {
+      "sha256": "b79089980824b4ac1b59202fa5f87045f0145eb6b5967ec6603e387342240ea2",
+      "bytes": 263407
+    },
+    "exports/thumbnails/environment/hex_lantern_bridge.png": {
+      "sha256": "671b144077740332b1df23112971cff5717d903f8d76f03e77a826a822e604f5",
+      "bytes": 265266
+    },
+    "exports/thumbnails/environment/hex_meadow_building.png": {
+      "sha256": "f1659bcab88639a9696b2a7d7c61db0bfe355fd186eea760711b6390eba50a37",
+      "bytes": 245239
+    },
+    "exports/thumbnails/environment/hex_meadow_character.png": {
+      "sha256": "0529e5bd7cefaa28ef9b462be755836bc7bc65bf0d3d9383cc604b438308bde5",
+      "bytes": 245071
+    },
+    "exports/thumbnails/environment/hex_mystical_grove.png": {
+      "sha256": "9fa93a4b2ed86694c3cc9ada9f905d1bcf591cd0a7cf2cbf1e4a332f8a749c9c",
+      "bytes": 259967
+    },
+    "exports/thumbnails/environment/hex_rune_shrine.png": {
+      "sha256": "c97cfe8f1b09250895688ce8f0dc730304090d4b6a2702d2db27c13c0c4b147c",
+      "bytes": 267812
+    },
+    "exports/thumbnails/environment/hex_woodland_bridge.png": {
+      "sha256": "4521a5b4aa0948422d8c0bb2c575c8668a46a50ec00f679d0a59f09dada15d93",
+      "bytes": 266555
+    },
+    "exports/thumbnails/props/arrow.png": {
+      "sha256": "5ff48a5e34f4ba33776f3e451f580169c73e79724944ae345c27687456713d30",
+      "bytes": 219072
+    },
+    "exports/thumbnails/props/axe.png": {
+      "sha256": "dfa0edf3f121030349782310b7d30acaa414217263c0d9963e226ea1fbf721a5",
+      "bytes": 234150
+    },
+    "exports/thumbnails/props/axe_offhand.png": {
+      "sha256": "3c700c6607e268323fec79dbbcaed8d11205e69a975460e79e8cf692b6703ef1",
+      "bytes": 234150
+    },
+    "exports/thumbnails/props/bow.png": {
+      "sha256": "fa9cd669f27951d33354c0b3df7fffec2f9af0755c667fea91f6d3df3273e496",
+      "bytes": 231605
+    },
+    "exports/thumbnails/props/kit_arrow.png": {
+      "sha256": "b6e9b1650af4ffda7c412dffcaab433149e18f3696b40396d7bb6d041e203486",
+      "bytes": 220977
+    },
+    "exports/thumbnails/props/kit_axe.png": {
+      "sha256": "95361f5865bef7d23a0e49f3e49766eb39b620b7ab980b57d642b1334b8b379c",
+      "bytes": 234150
+    },
+    "exports/thumbnails/props/kit_barrel.png": {
+      "sha256": "6a38f2435ea5efa839087513d54a560e2f34e651ee12097fab44851baa0e2c68",
+      "bytes": 243108
+    },
+    "exports/thumbnails/props/kit_bench.png": {
+      "sha256": "e8c538a6b0f760280d451f605f8776f3f2e6c283cad6161ecc0f3ac75b0537d6",
+      "bytes": 238695
+    },
+    "exports/thumbnails/props/kit_book.png": {
+      "sha256": "186dbfe05c050be8f358dc82674386564575fa1860708bfcfe7158379a01aa89",
+      "bytes": 247920
+    },
+    "exports/thumbnails/props/kit_cannonball.png": {
+      "sha256": "3d86ac7955c3a700221558a4a759419f7c3a127ab2582f90d8b2c17052641608",
+      "bytes": 226213
+    },
+    "exports/thumbnails/props/kit_crate.png": {
+      "sha256": "8adefa7c49a7753ce9ee1242f1ef889fce78ee9e19b5c1e440c7ffd346818b62",
+      "bytes": 267639
+    },
+    "exports/thumbnails/props/kit_lantern.png": {
+      "sha256": "c6278325e7cd0d1bdf31ce11d3ecdef38ccadc356b2d49a743a89a3ebb2569a7",
+      "bytes": 242435
+    },
+    "exports/thumbnails/props/kit_mug.png": {
+      "sha256": "32e5fbf47444f0c1e98542f0c4298ccd3f853ec1fe3d90795c8b99968a3e3dca",
+      "bytes": 244734
+    },
+    "exports/thumbnails/props/kit_parcel.png": {
+      "sha256": "7758b0280b236126ba1513ad9487f7fad07d1848c4b1643a1290ced33b95e182",
+      "bytes": 246184
+    },
+    "exports/thumbnails/props/kit_pine.png": {
+      "sha256": "a3d91a7f2d1057d0b2335a044e11b9388e27c5dbb8fa2e05db344de170003201",
+      "bytes": 232275
+    },
+    "exports/thumbnails/props/kit_roof_tile.png": {
+      "sha256": "ce672f729394d35e65ddea43cc23f86463213bfe9c880236e4b4e86fc3fec3c4",
+      "bytes": 227444
+    },
+    "exports/thumbnails/props/kit_shrub.png": {
+      "sha256": "5660f76609f5568a6a8b59e8f5357cd9977e97797b5ccf4dea53c1f17307b122",
+      "bytes": 242405
+    },
+    "exports/thumbnails/props/kit_spear.png": {
+      "sha256": "8fbc460db04bdbc8f17ad762cee66616cb7d8e03ed895bbc1527798c257cf4d8",
+      "bytes": 220823
+    },
+    "exports/thumbnails/props/kit_stone_block.png": {
+      "sha256": "cb1e171e4021ddff601ec1c7817c377f9778fc7e198a06dd7c3e39884be1e90e",
+      "bytes": 229912
+    },
+    "exports/thumbnails/props/kit_target.png": {
+      "sha256": "6296ed63e62901b068b0a4113d712c072d4f406b5c3a2b7918025365bfd9d98b",
+      "bytes": 244841
+    },
+    "exports/thumbnails/props/shield.png": {
+      "sha256": "7607a2021140a1e1b10189508ee16dbc1eb4d9ec41dee6aa10962c0cfbb56255",
+      "bytes": 258628
+    },
+    "exports/thumbnails/props/staff.png": {
+      "sha256": "05fef658bdfa2176a0db2a2d25d5c50f578c3fface7f0a396f8fab8560bf0d07",
+      "bytes": 232529
+    },
+    "exports/thumbnails/props/sword.png": {
+      "sha256": "1e3fbd86484b328cd1c4896a330728972842ff116775e735b312bb90fd4d6472",
+      "bytes": 228746
+    },
+    "exports/ui/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "exports/validation.json": {
+      "sha256": "21656e997f51da285b0d997a6c38252c87014c0eee18aa37da54f0dc05b9fcd2",
+      "bytes": 33214
+    },
+    "sources/audio/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "sources/autobattler.blend": {
+      "sha256": "4cb957bf91f798e427b4fd9aefd1b1145d83d864e5beb34386c723c9832e6070",
+      "bytes": 16746368
+    },
+    "sources/buildings/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "sources/buildings/archery_range.blend": {
+      "sha256": "989f03c4a6fde7ab2b0cf7a3c06d0541366e893b4ee8de5910d16a09b5e862ee",
+      "bytes": 5714305
+    },
+    "sources/buildings/arrow_tower.blend": {
+      "sha256": "8cda4733c4af5fea4272d955e7ba14d9d35e5abb113ee5addc63852eaa927a21",
+      "bytes": 1844230
+    },
+    "sources/buildings/bakery.blend": {
+      "sha256": "05f973a69d7f4e30fcc7c34e3bb3c69a547df11bc8ea16b0eb3f4b32707f8e67",
+      "bytes": 318314
+    },
+    "sources/buildings/barracks.blend": {
+      "sha256": "092e2035de220469f4836809761e81965ee1f9b4a006fb4da2a2bbb7d4858acb",
+      "bytes": 1936609
+    },
+    "sources/buildings/bombarding_tower.blend": {
+      "sha256": "8db85c1bdd78659032fc48f6342a39925c3104ffeb4cdd4144d4cf356c11f2d8",
+      "bytes": 1880882
+    },
+    "sources/buildings/gold_mine.blend": {
+      "sha256": "2838fe60fa9c884d1396431c94ef8bee2a245aa263bf521d3c074f2e94319fb6",
+      "bytes": 248718
+    },
+    "sources/buildings/magic_academy.blend": {
+      "sha256": "adf7846f3806d83a41b9da91b39fb03832f5199edfcd06d62cb58380753039af",
+      "bytes": 1922764
+    },
+    "sources/buildings/metal_mine.blend": {
+      "sha256": "f8542f1bfbb3d10a3ab311d88a5feb753aab08db4984baeafdbc943c971db431",
+      "bytes": 6202853
+    },
+    "sources/buildings/research_tower.blend": {
+      "sha256": "9d21564ac373944fbc42fdf3c68402077901a308a840b84907f071d2c6473020",
+      "bytes": 5765692
+    },
+    "sources/buildings/stone_cutter.blend": {
+      "sha256": "f66dc2654289a7b5761c8a16ab2341fecf072852168adff7932b7378324e41cc",
+      "bytes": 1975575
+    },
+    "sources/buildings/tavern.blend": {
+      "sha256": "d6e5f2dca578678457074a090fcad30569baad7bd2aececf4c4991f18be937e4",
+      "bytes": 1893793
+    },
+    "sources/buildings/textures/painted_archery_range_ground_color.png": {
+      "sha256": "dc564458e0e7e750ff7e73174e375fe7779308ba1cb2d9fc9d91201997c39c84",
+      "bytes": 461190
+    },
+    "sources/buildings/textures/painted_archery_range_ground_emission.png": {
+      "sha256": "1a5e57350822bcd0cdb03f4dc88a26b4a281ba170756106cf0e2df2b298a2cd2",
+      "bytes": 13995
+    },
+    "sources/buildings/textures/painted_bark_color.png": {
+      "sha256": "cae61f8f81c3675c849c9b72e9646553081b312a5d4c200af6c2f0478422cb84",
+      "bytes": 94849
+    },
+    "sources/buildings/textures/painted_grass_color.png": {
+      "sha256": "7e9b9118d3865e5e375e40a195cc436546f26aca443a50fd67d9f16c5f6d81f8",
+      "bytes": 164537
+    },
+    "sources/buildings/textures/painted_grass_dark_color.png": {
+      "sha256": "89a677cd68f61f0204f157c814c84e47c685d79a53a0aaa60049ed4cb3cc8f9a",
+      "bytes": 145186
+    },
+    "sources/buildings/textures/painted_ground_roughness.png": {
+      "sha256": "f773deb612b7244a13156bf90f02be23a71a4c101f10cedc18f7663b234de37f",
+      "bytes": 28555
+    },
+    "sources/buildings/textures/painted_leaf_color.png": {
+      "sha256": "d41eed8122aa9a306d1b32ddce53dbcf27a14ffc5a37a20d4e12c77299129375",
+      "bytes": 92448
+    },
+    "sources/buildings/textures/painted_leaf_dark_color.png": {
+      "sha256": "6979e556652d0eed6ad96d81ff11177702f92e5e6092d75ea5969862718fbef8",
+      "bytes": 78265
+    },
+    "sources/buildings/textures/painted_leaf_light_color.png": {
+      "sha256": "92ef7b1ae70ffca9256c98949f01038c07f427db52af247d6e97404905c0b3dc",
+      "bytes": 105073
+    },
+    "sources/buildings/textures/painted_leaf_normal.png": {
+      "sha256": "0b2b7bb15e05098ee50c456d7831b8cffe7b6d165674dc7491206e55d86ce0af",
+      "bytes": 128018
+    },
+    "sources/buildings/textures/painted_leaf_roughness.png": {
+      "sha256": "8c0605006d855b7bec68b34374a7040adf9b5090cca3be64834b2cc80899f8fb",
+      "bytes": 14462
+    },
+    "sources/buildings/textures/painted_metal_mine_ground_color.png": {
+      "sha256": "dc564458e0e7e750ff7e73174e375fe7779308ba1cb2d9fc9d91201997c39c84",
+      "bytes": 461190
+    },
+    "sources/buildings/textures/painted_metal_mine_ground_emission.png": {
+      "sha256": "1a5e57350822bcd0cdb03f4dc88a26b4a281ba170756106cf0e2df2b298a2cd2",
+      "bytes": 13995
+    },
+    "sources/buildings/textures/painted_pine_color.png": {
+      "sha256": "0c0c404b4c63446fcda2e6ff5f4bfd294705ed92e306e3e130bd8b15a027f9c0",
+      "bytes": 77974
+    },
+    "sources/buildings/textures/painted_pine_light_color.png": {
+      "sha256": "d6748431b1111efd5943144c254b24a709a82a1c81f051e247677b16131048cb",
+      "bytes": 87744
+    },
+    "sources/buildings/textures/painted_plaster_normal.png": {
+      "sha256": "e9b0ca46ad3b9d97a5f61a59bdfa934644632836609494e120f83494761c31bd",
+      "bytes": 44763
+    },
+    "sources/buildings/textures/painted_plaster_roughness.png": {
+      "sha256": "5f5f924aebd0bb3be87a145d06380c040a6fad7ebf3c343e4729de53dc89e60e",
+      "bytes": 19829
+    },
+    "sources/buildings/textures/painted_research_tower_ground_color.png": {
+      "sha256": "dc564458e0e7e750ff7e73174e375fe7779308ba1cb2d9fc9d91201997c39c84",
+      "bytes": 461190
+    },
+    "sources/buildings/textures/painted_research_tower_ground_emission.png": {
+      "sha256": "1a5e57350822bcd0cdb03f4dc88a26b4a281ba170756106cf0e2df2b298a2cd2",
+      "bytes": 13995
+    },
+    "sources/buildings/textures/painted_roof_blue_color.png": {
+      "sha256": "4271ed4434104c909dca1c0ae602eb40b0d8acf1e92ee3a69145b3afa4eda5c9",
+      "bytes": 47437
+    },
+    "sources/buildings/textures/painted_roof_blue_dark_color.png": {
+      "sha256": "1b4fab691e29752a3d6081612dd5408a04b80a28ed029e5bba40f102cf458a71",
+      "bytes": 38172
+    },
+    "sources/buildings/textures/painted_roof_blue_light_color.png": {
+      "sha256": "006e15a3cc1b4b7c1b83d3b5e76b729e32214bfa0a43bf9e0b2a42b4935ddc20",
+      "bytes": 57329
+    },
+    "sources/buildings/textures/painted_roof_normal.png": {
+      "sha256": "839d52403003707e5ccb9871319cf89e8d8a3e90e86bba1d54a9835ab8229400",
+      "bytes": 185014
+    },
+    "sources/buildings/textures/painted_roof_roughness.png": {
+      "sha256": "2dfae454a2a9a45a70edd7cc1d596022b25998b43c27447b39234f1a8bddccf6",
+      "bytes": 10283
+    },
+    "sources/buildings/textures/painted_stone_color.png": {
+      "sha256": "67307cfeb71a485760da6095086ce87270ef36b0c2d42cf87943a03ccf0fc8c8",
+      "bytes": 140973
+    },
+    "sources/buildings/textures/painted_stone_dark_color.png": {
+      "sha256": "bde3f24cba0af5bd4fe6975b64af9165f9f24052c8ee15467772cfb6538f7168",
+      "bytes": 131685
+    },
+    "sources/buildings/textures/painted_stone_light_color.png": {
+      "sha256": "71bb56dbb113bc418a413386d10cc0d0065f78e61ff263daec740d563c0a3a6b",
+      "bytes": 148365
+    },
+    "sources/buildings/textures/painted_stone_normal.png": {
+      "sha256": "f7fef5382240bcba83b6b81a3efc64dfeef1fbd373d7536d306f7400685d96d0",
+      "bytes": 51007
+    },
+    "sources/buildings/textures/painted_stone_roughness.png": {
+      "sha256": "abcda7a360ca753e396708ddc0c73dbe9f5e9561a4d230f099a9f34b99d3c237",
+      "bytes": 20171
+    },
+    "sources/buildings/textures/painted_town_hall_ground_color.png": {
+      "sha256": "dc564458e0e7e750ff7e73174e375fe7779308ba1cb2d9fc9d91201997c39c84",
+      "bytes": 461190
+    },
+    "sources/buildings/textures/painted_town_hall_ground_emission.png": {
+      "sha256": "1a5e57350822bcd0cdb03f4dc88a26b4a281ba170756106cf0e2df2b298a2cd2",
+      "bytes": 13995
+    },
+    "sources/buildings/textures/painted_wall_color.png": {
+      "sha256": "0013b45d96552fd88ca97384ff85ab02c23661ff513df32605eedfb2c3477f73",
+      "bytes": 151781
+    },
+    "sources/buildings/textures/painted_wall_light_color.png": {
+      "sha256": "37167742425fb9fa188cf85be76cc061c2fb7dcccefef3ef8766e429e0959891",
+      "bytes": 164566
+    },
+    "sources/buildings/textures/painted_weaver_ground_color.png": {
+      "sha256": "dc564458e0e7e750ff7e73174e375fe7779308ba1cb2d9fc9d91201997c39c84",
+      "bytes": 461190
+    },
+    "sources/buildings/textures/painted_weaver_ground_emission.png": {
+      "sha256": "1a5e57350822bcd0cdb03f4dc88a26b4a281ba170756106cf0e2df2b298a2cd2",
+      "bytes": 13995
+    },
+    "sources/buildings/textures/painted_window_color.png": {
+      "sha256": "d3537d6bbef532336ad0ea0451a3f30272fd2b71246ad782d7ccd9dcdbc56ef5",
+      "bytes": 49777
+    },
+    "sources/buildings/textures/painted_window_emission.png": {
+      "sha256": "216273767ea0efd3aeb3f3840c32710cddab6d8e529d33f90c35c2cf7b905f76",
+      "bytes": 62001
+    },
+    "sources/buildings/textures/painted_window_hot_color.png": {
+      "sha256": "085782fd97204224edc9e8abe44d6877a6956298a8909f389d82e82ae4e6bfc2",
+      "bytes": 59972
+    },
+    "sources/buildings/textures/painted_window_hot_emission.png": {
+      "sha256": "1ae531fb463b2a398f19db9acca08385601d87b5f325f9102c2f393b2305eafa",
+      "bytes": 74204
+    },
+    "sources/buildings/textures/painted_window_roughness.png": {
+      "sha256": "27ad12e9e5e731da48a46a12301e268159f586303ea947b1dd2478f055c904db",
+      "bytes": 8993
+    },
+    "sources/buildings/textures/painted_window_shade_color.png": {
+      "sha256": "73c9fb4610224057eff0a1d8be2a17bbb2a8983b4b83823c614e2ab8bfb0a7be",
+      "bytes": 36433
+    },
+    "sources/buildings/textures/painted_window_shade_emission.png": {
+      "sha256": "30e1df4afbf1cd6ba474cc5ddb93b04dbb699fe79a79995d0e680eb7ad5b78fe",
+      "bytes": 45715
+    },
+    "sources/buildings/textures/painted_wood_color.png": {
+      "sha256": "f3e3b06e314cb48690a7ce02190dd2751ecf7b8612e1d91350ce61a960df976b",
+      "bytes": 105198
+    },
+    "sources/buildings/textures/painted_wood_dark_color.png": {
+      "sha256": "1c165acef967f2779eb6caab34c33a751a5e19245a66c2e9ad0806434835161a",
+      "bytes": 76586
+    },
+    "sources/buildings/textures/painted_wood_edge_color.png": {
+      "sha256": "c6e3bda3af6745dd955fa97383e31020bb34f893e237502c17b5ce7351a04f2b",
+      "bytes": 142938
+    },
+    "sources/buildings/textures/painted_wood_light_color.png": {
+      "sha256": "742cf923eef62ad63cfa04effa48f006bc0837b3587426f3382702290e05659f",
+      "bytes": 127878
+    },
+    "sources/buildings/textures/painted_wood_normal.png": {
+      "sha256": "e40f9f817ef15f1ae6c1de1678ee556357b38290024743567a62b6e51b1436d1",
+      "bytes": 95248
+    },
+    "sources/buildings/textures/painted_wood_roughness.png": {
+      "sha256": "6550c96dde6520c594c0b771812372b4af1e53362fbac8687f82c3c895454641",
+      "bytes": 22930
+    },
+    "sources/buildings/town_hall.blend": {
+      "sha256": "036733bcf95c606f3de582c97aee33e33dcf610fe260132bbbbf37fb60f43cc1",
+      "bytes": 6944420
+    },
+    "sources/buildings/trade_market.blend": {
+      "sha256": "1532a41a797407911b64215090fdc1a755d137fb453e5381efd1fd7dea632b1a",
+      "bytes": 1896109
+    },
+    "sources/buildings/tree_house.blend": {
+      "sha256": "892d8a143b105314676e848bf49a3efbb6134bf2834497cc5ae60236b68ef802",
+      "bytes": 247165
+    },
+    "sources/buildings/weaver.blend": {
+      "sha256": "2cd6cdc70b302f2c5017d383a959706369f1b71bcfd8e180c6eea833e81bfae6",
+      "bytes": 6748649
+    },
+    "sources/buildings/woodcutter_hut.blend": {
+      "sha256": "2e4c45eea135d2a8d148df67cd341e7d94bc052e046e8eeb42eb1032d54bbeb2",
+      "bytes": 312782
+    },
+    "sources/characters/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "sources/characters/archer.blend": {
+      "sha256": "7c2378e144542d58a93175807797351a89c612e72a0683e0122209912fa20262",
+      "bytes": 267415
+    },
+    "sources/characters/berserker.blend": {
+      "sha256": "d32b95443b052ac23cda3c9a506a1404fe8ffa3ecffe726546aabcac47ee5b07",
+      "bytes": 1887616
+    },
+    "sources/characters/evil_berserker_unit.blend": {
+      "sha256": "774f19be402b03dc3c5645c8ee0db01be47953e33da2d46d00cdef4e9751d01a",
+      "bytes": 942628
+    },
+    "sources/characters/evil_mage_unit.blend": {
+      "sha256": "21c5a5699a9e529554fdc37d04bf1ba8b534b3f81d242d2179e9ddb7d5af623a",
+      "bytes": 929629
+    },
+    "sources/characters/evil_melee_unit.blend": {
+      "sha256": "74ff32dce87cbae236e49670333f5ca6cd3c0a77a52052ee8ca7c85cb6b52fbf",
+      "bytes": 916930
+    },
+    "sources/characters/evil_ranged_unit.blend": {
+      "sha256": "d580d1f9c5f8a1b7f5e12a0bc1bbdd03228d3d4033c383d9ae78eaa582c1e6ac",
+      "bytes": 913550
+    },
+    "sources/characters/knight.blend": {
+      "sha256": "950180d36ace11a1845a5ef23256d2bacf357bb8e4f5a6838584d55d0557c6ee",
+      "bytes": 296332
+    },
+    "sources/characters/mage.blend": {
+      "sha256": "e31baa615009d47957884008367f8b25877cfcf3725794c5a7f99c09224693ce",
+      "bytes": 296238
+    },
+    "sources/effects/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "sources/environment/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "sources/environment/hex_bioluminescent_grove.blend": {
+      "sha256": "ab131b6216beb0d35a7431b89381d7c6cbeb92a8a1342f6ae4d74f947edf361e",
+      "bytes": 23853945
+    },
+    "sources/environment/hex_butterfly_glade.blend": {
+      "sha256": "82a553ff192d20a66fec81da7c4065fe6abd6fe3f23f7aa77d44a8ce7d4b8c8b",
+      "bytes": 6344766
+    },
+    "sources/environment/hex_crystal_grove.blend": {
+      "sha256": "a5c2c1655c3170f8c2aba3b0ebe33e0e6192f141373b061751ac61abe1885884",
+      "bytes": 10308151
+    },
+    "sources/environment/hex_crystal_shrine.blend": {
+      "sha256": "233e583b47250eb91992e9e4d967f6dee48f29d81bfc217f1d505884701d89d7",
+      "bytes": 26715458
+    },
+    "sources/environment/hex_dream_menagerie.blend": {
+      "sha256": "3152a9c23c5affdbce818aad11c4e4c1dd51482c634fbc7d8754a922c5adc285",
+      "bytes": 10830052
+    },
+    "sources/environment/hex_glowing_mushrooms.blend": {
+      "sha256": "a8c7897a587a311a8a81353eca457e90c679542807a04a1b38cd8c7cd6b283c6",
+      "bytes": 19968214
+    },
+    "sources/environment/hex_hollow_watchers.blend": {
+      "sha256": "8f9c6ff4c7383ff94ba709ee8cadfffa4369bcb8ffa0ece18ef85d597ddb53de",
+      "bytes": 8175906
+    },
+    "sources/environment/hex_lantern_bridge.blend": {
+      "sha256": "ec221caa0f55edc6d35f22467dafdd937b3c5ccdfca7adc53cf978d4fd43e6f1",
+      "bytes": 32147953
+    },
+    "sources/environment/hex_meadow_building.blend": {
+      "sha256": "f6649ac9f89282d56835163f277298f00dc77999709c0565ddd53c19fc33f7d7",
+      "bytes": 167429
+    },
+    "sources/environment/hex_meadow_character.blend": {
+      "sha256": "4f33ae1e5a3e3baf7911d86620861fe2c159967b28bf7630e6ea1d263755a6f3",
+      "bytes": 195103
+    },
+    "sources/environment/hex_mystical_grove.blend": {
+      "sha256": "c385965366762644f654c7d10a7fa7a97b4dc1513611f3b2e5faa3e339a922b4",
+      "bytes": 14333740
+    },
+    "sources/environment/hex_rune_shrine.blend": {
+      "sha256": "aa929218be364a7dee08173dbc27681e3a78a39b272fe5ade948ee6fe3a3135d",
+      "bytes": 16157505
+    },
+    "sources/environment/hex_woodland_bridge.blend": {
+      "sha256": "5ef380393fc58110cd59c605c50d90f64d2e15efe5929ea3e445c5ed894e3c89",
+      "bytes": 35344905
+    },
+    "sources/environment/shared_enchanted_kit.blend": {
+      "sha256": "a925fc587a27d1bd8c3060694574692a189d26eae3996947501923629d662d23",
+      "bytes": 4299474
+    },
+    "sources/environment/shared_forest_kit.blend": {
+      "sha256": "2694b3b6350c122093558c729d073b38204b4cb7df5ceafea0ef1ad3e6ca683a",
+      "bytes": 7819447
+    },
+    "sources/environment/textures/painted_bark_color.png": {
+      "sha256": "cae61f8f81c3675c849c9b72e9646553081b312a5d4c200af6c2f0478422cb84",
+      "bytes": 94849
+    },
+    "sources/environment/textures/painted_bark_haunted_color.png": {
+      "sha256": "a8d6a674f173a6075dfce4a24628998888f46931d1d56653b2b96c3b7d1eefab",
+      "bytes": 118879
+    },
+    "sources/environment/textures/painted_bark_haunted_light_color.png": {
+      "sha256": "222d2739986e04cb28ffa3ad67ba53faed5f1c1c380ecf918157a4fb8251e4da",
+      "bytes": 138974
+    },
+    "sources/environment/textures/painted_bark_light_color.png": {
+      "sha256": "8dfcadd8e563bc828a70aaeffca5e8db7c8c391693a9686362805a82364bb1bc",
+      "bytes": 113960
+    },
+    "sources/environment/textures/painted_crystal_blue_color.png": {
+      "sha256": "727c5ee6506e3bd2265d3c019833b68662989b57ee24cbc48dfe367d9d26ddf2",
+      "bytes": 527717
+    },
+    "sources/environment/textures/painted_crystal_blue_emission.png": {
+      "sha256": "0033c2e3d415fb2bb48a59a30a18d12feb4f8c46dc2735ce2a7c976db3e513f4",
+      "bytes": 531973
+    },
+    "sources/environment/textures/painted_crystal_cyan_color.png": {
+      "sha256": "3a6c992cd6f5624fb3e0ba347b522bb1ccac8b944238abdd692ae8e7b7154fbc",
+      "bytes": 525661
+    },
+    "sources/environment/textures/painted_crystal_cyan_emission.png": {
+      "sha256": "eb151ff7f2ac316821321efa3e3e58cadbac2391405fc016f6e9f931b3838f2e",
+      "bytes": 537394
+    },
+    "sources/environment/textures/painted_crystal_light_color.png": {
+      "sha256": "5c555fe9543d493727effd4920b9b3f1cadda6811a0a761ae2fc62a24b0a9df7",
+      "bytes": 514955
+    },
+    "sources/environment/textures/painted_crystal_light_emission.png": {
+      "sha256": "d48da21419b8a6735446dc1d442d88806efaca6d485fcd61908ed14757ff08be",
+      "bytes": 535692
+    },
+    "sources/environment/textures/painted_crystal_lilac_color.png": {
+      "sha256": "942d564d3004ec54eebe17c5ccbdbc2092a186c36be497c670c1d1993ad6da6d",
+      "bytes": 502991
+    },
+    "sources/environment/textures/painted_crystal_lilac_emission.png": {
+      "sha256": "b7fc31348f78a5d6af15ff25e6e5d4fce774c596fa12973b3cf402202cf42647",
+      "bytes": 521347
+    },
+    "sources/environment/textures/painted_crystal_purple_color.png": {
+      "sha256": "942d564d3004ec54eebe17c5ccbdbc2092a186c36be497c670c1d1993ad6da6d",
+      "bytes": 502991
+    },
+    "sources/environment/textures/painted_crystal_purple_emission.png": {
+      "sha256": "b7fc31348f78a5d6af15ff25e6e5d4fce774c596fa12973b3cf402202cf42647",
+      "bytes": 521347
+    },
+    "sources/environment/textures/painted_crystal_roughness.png": {
+      "sha256": "f77479390a57c8623dd652f33b93d4867f5e552c7b65dc5652a6433c012d16fc",
+      "bytes": 61765
+    },
+    "sources/environment/textures/painted_forest_leaf_color.png": {
+      "sha256": "ce0357ecd0b48ac6d270684ae13ded39a4af9ae3b029b0a7b23d8c0e73ea8ae4",
+      "bytes": 86523
+    },
+    "sources/environment/textures/painted_forest_leaf_light_color.png": {
+      "sha256": "715321310140ca9892aeb59705ff9a0fd1c1d555adba5ffc49e801203813eada",
+      "bytes": 97955
+    },
+    "sources/environment/textures/painted_forest_leaf_lilac_color.png": {
+      "sha256": "b4dab5300358aaf52f74b859b7c2beceb587df011af3e64cda4d9fad8e4e8a72",
+      "bytes": 109864
+    },
+    "sources/environment/textures/painted_forest_leaf_teal_color.png": {
+      "sha256": "6d63f4991e4a133c4482b643824fc1d0bbe0c6f2a82353c5af12d4bffbc77882",
+      "bytes": 92812
+    },
+    "sources/environment/textures/painted_fur_coral_color.png": {
+      "sha256": "eb3a40b4f1d276f7095a1cc9334a6a9db2bc7f2c1669a47e98b2ed635e95e0be",
+      "bytes": 115993
+    },
+    "sources/environment/textures/painted_fur_cream_color.png": {
+      "sha256": "3b7718f931dfaa81b0df3cddbb08a280a8795bfe9da36f71ec9f90b500bbda29",
+      "bytes": 132831
+    },
+    "sources/environment/textures/painted_fur_lavender_color.png": {
+      "sha256": "d07bfc2481e2b01a69628aacc7bd8e1c1ae5b076d0529125363f419549cd3714",
+      "bytes": 114514
+    },
+    "sources/environment/textures/painted_fur_roughness.png": {
+      "sha256": "dfad4b4cce21cf4085052b2cd01fc09789fb8cd5f043661eafb5e416a69799b0",
+      "bytes": 15089
+    },
+    "sources/environment/textures/painted_fur_teal_color.png": {
+      "sha256": "2c2d55cc95452c3f3a7edff4132499e987513c88108bdd0f9fc7b80e8dd10ce7",
+      "bytes": 103471
+    },
+    "sources/environment/textures/painted_gill_glow_color.png": {
+      "sha256": "8072479a7cc048e0e442e02915e417caa409a75abe100bfe889815a53111651c",
+      "bytes": 77326
+    },
+    "sources/environment/textures/painted_gill_glow_emission.png": {
+      "sha256": "f6ff5550fe7d78c234f2514f0a51f7a64bd3dde2c52c591f14c5c6edecf3b4cf",
+      "bytes": 97414
+    },
+    "sources/environment/textures/painted_gill_roughness.png": {
+      "sha256": "298b334fadc9f50d74f557439099b5b925b05b41e21f0820e73ef643b0ae3b6d",
+      "bytes": 11007
+    },
+    "sources/environment/textures/painted_grass_color.png": {
+      "sha256": "7e9b9118d3865e5e375e40a195cc436546f26aca443a50fd67d9f16c5f6d81f8",
+      "bytes": 164537
+    },
+    "sources/environment/textures/painted_grass_dark_color.png": {
+      "sha256": "89a677cd68f61f0204f157c814c84e47c685d79a53a0aaa60049ed4cb3cc8f9a",
+      "bytes": 145186
+    },
+    "sources/environment/textures/painted_grass_light_color.png": {
+      "sha256": "366fe0481229a8f63f7030e6f2e14557d2f1c621878811913e0a3a01e5c54e3e",
+      "bytes": 176833
+    },
+    "sources/environment/textures/painted_ground_roughness.png": {
+      "sha256": "f773deb612b7244a13156bf90f02be23a71a4c101f10cedc18f7663b234de37f",
+      "bytes": 28555
+    },
+    "sources/environment/textures/painted_hex_bioluminescent_grove_ground_color.png": {
+      "sha256": "c7d348f36c24ef267d66cbd6efb2e70939c136e462c9cb563dcdf0621b93c29f",
+      "bytes": 491383
+    },
+    "sources/environment/textures/painted_hex_bioluminescent_grove_ground_emission.png": {
+      "sha256": "f5d691eae6eb234b0603d9b98f3975498f13ac673b24593212cbbadc10925555",
+      "bytes": 135766
+    },
+    "sources/environment/textures/painted_hex_butterfly_glade_ground_color.png": {
+      "sha256": "a212afe413c79a7592ac95088da7c16b229329b992706417d59872bc09f00577",
+      "bytes": 477483
+    },
+    "sources/environment/textures/painted_hex_butterfly_glade_ground_emission.png": {
+      "sha256": "e7f0094ba7fd18da9b774189332f5c33501d40ea27162d56257e8351d3d61ebe",
+      "bytes": 111531
+    },
+    "sources/environment/textures/painted_hex_crystal_grove_ground_color.png": {
+      "sha256": "df5c96ea4ff04ec8b0934d51fbf45f2d29545593e0cf3a1e0f176c05fadc0110",
+      "bytes": 498781
+    },
+    "sources/environment/textures/painted_hex_crystal_grove_ground_emission.png": {
+      "sha256": "7a4fb6beda4db049e1bd84d12bc34c53588ff9da84f625d5b402589a8aa5d95f",
+      "bytes": 188718
+    },
+    "sources/environment/textures/painted_hex_crystal_shrine_ground_color.png": {
+      "sha256": "ccfe91205beb16a61e8b925f548dd6b451bdbcf1e978c09c71f0d03efee8cd9e",
+      "bytes": 502863
+    },
+    "sources/environment/textures/painted_hex_crystal_shrine_ground_emission.png": {
+      "sha256": "65e51f6a02e8565f83aa8007f08564a88185ea79345723907c87c3ccb04ef708",
+      "bytes": 208618
+    },
+    "sources/environment/textures/painted_hex_dream_menagerie_ground_color.png": {
+      "sha256": "9f9b840969142b74732881ccb98706291d258971fca490b37fe6d4efcfef2b90",
+      "bytes": 482962
+    },
+    "sources/environment/textures/painted_hex_dream_menagerie_ground_emission.png": {
+      "sha256": "7890b9a8cba0e050efd76ff11fa0c03a5d248bce168bde1bfcce544539c8cccd",
+      "bytes": 131136
+    },
+    "sources/environment/textures/painted_hex_glowing_mushrooms_ground_color.png": {
+      "sha256": "0d55ce4b24e7b682edb82071eac1ebf8e75b12f6ec6a0d2c7281af812b4f62c2",
+      "bytes": 495732
+    },
+    "sources/environment/textures/painted_hex_glowing_mushrooms_ground_emission.png": {
+      "sha256": "75b458e7feb372c60a25f9e67c22f83cd9b46817ebb6372d323c0580ea6a52f0",
+      "bytes": 169625
+    },
+    "sources/environment/textures/painted_hex_hollow_watchers_ground_color.png": {
+      "sha256": "ca292add29c0147999c91d04c6fa2a49e3462fbc15a97441571a2542c1e98da8",
+      "bytes": 480192
+    },
+    "sources/environment/textures/painted_hex_hollow_watchers_ground_emission.png": {
+      "sha256": "95d3ea509d7d3be6d3aa4167deea277e0f95863a5306e30b7b278bdd6e3ae57f",
+      "bytes": 105595
+    },
+    "sources/environment/textures/painted_hex_lantern_bridge_ground_color.png": {
+      "sha256": "dd8afbf93af21599e6cab529be29a2a280145382a9ed359d934c52e7599817a3",
+      "bytes": 492795
+    },
+    "sources/environment/textures/painted_hex_lantern_bridge_ground_emission.png": {
+      "sha256": "c136588ff4609f806c8dab2ab234ee631c46c2bf9d8a1dd8cb596ec7de4ab57a",
+      "bytes": 130541
+    },
+    "sources/environment/textures/painted_hex_mystical_grove_ground_color.png": {
+      "sha256": "e74a26d9926cfd1c23903aeb814b2b338ef95e0802024ea9cb24caa378c8f236",
+      "bytes": 502322
+    },
+    "sources/environment/textures/painted_hex_mystical_grove_ground_emission.png": {
+      "sha256": "81ea3fcfd00e2a214d0e8d91b78b37559f6a207e283ae06c0af5a5eed7dbd87b",
+      "bytes": 201636
+    },
+    "sources/environment/textures/painted_hex_rune_shrine_ground_color.png": {
+      "sha256": "08ee180b4acb3abd1db6ef76e989f0a34a54af8002605f0e5098818c4da8f7d3",
+      "bytes": 492270
+    },
+    "sources/environment/textures/painted_hex_rune_shrine_ground_emission.png": {
+      "sha256": "9b5b4625e3bcbfbbbe9e3eed9671952e2ac6722fb0943ba33600cf63e964674e",
+      "bytes": 138744
+    },
+    "sources/environment/textures/painted_hex_woodland_bridge_ground_color.png": {
+      "sha256": "dd8afbf93af21599e6cab529be29a2a280145382a9ed359d934c52e7599817a3",
+      "bytes": 492795
+    },
+    "sources/environment/textures/painted_hex_woodland_bridge_ground_emission.png": {
+      "sha256": "c136588ff4609f806c8dab2ab234ee631c46c2bf9d8a1dd8cb596ec7de4ab57a",
+      "bytes": 130541
+    },
+    "sources/environment/textures/painted_leaf_normal.png": {
+      "sha256": "0b2b7bb15e05098ee50c456d7831b8cffe7b6d165674dc7491206e55d86ce0af",
+      "bytes": 128018
+    },
+    "sources/environment/textures/painted_leaf_roughness.png": {
+      "sha256": "397f7c800470ba1a34456664cc8d4bdf4645ef200bfac91a030bba3226449b97",
+      "bytes": 14973
+    },
+    "sources/environment/textures/painted_moss_color.png": {
+      "sha256": "a6535d3b1c299b9a2dd1bb027256e7f3fe8b147d37dc8b3ed5b197798c6df430",
+      "bytes": 87270
+    },
+    "sources/environment/textures/painted_moss_roughness.png": {
+      "sha256": "397f7c800470ba1a34456664cc8d4bdf4645ef200bfac91a030bba3226449b97",
+      "bytes": 14973
+    },
+    "sources/environment/textures/painted_mushroom_blue_color.png": {
+      "sha256": "61f77c57ac8bf711dec0f7bbbf128ca9f68411fe845bfda9cfe7719ed7a1677d",
+      "bytes": 65388
+    },
+    "sources/environment/textures/painted_mushroom_blue_emission.png": {
+      "sha256": "6d91df2547d38cf2a41185db6b528883b8cd1df613595e1ac679f5bd2a359834",
+      "bytes": 85148
+    },
+    "sources/environment/textures/painted_mushroom_purple_color.png": {
+      "sha256": "c387cd04962bef57d647686fb8b22a7dd01303038af412885ff1f96f10909acd",
+      "bytes": 70330
+    },
+    "sources/environment/textures/painted_mushroom_purple_emission.png": {
+      "sha256": "46b596b63a313fda8492f8a55b0279f68c8001ed75edec39c149d7ea96b1bc78",
+      "bytes": 90127
+    },
+    "sources/environment/textures/painted_mushroom_roughness.png": {
+      "sha256": "bc903e17cf53bb9b38e43f1145ead4ed60195f070a8b8edb7b2e6d810b3176b8",
+      "bytes": 10250
+    },
+    "sources/environment/textures/painted_stone_color.png": {
+      "sha256": "67307cfeb71a485760da6095086ce87270ef36b0c2d42cf87943a03ccf0fc8c8",
+      "bytes": 140973
+    },
+    "sources/environment/textures/painted_stone_dark_color.png": {
+      "sha256": "bde3f24cba0af5bd4fe6975b64af9165f9f24052c8ee15467772cfb6538f7168",
+      "bytes": 131685
+    },
+    "sources/environment/textures/painted_stone_light_color.png": {
+      "sha256": "71bb56dbb113bc418a413386d10cc0d0065f78e61ff263daec740d563c0a3a6b",
+      "bytes": 148365
+    },
+    "sources/environment/textures/painted_stone_normal.png": {
+      "sha256": "f7fef5382240bcba83b6b81a3efc64dfeef1fbd373d7536d306f7400685d96d0",
+      "bytes": 51007
+    },
+    "sources/environment/textures/painted_stone_roughness.png": {
+      "sha256": "abcda7a360ca753e396708ddc0c73dbe9f5e9561a4d230f099a9f34b99d3c237",
+      "bytes": 20171
+    },
+    "sources/environment/textures/painted_water_color.png": {
+      "sha256": "7ac667b3318fadb2e9c962846e7da92112bffaf7e5f03b9e18b73f795f688107",
+      "bytes": 54336
+    },
+    "sources/environment/textures/painted_water_emission.png": {
+      "sha256": "eafa3a8f3bec3d90461b9f4189e81d3b700c2be6d29896ab1d930b5556979b3c",
+      "bytes": 73904
+    },
+    "sources/environment/textures/painted_water_light_color.png": {
+      "sha256": "4306fbc3f6d0d0997cdc79bc34d205a36cd7996f7165058b17a6d99d12b4ff8b",
+      "bytes": 74167
+    },
+    "sources/environment/textures/painted_water_light_emission.png": {
+      "sha256": "83ca38ee27ee7c7567ed2b6570c0858aaf0ae1463bb605f90f00e6203320a867",
+      "bytes": 91553
+    },
+    "sources/environment/textures/painted_water_roughness.png": {
+      "sha256": "703f0b7e6acfaa2d0f938d56ed13268b8d5ea286d1f6d80564ab273983dc827a",
+      "bytes": 10667
+    },
+    "sources/environment/textures/painted_window_color.png": {
+      "sha256": "d3537d6bbef532336ad0ea0451a3f30272fd2b71246ad782d7ccd9dcdbc56ef5",
+      "bytes": 49777
+    },
+    "sources/environment/textures/painted_window_emission.png": {
+      "sha256": "216273767ea0efd3aeb3f3840c32710cddab6d8e529d33f90c35c2cf7b905f76",
+      "bytes": 62001
+    },
+    "sources/environment/textures/painted_window_hot_color.png": {
+      "sha256": "085782fd97204224edc9e8abe44d6877a6956298a8909f389d82e82ae4e6bfc2",
+      "bytes": 59972
+    },
+    "sources/environment/textures/painted_window_hot_emission.png": {
+      "sha256": "1ae531fb463b2a398f19db9acca08385601d87b5f325f9102c2f393b2305eafa",
+      "bytes": 74204
+    },
+    "sources/environment/textures/painted_window_roughness.png": {
+      "sha256": "27ad12e9e5e731da48a46a12301e268159f586303ea947b1dd2478f055c904db",
+      "bytes": 8993
+    },
+    "sources/environment/textures/painted_wing_border_color.png": {
+      "sha256": "3b4acca68af9cf8049af448d1a8f9b2ce53c76b08f09d47bf1ad074b040f2136",
+      "bytes": 88159
+    },
+    "sources/environment/textures/painted_wing_coral_color.png": {
+      "sha256": "d2a3767d67f45da96f80ef066a9ca49dfb076fa822cf930941ee5d024064c566",
+      "bytes": 139407
+    },
+    "sources/environment/textures/painted_wing_cyan_color.png": {
+      "sha256": "f669221534dc42b09398ce79df7ce4e6ef1217543e0c0e88b8a08228f55a43cd",
+      "bytes": 139224
+    },
+    "sources/environment/textures/painted_wing_lilac_color.png": {
+      "sha256": "cf4b6d6c3f3dd453b7ad6203d8804794932ee682c4658537df80da688ef3ec96",
+      "bytes": 140846
+    },
+    "sources/environment/textures/painted_wing_moon_color.png": {
+      "sha256": "472f2e39c7fde7a4d9bfc647f9f26bc2e9de828abc7855814b39a9856a6f5d81",
+      "bytes": 139915
+    },
+    "sources/environment/textures/painted_wing_roughness.png": {
+      "sha256": "b1a9b3e56b372752f98842ab6e2230e1456048e84348ffe3ece90707363dd079",
+      "bytes": 19533
+    },
+    "sources/environment/textures/painted_wood_color.png": {
+      "sha256": "f3e3b06e314cb48690a7ce02190dd2751ecf7b8612e1d91350ce61a960df976b",
+      "bytes": 105198
+    },
+    "sources/environment/textures/painted_wood_dark_color.png": {
+      "sha256": "1c165acef967f2779eb6caab34c33a751a5e19245a66c2e9ad0806434835161a",
+      "bytes": 76586
+    },
+    "sources/environment/textures/painted_wood_edge_color.png": {
+      "sha256": "c6e3bda3af6745dd955fa97383e31020bb34f893e237502c17b5ce7351a04f2b",
+      "bytes": 142938
+    },
+    "sources/environment/textures/painted_wood_light_color.png": {
+      "sha256": "742cf923eef62ad63cfa04effa48f006bc0837b3587426f3382702290e05659f",
+      "bytes": 127878
+    },
+    "sources/environment/textures/painted_wood_normal.png": {
+      "sha256": "e40f9f817ef15f1ae6c1de1678ee556357b38290024743567a62b6e51b1436d1",
+      "bytes": 95248
+    },
+    "sources/environment/textures/painted_wood_roughness.png": {
+      "sha256": "6550c96dde6520c594c0b771812372b4af1e53362fbac8687f82c3c895454641",
+      "bytes": 22930
+    },
+    "sources/evil_autobattler.blend": {
+      "sha256": "638bc79b13e735a8e4bfeab3f9668416f883bcc0b6534a4e74623a1a759c476d",
+      "bytes": 5661003
+    },
+    "sources/fantasy_village.blend": {
+      "sha256": "53c9f95447b8079daeecac85a987766179d6ce21da5214fc0bf29673f5668e5b",
+      "bytes": 3716849
+    },
+    "sources/props/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "sources/props/arrow.blend": {
+      "sha256": "7767bbca6f86688309f3e93a91c1b0f99f56ee5c31ef7bbae3be5c6290c5e51a",
+      "bytes": 159128
+    },
+    "sources/props/axe.blend": {
+      "sha256": "a9a1f9f8df866a263f11ef9f77f852c66462a49699367cf8db8fe9ba606c3fb1",
+      "bytes": 179816
+    },
+    "sources/props/axe_offhand.blend": {
+      "sha256": "f657c0c5718d39528f154de4d1f6729e141cd046d5b97bfdf190ab676f71bfd7",
+      "bytes": 179798
+    },
+    "sources/props/bow.blend": {
+      "sha256": "4c8b8314878d1074fc7706da56ffff7e72fd2156e9ebd2fbc74bc252f845c802",
+      "bytes": 160678
+    },
+    "sources/props/crossbow.blend": {
+      "sha256": "2d94ccbb243500e2fefbe10a9a88e6587774a9d75383a5e227a2f2d1f39f59b0",
+      "bytes": 177897
+    },
+    "sources/props/evil_axe.blend": {
+      "sha256": "e73d92de6092ee493316d1ebcafa051bf56b6db8a551994bb359e652bf8a71f9",
+      "bytes": 178987
+    },
+    "sources/props/evil_axe_offhand.blend": {
+      "sha256": "c7f149d54c467ffa25d6072fd4e6e9bcdeb7b790a8c8f8c683ac148915da67b9",
+      "bytes": 179024
+    },
+    "sources/props/evil_hand_flame.blend": {
+      "sha256": "8f01802807739581c64cc6a68c902772e6009e68a4dd43efe6719c69702416d7",
+      "bytes": 163017
+    },
+    "sources/props/evil_shield.blend": {
+      "sha256": "0187cc11eedd383bce20b44f104ead882606dae6775996dd43db8b58756d7363",
+      "bytes": 164529
+    },
+    "sources/props/evil_staff.blend": {
+      "sha256": "88a96a0d118170a04380fae90361b49f411eb1af29979c286e14789ed29674cf",
+      "bytes": 168469
+    },
+    "sources/props/evil_sword.blend": {
+      "sha256": "7715af99c5a60dc03f4262973ca9c4b9b22c1c1009ecae0916f7bcdd621f27cf",
+      "bytes": 167903
+    },
+    "sources/props/shared_village_kit.blend": {
+      "sha256": "998a75ed60403e6791750ff137c9e2f44d161cb95114e1a6657de4a3d22d3bfe",
+      "bytes": 232788
+    },
+    "sources/props/shield.blend": {
+      "sha256": "950e79dad4d4cd0d94223672a4877d41f4c3beba82a048f0c8d2e920e42c16e0",
+      "bytes": 155783
+    },
+    "sources/props/staff.blend": {
+      "sha256": "b8cb6cd32da607ad06334a4caa3e42e957fabedc0ae8346b9d6147909e2d57c5",
+      "bytes": 166247
+    },
+    "sources/props/sword.blend": {
+      "sha256": "d3a62108706d41dd018cdd5cab67a75377b58947d189fc218cdcde9019986327",
+      "bytes": 158236
+    },
+    "sources/reference/autobattler/arrow_tower.png": {
+      "sha256": "5bf640be5a094ee208b6696e9d4843777cb5279ab0440c8f25235f4fd5751c05",
+      "bytes": 1525277
+    },
+    "sources/reference/autobattler/barracks.png": {
+      "sha256": "2793d83d2bcdc0e4ae2e5f1207e4ad1e2029da5c72bb94f5b19e8b94dfce6085",
+      "bytes": 1594139
+    },
+    "sources/reference/autobattler/berserker.png": {
+      "sha256": "2d99bbd6edd74aaf4b860f8ea0e76ad4766f2be1233089568a65dfa9cfa14e05",
+      "bytes": 1540563
+    },
+    "sources/reference/autobattler/bombarding_tower.png": {
+      "sha256": "1ad1048ebc0535e6dbd0861be104841c208435c065520632b5be4f9561e572de",
+      "bytes": 1548117
+    },
+    "sources/reference/autobattler/magic_academy.png": {
+      "sha256": "33dbe652ee0101e6d15148b52e4b5e4b1a5cdbbae51710999b698f5177067475",
+      "bytes": 1539705
+    },
+    "sources/reference/autobattler/manifest.json": {
+      "sha256": "06b22b004fabceec665a7e4be3701a1b7d3bb31e206a07645356ffa45ea02e65",
+      "bytes": 2602
+    },
+    "sources/reference/autobattler/stone_cutter.png": {
+      "sha256": "76808fc1cd077b5658ed7de2b83248213a194e09a65b6794c859b373323058fd",
+      "bytes": 1642484
+    },
+    "sources/reference/autobattler/tavern.png": {
+      "sha256": "9ec237a6113ea27481129f8368fe81d2af7a93bd14b773b1f5fb47d512f8fe93",
+      "bytes": 1549660
+    },
+    "sources/reference/autobattler/trade_market.png": {
+      "sha256": "a0403cc931c47d20f6265b43cc9f31d6ff3c11c31166659bc1b782c8345133dc",
+      "bytes": 1556746
+    },
+    "sources/reference/evil_autobattler/evil_berserker_unit.png": {
+      "sha256": "12e210b3e8396ab5c68434ef1da002ec3b1ab5d0372bc24c2e3b16175bc21525",
+      "bytes": 601560
+    },
+    "sources/reference/evil_autobattler/evil_mage_unit.png": {
+      "sha256": "d1b1d2a5a2e5b47013d9266b4a4c35f026d04339ca4f1c552c0e7bd662a53c13",
+      "bytes": 619943
+    },
+    "sources/reference/evil_autobattler/evil_melee_unit.png": {
+      "sha256": "856210e62968b55391b0942f59530a7d44f2a998a6ac06142af4eed0805d1b79",
+      "bytes": 615542
+    },
+    "sources/reference/evil_autobattler/evil_ranged_unit.png": {
+      "sha256": "576e0a0d4c32f86a79cc023d574ef73279ef15cc3c85717b675eef09183eeb28",
+      "bytes": 588270
+    },
+    "sources/reference/evil_autobattler/manifest.json": {
+      "sha256": "784710be9e769a85d080efd892b0bd64fab2e397824ac26992d7f0248d1b1cb7",
+      "bytes": 1460
+    },
+    "sources/reference/fantasy_village.png": {
+      "sha256": "b25f5421dea51daf82dbed988afd87a6e2e7f8431d5d7db17ea576836ee6b32a",
+      "bytes": 2565070
+    },
+    "sources/reference/index.html": {
+      "sha256": "deda9b7b31c25c427cb92926f34f950ac64367fe6f49d0e3233a24a3e39ba065",
+      "bytes": 14420
+    },
+    "sources/reference/magical_forest/PROVENANCE.md": {
+      "sha256": "bc7c8bd5580b0eccbe8258d30f977fca4a4f0d2b4a70cd51e97328e957b36a51",
+      "bytes": 718
+    },
+    "sources/reference/magical_forest/enchanted_bioluminescent_mushroom_grove.png": {
+      "sha256": "0baaa0e3cc9d312e4c4eee2399e6157fca0c68793fda689adda8d22fe68fe481",
+      "bytes": 1577610
+    },
+    "sources/reference/magical_forest/enchanted_crystal_grove_tile.png": {
+      "sha256": "c3a79ec55a75539bc840248b3992d9fca7d445266e54721eeddd76615f868abc",
+      "bytes": 1491025
+    },
+    "sources/reference/magical_forest/enchanted_crystal_shrine_diorama.png": {
+      "sha256": "5aac6480a3fba6d485b2ba53823328039b837a24c3c77bdfbd4d791a1f9107e8",
+      "bytes": 1530090
+    },
+    "sources/reference/magical_forest/enchanted_forest_rune_shrine.png": {
+      "sha256": "c3000fe81c2f8a676f770c9a03d6468e154c36873c9f36f3af02fd8b6ce81dae",
+      "bytes": 1623682
+    },
+    "sources/reference/magical_forest/enchanted_glowing_mushroom_grove.png": {
+      "sha256": "0d8e2898d05e862c6bdf7dd9cdeb8a9753db30be789e91c9ddc8d55fb657fdc3",
+      "bytes": 1517328
+    },
+    "sources/reference/magical_forest/enchanted_lantern_bridge_diorama.png": {
+      "sha256": "1b70936dbe0d39db9121c683712fd98c5825e1fccd16f92401c4c5af2f066d53",
+      "bytes": 1614121
+    },
+    "sources/reference/magical_forest/enchanted_woodland_bridge_diorama.png": {
+      "sha256": "2a35f71da0afc8ea5d77f2324b294db829f24aebb1e668f9f0aba1d01c130d53",
+      "bytes": 1558174
+    },
+    "sources/reference/magical_forest/manifest.json": {
+      "sha256": "f9004723cda13f3906f9177ffd0d381f76048a6930a34a80643d4df9aec7963a",
+      "bytes": 2889
+    },
+    "sources/reference/magical_forest/mystical_crystal_grove_diorama.png": {
+      "sha256": "2beb6273fffa63650afc8b4841921a01606f9365bf3c6c453c23e77356c0f488",
+      "bytes": 1512161
+    },
+    "sources/reference/more_buildings/PROVENANCE.md": {
+      "sha256": "78a115494a578f34382f68870b1a1058f0f0ef1d238b095e5e7d62daa4497c99",
+      "bytes": 752
+    },
+    "sources/reference/more_buildings/cozy_fantasy_weaver_s_workshop.png": {
+      "sha256": "049526aa24b29815ed66c9a6c12c9da09ebdea934057d8ffa31fcbdd8557fb91",
+      "bytes": 1682501
+    },
+    "sources/reference/more_buildings/fantasy_observatory_cottage_diorama.png": {
+      "sha256": "c3b363a31db8c613a6e3c08290249a9921e9cabc80a22a52d1b3b5c94334c81a",
+      "bytes": 1624885
+    },
+    "sources/reference/more_buildings/fantasy_town_hall_diorama.png": {
+      "sha256": "14dbfcad395fd4746bfefc68c4d618a7d1f7bcee61fd9385a84d52c900cb3693",
+      "bytes": 1650968
+    },
+    "sources/reference/more_buildings/low_poly_fantasy_archery_range.png": {
+      "sha256": "d8e068ee01b45ca5b0ab657095eb6f8513a14534c8fdbf743d52150115e0c7ac",
+      "bytes": 1614648
+    },
+    "sources/reference/more_buildings/low_poly_medieval_iron_mine_diorama.png": {
+      "sha256": "4fe41dbda1eb4caa6cf36c0858c1f686f91b5878bee8ec9018d7ef8e859a7330",
+      "bytes": 1641886
+    },
+    "sources/reference/more_buildings/manifest.json": {
+      "sha256": "f7b2899af7c279e2edf908dd21b95bb7360f87fd7a88e089d0b69b6e676b7a0a",
+      "bytes": 1791
+    },
+    "sources/ui/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  },
+  "assets": [
+    {
+      "id": "buildings/archery_range",
+      "source": {
+        "path": "sources/buildings/archery_range.blend",
+        "version": "18dc58a43a84947c-18dc58a43a84947c-573181"
+      },
+      "model": {
+        "path": "exports/buildings/archery_range.glb",
+        "version": "773325095940b3b3379338e2d84af5398c41a922b676e5f1f15ef3762babbf81"
+      },
+      "reference": {
+        "path": "sources/reference/more_buildings/low_poly_fantasy_archery_range.png",
+        "version": "18dc58a44d3be6be-18dc58a44d3be6be-18a338"
+      },
+      "preview": {
+        "path": "exports/previews/archery_range.png",
+        "version": "18dc58a4301641f3-18dc58a4301641f3-1bde86"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/archery_range.png",
+        "version": "18dc58a43595e9c3-18dc58a43595e9c3-493f6"
+      },
+      "triangles": 41298,
+      "materials": 38,
+      "bytes": 5483064,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "buildings/arrow_tower",
+      "source": {
+        "path": "sources/buildings/arrow_tower.blend",
+        "version": "18dc58a43aa31916-18dc58a43aa31916-1c2406"
+      },
+      "model": {
+        "path": "exports/buildings/arrow_tower.glb",
+        "version": "c23bada7f7e3fee2ba1a954cb55efcb8de68731136e9785e9de9ea7d6a030a76"
+      },
+      "reference": {
+        "path": "sources/reference/autobattler/arrow_tower.png",
+        "version": "18dc58a44b4ad58d-18dc58a44b4ad58d-17461d"
+      },
+      "preview": {
+        "path": "exports/previews/arrow_tower.png",
+        "version": "18dc58a4301641f3-18dc58a4301641f3-ffa35"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/arrow_tower.png",
+        "version": "18dc58a435995818-18dc58a435995818-464bc"
+      },
+      "triangles": 21443,
+      "materials": 35,
+      "bytes": 1261112,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "buildings/bakery",
+      "source": {
+        "path": "sources/buildings/bakery.blend",
+        "version": "18dc58a43aa31916-18dc58a43aa31916-4db6a"
+      },
+      "model": {
+        "path": "exports/buildings/bakery.glb",
+        "version": "643158e9b686a6a1d9e1f8b90533da47deb57923baa3b7a3e1e1a3bc894e27fe"
+      },
+      "reference": {
+        "path": "sources/reference/fantasy_village.png",
+        "version": "18dc58a44c66468b-18dc58a44c66468b-2723ce",
+        "crop": [
+          383,
+          0,
+          384,
+          440
+        ]
+      },
+      "preview": {
+        "path": "exports/previews/bakery.png",
+        "version": "18dc58a4304408da-18dc58a4304408da-fe97d"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/bakery.png",
+        "version": "18dc58a435995818-18dc58a435995818-45f0c"
+      },
+      "triangles": 28185,
+      "materials": 16,
+      "bytes": 1607316,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "buildings/barracks",
+      "source": {
+        "path": "sources/buildings/barracks.blend",
+        "version": "18dc58a43ad0dffc-18dc58a43ad0dffc-1d8ce1"
+      },
+      "model": {
+        "path": "exports/buildings/barracks.glb",
+        "version": "142fc3044369e6e6af04f4dd3c81966280d7ccffe2d335a9033f103d2e1ade7b"
+      },
+      "reference": {
+        "path": "sources/reference/autobattler/barracks.png",
+        "version": "18dc58a44b591087-18dc58a44b591087-18531b"
+      },
+      "preview": {
+        "path": "exports/previews/barracks.png",
+        "version": "18dc58a4309f96a7-18dc58a4309f96a7-fcfdb"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/barracks.png",
+        "version": "18dc58a435995818-18dc58a435995818-4650e"
+      },
+      "triangles": 25425,
+      "materials": 35,
+      "bytes": 1480168,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "buildings/bombarding_tower",
+      "source": {
+        "path": "sources/buildings/bombarding_tower.blend",
+        "version": "18dc58a43aef6496-18dc58a43aef6496-1cb332"
+      },
+      "model": {
+        "path": "exports/buildings/bombarding_tower.glb",
+        "version": "d85259b5fd09e071d15d1da153312b07556017cbbd7b6746b5b1319a709840a8"
+      },
+      "reference": {
+        "path": "sources/reference/autobattler/bombarding_tower.png",
+        "version": "18dc58a44b9fe8a4-18dc58a44b9fe8a4-179f55"
+      },
+      "preview": {
+        "path": "exports/previews/bombarding_tower.png",
+        "version": "18dc58a43165f48f-18dc58a43165f48f-f6128"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/bombarding_tower.png",
+        "version": "18dc58a435995818-18dc58a435995818-44514"
+      },
+      "triangles": 18091,
+      "materials": 29,
+      "bytes": 1082380,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "buildings/gold_mine",
+      "source": {
+        "path": "sources/buildings/gold_mine.blend",
+        "version": "18dc58a43afea6e3-18dc58a43afea6e3-3cb8e"
+      },
+      "model": {
+        "path": "exports/buildings/gold_mine.glb",
+        "version": "9b7dd112218fe0241c89ec7482cb0175c35219e82f3091f4270de97b1036902f"
+      },
+      "reference": {
+        "path": "sources/reference/fantasy_village.png",
+        "version": "18dc58a44c66468b-18dc58a44c66468b-2723ce",
+        "crop": [
+          769,
+          0,
+          383,
+          440
+        ]
+      },
+      "preview": {
+        "path": "exports/previews/gold_mine.png",
+        "version": "18dc58a4325a195c-18dc58a4325a195c-f83f3"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/gold_mine.png",
+        "version": "18dc58a435995818-18dc58a435995818-43deb"
+      },
+      "triangles": 12398,
+      "materials": 15,
+      "bytes": 789880,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "buildings/magic_academy",
+      "source": {
+        "path": "sources/buildings/magic_academy.blend",
+        "version": "18dc58a43b1d2b7d-18dc58a43b1d2b7d-1d56cc"
+      },
+      "model": {
+        "path": "exports/buildings/magic_academy.glb",
+        "version": "e2bcefa7a3ead6afff0400198b895d4b5af448c4e831aa24653c3c92438107c4"
+      },
+      "reference": {
+        "path": "sources/reference/autobattler/magic_academy.png",
+        "version": "18dc58a44bdcf1d7-18dc58a44bdcf1d7-177e79"
+      },
+      "preview": {
+        "path": "exports/previews/magic_academy.png",
+        "version": "18dc58a433e6d52a-18dc58a433e6d52a-f8863"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/magic_academy.png",
+        "version": "18dc58a435a157df-18dc58a435a157df-442d1"
+      },
+      "triangles": 24732,
+      "materials": 32,
+      "bytes": 1480140,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "buildings/metal_mine",
+      "source": {
+        "path": "sources/buildings/metal_mine.blend",
+        "version": "18dc58a43b3bb016-18dc58a43b3bb016-5ea5e5"
+      },
+      "model": {
+        "path": "exports/buildings/metal_mine.glb",
+        "version": "f03e7487735ac055a06acf7c6715cae87ff9cd771284168ee16fcf0b6cd1cbaa"
+      },
+      "reference": {
+        "path": "sources/reference/more_buildings/low_poly_medieval_iron_mine_diorama.png",
+        "version": "18dc58a44d3be6be-18dc58a44d3be6be-190d9e"
+      },
+      "preview": {
+        "path": "exports/previews/metal_mine.png",
+        "version": "18dc58a43423de5d-18dc58a43423de5d-1ad1a7"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/metal_mine.png",
+        "version": "18dc58a435a157df-18dc58a435a157df-4614f"
+      },
+      "triangles": 36248,
+      "materials": 35,
+      "bytes": 5252972,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "buildings/research_tower",
+      "source": {
+        "path": "sources/buildings/research_tower.blend",
+        "version": "18dc58a43b87fb96-18dc58a43b87fb96-57fa3c"
+      },
+      "model": {
+        "path": "exports/buildings/research_tower.glb",
+        "version": "22ee71ebef473aec72d869d49cc1faa12d724ed8c4f408abb68d15d678d09ac4"
+      },
+      "reference": {
+        "path": "sources/reference/more_buildings/fantasy_observatory_cottage_diorama.png",
+        "version": "18dc58a44d1eaa71-18dc58a44d1eaa71-18cb35"
+      },
+      "preview": {
+        "path": "exports/previews/research_tower.png",
+        "version": "18dc58a434f97e91-18dc58a434f97e91-1bd414"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/research_tower.png",
+        "version": "18dc58a435a157df-18dc58a435a157df-4653c"
+      },
+      "triangles": 41962,
+      "materials": 36,
+      "bytes": 5611168,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "buildings/stone_cutter",
+      "source": {
+        "path": "sources/buildings/stone_cutter.blend",
+        "version": "18dc58a43ba68030-18dc58a43ba68030-1e2517"
+      },
+      "model": {
+        "path": "exports/buildings/stone_cutter.glb",
+        "version": "b794740ad916ed966cdde669e0fe582820b30051524260cdf8564b39e732d384"
+      },
+      "reference": {
+        "path": "sources/reference/autobattler/stone_cutter.png",
+        "version": "18dc58a44bdcf1d7-18dc58a44bdcf1d7-190ff4"
+      },
+      "preview": {
+        "path": "exports/previews/stone_cutter.png",
+        "version": "18dc58a43508c0de-18dc58a43508c0de-fe6f4"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/stone_cutter.png",
+        "version": "18dc58a435a157df-18dc58a435a157df-46791"
+      },
+      "triangles": 21979,
+      "materials": 27,
+      "bytes": 1279604,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "buildings/tavern",
+      "source": {
+        "path": "sources/buildings/tavern.blend",
+        "version": "18dc58a43bc504ca-18dc58a43bc504ca-1ce5a1"
+      },
+      "model": {
+        "path": "exports/buildings/tavern.glb",
+        "version": "2a72735cd74e43cecee0c2ea777d3657cfad4e2f57a950a545805700f67dff29"
+      },
+      "reference": {
+        "path": "sources/reference/autobattler/tavern.png",
+        "version": "18dc58a44bec3424-18dc58a44bec3424-17a55c"
+      },
+      "preview": {
+        "path": "exports/previews/tavern.png",
+        "version": "18dc58a43508c0de-18dc58a43508c0de-10258e"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/tavern.png",
+        "version": "18dc58a435a157df-18dc58a435a157df-47f33"
+      },
+      "triangles": 27134,
+      "materials": 35,
+      "bytes": 1562028,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "buildings/town_hall",
+      "source": {
+        "path": "sources/buildings/town_hall.blend",
+        "version": "18dc58a43c9aa4fe-18dc58a43c9aa4fe-69f6a4"
+      },
+      "model": {
+        "path": "exports/buildings/town_hall.glb",
+        "version": "d4e38bbf4a1754701211f937b6eee79fb105b03a13e547c179ba18172822150b"
+      },
+      "reference": {
+        "path": "sources/reference/more_buildings/fantasy_town_hall_diorama.png",
+        "version": "18dc58a44d2ca472-18dc58a44d2ca472-193118"
+      },
+      "preview": {
+        "path": "exports/previews/town_hall.png",
+        "version": "18dc58a435274577-18dc58a435274577-1d3ea6"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/town_hall.png",
+        "version": "18dc58a435b09a2b-18dc58a435b09a2b-48a8d"
+      },
+      "triangles": 88355,
+      "materials": 30,
+      "bytes": 8849548,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "buildings/trade_market",
+      "source": {
+        "path": "sources/buildings/trade_market.blend",
+        "version": "18dc58a43cc86be4-18dc58a43cc86be4-1ceead"
+      },
+      "model": {
+        "path": "exports/buildings/trade_market.glb",
+        "version": "3279b62cc6eb67da1ff95210b91735575daa0aa93f1ddf79e8ad3b8ab6d09fdb"
+      },
+      "reference": {
+        "path": "sources/reference/autobattler/trade_market.png",
+        "version": "18dc58a44bfb7671-18dc58a44bfb7671-17c10a"
+      },
+      "preview": {
+        "path": "exports/previews/trade_market.png",
+        "version": "18dc58a435274577-18dc58a435274577-f8620"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/trade_market.png",
+        "version": "18dc58a435b09a2b-18dc58a435b09a2b-4671c"
+      },
+      "triangles": 21808,
+      "materials": 29,
+      "bytes": 1256240,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "buildings/tree_house",
+      "source": {
+        "path": "sources/buildings/tree_house.blend",
+        "version": "18dc58a43cc86be4-18dc58a43cc86be4-3c57d"
+      },
+      "model": {
+        "path": "exports/buildings/tree_house.glb",
+        "version": "77b46f53fa0dc56e1a7102e9f14dd4d04ad474167f4ef626c8c718519d476d5e"
+      },
+      "reference": {
+        "path": "sources/reference/fantasy_village.png",
+        "version": "18dc58a44c66468b-18dc58a44c66468b-2723ce",
+        "crop": [
+          0,
+          0,
+          382,
+          440
+        ]
+      },
+      "preview": {
+        "path": "exports/previews/tree_house.png",
+        "version": "18dc58a4353687c5-18dc58a4353687c5-fee02"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/tree_house.png",
+        "version": "18dc58a435b09a2b-18dc58a435b09a2b-44df2"
+      },
+      "triangles": 12637,
+      "materials": 15,
+      "bytes": 796256,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "buildings/weaver",
+      "source": {
+        "path": "sources/buildings/weaver.blend",
+        "version": "18dc58a43d057518-18dc58a43d057518-66f9e9"
+      },
+      "model": {
+        "path": "exports/buildings/weaver.glb",
+        "version": "bbffda6346918180bfe8b72cd54870dde97559cafc66309e078c52318c1f5247"
+      },
+      "reference": {
+        "path": "sources/reference/more_buildings/cozy_fantasy_weaver_s_workshop.png",
+        "version": "18dc58a44d1eaa71-18dc58a44d1eaa71-19ac45"
+      },
+      "preview": {
+        "path": "exports/previews/weaver.png",
+        "version": "18dc58a435550c5f-18dc58a435550c5f-1bd491"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/weaver.png",
+        "version": "18dc58a435b09a2b-18dc58a435b09a2b-4780a"
+      },
+      "triangles": 38908,
+      "materials": 33,
+      "bytes": 5427916,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "buildings/woodcutter_hut",
+      "source": {
+        "path": "sources/buildings/woodcutter_hut.blend",
+        "version": "18dc58a43d057518-18dc58a43d057518-4c5ce"
+      },
+      "model": {
+        "path": "exports/buildings/woodcutter_hut.glb",
+        "version": "145107c3a2f3154da970bd1a76ecfba0110af7c841aa211324ac6415d39e33ee"
+      },
+      "reference": {
+        "path": "sources/reference/fantasy_village.png",
+        "version": "18dc58a44c66468b-18dc58a44c66468b-2723ce",
+        "crop": [
+          1153,
+          0,
+          383,
+          440
+        ]
+      },
+      "preview": {
+        "path": "exports/previews/woodcutter_hut.png",
+        "version": "18dc58a435550c5f-18dc58a435550c5f-f9456"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/buildings/woodcutter_hut.png",
+        "version": "18dc58a435b09a2b-18dc58a435b09a2b-43bc8"
+      },
+      "triangles": 24383,
+      "materials": 20,
+      "bytes": 1376604,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "characters/archer",
+      "source": {
+        "path": "sources/characters/archer.blend",
+        "version": "18dc58a43d1d0fb6-18dc58a43d1d0fb6-41497"
+      },
+      "model": {
+        "path": "exports/characters/archer.glb",
+        "version": "904f890755acd43276e5f4f832a0194ac7f2485b07095f44a40f1990d700fc42"
+      },
+      "reference": {
+        "path": "sources/reference/fantasy_village.png",
+        "version": "18dc58a44c66468b-18dc58a44c66468b-2723ce",
+        "crop": [
+          989,
+          515,
+          547,
+          388
+        ]
+      },
+      "preview": {
+        "path": "exports/previews/archer.png",
+        "version": "18dc58a42ff7bd5a-18dc58a42ff7bd5a-e94e6"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/characters/archer.png",
+        "version": "18dc58a435bfdc78-18dc58a435bfdc78-3c24a"
+      },
+      "triangles": 4158,
+      "materials": 14,
+      "bytes": 455172,
+      "animations": [
+        {
+          "name": "attack",
+          "duration": 1.0416666666666667,
+          "loop": false
+        },
+        {
+          "name": "death",
+          "duration": 1.2916666666666667,
+          "loop": false
+        },
+        {
+          "name": "hit",
+          "duration": 0.5416666666666666,
+          "loop": false
+        },
+        {
+          "name": "idle",
+          "duration": 2.0416666666666665,
+          "loop": true
+        },
+        {
+          "name": "run",
+          "duration": 0.7916666666666666,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "duration": 1.0416666666666667,
+          "loop": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "characters/berserker",
+      "source": {
+        "path": "sources/characters/berserker.blend",
+        "version": "18dc58a43d23f9b2-18dc58a43d23f9b2-1ccd80"
+      },
+      "model": {
+        "path": "exports/characters/berserker.glb",
+        "version": "a9782457f77466439d5881f6c0051cd84ad7173ec6a364aac8a094a4cfa25930"
+      },
+      "reference": {
+        "path": "sources/reference/autobattler/berserker.png",
+        "version": "18dc58a44b90a657-18dc58a44b90a657-1781d3"
+      },
+      "preview": {
+        "path": "exports/previews/berserker.png",
+        "version": "18dc58a43165f48f-18dc58a43165f48f-f46c1"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/characters/berserker.png",
+        "version": "18dc58a435bfdc78-18dc58a435bfdc78-3e682"
+      },
+      "triangles": 9335,
+      "materials": 17,
+      "bytes": 1080084,
+      "animations": [
+        {
+          "name": "attack",
+          "duration": 1.0416666666666667,
+          "loop": false
+        },
+        {
+          "name": "death",
+          "duration": 1.2916666666666667,
+          "loop": false
+        },
+        {
+          "name": "hit",
+          "duration": 0.5416666666666666,
+          "loop": false
+        },
+        {
+          "name": "idle",
+          "duration": 2.0416666666666665,
+          "loop": true
+        },
+        {
+          "name": "run",
+          "duration": 0.7916666666666666,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "duration": 1.0416666666666667,
+          "loop": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "characters/evil_berserker_unit",
+      "source": {
+        "path": "sources/characters/evil_berserker_unit.blend",
+        "version": "18dc58a43d6102e5-18dc58a43d6102e5-e6224"
+      },
+      "model": {
+        "path": "exports/characters/evil_berserker_unit.glb",
+        "version": "3902fd908b742c9ab2b3e5d8dfcb052a2e61dde50ee56fc48eec0041893fe3fb"
+      },
+      "reference": {
+        "path": "sources/reference/evil_autobattler/evil_berserker_unit.png",
+        "version": "18dc58a44bfb7671-18dc58a44bfb7671-92dd8",
+        "crop": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "preview": {
+        "path": "exports/previews/evil_berserker_unit.png",
+        "version": "18dc58a43193bb75-18dc58a43193bb75-f334a"
+      },
+      "thumbnail": null,
+      "triangles": 7821,
+      "materials": 15,
+      "bytes": 716616,
+      "animations": [
+        {
+          "name": "attack",
+          "duration": 1.0416666666666667,
+          "loop": false
+        },
+        {
+          "name": "death",
+          "duration": 1.2916666666666667,
+          "loop": false
+        },
+        {
+          "name": "hit",
+          "duration": 0.5416666666666666,
+          "loop": false
+        },
+        {
+          "name": "idle",
+          "duration": 2.0416666666666665,
+          "loop": true
+        },
+        {
+          "name": "run",
+          "duration": 0.7916666666666666,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "duration": 1.0416666666666667,
+          "loop": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "characters/evil_mage_unit",
+      "source": {
+        "path": "sources/characters/evil_mage_unit.blend",
+        "version": "18dc58a43d704531-18dc58a43d704531-e2f5d"
+      },
+      "model": {
+        "path": "exports/characters/evil_mage_unit.glb",
+        "version": "e7c0d79a21d618124db1a43258110c830e0a6a4163144f092107294edfab438d"
+      },
+      "reference": {
+        "path": "sources/reference/evil_autobattler/evil_mage_unit.png",
+        "version": "18dc58a44c0921da-18dc58a44c0921da-975a7",
+        "crop": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "preview": {
+        "path": "exports/previews/evil_mage_unit.png",
+        "version": "18dc58a431c1825b-18dc58a431c1825b-e914a"
+      },
+      "thumbnail": null,
+      "triangles": 6821,
+      "materials": 16,
+      "bytes": 631112,
+      "animations": [
+        {
+          "name": "attack",
+          "duration": 1.0416666666666667,
+          "loop": false
+        },
+        {
+          "name": "death",
+          "duration": 1.2916666666666667,
+          "loop": false
+        },
+        {
+          "name": "hit",
+          "duration": 0.5416666666666666,
+          "loop": false
+        },
+        {
+          "name": "idle",
+          "duration": 2.0416666666666665,
+          "loop": true
+        },
+        {
+          "name": "run",
+          "duration": 0.7916666666666666,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "duration": 1.0416666666666667,
+          "loop": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "characters/evil_melee_unit",
+      "source": {
+        "path": "sources/characters/evil_melee_unit.blend",
+        "version": "18dc58a43d7f877f-18dc58a43d7f877f-dfdc2"
+      },
+      "model": {
+        "path": "exports/characters/evil_melee_unit.glb",
+        "version": "9d97c29db7eb0e1639508b0ec7943bb7bd062bda5fed8a24219d92c9a7bc3e84"
+      },
+      "reference": {
+        "path": "sources/reference/evil_autobattler/evil_melee_unit.png",
+        "version": "18dc58a44c0ab8bd-18dc58a44c0ab8bd-96476",
+        "crop": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "preview": {
+        "path": "exports/previews/evil_melee_unit.png",
+        "version": "18dc58a4322c5276-18dc58a4322c5276-eb3c4"
+      },
+      "thumbnail": null,
+      "triangles": 8535,
+      "materials": 15,
+      "bytes": 791840,
+      "animations": [
+        {
+          "name": "attack",
+          "duration": 1.0416666666666667,
+          "loop": false
+        },
+        {
+          "name": "death",
+          "duration": 1.2916666666666667,
+          "loop": false
+        },
+        {
+          "name": "hit",
+          "duration": 0.5416666666666666,
+          "loop": false
+        },
+        {
+          "name": "idle",
+          "duration": 2.0416666666666665,
+          "loop": true
+        },
+        {
+          "name": "run",
+          "duration": 0.7916666666666666,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "duration": 1.0416666666666667,
+          "loop": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "characters/evil_ranged_unit",
+      "source": {
+        "path": "sources/characters/evil_ranged_unit.blend",
+        "version": "18dc58a43d8ec9cc-18dc58a43d8ec9cc-df08e"
+      },
+      "model": {
+        "path": "exports/characters/evil_ranged_unit.glb",
+        "version": "5808c64a27e3ae9e0ce193c1b979625d76c55b50d96bc390e73415a5df7a95bc"
+      },
+      "reference": {
+        "path": "sources/reference/evil_autobattler/evil_ranged_unit.png",
+        "version": "18dc58a44c0ab8bd-18dc58a44c0ab8bd-8f9ee",
+        "crop": [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      },
+      "preview": {
+        "path": "exports/previews/evil_ranged_unit.png",
+        "version": "18dc58a4324ad70f-18dc58a4324ad70f-e8355"
+      },
+      "thumbnail": null,
+      "triangles": 7151,
+      "materials": 23,
+      "bytes": 712228,
+      "animations": [
+        {
+          "name": "attack",
+          "duration": 1.0416666666666667,
+          "loop": false
+        },
+        {
+          "name": "death",
+          "duration": 1.2916666666666667,
+          "loop": false
+        },
+        {
+          "name": "hit",
+          "duration": 0.5416666666666666,
+          "loop": false
+        },
+        {
+          "name": "idle",
+          "duration": 2.0416666666666665,
+          "loop": true
+        },
+        {
+          "name": "run",
+          "duration": 0.7916666666666666,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "duration": 1.0416666666666667,
+          "loop": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "characters/knight",
+      "source": {
+        "path": "sources/characters/knight.blend",
+        "version": "18dc58a43d9e0c18-18dc58a43d9e0c18-4858c"
+      },
+      "model": {
+        "path": "exports/characters/knight.glb",
+        "version": "1ffa02091ffae7617cd7cbb1c1108150703409086e8380f12c080e9f6bbb2130"
+      },
+      "reference": {
+        "path": "sources/reference/fantasy_village.png",
+        "version": "18dc58a44c66468b-18dc58a44c66468b-2723ce",
+        "crop": [
+          0,
+          515,
+          486,
+          388
+        ]
+      },
+      "preview": {
+        "path": "exports/previews/knight.png",
+        "version": "18dc58a433d792dd-18dc58a433d792dd-f1390"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/characters/knight.png",
+        "version": "18dc58a435bfdc78-18dc58a435bfdc78-3d8d3"
+      },
+      "triangles": 6986,
+      "materials": 13,
+      "bytes": 662780,
+      "animations": [
+        {
+          "name": "attack",
+          "duration": 1.0416666666666667,
+          "loop": false
+        },
+        {
+          "name": "death",
+          "duration": 1.2916666666666667,
+          "loop": false
+        },
+        {
+          "name": "hit",
+          "duration": 0.5416666666666666,
+          "loop": false
+        },
+        {
+          "name": "idle",
+          "duration": 2.0416666666666665,
+          "loop": true
+        },
+        {
+          "name": "run",
+          "duration": 0.7916666666666666,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "duration": 1.0416666666666667,
+          "loop": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "characters/mage",
+      "source": {
+        "path": "sources/characters/mage.blend",
+        "version": "18dc58a43d9e0c18-18dc58a43d9e0c18-4852e"
+      },
+      "model": {
+        "path": "exports/characters/mage.glb",
+        "version": "76b9980295c51ea178878afb6fc7a5ea7e93af2ccf2930e0bcffcbd99ff6ff55"
+      },
+      "reference": {
+        "path": "sources/reference/fantasy_village.png",
+        "version": "18dc58a44c66468b-18dc58a44c66468b-2723ce",
+        "crop": [
+          488,
+          515,
+          499,
+          388
+        ]
+      },
+      "preview": {
+        "path": "exports/previews/mage.png",
+        "version": "18dc58a433d792dd-18dc58a433d792dd-f1a55"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/characters/mage.png",
+        "version": "18dc58a435bfdc78-18dc58a435bfdc78-3cf55"
+      },
+      "triangles": 5102,
+      "materials": 12,
+      "bytes": 509272,
+      "animations": [
+        {
+          "name": "attack",
+          "duration": 1.0416666666666667,
+          "loop": false
+        },
+        {
+          "name": "death",
+          "duration": 1.2916666666666667,
+          "loop": false
+        },
+        {
+          "name": "hit",
+          "duration": 0.5416666666666666,
+          "loop": false
+        },
+        {
+          "name": "idle",
+          "duration": 2.0416666666666665,
+          "loop": true
+        },
+        {
+          "name": "run",
+          "duration": 0.7916666666666666,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "duration": 1.0416666666666667,
+          "loop": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_boulder",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_boulder.glb",
+        "version": "88d721b332224223a91b03f0185a80079b29da321c126af8f11d70fbf9335c1e"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_crystal_grove_tile.png",
+        "version": "18dc58a44cb2920b-18dc58a44cb2920b-16c051"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_boulder.png",
+        "version": "18dc58a435d363b4-18dc58a435d363b4-38aa7"
+      },
+      "triangles": 490,
+      "materials": 3,
+      "bytes": 532572,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_bridge_plank",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_bridge_plank.glb",
+        "version": "3bbe29bf0da09a8854e91fa1a1d0d7cec4101fe364599f97b92258ba2517955e"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_woodland_bridge_diorama.png",
+        "version": "18dc58a44cfedd8b-18dc58a44cfedd8b-17c69e"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_bridge_plank.png",
+        "version": "18dc58a435d69e97-18dc58a435d69e97-3b393"
+      },
+      "triangles": 296,
+      "materials": 3,
+      "bytes": 350896,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_bridge_post",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_bridge_post.glb",
+        "version": "3203700af34d91dd830a51bf0c139a5af6bb811d80632e3dc0da9f5b5697a0dc"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_woodland_bridge_diorama.png",
+        "version": "18dc58a44cfedd8b-18dc58a44cfedd8b-17c69e"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_bridge_post.png",
+        "version": "18dc58a435d69e97-18dc58a435d69e97-3a6d1"
+      },
+      "triangles": 524,
+      "materials": 4,
+      "bytes": 513848,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_bridge_rail",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_bridge_rail.glb",
+        "version": "530d673b3b837a5bec8437fcb0a042be09c6340defbb14eea4144efff549715a"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_woodland_bridge_diorama.png",
+        "version": "18dc58a44cfedd8b-18dc58a44cfedd8b-17c69e"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_bridge_rail.png",
+        "version": "18dc58a435d69e97-18dc58a435d69e97-38dbb"
+      },
+      "triangles": 216,
+      "materials": 2,
+      "bytes": 355064,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_butterfly_cyan",
+      "source": {
+        "path": "sources/environment/shared_enchanted_kit.blend",
+        "version": "18dc58a448867108-18dc58a448867108-419ad2"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_butterfly_cyan.glb",
+        "version": "43067049e83fc117922c16f186133bb991bd31793fe353e6f5f597615028fcf6"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_butterfly_cyan.png",
+        "version": "18dc58a435d69e97-18dc58a435d69e97-3968d"
+      },
+      "triangles": 1176,
+      "materials": 4,
+      "bytes": 557464,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_butterfly_sunset",
+      "source": {
+        "path": "sources/environment/shared_enchanted_kit.blend",
+        "version": "18dc58a448867108-18dc58a448867108-419ad2"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_butterfly_sunset.glb",
+        "version": "56134d27ae19dabdf491ef5ae923305196bcc18a1815cf78d3d52ef2ee963594"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_butterfly_sunset.png",
+        "version": "18dc58a435d69e97-18dc58a435d69e97-3948a"
+      },
+      "triangles": 1176,
+      "materials": 4,
+      "bytes": 557688,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_crystal_blue",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_crystal_blue.glb",
+        "version": "66bbe689d10d2cc87b262247adb8d461f6c99e0318416a8067efb44eab915a47"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_crystal_grove_tile.png",
+        "version": "18dc58a44cb2920b-18dc58a44cb2920b-16c051"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_crystal_blue.png",
+        "version": "18dc58a435de6112-18dc58a435de6112-3a732"
+      },
+      "triangles": 38,
+      "materials": 3,
+      "bytes": 3243124,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_crystal_purple",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_crystal_purple.glb",
+        "version": "43225b52a57a1ca1aa435f7ea40938db4952aae3231d9391f93248656e32c543"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_crystal_grove_tile.png",
+        "version": "18dc58a44cb2920b-18dc58a44cb2920b-16c051"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_crystal_purple.png",
+        "version": "18dc58a435de6112-18dc58a435de6112-390f2"
+      },
+      "triangles": 38,
+      "materials": 2,
+      "bytes": 2116972,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_fern",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_fern.glb",
+        "version": "4758429b9344dd459518dccb51807a63353b5cce8d48b3ef97dbf905514d5ec9"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_crystal_grove_tile.png",
+        "version": "18dc58a44cb2920b-18dc58a44cb2920b-16c051"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_fern.png",
+        "version": "18dc58a435fce5ac-18dc58a435fce5ac-401cd"
+      },
+      "triangles": 576,
+      "materials": 2,
+      "bytes": 414796,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_foam",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_foam.glb",
+        "version": "a6b6b5d01a5e52263786e58b577b41815d704c454cb93d81a877c5dfa66092e8"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_lantern_bridge_diorama.png",
+        "version": "18dc58a44cef9b3e-18dc58a44cef9b3e-18a129"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_foam.png",
+        "version": "18dc58a435fce5ac-18dc58a435fce5ac-3a56e"
+      },
+      "triangles": 976,
+      "materials": 2,
+      "bytes": 1366764,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_hex_meadow",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_hex_meadow.glb",
+        "version": "36406de0a4db79e007694d1b2e83418ed1e46ea370c9b65780ea93be676d4829"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_crystal_grove_tile.png",
+        "version": "18dc58a44cb2920b-18dc58a44cb2920b-16c051"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_hex_meadow.png",
+        "version": "18dc58a4360c27f9-18dc58a4360c27f9-374b9"
+      },
+      "triangles": 132,
+      "materials": 4,
+      "bytes": 355240,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_hex_stream",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_hex_stream.glb",
+        "version": "c83cf0f4509e2183a20eff14d8a82f97ef687edc8ab3e46c8d66ac008aac315b"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_lantern_bridge_diorama.png",
+        "version": "18dc58a44cef9b3e-18dc58a44cef9b3e-18a129"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_hex_stream.png",
+        "version": "18dc58a4360c27f9-18dc58a4360c27f9-3955f"
+      },
+      "triangles": 216,
+      "materials": 5,
+      "bytes": 522936,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_hollow_tree",
+      "source": {
+        "path": "sources/environment/shared_enchanted_kit.blend",
+        "version": "18dc58a448867108-18dc58a448867108-419ad2"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_hollow_tree.glb",
+        "version": "c8f5cf4f06aef9cc7414d879cd3bb4755407fbec4169c5c4f5aa8d22e678f8ea"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_hollow_tree.png",
+        "version": "18dc58a4360c27f9-18dc58a4360c27f9-3e00c"
+      },
+      "triangles": 6288,
+      "materials": 6,
+      "bytes": 2280864,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_jackalope",
+      "source": {
+        "path": "sources/environment/shared_enchanted_kit.blend",
+        "version": "18dc58a448867108-18dc58a448867108-419ad2"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_jackalope.glb",
+        "version": "f6d8ff16aec90fb4e3960a99f9412a0fc80365a6aef1fb463159883e29ab5448"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_jackalope.png",
+        "version": "18dc58a4360c27f9-18dc58a4360c27f9-3d672"
+      },
+      "triangles": 6232,
+      "materials": 6,
+      "bytes": 832100,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_lantern_flower",
+      "source": {
+        "path": "sources/environment/shared_enchanted_kit.blend",
+        "version": "18dc58a448867108-18dc58a448867108-419ad2"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_lantern_flower.glb",
+        "version": "cb386f1001b948e126970bb0d51fc3e87e19639d9cd1e8269070066d89ab456e"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_lantern_flower.png",
+        "version": "18dc58a4360c27f9-18dc58a4360c27f9-3aa15"
+      },
+      "triangles": 424,
+      "materials": 3,
+      "bytes": 513188,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_lantern_post",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_lantern_post.glb",
+        "version": "3dc307419001367a0954c26d7e68294ce538f9ff6d4c454595dbb569e5c9b87d"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_lantern_bridge_diorama.png",
+        "version": "18dc58a44cef9b3e-18dc58a44cef9b3e-18a129"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_lantern_post.png",
+        "version": "18dc58a4361b6a45-18dc58a4361b6a45-39724"
+      },
+      "triangles": 1196,
+      "materials": 6,
+      "bytes": 814724,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_lantern_snail",
+      "source": {
+        "path": "sources/environment/shared_enchanted_kit.blend",
+        "version": "18dc58a448867108-18dc58a448867108-419ad2"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_lantern_snail.glb",
+        "version": "b2693993b574e86743cfa5cb133831be1483e70d99af8121886f731bae4b9c65"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_lantern_snail.png",
+        "version": "18dc58a4361b6a45-18dc58a4361b6a45-3c4dc"
+      },
+      "triangles": 2970,
+      "materials": 6,
+      "bytes": 887236,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_leaf_clump",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_leaf_clump.glb",
+        "version": "3b41297dc9e70d3d111b13c911bd272aa58e808531b8d59ef54ad3fccad86a09"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_crystal_grove_tile.png",
+        "version": "18dc58a44cb2920b-18dc58a44cb2920b-16c051"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_leaf_clump.png",
+        "version": "18dc58a4362aac92-18dc58a4362aac92-380d9"
+      },
+      "triangles": 48,
+      "materials": 2,
+      "bytes": 334612,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_moon_moth",
+      "source": {
+        "path": "sources/environment/shared_enchanted_kit.blend",
+        "version": "18dc58a448867108-18dc58a448867108-419ad2"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_moon_moth.glb",
+        "version": "d5f8a0224aa3d36342d9c2c9b993e630919985ce9071a8a4c445c6e0549aef48"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_moon_moth.png",
+        "version": "18dc58a4362aac92-18dc58a4362aac92-38482"
+      },
+      "triangles": 1120,
+      "materials": 3,
+      "bytes": 443248,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_moss",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_moss.glb",
+        "version": "12ddfecd05b27bd16faeaf73b0965d381a81428567341f762d8ec625205d8469"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_crystal_grove_tile.png",
+        "version": "18dc58a44cb2920b-18dc58a44cb2920b-16c051"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_moss.png",
+        "version": "18dc58a4362aac92-18dc58a4362aac92-38b02"
+      },
+      "triangles": 300,
+      "materials": 2,
+      "bytes": 344188,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_mushroom_blue",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_mushroom_blue.glb",
+        "version": "b34f746791a47c73b4608a732900521c4cc11e7cb810f2ce2304a6849a4c6c91"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_glowing_mushroom_grove.png",
+        "version": "18dc58a44ce058f2-18dc58a44ce058f2-172710"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_mushroom_blue.png",
+        "version": "18dc58a4362aac92-18dc58a4362aac92-3928c"
+      },
+      "triangles": 1900,
+      "materials": 5,
+      "bytes": 1619716,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_mushroom_purple",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_mushroom_purple.glb",
+        "version": "fe6e178aa81e09e163ed69d7c96a5e196c73cdc87f766508cfbce985917abd91"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_glowing_mushroom_grove.png",
+        "version": "18dc58a44ce058f2-18dc58a44ce058f2-172710"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_mushroom_purple.png",
+        "version": "18dc58a43639eedf-18dc58a43639eedf-3937d"
+      },
+      "triangles": 1900,
+      "materials": 5,
+      "bytes": 1629700,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_mushroom_small",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_mushroom_small.glb",
+        "version": "c98d4556cb00aafd690419a9a1298bd6b5aa01cc25dd02a56d107e212aec2f27"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_glowing_mushroom_grove.png",
+        "version": "18dc58a44ce058f2-18dc58a44ce058f2-172710"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_mushroom_small.png",
+        "version": "18dc58a436957cac-18dc58a436957cac-37cd9"
+      },
+      "triangles": 1900,
+      "materials": 5,
+      "bytes": 1619876,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_root",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_root.glb",
+        "version": "05e9b439119815638f850301327865d9379931eb172c5e998e91d473147a72a4"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_bioluminescent_mushroom_grove.png",
+        "version": "18dc58a44c7ae3f4-18dc58a44c7ae3f4-18128a"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_root.png",
+        "version": "18dc58a436957cac-18dc58a436957cac-389a9"
+      },
+      "triangles": 140,
+      "materials": 3,
+      "bytes": 417868,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_rune_circle",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_rune_circle.glb",
+        "version": "50e7e76938c15693fa655e751ec4648beef7e69f29691a555bb1febc4a3f8ed2"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_forest_rune_shrine.png",
+        "version": "18dc58a44ce058f2-18dc58a44ce058f2-18c682"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_rune_circle.png",
+        "version": "18dc58a436957cac-18dc58a436957cac-38e71"
+      },
+      "triangles": 1408,
+      "materials": 2,
+      "bytes": 122584,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_rune_diamond",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_rune_diamond.glb",
+        "version": "8df109603befea666f724ab5c0dd78f56c916c02c95fba857b4874684de09cf2"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_forest_rune_shrine.png",
+        "version": "18dc58a44ce058f2-18dc58a44ce058f2-18c682"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_rune_diamond.png",
+        "version": "18dc58a436a4bef9-18dc58a436a4bef9-38562"
+      },
+      "triangles": 156,
+      "materials": 2,
+      "bytes": 16612,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_rune_monolith",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_rune_monolith.glb",
+        "version": "c6fb4c929116d719923852d02c7cc8197fd94131d753a54866c1c50d82c2df60"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_forest_rune_shrine.png",
+        "version": "18dc58a44ce058f2-18dc58a44ce058f2-18c682"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_rune_monolith.png",
+        "version": "18dc58a436a4bef9-18dc58a436a4bef9-39c1e"
+      },
+      "triangles": 368,
+      "materials": 3,
+      "bytes": 390584,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_shrine_plinth",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_shrine_plinth.glb",
+        "version": "0048c6c81f4a0e17c506a935b8b3525f3ee8953e4765622d1c7359d972117ebe"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_forest_rune_shrine.png",
+        "version": "18dc58a44ce058f2-18dc58a44ce058f2-18c682"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_shrine_plinth.png",
+        "version": "18dc58a436a4bef9-18dc58a436a4bef9-39d2f"
+      },
+      "triangles": 1304,
+      "materials": 3,
+      "bytes": 443148,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_spiral_fern",
+      "source": {
+        "path": "sources/environment/shared_enchanted_kit.blend",
+        "version": "18dc58a448867108-18dc58a448867108-419ad2"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_spiral_fern.glb",
+        "version": "dbc8161adb560e647dfdbe1965f660e33d882ba666b1f2a7d411b4e3e3a8b306"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_spiral_fern.png",
+        "version": "18dc58a436a4bef9-18dc58a436a4bef9-3e525"
+      },
+      "triangles": 1152,
+      "materials": 2,
+      "bytes": 440444,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_spiral_tree",
+      "source": {
+        "path": "sources/environment/shared_enchanted_kit.blend",
+        "version": "18dc58a448867108-18dc58a448867108-419ad2"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_spiral_tree.glb",
+        "version": "c49a9dfd4cd1ebd52a05c04eddeeb72c88fb83eee599410764fe1c2981b82260"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_spiral_tree.png",
+        "version": "18dc58a436a4bef9-18dc58a436a4bef9-3ed3e"
+      },
+      "triangles": 3798,
+      "materials": 5,
+      "bytes": 1038932,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_stone_arch_block",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_stone_arch_block.glb",
+        "version": "058ec621f97be94b7d78717830c00341b7f3841d009f080b417477d8be90ec80"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_lantern_bridge_diorama.png",
+        "version": "18dc58a44cef9b3e-18dc58a44cef9b3e-18a129"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_stone_arch_block.png",
+        "version": "18dc58a436b40146-18dc58a436b40146-39edb"
+      },
+      "triangles": 108,
+      "materials": 1,
+      "bytes": 228780,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_stone_block",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_stone_block.glb",
+        "version": "69c953ea885275355092859af46f1afe13d65babef98c78d612ce33ec4c35f48"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_lantern_bridge_diorama.png",
+        "version": "18dc58a44cef9b3e-18dc58a44cef9b3e-18a129"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_stone_block.png",
+        "version": "18dc58a436b40146-18dc58a436b40146-39899"
+      },
+      "triangles": 108,
+      "materials": 1,
+      "bytes": 228764,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_tree_snag",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_tree_snag.glb",
+        "version": "6f3920303ed5104cb1fc554dc45b7b42c175420212391d5d8a17c2ca0c551c3e"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_bioluminescent_mushroom_grove.png",
+        "version": "18dc58a44c7ae3f4-18dc58a44c7ae3f4-18128a"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_tree_snag.png",
+        "version": "18dc58a436b40146-18dc58a436b40146-3a9d3"
+      },
+      "triangles": 410,
+      "materials": 3,
+      "bytes": 441064,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/components/forest_waterfall",
+      "source": {
+        "path": "sources/environment/shared_forest_kit.blend",
+        "version": "18dc58a4492e4a55-18dc58a4492e4a55-7750b7"
+      },
+      "model": {
+        "path": "exports/environment/components/forest_waterfall.glb",
+        "version": "8438d9f1b06450daa5d4e4ad48dd3dac43cd09eb4056bd8b4c293e5bcde205a4"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_lantern_bridge_diorama.png",
+        "version": "18dc58a44cef9b3e-18dc58a44cef9b3e-18a129"
+      },
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_waterfall.png",
+        "version": "18dc58a436b40146-18dc58a436b40146-3f102"
+      },
+      "triangles": 168,
+      "materials": 3,
+      "bytes": 1307000,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/hex_bioluminescent_grove",
+      "source": {
+        "path": "sources/environment/hex_bioluminescent_grove.blend",
+        "version": "18dc58a43fb41c9a-18dc58a43fb41c9a-16bfb79"
+      },
+      "model": {
+        "path": "exports/environment/hex_bioluminescent_grove.glb",
+        "version": "8b94aa8c805109f35af8459de70c538557493f2c1f87c0039be84f368b215720"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_bioluminescent_mushroom_grove.png",
+        "version": "18dc58a44c7ae3f4-18dc58a44c7ae3f4-18128a"
+      },
+      "preview": {
+        "path": "exports/previews/hex_bioluminescent_grove.png",
+        "version": "18dc58a432695ba9-18dc58a432695ba9-199c65"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_bioluminescent_grove.png",
+        "version": "18dc58a436c34393-18dc58a436c34393-409ca"
+      },
+      "triangles": 8392,
+      "materials": 41,
+      "bytes": 6879756,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/hex_butterfly_glade",
+      "source": {
+        "path": "sources/environment/hex_butterfly_glade.blend",
+        "version": "18dc58a4404cb39a-18dc58a4404cb39a-60d03e"
+      },
+      "model": {
+        "path": "exports/environment/hex_butterfly_glade.glb",
+        "version": "88f0569f9c880509f93acb2f8c4f3bebee94506b070d66d3de339d3fef233cb9"
+      },
+      "reference": null,
+      "preview": {
+        "path": "exports/previews/hex_butterfly_glade.png",
+        "version": "18dc58a432789df6-18dc58a432789df6-195759"
+      },
+      "thumbnail": null,
+      "triangles": 14234,
+      "materials": 45,
+      "bytes": 6042676,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/hex_crystal_grove",
+      "source": {
+        "path": "sources/environment/hex_crystal_grove.blend",
+        "version": "18dc58a44140d868-18dc58a44140d868-9d4a37"
+      },
+      "model": {
+        "path": "exports/environment/hex_crystal_grove.glb",
+        "version": "065f7a0e01e07565eac078fd1b2cbc4eef2f2d2ee562fa197dc507550ecd8169"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_crystal_grove_tile.png",
+        "version": "18dc58a44cb2920b-18dc58a44cb2920b-16c051"
+      },
+      "preview": {
+        "path": "exports/previews/hex_crystal_grove.png",
+        "version": "18dc58a43287e042-18dc58a43287e042-19433f"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_crystal_grove.png",
+        "version": "18dc58a436c34393-18dc58a436c34393-3fc3b"
+      },
+      "triangles": 8248,
+      "materials": 40,
+      "bytes": 8572872,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/hex_crystal_shrine",
+      "source": {
+        "path": "sources/environment/hex_crystal_shrine.blend",
+        "version": "18dc58a44207364f-18dc58a44207364f-197a542"
+      },
+      "model": {
+        "path": "exports/environment/hex_crystal_shrine.glb",
+        "version": "7e6ac9aa491a2bda302fb4d80a58959e23d369ad3b170bc0268496628f6a9279"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_crystal_shrine_diorama.png",
+        "version": "18dc58a44cc1d458-18dc58a44cc1d458-1758ea"
+      },
+      "preview": {
+        "path": "exports/previews/hex_crystal_shrine.png",
+        "version": "18dc58a43297228f-18dc58a43297228f-194eb7"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_crystal_shrine.png",
+        "version": "18dc58a436c34393-18dc58a436c34393-40804"
+      },
+      "triangles": 10748,
+      "materials": 44,
+      "bytes": 8785512,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/hex_dream_menagerie",
+      "source": {
+        "path": "sources/environment/hex_dream_menagerie.blend",
+        "version": "18dc58a442443f82-18dc58a442443f82-a540e4"
+      },
+      "model": {
+        "path": "exports/environment/hex_dream_menagerie.glb",
+        "version": "b951f6fffc707a2b7ef3314e0659f4c72450dddec9ebb58bb4f55098433bb67a"
+      },
+      "reference": null,
+      "preview": {
+        "path": "exports/previews/hex_dream_menagerie.png",
+        "version": "18dc58a432b5a729-18dc58a432b5a729-189af5"
+      },
+      "thumbnail": null,
+      "triangles": 20456,
+      "materials": 56,
+      "bytes": 8390756,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/hex_glowing_mushrooms",
+      "source": {
+        "path": "sources/environment/hex_glowing_mushrooms.blend",
+        "version": "18dc58a44384afd0-18dc58a44384afd0-130b0d6"
+      },
+      "model": {
+        "path": "exports/environment/hex_glowing_mushrooms.glb",
+        "version": "a2e59df05aa671bcd2ab41dc3363051679c6785a2c1fc2706b415e5a453172a5"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_glowing_mushroom_grove.png",
+        "version": "18dc58a44ce058f2-18dc58a44ce058f2-172710"
+      },
+      "preview": {
+        "path": "exports/previews/hex_glowing_mushrooms.png",
+        "version": "18dc58a4336cc2c3-18dc58a4336cc2c3-191e53"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_glowing_mushrooms.png",
+        "version": "18dc58a436c34393-18dc58a436c34393-404ef"
+      },
+      "triangles": 7880,
+      "materials": 37,
+      "bytes": 8514664,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/hex_hollow_watchers",
+      "source": {
+        "path": "sources/environment/hex_hollow_watchers.blend",
+        "version": "18dc58a443b276b7-18dc58a443b276b7-7cc122"
+      },
+      "model": {
+        "path": "exports/environment/hex_hollow_watchers.glb",
+        "version": "c3e7367fea62376e21fad6866b1fd8b94fdfb1af3f1005316d7e2353600f9701"
+      },
+      "reference": null,
+      "preview": {
+        "path": "exports/previews/hex_hollow_watchers.png",
+        "version": "18dc58a4337c0510-18dc58a4337c0510-18e9b8"
+      },
+      "thumbnail": null,
+      "triangles": 19280,
+      "materials": 51,
+      "bytes": 8267572,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/hex_lantern_bridge",
+      "source": {
+        "path": "sources/environment/hex_lantern_bridge.blend",
+        "version": "18dc58a445d7c986-18dc58a445d7c986-1ea89f1"
+      },
+      "model": {
+        "path": "exports/environment/hex_lantern_bridge.glb",
+        "version": "7139818ffda722002f52385ed47e46d0fc687ce3bfc03b08d3d292967f338c95"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_lantern_bridge_diorama.png",
+        "version": "18dc58a44cef9b3e-18dc58a44cef9b3e-18a129"
+      },
+      "preview": {
+        "path": "exports/previews/hex_lantern_bridge.png",
+        "version": "18dc58a4338b475d-18dc58a4338b475d-19537c"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_lantern_bridge.png",
+        "version": "18dc58a436c34393-18dc58a436c34393-40c32"
+      },
+      "triangles": 10422,
+      "materials": 49,
+      "bytes": 7681604,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/hex_meadow_building",
+      "source": {
+        "path": "sources/environment/hex_meadow_building.blend",
+        "version": "18dc58a445d7c986-18dc58a445d7c986-28e05"
+      },
+      "model": {
+        "path": "exports/environment/hex_meadow_building.glb",
+        "version": "240a93d7a6ba3cf88dddea5704327e0c13f52699c00bc923524b69a6726d6c40"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_meadow_building.png",
+        "version": "18dc58a436d285e0-18dc58a436d285e0-3bdf7"
+      },
+      "triangles": 1972,
+      "materials": 14,
+      "bytes": 228636,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/hex_meadow_character",
+      "source": {
+        "path": "sources/environment/hex_meadow_character.blend",
+        "version": "18dc58a445e70bd2-18dc58a445e70bd2-2fa1f"
+      },
+      "model": {
+        "path": "exports/environment/hex_meadow_character.glb",
+        "version": "71ada6837e3a1a8bf0b363638ea22947fce902db7297e698910dfff52b1d5ffd"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_meadow_character.png",
+        "version": "18dc58a436d285e0-18dc58a436d285e0-3bd4f"
+      },
+      "triangles": 1724,
+      "materials": 11,
+      "bytes": 210264,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/hex_mystical_grove",
+      "source": {
+        "path": "sources/environment/hex_mystical_grove.blend",
+        "version": "18dc58a446706086-18dc58a446706086-dab72c"
+      },
+      "model": {
+        "path": "exports/environment/hex_mystical_grove.glb",
+        "version": "2571f36dbfd74a08d078bbbc4daff293d6cf139f97038a1809eedf6bb1cc81c5"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/mystical_crystal_grove_diorama.png",
+        "version": "18dc58a44d0e1fd8-18dc58a44d0e1fd8-1712e1"
+      },
+      "preview": {
+        "path": "exports/previews/hex_mystical_grove.png",
+        "version": "18dc58a4339a89aa-18dc58a4339a89aa-18ee9b"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_mystical_grove.png",
+        "version": "18dc58a436d285e0-18dc58a436d285e0-3f77f"
+      },
+      "triangles": 7880,
+      "materials": 37,
+      "bytes": 8554384,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/hex_rune_shrine",
+      "source": {
+        "path": "sources/environment/hex_rune_shrine.blend",
+        "version": "18dc58a446cbee53-18dc58a446cbee53-f68b41"
+      },
+      "model": {
+        "path": "exports/environment/hex_rune_shrine.glb",
+        "version": "7b762f9055e0cd5e1f35ac698f102e5b70d7525bb54d590896ae20237de6da32"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_forest_rune_shrine.png",
+        "version": "18dc58a44ce058f2-18dc58a44ce058f2-18c682"
+      },
+      "preview": {
+        "path": "exports/previews/hex_rune_shrine.png",
+        "version": "18dc58a433b90e43-18dc58a433b90e43-19d7df"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_rune_shrine.png",
+        "version": "18dc58a436d285e0-18dc58a436d285e0-41624"
+      },
+      "triangles": 10218,
+      "materials": 44,
+      "bytes": 7184748,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "environment/hex_woodland_bridge",
+      "source": {
+        "path": "sources/environment/hex_woodland_bridge.blend",
+        "version": "18dc58a44858aa21-18dc58a44858aa21-21b5209"
+      },
+      "model": {
+        "path": "exports/environment/hex_woodland_bridge.glb",
+        "version": "2195443dbb4712b58dc623c3dbf1fa3d3037f212ed3cd30db24f4c026f113024"
+      },
+      "reference": {
+        "path": "sources/reference/magical_forest/enchanted_woodland_bridge_diorama.png",
+        "version": "18dc58a44cfedd8b-18dc58a44cfedd8b-17c69e"
+      },
+      "preview": {
+        "path": "exports/previews/hex_woodland_bridge.png",
+        "version": "18dc58a433c85090-18dc58a433c85090-1989f1"
+      },
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_woodland_bridge.png",
+        "version": "18dc58a437004cc6-18dc58a437004cc6-4113b"
+      },
+      "triangles": 11394,
+      "materials": 57,
+      "bytes": 7843060,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/arrow",
+      "source": {
+        "path": "sources/props/arrow.blend",
+        "version": "18dc58a44b074117-18dc58a44b074117-26d98"
+      },
+      "model": {
+        "path": "exports/props/arrow.glb",
+        "version": "c699a5cfb4c0df39f88fdb4a8c7b29bb4f196589d46c24a13d377423b515c397"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/arrow.png",
+        "version": "18dc58a437004cc6-18dc58a437004cc6-357c0"
+      },
+      "triangles": 30,
+      "materials": 3,
+      "bytes": 4960,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/axe",
+      "source": {
+        "path": "sources/props/axe.blend",
+        "version": "18dc58a44b0751a3-18dc58a44b0751a3-2be68"
+      },
+      "model": {
+        "path": "exports/props/axe.glb",
+        "version": "ce8e678056501236ef0842476bd390a24e8110b19db420eccb2b29562adcf1a8"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/axe.png",
+        "version": "18dc58a43716d812-18dc58a43716d812-392a6"
+      },
+      "triangles": 1202,
+      "materials": 6,
+      "bytes": 64960,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/axe_offhand",
+      "source": {
+        "path": "sources/props/axe_offhand.blend",
+        "version": "18dc58a44b0751a3-18dc58a44b0751a3-2be56"
+      },
+      "model": {
+        "path": "exports/props/axe_offhand.glb",
+        "version": "208bbed25fc15561ea2bba17f9d2e4fffd48f2aa49d3c659424412e5e7110149"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/axe_offhand.png",
+        "version": "18dc58a43716d812-18dc58a43716d812-392a6"
+      },
+      "triangles": 1202,
+      "materials": 6,
+      "bytes": 64968,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/bow",
+      "source": {
+        "path": "sources/props/bow.blend",
+        "version": "18dc58a44b0751a3-18dc58a44b0751a3-273a6"
+      },
+      "model": {
+        "path": "exports/props/bow.glb",
+        "version": "c5725360b6b27da5ff8f127d1eaa84b08cf8d8ec894564d9f1b2cdf16a2dbe84"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/bow.png",
+        "version": "18dc58a4373d55fa-18dc58a4373d55fa-388b5"
+      },
+      "triangles": 248,
+      "materials": 3,
+      "bytes": 15964,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/crossbow",
+      "source": {
+        "path": "sources/props/crossbow.blend",
+        "version": "18dc58a44b0751a3-18dc58a44b0751a3-2b6e9"
+      },
+      "model": {
+        "path": "exports/props/crossbow.glb",
+        "version": "b98c917d5829c3065f1cc05fe0b2fdf2745bb834cdb15e689765b372c9b91502"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": null,
+      "triangles": 814,
+      "materials": 7,
+      "bytes": 49168,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/evil_axe",
+      "source": {
+        "path": "sources/props/evil_axe.blend",
+        "version": "18dc58a44b1693f0-18dc58a44b1693f0-2bb2b"
+      },
+      "model": {
+        "path": "exports/props/evil_axe.glb",
+        "version": "68b6548973685d099a689812b81634b6888f070d1aa7e8f27fe808cdb1546122"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": null,
+      "triangles": 1207,
+      "materials": 7,
+      "bytes": 66040,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/evil_axe_offhand",
+      "source": {
+        "path": "sources/props/evil_axe_offhand.blend",
+        "version": "18dc58a44b1693f0-18dc58a44b1693f0-2bb50"
+      },
+      "model": {
+        "path": "exports/props/evil_axe_offhand.glb",
+        "version": "ec530814a8aa485c87383d73892aa987e67a6cb1e49a1a0fe4989f10d1ff2c06"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": null,
+      "triangles": 1207,
+      "materials": 7,
+      "bytes": 66040,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/evil_hand_flame",
+      "source": {
+        "path": "sources/props/evil_hand_flame.blend",
+        "version": "18dc58a44b1693f0-18dc58a44b1693f0-27cc9"
+      },
+      "model": {
+        "path": "exports/props/evil_hand_flame.glb",
+        "version": "2a5ce2c0d6bbf99087444db11228976f1fd8b3364ebee1e78f95697eca98f583"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": null,
+      "triangles": 154,
+      "materials": 2,
+      "bytes": 11568,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/evil_shield",
+      "source": {
+        "path": "sources/props/evil_shield.blend",
+        "version": "18dc58a44b1693f0-18dc58a44b1693f0-282b1"
+      },
+      "model": {
+        "path": "exports/props/evil_shield.glb",
+        "version": "19ac0f606cb5d9b70529b8ed5e4f2b08a375db9d72c7102c219d75c34aa8e67f"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": null,
+      "triangles": 1064,
+      "materials": 4,
+      "bytes": 65076,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/evil_staff",
+      "source": {
+        "path": "sources/props/evil_staff.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-29215"
+      },
+      "model": {
+        "path": "exports/props/evil_staff.glb",
+        "version": "eb691fe2587d3f986e1ffc517cb1fadfd78fc8bf970d098ca0eb1116e6e1a29e"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": null,
+      "triangles": 758,
+      "materials": 5,
+      "bytes": 44572,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/evil_sword",
+      "source": {
+        "path": "sources/props/evil_sword.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-28fdf"
+      },
+      "model": {
+        "path": "exports/props/evil_sword.glb",
+        "version": "5c762005c61c0d409d8f4bfc73691e3f5d877935d78ac5bbda8d892bdd2e8856"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": null,
+      "triangles": 718,
+      "materials": 4,
+      "bytes": 41580,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_arrow",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_arrow.glb",
+        "version": "e6abe58dd890875f9145f257f20110ac256126ffefec576974dc54b715c6ecbc"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_arrow.png",
+        "version": "18dc58a4374c9846-18dc58a4374c9846-35f31"
+      },
+      "triangles": 28,
+      "materials": 3,
+      "bytes": 4840,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_axe",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_axe.glb",
+        "version": "d114921f83b0c1884476cc84f7a82bc2e716de684cf17eb1de732105630eca3b"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_axe.png",
+        "version": "18dc58a4374c9846-18dc58a4374c9846-392a6"
+      },
+      "triangles": 1202,
+      "materials": 6,
+      "bytes": 64840,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_barrel",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_barrel.glb",
+        "version": "f0b9e517005a7ed474ef812638df72dbc3aa2e4f1b74b7145a0d714993530505"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_barrel.png",
+        "version": "18dc58a4374c9846-18dc58a4374c9846-3b5a4"
+      },
+      "triangles": 688,
+      "materials": 4,
+      "bytes": 43640,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_bench",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_bench.glb",
+        "version": "7bb672a180d1c47e688a921f50e81e5b91c90742f0e9862b182d71360c34c04a"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_bench.png",
+        "version": "18dc58a4374c9846-18dc58a4374c9846-3a467"
+      },
+      "triangles": 540,
+      "materials": 3,
+      "bytes": 31024,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_book",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_book.glb",
+        "version": "26f8c966a14ffb6cb14d88d0d901fec95bad51d1b4805a9125f5902499f716b2"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_book.png",
+        "version": "18dc58a4374c9846-18dc58a4374c9846-3c870"
+      },
+      "triangles": 648,
+      "materials": 4,
+      "bytes": 36232,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_cannonball",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_cannonball.glb",
+        "version": "a1c481ac12d25b8bf1ac75916a2e485405c7524352eb8809a56d9f964f36ee59"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_cannonball.png",
+        "version": "18dc58a4374c9846-18dc58a4374c9846-373a5"
+      },
+      "triangles": 80,
+      "materials": 1,
+      "bytes": 7420,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_crate",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_crate.glb",
+        "version": "028c087d09acc750e137035caa32985318bd56f002aadd9b3a776b6f321735bf"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_crate.png",
+        "version": "18dc58a4375bda93-18dc58a4375bda93-41577"
+      },
+      "triangles": 1944,
+      "materials": 3,
+      "bytes": 106308,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_lantern",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_lantern.glb",
+        "version": "490e7e48e0c2eaeef2da5f53ab9be631bb85e6609315bbee466c63f14363a92c"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_lantern.png",
+        "version": "18dc58a4375bda93-18dc58a4375bda93-3b303"
+      },
+      "triangles": 804,
+      "materials": 3,
+      "bytes": 44856,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_mug",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_mug.glb",
+        "version": "e196448af6ccdf0b92a70935ae4611dcf1c640b2a4fc37627bae34b5b2f7c6a4"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_mug.png",
+        "version": "18dc58a4375bda93-18dc58a4375bda93-3bbfe"
+      },
+      "triangles": 704,
+      "materials": 4,
+      "bytes": 45640,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_open_barrel",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_open_barrel.glb",
+        "version": "baeb2fa060bae123666252f3225814350f7be726c1a655dd7d08914eacce3172"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": null,
+      "triangles": 836,
+      "materials": 4,
+      "bytes": 52532,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_open_crate",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_open_crate.glb",
+        "version": "544609a16eaa953ad380f283d8286ce256742452680047d3f8f2c6a0ae6735f4"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": null,
+      "triangles": 1620,
+      "materials": 3,
+      "bytes": 90172,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_parcel",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_parcel.glb",
+        "version": "4a49bff67c836c80f2cf17418e7306f5685a7b7c736d488d46dd37ef04f931b7"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_parcel.png",
+        "version": "18dc58a4375bda93-18dc58a4375bda93-3c1a8"
+      },
+      "triangles": 432,
+      "materials": 2,
+      "bytes": 24268,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_pine",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_pine.glb",
+        "version": "cf28aa3d7993aef40496fb4c706bcc9877ee8c571d24204fc2354df31c2751e4"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_pine.png",
+        "version": "18dc58a4376b1ce0-18dc58a4376b1ce0-38b53"
+      },
+      "triangles": 142,
+      "materials": 3,
+      "bytes": 12328,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_roof_tile",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_roof_tile.glb",
+        "version": "6f45ca8d6785b3912e014e8a236e21e52b9c97376a16d8ce44fab7b0021f623a"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_roof_tile.png",
+        "version": "18dc58a4376b1ce0-18dc58a4376b1ce0-37874"
+      },
+      "triangles": 108,
+      "materials": 1,
+      "bytes": 7012,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_shrub",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_shrub.glb",
+        "version": "397c6251efa9cd2e876e7896a699f94cecdb4d8dfa4f677939a6f0d811dd70ad"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_shrub.png",
+        "version": "18dc58a4376b1ce0-18dc58a4376b1ce0-3b2e5"
+      },
+      "triangles": 320,
+      "materials": 3,
+      "bytes": 33280,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_skull",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_skull.glb",
+        "version": "5aa41b17d3390ef8bf2a3f4418dcc148f63994164197980cc4b762e5cc3578e1"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": null,
+      "triangles": 1913,
+      "materials": 2,
+      "bytes": 126200,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_spear",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_spear.glb",
+        "version": "f8de355f656c58cf1f2a64ac3c658fa227fe0102ee329da6be3087889dc730cf"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_spear.png",
+        "version": "18dc58a4376b1ce0-18dc58a4376b1ce0-35e97"
+      },
+      "triangles": 322,
+      "materials": 3,
+      "bytes": 18508,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_spike",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_spike.glb",
+        "version": "d291e286bcfecd8b29b56f049b0904ed5829a1e5ed2140d0ba8a32fe13c3f472"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": null,
+      "triangles": 20,
+      "materials": 1,
+      "bytes": 2240,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_stone_block",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_stone_block.glb",
+        "version": "723dcd07e16553211e9a5590c1101b369371441210435594d5482354e323ec0c"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_stone_block.png",
+        "version": "18dc58a4377a5f2d-18dc58a4377a5f2d-38218"
+      },
+      "triangles": 108,
+      "materials": 1,
+      "bytes": 6976,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/kit_target",
+      "source": {
+        "path": "sources/props/shared_village_kit.blend",
+        "version": "18dc58a44b25d63d-18dc58a44b25d63d-38d54"
+      },
+      "model": {
+        "path": "exports/props/kit_target.glb",
+        "version": "991d682bea6337b0c9579b7f8bf16ef13889f4b3d949f1fd0e1c4297b803862b"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/kit_target.png",
+        "version": "18dc58a4377a5f2d-18dc58a4377a5f2d-3bc69"
+      },
+      "triangles": 784,
+      "materials": 4,
+      "bytes": 41276,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/shield",
+      "source": {
+        "path": "sources/props/shield.blend",
+        "version": "18dc58a44b35188a-18dc58a44b35188a-26087"
+      },
+      "model": {
+        "path": "exports/props/shield.glb",
+        "version": "08509c87f1b092eea4131b2a7b2b0b0b2d8395dfd9fc17634b95b871ae177564"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/shield.png",
+        "version": "18dc58a4377a5f2d-18dc58a4377a5f2d-3f244"
+      },
+      "triangles": 1064,
+      "materials": 4,
+      "bytes": 65068,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/staff",
+      "source": {
+        "path": "sources/props/staff.blend",
+        "version": "18dc58a44b35188a-18dc58a44b35188a-28967"
+      },
+      "model": {
+        "path": "exports/props/staff.glb",
+        "version": "463069697a45662a1cfae72b4eaa54040c6fb207fd6ec9a5af7abd1d15d46fba"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/staff.png",
+        "version": "18dc58a4377a5f2d-18dc58a4377a5f2d-38c51"
+      },
+      "triangles": 1118,
+      "materials": 6,
+      "bytes": 74652,
+      "animations": [],
+      "error": null
+    },
+    {
+      "id": "props/sword",
+      "source": {
+        "path": "sources/props/sword.blend",
+        "version": "18dc58a44b35188a-18dc58a44b35188a-26a1c"
+      },
+      "model": {
+        "path": "exports/props/sword.glb",
+        "version": "5b0e9ad9a9521ef29bbf4b3425e8af3617fd9cec016012cbdf38511c2ede8822"
+      },
+      "reference": null,
+      "preview": null,
+      "thumbnail": {
+        "path": "exports/thumbnails/props/sword.png",
+        "version": "18dc58a4377a5f2d-18dc58a4377a5f2d-37d8a"
+      },
+      "triangles": 718,
+      "materials": 4,
+      "bytes": 41564,
+      "animations": [],
+      "error": null
+    }
+  ],
+  "warnings": []
+}

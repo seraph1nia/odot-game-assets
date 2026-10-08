@@ -1,0 +1,16 @@
+00:00.275  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/buildings/weaver.blend"
+Verified portable painted finish: buildings/weaver
+00:00.463  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/characters/evil_berserker_unit.blend"
+Verified portable painted finish: characters/evil_berserker_unit
+00:00.493  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/characters/evil_mage_unit.blend"
+Verified portable painted finish: characters/evil_mage_unit
+00:00.513  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/characters/evil_melee_unit.blend"
+Verified portable painted finish: characters/evil_melee_unit
+00:00.533  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/characters/evil_ranged_unit.blend"
+Verified portable painted finish: characters/evil_ranged_unit
+00:00.554  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/props/evil_shield.blend"
+Verified portable painted finish: props/evil_shield
+Verified painted UVs, packed images and exported channels: 6
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

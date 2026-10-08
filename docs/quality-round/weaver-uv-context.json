@@ -1,0 +1,264 @@
+{
+  "id": "buildings/weaver",
+  "embedded_images": [
+    {
+      "name": "painted_plaster_normal",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_wall_light_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_plaster_roughness",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_wood_normal",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_wood_edge_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_wood_roughness",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_wood_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_wood_light_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_wood_dark_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_stone_normal",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_stone_dark_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_stone_roughness",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_stone_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_stone_light_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_wall_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_roof_normal",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_roof_blue_dark_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_roof_roughness",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_roof_blue_light_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_roof_blue_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_window_emission",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_window_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_window_roughness",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_window_hot_emission",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_window_hot_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_window_shade_emission",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_window_shade_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_leaf_normal",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_leaf_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_leaf_roughness",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_leaf_light_color",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "painted_leaf_dark_color",
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "texture_extensions": [
+    [
+      "window",
+      {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 2.5999999046325684
+        }
+      }
+    ],
+    [
+      "window_hot",
+      {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 2.0999999046325684
+        }
+      }
+    ],
+    [
+      "window.004",
+      {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 2.5999999046325684
+        }
+      }
+    ]
+  ],
+  "rule": "Existing verify_painted_blender requires source active UV layer and all finite coordinates; per-primitive textured materials require TEXCOORD_0/NORMAL and embedded PNG channels. No bit-exact or canonical UVepsilon rule.",
+  "source_unchanged": "Exact source file SHA remains unchanged; seven real fixtures additionally verify UV-layer values/order and source bindings after export restoration.",
+  "review": "Disclosed131float32 coordinate serialization deltas; max1.1920928955078125e-7; matched current view reviewed separately; no canonical epsilon/ULP-count claim."
+}

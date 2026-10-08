@@ -1,0 +1,18 @@
+00:00.278  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/buildings/weaver.blend"
+/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/.cache/quality-round/audit-material-closure.py:31: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  outputs=[node(n,set()) for n in mat.node_tree.nodes if n.type=='OUTPUT_MATERIAL' and n.is_active_output] if mat.use_nodes else list(mat.diffuse_color)
+buildings/weaver 0 proven lost objects 48 overrides 0 unmatched
+00:00.376  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/characters/evil_berserker_unit.blend"
+characters/evil_berserker_unit 0 proven lost objects 21 overrides 0 unmatched
+00:00.411  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/characters/evil_mage_unit.blend"
+characters/evil_mage_unit 0 proven lost objects 15 overrides 0 unmatched
+00:00.434  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/characters/evil_melee_unit.blend"
+characters/evil_melee_unit 0 proven lost objects 24 overrides 0 unmatched
+00:00.458  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/characters/evil_ranged_unit.blend"
+characters/evil_ranged_unit 0 proven lost objects 11 overrides 0 unmatched
+00:00.483  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/props/evil_shield.blend"
+props/evil_shield 0 proven lost objects 9 overrides 0 unmatched
+AFFECTED 0 []
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

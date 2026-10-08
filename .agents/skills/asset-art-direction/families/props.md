@@ -35,5 +35,6 @@ mesh/material reuse and portable export channels. Tiny props may reduce to a
 clear cue instead of retaining every book page/bolt. Resource count conventions
 are owned by [D09](../design/evidence-cost.md#d09), not a blanket decimator.
 Component previewing routes through catalog thumbnails or an explicitly authorized
-review scene; `render_previews.py` only supports its catalog model/tile names.
-See [export](../blender/export.md) and [checks](../pipeline/index.md#checks).
+review scene; saved-source rendering selects the whole presentation scene, not an
+isolated component. See [render selection](../../../../README.md#asset-development-checks),
+[export](../blender/export.md) and [checks](../pipeline/index.md#checks).

@@ -49,9 +49,11 @@ as a single model implicitly.
 
 The export manifest at `exports/asset_manifest.json` may provide these same fields
 on entries in its `assets` array, keyed by `file`. Explicit associations override
-them. Export byte size, triangle count, material count, clip names, and available
-clip durations come from the GLB itself; they cannot be overridden by prose or
-stale counts in a manifest. Triangle totals count mesh primitives (triangle lists,
+them. Export byte size, mesh count, triangle count, material count, clip names, and
+available clip durations come from the GLB itself; they cannot be overridden by
+prose or stale counts in a manifest. Meshes count serialized mesh definitions, not
+scene instances; the selected exporter also refreshes the existing manifest `meshes`
+field from these facts. Triangle totals count mesh primitives (triangle lists,
 strips, and fans), matching the existing pack's geometry statistics, rather than
 duplicating counts for instances. Materials count material definitions.
 

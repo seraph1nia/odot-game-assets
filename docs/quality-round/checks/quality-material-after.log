@@ -1,0 +1,83 @@
+test_collection_instance_prototype_override (__main__.SelectedMaterialTests.test_collection_instance_prototype_override) ... 00:00.323  blend            | Read blend: "/tmp/tmpa8d1zquy/sources/props/fixture.blend"
+Info: Saved as "fixture.blend"
+INFO Draco is available, use library at /home/bart/.local/opt/blender-5.2.2-linux-x64/lib/libbf_intern_draco_bridge.so
+INFO MeshOptimizer is available, use library at /home/bart/.local/opt/blender-5.2.2-linux-x64/lib/libbf_intern_meshopt_bridge.so
+10:21:49 | INFO: Starting glTF 2.0 export
+10:21:49 | INFO: Extracting primitive: Default red.001
+10:21:49 | INFO: Primitives created: 1
+10:21:49 | INFO: Extracting primitive: Default red
+10:21:49 | INFO: Primitives created: 1
+10:21:49 | INFO: Finished glTF 2.0 export in 0.007838010787963867 s
+ok
+test_equal_tuples_reuse_and_differing_tuples_do_not (__main__.SelectedMaterialTests.test_equal_tuples_reuse_and_differing_tuples_do_not) ... 00:00.413  blend            | Read blend: "/tmp/tmp002uw6sd/sources/props/fixture.blend"
+
+Exported props/fixture; source unchanged
+Info: Saved as "fixture.blend"
+10:21:49 | INFO: Starting glTF 2.0 export
+10:21:49 | INFO: Extracting primitive: Default red.002
+10:21:49 | INFO: Primitives created: 1
+10:21:49 | INFO: Extracting primitive: Default red.002
+10:21:49 | INFO: Primitives created: 1
+10:21:49 | INFO: Extracting primitive: Default red
+10:21:49 | INFO: Primitives created: 1
+10:21:49 | INFO: Extracting primitive: Default red.001
+10:21:49 | INFO: Primitives created: 1
+10:21:49 | INFO: Finished glTF 2.0 export in 0.0072824954986572266 s
+ok
+test_multiple_slots_default_object_and_null_precedence (__main__.SelectedMaterialTests.test_multiple_slots_default_object_and_null_precedence) ... 00:00.459  blend            | Read blend: "/tmp/tmpbhsa0clj/sources/props/fixture.blend"
+
+Exported props/fixture; source unchanged
+Info: Saved as "fixture.blend"
+10:21:49 | INFO: Starting glTF 2.0 export
+10:21:49 | INFO: Extracting primitive: Default red
+10:21:49 | INFO: Primitives created: 4
+10:21:49 | INFO: Extracting primitive: Default red.001
+10:21:49 | INFO: Primitives created: 4
+10:21:49 | INFO: Finished glTF 2.0 export in 0.009079456329345703 s
+ok
+test_no_modifier_override_needs_no_normalization (__main__.SelectedMaterialTests.test_no_modifier_override_needs_no_normalization) ... 00:00.508  blend            | Read blend: "/tmp/tmpynjjyppl/sources/props/fixture.blend"
+
+Exported props/fixture; source unchanged
+Info: Saved as "fixture.blend"
+10:21:49 | INFO: Starting glTF 2.0 export
+10:21:49 | INFO: Extracting primitive: Default red
+10:21:49 | INFO: Primitives created: 1
+10:21:49 | INFO: Extracting primitive: Default red
+10:21:49 | INFO: Primitives created: 1
+10:21:49 | INFO: Finished glTF 2.0 export in 0.0044629573822021484 s
+ok
+test_range_style_red_over_blue_data (__main__.SelectedMaterialTests.test_range_style_red_over_blue_data) ... 00:00.551  blend            | Read blend: "/tmp/tmp7nm8njoq/sources/props/fixture.blend"
+
+Exported props/fixture; source unchanged
+Info: Saved as "fixture.blend"
+10:21:49 | INFO: Starting glTF 2.0 export
+10:21:49 | INFO: Extracting primitive: Default red
+10:21:49 | INFO: Primitives created: 1
+10:21:49 | INFO: Extracting primitive: Default red.001
+10:21:49 | INFO: Primitives created: 1
+10:21:49 | INFO: Finished glTF 2.0 export in 0.0046176910400390625 s
+ok
+test_serializer_failure_restores_source_and_target (__main__.SelectedMaterialTests.test_serializer_failure_restores_source_and_target) ... 00:00.594  blend            | Read blend: "/tmp/tmpbs5br3lq/sources/props/fixture.blend"
+ok
+test_shared_red_data_blue_object_override (__main__.SelectedMaterialTests.test_shared_red_data_blue_object_override) ... 00:00.631  blend            | Read blend: "/tmp/tmpfb7521v7/sources/props/fixture.blend"
+
+Exported props/fixture; source unchanged
+Info: Saved as "fixture.blend"
+Info: Saved as "fixture.blend"
+10:21:49 | INFO: Starting glTF 2.0 export
+10:21:49 | INFO: Extracting primitive: Default red.001
+10:21:49 | INFO: Primitives created: 1
+10:21:49 | INFO: Extracting primitive: Default red
+10:21:49 | INFO: Primitives created: 1
+10:21:49 | INFO: Finished glTF 2.0 export in 0.004824161529541016 s
+ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.357s
+
+OK
+
+Exported props/fixture; source unchanged
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

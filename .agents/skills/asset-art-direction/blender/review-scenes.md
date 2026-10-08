@@ -37,7 +37,8 @@ command overwrites outputs. Missing actual game view sizes remain a limitation.
    a radius-fit orthographic camera and three SUN lights, rendering CPU thumbnails.
    It does not open/save .blend sources. This is a separate profile from the authored
    Area-light studio: preserve its purpose, don't silently force profile identity.
-   Use catalog thumbnail selection for components not in pack preview IDs.
+   Use catalog thumbnail selection for isolated component previews; saved-source
+   selection is documented in [README](../../../../README.md#asset-development-checks).
 5. **Target view:** use approved actual camera/elevation/occupied-pixel evidence
    when available. D08's provisional image boxes are diagnostics only; record
    image dimensions and occupied size separately. Never modify/run another worker's

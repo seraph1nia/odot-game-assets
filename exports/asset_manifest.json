@@ -526,10 +526,10 @@
     },
     {
       "file": "exports/characters/evil_melee_unit.glb",
-      "bytes": 791840,
+      "bytes": 791468,
       "meshes": 86,
       "triangles": 8535,
-      "materials": 15,
+      "materials": 13,
       "animations": [
         "attack",
         "death",
@@ -556,7 +556,10 @@
         "skull": 1,
         "spike": 5
       },
-      "bones": 19
+      "bones": 19,
+      "shared_kits": [
+        "sources/props/shared_village_kit.blend"
+      ]
     },
     {
       "file": "exports/props/evil_sword.glb",
@@ -569,19 +572,20 @@
     },
     {
       "file": "exports/props/evil_shield.glb",
-      "bytes": 65076,
+      "bytes": 65096,
       "meshes": 10,
       "triangles": 1064,
       "materials": 4,
       "animations": [],
-      "skins": 0
+      "skins": 0,
+      "source": "sources/props/evil_shield.blend"
     },
     {
       "file": "exports/characters/evil_mage_unit.glb",
-      "bytes": 631112,
+      "bytes": 630716,
       "meshes": 76,
       "triangles": 6821,
-      "materials": 16,
+      "materials": 14,
       "animations": [
         "attack",
         "death",
@@ -607,7 +611,10 @@
       "shared_kit_instances": {
         "skull": 1
       },
-      "bones": 19
+      "bones": 19,
+      "shared_kits": [
+        "sources/props/shared_village_kit.blend"
+      ]
     },
     {
       "file": "exports/props/evil_staff.glb",
@@ -629,9 +636,9 @@
     },
     {
       "file": "exports/characters/evil_ranged_unit.glb",
-      "bytes": 712228,
-      "meshes": 90,
-      "triangles": 7151,
+      "bytes": 714932,
+      "meshes": 92,
+      "triangles": 7175,
       "materials": 23,
       "animations": [
         "attack",
@@ -659,23 +666,27 @@
         "skull": 1,
         "spike": 2
       },
-      "bones": 19
+      "bones": 19,
+      "shared_kits": [
+        "sources/props/shared_village_kit.blend"
+      ]
     },
     {
       "file": "exports/props/crossbow.glb",
-      "bytes": 49168,
-      "meshes": 10,
-      "triangles": 814,
-      "materials": 7,
+      "bytes": 52036,
+      "meshes": 12,
+      "triangles": 838,
+      "materials": 8,
       "animations": [],
-      "skins": 0
+      "skins": 0,
+      "source": "sources/props/crossbow.blend"
     },
     {
       "file": "exports/characters/evil_berserker_unit.glb",
-      "bytes": 716616,
+      "bytes": 716416,
       "meshes": 81,
       "triangles": 7821,
-      "materials": 15,
+      "materials": 14,
       "animations": [
         "attack",
         "death",
@@ -699,11 +710,14 @@
       "preview": "exports/previews/evil_berserker_unit.png",
       "modeling_stage": "initial_model",
       "shared_kit_instances": {
+        "axe": 2,
         "skull": 2,
-        "spike": 1,
-        "axe": 2
+        "spike": 1
       },
-      "bones": 19
+      "bones": 19,
+      "shared_kits": [
+        "sources/props/shared_village_kit.blend"
+      ]
     },
     {
       "file": "exports/props/evil_axe_offhand.glb",
@@ -925,9 +939,9 @@
     },
     {
       "file": "exports/buildings/archery_range.glb",
-      "bytes": 5483064,
-      "triangles": 41298,
-      "materials": 38,
+      "bytes": 5304400,
+      "triangles": 40838,
+      "materials": 37,
       "animations": [],
       "source": "sources/buildings/archery_range.blend",
       "shared_kit_instances": {
@@ -945,8 +959,8 @@
     },
     {
       "file": "exports/buildings/metal_mine.glb",
-      "bytes": 5252972,
-      "triangles": 36248,
+      "bytes": 5223804,
+      "triangles": 35968,
       "materials": 35,
       "animations": [],
       "source": "sources/buildings/metal_mine.blend",
@@ -963,8 +977,8 @@
     },
     {
       "file": "exports/buildings/research_tower.glb",
-      "bytes": 5611168,
-      "triangles": 41962,
+      "bytes": 5588324,
+      "triangles": 41742,
       "materials": 36,
       "animations": [],
       "source": "sources/buildings/research_tower.blend",
@@ -981,9 +995,9 @@
     },
     {
       "file": "exports/buildings/town_hall.glb",
-      "bytes": 8849548,
-      "triangles": 88355,
-      "materials": 30,
+      "bytes": 8639132,
+      "triangles": 87575,
+      "materials": 29,
       "animations": [],
       "source": "sources/buildings/town_hall.blend",
       "shared_kit_instances": {
@@ -999,8 +1013,8 @@
     },
     {
       "file": "exports/buildings/weaver.glb",
-      "bytes": 5427916,
-      "triangles": 38908,
+      "bytes": 5405332,
+      "triangles": 38688,
       "materials": 33,
       "animations": [],
       "source": "sources/buildings/weaver.blend",
@@ -1072,8 +1086,8 @@
     },
     {
       "file": "exports/environment/components/forest_foam.glb",
-      "bytes": 1366764,
-      "triangles": 976,
+      "bytes": 1352792,
+      "triangles": 704,
       "materials": 2,
       "animations": [],
       "source": "sources/environment/shared_forest_kit.blend"
@@ -1120,16 +1134,16 @@
     },
     {
       "file": "exports/environment/components/forest_mushroom_blue.glb",
-      "bytes": 1619716,
-      "triangles": 1900,
+      "bytes": 1602776,
+      "triangles": 1780,
       "materials": 5,
       "animations": [],
       "source": "sources/environment/shared_forest_kit.blend"
     },
     {
       "file": "exports/environment/components/forest_mushroom_purple.glb",
-      "bytes": 1629700,
-      "triangles": 1900,
+      "bytes": 1612752,
+      "triangles": 1780,
       "materials": 5,
       "animations": [],
       "source": "sources/environment/shared_forest_kit.blend"
@@ -1216,8 +1230,8 @@
     },
     {
       "file": "exports/environment/hex_bioluminescent_grove.glb",
-      "bytes": 6879756,
-      "triangles": 8392,
+      "bytes": 6857464,
+      "triangles": 8152,
       "materials": 41,
       "animations": [],
       "source": "sources/environment/hex_bioluminescent_grove.blend",
@@ -1240,8 +1254,8 @@
     },
     {
       "file": "exports/environment/hex_crystal_grove.glb",
-      "bytes": 8572872,
-      "triangles": 8248,
+      "bytes": 8552212,
+      "triangles": 8008,
       "materials": 40,
       "animations": [],
       "source": "sources/environment/hex_crystal_grove.blend",
@@ -1264,8 +1278,8 @@
     },
     {
       "file": "exports/environment/hex_crystal_shrine.glb",
-      "bytes": 8785512,
-      "triangles": 10748,
+      "bytes": 8764480,
+      "triangles": 10508,
       "materials": 44,
       "animations": [],
       "source": "sources/environment/hex_crystal_shrine.blend",
@@ -1290,8 +1304,8 @@
     },
     {
       "file": "exports/environment/hex_glowing_mushrooms.glb",
-      "bytes": 8514664,
-      "triangles": 7880,
+      "bytes": 8492372,
+      "triangles": 7640,
       "materials": 37,
       "animations": [],
       "source": "sources/environment/hex_glowing_mushrooms.blend",
@@ -1313,8 +1327,8 @@
     },
     {
       "file": "exports/environment/hex_lantern_bridge.glb",
-      "bytes": 7681604,
-      "triangles": 10422,
+      "bytes": 7646580,
+      "triangles": 9910,
       "materials": 49,
       "animations": [],
       "source": "sources/environment/hex_lantern_bridge.blend",
@@ -1340,8 +1354,8 @@
     },
     {
       "file": "exports/environment/hex_mystical_grove.glb",
-      "bytes": 8554384,
-      "triangles": 7880,
+      "bytes": 8532720,
+      "triangles": 7640,
       "materials": 37,
       "animations": [],
       "source": "sources/environment/hex_mystical_grove.blend",
@@ -1363,8 +1377,8 @@
     },
     {
       "file": "exports/environment/hex_rune_shrine.glb",
-      "bytes": 7184748,
-      "triangles": 10218,
+      "bytes": 7178844,
+      "triangles": 10098,
       "materials": 44,
       "animations": [],
       "source": "sources/environment/hex_rune_shrine.blend",
@@ -1388,8 +1402,8 @@
     },
     {
       "file": "exports/environment/hex_woodland_bridge.glb",
-      "bytes": 7843060,
-      "triangles": 11394,
+      "bytes": 7808052,
+      "triangles": 10882,
       "materials": 57,
       "animations": [],
       "source": "sources/environment/hex_woodland_bridge.blend",
@@ -1488,8 +1502,8 @@
     },
     {
       "file": "exports/environment/hex_butterfly_glade.glb",
-      "bytes": 6042676,
-      "triangles": 14234,
+      "bytes": 6036788,
+      "triangles": 14114,
       "materials": 45,
       "animations": [],
       "source": "sources/environment/hex_butterfly_glade.blend",
@@ -1515,8 +1529,8 @@
     },
     {
       "file": "exports/environment/hex_dream_menagerie.glb",
-      "bytes": 8390756,
-      "triangles": 20456,
+      "bytes": 8369724,
+      "triangles": 20216,
       "materials": 56,
       "animations": [],
       "source": "sources/environment/hex_dream_menagerie.blend",
@@ -1544,8 +1558,8 @@
     },
     {
       "file": "exports/environment/hex_hollow_watchers.glb",
-      "bytes": 8267572,
-      "triangles": 19280,
+      "bytes": 8246048,
+      "triangles": 19040,
       "materials": 51,
       "animations": [],
       "source": "sources/environment/hex_hollow_watchers.blend",
