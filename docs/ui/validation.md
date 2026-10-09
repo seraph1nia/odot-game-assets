@@ -1,6 +1,30 @@
 # UI validation and limitations
 
-## Current review-fix acceptance
+## Current host dialog-close acceptance
+
+- Fresh normal native acceptance **637/0, 79 captures**, source-bound
+  `production/review-dialog-close/results.json`, `.cache/ui/review-dialog-close/tests.log`.
+  Same-item selector reopening for all six options, Esc/header/footer close, underlying
+  HUD/menu, focus restoration and no-extra-intent checks supplement unchanged original
+  Settings/modal/scroll/world-input assertions.
+- The regression against the pre-fix host failed **300/19, 0 captures**, retained
+  `production/review-dialog-close-before/results.json`, private log
+  `.cache/ui-dialog-close-before/.cache/ui/before/tests.log`. Not a successful gate.
+- Serial OS Settings **11/0**, modal **64/0**, zero world leaks:
+  `.cache/ui-diagnosis/{full,modal}-os-none-review-dialog-close/probe.log`.
+- Fresh independent UI-only loader **nine scenes / Theme/seal / 32 files**:
+  `.cache/ui-payload/review-dialog-close/load.log`, `payload.json`.
+- **79 exact prior PNG byte/dimension matches**, no changed images or new inspection
+  claimed. `visual-review-dialog-close.json` inherits byte-bound prior visual judgment;
+  fresh normal source hashes, not old screenshots, certify the edited source checks.
+- **Nine focused UI contracts**; current count is declared from actual output in
+  `tasks.json`. Earlier byte contracts remain frozen in `preservation.json`; no old Git
+  objects needed. Full repository suites/lint remain the outer executor's gates.
+
+Same llvmpipe/mock-data/Label-slot/tooltip/construction-time ownership limits below;
+no physical/native-GPU performance, actual game integration, migration, installs or art.
+
+## Historical first review-fix acceptance
 
 - Normal source-bound UI acceptance **588/0, 79 captures**:
   `production/review-fixes/results.json`, `.cache/ui/review-fixes/tests.log`.

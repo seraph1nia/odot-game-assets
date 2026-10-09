@@ -1,6 +1,45 @@
 # Ledger production — finished intended standalone package
 
-## Current review-fix acceptance
+## Current host dialog-close acceptance
+
+The host now synchronizes its screen mode/caption at the modal's shared `closed`
+boundary, returning to the actual underlying HUD or menu. Modal hiding, input scope,
+invoker focus return and confirmations remain owned by the existing modal lifecycle;
+no forced reselect or extra user intent. Native regressions close and reopen the
+identical selector item for all six dialog options, cover Esc/header/footer controls,
+check focus return/no extra intents, and retain the menu under direct Settings closure.
+The original Settings sequence and all accepted modal/scroll/input assertions remain.
+
+The new regression executed against the pre-fix host at `cb1d78a…` in a private
+assets-only copy: **300 focused checks / 19 failures / 0 captures**. Same-item reopening
+and restored HUD assertions failed for all six options. Failed result retained in
+`production/review-dialog-close-before/results.json`; full log
+`.cache/ui-dialog-close-before/.cache/ui/before/tests.log`. This is deliberate pre-fix
+regression evidence, not a passing gate or current source acceptance.
+
+Fresh normal source-bound acceptance: **637 checks / 0 failures / 79 captures**,
+`production/review-dialog-close/results.json`, `.cache/ui/review-dialog-close/tests.log`.
+Serial owned X11/XTest original Settings **11/0**, modal lifecycle **64/0**, zero world
+leaks: `.cache/ui-diagnosis/{full,modal}-os-none-review-dialog-close/probe.log`.
+Fresh private UI-only audit: **nine scenes, Theme/seal, 32 files**,
+`.cache/ui-payload/review-dialog-close/load.log`, current `payload.json` hashes.
+Nine focused metadata/provenance contracts validate current and preserved evidence.
+Full repository test/lint gates remain outer-pipeline-owned.
+
+All **79 current PNGs are exact SHA256 matches with identical dimensions** to the
+previous reviewed set. No changed bytes and no new image inspection claimed.
+`visual-review-dialog-close.json` binds the new set to unchanged
+`visual-review-review-fixes.json`; earlier historical bindings/results/failures remain
+intact. Byte-identical visual inheritance does not replace the fresh source acceptance.
+
+Same limits: Godot **4.7.2 .NET**, Xvfb, Compatibility/Mesa **llvmpipe**, Dummy audio;
+mock-data controls, not game services/authority or physical/native-GPU/FPS/VRAM proof.
+Unit preview remains Label-only, long-name tooltip keyboard discovery unestablished,
+scroll ownership construction-time. No game access/write/import/build/launch,
+migration, dependencies, installs, extra art or Blender regeneration. Only assigned
+review work ran; the outer executor owns delivery and remaining gates.
+
+## Historical first review-fix acceptance
 
 The approved standalone scope is unchanged. Review fixed implicit 3D discovery of
 only the two 2D seal sources, removed source-text portability proxies, made retained

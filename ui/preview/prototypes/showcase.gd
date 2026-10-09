@@ -292,6 +292,9 @@ func open_dialog(kind: String, opener: Control = null) -> void:
 	dialog.name = "PreviewDialog"
 	dialog.title = kind.capitalize().replace("_", " ")
 	dialog.invoker = dialog_opener
+	dialog.closed.connect(func():
+		screen_mode = "hud" if is_instance_valid(ledger) else "menu"
+		sync_selectors())
 	add_child(dialog)
 	var scroll = dialog.get_content()
 	if kind == "unit":

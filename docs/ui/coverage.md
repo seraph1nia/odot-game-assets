@@ -6,11 +6,12 @@ mock compositions and Phase G migration preparation, clarified by inbox 007.
 publication and rollout are not performed or certified.** Accepted M0/M1 and the
 scrolling/representative milestone remain unchanged historical evidence.
 
-Current normal acceptance: **588 checks / zero failures / 79 captures**;
-[production record](production.md), [source-bound results](production/review-fixes/results.json).
-Review fixes add native selector-navigation regressions; the original Settings,
-modal/scroll/world-input gates remain unchanged. Submitted 568/79 evidence is retained,
-not used to certify edited source.
+Current normal acceptance: **637 checks / zero failures / 79 captures**;
+[production record](production.md), [source-bound results](production/review-dialog-close/results.json).
+Review fixes cover selector-navigation and close-then-same-item reopening for all six
+dialog options, Esc/header/footer close and underlying HUD/menu ownership. Original
+Settings/modal/scroll/world-input gates remain unchanged. Submitted 568/79 and first
+review-fix 588/79 evidence is retained, not used to certify edited source.
 This is meaningful discovered state coverage, not every phase×selection×eligibility
 Cartesian product or an exhaustive future-platform campaign.
 
@@ -38,11 +39,11 @@ also have four-size frames. Details paid/last/fresh and hall empty/stale/storage
 recovery/fragmented have two-size state pictures. Eleven meaningful HUD state views
 are additionally captured at 1280×720. No claim that every state has four pictures.
 
-All **79 current image bytes have visual-review coverage**: 19 changed frames opened
-at native dimensions in this review-fix phase, 60 proven byte-identical to the
-retained submitted image set. `visual-review-review-fixes.json` binds the ordered
-image-set SHA-256, dimensions, inspected filenames and prior `visual-review.json`
-bytes. The submitted binding remains unchanged.
+All **79 current image bytes have visual-review coverage**: exact SHA256/dimension
+matches to the first review-fix set. No changed bytes or new inspection claimed this
+round. `visual-review-dialog-close.json` binds the current set to preserved
+`visual-review-review-fixes.json` (19 changed frames actually opened, 60 exact
+submitted-byte matches in that earlier round). All historical bindings remain unchanged.
 New/changed views never inherit acceptance merely because old screenshots exist.
 
 Input uses real native Godot Controls with injected mouse/wheel/keyboard events;

@@ -15,6 +15,13 @@
         "visual-review-components.json": "c4909fb2391363d7f7b0e56500a07f02d86460afb6cb389928e501b30690b183"
       }
     },
+    "review_fixes": {
+      "commit": "cb1d78a1b41418fb8b8da93d9796f3eb7d84d47a",
+      "files": {
+        "production/review-fixes/results.json": "8151429f9060a9800581bbdf053f39e342ad7f1be2704985a00360b999769a8c",
+        "visual-review-review-fixes.json": "ef0414dc4fcbf40fa81784093599355d719ad048e267629aced0a813ebd8f94c"
+      }
+    },
     "submitted": {
       "commit": "7db3292a57dcf7ece6af7a623076804422a67f17",
       "files": {

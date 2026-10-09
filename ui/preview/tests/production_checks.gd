@@ -88,11 +88,34 @@ func selector_navigation() -> void:
 	await choose(state_picker, 0)
 	await choose(picker, 0)
 	expect(ui.selection == "Producer" and ui.actions[0].data.id == "upgrade", "native selection returns to ordinary Producer quotes")
-	await choose(screen, 2)
-	expect(ui.dialog.visible and screen.get_item_text(screen.selected) == "Research", "screen selector opens requested dialog")
-	await key(KEY_ESCAPE)
-	await choose(screen, 0)
+	for index in range(2, 8):
+		await choose(screen, index)
+		var caption = screen.get_item_text(index)
+		if index == 2:
+			expect(ui.dialog.visible and screen.get_item_text(screen.selected) == "Research", "screen selector opens requested dialog")
+		else:
+			expect(ui.dialog.visible and screen.get_item_text(screen.selected) == caption, "screen selector opens " + caption)
+		var intents = observed.screen
+		if index % 3 == 2: await key(KEY_ESCAPE)
+		elif index % 3 == 0: await runner.click(ui.dialog.get_node("Center/Panel/Body/Header/Cancel"))
+		else: await runner.click(ui.dialog.get_ok_button())
+		expect(not ui.dialog.visible and ui.screen_mode == "hud" and screen.get_item_text(screen.selected) == "Hud", "dialog closure restores underlying HUD " + caption)
+		expect(observed.screen == intents and ui.last_action == last, "dialog closure emits no intents " + caption)
+		expect(get_viewport().gui_get_focus_owner() == screen, "dialog closure retains selector focus return " + caption)
+		await choose(screen, index)
+		expect(ui.dialog.visible and screen.get_item_text(screen.selected) == caption and observed.screen == intents + 1, "same selector item reopens " + caption)
+		await key(KEY_ESCAPE)
+		expect(not ui.dialog.visible and ui.screen_mode == "hud" and screen.get_item_text(screen.selected) == "Hud", "reopened dialog Esc restores HUD " + caption)
+	ui.close_dialog()
 	expect(ui.screen_mode == "hud" and ui.dialog == null, "screen selector returns from dialog to HUD")
+	await choose(screen, 1)
+	var menu = ui.find_child("StartMenu", true, false)
+	var opener = menu.get_node("Body/Settings")
+	await runner.click(opener)
+	await runner.click(ui.dialog.get_ok_button())
+	expect(not ui.dialog.visible and ui.screen_mode == "menu" and screen.get_item_text(screen.selected) == "Menu" and is_instance_valid(menu), "direct Settings closure retains underlying menu")
+	expect(get_viewport().gui_get_focus_owner() == opener and ui.last_action == last, "menu dialog closure retains opener and emits no intent")
+	await choose(screen, 0)
 func scrolling() -> void:
 	for kind in ["research", "town_hall", "details", "friends"]:
 		ui.open_dialog(kind)

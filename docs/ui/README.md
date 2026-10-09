@@ -1,7 +1,7 @@
 # The Common Watch UI workspace
 
 **Resume here:** intended standalone Ledger **E–G is complete and checked**:
-**588/0, 79 image bytes with visual-review coverage**, fresh serial OS Settings/modal and independent
+**637/0, 79 image bytes with visual-review coverage**, fresh serial OS Settings/modal and independent
 payload audit. Accepted M0/M1/representative milestones are preserved.
 [coverage.md](coverage.md) defines finished standalone scope and separate external
 integration requirements. **No game integration/mutation, migration or publication.**
@@ -13,7 +13,7 @@ MAIN owns the coordinated delivery handoff; no competing pipeline.
 | Exact approved direction and scope | [decisions](decisions.md); [M0 artistic evidence](art-direction.md) |
 | Avoid rediscovering game behavior | [discovery](discovery.md), [inventory](inventory.json) |
 | Reuse components / prepare migration | [API](api.md), [architecture](architecture.md), [migration mapping](migration.json), [payload audit](payload.json) |
-| Actual checks / final pictures | [validation](validation.md), [current results](production/review-fixes/results.json), [visual bindings](visual-review-review-fixes.json) |
+| Actual checks / final pictures | [validation](validation.md), [current results](production/review-dialog-close/results.json), [visual bindings](visual-review-dialog-close.json) |
 | Retained acceptance byte contracts | [preservation manifest](preservation.json), [submitted visual binding](visual-review.json) |
 | Why modal is not a Window | [causal diagnosis](settings-diagnosis.md), [contrary ownership result](modal-alternatives.md) |
 | Original Blender/PNG provenance | [source bindings](exploration-assets.json) |
@@ -54,7 +54,8 @@ fails rather than overwriting its run directory. Plan tests certify metadata, no
 
 Open `ui/preview/project.godot` independently for review. Main scene is
 `prototypes/showcase.tscn`; screen/state selectors use mocks, no services. Final
-reviewed pictures/results are in `production/review-fixes/`;
+reviewed pictures/results are in `production/review-dialog-close/`;
+all 79 current PNGs match the reviewed `production/review-fixes/` bytes exactly;
 `production/standalone-final/` and `visual-review.json` retain submitted acceptance bytes;
 `production/m1-tab-scope/` and `production/production-package-reviewed/` preserve
 accepted historical evidence, not proof of changed views. Other folders preserve failed/intermediate states. Review actual images,

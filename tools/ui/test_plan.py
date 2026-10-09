@@ -59,7 +59,7 @@ class IntakeContracts(unittest.TestCase):
     def test_final_evidence_and_source_binding(self):
         result = load(load('tasks.json')['package_results'])
         self.assertEqual(result['failures'], [])
-        self.assertEqual(result['checks'], 588)
+        self.assertEqual(result['checks'], load('tasks.json')['package_checks'])
         self.assertEqual(len(result['captures']), 79)
         self.assertIn('llvmpipe', result['renderer'])
         for name, digest in result['source_sha256'].items():
@@ -120,9 +120,10 @@ class IntakeContracts(unittest.TestCase):
             self.assertEqual(hashlib.sha256((DOCS / path).read_bytes()).hexdigest(), digest, path)
 
     def test_submitted_acceptance_is_preserved(self):
-        milestone = load('preservation.json')['milestones']['submitted']
-        for path, digest in milestone['files'].items():
-            self.assertEqual(hashlib.sha256((DOCS / path).read_bytes()).hexdigest(), digest, path)
+        for name in ('submitted', 'review_fixes'):
+            milestone = load('preservation.json')['milestones'][name]
+            for path, digest in milestone['files'].items():
+                self.assertEqual(hashlib.sha256((DOCS / path).read_bytes()).hexdigest(), digest, path)
 
     def test_runtime_payload_and_inventory_binding(self):
         manifest = load('payload.json')
