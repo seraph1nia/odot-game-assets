@@ -1,0 +1,11 @@
+{
+	"captures": [],
+	"checks": 138,
+	"failures": [
+		"single vertical scroll owner research /root/UIValidation/UIShowcase/PreviewDialog/Center/Panel/Body/Scroll/Content/PersonalResearch/AccessSample/@PopupMenu@274/@PanelContainer@265/@VBoxContainer@266/@ScrollContainer@270 mode=1",
+		"single vertical scroll owner town_hall /root/UIValidation/UIShowcase/@Control@284/Center/Panel/Body/Scroll/Content/TownHall/@HBoxContainer@289/UnitInspection/Body/Destination/@PopupMenu@326/@PanelContainer@317/@VBoxContainer@318/@ScrollContainer@322 mode=1",
+		"single vertical scroll owner friends /root/UIValidation/UIShowcase/@Control@396/Center/Panel/Body/Scroll/Content/Friends/Availability/@PopupMenu@408/@PanelContainer@399/@VBoxContainer@400/@ScrollContainer@404 mode=1"
+	],
+	"scope": "Standalone native controls; no game integration or native GPU claim",
+	"selection": "production"
+}

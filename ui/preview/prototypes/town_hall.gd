@@ -1,8 +1,10 @@
 extends VBoxContainer
 signal requested(action_id: String)
+signal unit_requested(action_id: String, unit_id: int, destination_id: String)
 var roster: Control
 var card: Control
 var healing: Control
+var read_only_reason = ""
 func _ready() -> void:
 	WatchUI.label(self, "Town hall · Plot 4", "HeadingLabel")
 	WatchUI.label(self, "Storage and healing are independent tracks. Reserve tiles are not battlefield homes.", "ContextLabel")
@@ -21,13 +23,20 @@ func _ready() -> void:
 	card = WatchUI.component("unit_inspection", body)
 	card.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	card.set_data(UIFixtures.unit(true))
-	roster.unit_selected.connect(func(id):
-		var data = UIFixtures.unit(true)
-		data.id = id
-		card.set_data(data))
-	card.requested.connect(func(id, _unit, _destination): requested.emit(id))
+	roster.unit_selected.connect(select_unit)
+	card.requested.connect(func(id, unit, destination): unit_requested.emit(id, unit, destination))
+
+func select_unit(id: int) -> void:
+	var unit = UIFixtures.unit(true)
+	unit.id = id
+	if not read_only_reason.is_empty():
+		unit.can_retire = false
+		unit.can_send = false
+		unit.reason = read_only_reason
+	card.set_data(unit)
 
 func set_read_only(reason: String) -> void:
+	read_only_reason = reason
 	var quote = healing.data.duplicate(true)
 	quote.enabled = false
 	quote.reason = reason
@@ -37,10 +46,4 @@ func set_read_only(reason: String) -> void:
 	unit.can_send = false
 	unit.reason = reason
 	card.set_data(unit)
-	# Selection is still inspection, so roster buttons stay enabled.
-	roster.unit_selected.connect(func(_id):
-		var selected = card.data.duplicate(true)
-		selected.can_retire = false
-		selected.can_send = false
-		selected.reason = reason
-		card.set_data(selected))
+	# Selection remains inspection; one persistent callback reapplies the projection gate.

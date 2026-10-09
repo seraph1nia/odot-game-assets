@@ -11,18 +11,14 @@ func set_data(data: Dictionary) -> void:
 	$Body.add_child(tiles)
 	for tile in data.get("tiles", []):
 		WatchUI.label(tiles, str(tile), "ContextLabel")
-	var scroll = ScrollContainer.new()
-	scroll.name = "RosterScroll"
-	scroll.custom_minimum_size.y = 180
-	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
-	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
-	scroll.follow_focus = true
-	$Body.add_child(scroll)
+	var scroll = WatchUI.scroll($Body, "RosterScroll", 180)
 	var rows = WatchUI.stack(scroll)
+	var group = ButtonGroup.new()
 	for unit in data.get("units", []):
 		var id = int(unit.get("id", -1))
 		var b = WatchUI.button(rows, str(unit.get("label", "Unit")))
 		b.toggle_mode = true
+		b.button_group = group
 		b.button_pressed = id == int(data.get("selected_id", -1))
 		b.pressed.connect(func(): unit_selected.emit(id))
 		buttons[id] = b

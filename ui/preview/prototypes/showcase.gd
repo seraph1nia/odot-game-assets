@@ -301,8 +301,12 @@ func open_dialog(kind: String, opener: Control = null) -> void:
 			data.reason = reason
 			dialog_content.set_data(data)
 	if dialog_content.has_signal("requested"):
-		if kind == "unit": dialog_content.requested.connect(func(id, _unit, _destination): record_action(id))
+		if kind == "unit": dialog_content.requested.connect(func(id, unit, destination): record_action(id + " unit=" + str(unit) + " destination=" + destination))
 		else: dialog_content.requested.connect(record_action)
+	if kind == "town_hall": dialog_content.unit_requested.connect(func(id, unit, destination): record_action(id + " unit=" + str(unit) + " destination=" + destination))
+	if kind == "details": dialog_content.set_context(state)
+	if kind == "friends": dialog_content.invite_requested.connect(func(id): record_action("invite-" + str(id)))
+	if kind == "details": dialog_content.unit_selected.connect(func(id): record_action("inspect-" + str(id)))
 	if kind == "settings":
 		dialog_content.changed.connect(func(key, value): last_action = "Mock " + key + " = " + str(value))
 		dialog_content.return_requested.connect(func(): confirm("Return to menu?", "This unsaved session would end. Mock confirmation only.", "return-menu"))

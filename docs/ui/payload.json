@@ -3,7 +3,7 @@
   "files": {
     "art/menu_seal.png": "cf3e2ceb4510be6d6a052e882597c2313216e2268a9aaa61fdf1d7e1308d2ced",
     "art/menu_seal.png.import": "8f06dede6295eba269e542a904e5ae91904db6eafd43f5ed225f15713d584529",
-    "components/army_roster.gd": "bed8b7ec90d15ab1c0edf833f1561a07cb0c41ef196a9434ebcde8fe4653ded8",
+    "components/army_roster.gd": "921f7dbdb8f7859e807fcf3655157886e9e90faed2957551aff9102a4088eeab",
     "components/army_roster.gd.uid": "8949748f6f354bac7dbdba4734654b6cfdfcdf158fca4359504d7728b696c1fb",
     "components/army_roster.tscn": "0e0f0675c60fe152c65ab3bc3421a26a1da1f76baf8ffb1ad93f084e6262db02",
     "components/city_navigation.gd": "af62a4e98958567bf99e9c43bfbc67f9d749c5ece1c00b3405ffa0b770e7b024",
@@ -12,7 +12,7 @@
     "components/match_controls.gd": "72324fb856dcc1d9e1a63eafd00113e5aef3751fd0b7c71fcfe6fc886b44afb0",
     "components/match_controls.gd.uid": "5e4f18b98ad315dd73767e1fcb89a5394c81fc4d8c87f7142cf763f0b26cd848",
     "components/match_controls.tscn": "2dc9bfc4f198370037d2dd389423708143f5ff0e8ea1d9a65f29b41db4b4edd2",
-    "components/modal.gd": "4633072659d9638a7ae1b448ef27813d139012da49bca18701f520967b75f052",
+    "components/modal.gd": "b97a2971f4b16e869dd6435cde13ff87f246d6266e0275fa1c2ab992479ddc8b",
     "components/modal.gd.uid": "1e92a18c668534cfff329f24b523e03a4b8115bf6225685b175ef8bab0f36d62",
     "components/modal.tscn": "6a5760a99e15c2b9739e55f8da11e152a004f5b71400352cf64071b9938db699",
     "components/quoted_action.gd": "0618d5cd386bac37f49e92340cd26240bd7162b24922540fa2c4719da3f08c47",
@@ -31,10 +31,10 @@
     "components/upkeep_summary.gd.uid": "1900afce66dde13b75468a896a5f3d7ac3ea15f5c90235f9e18411d66bdc8aca",
     "components/upkeep_summary.tscn": "4e86a0129d5a1f1132d95bd0293b7e3c79a4bc783c0b4f3f6a5ebe019e88454e",
     "theme/ledger.tres": "e94b0089b7ee1339a47e1d489f4d51e4e551fcb54acd273f377c843e613d0e0e",
-    "ui_helpers.gd": "97f16dec7649e6ddc21df68353b9f85d731e42bf2c7f3cacb2a343dac4d25e2b",
+    "ui_helpers.gd": "34194056cf0e95aa6597f7cb940be231efba6e2e47ba7107bba9e0bfb2a91140",
     "ui_helpers.gd.uid": "b5cfd062d51df5ee0c263019b8a87ceb9020684fd17e5c6640c3cb28a693ae0d"
   },
-  "log": ".cache/ui-payload/m1-tab-scope/load.log",
+  "log": ".cache/ui-payload/production-package-reviewed/load.log",
   "seal_file_bytes": 34237,
   "seal_rgba_bytes": 147456,
   "nine_slice": "not applicable: native StyleBoxFlat, fixed seal"

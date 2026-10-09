@@ -26,9 +26,10 @@ quality pilot, rollout or game integration. Those operations need separate scope
 ## UI / HUD workspace
 
 Start with [docs/ui/README.md](docs/ui/README.md) for the approved Ledger direction,
-checked M1 native-Control foundation/modal, original editable menu seal, standalone
-Godot preview, actual input/visual evidence and migration boundaries. Component and
-full-composition acceptance continues; this is not an automatic game rollout.
+accepted M1 foundation and checked representative native component/composition
+package, original editable menu seal, standalone Godot preview, actual input/visual
+evidence and migration boundaries. Broader acceptance remains explicitly scoped;
+this is not full production completion or an automatic game rollout.
 No game checkout is needed at runtime, and UI checks do not rebuild world assets
 or access shared Blender/MCP scenes.
 

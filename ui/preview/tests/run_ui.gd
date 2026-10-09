@@ -5,21 +5,25 @@ var failures: Array = []
 var checks = 0
 var captures: Array = []
 var output = ""
+var only = "all"
 
 func _ready() -> void:
 	for arg in OS.get_cmdline_user_args():
 		if arg.begins_with("--output="): output = arg.trim_prefix("--output=")
+		if arg.begins_with("--only="): only = arg.trim_prefix("--only=")
 	if output.is_empty(): push_error("--output required"); get_tree().quit(1); return
 	ui = load("res://prototypes/showcase.tscn").instantiate()
 	add_child(ui)
 	await frames()
-	await test_components()
-	await test_input()
-	await test_dialogs()
-	await test_modal_scope()
-	await test_layouts()
+	if only == "all":
+		await test_components()
+		await test_input()
+		await test_dialogs()
+		await test_modal_scope()
+	await test_production()
+	if only == "all": await test_layouts()
 	var result = {"checks":checks, "failures":failures, "captures":captures,
-		"scope":"Standalone native controls; no game integration or native GPU claim"}
+		"scope":"Standalone native controls; no game integration or native GPU claim", "selection":only}
 	var file = FileAccess.open(output.path_join("results.json"), FileAccess.WRITE)
 	file.store_string(JSON.stringify(result, "\t") + "\n")
 	print("UI_TESTS ", checks, " checks; ", failures.size(), " failures; ", captures.size(), " captures")
@@ -177,7 +181,7 @@ func test_dialogs() -> void:
 			ui.dialog_content.mode = "owned"
 			ui.dialog_content.refresh()
 			expect(ui.dialog_content.choices[3].data.reason.contains("locked"), "permanent sibling research lock")
-			var scroll = ui.dialog_content.get_node("TreeScroll")
+			var scroll = ui.dialog.get_scroll()
 			await frames()
 			expect(scroll.get_v_scroll_bar().max_value > scroll.size.y, "research content scrolls")
 		elif kind == "town_hall":
@@ -203,6 +207,16 @@ func test_dialogs() -> void:
 	expect(ui.dialog_content.choices[1].get_node("Body/Action").disabled, "paused research purchase gate")
 	ui.close_dialog()
 	ui.state = "building"
+
+func test_production() -> void:
+	var probe = load("res://tests/production_checks.gd").new()
+	probe.ui = ui
+	probe.runner = self
+	add_child(probe)
+	await probe.run()
+	checks += probe.checks
+	failures.append_array(probe.failures)
+	probe.queue_free()
 
 func test_modal_scope() -> void:
 	var probe = load("res://tests/diagnose_settings.gd").new()
@@ -257,12 +271,34 @@ func test_layouts() -> void:
 		expect(ui.find_child("StartMenu", true, false).get_global_rect().size.x == 460, "menu pixel-preserving width " + str(size))
 		await capture("menu-"+str(size.x)+"x"+str(size.y))
 		if size.x <= 1280:
+			var start = ui.find_child("StartMenu", true, false)
+			start.multiplayer_view = true
+			start.show_menu()
+			await capture("menu-multiplayer-"+str(size.x)+"x"+str(size.y))
 			ui.switch_screen("hud")
 			for kind in ["research", "town_hall", "settings", "details", "friends", "unit", "components"]:
 				ui.open_dialog(kind)
 				await frames()
 				expect(rect.encloses(ui.dialog.get_panel().get_global_rect()), "dialog viewport fit " + kind + str(size))
 				await capture(kind+"-"+str(size.x)+"x"+str(size.y))
+				if kind == "settings":
+					ui.dialog_content.get_node("Categories").current_tab = 2
+					ui.dialog_content.find_child("UpdateSample", true, false).select(4)
+					ui.dialog_content.update_sample = 4
+					ui.dialog_content.show_update()
+					await capture("settings-about-error-"+str(size.x)+"x"+str(size.y))
+				elif kind == "friends":
+					ui.dialog_content.get_node("Availability").select(6)
+					ui.dialog_content.mode = "long-names"
+					ui.dialog_content.refresh(false)
+					await capture("friends-long-"+str(size.x)+"x"+str(size.y))
+				elif kind == "research":
+					ui.dialog_content.get_node("AccessSample").select(1)
+					ui.dialog_content.mode = "owned"
+					ui.dialog_content.refresh()
+					await frames()
+					ui.dialog.get_scroll().scroll_vertical = 10000
+					await capture("research-locked-scrolled-"+str(size.x)+"x"+str(size.y))
 				ui.close_dialog()
 	get_window().size = Vector2i(1280,720)
 	ui.switch_screen("hud")

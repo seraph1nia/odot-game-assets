@@ -12,6 +12,7 @@ def main():
     parser.add_argument('--godot', required=True)
     parser.add_argument('--dotnet-root')
     parser.add_argument('--label', default='production')
+    parser.add_argument('--only', choices=['all', 'production'], default='all')
     args = parser.parse_args()
     cache = ROOT / '.cache/ui' / args.label
     cache.mkdir(parents=True, exist_ok=True)
@@ -32,7 +33,7 @@ def main():
                '-e', str(cache / 'xvfb.log'), '-s', '-screen 0 1920x1080x24 -nolisten tcp',
                *engine, 'res://tests/runner.tscn', '--resolution', '1100x820',
                '--rendering-method', 'gl_compatibility', '--rendering-driver', 'opengl3',
-               '--max-fps', '30', '--', '--output=' + str(output)]
+               '--max-fps', '30', '--', '--output=' + str(output), '--only=' + args.only]
     source = ROOT / 'ui/preview'
     manifest = {path.relative_to(source).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
                 for path in sorted(source.rglob('*')) if path.is_file()
