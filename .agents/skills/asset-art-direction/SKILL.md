@@ -27,6 +27,7 @@ below, then that procedure's primary design rule. Do not load every leaf.
 | Export/check a selected authored source | [Export/compatibility](blender/export.md) → [check selection](pipeline/index.md#checks) |
 | Evaluate “better quality,” calibrate a rule or plan a pilot | [Review](review/index.md) → [acceptance](review/acceptance.md) |
 | Add a prop/terrain variant | [Props/terrain](families/props.md) |
+| Author detailed flat forest floors or composable path/river connectors; verify every corner/seam/occupied layer | [Hex ground and overlays](blender/hex-ground.md) → [D04](design/surfaces.md#d04), [D05](design/contacts.md#d05) |
 | Dream fauna claimed to match a supplied reference | [Authored-adaptation scope](families/environment.md#dreaming) |
 
 For other questions, use the [design](design/index.md),

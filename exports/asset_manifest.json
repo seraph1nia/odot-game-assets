@@ -955,7 +955,8 @@
       },
       "shared_kits": [
         "sources/props/shared_village_kit.blend"
-      ]
+      ],
+      "meshes": 436
     },
     {
       "file": "exports/buildings/metal_mine.glb",
@@ -1098,7 +1099,8 @@
       "triangles": 132,
       "materials": 4,
       "animations": [],
-      "source": "sources/environment/shared_forest_kit.blend"
+      "source": "sources/environment/shared_forest_kit.blend",
+      "meshes": 9
     },
     {
       "file": "exports/environment/components/forest_hex_stream.glb",
@@ -1218,7 +1220,8 @@
       "triangles": 410,
       "materials": 3,
       "animations": [],
-      "source": "sources/environment/shared_forest_kit.blend"
+      "source": "sources/environment/shared_forest_kit.blend",
+      "meshes": 11
     },
     {
       "file": "exports/environment/components/forest_waterfall.glb",
@@ -1274,7 +1277,8 @@
       },
       "shared_kits": [
         "sources/environment/shared_forest_kit.blend"
-      ]
+      ],
+      "meshes": 194
     },
     {
       "file": "exports/environment/hex_crystal_shrine.glb",
@@ -1350,7 +1354,8 @@
       },
       "shared_kits": [
         "sources/environment/shared_forest_kit.blend"
-      ]
+      ],
+      "meshes": 225
     },
     {
       "file": "exports/environment/hex_mystical_grove.glb",
@@ -1583,6 +1588,123 @@
         "sources/environment/shared_enchanted_kit.blend",
         "sources/environment/shared_forest_kit.blend"
       ]
+    },
+    {
+      "file": "exports/environment/hex_ground_dirt.glb",
+      "bytes": 1612600,
+      "meshes": 3,
+      "triangles": 22,
+      "materials": 2,
+      "animations": [],
+      "source": "sources/environment/hex_ground_dirt.blend"
+    },
+    {
+      "file": "exports/environment/hex_ground_grass.glb",
+      "bytes": 2080444,
+      "meshes": 3,
+      "triangles": 22,
+      "materials": 2,
+      "animations": [],
+      "source": "sources/environment/hex_ground_grass.blend"
+    },
+    {
+      "file": "exports/environment/hex_ground_leaf_litter.glb",
+      "bytes": 2067076,
+      "meshes": 3,
+      "triangles": 22,
+      "materials": 2,
+      "animations": [],
+      "source": "sources/environment/hex_ground_leaf_litter.blend"
+    },
+    {
+      "file": "exports/environment/hex_ground_moss.glb",
+      "bytes": 2014732,
+      "meshes": 3,
+      "triangles": 22,
+      "materials": 2,
+      "animations": [],
+      "source": "sources/environment/hex_ground_moss.blend"
+    },
+    {
+      "file": "exports/environment/hex_ground_pine_duff.glb",
+      "bytes": 1775728,
+      "meshes": 3,
+      "triangles": 22,
+      "materials": 2,
+      "animations": [],
+      "source": "sources/environment/hex_ground_pine_duff.blend"
+    },
+    {
+      "file": "exports/environment/hex_path_end.glb",
+      "bytes": 266256,
+      "meshes": 1,
+      "triangles": 307,
+      "materials": 1,
+      "animations": [],
+      "source": "sources/environment/hex_path_end.blend"
+    },
+    {
+      "file": "exports/environment/hex_path_straight.glb",
+      "bytes": 262148,
+      "meshes": 1,
+      "triangles": 256,
+      "materials": 1,
+      "animations": [],
+      "source": "sources/environment/hex_path_straight.blend"
+    },
+    {
+      "file": "exports/environment/hex_path_turn_120.glb",
+      "bytes": 271212,
+      "meshes": 1,
+      "triangles": 272,
+      "materials": 1,
+      "animations": [],
+      "source": "sources/environment/hex_path_turn_120.blend"
+    },
+    {
+      "file": "exports/environment/hex_path_turn_60.glb",
+      "bytes": 271208,
+      "meshes": 1,
+      "triangles": 272,
+      "materials": 1,
+      "animations": [],
+      "source": "sources/environment/hex_path_turn_60.blend"
+    },
+    {
+      "file": "exports/environment/hex_river_overlay_end.glb",
+      "bytes": 105976,
+      "meshes": 1,
+      "triangles": 469,
+      "materials": 1,
+      "animations": [],
+      "source": "sources/environment/hex_river_overlay_end.blend"
+    },
+    {
+      "file": "exports/environment/hex_river_overlay_straight.glb",
+      "bytes": 100580,
+      "meshes": 1,
+      "triangles": 384,
+      "materials": 1,
+      "animations": [],
+      "source": "sources/environment/hex_river_overlay_straight.blend"
+    },
+    {
+      "file": "exports/environment/hex_river_overlay_turn_120.glb",
+      "bytes": 109884,
+      "meshes": 1,
+      "triangles": 408,
+      "materials": 1,
+      "animations": [],
+      "source": "sources/environment/hex_river_overlay_turn_120.blend"
+    },
+    {
+      "file": "exports/environment/hex_river_overlay_turn_60.glb",
+      "bytes": 109880,
+      "meshes": 1,
+      "triangles": 408,
+      "materials": 1,
+      "animations": [],
+      "source": "sources/environment/hex_river_overlay_turn_60.blend"
     }
   ]
 }

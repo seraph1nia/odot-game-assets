@@ -407,6 +407,65 @@ source and export SHA-256 hashes to detect stale results.
 The local `.lavish/asset-gallery.html` review surface
 also offers a 3D viewer and a downloadable ZIP of the sources, exports, and scripts.
 
+## Detailed forest floors and independent overlays
+
+Thirteen new canonical assets add painted ground detail without replacing any
+existing terrain or forest-library source:
+
+- `environment/hex_ground_{moss,grass,dirt,leaf_litter,pine_duff}` — five flat
+  occupation surfaces with distinct patches, cushions/blades, humus, roots,
+  embedded pebbles, fallen leaves or needles/flattened ferns.
+- `environment/hex_path_{straight,turn_120,turn_60,end}` — independent dirt paths.
+- `environment/hex_river_overlay_{straight,turn_120,turn_60,end}` — independent
+  shallow surface streams with narrow painted banks, not opaque full-hex cards.
+
+These are **authored adaptations**, using F3/F5 for thematic context rather than
+claiming a supplied bare-floor reference match. Packed portable maps and editable
+PNG companions live in `sources/environment/textures/ground/`. Sources retain
+matched collections and ground-zero roots; associations use the existing selector.
+
+Place a base and one overlay at the same origin with unit scale and **no extra Z
+translation**. Source is Z-up; GLB is Y-up through the existing exporter. Edge 0 is
+north (+Y in source), edges increase counterclockwise every 60°. Connectors meet
+**edge midpoints**, with straight normal approaches; dead ends stop near center.
+Rotating canonical pieces covers all 15 unordered edge pairs and six end directions
+per family: straight edges (0,3), wide turn (0,2), tight turn (0,1), end (0).
+`turn_60`/`turn_120` describe edge-normal separation, not steering angle. Source
+positive-Z rotations become positive-Y rotations in GLB. Neighbor centers are
+`2 * HEX.half_height * (-sin(edge*pi/3), cos(edge*pi/3))` in source XY.
+
+Floors sit at Z=0; path occupies Z=0.006–0.012 and surface-stream Z=0.006–0.016,
+so bases and overlays do not z-fight. Detail uses painted tangent normals, not
+raised grass/rocks. Use ordinary depth testing and place occupant contact pivots
+on their supporting surface; GLBs cannot force arbitrary future objects to occlude
+ground. Existing recessed stream water remains unchanged at its old height and
+**does not connect in elevation to these surface streams**. No old river IDs,
+interfaces or sources were changed; a new-to-old transition is not included.
+
+Read the [authoring recipe](.agents/skills/asset-art-direction/blender/hex-ground.md)
+before rebuilding. It is indexed in the canonical art-direction skill and owns
+recipes/navigation, not duplicated D-rules. Executable new-suite settings are
+`art_style.GROUND`; shared dimensions remain `art_style.HEX`.
+[Review, costs and evidence](docs/detailed-ground/README.md) include compact
+close/tile-scale sheets, seams, all ground-family stacks and occupied examples.
+
+```sh
+# Explicit authoring; first preserve manual edits to these new generated sources/maps.
+python3 -m tools.asset_pack.worker tools/asset_pack/ground_tiles.py --label detailed-ground-build
+# Check/export saved sources only; pass any canonical IDs above, or all 13:
+python3 -m tools.asset_pack.check $(python3 -c 'from tools.asset_pack.hex_ground import IDS; print(" ".join(IDS))')
+python3 -m tools.asset_pack.worker tools/asset_pack/verify_ground_blender.py --label detailed-ground-verification
+# CPU GLB evidence, no source saves/rebuilds:
+python3 -m tools.asset_pack.worker tools/asset_pack/ground_review.py --label detailed-ground-review
+bash tools/asset_pack/ground_review_sheets.sh
+```
+
+The scoped verifier loads real sources and reimported GLBs, validates typed root
+extras/UVs/effective texture pixels, every rotated interface, all matching neighbor
+combinations and 40 base+overlay stacks. Review sheets remain art judgments, not
+native GPU performance or actual game-camera acceptance. The catalog does not
+require explicit rotated variants; future consumers choose placement rotation.
+
 ## Asset development checks
 
 [AGENTS.md](AGENTS.md) retains quick workspace conventions. Detailed visual criteria

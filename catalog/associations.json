@@ -562,6 +562,84 @@
       "title": "Dream Forest Menagerie",
       "source": "sources/environment/hex_dream_menagerie.blend",
       "preview": "exports/previews/hex_dream_menagerie.png"
+    },
+    "exports/environment/hex_ground_moss.glb": {
+      "title": "Detailed Moss Floor",
+      "source": "sources/environment/hex_ground_moss.blend",
+      "export_collection": "hex_ground_moss",
+      "preview": null
+    },
+    "exports/environment/hex_ground_grass.glb": {
+      "title": "Detailed Woodland Grass Floor",
+      "source": "sources/environment/hex_ground_grass.blend",
+      "export_collection": "hex_ground_grass",
+      "preview": null
+    },
+    "exports/environment/hex_ground_dirt.glb": {
+      "title": "Detailed Forest Dirt Floor",
+      "source": "sources/environment/hex_ground_dirt.blend",
+      "export_collection": "hex_ground_dirt",
+      "preview": null
+    },
+    "exports/environment/hex_ground_leaf_litter.glb": {
+      "title": "Detailed Leaf Litter Floor",
+      "source": "sources/environment/hex_ground_leaf_litter.blend",
+      "export_collection": "hex_ground_leaf_litter",
+      "preview": null
+    },
+    "exports/environment/hex_ground_pine_duff.glb": {
+      "title": "Detailed Pine Duff and Fern Floor",
+      "source": "sources/environment/hex_ground_pine_duff.blend",
+      "export_collection": "hex_ground_pine_duff",
+      "preview": null
+    },
+    "exports/environment/hex_path_straight.glb": {
+      "title": "Dirt Path — Straight (Edges 0,3)",
+      "source": "sources/environment/hex_path_straight.blend",
+      "export_collection": "hex_path_straight",
+      "preview": null
+    },
+    "exports/environment/hex_path_turn_120.glb": {
+      "title": "Dirt Path — Wide Turn (Edges 0,2)",
+      "source": "sources/environment/hex_path_turn_120.blend",
+      "export_collection": "hex_path_turn_120",
+      "preview": null
+    },
+    "exports/environment/hex_path_turn_60.glb": {
+      "title": "Dirt Path — Tight Turn (Edges 0,1)",
+      "source": "sources/environment/hex_path_turn_60.blend",
+      "export_collection": "hex_path_turn_60",
+      "preview": null
+    },
+    "exports/environment/hex_path_end.glb": {
+      "title": "Dirt Path — Center End (Edge 0)",
+      "source": "sources/environment/hex_path_end.blend",
+      "export_collection": "hex_path_end",
+      "preview": null
+    },
+    "exports/environment/hex_river_overlay_straight.glb": {
+      "title": "Surface River — Straight (Edges 0,3)",
+      "source": "sources/environment/hex_river_overlay_straight.blend",
+      "export_collection": "hex_river_overlay_straight",
+      "preview": null
+    },
+    "exports/environment/hex_river_overlay_turn_120.glb": {
+      "title": "Surface River — Wide Turn (Edges 0,2)",
+      "source": "sources/environment/hex_river_overlay_turn_120.blend",
+      "export_collection": "hex_river_overlay_turn_120",
+      "preview": null
+    },
+    "exports/environment/hex_river_overlay_turn_60.glb": {
+      "title": "Surface River — Tight Turn (Edges 0,1)",
+      "source": "sources/environment/hex_river_overlay_turn_60.blend",
+      "export_collection": "hex_river_overlay_turn_60",
+      "preview": null
+    },
+    "exports/environment/hex_river_overlay_end.glb": {
+      "title": "Surface River — Center End (Edge 0)",
+      "source": "sources/environment/hex_river_overlay_end.blend",
+      "export_collection": "hex_river_overlay_end",
+      "preview": null
     }
   }
 }

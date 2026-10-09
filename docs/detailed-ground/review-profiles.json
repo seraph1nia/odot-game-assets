@@ -1,0 +1,2488 @@
+[
+  {
+    "name": "floor_moss",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "59c5915282142f1df71068fba4f5cde1b5fc2a7e3fda87994fd33bf60bafc62b"
+  },
+  {
+    "name": "close_moss",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "9d18e743c71838bbabd85304fd7815adbdf1ebdb94a5bc0a0652e96a985b9111"
+  },
+  {
+    "name": "floor_grass",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "9c7471348e259532581eaa0fa622a06ce841fd06dbd5e4da40b52564bb2aacbd"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "2e044b0d8c94f1a6df90efabf5e2800c35320145309ebd74aade7f802161696d"
+  },
+  {
+    "name": "close_grass",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "9c7471348e259532581eaa0fa622a06ce841fd06dbd5e4da40b52564bb2aacbd"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "2f5f4eaad595af4303caa3a2b5fabefbaa0dbfaa2b710ada5eec4c507970d661"
+  },
+  {
+    "name": "floor_dirt",
+    "assets": [
+      {
+        "id": "environment/hex_ground_dirt",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "20ead297b5bbba3479b53ca368d01db2640069c1bfec9bc75e6cc61331bca0cc"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "991b3951640b5443bebd9144f748e386d185af9f9da834bdc7bf3d270a244288"
+  },
+  {
+    "name": "close_dirt",
+    "assets": [
+      {
+        "id": "environment/hex_ground_dirt",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "20ead297b5bbba3479b53ca368d01db2640069c1bfec9bc75e6cc61331bca0cc"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "3f194d57da56e39c759afffab57f314b9abc04b7614a4500e5c7be9ff7708d2d"
+  },
+  {
+    "name": "floor_leaf_litter",
+    "assets": [
+      {
+        "id": "environment/hex_ground_leaf_litter",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "4bfced1231c0473a0065dc091924dfa30eed76301a712b21af4e185a98f68002"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "65c17058f1fd2bd2a858a1b44cb8a905b6238a4a1514050a0cb360a56138abdb"
+  },
+  {
+    "name": "close_leaf_litter",
+    "assets": [
+      {
+        "id": "environment/hex_ground_leaf_litter",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "4bfced1231c0473a0065dc091924dfa30eed76301a712b21af4e185a98f68002"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "d98de405ee18c284ff37c125c55cb3dd56dce29d8aa0cfe946e04d437d0ab1a7"
+  },
+  {
+    "name": "floor_pine_duff",
+    "assets": [
+      {
+        "id": "environment/hex_ground_pine_duff",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "8bb3a275d60aae5b8ceae7770c1351517032f6926bc71975aa190fb34c83772f"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "86f3a4b937034da25f0fc98a06a627b0ec7d95c120e53634cb19a49beb672249"
+  },
+  {
+    "name": "close_pine_duff",
+    "assets": [
+      {
+        "id": "environment/hex_ground_pine_duff",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "8bb3a275d60aae5b8ceae7770c1351517032f6926bc71975aa190fb34c83772f"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "748e52a9427be1b413543d391fd91414e56e4c5aaee314036d6d0e8cfd89fa68"
+  },
+  {
+    "name": "floor_legacy",
+    "assets": [
+      {
+        "id": "environment/components/forest_hex_meadow",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "36406de0a4db79e007694d1b2e83418ed1e46ea370c9b65780ea93be676d4829"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.22204661369324,
+      71.27413749694824,
+      338.7779712677002,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "6482c2a36e9edf09143427a3f3c21677bfc66f728cac41706be51e4393cbd7ee"
+  },
+  {
+    "name": "close_legacy",
+    "assets": [
+      {
+        "id": "environment/components/forest_hex_meadow",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "36406de0a4db79e007694d1b2e83418ed1e46ea370c9b65780ea93be676d4829"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -127.1194577217102,
+      -103.42525243759155,
+      527.1194934844971,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "829399bd78fe0dbc84e830c7d9fe0f56f41a19970c82b1c97280e34167b5c408"
+  },
+  {
+    "name": "path_straight",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "9c7471348e259532581eaa0fa622a06ce841fd06dbd5e4da40b52564bb2aacbd"
+      },
+      {
+        "id": "environment/hex_path_straight",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "c05ae793721d9f5869aa0811d0d4b4e28971e76dc6ac2d340a3cf940efe29e6c"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "bfb8eb51523283dee450706ecfe0fb2a85b1dec11a16f2c94c4158ed1e297bbc"
+  },
+  {
+    "name": "neighbors_path_straight",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_path_straight",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "c05ae793721d9f5869aa0811d0d4b4e28971e76dc6ac2d340a3cf940efe29e6c"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "b7d73c60dfbee7e15a01223f7f273265cf70e13b3638310f33bddee869ae120d"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -5.408933717497024e-16,
+          -4.416729559300636,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 0,
+        "position": [
+          -5.408933717497024e-16,
+          -4.416729559300636,
+          0
+        ],
+        "glb_sha256": "b7d73c60dfbee7e15a01223f7f273265cf70e13b3638310f33bddee869ae120d"
+      }
+    ],
+    "camera_location": [
+      0.0,
+      -5.0,
+      11.826000213623047
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 20.975282669067383,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      242.1941375732422,
+      31.221295297145844,
+      397.8058624267578,
+      408.6378741264343
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "f937b53799ed5dc6125a901bba4b9ab45a01d954579be858822a4a665a728ad7"
+  },
+  {
+    "name": "path_turn_120",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "9c7471348e259532581eaa0fa622a06ce841fd06dbd5e4da40b52564bb2aacbd"
+      },
+      {
+        "id": "environment/hex_path_turn_120",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "48627064b06c6a9550305ce314bd41a3c05eef6d1bec69332c2ca57fb943afb4"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "b1c99a4203322eeb66b27f6d94c746841f470cbe584114a6d98b0ab5f5793c9f"
+  },
+  {
+    "name": "neighbors_path_turn_120",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_path_turn_120",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "48627064b06c6a9550305ce314bd41a3c05eef6d1bec69332c2ca57fb943afb4"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "b7d73c60dfbee7e15a01223f7f273265cf70e13b3638310f33bddee869ae120d"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -3.8249999999999993,
+          -2.208364779650317,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 300,
+        "position": [
+          -3.8249999999999993,
+          -2.208364779650317,
+          0
+        ],
+        "glb_sha256": "b7d73c60dfbee7e15a01223f7f273265cf70e13b3638310f33bddee869ae120d"
+      }
+    ],
+    "camera_location": [
+      -1.912500023841858,
+      -3.895817518234253,
+      11.826000213623047
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 17.662734985351562,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      158.30363273620605,
+      32.748739421367645,
+      481.6963577270508,
+      407.0840334892273
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "ace3a003b28f7e62ea2d0b2f02fe95b419ef7e31de1299717b5ff92285eddd96"
+  },
+  {
+    "name": "path_turn_60",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "9c7471348e259532581eaa0fa622a06ce841fd06dbd5e4da40b52564bb2aacbd"
+      },
+      {
+        "id": "environment/hex_path_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "e1cea1e54a6dbd2703b1b7a29a1936594ec018dab449e43d522273ace5eb2cfa"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "57cc6b88e19b5899cebb9a2c637be28f1fe78584fd0c5df9696dcd20a1455871"
+  },
+  {
+    "name": "neighbors_path_turn_60",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_path_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "e1cea1e54a6dbd2703b1b7a29a1936594ec018dab449e43d522273ace5eb2cfa"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "b7d73c60dfbee7e15a01223f7f273265cf70e13b3638310f33bddee869ae120d"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -3.824999999999999,
+          2.2083647796503185,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 240,
+        "position": [
+          -3.824999999999999,
+          2.2083647796503185,
+          0
+        ],
+        "glb_sha256": "b7d73c60dfbee7e15a01223f7f273265cf70e13b3638310f33bddee869ae120d"
+      }
+    ],
+    "camera_location": [
+      -1.912500023841858,
+      -2.791635036468506,
+      11.826000213623047
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 14.350188255310059,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      120.97821235656738,
+      34.98134285211563,
+      519.0217971801758,
+      404.8128318786621
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "5ffa9be2d4a027dbaa6426b32883cad5670a88366efd0a33c76bb86ec157deb9"
+  },
+  {
+    "name": "path_end",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "9c7471348e259532581eaa0fa622a06ce841fd06dbd5e4da40b52564bb2aacbd"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "b7d73c60dfbee7e15a01223f7f273265cf70e13b3638310f33bddee869ae120d"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "16205a30e4e1112be896cf227d6ba2476a05223b262c21237306201fee5df3f7"
+  },
+  {
+    "name": "neighbors_path_end",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "b7d73c60dfbee7e15a01223f7f273265cf70e13b3638310f33bddee869ae120d"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "b7d73c60dfbee7e15a01223f7f273265cf70e13b3638310f33bddee869ae120d"
+      }
+    ],
+    "camera_location": [
+      0.0,
+      -2.791635036468506,
+      11.826000213623047
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 14.350188255310059,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      206.2732696533203,
+      34.98134285211563,
+      433.7267303466797,
+      404.8128318786621
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "cc966a298ed57154de6db6c734315ad008503327cb727c29d657a86d366b1720"
+  },
+  {
+    "name": "stack_moss_path",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_path_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "e1cea1e54a6dbd2703b1b7a29a1936594ec018dab449e43d522273ace5eb2cfa"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "f74a02467ad28d0439efdf0ddcb756bbc4753cf14b241b97ecae6dee6dc690f7"
+  },
+  {
+    "name": "stack_grass_path",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "9c7471348e259532581eaa0fa622a06ce841fd06dbd5e4da40b52564bb2aacbd"
+      },
+      {
+        "id": "environment/hex_path_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "e1cea1e54a6dbd2703b1b7a29a1936594ec018dab449e43d522273ace5eb2cfa"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "48259e9e64d6e3d61e83806d78343fe96c514da54166f056b20847924ed2cea3"
+  },
+  {
+    "name": "stack_dirt_path",
+    "assets": [
+      {
+        "id": "environment/hex_ground_dirt",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "20ead297b5bbba3479b53ca368d01db2640069c1bfec9bc75e6cc61331bca0cc"
+      },
+      {
+        "id": "environment/hex_path_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "e1cea1e54a6dbd2703b1b7a29a1936594ec018dab449e43d522273ace5eb2cfa"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "77d92993e1745b02a19323d4f3682eb73573422083ef9ca8ce0d982cca4e5bd7"
+  },
+  {
+    "name": "stack_leaf_litter_path",
+    "assets": [
+      {
+        "id": "environment/hex_ground_leaf_litter",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "4bfced1231c0473a0065dc091924dfa30eed76301a712b21af4e185a98f68002"
+      },
+      {
+        "id": "environment/hex_path_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "e1cea1e54a6dbd2703b1b7a29a1936594ec018dab449e43d522273ace5eb2cfa"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "d5a64bd1f84542abc6af47fd7c12a43fedad44bb47596cea8cabc602291aa4d9"
+  },
+  {
+    "name": "stack_pine_duff_path",
+    "assets": [
+      {
+        "id": "environment/hex_ground_pine_duff",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "8bb3a275d60aae5b8ceae7770c1351517032f6926bc71975aa190fb34c83772f"
+      },
+      {
+        "id": "environment/hex_path_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "e1cea1e54a6dbd2703b1b7a29a1936594ec018dab449e43d522273ace5eb2cfa"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "144d491baaa0e00512bb59d88daa677cd158fb0722b9cdbe6dc4539d1bf03cd4"
+  },
+  {
+    "name": "river_straight",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "9c7471348e259532581eaa0fa622a06ce841fd06dbd5e4da40b52564bb2aacbd"
+      },
+      {
+        "id": "environment/hex_river_overlay_straight",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "1885f50d832c4ffbc74acdad66dee5b04906da8f3021c3a3cb2d2f2ccfe774aa"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "4f0e6c2626a4f7d41d73d2f6e06e1a99ec1552d31a9a661ad6554eb7a7149197"
+  },
+  {
+    "name": "neighbors_river_straight",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_river_overlay_straight",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "1885f50d832c4ffbc74acdad66dee5b04906da8f3021c3a3cb2d2f2ccfe774aa"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "9b3c0c5defc7b64eca1d750b8a164b5f6e406cd48b2dbbf128dcfbeb9932a41b"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -5.408933717497024e-16,
+          -4.416729559300636,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 0,
+        "position": [
+          -5.408933717497024e-16,
+          -4.416729559300636,
+          0
+        ],
+        "glb_sha256": "9b3c0c5defc7b64eca1d750b8a164b5f6e406cd48b2dbbf128dcfbeb9932a41b"
+      }
+    ],
+    "camera_location": [
+      0.0,
+      -5.0,
+      11.82800006866455
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 20.975282669067383,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      242.1941375732422,
+      31.197826266288757,
+      397.8058624267578,
+      408.6144018173218
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "e3cd437754bbe011880ce8014c0ccb9907556685317f4960081dfc600c56af06"
+  },
+  {
+    "name": "river_turn_120",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "9c7471348e259532581eaa0fa622a06ce841fd06dbd5e4da40b52564bb2aacbd"
+      },
+      {
+        "id": "environment/hex_river_overlay_turn_120",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "65f5a183bd30ad014f3d807551b06d6cf2596e0e2d5bde1f797f1661c5f69ee1"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "146626dde720fd754a17f2fdfe2daff288885e7b5efcfba70c139b3672780e9e"
+  },
+  {
+    "name": "neighbors_river_turn_120",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_river_overlay_turn_120",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "65f5a183bd30ad014f3d807551b06d6cf2596e0e2d5bde1f797f1661c5f69ee1"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "9b3c0c5defc7b64eca1d750b8a164b5f6e406cd48b2dbbf128dcfbeb9932a41b"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -3.8249999999999993,
+          -2.208364779650317,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 300,
+        "position": [
+          -3.8249999999999993,
+          -2.208364779650317,
+          0
+        ],
+        "glb_sha256": "9b3c0c5defc7b64eca1d750b8a164b5f6e406cd48b2dbbf128dcfbeb9932a41b"
+      }
+    ],
+    "camera_location": [
+      -1.912500023841858,
+      -3.895817518234253,
+      11.82800006866455
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 17.662734985351562,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      158.30363273620605,
+      32.72087097167969,
+      481.6963577270508,
+      407.05615520477295
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "51b10f58c49ac489ffb5d1ae3f2e740f947903203bf1a11bca547671ecfbb510"
+  },
+  {
+    "name": "river_turn_60",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "9c7471348e259532581eaa0fa622a06ce841fd06dbd5e4da40b52564bb2aacbd"
+      },
+      {
+        "id": "environment/hex_river_overlay_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "22622e359d0a5ed9757aee96f35b9f49e21a768ae0294d5a804d34e3082fcfbf"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "1dc04afc6c081f16d1d5d634832d6e331f3db9a4fa6045d3770c04960330540b"
+  },
+  {
+    "name": "neighbors_river_turn_60",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_river_overlay_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "22622e359d0a5ed9757aee96f35b9f49e21a768ae0294d5a804d34e3082fcfbf"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "9b3c0c5defc7b64eca1d750b8a164b5f6e406cd48b2dbbf128dcfbeb9932a41b"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -3.824999999999999,
+          2.2083647796503185,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 240,
+        "position": [
+          -3.824999999999999,
+          2.2083647796503185,
+          0
+        ],
+        "glb_sha256": "9b3c0c5defc7b64eca1d750b8a164b5f6e406cd48b2dbbf128dcfbeb9932a41b"
+      }
+    ],
+    "camera_location": [
+      -1.912500023841858,
+      -2.791635036468506,
+      11.82800006866455
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 14.350188255310059,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      120.97821235656738,
+      34.9470391869545,
+      519.0217971801758,
+      404.778528213501
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "9eda89a640f9a9b346cf5c9911c11dd76cf839b132ad57bb4b795b1f16ebb151"
+  },
+  {
+    "name": "river_end",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "9c7471348e259532581eaa0fa622a06ce841fd06dbd5e4da40b52564bb2aacbd"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "9b3c0c5defc7b64eca1d750b8a164b5f6e406cd48b2dbbf128dcfbeb9932a41b"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "1f69a7d119e4d7414b1e3c03f00aee1da09bb446fde4f912a447bee90a6dec87"
+  },
+  {
+    "name": "neighbors_river_end",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "9b3c0c5defc7b64eca1d750b8a164b5f6e406cd48b2dbbf128dcfbeb9932a41b"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "9b3c0c5defc7b64eca1d750b8a164b5f6e406cd48b2dbbf128dcfbeb9932a41b"
+      }
+    ],
+    "camera_location": [
+      0.0,
+      -2.791635036468506,
+      11.82800006866455
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 14.350188255310059,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      206.2732696533203,
+      34.9470391869545,
+      433.7267303466797,
+      404.778528213501
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "96900205e156753d2b0c90e8450e25cbd0f4516f2cf64358454610c65f3d979f"
+  },
+  {
+    "name": "stack_moss_river",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_river_overlay_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "22622e359d0a5ed9757aee96f35b9f49e21a768ae0294d5a804d34e3082fcfbf"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "8c7b095565ac262820efbbe216039afbad17b7b46fb2724b520dae975353e94d"
+  },
+  {
+    "name": "stack_grass_river",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "9c7471348e259532581eaa0fa622a06ce841fd06dbd5e4da40b52564bb2aacbd"
+      },
+      {
+        "id": "environment/hex_river_overlay_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "22622e359d0a5ed9757aee96f35b9f49e21a768ae0294d5a804d34e3082fcfbf"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "fa03e3ea75df0fc71fdfebe6d8a5e8e2e9ff748eac0c80fc8f9b23f64f2652f2"
+  },
+  {
+    "name": "stack_dirt_river",
+    "assets": [
+      {
+        "id": "environment/hex_ground_dirt",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "20ead297b5bbba3479b53ca368d01db2640069c1bfec9bc75e6cc61331bca0cc"
+      },
+      {
+        "id": "environment/hex_river_overlay_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "22622e359d0a5ed9757aee96f35b9f49e21a768ae0294d5a804d34e3082fcfbf"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "fc333ce061afc8005d0476839b1a56e5e629e91a9bf9da09571233bf8a890df3"
+  },
+  {
+    "name": "stack_leaf_litter_river",
+    "assets": [
+      {
+        "id": "environment/hex_ground_leaf_litter",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "4bfced1231c0473a0065dc091924dfa30eed76301a712b21af4e185a98f68002"
+      },
+      {
+        "id": "environment/hex_river_overlay_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "22622e359d0a5ed9757aee96f35b9f49e21a768ae0294d5a804d34e3082fcfbf"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "9de747f025686b6e4ebfff4235f446f52069c15695ff08b13010f3c9cdf439c5"
+  },
+  {
+    "name": "stack_pine_duff_river",
+    "assets": [
+      {
+        "id": "environment/hex_ground_pine_duff",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "8bb3a275d60aae5b8ceae7770c1351517032f6926bc71975aa190fb34c83772f"
+      },
+      {
+        "id": "environment/hex_river_overlay_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "22622e359d0a5ed9757aee96f35b9f49e21a768ae0294d5a804d34e3082fcfbf"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "72e11565b9a7b5d7567fcbdbab4d5117b2866cebca5d0f62a824c12fa8e6f220"
+  },
+  {
+    "name": "occupied_tree",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+      },
+      {
+        "id": "environment/hex_path_straight",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "c05ae793721d9f5869aa0811d0d4b4e28971e76dc6ac2d340a3cf940efe29e6c"
+      },
+      {
+        "id": "environment/components/forest_tree_snag",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0.012
+        ],
+        "glb_sha256": "6f3920303ed5104cb1fc554dc45b7b42c175420212391d5d8a17c2ca0c551c3e"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      11.0
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 7.300000190734863,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      74.74824786186218,
+      50.6253182888031,
+      325.25174617767334,
+      254.42090034484863
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "37084f44182e524bdcb1e9bb68d8cce071851d58f6649378c7b4ab32ffd8730b"
+  },
+  {
+    "name": "occupied_building",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "9c7471348e259532581eaa0fa622a06ce841fd06dbd5e4da40b52564bb2aacbd"
+      },
+      {
+        "id": "environment/hex_path_straight",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "c05ae793721d9f5869aa0811d0d4b4e28971e76dc6ac2d340a3cf940efe29e6c"
+      },
+      {
+        "id": "buildings/archery_range",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0.012
+        ],
+        "glb_sha256": "4e231c7a9e6032b7e609961dac15637a44ab45996c3ec21d5ab79f74c3fa8069"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      11.0
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 7.300000190734863,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      74.74824786186218,
+      50.6253182888031,
+      329.87143993377686,
+      344.7894811630249
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "b5f6581b67d5f1b0a60f07a293e6d87a4411d8533838c183a1786b2bad195c2f"
+  },
+  {
+    "name": "occupied_unit",
+    "assets": [
+      {
+        "id": "environment/hex_ground_dirt",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "20ead297b5bbba3479b53ca368d01db2640069c1bfec9bc75e6cc61331bca0cc"
+      },
+      {
+        "id": "environment/hex_path_straight",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "c05ae793721d9f5869aa0811d0d4b4e28971e76dc6ac2d340a3cf940efe29e6c"
+      },
+      {
+        "id": "characters/knight",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0.012
+        ],
+        "glb_sha256": "2e63744934d9e35f0f848aa5158306223b7086320b3181acaf5b74f38a4f3281"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      11.0
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 7.300000190734863,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      74.74824786186218,
+      50.6253182888031,
+      325.25174617767334,
+      301.1159658432007
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "ed5ee0fc2ce98f8ff827924049a33284b7d5ebaf217562786e6a18bc40aad424",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "54010ec8d26dae40d534176ad94e243954ccd73b5c13e6bc8726633b8d4a4604"
+  }
+]

@@ -431,7 +431,7 @@
     "asset_id": "environment/components/forest_hex_meadow",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "2694b3b6350c122093558c729d073b38204b4cb7df5ceafea0ef1ad3e6ca683a",
+    "source_sha256": "dd0793ce691d3e495659114315c4fdd5912b4364353d1739e16bf690f7bcc4c6",
     "glb_sha256": "36406de0a4db79e007694d1b2e83418ed1e46ea370c9b65780ea93be676d4829"
   },
   {
@@ -551,7 +551,7 @@
     "asset_id": "environment/components/forest_tree_snag",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "2694b3b6350c122093558c729d073b38204b4cb7df5ceafea0ef1ad3e6ca683a",
+    "source_sha256": "dd0793ce691d3e495659114315c4fdd5912b4364353d1739e16bf690f7bcc4c6",
     "glb_sha256": "6f3920303ed5104cb1fc554dc45b7b42c175420212391d5d8a17c2ca0c551c3e"
   },
   {
@@ -897,5 +897,109 @@
     "geometry_finite": true,
     "source_sha256": "0187cc11eedd383bce20b44f104ead882606dae6775996dd43db8b58756d7363",
     "glb_sha256": "7357f62b1a09bf07d9bc92301882692e42bfc353e5286021b14835bff8a007b2"
+  },
+  {
+    "asset": "environment/hex_ground_dirt",
+    "asset_id": "environment/hex_ground_dirt",
+    "round_trip_max_bounds_error": 0.0,
+    "geometry_finite": true,
+    "source_sha256": "ae9f85d6364bee6a494560152997c75066a24f72dc55c6e3d3c977aa83a10b21",
+    "glb_sha256": "20ead297b5bbba3479b53ca368d01db2640069c1bfec9bc75e6cc61331bca0cc"
+  },
+  {
+    "asset": "environment/hex_ground_grass",
+    "asset_id": "environment/hex_ground_grass",
+    "round_trip_max_bounds_error": 0.0,
+    "geometry_finite": true,
+    "source_sha256": "5ae6f4f83d12fce4da1bb3234905c7365a920d999135cb83a5847346fd7216f7",
+    "glb_sha256": "9c7471348e259532581eaa0fa622a06ce841fd06dbd5e4da40b52564bb2aacbd"
+  },
+  {
+    "asset": "environment/hex_ground_leaf_litter",
+    "asset_id": "environment/hex_ground_leaf_litter",
+    "round_trip_max_bounds_error": 0.0,
+    "geometry_finite": true,
+    "source_sha256": "a21a8868ee0e040142171b19d3690edc9b6b3f6c52513cdf57419129c2f29290",
+    "glb_sha256": "4bfced1231c0473a0065dc091924dfa30eed76301a712b21af4e185a98f68002"
+  },
+  {
+    "asset": "environment/hex_ground_moss",
+    "asset_id": "environment/hex_ground_moss",
+    "round_trip_max_bounds_error": 0.0,
+    "geometry_finite": true,
+    "source_sha256": "c42505e348ed41589c17f2839bfe625ac91607e5b4c4eadd280a93dae1f7d78b",
+    "glb_sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f"
+  },
+  {
+    "asset": "environment/hex_ground_pine_duff",
+    "asset_id": "environment/hex_ground_pine_duff",
+    "round_trip_max_bounds_error": 0.0,
+    "geometry_finite": true,
+    "source_sha256": "6cb6277065c8646c39f7951b3a18bb574a8e914fb3290ee97b67bb59f604f520",
+    "glb_sha256": "8bb3a275d60aae5b8ceae7770c1351517032f6926bc71975aa190fb34c83772f"
+  },
+  {
+    "asset": "environment/hex_path_end",
+    "asset_id": "environment/hex_path_end",
+    "round_trip_max_bounds_error": 0.0,
+    "geometry_finite": true,
+    "source_sha256": "b01124c113cf93427df4007f811dc46774b79572224c26856a9b113594072551",
+    "glb_sha256": "b7d73c60dfbee7e15a01223f7f273265cf70e13b3638310f33bddee869ae120d"
+  },
+  {
+    "asset": "environment/hex_path_straight",
+    "asset_id": "environment/hex_path_straight",
+    "round_trip_max_bounds_error": 0.0,
+    "geometry_finite": true,
+    "source_sha256": "4a6c10dc3ed4f00e92f5f187c983d4b3118db61ed7d027d08bf483476988c306",
+    "glb_sha256": "c05ae793721d9f5869aa0811d0d4b4e28971e76dc6ac2d340a3cf940efe29e6c"
+  },
+  {
+    "asset": "environment/hex_path_turn_120",
+    "asset_id": "environment/hex_path_turn_120",
+    "round_trip_max_bounds_error": 0.0,
+    "geometry_finite": true,
+    "source_sha256": "ae793cebf33c056502373d2d35e0e5ce12198aca0a7565df6194c24d37a29db9",
+    "glb_sha256": "48627064b06c6a9550305ce314bd41a3c05eef6d1bec69332c2ca57fb943afb4"
+  },
+  {
+    "asset": "environment/hex_path_turn_60",
+    "asset_id": "environment/hex_path_turn_60",
+    "round_trip_max_bounds_error": 0.0,
+    "geometry_finite": true,
+    "source_sha256": "8a13de68e88b8023e1350287cf0c6655e87048955f921d5c800cffd2e6290acf",
+    "glb_sha256": "e1cea1e54a6dbd2703b1b7a29a1936594ec018dab449e43d522273ace5eb2cfa"
+  },
+  {
+    "asset": "environment/hex_river_overlay_end",
+    "asset_id": "environment/hex_river_overlay_end",
+    "round_trip_max_bounds_error": 0.0,
+    "geometry_finite": true,
+    "source_sha256": "0769f94a7de275233d3d52ebbd0d754a749b8d62345f8ff970a6debe5224f151",
+    "glb_sha256": "9b3c0c5defc7b64eca1d750b8a164b5f6e406cd48b2dbbf128dcfbeb9932a41b"
+  },
+  {
+    "asset": "environment/hex_river_overlay_straight",
+    "asset_id": "environment/hex_river_overlay_straight",
+    "round_trip_max_bounds_error": 0.0,
+    "geometry_finite": true,
+    "source_sha256": "29ca4b5a94366c443c2b118fd2ed153539eded82ceba9d2fa960e97e48e663b3",
+    "glb_sha256": "1885f50d832c4ffbc74acdad66dee5b04906da8f3021c3a3cb2d2f2ccfe774aa"
+  },
+  {
+    "asset": "environment/hex_river_overlay_turn_120",
+    "asset_id": "environment/hex_river_overlay_turn_120",
+    "round_trip_max_bounds_error": 0.0,
+    "geometry_finite": true,
+    "source_sha256": "4d04a215cecd425c4dd9e5f549cc66df4aa2632bb4e9aab74ee252545901987a",
+    "glb_sha256": "65f5a183bd30ad014f3d807551b06d6cf2596e0e2d5bde1f797f1661c5f69ee1"
+  },
+  {
+    "asset": "environment/hex_river_overlay_turn_60",
+    "asset_id": "environment/hex_river_overlay_turn_60",
+    "round_trip_max_bounds_error": 0.0,
+    "geometry_finite": true,
+    "source_sha256": "e31bef5b427ee5c14cba78d6d6073f59234164673671b674bb2133661b8c3379",
+    "glb_sha256": "22622e359d0a5ed9757aee96f35b9f49e21a768ae0294d5a804d34e3082fcfbf"
   }
 ]
