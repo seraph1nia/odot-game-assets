@@ -1,0 +1,61 @@
+{
+  "scope": "Approval explorations; not production acceptance",
+  "captures": [
+    {
+      "path": "docs/ui/previews/ledger-hud-1100x820.png",
+      "width": 1100,
+      "height": 820,
+      "renderer": "OpenGL API 4.6 (Core Profile) Mesa 26.2.4-arch3.1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 23.1.1, 256 bits)",
+      "log": ".cache/ui-explorations/ledger-hud-1100x820.log"
+    },
+    {
+      "path": "docs/ui/previews/ledger-menu-1100x820.png",
+      "width": 1100,
+      "height": 820,
+      "renderer": "OpenGL API 4.6 (Core Profile) Mesa 26.2.4-arch3.1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 23.1.1, 256 bits)",
+      "log": ".cache/ui-explorations/ledger-menu-1100x820.log"
+    },
+    {
+      "path": "docs/ui/previews/watch-hud-1100x820.png",
+      "width": 1100,
+      "height": 820,
+      "renderer": "OpenGL API 4.6 (Core Profile) Mesa 26.2.4-arch3.1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 23.1.1, 256 bits)",
+      "log": ".cache/ui-explorations/watch-hud-1100x820.log"
+    },
+    {
+      "path": "docs/ui/previews/watch-menu-1100x820.png",
+      "width": 1100,
+      "height": 820,
+      "renderer": "OpenGL API 4.6 (Core Profile) Mesa 26.2.4-arch3.1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 23.1.1, 256 bits)",
+      "log": ".cache/ui-explorations/watch-menu-1100x820.log"
+    },
+    {
+      "path": "docs/ui/previews/ledger-hud-1280x720.png",
+      "width": 1280,
+      "height": 720,
+      "renderer": "OpenGL API 4.6 (Core Profile) Mesa 26.2.4-arch3.1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 23.1.1, 256 bits)",
+      "log": ".cache/ui-explorations/ledger-hud-1280x720.log"
+    },
+    {
+      "path": "docs/ui/previews/ledger-menu-1280x720.png",
+      "width": 1280,
+      "height": 720,
+      "renderer": "OpenGL API 4.6 (Core Profile) Mesa 26.2.4-arch3.1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 23.1.1, 256 bits)",
+      "log": ".cache/ui-explorations/ledger-menu-1280x720.log"
+    },
+    {
+      "path": "docs/ui/previews/watch-hud-1280x720.png",
+      "width": 1280,
+      "height": 720,
+      "renderer": "OpenGL API 4.6 (Core Profile) Mesa 26.2.4-arch3.1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 23.1.1, 256 bits)",
+      "log": ".cache/ui-explorations/watch-hud-1280x720.log"
+    },
+    {
+      "path": "docs/ui/previews/watch-menu-1280x720.png",
+      "width": 1280,
+      "height": 720,
+      "renderer": "OpenGL API 4.6 (Core Profile) Mesa 26.2.4-arch3.1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 23.1.1, 256 bits)",
+      "log": ".cache/ui-explorations/watch-menu-1280x720.log"
+    }
+  ]
+}

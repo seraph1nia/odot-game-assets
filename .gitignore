@@ -14,6 +14,9 @@ mise.local.toml
 mise.local.lock
 .DS_Store
 
+# Standalone UI preview engine imports; scenes and source UID sidecars stay tracked.
+/ui/preview/.godot/
+
 # Disposable catalog output and thumbnail cache; rendered PNGs can be committed.
 /exports/catalog.json
 /exports/thumbnails/state.json
