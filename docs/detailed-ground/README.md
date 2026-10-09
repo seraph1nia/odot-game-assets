@@ -17,36 +17,26 @@ crops or copied originals are included in this evidence.
 
 ## Canonical IDs and measured cost
 
-Every ID below is prefixed `environment/`. Each has a matching
-`sources/environment/<stem>.blend` and `exports/environment/<stem>.glb`, with a
-matching explicitly selected collection in `catalog/associations.json`.
+The [README asset list](../../README.md#detailed-forest-floors-and-independent-overlays)
+describes the available families; `hex_ground.IDS` owns the executable selection.
+Each ID has a matching `sources/environment/<stem>.blend` and
+`exports/environment/<stem>.glb`, with an explicitly selected collection in
+`catalog/associations.json`.
 
-| Stem | Unique primitive triangles | GLB bytes | Materials / images | RGBA8 decoded images* |
-|---|---:|---:|---:|---:|
-| `hex_ground_moss` | 22 | 2,014,732 | 2 / 6 | 15 MiB |
-| `hex_ground_grass` | 22 | 2,080,444 | 2 / 6 | 15 MiB |
-| `hex_ground_dirt` | 22 | 1,612,600 | 2 / 6 | 15 MiB |
-| `hex_ground_leaf_litter` | 22 | 2,067,076 | 2 / 6 | 15 MiB |
-| `hex_ground_pine_duff` | 22 | 1,775,728 | 2 / 6 | 15 MiB |
-| `hex_path_straight` | 256 | 262,148 | 1 / 3 | 3 MiB |
-| `hex_path_turn_120` | 272 | 271,212 | 1 / 3 | 3 MiB |
-| `hex_path_turn_60` | 272 | 271,208 | 1 / 3 | 3 MiB |
-| `hex_path_end` | 307 | 266,256 | 1 / 3 | 3 MiB |
-| `hex_river_overlay_straight` | 384 | 100,580 | 1 / 3 | 3 MiB |
-| `hex_river_overlay_turn_120` | 408 | 109,884 | 1 / 3 | 3 MiB |
-| `hex_river_overlay_turn_60` | 408 | 109,880 | 1 / 3 | 3 MiB |
-| `hex_river_overlay_end` | 469 | 105,976 | 1 / 3 | 3 MiB |
+Generated `resources` records in [verification.json](verification.json) own
+per-asset triangle counts, GLB bytes, material/image counts, decoded RGBA8 image
+bytes and source/export hashes. Regenerate them with the scoped verifier in the
+README after an authorized source/export change, rather than maintaining a prose
+copy. Compare the recorded hashes to the current files before treating the records
+as current. Map dimensions come from `art_style.TEXTURES` via `ground_tiles.py`.
 
-Total: **2,886 triangles and 11,047,724 GLB bytes**. Floors use three 1024² maps;
-foundation and overlays use three 512² maps, with sizes from `TEXTURES`.
-*RGBA8 is a decoded-image accounting convention, **not measured VRAM**: 99 MiB if
-all files' embedded images are decoded independently; 69 MiB if identical shared
-foundation/path/river image sets are deduplicated. Mips, GPU formats, renderer
-caches, instances, draw calls and the roughness packing policy can change cost.
-One base + one overlay accounts for 18 MiB in that convention. Texture memory is
-the deliberate cost of rich painted detail rather than thousands of grass/leaf
-meshes; these numbers do not establish GPU speed or a game budget. Asset hashes,
-actual export facts and source bindings are in [verification.json](verification.json).
+RGBA8 is a decoded-image accounting convention, **not measured VRAM**. Summing
+`decoded_rgba8_image_bytes` counts each file's images independently; a consumer may
+deduplicate identical shared foundation/path/river image sets. Mips, GPU formats,
+renderer caches, instances, draw calls and the roughness packing policy can change
+cost. Texture memory is the deliberate cost of rich painted detail rather than
+thousands of grass/leaf meshes; these records do not establish GPU speed or a game
+budget.
 
 ## Layering, footprint and consumer placement
 

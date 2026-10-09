@@ -3,7 +3,8 @@
 Verified with real repository exports in Chromium on 2026-10-04.
 The catalog discovered all 40 exports present at the end of verification,
 including 16 reusable kit components with links to their shared Blender source.
-Every current export has an explicitly generated thumbnail.
+Every export in that verification snapshot had an explicitly generated thumbnail;
+this is historical evidence, not thumbnail coverage for later additions.
 
 ## Automated discovery and merge checks
 
