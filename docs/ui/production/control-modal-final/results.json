@@ -1,0 +1,144 @@
+{
+	"captures": [
+		{
+			"height": 820,
+			"path": "hud-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "menu-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "research-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "town_hall-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "settings-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "details-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "friends-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "unit-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "components-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 720,
+			"path": "hud-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "menu-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "research-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "town_hall-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "settings-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "details-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "friends-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "unit-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "components-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 900,
+			"path": "hud-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "menu-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 1080,
+			"path": "hud-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "menu-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 720,
+			"path": "hud-preparation-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-shortage-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-lost-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-combat-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-foreign-1280x720.png",
+			"width": 1280
+		}
+	],
+	"checks": 264,
+	"failures": [
+		"state separation preparation(1280, 720)"
+	],
+	"scope": "Standalone native controls; no game integration or native GPU claim"
+}

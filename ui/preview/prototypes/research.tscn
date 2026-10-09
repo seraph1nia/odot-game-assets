@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://prototypes/research.gd" id="1"]
+[ext_resource type="Theme" path="res://UI/theme/ledger.tres" id="2"]
+[node name="PersonalResearch" type="VBoxContainer"]
+custom_minimum_size = Vector2(570, 0)
+theme = ExtResource("2")
+script = ExtResource("1")
+theme_override_constants/separation = 8

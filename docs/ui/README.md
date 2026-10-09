@@ -1,60 +1,71 @@
-# The Common Watch UI project
+# The Common Watch UI workspace
 
-**Start here when resuming UI work.** Current deliverable: discovery, two original
-rendered directions, inventory/planning and an **artistic approval checkpoint**.
-Not a finished kit and not migrated. Overall A–G scope continues after approval.
+**Resume here:** M1 Ledger foundation/local modal is checked. E–G component and
+composition acceptance remains in progress. This is not a finished game UI rollout
+and **no game mutation/migration/publication has occurred**.
 
-1. [State/backlog](tasks.json) and [roadmap](roadmap.md): current milestone,
-   dependencies, acceptance and blocked decision.
-2. [Discovery](discovery.md): pinned game evidence, keep/redesign/gap classification
-   and uncertainties. Reuse these findings before investigating again.
-3. [Artistic proposal](art-direction.md): exact owned previews, actual review,
-   bounded revisions and precise approval questions.
-4. [Inventory](inventory.json), [architecture](architecture.md) and
-   [migration map](migration.json): justified assets, minimal separation, future
-   portable namespace and integration risks.
-5. [Validation](validation.md) and [exploration source bindings](exploration-assets.json):
-   what really ran, what failed initially and what remains untested.
+| Need | Read |
+|---|---|
+| Current work / outstanding acceptance | [tasks.json](tasks.json), [production.md](production.md), [roadmap](roadmap.md) |
+| Exact approved direction and scope | [decisions](decisions.md); [M0 artistic evidence](art-direction.md) |
+| Avoid rediscovering game behavior | [discovery](discovery.md), [inventory](inventory.json) |
+| Reuse components / prepare migration | [API](api.md), [architecture](architecture.md), [migration mapping](migration.json), [payload audit](payload.json) |
+| Actual checks / final pictures | [validation](validation.md), [final results](production/m1-tab-scope/results.json), [visual bindings](visual-review.json) |
+| Why modal is not a Window | [causal diagnosis](settings-diagnosis.md), [contrary ownership result](modal-alternatives.md) |
+| Original Blender/PNG provenance | [source bindings](exploration-assets.json) |
 
-## Reproduce these explorations (inside assets only)
+## Reproduce checks in assets only
 
-Requires existing Blender, Godot 4 and Xvfb/xauth/Mesa. Do not install anything,
-connect to shared MCP scenes or run these commands in the game input checkout.
-This project's detected Godot is the .NET build; it needs the existing SDK root
-even though the scenes are GDScript. Set `GODOT` to an installed engine executable
-and `DOTNET_ROOT` to the existing SDK root, then prepend that root to PATH if using
-the .NET engine. These are command environment inputs, not runtime resource paths.
-
-From the asset repository root:
+Use existing Godot/Xvfb/xauth/Mesa; no install/upgrade. Never run these in the game
+checkout or use shared MCP/GUI Blender scenes. Set `GODOT` to the installed engine
+executable and `DOTNET_ROOT` to the existing SDK root when using the .NET engine.
+These command inputs are not runtime resource paths. The drivers own private XDG
+state/displays, Dummy audio and bounded process groups; full logs stay in `.cache/`.
 
 ```sh
-# Overwrites only our two exploration sources/PNGs; preserve manual edits first.
-python -m tools.asset_pack.worker tools/ui/explore_crest.py --label ui-exploration-seals
-# The worker uses the existing Blender resolver and private log path.
-# Refresh hashes in exploration-assets.json intentionally after regeneration.
-
-# Isolate the preview's user-data/config/cache; never touches game preferences.
-mkdir -p .cache/ui-explorations/{data,config,cache}
-export XDG_DATA_HOME="$PWD/.cache/ui-explorations/data"
-export XDG_CONFIG_HOME="$PWD/.cache/ui-explorations/config"
-export XDG_CACHE_HOME="$PWD/.cache/ui-explorations/cache"
-export PATH="$DOTNET_ROOT:$PATH"
-"$GODOT" --headless --path ui/preview --editor --import
-python tools/ui/capture_explorations.py --godot "$GODOT" --dotnet-root "$DOTNET_ROOT"
-"$GODOT" --headless --path ui/preview --script res://explorations/check_images.gd
 python tools/ui/test_plan.py
+# Use a new label so earlier failed logs/pictures remain intact.
+python tools/ui/diagnose_settings.py --godot "$GODOT" --dotnet-root "$DOTNET_ROOT" \
+  --case full --input os --label review-new
+python tools/ui/diagnose_settings.py --godot "$GODOT" --dotnet-root "$DOTNET_ROOT" \
+  --case modal --input os --label review-new
+python tools/ui/validate.py --godot "$GODOT" --dotnet-root "$DOTNET_ROOT" --label review-new
+python tools/ui/audit_payload.py --godot "$GODOT" --dotnet-root "$DOTNET_ROOT" --label review-new
 mise run check
+git diff --check
 ```
 
-Captures require **prior preview import**. They own disposable software X11 displays
-and XDG paths, use Dummy audio, time out at 60s per image and terminate their owned
-process group on failure. Full logs are `.cache/ui-explorations/`; only compact
-renderer/path metadata and original images are tracked. No browser/desktop config
-or network use. GUI review can open `ui/preview/project.godot` independently;
-no game repository is needed. Directions/compositions select via Godot user args
-`--direction=ledger|watch` and `--composition=hud|menu`. Menu/action buttons here
-are render/native-state samples without game actions, not functional prototypes.
+`validate.py` imports fresh, performs actual native events/state/layout assertions,
+binds source hashes, and writes 27 captures/results under `docs/ui/production/<label>/`.
+It rejects source changes during the run. `diagnose_settings.py` uses the same exact
+Settings sequence with synthetic input or owned X11/XTest, plus isolated cases and
+modal lifecycle checks; it does not directly cancel/refocus to make tests pass.
+The historical `--counterfactual=focus` option is old Window diagnosis only, not an
+acceptance route. `audit_payload.py` copies only UI/ into a new private project and
+fails rather than overwriting its run directory. Plan tests certify metadata, not art.
 
-Do not rerender unchanged inputs as an artistic loop. Review actual images, record
-a concrete issue, make at most a bounded targeted revision, capture again and
-update evidence. Deterministic checks verify mechanics; they do not certify beauty.
+Open `ui/preview/project.godot` independently for review. Main scene is
+`prototypes/showcase.tscn`; screen/state selectors use mocks, no services. Final
+reviewed pictures/results are in `production/m1-tab-scope/`; other folders preserve
+failed/intermediate states and must not be labeled accepted. Review actual images,
+record concrete issues and make bounded targeted changes; generated pictures alone
+are not behavior or aesthetic acceptance. See `production.md` for known E/F gaps.
+
+## Authoring versus validation
+
+The approved original seal was moved unchanged to `sources/ui/menu_seal.blend` and
+`ui/preview/UI/art/menu_seal.png`. Its 192px RGBA source is displayed at fixed 48px;
+no slice margins or additional initial Blender art. Do not rebuild merely to validate.
+`tools/ui/explore_crest.py` rebuilds **both** original studies through the existing
+isolated asset worker; preserve manual edits and obtain explicit regeneration scope
+before running it. Saved sources are editable; source/output hashes are recorded.
+
+The native Theme authoring script is `tools/ui/build_theme.gd`; preserve manual
+Theme edits before intentionally regenerating through a private headless engine:
+`"$GODOT" --headless --path ui/preview --script "$PWD/tools/ui/build_theme.gd"` with
+private XDG variables and the existing SDK environment. This writes the Theme, not
+new artwork. Authoring tools/Blender are never runtime payload dependencies.
+
+Coordinate a checked milestone handoff with MAIN. Configured no-mistakes owns the
+later delivery review/fixes/tests/docs/lint/push/PR/CI; do not launch an independent
+pipeline/push or confuse this standalone check with game integration acceptance.
