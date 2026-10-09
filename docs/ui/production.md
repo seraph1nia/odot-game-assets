@@ -1,6 +1,126 @@
-# Ledger production — checked M1 foundation, broader acceptance continues
+# Ledger production — checked standalone component/composition package
 
-## Current checked milestone
+## Current package (inbox 006)
+
+Accepted M0/M1 commits and their exact evidence are preserved. M1 at
+`eb8ec20ca33ecc94ebcfd9ccb4ccf218562103cc` remains FOUNDATION/modal only.
+This next package checks representative standalone E–G interaction contracts;
+**it is not full production completion, game integration or publication**.
+
+Final unchanged-source acceptance: **438 checks, zero failures, 35 captures**,
+`.cache/ui/production-package-reviewed/tests.log`; hashes and results in
+`production/production-package-reviewed/results.json`. Same Godot 4.7.2 .NET,
+owned Xvfb, Compatibility/Mesa llvmpipe, Dummy audio. No installation or new art.
+
+### Implemented and exercised
+
+- One vertical body-scroll owner for research, Town hall, Details and friends.
+  `WatchUI.scroll()` disables embedded list scrolling when an ancestor owns it;
+  standalone lists retain their own scroll. Modal body follows native focus.
+  Actual wheel/reverse-wheel events move each body; long Tab traversal reveals
+  whole far-row buttons and Enter activates the correct opaque id. Child native
+  dropdowns in separate viewports retain independent popup scrolling.
+- Research native class and access selectors cover all three five-node paths,
+  owned foundation, available specialization, insufficient points, permanent
+  sibling locks, funded mastery, foreign/paused purchase suppression. Points,
+  progress and tower-rate text stay separate; mastery explicitly replaces effect.
+- Exclusive native roster selection, independent healing quote, reserve transfer
+  and permanent retirement intents include selected unit/destination identifiers.
+  Selection preserves read-only gates. Field-to-storage destination availability,
+  no destination, exact low-health projection and adapter-owned native preview
+  slot are exercised; no model loader or gameplay added.
+- Friends populated/offline/empty/busy/refresh-failure/invite-failure/long duplicate
+  name projections: native Refresh, far-row invitation, immediate busy disabling,
+  one intent, deferred mock result/retry feedback, ellipsis and full-name tooltip.
+  No Steam query/send. Mock completion is not an asynchronous service simulation.
+- Graphics/Audio/About: retained original Settings sequence, native zero-volume,
+  six update/save feedback projections, native mock check button. Return-to-menu
+  confirmation cancellation/focus return and confirmation navigation. No HTTP,
+  download, real display/audio changes or preference write.
+- Menu Tab/Enter multiplayer/host, native Back, Settings focus return, exit
+  cancellation/confirmation and solo navigation. HUD selected-context quotes,
+  insufficient trade rejection, unchanged resource stock, ready/unready,
+  preparation, shared pause/resume, reconnect and distinct fresh-session intents.
+  Existing phase/read-only/outcome/quote/layout assertions remain intact.
+- All new interactions leave the underlying mock world-click count unchanged.
+  This does not replace the game's explicit world-input ownership guards.
+
+Final OS checks: **11 original Settings-sequence checks** at
+`.cache/ui-diagnosis/full-os-none-production-package-serial/probe.log` and **64
+modal-scope checks** at `.cache/ui-diagnosis/modal-os-none-production-package-reviewed/probe.log`.
+Zero world leaks; original event order/assertions unchanged. These OS checks cover
+Settings/modal lifecycle, not the whole new production fixture. Other interaction
+checks use Godot native Controls with injected events, not physical input claims.
+
+Fresh independent UI-only payload: **nine scenes, Theme/seal, 32 files**,
+`.cache/ui-payload/production-package-reviewed/load.log`, hashes in `payload.json`.
+No prototypes, tests, tools or game copied. `api.md`/`migration.json` document the
+portable component boundary and future adapter/scale/lifetime risks.
+
+### Actual visual judgment
+
+All **35 final image bytes** reviewed at native dimensions: 27 base frames from
+`production-package/` are byte-identical to final frames; multiplayer, About-error,
+long friends and scrolled locked research at both 1100×820 and 1280×720 were opened
+separately (the final corrected About/friends images also opened). Bindings in
+`visual-review.json`; accepted M1 bindings preserved in `visual-review-m1.json`.
+HUD/menu have four-size pictures; dialogs have two-size pictures, not four-size
+visual acceptance. State HUD frames at 1280×720 remain preparation/shortage/lost/
+combat/foreign. See `coverage.md` for the exact boundary and outstanding acceptance.
+
+Cream/dark-ink planes, amber primaries, muted rose permanent actions and teal native
+focus remain cohesive Ledger. The unchanged 48px seal stays subordinate. Research
+reasons and replacement effects wrap clearly; the scrolled lock view keeps Close
+outside the fold. Dense roster/friends bodies now have one visible scrollbar,
+not competing nested tracks. Far rows remain below the fold by design and behavior
+checks prove reachability. Long friends ellipsize before the Invite button and
+retain full tooltip identity; the identity suffix is not always visible inline.
+About feedback fits within its tab pane. Multiplayer title/action/Back hierarchy
+is consistent with the start menu. No non-scroll collisions or missing glyphs seen.
+Read-only HUD quote bodies at 720px still scroll; that is deliberate, not evidence
+that all content is simultaneously visible. Abstract hex context is not game art.
+
+### Focused failures and bounded corrections retained
+
+`eg-focused-1`: 111 checks / 20 failures. The native selector test used KEY_HOME
+inside PopupMenu as an assumed first-item shortcut. Changed only the test driver to
+navigate from `get_focused_item()` using arrows; no state gate weakened.
+`eg-focused-2`: 138 / 3 failures. The single-body-owner assertion incorrectly included
+native popup lists in separate viewports. Narrowed that assertion to the body's
+viewport; real wheel, long traversal and activation assertions retained.
+`eg-focused-3`: 135/0; `eg-focused-4`: 148/0; `eg-focused-5`: 159/0 after native Refresh,
+Return confirmation and external preview-slot coverage. All earlier result files
+and full logs remain as produced. No runtime assertion failure was hidden.
+
+`production-package`: 419/0/27. Added eight warranted state captures and the final
+interaction checks; `production-package-final`: 438/0/35. Image review found mock
+selector captions inconsistent with capture-only state assignment in About/friends;
+aligned selectors in capture setup, without changing runtime or input assertions.
+Final fresh `production-package-reviewed`: 438/0/35. This is the current source-bound
+acceptance, not reused M1 proof.
+
+Parallel owned Xvfb starts caused a wrapper failure for the reviewed-label OS full
+probe: its 11 UI checks passed, but xvfb-run exited 1 (`Server is already active
+for display 100`, cleanup `kill: No such process`). Kept the failed command/log,
+no UI fix or weakening; one isolated serial rerun passed with exit 0. Run graphical
+drivers serially. No speculative engine/Window regression claim.
+
+Metadata/history/source/image contracts **8 passed**; existing offline fast route
+**57 tests and two inline JavaScript programs passed**, lint/syntax/guardrails;
+logs `.cache/ui/production-package-reviewed/{plan,repo-check}.log`. Whitespace passed.
+Read-only game Git observation now reports clean HEAD `606b102f790f8dec0551f262b418d7b7f3f54cbc`;
+the independent integration work moved it since M0's pin. No files/refs changed here,
+no moving branch copied, and discovery stays bound to its historical revision.
+
+Remaining breadth and integration limits are explicit in `coverage.md`, tasks and
+roadmap; E–G remain in progress beyond this representative package. No pipeline,
+push, merge, release, extra Blender work or game migration was performed.
+
+---
+
+## Historical accepted M1 record (foundation only)
+
+### Checked milestone at M1
 
 Ledger/only original small menu seal approved in `decisions.md`. M1 D foundation
 is checked: reusable Theme, resource/upkeep scenes, retained editable source/PNG

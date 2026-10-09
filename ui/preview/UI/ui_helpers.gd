@@ -20,6 +20,24 @@ static func button(parent: Node, title: String, variant: String = "") -> Button:
 	parent.add_child(b)
 	return b
 
+# A modal/parent scroll owns the whole body; standalone lists keep their own scroll.
+static func scroll(parent: Node, name: String, minimum_height: int) -> ScrollContainer:
+	var s = ScrollContainer.new()
+	s.name = name
+	s.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	s.follow_focus = true
+	var ancestor = parent
+	var inherited = false
+	while ancestor != null:
+		if ancestor is ScrollContainer and ancestor.vertical_scroll_mode != ScrollContainer.SCROLL_MODE_DISABLED:
+			inherited = true
+			break
+		ancestor = ancestor.get_parent()
+	s.vertical_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED if inherited else ScrollContainer.SCROLL_MODE_AUTO
+	s.custom_minimum_size.y = 0 if inherited else minimum_height
+	parent.add_child(s)
+	return s
+
 static func stack(parent: Node, spacing: int = 8) -> VBoxContainer:
 	var v = VBoxContainer.new()
 	v.add_theme_constant_override("separation", spacing)

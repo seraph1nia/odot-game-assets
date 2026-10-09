@@ -1,7 +1,8 @@
 # Portable UI boundary and migration preparation
 
-Scope: checked M1 foundation/local modal plus implemented, partially accepted
-components. **Do not migrate now.** See `tasks.json` and `production.md` for coverage.
+Scope: accepted M1 foundation plus the checked representative standalone
+component/composition package. **Do not migrate now.** See `coverage.md`, `tasks.json`
+and `production.md` for exact checked/remaining criteria (not exhaustive acceptance).
 
 ## Payload
 
@@ -38,9 +39,13 @@ shape. `prototypes/fixtures.gd` is illustrative data only, never a runtime depen
 | `army_roster.tscn` | `set_data(Dictionary)` | `unit_selected(unit_id:int)` | title,context,tiles,units,selected_id; display separate tile budgets, not pooling/transfer logic |
 | `modal.tscn` | local lifecycle below | `canceled`, `confirmed`, `closed` | native Control composition, not a Window or session owner |
 
-Core quote/city/match/feedback and inspection/roster scenes are implemented and
-loadable, but their complete state/input acceptance is still M2/M3 work. Projected
-world health bars are NOT added; only inspector style samples currently exist.
+Core quote/city/match/feedback and inspection/roster scenes have representative
+native input/state acceptance. Complete inventory-state breadth still needs fixture
+acceptance; `coverage.md` enumerates it. Projected world health bars are NOT added.
+The inspector `Body/PreviewSlot` is an adapter-owned Control (mouse-filter Ignore);
+attach native preview content there and project `show_preview=true`. No model loader
+or service is supplied. `army_roster` uses a native exclusive ButtonGroup; the
+adapter still owns selected identity/lifetime, not row indices.
 
 ## Local modal lifecycle
 
@@ -58,7 +63,8 @@ modal.get_content().add_child(settings_content) # Native controls, not services.
 modal.popup_centered_clamped(Vector2i(560, 540))
 ```
 
-`get_content()` returns the VBox in the native ScrollContainer. `get_panel()`
+`get_content()` returns the VBox in the native ScrollContainer. `get_scroll()`
+returns that body owner for composition/accessibility/validation. `get_panel()`
 returns the actual centered panel (use this for bounds, not full-rect scrim).
 `get_ok_button()` is the native Close/primary button. `cancel()` emits cancellation
 then closes; `close()` hides/disables its input scope, restores a still-valid visible
@@ -78,8 +84,13 @@ and `modal-alternatives.md`; the full original event sequence stays tested.
 The game still needs its own explicit local world-input owner guard while modal UI
 is visible (picking/drag/keyboard commands may bypass GUI). Do not substitute a
 viewport scrim for that service boundary or assume this preview covers game input.
-Current shell plus nested list scrolls is a known composition issue: simplify nested
-ownership and test real wheel/long-focus traversal before broader scene acceptance.
+`WatchUI.scroll(parent, name, minimum_height)` uses one ancestor vertical-scroll
+owner when present; otherwise the list scrolls independently. The modal follows
+focus. Add the component under its final scroll owner before `_ready()` constructs
+its body; this ownership decision is not automatically recomputed on reparenting.
+Actual wheel/reverse-wheel and long Tab/Enter reachability pass for research/hall/
+Details/friends. Native child dropdowns are separate viewport scopes, not disabled
+body scrollbars.
 
 ## Migration order and authority (later authorization only)
 
@@ -91,11 +102,12 @@ ownership and test real wheel/long-focus traversal before broader scene acceptan
    adapters. Authority validates costs, eligibility and stale selection again.
 5. Adapt modal/inspection/roster/research presentation and actual world-input guards.
    Do not retain faulty Window-focus assumptions merely for API similarity.
-6. Compose full HUD/menu/settings only after outstanding M2–M4 acceptance. Keep
+6. Compose full HUD/menu/settings only after the remaining acceptance in
+   `coverage.md` and a fresh current-game baseline. Keep
    networking/Steam/friends/persistence/audio/update/model-loader services in game.
 7. Run authorized game slice tests then required full delivery gates; re-review
    current game renders. No game operation in this asset milestone did any of this.
 
 `migration.json` binds these responsibilities to inspected game files. Unsupported
-small windows/localization/RTL, complete async/error states and actual game input
+small windows/localization/RTL, exhaustive projection/async states and actual game input
 remain explicit later gates, not presumed passes from screenshot generation.

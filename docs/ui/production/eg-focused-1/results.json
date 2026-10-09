@@ -1,0 +1,28 @@
+{
+	"captures": [],
+	"checks": 111,
+	"failures": [
+		"single vertical scroll owner research",
+		"single vertical scroll owner town_hall",
+		"single vertical scroll owner friends",
+		"funded mastery intent 0",
+		"class specialization intent 1",
+		"insufficient and permanent lock 1",
+		"funded mastery intent 1",
+		"foreign research gate",
+		"foreign research gate",
+		"funded mastery intent 2",
+		"field-to-storage opaque generation selector",
+		"mock About feedback 2",
+		"mock About feedback 3",
+		"mock About feedback 5",
+		"empty friends",
+		"busy invite suppression",
+		"refresh error feedback",
+		"one invite intent with immediate busy projection",
+		"recoverable send result",
+		"long duplicate names retain tooltip identity"
+	],
+	"scope": "Standalone native controls; no game integration or native GPU claim",
+	"selection": "production"
+}

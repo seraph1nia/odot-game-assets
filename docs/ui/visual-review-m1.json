@@ -1,0 +1,197 @@
+{
+  "milestone": "M1 foundation; not all composition acceptance",
+  "final_directory": "docs/ui/production/m1-tab-scope",
+  "final_frame_binding": "All 27 final-directory frames have the same SHA-256 as the inspected frames below; checked by test_plan.py",
+  "captures": [
+    {
+      "height": 820,
+      "path": "docs/ui/production/m1-final/hud-1100x820.png",
+      "width": 1100,
+      "sha256": "76b120b05b00ecf460301f1e428d2cae6be558677c998ebb5b98b3e1fd3d4fa8",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 820,
+      "path": "docs/ui/production/m1-final/menu-1100x820.png",
+      "width": 1100,
+      "sha256": "926553bb4138e6cbc97cc38850a1d88deeeca1253f4f602c86cd81e00492ee20",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 820,
+      "path": "docs/ui/production/m1-final/research-1100x820.png",
+      "width": 1100,
+      "sha256": "bfe80f5fa62b5c9ba4f01b965747cadbb881cae4f5bbba38bb80b434f90e90e9",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 820,
+      "path": "docs/ui/production/m1-final/town_hall-1100x820.png",
+      "width": 1100,
+      "sha256": "df7df8e65586fce42a07a5a9c5028d50fac7aaae6021944cf649435f454ecd44",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 820,
+      "path": "docs/ui/production/m1-final/settings-1100x820.png",
+      "width": 1100,
+      "sha256": "2ebd2bed7b9c1abbec5114858576cc98fb27f6e33d7c187747f56dfafbad7146",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 820,
+      "path": "docs/ui/production/m1-final/details-1100x820.png",
+      "width": 1100,
+      "sha256": "b6d8089b60e2a9c208519613447c5f9fd27e4e624b562df596b63133b0694e60",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 820,
+      "path": "docs/ui/production/m1-final/friends-1100x820.png",
+      "width": 1100,
+      "sha256": "5c3812a63345b3bd8b9c9f3d95bd70848fc4b21fa6e8ff8aca8e55b6240bd784",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 820,
+      "path": "docs/ui/production/m1-final/unit-1100x820.png",
+      "width": 1100,
+      "sha256": "6f1a16265f4b61a39b6c89ae1021103136d3f315fdf0982f7bd4cbe6bacb5ef9",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 820,
+      "path": "docs/ui/production/m1-final/components-1100x820.png",
+      "width": 1100,
+      "sha256": "080a1d344ec5780d940587a71351289e3976af07dfc3e56b970be618e14e78d5",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 720,
+      "path": "docs/ui/production/m1-final/hud-1280x720.png",
+      "width": 1280,
+      "sha256": "43077b45a2970424a823fdec74793a8c6a00f7300c7105b2534a72161945ad99",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 720,
+      "path": "docs/ui/production/m1-final/menu-1280x720.png",
+      "width": 1280,
+      "sha256": "52fecd7cfd109646cc76b5dbef80c68bec23dacee2381f97e1614ac455afee32",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 720,
+      "path": "docs/ui/production/m1-final/research-1280x720.png",
+      "width": 1280,
+      "sha256": "03dbfee2d2f42c0aeb5dd9eb4cbca7655fe2d8b91758e3a1ad076195e2167f20",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 720,
+      "path": "docs/ui/production/m1-final/town_hall-1280x720.png",
+      "width": 1280,
+      "sha256": "40687123c81ea72f415cc6d82b9c5db1bf313b8437974741ed41f5b59bfe65a2",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 720,
+      "path": "docs/ui/production/m1-final/settings-1280x720.png",
+      "width": 1280,
+      "sha256": "5f93a7774ff3ce673602955b88ed6f9e6b747a49bbb6b0c14e81960d9c962230",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 720,
+      "path": "docs/ui/production/m1-final/details-1280x720.png",
+      "width": 1280,
+      "sha256": "7ff0ecf2df0abb7efe8a2ff6a22e41265eeb4cee901f9e8322b3247ee6c1891e",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 720,
+      "path": "docs/ui/production/m1-final/friends-1280x720.png",
+      "width": 1280,
+      "sha256": "478a3538c8fe68020caab36c479bef013af2371824c1be70c27420f53808b7d9",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 720,
+      "path": "docs/ui/production/m1-final/unit-1280x720.png",
+      "width": 1280,
+      "sha256": "0523aee5e3f9d8121910f284baa380533aeed0cd3831e9585c7425b0ca9e3a34",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 720,
+      "path": "docs/ui/production/m1-final/components-1280x720.png",
+      "width": 1280,
+      "sha256": "4deb5c176a36bddc32eab0a86a9e6a562349af8fd778e25decf0b62bde5da9a2",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 900,
+      "path": "docs/ui/production/m1-final/hud-1600x900.png",
+      "width": 1600,
+      "sha256": "925c5486dd6eefb20482a188f3b68bfd0a8a092d388929e0b2b36c850f0d78bd",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 900,
+      "path": "docs/ui/production/m1-final/menu-1600x900.png",
+      "width": 1600,
+      "sha256": "318e2f860c4064fc68755f9e9beca6726eabf31cc0c5e50766576004d4e7ad70",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 1080,
+      "path": "docs/ui/production/m1-final/hud-1920x1080.png",
+      "width": 1920,
+      "sha256": "0d8d6cd6dc32abe86c1caa90a89d8349ce17d54633bd16cb9d2480d1ff3eee2c",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 1080,
+      "path": "docs/ui/production/m1-final/menu-1920x1080.png",
+      "width": 1920,
+      "sha256": "1284c275ad403505c9b635e2c0c8f4b6ffcd8f184fd6672b334389613b6ccc7b",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 720,
+      "path": "docs/ui/production/m1-final/hud-preparation-1280x720.png",
+      "width": 1280,
+      "sha256": "db32a535b460493a411ed3b8b0bfc8fd5ff70dd5c88743d042d0374705dcdf44",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 720,
+      "path": "docs/ui/production/m1-final/hud-shortage-1280x720.png",
+      "width": 1280,
+      "sha256": "95b589efbb339520901eb863cf287965c89226fb81f4164b250220a9e4411562",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 720,
+      "path": "docs/ui/production/m1-final/hud-lost-1280x720.png",
+      "width": 1280,
+      "sha256": "f369561f9416e24de71a2383c01fd81d82ec59b1ea49f668655a28a0c2d72cb0",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 720,
+      "path": "docs/ui/production/m1-final/hud-combat-1280x720.png",
+      "width": 1280,
+      "sha256": "febd4b17ba0ac1129fa336a7a42d944e0bd02b8a07d530ce00e67e9abb032388",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    },
+    {
+      "height": 720,
+      "path": "docs/ui/production/m1-final/hud-foreign-1280x720.png",
+      "width": 1280,
+      "sha256": "cdbc8764c80dcfa260d74f83a875c2517aeda14aa6f4264c2929d2708a1b5f3f",
+      "review": "Actual image inspection at native dimensions; byte-identical to inspected control-modal-r1 frame"
+    }
+  ],
+  "record": "production.md"
+}

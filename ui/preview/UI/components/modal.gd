@@ -20,6 +20,8 @@ func _ready() -> void:
 
 func get_content() -> VBoxContainer:
 	return $Center/Panel/Body/Scroll/Content
+func get_scroll() -> ScrollContainer:
+	return $Center/Panel/Body/Scroll
 func get_ok_button() -> Button:
 	return $Center/Panel/Body/Footer/Close
 func get_panel() -> PanelContainer:

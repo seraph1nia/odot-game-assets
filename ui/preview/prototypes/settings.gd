@@ -5,6 +5,7 @@ var volume: HSlider
 var display_mode: OptionButton
 var resolution: OptionButton
 var update_status: Label
+var update_sample = 0
 func _ready() -> void:
 	var tabs = TabContainer.new()
 	tabs.name = "Categories"
@@ -38,10 +39,22 @@ func _ready() -> void:
 	WatchUI.label(audio, "0 mutes all audio. Music keeps playing while muted.", "ContextLabel")
 	var about = page(tabs, "About")
 	WatchUI.label(about, "Version: development preview")
-	update_status = WatchUI.label(about, "Development builds do not compare against published releases.", "ContextLabel")
-	WatchUI.button(about, "Check for updates (mock)").pressed.connect(func(): update_status.text = "Mock result: updates unavailable offline. No HTTP request made.")
+	var feedback = OptionButton.new()
+	feedback.name = "UpdateSample"
+	for text in ["Development", "Checking", "Up to date", "Update available", "Check failed", "Save failed"]: feedback.add_item(text)
+	about.add_child(feedback)
+	feedback.item_selected.connect(func(index): update_sample = index; show_update())
+	update_status = WatchUI.label(about, "", "ContextLabel")
+	update_status.name = "UpdateFeedback"
+	var check = WatchUI.button(about, "Check for updates (mock)")
+	check.name = "CheckUpdates"
+	check.pressed.connect(show_update)
+	show_update()
 	WatchUI.button(self, "Return to menu").pressed.connect(func(): return_requested.emit())
 	WatchUI.label(self, "Settings blocks local world input, not the shared match.\nMock values only; no display, audio or preference changes.", "ContextLabel")
+func show_update() -> void:
+	update_status.text = ["Development builds do not compare against published releases.", "Mock checking… no HTTP request made.", "Mock result: up to date.", "Mock update available. Installation remains game-owned; nothing downloaded.", "Mock check failed. Retry is available; no HTTP request made.", "Mock settings save failed. No real preferences were written."][update_sample]
+
 func page(tabs: TabContainer, title: String) -> VBoxContainer:
 	var margin = MarginContainer.new()
 	margin.name = title

@@ -1,8 +1,10 @@
 # The Common Watch UI workspace
 
-**Resume here:** M1 Ledger foundation/local modal is checked. E–G component and
-composition acceptance remains in progress. This is not a finished game UI rollout
-and **no game mutation/migration/publication has occurred**.
+**Resume here:** accepted M1 foundation is preserved. The next representative
+Ledger E–G component/composition package is checked: **438/0, 35 reviewed frames**,
+OS Settings/modal and independent payload audit. Broader acceptance remains in
+progress; [coverage.md](coverage.md) states exact checked/remaining criteria.
+**No full production-completion claim, game mutation, migration or publication.**
 
 | Need | Read |
 |---|---|
@@ -10,7 +12,7 @@ and **no game mutation/migration/publication has occurred**.
 | Exact approved direction and scope | [decisions](decisions.md); [M0 artistic evidence](art-direction.md) |
 | Avoid rediscovering game behavior | [discovery](discovery.md), [inventory](inventory.json) |
 | Reuse components / prepare migration | [API](api.md), [architecture](architecture.md), [migration mapping](migration.json), [payload audit](payload.json) |
-| Actual checks / final pictures | [validation](validation.md), [final results](production/m1-tab-scope/results.json), [visual bindings](visual-review.json) |
+| Actual checks / final pictures | [validation](validation.md), [current results](production/production-package-reviewed/results.json), [visual bindings](visual-review.json) |
 | Why modal is not a Window | [causal diagnosis](settings-diagnosis.md), [contrary ownership result](modal-alternatives.md) |
 | Original Blender/PNG provenance | [source bindings](exploration-assets.json) |
 
@@ -35,8 +37,12 @@ mise run check
 git diff --check
 ```
 
+Run graphical drivers **serially**: concurrent xvfb-run auto-number startup raced
+in retained evidence. `validate.py --only production` is the bounded new-input route
+(no captures); omit `--only` for full regression/capture acceptance.
+
 `validate.py` imports fresh, performs actual native events/state/layout assertions,
-binds source hashes, and writes 27 captures/results under `docs/ui/production/<label>/`.
+binds source hashes, and writes 35 captures/results under `docs/ui/production/<label>/`.
 It rejects source changes during the run. `diagnose_settings.py` uses the same exact
 Settings sequence with synthetic input or owned X11/XTest, plus isolated cases and
 modal lifecycle checks; it does not directly cancel/refocus to make tests pass.
@@ -46,10 +52,12 @@ fails rather than overwriting its run directory. Plan tests certify metadata, no
 
 Open `ui/preview/project.godot` independently for review. Main scene is
 `prototypes/showcase.tscn`; screen/state selectors use mocks, no services. Final
-reviewed pictures/results are in `production/m1-tab-scope/`; other folders preserve
-failed/intermediate states and must not be labeled accepted. Review actual images,
+reviewed pictures/results are in `production/production-package-reviewed/`;
+`production/m1-tab-scope/` is preserved accepted FOUNDATION evidence, not proof of
+changed views. Other folders preserve failed/intermediate states. Review actual images,
 record concrete issues and make bounded targeted changes; generated pictures alone
-are not behavior or aesthetic acceptance. See `production.md` for known E/F gaps.
+are not behavior or aesthetic acceptance. See `production.md` and `coverage.md`
+for new checks, visual judgment and remaining E–G projection/integration gaps.
 
 ## Authoring versus validation
 

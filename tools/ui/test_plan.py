@@ -3,6 +3,7 @@ import hashlib
 import json
 import re
 import struct
+import subprocess
 import unittest
 from pathlib import Path
 
@@ -55,22 +56,43 @@ class IntakeContracts(unittest.TestCase):
         self.assertIsNone(load('tasks.json')['current_blocker'])
 
     def test_final_evidence_and_source_binding(self):
-        result = load('production/m1-tab-scope/results.json')
+        result = load(load('tasks.json')['package_results'])
         self.assertEqual(result['failures'], [])
-        self.assertGreaterEqual(result['checks'], 271)
-        self.assertEqual(len(result['captures']), 27)
+        self.assertEqual(result['checks'], 438)
+        self.assertEqual(len(result['captures']), 35)
         self.assertIn('llvmpipe', result['renderer'])
         for name, digest in result['source_sha256'].items():
             self.assertEqual(hashlib.sha256((PROJECT / name).read_bytes()).hexdigest(), digest, name)
         binding = load('visual-review.json')
         review = binding['captures']
-        self.assertEqual(len(review), 27)
+        self.assertEqual(len(review), 35)
+        self.assertEqual({item['path'] for item in review}, {item['path'] for item in result['captures']})
+        self.assertEqual(len({item['path'] for item in review}), len(review))
         for item in review:
+            path = ROOT / binding['final_directory'] / item['path']
+            self.assertEqual(png_header(path)[:2], (item['width'], item['height']))
+            self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), item['sha256'])
+
+    def test_historical_m1_is_preserved_not_rebound_to_changed_source(self):
+        commit = load('tasks.json')['foundation_commit']
+        self.assertEqual(commit, 'eb8ec20ca33ecc94ebcfd9ccb4ccf218562103cc')
+        def original(path):
+            return subprocess.check_output(['git', 'show', f'{commit}:{path}'], cwd=ROOT)
+        name = 'docs/ui/production/m1-tab-scope/results.json'
+        self.assertEqual((ROOT / name).read_bytes(), original(name))
+        result = load('production/m1-tab-scope/results.json')
+        self.assertEqual((result['checks'], result['failures']), (271, []))
+        for path, digest in result['source_sha256'].items():
+            self.assertEqual(hashlib.sha256(original('ui/preview/' + path)).hexdigest(), digest, path)
+        binding = load('visual-review-m1.json')
+        self.assertEqual((DOCS / 'visual-review-m1.json').read_bytes(), original('docs/ui/visual-review.json'))
+        self.assertEqual(len(binding['captures']), 27)
+        for item in binding['captures']:
             path = ROOT / item['path']
             self.assertEqual(png_header(path)[:2], (item['width'], item['height']))
             self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), item['sha256'])
-            final_path = ROOT / binding['final_directory'] / path.name
-            self.assertEqual(hashlib.sha256(final_path.read_bytes()).hexdigest(), item['sha256'])
+            final = ROOT / binding['final_directory'] / path.name
+            self.assertEqual(hashlib.sha256(final.read_bytes()).hexdigest(), item['sha256'])
 
     def test_runtime_payload_and_inventory_binding(self):
         manifest = load('payload.json')

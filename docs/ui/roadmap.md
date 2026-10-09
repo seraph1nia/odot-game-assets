@@ -7,10 +7,11 @@ A–C is the first delivery, not completion of the overall UI system.
 
 ## Resume state
 
-Current phase: E–G acceptance continues. Checked milestone: M1 foundation/local modal.
-M0 discovery is committed; Ledger and the original small menu seal were approved.
-Implemented prototype breadth is ahead of full acceptance. See `production.md` for
-271 fresh assertions/27 reviewed frames, OS evidence and remaining scroll/state gaps.
+Current phase: E–G broader acceptance continues. Accepted M1 foundation/modal is
+preserved; the next representative standalone component/composition package is
+checked. See `production.md` for fresh **438/0, 35 reviewed image bytes**, OS 11+64,
+independent UI-only audit and retained focused failures. `coverage.md` distinguishes
+this boundary from exhaustive projection breadth and later game integration.
 Machine authority for status/dependencies/acceptance: [tasks.json](tasks.json).
 Inventory: [inventory.json](inventory.json). Exact approval: [decisions.md](decisions.md).
 Read [discovery.md](discovery.md) before investigating again; source is pinned.
@@ -82,7 +83,12 @@ No confirmed missing RPG gameplay panels; generic assets explicitly rejected.
   read-only evidence before migration. Older docs screenshots are not current.
 
 Approval records must name decision, date/authority, exact direction/revision and
-scope. Technical decisions within approved style remain autonomous. M1 is checked;
-M2–M5 acceptance remains in progress. Native modal scope and UI-only dependency audit
-are ahead of that sequence; they do not certify every composition. A generated file
-never constitutes tested acceptance. No configured delivery pipeline started.
+scope. Technical decisions within approved style remain autonomous. M1 is accepted;
+the representative E–G package has genuine new interaction, scrolling, visual and
+payload acceptance. M2–M5 broader criteria remain in progress per `coverage.md`:
+exhaustive HUD/city/session edges, expanded Details receipts, empty/stale hall and
+recovery fixtures, larger dialog visual coverage, future target/service integration.
+Do not revive already resolved nested-scroll or multiplayer/About/friends checks as
+untouched gaps, and do not relabel this package as full production completion.
+A generated file never constitutes tested acceptance. No configured delivery
+pipeline started; report the checked commit/coverage to MAIN for coordinated review.

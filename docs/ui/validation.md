@@ -1,6 +1,50 @@
 # UI validation and limitations
 
-## Current M1 foundation/local modal — 2026-10-09
+## Current representative standalone package — inbox 006
+
+- Fresh unchanged-source Godot acceptance **438 checks / 0 failures / 35 captures**:
+  `.cache/ui/production-package-reviewed/tests.log`, results/source SHA-256 bindings
+  `production/production-package-reviewed/results.json`.
+- New production input fixture **159/0** focused checks. Real native event injection
+  exercises wheel/reverse wheel, long focus/Enter, research, inspection/transfer,
+  friends Refresh/busy/results, menu/multiplayer, About and confirmation/HUD intents.
+  Full acceptance also retains all earlier semantic/layout/original modal assertions.
+- OS XTest Settings full **11/0** at `full-os-none-production-package-serial/`, modal
+  **64/0** at `modal-os-none-production-package-reviewed/`, under `.cache/ui-diagnosis/`.
+  Zero world leakage. Production fixture breadth is injected native input, not OS or
+  physical input coverage. One reviewed-label full OS **wrapper command failed** after
+  its UI assertions passed because simultaneous Xvfb auto-number startup raced;
+  fatal display-100/cleanup log retained, one serial unchanged-source rerun passed.
+- Fresh UI-only independent copy **9 scenes / Theme / seal / 32 files**:
+  `.cache/ui-payload/production-package-reviewed/load.log`, `payload.json`.
+- All 35 final image bytes actually inspected. 27 new base frames match their opened
+  `production-package/` bytes; eight additional state views reviewed, final corrected
+  About/friends images reopened. `visual-review.json` binds hashes/dimensions;
+  `production.md` records judgments. No M1 screenshots used to certify changed views.
+- Focused failed runs **111/20** and **138/3** remain failed. Test selector navigation
+  corrected to actual popup focused index; body ownership assertion excludes native
+  popup viewports, not body content. Later focused checks **135/0, 148/0, 159/0**.
+- Intermediate **419/0/27** and **438/0/35** preserved; capture-only selector captions
+  corrected after actual review. Final result above binds the resulting source.
+- Metadata/source/image/payload/history contracts: **8 passed**,
+  `.cache/ui/production-package-reviewed/plan.log`. Existing offline fast route:
+  **57 tests and two inline JavaScript programs passed**, lint/syntax/guardrails,
+  `.cache/ui/production-package-reviewed/repo-check.log`. `git diff --check` passed.
+  Historical M1 hashes validate against its accepted Git commit, not changed live
+  source; the old visual binding is copied byte-for-byte to `visual-review-m1.json`.
+  This authoring check needs Git history (not a runtime UI dependency).
+
+Godot 4.7.2 .NET / owned Xvfb / Compatibility-Mesa llvmpipe / Dummy audio. No GPU
+performance or native-desktop/physical-input claim. Current [coverage](coverage.md)
+defines representative scope, unaccepted projection breadth and integration risks.
+E–G broader criteria remain in progress; no full production completion, delivery
+pipeline/publication or migration. Only read-only Git observation of the game:
+its current HEAD is `606b102f790f8dec0551f262b418d7b7f3f54cbc`, status clean. The
+external integration work moved it from M0's pinned `d7e6977…`; this worker did not
+modify refs/files, copy that moving branch or reinterpret pinned discovery as live
+evidence. No game import/build/launch. Run graphical drivers serially.
+
+## Historical accepted M1 foundation/local modal — 2026-10-09
 
 - Fresh final-source Godot 4.7.2 .NET import and owned software acceptance:
   **271 checks, zero failures, 27 actual captures**, `.cache/ui/m1-tab-scope/tests.log`.
@@ -17,7 +61,7 @@
 - All 27 final captures actually inspected at native dimensions; SHA-256 proves
   equality with reviewed frames. One targeted 12px spacing correction preserved
   text/coverage. Visual judgment and remaining dense-scroll issues: `production.md`;
-  frame bindings: `visual-review.json`. No machine aesthetic certification.
+  frame bindings: `visual-review-m1.json`. No machine aesthetic certification.
 - UI-only private independent project loaded **nine scenes, Theme and seal** with
   no prototypes/game/tooling copied. Relative dependencies/hash and texture budgets:
   `payload.json`; full log `.cache/ui-payload/m1-tab-scope/load.log`.
