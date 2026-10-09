@@ -1,6 +1,43 @@
-# M0 validation and limitations
+# UI validation and limitations
+
+## Current M1 foundation/local modal — 2026-10-09
+
+- Fresh final-source Godot 4.7.2 .NET import and owned software acceptance:
+  **271 checks, zero failures, 27 actual captures**, `.cache/ui/m1-tab-scope/tests.log`.
+  Source hashes/results: `production/m1-tab-scope/results.json`.
+- OS XTest: **11 unchanged full Settings-sequence checks**, **64 modal-scope checks**,
+  zero leaked world actions. Active dropdown/modal Esc does not reach an underlying
+  unhandled-input spy; hidden-modal Esc does. Application focus loss/return, native
+  pointer/Enter/Tab/Shift-Tab, slider, focus return, hide/reopen and confirmations
+  exercised on a private display, including Tab reachability of native internal
+  category TabBar and keyboard Right/Left navigation. Logs `*-os-none-m1-tab-scope/` in `.cache/ui-diagnosis/`.
+- Isolated baseline/dropdown/Fullscreen/slider-focus/slider/outside cases passed on
+  both synthetic and OS routes. Window candidates and original failed gates remain
+  failed; `production.md`/diagnosis records preserve the contrasts.
+- All 27 final captures actually inspected at native dimensions; SHA-256 proves
+  equality with reviewed frames. One targeted 12px spacing correction preserved
+  text/coverage. Visual judgment and remaining dense-scroll issues: `production.md`;
+  frame bindings: `visual-review.json`. No machine aesthetic certification.
+- UI-only private independent project loaded **nine scenes, Theme and seal** with
+  no prototypes/game/tooling copied. Relative dependencies/hash and texture budgets:
+  `payload.json`; full log `.cache/ui-payload/m1-tab-scope/load.log`.
+- Metadata/source/image contracts: **7 passed**, `.cache/ui/m1-tab-scope/plan.log`.
+  Existing fast route: **56 tests and 2 inline JavaScript programs passed**, Python
+  lint/syntax/guardrails, `.cache/ui/m1-tab-scope/repo-check.log`. Offline execution;
+  one unused import was corrected after `.cache/ui/m1-final/repo-check.log` failed.
+  No dependency installed. `git diff --check` passed.
+- Original source/PNG bytes retained from M0 after rename. Source RGBA/alpha checks
+  remain valid for the same 192px seal, displayed 48px. No nine-slice surfaces.
+
+Complete E–G composition/state/scroll acceptance is **not established**. See current
+`tasks.json`/`api.md` for coverage and service adapter boundaries. No game integration,
+physical keyboard/audio, native GPU/compositor/VRAM/FPS, older engine, localization/
+RTL/HiDPI/small-window certification. No delivery pipeline/publication/migration.
+
+## Historical M0 validation
 
 Date: 2026-10-09. Scope: **A–C intake/artistic exploration**, not production UI.
+The pending statements below describe M0 only, superseded by the current record.
 
 ## Successful checks
 

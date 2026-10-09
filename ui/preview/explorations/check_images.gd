@@ -2,7 +2,8 @@ extends SceneTree
 # Image content check without Pillow or graphical display dependencies.
 func _initialize() -> void:
 	for direction in ["ledger", "watch"]:
-		var image := Image.load_from_file(ProjectSettings.globalize_path("res://art/explorations/" + direction + "_seal.png"))
+		var path = "res://UI/art/menu_seal.png" if direction == "ledger" else "res://art/explorations/watch_seal.png"
+		var image := Image.load_from_file(ProjectSettings.globalize_path(path))
 		if image == null or image.get_size() != Vector2i(192, 192) or image.detect_alpha() == Image.ALPHA_NONE:
 			push_error("Invalid seal dimensions/alpha: " + direction)
 			quit(1)

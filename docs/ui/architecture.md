@@ -1,68 +1,61 @@
-# Evidence-led UI workspace
+# UI workspace and ownership
 
-This layout is additive. World art catalog, exports, workers and MCP remain intact.
-Current files are **approval explorations**, not the production library.
+Current checked slice: **M1 Ledger foundation/local modal**. Broader mocked
+compositions exist but are not fully accepted. State: [tasks.json](tasks.json).
+Interfaces/migration boundary: [api.md](api.md); actual evidence:
+[production.md](production.md). Existing world tooling/MCP/palettes remain unchanged.
 
-| Location | Responsibility | Current or future |
-|---|---|---|
-| `docs/ui/` | Discovery, art proposal, inventory, task state, roadmap, migration | Current |
-| `docs/ui/previews/` | Owned actual Godot captures and capture metadata | Current |
-| `sources/ui/explorations/` | Two editable original seal `.blend` sources | Current |
-| `tools/ui/explore_crest.py` | Limited source/render generator; uses existing geometry materials | Current |
-| `tools/ui/capture_explorations.py` | Owned-display capture of comparison scene | Current |
-| `tools/ui/test_plan.py` | Cheap plan/source/PNG contracts | Current |
-| `ui/preview/project.godot` | Self-contained Godot project; GL Compatibility | Current |
-| `ui/preview/explorations/` | Temporary comparison Controls and theme construction | Current, not migration payload |
-| `ui/preview/art/explorations/` | Transparent PNGs imported by comparisons | Current, one copy only |
-| `ui/preview/UI/theme/` | Approved reusable Theme and tokens | Future after approval |
-| `ui/preview/UI/art/` | Approved game-ready render output | Future after approval |
-| `ui/preview/UI/components/` | Data-only reusable scenes/scripts | Future after approval |
-| `ui/preview/prototypes/` | Mocked full HUD/menu/dialog compositions | Future after approval |
-| `sources/ui/` | Approved editable Blender sources and parameters | Future production files |
-| `tools/ui/` | Only UI-specific generation/capture/validation glue | Grow as needed, not generic framework |
-| `.cache/ui-explorations/`, `.cache/asset-check/logs/` | Private full logs, owned runtime/XDG state | Ignored |
+| Path | Responsibility |
+|---|---|
+| `docs/ui/` | Discovery, exact approval, inventory/backlog, reviews, source bindings, migration |
+| `docs/ui/previews/` | Historical M0 Ledger/Watch comparisons |
+| `docs/ui/production/m1-tab-scope/` | Final source-bound 27 captures/results |
+| `docs/ui/production/` other folders | Preserved earlier failed/intermediate captures, not relabeled as passes |
+| `sources/ui/menu_seal.blend` | Approved original editable source, retained byte-for-byte from M0 |
+| `sources/ui/explorations/watch_seal.blend` | Rejected-alternative study, not runtime payload |
+| `ui/preview/UI/` | Portable relative runtime namespace; Theme, fixed art, helper, nine component scenes |
+| `ui/preview/prototypes/` | Standalone mocked compositions/fixtures, not game adapters or payload |
+| `ui/preview/explorations/`, `art/explorations/` | Historical study host/Watch PNG; not payload |
+| `ui/preview/tests/` | Actual native-event/state/layout checks, diagnosis and modal-scope fixtures |
+| `tools/ui/` | Small authoring/capture/check drivers, not runtime dependencies or general framework |
+| `.cache/ui*`, `.cache/asset-check/logs/` | Private owned processes/XDG state/full logs, ignored |
 
-Do not create empty future directories. Runtime PNG output is rendered directly
-into the project art directory: separate source, rendered artwork and native
-component files **without duplicating rendered textures in another exports tree**.
-No dynamic text is baked. Production `res://UI/...` paths are proposed so `UI/`
-can eventually copy into a game root as a coherent namespace; preview compositions
-will live outside it. Exploration paths are intentionally not final API promises.
+## Native semantics first
 
-## Smallest implementation strategy
+Theme/StyleBoxFlat own flexible surfaces. Native Buttons, Labels, grids, scrolling,
+OptionButton/PopupMenu, HSlider and TabContainer own ordinary widget behavior.
+The approved Blender gate seal stays fixed at 48px from a transparent 192px PNG;
+no dynamic text is baked and there is no decorative frame/icon family or nine-slice
+texture. Native semantic close marking is not extra Blender artwork.
 
-Use native Theme/StyleBoxFlat for stretchable surfaces and native Button, Label,
-GridContainer, ScrollContainer, OptionButton, HSlider and dialogs. Native vector-like
-surfaces preserve corners without nine-slice textures. Only fixed ornaments merit
-Blender at first. Keep seal at 48px, do not stretch it with panel size. A later
-painted border is justified only by visible benefit; then record all slice margins,
-minimum size and alpha checks. No whole-menu image or custom control framework.
+The new modal uses an in-tree Control/scrim/centered panel rather than Window.
+Its small visible-only lifecycle handles local cancellation, Tab scope and valid
+invoker restoration; native child dropdowns get first Esc. No global input router,
+Window focus stealing or forced shared pause. That boundary follows the causal
+Window failure evidence, not an aesthetic redesign. See `api.md` for hosting.
 
-Keep typed data/opaque ids in component properties and action intent in signals.
-Game adapters keep `Game.Core` rules, quotes, generations/stage serials, session,
-Steam, prefs, audio, unit picking/model playback and authority timing. The preview
-has no sockets, credentials, download service, C# gameplay reference or external
-runtime paths. GDScript preview reduces build dependencies; eventual C# consumers
-can connect the same scene signals. Game runtime architecture is reused at the
-boundary, not cloned into the asset package.
+Components accept projections and emit intents. Game adapters keep quotes,
+eligibility, generations/stage guards, networking/session, Steam, preferences,
+audio/update, unit picking/model rendering and gameplay authority. GDScript scenes
+have no C# gameplay reference or runtime checkout/cloud dependency. The UI-only
+private audit loaded all nine scenes without preview fixtures or tooling.
 
-## Traceability and constraints
+## Source/render/validation traceability
 
-Each approved Blender export will get source-relative `.blend`/generator/parameters,
-shared-material/render dependencies, output dimensions/color/alpha and hash entries.
-Current exploration parameters are in `explore_crest.py` and saved scene properties;
-Cycles CPU, 32 samples, orthographic 192px transparent RGBA, AgX/Medium High Contrast,
-large Area key, intended 48px. These UI render settings are deliberately separate
-from world studio defaults and do not modify `art_style.py`.
+`exploration-assets.json` keeps original source/output hashes, including approved
+Ledger's renamed source/PNG. No bytes changed in that move. The existing worker
+built both studies with geometry.material(), editable meshes, Cycles CPU/32 samples,
+orthographic 192px transparent RGBA, AgX/Medium High Contrast and a large Area key.
+Those UI-only render parameters do not change world art_style defaults. The saved
+source's old exploration collection/path metadata is historical authoring state,
+not current approval or runtime dependency. Preserve manual edits before regeneration.
 
-Sources are saved before render; image output paths in saved Blender scenes are
-worker-local regeneration state, **not runtime Godot dependencies**. Generator
-resolves repo-relative output paths. `.godot` caches and Blender backup files stay
-ignored; original sources, Godot script UIDs and PNG import descriptions can track.
-Full supplied references and game-source screenshots remain in their original
-locations, not copied into public deliverables. Only original exploration pictures
-are new publication candidates.
+`tools/ui/build_theme.gd` authors the saved standalone Theme, which has no runtime
+dependence on its generator. `tools/ui/validate.py` owns fresh import, software display,
+source hashes and actual captures. `tools/ui/audit_payload.py` copies only UI/ into
+a private new project and checks resource paths/loading. Full exports, shared
+library rebuilds and GUI Blender mutations are unnecessary for this UI-only slice.
 
-No source `AGENTS.md`/`CLAUDE.md` edits, disruptive convention migration, shared
-MCP scene access or other worker dependencies. D–G establish tested portability;
-this phase establishes only a self-contained exploration project.
+Do not copy project.godot stretch policy into the game: disabled stretching here
+keeps test pixels/text stable; game canvas-items/expand still needs integration
+measurement. No AGENTS/CLAUDE rewrite, shared scene access or unrelated assets.

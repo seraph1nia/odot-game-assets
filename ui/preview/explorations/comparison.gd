@@ -119,7 +119,7 @@ func backdrop() -> void:
 
 func seal(parent: Node) -> void:
 	var image := TextureRect.new()
-	image.texture = load("res://art/explorations/" + direction + "_seal.png")
+	image.texture = load("res://UI/art/menu_seal.png" if direction == "ledger" else "res://art/explorations/watch_seal.png")
 	image.custom_minimum_size = Vector2(48, 48)
 	image.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	image.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED

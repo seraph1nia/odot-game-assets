@@ -57,8 +57,10 @@ def build(direction):
     lamp.data.size = 4
     scene['ui_exploration'] = direction
     scene['intended_display_px'] = 48
-    source = ROOT / 'sources/ui/explorations' / (direction + '_seal.blend')
-    output = ROOT / 'ui/preview/art/explorations' / (direction + '_seal.png')
+    source = ROOT / ('sources/ui/menu_seal.blend' if direction == 'ledger'
+                     else 'sources/ui/explorations/watch_seal.blend')
+    output = ROOT / ('ui/preview/UI/art/menu_seal.png' if direction == 'ledger'
+                     else 'ui/preview/art/explorations/watch_seal.png')
     source.parent.mkdir(parents=True, exist_ok=True)
     output.parent.mkdir(parents=True, exist_ok=True)
     scene.render.filepath = str(output)

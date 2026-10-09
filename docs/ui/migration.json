@@ -1,6 +1,10 @@
 {
   "schema_version":1,
-  "status":"initial proposal; no migration performed; no production payload approved",
+  "status":"M1 payload audited independently; broader E–G acceptance pending; no migration performed",
+  "payload_manifest":"payload.json",
+  "interface_document":"api.md",
+  "checked_payload_root":"ui/preview/UI/",
+  "modal_boundary":"In-tree native Control modal, not Window; preserve game local-input guards, child-dropdown-first Esc, Tab scope and valid invoker return",
   "game_revision":"d7e697710e15addade9ce82d28d6de94c05aacab",
   "proposed_runtime_namespace":"res://UI/",
   "runtime_dependencies":"Only self-contained Godot resources. No Blender, tools, game checkout, cloud or runtime download.",
@@ -20,5 +24,6 @@
     {"existing":"src/Game/SteamFriendsDialog.cs","inventory":["friends","dialog-shell","session-feedback"],"disposition":"theme complement only","integration":"Existing platform-owned friend/invite behavior","risk":"No real overlay/lobby calls in preview; native Steam windows retain platform presentation"}
   ],
   "excluded":["exploration comparison scene/scripts", "mock context and fixtures", "Blender sources/generators", "supplied reference images", "private logs/XDG state", "third-party Trio source kit copies"],
-  "validation_pending":["Fresh standalone import/load with no game dependency", "Four sizes and actual native keyboard/mouse/modal/scroll state tests", "Relative resource paths and explicit payload dependencies", "PNG alpha/slice/size and ordinary decoded texture cost", "Current-game integration tests only after separate migration approval"]
+  "validation_checked":["UI-only fresh independent project: 9 scenes, Theme and seal", "271 fresh input/state/layout checks, four target sizes, 27 actual reviewed frames", "OS XTest same original Settings sequence and modal scope/focus-loss checks", "Relative runtime resource audit and hashes", "Original 192px RGBA/alpha source checks retained; fixed 48px seal; 34237 file bytes / 147456 decoded RGBA bytes, not GPU measurement; native StyleBoxFlat so no nine-slice"],
+  "validation_pending":["Complete E/F state/input acceptance (multiplayer/about/update/friends/inspection/research)", "Simplify nested scroll ownership and test wheel/long focus traversal", "Game scale/HiDPI/localization/old-engine/native-desktop measurements", "Current-game integration tests only after separate migration approval"]
 }

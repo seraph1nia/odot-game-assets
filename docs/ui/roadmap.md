@@ -7,9 +7,12 @@ A–C is the first delivery, not completion of the overall UI system.
 
 ## Resume state
 
-Current phase: A–C. Current milestone: M0, discovery and artistic approval.
+Current phase: E–G acceptance continues. Checked milestone: M1 foundation/local modal.
+M0 discovery is committed; Ledger and the original small menu seal were approved.
+Implemented prototype breadth is ahead of full acceptance. See `production.md` for
+271 fresh assertions/27 reviewed frames, OS evidence and remaining scroll/state gaps.
 Machine authority for status/dependencies/acceptance: [tasks.json](tasks.json).
-Inventory: [inventory.json](inventory.json). No direction is approved.
+Inventory: [inventory.json](inventory.json). Exact approval: [decisions.md](decisions.md).
 Read [discovery.md](discovery.md) before investigating again; source is pinned.
 Read [art-direction.md](art-direction.md) and actual previews before resolving
 `artistic-approval`. If game inputs change, re-pin relevant evidence rather than
@@ -70,13 +73,16 @@ No confirmed missing RPG gameplay panels; generic assets explicitly rejected.
 
 ## Approval and unresolved questions
 
-- Major direction: Ledger (recommended) or Watch, or a bounded specified revision?
-- Keep original seal as the only initial Blender menu ornament, or native-only?
+- Resolved: Ledger; only the small original menu seal as initial Blender decoration.
+- Resolved technical blocker: in-tree native Control modal replaces the newly
+  authored unreliable embedded Window shell. No new artistic decision required.
 - New font remains a future decision, not a dependency now. Default Godot font
   with clearer scale is the low-risk initial recommendation.
 - Current-game visual/interaction baseline and label-removal result need refreshed
   read-only evidence before migration. Older docs screenshots are not current.
 
 Approval records must name decision, date/authority, exact direction/revision and
-scope. Technical decisions within approved style remain autonomous. M1–M5 remain
-pending implementation; a generated file never constitutes tested acceptance.
+scope. Technical decisions within approved style remain autonomous. M1 is checked;
+M2–M5 acceptance remains in progress. Native modal scope and UI-only dependency audit
+are ahead of that sequence; they do not certify every composition. A generated file
+never constitutes tested acceptance. No configured delivery pipeline started.

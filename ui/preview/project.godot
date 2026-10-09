@@ -1,8 +1,8 @@
 config_version=5
 
 [application]
-config/name="The Common Watch — UI Explorations"
-run/main_scene="res://explorations/comparison.tscn"
+config/name="The Common Watch — UI Showcase"
+run/main_scene="res://prototypes/showcase.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
 [display]

@@ -1,6 +1,11 @@
-# Artistic proposal — decision pending
+# Historical M0 artistic proposal — Ledger subsequently approved
 
-**Recommend A: Ledger**, not yet approved. B: Watch is a genuine dark alternative.
+Current approval is recorded verbatim in [decisions.md](decisions.md): Ledger,
+only the small original menu seal initially. Current production evidence and
+remaining acceptance: [production.md](production.md). The proposal/comparisons below
+are preserved M0 evidence; pending statements refer to that earlier checkpoint.
+
+**M0 recommendation: A / Ledger**, at the time not yet approved. B: Watch is a genuine dark alternative.
 These are original, limited **approval explorations**, not production components.
 Discovery preceded their creation; no gameplay feature was invented for the pictures.
 All eight final images were actually opened and inspected at their native sizes.
