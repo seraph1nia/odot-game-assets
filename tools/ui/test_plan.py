@@ -52,23 +52,55 @@ class IntakeContracts(unittest.TestCase):
             visit(task['id'], set())
         self.assertEqual(by_id['artistic-approval']['status'], 'completed')
         self.assertEqual(by_id['D-foundation']['status'], 'completed')
+        for key in ('E-core', 'E-inspection', 'F-hud', 'F-menu', 'G-portability'):
+            self.assertEqual(by_id[key]['status'], 'completed')
+        self.assertEqual(load('tasks.json')['overall_status'], 'standalone-completed-awaiting-delivery-handoff')
         self.assertTrue(load('tasks.json')['approved_decisions'])
         self.assertIsNone(load('tasks.json')['current_blocker'])
 
     def test_final_evidence_and_source_binding(self):
         result = load(load('tasks.json')['package_results'])
         self.assertEqual(result['failures'], [])
-        self.assertEqual(result['checks'], 438)
-        self.assertEqual(len(result['captures']), 35)
+        self.assertEqual(result['checks'], 568)
+        self.assertEqual(len(result['captures']), 79)
         self.assertIn('llvmpipe', result['renderer'])
         for name, digest in result['source_sha256'].items():
             self.assertEqual(hashlib.sha256((PROJECT / name).read_bytes()).hexdigest(), digest, name)
         binding = load('visual-review.json')
-        review = binding['captures']
-        self.assertEqual(len(review), 35)
-        self.assertEqual({item['path'] for item in review}, {item['path'] for item in result['captures']})
-        self.assertEqual(len({item['path'] for item in review}), len(review))
-        for item in review:
+        self.assertEqual(binding['capture_count'], 79)
+        prior = load(binding['prior_review'])
+        prior_hashes = {item['path']: item['sha256'] for item in prior['captures']}
+        inspected = set(binding['newly_inspected'])
+        self.assertEqual(len(inspected), 50)
+        names = set(); rows = []; inherited = 0
+        for item in result['captures']:
+            name = item['path']; names.add(name)
+            path = ROOT / binding['final_directory'] / name
+            self.assertEqual(png_header(path)[:2], (item['width'], item['height']))
+            digest = hashlib.sha256(path.read_bytes()).hexdigest()
+            rows.append(f"{name} {item['width']} {item['height']} {digest}\n")
+            if name not in inspected:
+                self.assertEqual(digest, prior_hashes.get(name), name)
+                inherited += 1
+        self.assertEqual(len(names), 79)
+        self.assertTrue(inspected <= names)
+        self.assertEqual(inherited, 29)
+        self.assertEqual(hashlib.sha256(''.join(rows).encode()).hexdigest(), binding['image_set_sha256'])
+
+    def test_historical_representative_package_is_preserved(self):
+        commit = load('tasks.json')['representative_commit']
+        def original(path):
+            return subprocess.check_output(['git', 'show', f'{commit}:{path}'], cwd=ROOT)
+        name = 'docs/ui/production/production-package-reviewed/results.json'
+        self.assertEqual((ROOT / name).read_bytes(), original(name))
+        result = load('production/production-package-reviewed/results.json')
+        self.assertEqual((result['checks'], result['failures']), (438, []))
+        for path, digest in result['source_sha256'].items():
+            self.assertEqual(hashlib.sha256(original('ui/preview/' + path)).hexdigest(), digest, path)
+        binding = load('visual-review-components.json')
+        self.assertEqual((DOCS / 'visual-review-components.json').read_bytes(), original('docs/ui/visual-review.json'))
+        self.assertEqual(len(binding['captures']), 35)
+        for item in binding['captures']:
             path = ROOT / binding['final_directory'] / item['path']
             self.assertEqual(png_header(path)[:2], (item['width'], item['height']))
             self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), item['sha256'])

@@ -15,4 +15,22 @@ world-palette change, game mutation or migration is authorized. Technical contro
 variants and layout fixes within this direction remain autonomous.
 
 M0 historical proposal and images remain unchanged evidence. Current machine
-state is `tasks.json`; tested milestone records will appear in `production.md`.
+state is `tasks.json`; tested milestone records are in `production.md`.
+
+## 2026-10-09 — Intended standalone acceptance boundary (inbox 007)
+
+MAIN accepted `a8cf17354c120f7775dabe3e60d2c1e0a54142ae` as the representative
+scrolling/component milestone and directed autonomous completion of existing E–G:
+
+> The original task calls for relevant actual-game component states, intended resolutions, mouse/keyboard, reusable portable mock-data compositions and clear migration interfaces.
+
+MAIN explicitly excluded exhaustive phase×context×eligibility, localization/RTL,
+mobile/controller, all engine/DPI/platform combinations, real services, world-model
+picking/projection and actual rollout from the standalone finish line. Keep these
+as external integration risks, not new E–G blockers or silently certified passes.
+No further major artistic decision was needed; Ledger/only-small-seal remained the
+exact approved scope. Finished package needs final-source normal acceptance, actual
+new-frame review, honest metadata, local commit and exact costs/limits report.
+MAIN will then route the same-worker configured no-mistakes handoff with full
+captain intent and original approval. This grants no competing pipeline/push,
+game edits/import/build/launch, moving-code copy, merge, release or migration.

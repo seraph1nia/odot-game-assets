@@ -61,7 +61,7 @@ func build() -> void:
 	scenes.item_selected.connect(func(index): switch_screen.call_deferred(screens[index]))
 	var states = OptionButton.new()
 	states.name = "StateSelector"
-	var state_names = ["building", "ready", "preparation", "combat", "shortage", "foreign", "paused", "lost", "victory", "defeat"]
+	var state_names = ["building", "ready", "preparation", "combat", "shortage", "foreign", "paused", "lost", "victory", "defeat", "lobby", "fallen", "stale"]
 	for name in state_names: states.add_item(name.capitalize())
 	states.select(max(0, state_names.find(state)))
 	toolbar.add_child(states)
@@ -304,7 +304,9 @@ func open_dialog(kind: String, opener: Control = null) -> void:
 		if kind == "unit": dialog_content.requested.connect(func(id, unit, destination): record_action(id + " unit=" + str(unit) + " destination=" + destination))
 		else: dialog_content.requested.connect(record_action)
 	if kind == "town_hall": dialog_content.unit_requested.connect(func(id, unit, destination): record_action(id + " unit=" + str(unit) + " destination=" + destination))
-	if kind == "details": dialog_content.set_context(state)
+	if kind == "details":
+		dialog_content.set_data(UIFixtures.details("paid" if state == "combat" else "last" if state in ["victory", "defeat"] else "planning"))
+		dialog_content.set_context(state)
 	if kind == "friends": dialog_content.invite_requested.connect(func(id): record_action("invite-" + str(id)))
 	if kind == "details": dialog_content.unit_selected.connect(func(id): record_action("inspect-" + str(id)))
 	if kind == "settings":
@@ -348,6 +350,21 @@ func component_samples(parent: Node) -> Control:
 		{"id":"insufficient", "title":"Unavailable quote", "quote":"14 gold · 2 wood · 4 stone · 3 metal · 2 cloth", "enabled":false, "reason":"Need 10 more stone. Build or upgrade a Stonecutter; synchronized quote remains authoritative."},
 		{"id":"retire", "title":"Retire unit", "quote":"Permanent · no refund", "enabled":true, "variant":"DangerButton"}]: add_action(body, data)
 	WatchUI.label(body, "▲ Burn · ● Poison ×2 · ◆ Chill · shaped text, not color alone")
+	var feedback_sample = OptionButton.new()
+	feedback_sample.name = "FeedbackSample"
+	var feedback_projections = [
+		{"status":"Connecting", "message":"Mock connection attempt. No network service here."},
+		{"status":"Connected", "message":"Mock synchronized projection."},
+		{"status":"Reconnecting", "message":"Mock history gap; inspection remains read-only."},
+		{"status":"Expired session", "message":"Credentials cannot resume this session. Join a fresh lobby.", "fresh":true},
+		{"status":"Action rejected", "message":"Stale building quote; select a current building and retry. No resources spent."}]
+	for projection in feedback_projections: feedback_sample.add_item(projection.status)
+	body.add_child(feedback_sample)
+	var feedback_card = WatchUI.component("session_feedback", body)
+	feedback_card.name = "FeedbackCard"
+	feedback_card.set_data(feedback_projections[0])
+	feedback_card.requested.connect(record_action)
+	feedback_sample.item_selected.connect(func(index): feedback_card.set_data(feedback_projections[index]))
 	return body
 
 func _unhandled_input(event: InputEvent) -> void:

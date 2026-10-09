@@ -1,8 +1,8 @@
 # UI workspace and ownership
 
-Current checked slice: **representative standalone Ledger component/composition
-package**, built on accepted M1 foundation/local modal. Broader projection and game
-integration acceptance remains explicit in [coverage.md](coverage.md).
+Current checked slice: **finished intended standalone Ledger E–G package**, built
+on accepted M1 foundation/local modal and preserved representative milestone.
+External game integration remains separate in [coverage.md](coverage.md).
 State: [tasks.json](tasks.json).
 Interfaces/migration boundary: [api.md](api.md); actual evidence:
 [production.md](production.md). Existing world tooling/MCP/palettes remain unchanged.
@@ -11,7 +11,8 @@ Interfaces/migration boundary: [api.md](api.md); actual evidence:
 |---|---|
 | `docs/ui/` | Discovery, exact approval, inventory/backlog, reviews, source bindings, migration |
 | `docs/ui/previews/` | Historical M0 Ledger/Watch comparisons |
-| `docs/ui/production/production-package-reviewed/` | Current source-bound 35 captures/results |
+| `docs/ui/production/standalone-final/` | Current source-bound 79 captures/results |
+| `docs/ui/production/production-package-reviewed/` | Preserved accepted representative 35-frame evidence |
 | `docs/ui/production/m1-tab-scope/` | Preserved accepted 27-frame M1 foundation evidence |
 | `docs/ui/production/` other folders | Preserved failed/intermediate captures, not relabeled as current acceptance |
 | `sources/ui/menu_seal.blend` | Approved original editable source, retained byte-for-byte from M0 |

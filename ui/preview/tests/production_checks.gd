@@ -47,6 +47,9 @@ func run() -> void:
 	await scrolling()
 	await research()
 	await inspection()
+	await details_projections()
+	await hall_projections()
+	await edge_controls()
 	await settings()
 	await friends()
 	await menu()
@@ -153,6 +156,144 @@ func inspection() -> void:
 	expect(ui.dialog_content.heading.text.contains("P2") and ui.dialog_content.context_label.text.contains("Read-only"), "foreign Details context")
 	ui.close_dialog()
 	ui.state = "building"
+func details_projections() -> void:
+	ui.open_dialog("details")
+	var details = ui.dialog_content
+	for index in range(4):
+		await choose(details.sample, index)
+		var summaries = details.food.get_children()
+		if index == 0:
+			expect(summaries.size() == 1 and summaries[0].data.heading.contains("Next battle"), "Details planning forecast only")
+		elif index == 1:
+			expect(summaries.size() == 1 and summaries[0].data.heading.contains("Paid this battle"), "Details immutable paid current wave")
+			expect(summaries[0].data.rows[0].value == "18" and details.reward_heading.text.contains("W1"), "current paid and previous reward distinct")
+		elif index == 2:
+			expect(summaries.size() == 2 and summaries[0].data.heading.contains("Next battle") and summaries[1].data.heading.contains("Last completed"), "last receipt and forecast separate")
+			expect(summaries[1].data.rows[2].value == "17" and details.reward_heading.text.contains("W2"), "last wave exact sitouts and reward wave")
+		else:
+			expect(summaries.size() == 1 and summaries[0].data.heading.contains("No completed"), "fresh projection clears paid receipts")
+			expect(details.roster.buttons.is_empty() and details.reward.text.contains("Nothing carried") and details.allocation.text.contains("No queued"), "fresh projection clears roster reward allocation")
+	await choose(details.sample, 0)
+	await click(details.roster.buttons[101])
+	expect(ui.last_action.contains("inspect-101"), "Details restored roster emits identity")
+	details.set_context("foreign")
+	await choose(details.sample, 1)
+	expect(details.heading.text.contains("P2") and details.context_label.text.contains("Read-only"), "Details view switching preserves external readonly owner")
+	ui.close_dialog()
+	for state in ["combat", "victory"]:
+		ui.state = state
+		ui.open_dialog("details")
+		expect(ui.dialog_content.sample.selected == (1 if state == "combat" else 2), "host projects Details receipt " + state)
+		ui.close_dialog()
+	ui.state = "building"
+func hall_projections() -> void:
+	ui.open_dialog("town_hall")
+	var hall = ui.dialog_content
+	var observed: Array = []
+	var listener = func(id): observed.append(id)
+	hall.requested.connect(listener)
+	var last = ui.last_action
+	await runner.click(hall.sale.get_node("Body/Action"))
+	expect(ui.last_action == last and hall.sale.data.reason.contains("occupied"), "occupied sale rejected with visible reason")
+	await choose(hall.sample, 1)
+	expect(hall.roster.buttons.is_empty() and not hall.card.visible and hall.empty_label.visible, "empty hall has no stale unit actions")
+	await click(hall.sale.get_node("Body/Action"))
+	expect(observed.back() == "sell-hall", "empty hall sale emits only adapter intent")
+	expect(hall.roster.buttons.is_empty(), "sale intent does not mutate hall projection")
+	await choose(hall.sample, 2)
+	await click(hall.roster.buttons[103])
+	expect(hall.card.data.id == 103 and hall.card.get_node("Body/Send").disabled and hall.card.get_node("Body/Retire").disabled, "stale hall selection remains inspection")
+	for quote in [hall.storage, hall.healing, hall.sale]:
+		last = ui.last_action
+		await click(quote.get_node("Body/Action"))
+		expect(quote.get_node("Body/Action").disabled and ui.last_action == last, "stale quote refuses pointer intent")
+	await choose(hall.sample, 3)
+	expect(hall.roster.buttons.size() == 6 and hall.storage.data.quote.contains("12 gold"), "storage track projection exact independent tile/quote")
+	await click(hall.storage.get_node("Body/Action"))
+	expect(observed.back() == "storage-upgrade" and hall.roster.buttons.size() == 6, "storage intent never changes capacity locally")
+	await click(hall.healing.get_node("Body/Action"))
+	expect(observed.back() == "healing-upgrade", "healing remains independent of storage")
+	await choose(hall.sample, 4)
+	expect(hall.card.get_node("Body/Recovery").text.contains("Funded survivor"), "completed funding recovery eligibility")
+	var hp = hall.card.get_node("Body/HealthText").text
+	await key(KEY_ENTER)
+	expect(hall.card.get_node("Body/HealthText").text == hp, "selection never applies a heal")
+	await click(hall.roster.buttons[102])
+	expect(hall.card.get_node("Body/Recovery").text.contains("not eligible") and hall.card.get_node("Body/HealthText").text == "34 / 54 HP", "unfunded wounded reserve no recovery")
+	expect(hall.healing.get_node("Body/Action").disabled, "maximum healing projection")
+	await click(hall.roster.buttons[103])
+	expect(hall.card.get_node("Body/Recovery").text.contains("Full health"), "full-health recovery text")
+	await choose(hall.sample, 5)
+	expect(hall.card.get_node("Body/Send").disabled and hall.card.get_node("Body/Reason").text.contains("cannot fit"), "fragmented field destination no pooled space")
+	hall.set_read_only("Foreign inspection")
+	await choose(hall.sample, 1)
+	expect(hall.sale.get_node("Body/Action").disabled, "external readonly survives empty hall projection")
+	await choose(hall.sample, 4)
+	await click(hall.roster.buttons[102])
+	expect(hall.card.get_node("Body/Retire").disabled, "external readonly survives recovery view selection")
+	hall.requested.disconnect(listener)
+	ui.close_dialog()
+func edge_controls() -> void:
+	var observed = {"city":-1}
+	var listener = func(id): observed.city = id
+	ui.navigation.city_requested.connect(listener)
+	ui.navigation.set_data([{"id":1,"label":"Only city","context":"Owner"}], 1)
+	var before = ui.last_action
+	await runner.click(ui.navigation.get_node("Row/Next"))
+	expect(ui.navigation.get_node("Row/Next").disabled and observed.city == -1 and ui.last_action == before, "one-city navigation disabled")
+	var cities = [{"id":1,"label":"P1"},{"id":2,"label":"P2"},{"id":3,"label":"P3"},{"id":4,"label":"P4"}]
+	ui.navigation.set_data(cities, 4)
+	await click(ui.navigation.get_node("Row/Next"))
+	expect(observed.city == 1, "four-city wrap intent")
+	ui.navigation.set_data(cities, 1)
+	await click(ui.navigation.get_node("Row/Previous"))
+	expect(observed.city == 4, "four-city reverse wrap intent")
+	ui.navigation.city_requested.disconnect(listener)
+	for state in ["lobby", "fallen", "stale"]:
+		ui.state = state
+		ui.refresh_hud()
+		await frames()
+		expect(ui.actions[0].get_node("Body/Action").disabled, "edge readonly quote " + state)
+		if state == "lobby":
+			await click(ui.match_controls.get_node("Start"))
+			expect(ui.last_action.contains("start"), "lobby native Start intent")
+		elif state == "fallen":
+			expect(ui.ledger.value_labels["Gold"][1].text == "0", "fallen city future income zero")
+			await click(ui.match_controls.get_node("Pause"))
+			expect(ui.last_action.contains("pause"), "fallen owner retains shared pause")
+		else: expect(ui.ledger.data.context.contains("Stale"), "stale snapshot explicit context")
+	ui.state = "building"
+	ui.selection = "Empty plot"
+	ui.refresh_hud()
+	var tabs = ui.context.get_node("Actions").get_child(1)
+	for index in range(4):
+		tabs.grab_focus()
+		await key(KEY_HOME)
+		for i in range(index): await key(KEY_RIGHT)
+		await click(ui.actions[0].get_node("Body/Action"))
+		expect(ui.last_action.contains(ui.actions[0].data.id), "native construction group intent " + str(index))
+	ui.selection = "Recruiter"
+	ui.refresh_hud()
+	var recruiter = ui.context.get_node("Actions/RecruiterType")
+	await choose(recruiter, 1)
+	await click(ui.actions[0].get_node("Body/Action"))
+	expect(ui.last_action.contains("Crossbowman"), "native ranged recruiter intent")
+	await choose(recruiter, 2)
+	before = ui.last_action
+	await runner.click(ui.actions[0].get_node("Body/Action"))
+	expect(ui.last_action == before and ui.actions[0].data.reason.contains("Weaver"), "native insufficient Mage quote")
+	ui.selection = "Producer"
+	ui.open_dialog("components")
+	var samples = ui.dialog_content
+	var feedback = samples.get_node("FeedbackCard")
+	for index in range(5):
+		await choose(samples.get_node("FeedbackSample"), index)
+		expect(feedback.get_node("Status").text == ["Connecting", "Connected", "Reconnecting", "Expired session", "Action rejected"][index], "feedback projection " + str(index))
+		if index == 3:
+			await click(feedback.get_node("Actions/Fresh"))
+			expect(ui.last_action.contains("fresh-session"), "expired session exposes distinct fresh intent")
+	ui.close_dialog()
+	ui.refresh_hud()
 func settings() -> void:
 	ui.open_dialog("settings")
 	var options = ui.dialog_content

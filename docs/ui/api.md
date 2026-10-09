@@ -1,8 +1,9 @@
 # Portable UI boundary and migration preparation
 
-Scope: accepted M1 foundation plus the checked representative standalone
-component/composition package. **Do not migrate now.** See `coverage.md`, `tasks.json`
-and `production.md` for exact checked/remaining criteria (not exhaustive acceptance).
+Scope: finished intended standalone Phase E component library, Phase F functional
+mock compositions and Phase G migration-ready package, clarified in inbox 007.
+**Do not migrate now.** See `coverage.md`, `tasks.json` and `production.md` for
+checked acceptance and separate external integration obligations.
 
 ## Payload
 
@@ -35,13 +36,14 @@ shape. `prototypes/fixtures.gd` is illustrative data only, never a runtime depen
 | `city_navigation.tscn` | `set_data(Array, selected_id:int)` | `city_requested(city_id:int)` | id,label,context; game clears selection/camera and determines edit rights |
 | `match_controls.tscn` | `set_data(Dictionary)` | `requested(action_id:String)` | phase,counters,ready/pause labels/ids/eligibility/visibility,terminal; no phase transition |
 | `session_feedback.tscn` | `set_data(Dictionary)` | `requested(action_id:String)` | status,message,reconnect,fresh; no sockets, tokens or teardown |
-| `unit_inspection.tscn` | `set_data(Dictionary)` | `requested(action_id:String, unit_id:int, destination_id:String)` | profile/health/status text, destinations, can_send/can_retire/reason; model/status clocks stay external |
+| `unit_inspection.tscn` | `set_data(Dictionary)` | `requested(action_id:String, unit_id:int, destination_id:String)` | profile/health/status/recovery text, destinations, can_send/can_retire/reason; funding/recovery/model/status clocks stay external |
 | `army_roster.tscn` | `set_data(Dictionary)` | `unit_selected(unit_id:int)` | title,context,tiles,units,selected_id; display separate tile budgets, not pooling/transfer logic |
 | `modal.tscn` | local lifecycle below | `canceled`, `confirmed`, `closed` | native Control composition, not a Window or session owner |
 
-Core quote/city/match/feedback and inspection/roster scenes have representative
-native input/state acceptance. Complete inventory-state breadth still needs fixture
-acceptance; `coverage.md` enumerates it. Projected world health bars are NOT added.
+Core quote/city/match/feedback and inspection/roster scenes have meaningful native
+input/state acceptance including one/four-city, lobby, connection/rejection, empty/
+stale/fragmented and recovery edges. This is not exhaustive Cartesian-product
+coverage. Projected world health bars are NOT added or modified.
 The inspector `Body/PreviewSlot` is an adapter-owned Control (mouse-filter Ignore);
 attach native preview content there and project `show_preview=true`. No model loader
 or service is supplied. `army_roster` uses a native exclusive ButtonGroup; the
@@ -92,6 +94,52 @@ Actual wheel/reverse-wheel and long Tab/Enter reachability pass for research/hal
 Details/friends. Native child dropdowns are separate viewport scopes, not disabled
 body scrollbars.
 
+## Functional composition projection examples (authoring-only)
+
+`prototypes/details.gd::set_data(Dictionary)` and
+`prototypes/town_hall.gd::set_data(Dictionary)` expose supplied snapshot seams for
+future game-owned compositions. These scripts deliberately import `UIFixtures` for
+their native demo selectors; **do not copy them as runtime payload dependencies**.
+Adapt their arrangement and `set_data` shapes, not their mock selectors/defaults.
+Add the content under its final modal owner before `_ready()` builds its body.
+
+- Details: `sample` (demo selector only), `title`, `context`, `food` (Array of
+  independent `upkeep_summary` projections), `reward_heading`, `reward`, `roster`,
+  `allocation_heading`, `allocation` (already formatted String). No computation
+  of receipts/forecast/allocation. Fresh snapshots replace previous summaries,
+  reward, roster and allocation. Prototype-only `set_context(state)` supplies a
+  title/inspection annotation that survives switching; adapters should instead
+  supply exact owner/context and command rights. `unit_selected(unit_id:int)`
+  forwards the roster's selection intent, not an edit command.
+- Hall: `sample` (demo selector only), `title`, `context`, `roster`, `storage`,
+  `healing`, `sale` (three independent `quoted_action` projections), `profiles`
+  (Dictionary keyed by int unit id, inspection projections), `selected_id`.
+  `set_read_only(reason:String)` is the external persistent command gate;
+  individual quotes/profiles also carry their supplied enabled/can_send/can_retire
+  eligibility. Signals: `requested(action_id:String)` and
+  `unit_requested(action_id:String, unit_id:int, destination_id:String)`.
+  A disabled quote cannot emit a command, but that is not authority validation.
+  Read-only gates survive selection/demo switching.
+- Future adapters supply occupied-sale rejection, exact track maxima/prices,
+  individual tile availability, funded recovery/health eligibility, hall/selection
+  generations and stale/foreign gates. No authority is inferred from view names.
+- Other prototype native signals and fixtures demonstrate menu navigation,
+  selection, About feedback and busy invitation presentation. A deferred mock
+  result is not a service/session implementation. Retain existing game's save,
+  query/send, lifetime, host/leave, update and audio services rather than copying
+  the prototype's callbacks or request-status labels.
+
+## Payload budget
+
+The audited **32 files total 100,661 bytes** on disk including scripts, UID/import
+metadata and Theme, not a packaged-game or GPU-memory estimate. The only image is
+the 192×192 RGBA original seal: **34,237 PNG file bytes / 147,456 decoded RGBA bytes**,
+displayed at 48px with transparent surround. Native StyleBoxFlat planes require no
+nine-slice texture; no additional fonts/images/Blender ornaments. Packed Godot import
+formats, rendering cost/FPS/VRAM and target-game package overhead are unmeasured.
+Authoring `.blend`, fixture/test/tool bytes are not runtime payload. Source/output
+hashes are in `exploration-assets.json`; resource hashes are in `payload.json`.
+
 ## Migration order and authority (later authorization only)
 
 1. Re-pin game/reconcile removed labels and current UI screenshots; confirm engine,
@@ -102,12 +150,13 @@ body scrollbars.
    adapters. Authority validates costs, eligibility and stale selection again.
 5. Adapt modal/inspection/roster/research presentation and actual world-input guards.
    Do not retain faulty Window-focus assumptions merely for API similarity.
-6. Compose full HUD/menu/settings only after the remaining acceptance in
-   `coverage.md` and a fresh current-game baseline. Keep
-   networking/Steam/friends/persistence/audio/update/model-loader services in game.
+6. Compose full HUD/menu/settings after separate integration authorization and
+   a fresh current-game baseline; use finished standalone `coverage.md` as the
+   reference, not live-game certification. Keep networking/Steam/friends/
+   persistence/audio/update/model-loader services in game.
 7. Run authorized game slice tests then required full delivery gates; re-review
    current game renders. No game operation in this asset milestone did any of this.
 
 `migration.json` binds these responsibilities to inspected game files. Unsupported
-small windows/localization/RTL, exhaustive projection/async states and actual game input
-remain explicit later gates, not presumed passes from screenshot generation.
+small windows/localization/RTL and actual game/async input remain explicit target
+risks, not presumed passes from screenshot generation or new standalone blockers.

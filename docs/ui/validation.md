@@ -1,6 +1,46 @@
 # UI validation and limitations
 
-## Current representative standalone package — inbox 006
+## Current finished standalone E–G package — inbox 007
+
+- Fresh unchanged-source Godot acceptance **568 checks / 0 failures / 79 captures**,
+  `.cache/ui/standalone-final/tests.log`, source/results
+  `production/standalone-final/results.json`. Added focused input **231/0** in
+  `standalone-focused-1`, preserving original regression/modal assertions.
+- Details native planning/paid-current/last/fresh projection switching; no stale
+  receipt/reward/roster/allocation on fresh, foreign context retained. Hall occupied/
+  empty/stale/storage/recovery/fragmented and occupied-sale rejection; independent
+  tracks, exact pinned storage quote and selected-unit read-only gates. Meaningful
+  HUD lobby/fallen/stale/session/navigation/constructor/recruiter edges.
+- Serial OS XTest unchanged Settings **11/0** and modal **64/0**, zero world leaks:
+  `.cache/ui-diagnosis/{full,modal}-os-none-standalone-final/probe.log`. Both exited 0;
+  no repeated parallel Xvfb starts. Added composition input otherwise uses native
+  Godot injected events, not physical or whole-suite OS input.
+- Private UI-only fresh copy **nine scenes, Theme/seal / 32 files** passed:
+  `.cache/ui-payload/standalone-final/load.log`, hashes `payload.json`.
+  No game/prototype/tool dependency; budget and interfaces in `api.md`.
+- **79 final reviewed image bytes**: 50 new frames opened, 29 exact SHA-256 matches
+  to previously actually inspected images. Four target desktop sizes for HUD/menu/
+  all base dialogs plus selected states. `visual-review.json` binds ordered all-image
+  digest/dimensions/newly inspected filenames/prior hashes; `production.md` records
+  actual art judgment, not a machine aesthetic verdict.
+- **Nine metadata/source/image/payload/history contracts** passed; historical M1 and
+  representative results/source bindings validate against accepted Git commits,
+  exact original visual JSONs preserved as `visual-review-m1.json` and
+  `visual-review-components.json`. Git history needed only for authoring tests.
+- Existing offline fast route: **58 tests and two inline JavaScript programs passed**,
+  lint/syntax/guardrails, `.cache/ui/standalone-final/repo-check.log`;
+  `.cache/ui/standalone-final/plan.log`. No new install/art/library rebuild.
+
+Godot 4.7.2 .NET / owned Xvfb / Compatibility-Mesa llvmpipe / Dummy audio.
+No GPU/native-desktop/physical-input/performance claim. `coverage.md` defines finished
+intended standalone scope, known presentation tradeoffs and external integration
+requirements. No exhaustive platform/service/Cartesian campaign silently added.
+No competing configured workflow, push, PR, merge, release, game import/build/launch,
+refs/edits or migration. MAIN owns coordinated same-worker delivery handoff.
+All genuine historical failures and the isolated Xvfb wrapper failure below remain
+failed; no reclassification to pass and no weakened tests.
+
+## Historical accepted representative package — inbox 006
 
 - Fresh unchanged-source Godot acceptance **438 checks / 0 failures / 35 captures**:
   `.cache/ui/production-package-reviewed/tests.log`, results/source SHA-256 bindings
@@ -19,7 +59,7 @@
   `.cache/ui-payload/production-package-reviewed/load.log`, `payload.json`.
 - All 35 final image bytes actually inspected. 27 new base frames match their opened
   `production-package/` bytes; eight additional state views reviewed, final corrected
-  About/friends images reopened. `visual-review.json` binds hashes/dimensions;
+  About/friends images reopened. `visual-review-components.json` binds hashes/dimensions;
   `production.md` records judgments. No M1 screenshots used to certify changed views.
 - Focused failed runs **111/20** and **138/3** remain failed. Test selector navigation
   corrected to actual popup focused index; body ownership assertion excludes native
@@ -73,8 +113,9 @@ evidence. No game import/build/launch. Run graphical drivers serially.
 - Original source/PNG bytes retained from M0 after rename. Source RGBA/alpha checks
   remain valid for the same 192px seal, displayed 48px. No nine-slice surfaces.
 
-Complete E–G composition/state/scroll acceptance is **not established**. See current
-`tasks.json`/`api.md` for coverage and service adapter boundaries. No game integration,
+At this historical M1 checkpoint, complete E–G composition/state/scroll acceptance
+was **not established**; it is superseded by the current standalone record above.
+See current `tasks.json`/`api.md` for coverage and service adapter boundaries. No game integration,
 physical keyboard/audio, native GPU/compositor/VRAM/FPS, older engine, localization/
 RTL/HiDPI/small-window certification. No delivery pipeline/publication/migration.
 

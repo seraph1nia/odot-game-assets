@@ -7,11 +7,11 @@ A–C is the first delivery, not completion of the overall UI system.
 
 ## Resume state
 
-Current phase: E–G broader acceptance continues. Accepted M1 foundation/modal is
-preserved; the next representative standalone component/composition package is
-checked. See `production.md` for fresh **438/0, 35 reviewed image bytes**, OS 11+64,
-independent UI-only audit and retained focused failures. `coverage.md` distinguishes
-this boundary from exhaustive projection breadth and later game integration.
+Current phase: intended standalone **E–G completed**, coordinated delivery handoff
+pending. Accepted M0/M1/representative evidence preserved. `production.md` records
+fresh **568/0, 79 reviewed image bytes**, serial OS 11+64, independent UI-only audit
+and historical failures. `coverage.md` distinguishes the finished standalone
+boundary from exhaustive Cartesian products and separately authorized integration.
 Machine authority for status/dependencies/acceptance: [tasks.json](tasks.json).
 Inventory: [inventory.json](inventory.json). Exact approval: [decisions.md](decisions.md).
 Read [discovery.md](discovery.md) before investigating again; source is pinned.
@@ -68,9 +68,9 @@ and multiline research/roster presentation; clearer phase/readiness versus local
 settings; uniform feedback/dialog presentation. Risks require current rendered
 validation, not historical screenshot guesses.
 
-**Missing here:** portable scene/component package, original-source render linkage,
-standalone showcase, UI-specific validation/state review and migration manifest.
-No confirmed missing RPG gameplay panels; generic assets explicitly rejected.
+**Produced here:** portable scene/component package, original-source render linkage,
+functional standalone showcase, UI-specific validation/state review and migration
+manifest/APIs. No missing RPG gameplay panels; generic assets explicitly rejected.
 
 ## Approval and unresolved questions
 
@@ -83,12 +83,12 @@ No confirmed missing RPG gameplay panels; generic assets explicitly rejected.
   read-only evidence before migration. Older docs screenshots are not current.
 
 Approval records must name decision, date/authority, exact direction/revision and
-scope. Technical decisions within approved style remain autonomous. M1 is accepted;
-the representative E–G package has genuine new interaction, scrolling, visual and
-payload acceptance. M2–M5 broader criteria remain in progress per `coverage.md`:
-exhaustive HUD/city/session edges, expanded Details receipts, empty/stale hall and
-recovery fixtures, larger dialog visual coverage, future target/service integration.
-Do not revive already resolved nested-scroll or multiplayer/About/friends checks as
-untouched gaps, and do not relabel this package as full production completion.
-A generated file never constitutes tested acceptance. No configured delivery
-pipeline started; report the checked commit/coverage to MAIN for coordinated review.
+scope. Technical decisions within approved style remain autonomous. M1 and the
+representative milestone are accepted/preserved; intended M2–M5 standalone criteria
+are now complete per `coverage.md`: meaningful HUD/city/session edges, expanded
+Details receipts, empty/stale/storage/recovery/sale hall, four-size base dialogs,
+portable payload and adapter preparation. No exhaustive service/platform campaign
+is silently added as a standalone blocker. Future target integration is not done.
+A generated file never constitutes tested acceptance. Report checked commit/coverage
+to MAIN for its coordinated same-worker delivery workflow with original captain
+intent and exact Ledger/small-seal approval; no independent pipeline/publication.

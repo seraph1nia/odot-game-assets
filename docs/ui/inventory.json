@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "Ledger and only original small menu seal approved. M1 preserved; current representative standalone component/composition contracts checked. Exhaustive breadth remains per coverage.md; not full production completion. Game unchanged.",
+  "scope": "Ledger and only original small menu seal approved. Intended standalone E–G component/composition contracts and migration preparation checked; accepted history preserved. Separate game integration not performed. Boundary per coverage.md; game unchanged.",
   "coverage_record": "coverage.md",
   "implementation": {
     "theme":{"status":"M1-checked","resource":"UI/theme/ledger.tres"},
@@ -19,9 +19,9 @@
     "hud":{"status":"representative-contracts-checked","resource":"prototypes/showcase.tscn"},
     "start-menu":{"status":"representative-contracts-checked","resource":"prototypes/menu.tscn"},
     "settings":{"status":"representative-graphics-audio-about-confirmation-contracts-checked","resource":"prototypes/settings.tscn"},
-    "details":{"status":"representative-contracts-checked","resource":"prototypes/details.tscn"},
+    "details":{"status":"planning-paid-last-fresh-native-projections-checked","resource":"prototypes/details.tscn"},
     "research":{"status":"representative-contracts-checked","resource":"prototypes/research.tscn"},
-    "town-hall":{"status":"representative-contracts-checked","resource":"prototypes/town_hall.tscn"},
+    "town-hall":{"status":"occupied-empty-stale-storage-recovery-fragmented-sale-projections-checked","resource":"prototypes/town_hall.tscn"},
     "friends":{"status":"representative-contracts-checked","resource":"prototypes/friends.tscn"},
     "resource-icons":{"status":"omitted-no-scan-evidence"},
     "generic-rpg":{"status":"rejected"}
