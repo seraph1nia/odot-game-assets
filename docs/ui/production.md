@@ -1,6 +1,102 @@
-# Ledger production — checked standalone component/composition package
+# Ledger production — finished intended standalone package
 
-## Current package (inbox 006)
+## Current standalone E–G acceptance (inbox 007)
+
+MAIN directed continued autonomous completion, accepting the previous representative
+commit `a8cf17354c120f7775dabe3e60d2c1e0a54142ae` without mistaking it for full
+integration. The intended **Phase E component library, Phase F functional mock
+compositions and Phase G migration-ready package are now complete and checked**.
+Meaningful discovered UI states, intended desktop dimensions and projection/intent
+interfaces are the boundary, not new exhaustive services/platform cross-products.
+`coverage.md` and `tasks.json` give current scope; publication/game integration
+remain unauthorized and unperformed. Historical M0/M1/representative records below
+remain as accepted, with their exact source/images independently preserved.
+
+### Added functional projections and input
+
+- Details native planning/paid-current-wave/last-completed-wave/fresh selector and
+  `set_data()` projection seam. Current/previous receipt, forecast, reward, roster
+  and allocation remain separate. Fresh removes prior values rather than leaking
+  a previous wave. Host selects paid for combat, last for victory/defeat. External
+  foreign inspection annotation survives switching. No reward/upkeep computation.
+- Hall native occupied/empty/stale/storage/recovery/fragmented selectors and supplied
+  `set_data()` seam. Independent storage/healing quotes and supplied per-unit recovery
+  text; selected id and read-only gate survive roster interactions. Empty hides stale
+  inspection actions and permits projected sale; occupied sale/stale commands reject.
+  Storage II→III **12 gold / 2 wood / 3 stone**, 12→18 capacity, verified against
+  pinned game source—not derived from authority locally. Recovery distinguishes
+  funded wounded survivor, unfunded reserve and full-health projections. Size-two
+  transfer cannot use separate free sizes 1+1; no pooling/transfer/healing gameplay.
+- Lobby Start, fallen-owner/no-future-income with shared pause, stale HUD inspection;
+  connecting/connected/reconnecting/expired/rejected feedback selectors and fresh
+  intent; native one/four-city navigation, construction groups, ranged recruiter
+  and insufficient Mage quote. Intents leave mock resources/world clicks unchanged.
+- Original Settings sequence, all old component/phase/layout/modal assertions and
+  real wheel/far-row interaction tests remain intact; no weakening or test cancellation.
+
+### Fresh unchanged-source acceptance
+
+**568 checks / 0 failures / 79 actual captures**, Godot **4.7.2 .NET**, owned Xvfb,
+Compatibility/Mesa **llvmpipe**, Dummy audio. Logs `.cache/ui/standalone-final/tests.log`;
+source hashes, actual dimensions/renderer and results in
+`production/standalone-final/results.json`. Focused added-input acceptance:
+**231/0** (`standalone-focused-1`). No failed new gate; earlier failures remain failed.
+
+Serial owned OS XTest: **11 full Settings / 64 modal checks, zero world leaks**,
+`.cache/ui-diagnosis/{full,modal}-os-none-standalone-final/probe.log`; both driver
+commands exited 0 without infrastructure race. No physical-input claim; added
+composition inputs otherwise use native injected Godot events.
+
+Fresh private UI-only audit: **nine scenes, Theme/seal, 32 files**,
+`.cache/ui-payload/standalone-final/load.log`, current hashes `payload.json`.
+No prototypes/fixtures/services/game/tools as runtime dependencies. Total audited
+file bytes **100,661** (not engine package/GPU cost); only original 192px/48px seal
+**34,237 PNG / 147,456 decoded RGBA bytes**. `api.md` specifies all scene data/signals,
+Details/hall mock projection seams, scroll lifecycle, authority and migration order.
+
+### Actual image review and art judgment
+
+All **79 final image bytes reviewed**: **50 new/changed frames opened** at native
+size, **29 exact SHA-256 matches** to previously inspected representative frames.
+No changed view inherits old acceptance. `visual-review.json` binds the ordered
+all-image digest/dimensions, explicit newly inspected filenames and prior byte
+bindings in `visual-review-components.json`. Plan checks verify this coverage.
+M1 original binding remains byte-for-byte `visual-review-m1.json`.
+
+HUD, start/multiplayer and all seven base dialogs at **1100×820, 1280×720,
+1600×900, 1920×1080**; About-error/long-friends/scrolled-lock also four sizes.
+Details paid/last/fresh and hall empty/stale/storage/recovery/fragmented at two smaller
+sizes; eleven meaningful HUD state frames at 1280×720. This is not a claim of four
+pictures for every state.
+
+New frames retain approved cream/dark ink, quiet amber primaries, muted rose
+permanent actions and teal native focus; no further decoration family/font/art.
+At larger sizes, deliberately centered bounded dialogs keep readable line lengths
+and stable controls rather than filling the entire viewport. Empty/fresh messages
+have adequate breathing room; storage prices/upgrade outcomes and stale reasons
+wrap without non-scroll overlap. Paid/previous/forecast headings distinctly identify
+receipt timing, with reward separate. Fragmented destination and recovery reasons
+stay text rather than icon-only eligibility. Dense hall/allocation/research/friends
+continue below the fold intentionally, with one body scroll and stable Close; actual
+wheel/focus tests prove hidden-row access. Very long duplicate names still ellipsize
+before Invite with full tooltip identity; inline suffix/keyboard tooltip discovery
+is not guaranteed. New lobby/outcome/fallen/stale HUD controls and status text retain
+separate city/context/match hierarchy. No missing glyph or non-scroll collision
+observed. The abstract tabletop is preview context, not a claim about the game's
+current 3D world or projected health.
+
+Metadata/history/source/image/payload contracts **9 passed**;
+`.cache/ui/standalone-final/plan.log`. Offline fast repository **58 tests and two
+inline JavaScript programs passed**, lint/syntax/guardrails;
+`.cache/ui/standalone-final/repo-check.log`. Whitespace passed. No
+configured delivery pipeline, push, PR, merge, release or migration runs here.
+No game edits/refs/import/build/launch, dependencies, shared Blender/MCP mutations
+or world palette changes. External risks stay external per `coverage.md`, not
+unbounded new standalone acceptance criteria.
+
+---
+
+## Historical accepted representative package (inbox 006)
 
 Accepted M0/M1 commits and their exact evidence are preserved. M1 at
 `eb8ec20ca33ecc94ebcfd9ccb4ccf218562103cc` remains FOUNDATION/modal only.
@@ -63,7 +159,7 @@ All **35 final image bytes** reviewed at native dimensions: 27 base frames from
 `production-package/` are byte-identical to final frames; multiplayer, About-error,
 long friends and scrolled locked research at both 1100×820 and 1280×720 were opened
 separately (the final corrected About/friends images also opened). Bindings in
-`visual-review.json`; accepted M1 bindings preserved in `visual-review-m1.json`.
+`visual-review-components.json`; accepted M1 bindings preserved in `visual-review-m1.json`.
 HUD/menu have four-size pictures; dialogs have two-size pictures, not four-size
 visual acceptance. State HUD frames at 1280×720 remain preparation/shortage/lost/
 combat/foreign. See `coverage.md` for the exact boundary and outstanding acceptance.
@@ -165,7 +261,7 @@ All **27 final frames** were actually inspected at their native dimensions throu
 image attachments: HUD/menu at 1100×820, 1280×720, 1600×900, 1920×1080; seven modal
 compositions at the first two sizes; preparation/shortage/lost/combat/foreign at
 1280×720. Final frames are byte-identical to the inspected `control-modal-r1/`
-frames; SHA-256/dimension/review bindings are in `visual-review.json`.
+frames; SHA-256/dimension/review bindings are in `visual-review-m1.json`.
 
 Judgment: cream planes/dark ink remain cohesive with approved Ledger; amber primary
 and muted rose irreversible actions are distinguishable; teal 2px native focus

@@ -12,6 +12,8 @@ func set_data(value: Dictionary) -> void:
 	$Body/Health.value = float(data.get("health_percent", 0))
 	$Body/HealthText.text = str(data.get("health_text", ""))
 	$Body/Statuses.text = str(data.get("statuses", "No current statuses"))
+	$Body/Recovery.text = str(data.get("recovery", ""))
+	$Body/Recovery.visible = not $Body/Recovery.text.is_empty()
 	$Body/PreviewSlot.visible = bool(data.get("show_preview", false))
 	$Body/Retire.disabled = not bool(data.get("can_retire", false))
 	$Body/Destination.clear()

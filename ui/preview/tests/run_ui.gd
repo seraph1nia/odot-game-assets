@@ -270,7 +270,7 @@ func test_layouts() -> void:
 		await frames()
 		expect(ui.find_child("StartMenu", true, false).get_global_rect().size.x == 460, "menu pixel-preserving width " + str(size))
 		await capture("menu-"+str(size.x)+"x"+str(size.y))
-		if size.x <= 1280:
+		if size.x <= 1920:
 			var start = ui.find_child("StartMenu", true, false)
 			start.multiplayer_view = true
 			start.show_menu()
@@ -292,6 +292,19 @@ func test_layouts() -> void:
 					ui.dialog_content.mode = "long-names"
 					ui.dialog_content.refresh(false)
 					await capture("friends-long-"+str(size.x)+"x"+str(size.y))
+				elif kind == "details" and size.x <= 1280:
+					for view in ["paid", "last", "fresh"]:
+						ui.dialog_content.set_data(UIFixtures.details(view))
+						ui.dialog.get_scroll().scroll_vertical = 0
+						await capture("details-"+view+"-"+str(size.x)+"x"+str(size.y))
+				elif kind == "town_hall" and size.x <= 1280:
+					for view in ["empty", "stale", "storage", "recovery", "fragmented"]:
+						ui.dialog_content.set_data(UIFixtures.hall(view))
+						ui.dialog.get_scroll().scroll_vertical = 0
+						await frames()
+						if view in ["recovery", "fragmented"]:
+							ui.dialog.get_scroll().scroll_vertical = int(ui.dialog_content.card.get_global_rect().position.y - ui.dialog.get_scroll().get_global_rect().position.y)
+						await capture("town_hall-"+view+"-"+str(size.x)+"x"+str(size.y))
 				elif kind == "research":
 					ui.dialog_content.get_node("AccessSample").select(1)
 					ui.dialog_content.mode = "owned"
@@ -302,7 +315,7 @@ func test_layouts() -> void:
 				ui.close_dialog()
 	get_window().size = Vector2i(1280,720)
 	ui.switch_screen("hud")
-	for state in ["preparation", "shortage", "lost", "combat", "foreign"]:
+	for state in ["preparation", "shortage", "lost", "combat", "foreign", "paused", "victory", "defeat", "lobby", "fallen", "stale"]:
 		ui.state = state
 		ui.refresh_hud()
 		await capture("hud-"+state+"-1280x720")

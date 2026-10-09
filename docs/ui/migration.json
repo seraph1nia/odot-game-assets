@@ -1,6 +1,6 @@
 {
   "schema_version":1,
-  "status":"Current representative standalone package and UI-only payload checked; broader E–G criteria remain in coverage.md; no migration performed",
+  "status":"Finished intended standalone E–G package and UI-only payload checked; explicit external integration requirements in coverage.md; no migration performed",
   "coverage_record":"coverage.md",
   "payload_manifest":"payload.json",
   "interface_document":"api.md",
@@ -25,6 +25,7 @@
     {"existing":"src/Game/SteamFriendsDialog.cs","inventory":["friends","dialog-shell","session-feedback"],"disposition":"theme complement only","integration":"Existing platform-owned friend/invite behavior","risk":"No real overlay/lobby calls in preview; native Steam windows retain platform presentation"}
   ],
   "excluded":["exploration comparison scene/scripts", "mock context and fixtures", "Blender sources/generators", "supplied reference images", "private logs/XDG state", "third-party Trio source kit copies"],
-  "validation_checked":["UI-only fresh independent project: 9 scenes, Theme and seal", "438 fresh representative input/state/layout checks; four-size HUD/menu and two-size dialogs; 35 actually reviewed frames", "OS XTest same original Settings sequence and modal scope/focus-loss checks", "Relative runtime resource audit and hashes", "Original 192px RGBA/alpha source checks retained; fixed 48px seal; 34237 file bytes / 147456 decoded RGBA bytes, not GPU measurement; native StyleBoxFlat so no nine-slice"],
-  "validation_pending":["Exhaustive projection/composition breadth in coverage.md (HUD/city/session edges, expanded Details receipts, empty/stale/recovery hall combinations)", "Larger dialog visual acceptance and reparented scroll ownership", "Game scale/HiDPI/localization/old-engine/native-desktop measurements", "Actual services/async lifetime/current-game integration tests only after separate migration approval"]
+  "validation_checked":["UI-only fresh independent project: 9 scenes, Theme and seal", "568 fresh input/state/layout checks; four-size HUD/menu/base dialogs, meaningful smaller-size state variants; 79 reviewed image bytes (50 new opened, 29 identical reviewed prior bytes)", "OS XTest same original Settings sequence and modal scope/focus-loss checks", "Relative runtime resource audit and hashes", "Original 192px RGBA/alpha source checks retained; fixed 48px seal; 34237 file bytes / 147456 decoded RGBA bytes, not GPU measurement; native StyleBoxFlat so no nine-slice"],
+  "integration_requirements_not_standalone_blockers":["Re-pin current game/label-removal; namespace collision and local world-input ownership audit", "Game scale/HiDPI/target-engine/native-desktop measurements", "Actual authority generation/phase/quote/transfer/funding/recovery and services/async lifetime tests after separate migration approval"],
+  "presentation_limits":["Construction-time scroll ownership, not arbitrary reparenting", "Very long duplicate friend identity can require tooltip; keyboard-only discovery unestablished", "Default Godot font; localization/RTL/tiny-window/controller/mobile not certified"]
 }

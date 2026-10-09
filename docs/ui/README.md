@@ -1,10 +1,11 @@
 # The Common Watch UI workspace
 
-**Resume here:** accepted M1 foundation is preserved. The next representative
-Ledger E–G component/composition package is checked: **438/0, 35 reviewed frames**,
-OS Settings/modal and independent payload audit. Broader acceptance remains in
-progress; [coverage.md](coverage.md) states exact checked/remaining criteria.
-**No full production-completion claim, game mutation, migration or publication.**
+**Resume here:** intended standalone Ledger **E–G is complete and checked**:
+**568/0, 79 reviewed image bytes**, fresh serial OS Settings/modal and independent
+payload audit. Accepted M0/M1/representative milestones are preserved.
+[coverage.md](coverage.md) defines finished standalone scope and separate external
+integration requirements. **No game integration/mutation, migration or publication.**
+MAIN owns the coordinated delivery handoff; no competing pipeline.
 
 | Need | Read |
 |---|---|
@@ -12,7 +13,7 @@ progress; [coverage.md](coverage.md) states exact checked/remaining criteria.
 | Exact approved direction and scope | [decisions](decisions.md); [M0 artistic evidence](art-direction.md) |
 | Avoid rediscovering game behavior | [discovery](discovery.md), [inventory](inventory.json) |
 | Reuse components / prepare migration | [API](api.md), [architecture](architecture.md), [migration mapping](migration.json), [payload audit](payload.json) |
-| Actual checks / final pictures | [validation](validation.md), [current results](production/production-package-reviewed/results.json), [visual bindings](visual-review.json) |
+| Actual checks / final pictures | [validation](validation.md), [current results](production/standalone-final/results.json), [visual bindings](visual-review.json) |
 | Why modal is not a Window | [causal diagnosis](settings-diagnosis.md), [contrary ownership result](modal-alternatives.md) |
 | Original Blender/PNG provenance | [source bindings](exploration-assets.json) |
 
@@ -42,7 +43,7 @@ in retained evidence. `validate.py --only production` is the bounded new-input r
 (no captures); omit `--only` for full regression/capture acceptance.
 
 `validate.py` imports fresh, performs actual native events/state/layout assertions,
-binds source hashes, and writes 35 captures/results under `docs/ui/production/<label>/`.
+binds source hashes, and writes 79 captures/results under `docs/ui/production/<label>/`.
 It rejects source changes during the run. `diagnose_settings.py` uses the same exact
 Settings sequence with synthetic input or owned X11/XTest, plus isolated cases and
 modal lifecycle checks; it does not directly cancel/refocus to make tests pass.
@@ -52,12 +53,12 @@ fails rather than overwriting its run directory. Plan tests certify metadata, no
 
 Open `ui/preview/project.godot` independently for review. Main scene is
 `prototypes/showcase.tscn`; screen/state selectors use mocks, no services. Final
-reviewed pictures/results are in `production/production-package-reviewed/`;
-`production/m1-tab-scope/` is preserved accepted FOUNDATION evidence, not proof of
-changed views. Other folders preserve failed/intermediate states. Review actual images,
+reviewed pictures/results are in `production/standalone-final/`;
+`production/m1-tab-scope/` and `production/production-package-reviewed/` preserve
+accepted historical evidence, not proof of changed views. Other folders preserve failed/intermediate states. Review actual images,
 record concrete issues and make bounded targeted changes; generated pictures alone
 are not behavior or aesthetic acceptance. See `production.md` and `coverage.md`
-for new checks, visual judgment and remaining E–G projection/integration gaps.
+for final checks, visual judgment and the external integration boundary.
 
 ## Authoring versus validation
 
