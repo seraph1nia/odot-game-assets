@@ -155,6 +155,49 @@ class UnitStyle:
     rounded_materials: tuple = ('skin', 'face_dark', 'leather', 'leather_light', 'magic')
 
 
+@dataclass(frozen=True)
+class GroundStyle:
+    """Only the new painted floor/surface-stream suite; no legacy preset changes."""
+    approach: float = .48
+    path_width: float = .92
+    bank_width: float = .105
+    path_profile: tuple = ((-.5, .006), (-.40, .010), (0, .012), (.40, .010), (.5, .006))
+    river_height: float = .008
+    river_lip_height: float = .016
+    river_edge_height: float = .006
+    river_lip_fraction: float = .44
+    normal_strength: float = .18
+    edge_fade: float = .10
+    curve_steps: int = 32
+    palette: tuple = (
+        ('moss', (.36, .49, .19), (.52, .62, .27), (.24, .31, .14)),
+        ('grass', (.43, .56, .21), (.60, .66, .31), (.30, .37, .16)),
+        ('dirt', (.46, .34, .22), (.62, .49, .31), (.28, .24, .17)),
+        ('leaf_litter', (.39, .31, .19), (.69, .48, .24), (.27, .24, .16)),
+        ('pine_duff', (.34, .32, .19), (.54, .43, .25), (.24, .28, .16)),
+        ('path', (.55, .41, .26), (.69, .55, .35), (.36, .29, .20)),
+        ('river', (.08, .42, .48), (.27, .65, .67), (.055, .28, .33)),
+        ('foundation', (.30, .29, .25), (.36, .34, .28), (.25, .25, .23)),
+    )
+
+    def colors(self, family):
+        return next(row[1:] for row in self.palette if row[0] == family)
+
+    def width(self, family):
+        return self.path_width if family == 'path' else HEX.water_width + 2 * self.bank_width
+
+    def profile(self, family):
+        # Exact water width comes from HEX, rather than rounding profile fractions.
+        if family == 'path':
+            return self.path_profile
+        water_edge = HEX.water_width / (2 * self.width('river'))
+        return ((-.5, self.river_edge_height), (-self.river_lip_fraction, self.river_lip_height),
+                (-water_edge, self.river_height), (0, self.river_height),
+                (water_edge, self.river_height), (self.river_lip_fraction, self.river_lip_height),
+                (.5, self.river_edge_height))
+
+
+GROUND = GroundStyle()
 TEXTURES = TextureStyle()
 GEOMETRY = GeometryStyle()
 HEX = HexStyle()

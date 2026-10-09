@@ -31,10 +31,14 @@ fields/packed images; shared edits route through [libraries](libraries.md).
    Do not add hard glow disks as geometry. `ground()` only handles recognized
    receivers/tagged low roots; architecture/window spill may need a separately
    scoped, calibrated case, not a claim that all surfaces receive dynamic light.
-5. For bridges/streams, reuse `hex_stream`, `waterfall`, `foam` and bridge
-   composition helpers. Preserve `art_style.HEX` channel/height/endpoints and
-   unchanged base placement. Water is an opaque stylized mesh; don't add a
-   transparent/refraction network that cannot match the portable contract.
+5. For existing recessed bridges/streams, reuse `hex_stream`, `waterfall`, `foam`
+   and bridge composition helpers. Preserve their `art_style.HEX`
+   channel/height/endpoints and unchanged base placement. For independent surface
+   streams over flat floors, use the [hex-ground recipe](hex-ground.md); its
+   [consumer interface limitation](../../../../docs/detailed-ground/README.md#layering-footprint-and-consumer-placement)
+   explains why these families cannot join directly. Water is an opaque stylized
+   mesh; don't add a transparent/refraction network that cannot match the portable
+   contract.
 6. Keep flow direction/readable fall and foam at fall/rock contacts (C-WATER).
    If current foam appears detached rings, first revise subordinate shape/
    placement under approved scope rather than changing shared endpoint heights
