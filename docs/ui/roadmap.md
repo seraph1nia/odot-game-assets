@@ -9,7 +9,7 @@ A–C is the first delivery, not completion of the overall UI system.
 
 Current phase: intended standalone **E–G completed**, coordinated delivery handoff
 pending. Accepted M0/M1/representative evidence preserved. `production.md` records
-fresh **568/0, 79 reviewed image bytes**, serial OS 11+64, independent UI-only audit
+fresh **588/0, 79 image bytes with visual-review coverage**, serial OS 11+64, independent UI-only audit
 and historical failures. `coverage.md` distinguishes the finished standalone
 boundary from exhaustive Cartesian products and separately authorized integration.
 Machine authority for status/dependencies/acceptance: [tasks.json](tasks.json).

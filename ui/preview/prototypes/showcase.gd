@@ -57,13 +57,11 @@ func build() -> void:
 	var screens = ["hud", "menu", "research", "town_hall", "settings", "details", "friends", "components"]
 	for name in screens: scenes.add_item(name.capitalize())
 	toolbar.add_child(scenes)
-	scenes.select(max(0, screens.find(screen_mode)))
 	scenes.item_selected.connect(func(index): switch_screen.call_deferred(screens[index]))
 	var states = OptionButton.new()
 	states.name = "StateSelector"
 	var state_names = ["building", "ready", "preparation", "combat", "shortage", "foreign", "paused", "lost", "victory", "defeat", "lobby", "fallen", "stale"]
 	for name in state_names: states.add_item(name.capitalize())
-	states.select(max(0, state_names.find(state)))
 	toolbar.add_child(states)
 	states.item_selected.connect(func(index): state = state_names[index]; refresh_hud())
 	var settings_button = WatchUI.button(toolbar, "Settings")
@@ -84,8 +82,20 @@ func switch_screen(mode: String) -> void:
 	else:
 		if ledger == null or not is_instance_valid(ledger): screen_mode = "hud"; build_content(); screen_mode = mode
 		open_dialog(mode)
+	sync_selectors()
+
+func select_value(picker: OptionButton, value: String) -> void:
+	for index in range(picker.item_count):
+		if picker.get_item_text(index) == value:
+			picker.select(index)
+			return
+
+func sync_selectors() -> void:
+	select_value(find_child("ScreenSelector", true, false), screen_mode.capitalize())
+	select_value(find_child("StateSelector", true, false), state.capitalize())
 
 func build_content() -> void:
+	sync_selectors()
 	var area = $Layout.get_child(0).get_node("Content")
 	WatchUI.clear(area)
 	ledger = null
@@ -164,6 +174,7 @@ func build_content() -> void:
 	refresh_hud()
 
 func refresh_hud() -> void:
+	sync_selectors()
 	if ledger == null or not is_instance_valid(ledger): return
 	ledger.set_data(UIFixtures.resources(state))
 	upkeep.set_data(UIFixtures.upkeep(state))
@@ -175,6 +186,7 @@ func refresh_hud() -> void:
 	refresh_context()
 
 func refresh_context() -> void:
+	select_value(context.get_node("Selection"), selection)
 	WatchUI.clear(context.get_node("Actions"))
 	actions.clear()
 	var host = context.get_node("Actions")

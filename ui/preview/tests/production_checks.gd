@@ -44,6 +44,7 @@ func run() -> void:
 	ui.refresh_hud()
 	await frames()
 	var world = ui.world_clicks
+	await selector_navigation()
 	await scrolling()
 	await research()
 	await inspection()
@@ -59,6 +60,39 @@ func run() -> void:
 	ui.state = "building"
 	ui.refresh_hud()
 	await frames()
+func selector_navigation() -> void:
+	var screen = ui.find_child("ScreenSelector", true, false)
+	var state_picker = ui.find_child("StateSelector", true, false)
+	var observed = {"screen":0, "state":0, "selection":0}
+	screen.item_selected.connect(func(_index): observed.screen += 1)
+	state_picker.item_selected.connect(func(_index): observed.state += 1)
+	var picker = ui.context.get_node("Selection")
+	picker.item_selected.connect(func(_index): observed.selection += 1)
+	await choose(picker, 4)
+	expect(ui.selection == "Market" and ui.actions[0].data.id == "trade-wood", "native Market selection projects market quotes")
+	var last = ui.last_action
+	await choose(screen, 1)
+	expect(ui.screen_mode == "menu" and screen.get_item_text(screen.selected) == "Menu", "screen selector navigates to menu")
+	await click(ui.find_child("StartMenu", true, false).get_node("Body/Solo"))
+	picker = ui.context.get_node("Selection")
+	expect(screen.get_item_text(screen.selected) == "Hud", "Solo synchronizes screen caption")
+	expect(picker.get_item_text(picker.selected) == "Market" and ui.actions[0].data.id == "trade-wood", "HUD rebuild retains Market caption and quotes")
+	expect(observed.screen == 1 and observed.selection == 1 and ui.last_action == last, "rebuild synchronization emits no additional selection or mock intents")
+	await click(ui.navigation.get_node("Row/Next"))
+	expect(ui.state == "foreign" and state_picker.get_item_text(state_picker.selected) == "Foreign", "next city synchronizes foreign state caption")
+	await click(ui.navigation.get_node("Row/Previous"))
+	expect(ui.state == "building" and state_picker.get_item_text(state_picker.selected) == "Building", "previous city synchronizes owner state caption")
+	expect(observed.state == 0 and ui.last_action == last, "city caption synchronization emits no state or gameplay intents")
+	await choose(state_picker, 6)
+	expect(ui.state == "paused" and ui.actions[0].get_node("Body/Action").disabled, "native state selection retains paused quote gate")
+	await choose(state_picker, 0)
+	await choose(picker, 0)
+	expect(ui.selection == "Producer" and ui.actions[0].data.id == "upgrade", "native selection returns to ordinary Producer quotes")
+	await choose(screen, 2)
+	expect(ui.dialog.visible and screen.get_item_text(screen.selected) == "Research", "screen selector opens requested dialog")
+	await key(KEY_ESCAPE)
+	await choose(screen, 0)
+	expect(ui.screen_mode == "hud" and ui.dialog == null, "screen selector returns from dialog to HUD")
 func scrolling() -> void:
 	for kind in ["research", "town_hall", "details", "friends"]:
 		ui.open_dialog(kind)
@@ -319,6 +353,8 @@ func settings() -> void:
 	await click(return_button)
 	await click(ui.active_confirmation.get_ok_button())
 	expect(ui.screen_mode == "menu" and ui.dialog == null, "Return confirmation mock navigation")
+	var screen = ui.find_child("ScreenSelector", true, false)
+	expect(screen.get_item_text(screen.selected) == "Menu", "Return confirmation synchronizes screen caption")
 	ui.switch_screen("hud")
 func friends() -> void:
 	ui.open_dialog("friends")

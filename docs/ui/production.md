@@ -1,6 +1,48 @@
 # Ledger production — finished intended standalone package
 
-## Current standalone E–G acceptance (inbox 007)
+## Current review-fix acceptance
+
+The approved standalone scope is unchanged. Review fixed implicit 3D discovery of
+only the two 2D seal sources, removed source-text portability proxies, made retained
+acceptance byte contracts independent of historical Git objects, and synchronized
+screen/state/selection captions without additional intents. Native navigation
+regressions cover Market → Menu → Solo, both city directions, native state/selection
+changes, dialog selector navigation and Return confirmation. Original Settings
+order/assertions, modal lifecycle, scrolling and world-input gates remain intact.
+
+Fresh normal acceptance: **588 checks / 0 failures / 79 captures**, source-bound
+`production/review-fixes/results.json`, `.cache/ui/review-fixes/tests.log`.
+Serial owned X11/XTest Settings **11/0**, modal **64/0**, zero world leaks:
+`.cache/ui-diagnosis/{full,modal}-os-none-review-fixes/probe.log`.
+Independent private UI-only audit: **nine scenes, Theme/seal, 32 files**,
+`.cache/ui-payload/review-fixes/load.log`, current hashes in `payload.json`.
+
+All **19 changed PNGs were opened at native dimensions**: eight start/multiplayer
+frames at all four desktop sizes and eleven 1280×720 HUD state frames. Menu now
+shows Menu; each state caption agrees with the corresponding projection. Approved
+cream/ink/amber/rose surfaces, teal focus, fixed seal and layout hierarchy are
+unchanged; no new clipping/overlap or visual regression observed. Read-only quote
+reasons still intentionally extend below the scroll fold. The remaining **60 PNGs
+are exact SHA256 matches** to the retained submitted image set.
+`visual-review-review-fixes.json` binds all 79 current bytes and the inspected list;
+`visual-review.json` remains the unchanged submitted binding, not current source
+acceptance. M0/M1/representative results, IDs, original visual bindings and genuine
+failed evidence are preserved. `preservation.json` freezes retained result bytes,
+including recorded source hashes; it does not reconstruct historical source files.
+
+Focused Python verification: **four export-plan tests** and **nine UI
+metadata/provenance contracts**. Full repository test/lint gates are left to the
+outer pipeline; historical 58-test results below are not a new gate result.
+
+Platform remains Godot **4.7.2 .NET**, owned Xvfb, Compatibility/Mesa **llvmpipe**,
+Dummy audio. This is mock-data/native-control coverage, not physical input, native
+GPU/VRAM/FPS or game integration. Unit preview was tested with a Label, not a model;
+long duplicate friend identity may require a tooltip, with keyboard-only discovery
+unestablished. Scroll ownership remains construction-time. No game access/write,
+import/build/launch, migration, installs, dependencies, new decoration or Blender
+regeneration occurred. Only this review phase ran; the outer pipeline owns delivery.
+
+## Historical submitted standalone E–G acceptance (inbox 007)
 
 MAIN directed continued autonomous completion, accepting the previous representative
 commit `a8cf17354c120f7775dabe3e60d2c1e0a54142ae` without mistaking it for full
@@ -10,7 +52,7 @@ Meaningful discovered UI states, intended desktop dimensions and projection/inte
 interfaces are the boundary, not new exhaustive services/platform cross-products.
 `coverage.md` and `tasks.json` give current scope; publication/game integration
 remain unauthorized and unperformed. Historical M0/M1/representative records below
-remain as accepted, with their exact source/images independently preserved.
+remain as accepted, with recorded source bindings and exact image bytes preserved.
 
 ### Added functional projections and input
 

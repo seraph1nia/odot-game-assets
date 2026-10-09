@@ -1,0 +1,33 @@
+{
+  "milestone": "Review fixes within the approved standalone E–G package; no game integration/publication",
+  "final_directory": "docs/ui/production/review-fixes",
+  "capture_manifest": "production/review-fixes/results.json",
+  "capture_count": 79,
+  "image_set_sha256": "1adbd0cd0728bd79fb0cc4de76dfb8a2fe2afb42eaafa33ba22aa41195e60234",
+  "image_set_encoding": "UTF-8, result capture order: filename + space + width + space + height + space + SHA256(PNG bytes) + newline for each capture",
+  "prior_review": "visual-review.json",
+  "historical_m1": "visual-review-m1.json",
+  "review": "All 19 changed PNGs opened at native dimensions in the review fix phase; the other 60 PNGs are exact SHA256 matches to the retained submitted image set bound by prior_review. Menu captions now show Menu at all four sizes; eleven HUD state captions match their rendered projections. No new clipping, overlap, material or hierarchy regression observed. Read-only reason bodies still intentionally scroll below the fold. Unchanged images inherit only their byte-bound prior visual review, not behavioral acceptance of edited source.",
+  "record": "production.md",
+  "newly_inspected": [
+    "menu-1100x820.png",
+    "menu-multiplayer-1100x820.png",
+    "menu-1280x720.png",
+    "menu-multiplayer-1280x720.png",
+    "menu-1600x900.png",
+    "menu-multiplayer-1600x900.png",
+    "menu-1920x1080.png",
+    "menu-multiplayer-1920x1080.png",
+    "hud-preparation-1280x720.png",
+    "hud-shortage-1280x720.png",
+    "hud-lost-1280x720.png",
+    "hud-combat-1280x720.png",
+    "hud-foreign-1280x720.png",
+    "hud-paused-1280x720.png",
+    "hud-victory-1280x720.png",
+    "hud-defeat-1280x720.png",
+    "hud-lobby-1280x720.png",
+    "hud-fallen-1280x720.png",
+    "hud-stale-1280x720.png"
+  ]
+}

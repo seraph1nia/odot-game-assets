@@ -6,8 +6,11 @@ mock compositions and Phase G migration preparation, clarified by inbox 007.
 publication and rollout are not performed or certified.** Accepted M0/M1 and the
 scrolling/representative milestone remain unchanged historical evidence.
 
-Current normal acceptance: **568 checks / zero failures / 79 captures**;
-[production record](production.md), [source-bound results](production/standalone-final/results.json).
+Current normal acceptance: **588 checks / zero failures / 79 captures**;
+[production record](production.md), [source-bound results](production/review-fixes/results.json).
+Review fixes add native selector-navigation regressions; the original Settings,
+modal/scroll/world-input gates remain unchanged. Submitted 568/79 evidence is retained,
+not used to certify edited source.
 This is meaningful discovered state coverage, not every phase×selection×eligibility
 Cartesian product or an exhaustive future-platform campaign.
 
@@ -35,10 +38,11 @@ also have four-size frames. Details paid/last/fresh and hall empty/stale/storage
 recovery/fragmented have two-size state pictures. Eleven meaningful HUD state views
 are additionally captured at 1280×720. No claim that every state has four pictures.
 
-All **79 final image bytes have actual visual review**: 50 new frames opened at
-native dimensions, 29 proven byte-identical to previously inspected frames from the
-accepted representative package. `visual-review.json` binds the ordered image-set
-SHA-256, dimensions, explicitly newly inspected filenames and earlier review bytes.
+All **79 current image bytes have visual-review coverage**: 19 changed frames opened
+at native dimensions in this review-fix phase, 60 proven byte-identical to the
+retained submitted image set. `visual-review-review-fixes.json` binds the ordered
+image-set SHA-256, dimensions, inspected filenames and prior `visual-review.json`
+bytes. The submitted binding remains unchanged.
 New/changed views never inherit acceptance merely because old screenshots exist.
 
 Input uses real native Godot Controls with injected mouse/wheel/keyboard events;

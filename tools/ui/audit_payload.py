@@ -42,13 +42,6 @@ def main():
             continue
         if path.is_symlink():
             raise ValueError(f'External/symlink resource: {path}')
-        if path.suffix in ('.gd', '.tscn', '.tres'):
-            text = path.read_text()
-            if '/home/' in text or 'odot-game/' in text:
-                raise ValueError(f'External runtime reference: {path}')
-            for resource in re.findall(r'res://[^"\n]+', text):
-                if not resource.startswith('res://UI/') or not (ROOT / 'ui/preview' / resource[6:]).exists():
-                    raise ValueError(f'Non-payload dependency: {resource}')
         manifest[path.relative_to(source).as_posix()] = hashlib.sha256(path.read_bytes()).hexdigest()
     shutil.copytree(source, cache / 'UI')
     (cache / 'project.godot').write_text('[application]\nconfig/name="UI payload audit"\n[rendering]\nrenderer/rendering_method="gl_compatibility"\n')

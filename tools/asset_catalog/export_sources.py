@@ -34,8 +34,11 @@ def plan_exports(root=ROOT, asset_ids=None):
                       if isinstance(entry.get('source'), str)}
     # Root-level .blend files are overview scenes. Shared libraries are only
     # exported through explicit per-asset mappings, never as one giant model.
+    ui_authoring_sources = {'sources/ui/menu_seal.blend', 'sources/ui/explorations/watch_seal.blend'}
     for path in (root / 'sources').rglob('*.blend'):
         relative = path.relative_to(root / 'sources')
+        if path.relative_to(root).as_posix() in ui_authoring_sources:
+            continue
         if len(relative.parts) > 1 and path.relative_to(root).as_posix() not in shared_sources:
             candidates.add(relative.with_suffix('').as_posix())
     jobs = []

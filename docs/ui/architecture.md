@@ -11,7 +11,9 @@ Interfaces/migration boundary: [api.md](api.md); actual evidence:
 |---|---|
 | `docs/ui/` | Discovery, exact approval, inventory/backlog, reviews, source bindings, migration |
 | `docs/ui/previews/` | Historical M0 Ledger/Watch comparisons |
-| `docs/ui/production/standalone-final/` | Current source-bound 79 captures/results |
+| `docs/ui/production/review-fixes/` | Current source-bound 79 captures/results |
+| `docs/ui/production/standalone-final/` | Retained submitted 568-check/79-frame acceptance |
+| `docs/ui/preservation.json` | Frozen retained result/source-binding and visual-review byte contracts, independent of Git history |
 | `docs/ui/production/production-package-reviewed/` | Preserved accepted representative 35-frame evidence |
 | `docs/ui/production/m1-tab-scope/` | Preserved accepted 27-frame M1 foundation evidence |
 | `docs/ui/production/` other folders | Preserved failed/intermediate captures, not relabeled as current acceptance |

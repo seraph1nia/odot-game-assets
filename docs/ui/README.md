@@ -1,7 +1,7 @@
 # The Common Watch UI workspace
 
 **Resume here:** intended standalone Ledger **E–G is complete and checked**:
-**568/0, 79 reviewed image bytes**, fresh serial OS Settings/modal and independent
+**588/0, 79 image bytes with visual-review coverage**, fresh serial OS Settings/modal and independent
 payload audit. Accepted M0/M1/representative milestones are preserved.
 [coverage.md](coverage.md) defines finished standalone scope and separate external
 integration requirements. **No game integration/mutation, migration or publication.**
@@ -13,7 +13,8 @@ MAIN owns the coordinated delivery handoff; no competing pipeline.
 | Exact approved direction and scope | [decisions](decisions.md); [M0 artistic evidence](art-direction.md) |
 | Avoid rediscovering game behavior | [discovery](discovery.md), [inventory](inventory.json) |
 | Reuse components / prepare migration | [API](api.md), [architecture](architecture.md), [migration mapping](migration.json), [payload audit](payload.json) |
-| Actual checks / final pictures | [validation](validation.md), [current results](production/standalone-final/results.json), [visual bindings](visual-review.json) |
+| Actual checks / final pictures | [validation](validation.md), [current results](production/review-fixes/results.json), [visual bindings](visual-review-review-fixes.json) |
+| Retained acceptance byte contracts | [preservation manifest](preservation.json), [submitted visual binding](visual-review.json) |
 | Why modal is not a Window | [causal diagnosis](settings-diagnosis.md), [contrary ownership result](modal-alternatives.md) |
 | Original Blender/PNG provenance | [source bindings](exploration-assets.json) |
 
@@ -53,7 +54,8 @@ fails rather than overwriting its run directory. Plan tests certify metadata, no
 
 Open `ui/preview/project.godot` independently for review. Main scene is
 `prototypes/showcase.tscn`; screen/state selectors use mocks, no services. Final
-reviewed pictures/results are in `production/standalone-final/`;
+reviewed pictures/results are in `production/review-fixes/`;
+`production/standalone-final/` and `visual-review.json` retain submitted acceptance bytes;
 `production/m1-tab-scope/` and `production/production-package-reviewed/` preserve
 accepted historical evidence, not proof of changed views. Other folders preserve failed/intermediate states. Review actual images,
 record concrete issues and make bounded targeted changes; generated pictures alone
@@ -68,6 +70,12 @@ no slice margins or additional initial Blender art. Do not rebuild merely to val
 `tools/ui/explore_crest.py` rebuilds **both** original studies through the existing
 isolated asset worker; preserve manual edits and obtain explicit regeneration scope
 before running it. Saved sources are editable; source/output hashes are recorded.
+The two 2D seal sources are excluded from implicit 3D discovery at `plan_exports()`;
+other nested 3D sources and explicit catalog mappings retain their export behavior.
+Historical result/source-binding and visual-review bytes are frozen in
+`preservation.json`; ordinary preservation checks need no pre-rebase Git objects.
+They do not independently reconstruct historical source checkouts. Portability
+behavior is established by the private UI-only Godot loader, not source-text scans.
 
 The native Theme authoring script is `tools/ui/build_theme.gd`; preserve manual
 Theme edits before intentionally regenerating through a private headless engine:

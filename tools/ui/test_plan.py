@@ -1,9 +1,7 @@
 """Cheap metadata/provenance contracts, not input testing or an aesthetic verdict."""
 import hashlib
 import json
-import re
 import struct
-import subprocess
 import unittest
 from pathlib import Path
 
@@ -61,17 +59,21 @@ class IntakeContracts(unittest.TestCase):
     def test_final_evidence_and_source_binding(self):
         result = load(load('tasks.json')['package_results'])
         self.assertEqual(result['failures'], [])
-        self.assertEqual(result['checks'], 568)
+        self.assertEqual(result['checks'], 588)
         self.assertEqual(len(result['captures']), 79)
         self.assertIn('llvmpipe', result['renderer'])
         for name, digest in result['source_sha256'].items():
             self.assertEqual(hashlib.sha256((PROJECT / name).read_bytes()).hexdigest(), digest, name)
-        binding = load('visual-review.json')
+        binding = load(load('tasks.json')['package_visual_review'])
         self.assertEqual(binding['capture_count'], 79)
         prior = load(binding['prior_review'])
-        prior_hashes = {item['path']: item['sha256'] for item in prior['captures']}
+        prior_result = load(prior['capture_manifest'])
+        prior_hashes = {item['path']: hashlib.sha256((ROOT / prior['final_directory'] / item['path']).read_bytes()).hexdigest()
+                        for item in prior_result['captures']}
+        prior_rows = [f"{item['path']} {item['width']} {item['height']} {prior_hashes[item['path']]}\n"
+                      for item in prior_result['captures']]
+        self.assertEqual(hashlib.sha256(''.join(prior_rows).encode()).hexdigest(), prior['image_set_sha256'])
         inspected = set(binding['newly_inspected'])
-        self.assertEqual(len(inspected), 50)
         names = set(); rows = []; inherited = 0
         for item in result['captures']:
             name = item['path']; names.add(name)
@@ -84,21 +86,14 @@ class IntakeContracts(unittest.TestCase):
                 inherited += 1
         self.assertEqual(len(names), 79)
         self.assertTrue(inspected <= names)
-        self.assertEqual(inherited, 29)
+        self.assertEqual(inherited + len(inspected), len(names))
         self.assertEqual(hashlib.sha256(''.join(rows).encode()).hexdigest(), binding['image_set_sha256'])
 
     def test_historical_representative_package_is_preserved(self):
-        commit = load('tasks.json')['representative_commit']
-        def original(path):
-            return subprocess.check_output(['git', 'show', f'{commit}:{path}'], cwd=ROOT)
-        name = 'docs/ui/production/production-package-reviewed/results.json'
-        self.assertEqual((ROOT / name).read_bytes(), original(name))
+        self.preserved_milestone('representative')
         result = load('production/production-package-reviewed/results.json')
         self.assertEqual((result['checks'], result['failures']), (438, []))
-        for path, digest in result['source_sha256'].items():
-            self.assertEqual(hashlib.sha256(original('ui/preview/' + path)).hexdigest(), digest, path)
         binding = load('visual-review-components.json')
-        self.assertEqual((DOCS / 'visual-review-components.json').read_bytes(), original('docs/ui/visual-review.json'))
         self.assertEqual(len(binding['captures']), 35)
         for item in binding['captures']:
             path = ROOT / binding['final_directory'] / item['path']
@@ -106,18 +101,10 @@ class IntakeContracts(unittest.TestCase):
             self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), item['sha256'])
 
     def test_historical_m1_is_preserved_not_rebound_to_changed_source(self):
-        commit = load('tasks.json')['foundation_commit']
-        self.assertEqual(commit, 'eb8ec20ca33ecc94ebcfd9ccb4ccf218562103cc')
-        def original(path):
-            return subprocess.check_output(['git', 'show', f'{commit}:{path}'], cwd=ROOT)
-        name = 'docs/ui/production/m1-tab-scope/results.json'
-        self.assertEqual((ROOT / name).read_bytes(), original(name))
+        self.preserved_milestone('foundation')
         result = load('production/m1-tab-scope/results.json')
         self.assertEqual((result['checks'], result['failures']), (271, []))
-        for path, digest in result['source_sha256'].items():
-            self.assertEqual(hashlib.sha256(original('ui/preview/' + path)).hexdigest(), digest, path)
         binding = load('visual-review-m1.json')
-        self.assertEqual((DOCS / 'visual-review-m1.json').read_bytes(), original('docs/ui/visual-review.json'))
         self.assertEqual(len(binding['captures']), 27)
         for item in binding['captures']:
             path = ROOT / item['path']
@@ -125,6 +112,17 @@ class IntakeContracts(unittest.TestCase):
             self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), item['sha256'])
             final = ROOT / binding['final_directory'] / path.name
             self.assertEqual(hashlib.sha256(final.read_bytes()).hexdigest(), item['sha256'])
+
+    def preserved_milestone(self, name):
+        milestone = load('preservation.json')['milestones'][name]
+        self.assertEqual(milestone['commit'], load('tasks.json')[name + '_commit'])
+        for path, digest in milestone['files'].items():
+            self.assertEqual(hashlib.sha256((DOCS / path).read_bytes()).hexdigest(), digest, path)
+
+    def test_submitted_acceptance_is_preserved(self):
+        milestone = load('preservation.json')['milestones']['submitted']
+        for path, digest in milestone['files'].items():
+            self.assertEqual(hashlib.sha256((DOCS / path).read_bytes()).hexdigest(), digest, path)
 
     def test_runtime_payload_and_inventory_binding(self):
         manifest = load('payload.json')
@@ -159,20 +157,6 @@ class IntakeContracts(unittest.TestCase):
             header = png_header(ROOT / capture['path'])
             self.assertEqual(header[:2], (capture['width'], capture['height']))
             self.assertIn('llvmpipe', capture['renderer'])
-
-    def test_portable_exploration_paths(self):
-        for path in PROJECT.rglob('*'):
-            if '.godot' in path.parts or path.suffix not in ('.gd', '.tscn', '.godot'):
-                continue
-            text = path.read_text()
-            self.assertNotIn('/home/', text)
-            self.assertNotIn('odot-game/', text)
-            for resource in re.findall(r'res://[^"\n]+', text):
-                # Dynamic direction texture path is checked by the asset manifest instead.
-                if resource.endswith('/'):
-                    continue
-                self.assertTrue((PROJECT / resource.removeprefix('res://')).is_file(), resource)
-        self.assertTrue((PROJECT / 'project.godot').is_file())
 
 
 if __name__ == '__main__':

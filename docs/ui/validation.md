@@ -1,6 +1,33 @@
 # UI validation and limitations
 
-## Current finished standalone E–G package — inbox 007
+## Current review-fix acceptance
+
+- Normal source-bound UI acceptance **588/0, 79 captures**:
+  `production/review-fixes/results.json`, `.cache/ui/review-fixes/tests.log`.
+  Native selector regressions supplement, not replace, original Settings/modal/
+  scroll/input gates. No extra mock/gameplay intents from synchronization.
+- Serial owned OS Settings **11/0**, modal **64/0**, zero world leaks:
+  `.cache/ui-diagnosis/{full,modal}-os-none-review-fixes/probe.log`.
+- Fresh independent UI-only loader **nine scenes, Theme/seal, 32 files**:
+  `.cache/ui-payload/review-fixes/load.log`, current `payload.json`.
+  Loading the isolated copy supplies portability evidence; source scans do not.
+- **19 changed PNGs actually opened**, **60 exact SHA256 matches** to the retained
+  submitted set. Current binding `visual-review-review-fixes.json`; original
+  `visual-review.json` and accepted M1/representative bindings remain unchanged.
+- Focused **four export-plan tests** and **nine UI contracts**. Preservation uses
+  tracked `preservation.json` hashes of retained results/source bindings and reviews,
+  plus actual PNG hashes/dimensions. No old Git objects or history fetching required;
+  no independent reconstruction of historical source is claimed.
+- The complete repository test/lint gates remain the outer executor's responsibility.
+  Historical counts/logs below describe earlier submitted checkpoints only.
+
+Same Godot 4.7.2 .NET / Xvfb / Compatibility-Mesa llvmpipe / Dummy audio limits:
+mock projections, not actual game authority/services; Label preview slot, not model
+rendering; long-name tooltips not keyboard-discovery certification; construction-time
+scroll ownership, not arbitrary reparenting. No physical/native GPU/FPS/VRAM claim,
+game access/write/import/build/launch, installs, extra art or migration.
+
+## Historical submitted standalone E–G package — inbox 007
 
 - Fresh unchanged-source Godot acceptance **568 checks / 0 failures / 79 captures**,
   `.cache/ui/standalone-final/tests.log`, source/results
@@ -26,7 +53,8 @@
 - **Nine metadata/source/image/payload/history contracts** passed; historical M1 and
   representative results/source bindings validate against accepted Git commits,
   exact original visual JSONs preserved as `visual-review-m1.json` and
-  `visual-review-components.json`. Git history needed only for authoring tests.
+  `visual-review-components.json`. Those historical Git-based checks are superseded
+  by the self-contained byte contracts above.
 - Existing offline fast route: **58 tests and two inline JavaScript programs passed**,
   lint/syntax/guardrails, `.cache/ui/standalone-final/repo-check.log`;
   `.cache/ui/standalone-final/plan.log`. No new install/art/library rebuild.
@@ -72,7 +100,8 @@ failed; no reclassification to pass and no weakened tests.
   `.cache/ui/production-package-reviewed/repo-check.log`. `git diff --check` passed.
   Historical M1 hashes validate against its accepted Git commit, not changed live
   source; the old visual binding is copied byte-for-byte to `visual-review-m1.json`.
-  This authoring check needs Git history (not a runtime UI dependency).
+  That historical Git-based authoring check is now replaced by the self-contained
+  byte contract above; Git history is no longer needed.
 
 Godot 4.7.2 .NET / owned Xvfb / Compatibility-Mesa llvmpipe / Dummy audio. No GPU
 performance or native-desktop/physical-input claim. Current [coverage](coverage.md)
