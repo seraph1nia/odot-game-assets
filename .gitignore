@@ -19,6 +19,7 @@ mise.local.lock
 
 # Disposable catalog output and thumbnail cache; rendered PNGs can be committed.
 /exports/catalog.json
+/exports/ui/ledger-ui.zip
 /exports/thumbnails/state.json
 /exports/thumbnails/**/*.rendering.png
 /dist/

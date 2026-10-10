@@ -23,7 +23,7 @@ async () => {
   assert(!document.querySelector('model-viewer'), 'Grid does not create full 3D viewers');
   const endpoint = new URL(document.querySelector('meta[name="catalog-endpoint"]').content, document.baseURI);
   const metadata = await (await fetch(endpoint)).json();
-  assert(document.querySelectorAll('.card').length === metadata.assets.length, 'All discovered GLBs appear in the grid');
+  assert(document.querySelectorAll('.card').length === metadata.assets.length, 'All generated model/UI entries appear in the grid');
   change('search', 'sword', 'input');
   assert([...document.querySelectorAll('.card')].every(card => card.dataset.id.includes('sword')), 'Search narrows the grid');
   assert(new URL(location.href).searchParams.get('q') === 'sword', 'Search is preserved in URL');

@@ -58,7 +58,7 @@ def main():
                 if '<script' not in html: continue
                 parser=Scripts(); parser.feed(html)
                 scripts.extend((str(path.relative_to(ROOT)),script) for script in parser.scripts)
-    for path in [ROOT/'catalog/catalog.js',ROOT/'tools/asset_catalog/browser_checks.js']:
+    for path in [ROOT/'catalog/catalog.js',ROOT/'tools/asset_catalog/browser_checks.js',ROOT/'tools/asset_catalog/browser_ui_checks.js']:
         subprocess.run(['node','--check',str(path)],check=True,capture_output=True,text=True)
     with tempfile.TemporaryDirectory() as directory:
         for index,(source,script) in enumerate(scripts):

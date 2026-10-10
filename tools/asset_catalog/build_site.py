@@ -6,6 +6,7 @@ import tempfile
 from pathlib import Path
 
 from .index import CatalogIndex, ROOT, write_json
+from .ui_assets import publish_ui
 
 MARKER = '.asset-catalog-build'
 
@@ -16,7 +17,7 @@ def build_site(output='dist/catalog', include_sources=False, root=ROOT):
     output = (root / output).resolve() if not output.is_absolute() else output.resolve()
     if root.is_relative_to(output):
         raise ValueError('Build output cannot contain the repository')
-    for folder in ('catalog', 'exports', 'sources', 'tools', '.git', '.github'):
+    for folder in ('catalog', 'exports', 'sources', 'tools', 'ui', 'docs', '.git', '.github'):
         protected = root / folder
         if output.is_relative_to(protected) or protected.is_relative_to(output):
             raise ValueError(f'Build output overlaps repository inputs: {folder}')
@@ -52,8 +53,13 @@ def build_site(output='dist/catalog', include_sources=False, root=ROOT):
         html = html.replace('content="api/catalog"', 'content="catalog.json"')
         html = html.replace('content="live"', 'content="static"')
         (stage / 'index.html').write_text(html)
+        ui = [asset for asset in data['assets'] if asset.get('kind')]
+        if ui:
+            publish_ui(root, stage, ui)
         copied = {}
         for asset in data['assets']:
+            if asset.get('kind'):
+                continue  # Native runtime/dependency records are already content hashed.
             if asset['source'] and not include_sources:
                 asset['source'] = None
                 asset['source_excluded'] = True

@@ -1,0 +1,51 @@
+{
+  "scope": "Historical task evidence, not shipped runtime or final acceptance",
+  "failures": [
+    {
+      "stage": "Initial focused metadata selection",
+      "label": "native-1",
+      "exception": "FileNotFoundError",
+      "reason": "The inventory health-style visual-system alias precedes its actual unit-inspection component. Selection now deduplicates actual resource kinds rather than creating a fake health-style component.",
+      "logs": ".cache/ui-catalog/native-1/"
+    },
+    {
+      "stage": "Initial native regression import",
+      "log": ".cache/ui-catalog-regression/import.log",
+      "error": "ERROR: .NET Sdk not found. The required version is '10.0.12'.",
+      "reason": "Task wrapper omitted the existing SDK from PATH; no engine/resource defect and no installation. Fresh isolated rerun with explicit SDK PATH succeeded."
+    },
+    {
+      "stage": "Initial browser attachment",
+      "session": "odot-ui-catalog",
+      "attempts": 2,
+      "code": "BRIDGE_NOT_READY",
+      "message": "Bridge is running but the attached CDP target appears to have gone away",
+      "verdict": "Failed connection, not browser evidence; resolved only after owned sandboxed approved private Chrome and a distinct task session successfully listed/selected/snapshotted actual pages."
+    },
+    {
+      "stage": "Browser evidence formatting",
+      "log": ".cache/ui-catalog-browser/final-root-ui-checks.txt",
+      "reason": "The bridge truncated the verbose 226-result JSON. Attempted machine parsing raised JSONDecodeError; the browser itself had completed. Final runs returned compact counts/package hash/full-results hash rather than pretending the truncated representation was parseable."
+    },
+    {
+      "stage": "Showcase detail scope label",
+      "reason": "Initial showcase stats showed the shared runtime namespace, misleading for authoring-only prototype scenes. Changed only showcase stats to Scope: Authoring-only prototype; real browser suite and changed detail views were checked again."
+    },
+    {
+      "stage": "Final model-check invocation precondition",
+      "log": ".cache/ui-catalog-browser/final-model-checks-2.txt",
+      "error": "Error: All generated model/UI entries appear in the grid",
+      "reason": "Acceptance script invoked while ui/ search was active instead of its documented unfiltered root precondition. Fresh unfiltered navigation succeeded with all 28 actual model checks; earlier failed invocation is not green evidence."
+    }
+  ],
+  "earlier_package_checks": [
+    {
+      "path": ".cache/ui-catalog-package/native-1/result.json",
+      "note": "Earlier generated package omitted PNG import recipe; this is not the final payload binding."
+    },
+    {
+      "path": ".cache/ui-catalog-package/native-2/result.json",
+      "note": "Same earlier package; retained native load evidence, superseded by final 32-file package-check.json."
+    }
+  ]
+}

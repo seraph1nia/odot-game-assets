@@ -28,8 +28,8 @@ quality pilot, rollout or game integration. Those operations need separate scope
 Start with [docs/ui/README.md](docs/ui/README.md) for the approved Ledger direction,
 finished intended standalone native component/composition package, preserved
 accepted history, original editable menu seal, functional Godot preview, actual
-input/visual evidence and migration-ready interfaces. Game integration/publication
-remain separate and unauthorized; this is not an automatic game rollout.
+input/visual evidence and migration-ready interfaces. Game integration/rollout
+remain separate and unauthorized; catalog publication is not a game rollout.
 No game checkout is needed at runtime, and UI checks do not rebuild world assets
 or access shared Blender/MCP scenes.
 
@@ -48,7 +48,7 @@ install, CDN, AI service, Lavish, or game checkout is required. The viewer and
 compression decoders are bundled in `catalog/vendor/`. Stop with Ctrl-C.
 
 Search by asset name or path, select any discovered category, or filter to animated
-assets. Opening a card loads its GLB on demand, with orbit, zoom, reset camera,
+assets. Opening a model card loads its GLB on demand, with orbit, zoom, reset camera,
 reference, rendered preview, file statistics, and downloads for available sources.
 Animation choices come from the loaded model. Select a clip, play/pause, choose
 speed, scrub the timeline (which pauses playback), and override Loop as needed.
@@ -74,6 +74,36 @@ the `uncategorized` category. `exports/catalog.json` is generated and ignored by
 Git. Counts and clip names come from the GLB, even if the manifest is stale.
 Missing optional files have placeholders; a corrupt export stays visible with
 an error and does not hide the other assets. Files are served on localhost only.
+
+### Native Ledger UI resources
+
+Search `ui/` or select `ui/components`, `ui/theme`, `ui/art`, or `ui/showcases`.
+Inventory aliases are searchable case-insensitively in both canonical and spaced
+forms, such as `research-node` / `research node` and `health-style` / `health style`.
+The generated index includes **nine reusable native Godot scenes**, the **Ledger
+Theme**, the **original transparent menu seal**, and two **authoring-only HUD/menu
+showcase examples**. Entries come from the landed
+[`docs/ui/inventory.json`](docs/ui/inventory.json) implementation/resource bindings;
+planned/omitted items and resource aliases are not additional components.
+
+UI cards open actual native Godot captures or the original PNG, not a model viewer
+or an HTML recreation of native interactions. Labels identify mock data, Theme
+control samples and static compositions. Dense showcase text can be opened at its
+original resolution with **Native preview PNG (full size)**. No UI/game/services
+run in the browser, and nothing has been migrated into the game.
+
+Each UI entry links one shared, generated `exports/ui/ledger-ui.zip` and the
+[data/signals/hosting API](docs/ui/api.md). Extract its `UI/` into a Godot project at
+`res://UI/`, import, then instantiate the desired scenes. A loose `.tscn` requires
+its shared Theme/scripts; prefer the ZIP. Showcase composition scenes are
+examples only, not runtime downloads.
+
+UI generation uses committed, source-bound native captures and fails closed on
+changed or missing inputs; normal indexing/static packaging does not run Godot.
+See [UI catalog authoring and evidence](docs/ui/catalog/README.md#build-refresh-and-dependency-access)
+for the package contents, payload audit, intentional capture refresh procedure
+and provenance. The existing Blender stages for models in the Pages workflow
+remain unchanged.
 
 ### Refresh exports without rebuilding models
 
@@ -108,7 +138,10 @@ python3 -m tools.asset_catalog thumbnails --blender /path/to/blender
 python3 -m tools.asset_catalog thumbnails props/sword characters/knight --blender /path/to/blender
 ```
 
-The first command considers all exports; the second selects specific asset IDs.
+The first command considers all exported GLB models; the second selects specific
+model asset IDs. Native UI entries are excluded, and explicitly selecting a UI ID
+fails with `Not GLB asset IDs`; use the [native capture procedure](docs/ui/catalog/README.md#build-refresh-and-dependency-access)
+instead.
 Only missing or changed thumbnails render. `--force` explicitly rerenders the
 selection. A separate background Blender process imports each GLB, fits a neutral
 studio camera, and writes `exports/thumbnails/<asset-id>.png`. It never opens or
@@ -153,8 +186,9 @@ mise run catalog-build
 ```
 
 This creates `dist/catalog/`: a complete static website containing the viewer,
-fresh catalog JSON, and referenced GLBs, thumbnails, previews, and reference
-images. The static packaging command never invokes Blender or changes assets. Editable `.blend` downloads
+fresh catalog JSON, referenced GLBs/images, native UI resources/dependencies,
+and the generated shared UI ZIP/API/provenance. The static packaging command never
+invokes Blender or Godot or changes authored assets. Editable `.blend` downloads
 are excluded from the deployed site; local browsing retains them. Optional
 `--include-sources` includes them for other deployments. Build output is ignored
 by Git. URLs work both at a domain root and under `/odot-game-assets/`, without
@@ -194,7 +228,7 @@ not apply. Existing GLBs without editable sources remain browsable.
 Deployment uses
 the standard GitHub Pages artifact and environment with OIDC; no custom token,
 backend, framework, or generated-output branch is needed. The workflow publishes
-models and images only. To enable it:
+models, images and the audited native UI runtime package/resources. To enable it:
 
 1. Commit the catalog code, workflow, exported assets, associated reference images,
    and desired thumbnail PNGs. CI only sees committed files; untracked local models
