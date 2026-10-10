@@ -7,6 +7,7 @@ import tempfile
 from pathlib import Path
 
 from .metadata import merge_metadata, read_glb
+from .ui_assets import build_ui_assets
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -131,7 +132,8 @@ class CatalogIndex:
                           'preview': self.local_file(preview),
                           'thumbnail': self.local_file(thumbnail), 'error': error})
         self.cache = {key: value for key, value in self.cache.items() if key in seen}
-        content = {'schema_version': 1, 'assets': assets, 'warnings': warnings}
+        assets.extend(build_ui_assets(self.root))
+        content = {'schema_version': 2, 'assets': assets, 'warnings': warnings}
         revision = hashlib.sha256(json.dumps(content, sort_keys=True).encode()).hexdigest()
         return content | {'revision': revision}
 

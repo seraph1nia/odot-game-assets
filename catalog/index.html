@@ -13,7 +13,7 @@
 <body>
 <main>
   <header><div class="eyebrow">Odot · Local asset library</div><h1>Asset catalog</h1>
-    <p class="intro">Models, editable sources, and animation clips.</p>
+    <p class="intro">Models, editable sources, animation clips, and native Godot UI resources.</p>
   </header>
   <form id="filters" role="search">
     <label>Search <input id="search" type="search" placeholder="Find an asset…" autocomplete="off"></label>
@@ -23,9 +23,9 @@
   </form>
   <div class="summary"><p id="count" role="status"></p><span id="sync" role="status">Connecting…</span></div>
   <p id="warnings" class="warning" hidden></p>
-  <section id="grid" class="grid" aria-label="Exported assets"></section>
+  <section id="grid" class="grid" aria-label="Catalog assets"></section>
   <p id="empty" hidden>No assets match these filters.</p>
-  <footer>Drag to orbit · scroll or pinch to zoom · exports refresh automatically.
+  <footer>Models: drag to orbit · scroll or pinch to zoom. Native UI: static previews and runtime resources.
     <a href="catalog/vendor/LICENSE-model-viewer">Viewer license</a></footer>
 </main>
 <dialog id="detail" aria-labelledby="asset-title">
@@ -51,8 +51,9 @@
     <aside>
       <dl id="stats"></dl>
       <div id="links" class="links"></div>
-      <h3>Rendered preview</h3><div id="preview" class="media"></div>
-      <h3>Reference</h3><div id="reference" class="media"></div>
+      <p id="resource-note" class="muted" hidden></p>
+      <section id="preview-section"><h3>Rendered preview</h3><div id="preview" class="media"></div></section>
+      <section id="reference-section"><h3>Reference</h3><div id="reference" class="media"></div></section>
     </aside>
   </div>
 </dialog>

@@ -40,7 +40,7 @@ def serve(root=ROOT, port=8000):
                 path = self.path
             target = (index.root / path.lstrip('/')).resolve()
             allowed = any(target.is_relative_to(index.root / folder)
-                          for folder in ('catalog', 'exports', 'sources'))
+                          for folder in ('catalog', 'exports', 'sources', 'ui/preview/UI', 'docs/ui'))
             if not allowed or not target.is_file():
                 self.send_error(404, 'File unavailable')
                 return

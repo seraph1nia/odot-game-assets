@@ -11,11 +11,15 @@ RENDER_VERSION = 1
 def render_thumbnails(asset_ids, blender='blender', force=False, root=ROOT):
     index = CatalogIndex(root)
     data = index.refresh()
-    available = {asset['id']: asset for asset in data['assets']}
-    unknown = set(asset_ids) - available.keys()
+    all_assets = {asset['id']: asset for asset in data['assets']}
+    unknown = set(asset_ids) - all_assets.keys()
     if unknown:
         raise SystemExit('Unknown asset IDs: ' + ', '.join(sorted(unknown)))
-    selected = [available[key] for key in asset_ids] if asset_ids else data['assets']
+    available = {key: asset for key, asset in all_assets.items() if asset.get('model')}
+    native = set(asset_ids) - available.keys()
+    if native:
+        raise SystemExit('Not GLB asset IDs (use native UI captures): ' + ', '.join(sorted(native)))
+    selected = [available[key] for key in asset_ids] if asset_ids else list(available.values())
     state_path = Path(root) / 'exports/thumbnails/state.json'
     previous = index.read_json('exports/thumbnails/state.json', [])
     state = previous if previous.get('renderer_version') == RENDER_VERSION else {'renderer_version': RENDER_VERSION, 'assets': {}}

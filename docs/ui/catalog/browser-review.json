@@ -1,0 +1,589 @@
+{
+  "scope": "Actual browser presentation and download acceptance; not native runtime interaction/game/service certification",
+  "checked_at": "2026-10-10T09:03:17.085520+00:00",
+  "static_catalog_revision": "2082b0cf97d78d29dd28a0b3f2889114306371788b493c042a119329f1559ca3",
+  "catalog_counts": {
+    "models": 118,
+    "ui": 13
+  },
+  "frontend_sha256": {
+    "index.html": "8ca50ffb7965214ee24afd2a1c9b37d3c588ea09a3125c33bb11bb475bbee9e8",
+    "catalog/catalog.js": "f17ec2e198e60014adff1e907074e06c369eef2c50d522a7b8ef82c8a10020cc",
+    "catalog/catalog.css": "b14f88a9aced038e094e6cfd581ce9b9d45e6b368f5b6ddc77a227f766feb4b1"
+  },
+  "acceptance_script_sha256": {
+    "tools/asset_catalog/browser_ui_checks.js": "1fc73602a429b8bf81836e01cb7f0b5f97de1b150108e33146f940d6ebff15bf",
+    "tools/asset_catalog/browser_checks.js": "7bb47bc9782c321d9a6aeb2d8cccae3081a2b02641d5a6db352788e0bb599412"
+  },
+  "ui_acceptance": {
+    "root": {
+      "checks": 226,
+      "package_sha256": "e0ee2941c3f9cab7b0595063fc36fe36d2c2e1590581189fcadbde00615cc959",
+      "results_sha256": "f90794f52450b3943046be133fc17deffcd909392ff8ab83c6b9cf9812de3908",
+      "url": "http://127.0.0.1:37777/"
+    },
+    "pages": {
+      "checks": 226,
+      "package_sha256": "e0ee2941c3f9cab7b0595063fc36fe36d2c2e1590581189fcadbde00615cc959",
+      "results_sha256": "f90794f52450b3943046be133fc17deffcd909392ff8ab83c6b9cf9812de3908",
+      "url": "http://127.0.0.1:39251/odot-game-assets/"
+    }
+  },
+  "model_acceptance": {
+    "checks": 28,
+    "results": [
+      "Grid does not create full 3D viewers",
+      "All generated model/UI entries appear in the grid",
+      "Search narrows the grid",
+      "Search is preserved in URL",
+      "Category filter works",
+      "Category is preserved in URL",
+      "Animated filter uses discovered GLB clips",
+      "Animated filter is preserved in URL",
+      "Real building loads without animation controls",
+      "Building has its explicit reference crop",
+      "Real rendered preview loads",
+      "Zoom control changes the actual camera",
+      "Reset restores the camera",
+      "Clip selector comes from loaded GLB",
+      "Animation count matches the actual GLB",
+      "Clip selection respects looping metadata",
+      "Playback and speed control work",
+      "Scrubbing seeks accurately at 2x and pauses",
+      "One-shot selection disables looping from metadata",
+      "One shot stops and holds its final pose",
+      "Completed one-shot can be scrubbed to a new pose",
+      "Loop override repeats a one-shot clip",
+      "Pause stops playback",
+      "Standalone prop loads",
+      "Static site excludes editable source downloads",
+      "Absent reference has a clear placeholder",
+      "Selected asset is preserved in URL",
+      "Browser assets load entirely from localhost"
+    ]
+  },
+  "environment": {
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "webgl": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "devicePixelRatio": 1,
+    "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F&asset=ui%2Fstart-menu"
+  },
+  "browser_sandbox_disabled": false,
+  "profile_mode": "0o700",
+  "browser_origin": "Previously approved task-private Chrome for Testing 155.0.8059.39, byte-copied read-only from preserved quality-round bundle; no installation/download",
+  "private_setup_record": ".cache/ui-catalog-browser/setup.json",
+  "screenshots": [
+    {
+      "path": "docs/ui/catalog/browser/grid-top-1280x900.png",
+      "sha256": "7b126e299d0013af24e8e24af8c4bc30172fb3ab3cc7e458bf1b8ac50ba363c1",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F",
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1,
+        "cardCount": 13
+      },
+      "cropped": false
+    },
+    {
+      "path": "docs/ui/catalog/browser/grid-full-page.png",
+      "sha256": "e16f854087e51cae3218c603752f5044ee59389463a8d7f779c57c37f848edda",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F",
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1,
+        "cardCount": 13
+      },
+      "cropped": false
+    },
+    {
+      "path": "docs/ui/catalog/browser/grid-bottom-1280x900.png",
+      "sha256": "ce641616a75b05019eae394dc6c42c0878b46d77f426072b91a3b996476e1948",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F",
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1,
+        "cardCount": 13
+      },
+      "cropped": false
+    },
+    {
+      "path": "docs/ui/catalog/browser/theme-detail-1280x900.png",
+      "sha256": "40869e2fd1284b973db32e2c43407707562bb9193e7e1cd37796116cdcf47472",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F&asset=ui%2Ftheme",
+        "title": "Ledger control Theme",
+        "preview": "http://127.0.0.1:39251/odot-game-assets/docs/ui/catalog/native-5/theme.png?v=9ee32d3ffdbe5648a1c7a6a6f4c647b4247e239021bc790692836f966488d013",
+        "label": "Native Godot \u00b7 Theme control sample \u00b7 static image, not a runtime component",
+        "naturalWidth": 640,
+        "naturalHeight": 480,
+        "imageRect": {
+          "x": 44,
+          "y": 182.953125,
+          "width": 768.65625,
+          "height": 576.484375,
+          "top": 182.953125,
+          "right": 812.65625,
+          "bottom": 759.4375,
+          "left": 44
+        },
+        "dialogRect": {
+          "x": 19,
+          "y": 69.5625,
+          "width": 1227,
+          "height": 760.875,
+          "top": 69.5625,
+          "right": 1246,
+          "bottom": 830.4375,
+          "left": 19
+        },
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1
+      },
+      "cropped": false
+    },
+    {
+      "path": "docs/ui/catalog/browser/menu-seal-detail-1280x900.png",
+      "sha256": "8f3be5f977f88db1f4343a9d8abc2ae71800080c1d5adbc75a47a310cd2b9e77",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F&asset=ui%2Fmenu-seal",
+        "title": "Original menu seal",
+        "preview": "http://127.0.0.1:39251/odot-game-assets/ui/preview/UI/art/menu_seal.png?v=cf3e2ceb4510be6d6a052e882597c2313216e2268a9aaa61fdf1d7e1308d2ced",
+        "label": "Original transparent menu seal \u00b7 192\u00d7192 PNG \u00b7 used at 48px",
+        "naturalWidth": 192,
+        "naturalHeight": 192,
+        "imageRect": {
+          "x": 332.328125,
+          "y": 362.6875,
+          "width": 192,
+          "height": 192,
+          "top": 362.6875,
+          "right": 524.328125,
+          "bottom": 554.6875,
+          "left": 332.328125
+        },
+        "dialogRect": {
+          "x": 19,
+          "y": 189.296875,
+          "width": 1227,
+          "height": 521.390625,
+          "top": 189.296875,
+          "right": 1246,
+          "bottom": 710.6875,
+          "left": 19
+        },
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1
+      },
+      "cropped": false
+    },
+    {
+      "path": "docs/ui/catalog/browser/resource-table-detail-1280x900.png",
+      "sha256": "99cbbfc047a8247780b6e3c34631f30df46a5509a27eda40e4dc632eda3d50a2",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F&asset=ui%2Fresource-table",
+        "title": "Resource ledger",
+        "preview": "http://127.0.0.1:39251/odot-game-assets/docs/ui/catalog/native-5/resource-table.png?v=01ae70c73b1df3f45d62edbe4eae0d6d12b9e0cc1f9ff37db6d851f82509a952",
+        "label": "Native Godot \u00b7 Resource ledger \u00b7 mock data / host content \u00b7 static image",
+        "naturalWidth": 640,
+        "naturalHeight": 480,
+        "imageRect": {
+          "x": 44,
+          "y": 182.953125,
+          "width": 768.65625,
+          "height": 576.484375,
+          "top": 182.953125,
+          "right": 812.65625,
+          "bottom": 759.4375,
+          "left": 44
+        },
+        "dialogRect": {
+          "x": 19,
+          "y": 69.5625,
+          "width": 1227,
+          "height": 760.875,
+          "top": 69.5625,
+          "right": 1246,
+          "bottom": 830.4375,
+          "left": 19
+        },
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1
+      },
+      "cropped": false
+    },
+    {
+      "path": "docs/ui/catalog/browser/upkeep-detail-1280x900.png",
+      "sha256": "8bc5b1bb78b7ad858f0cc5707de9f4db53f6bff0903e27b440572e6aba3b7011",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F&asset=ui%2Fupkeep",
+        "title": "Battle food summary",
+        "preview": "http://127.0.0.1:39251/odot-game-assets/docs/ui/catalog/native-5/upkeep.png?v=3fd88fa89c13151cff5a4d6a8ad9c6d549ad3f12db29f7a0e8b894de7176891d",
+        "label": "Native Godot \u00b7 Battle food summary \u00b7 mock data / host content \u00b7 static image",
+        "naturalWidth": 640,
+        "naturalHeight": 480,
+        "imageRect": {
+          "x": 44,
+          "y": 182.953125,
+          "width": 768.65625,
+          "height": 576.484375,
+          "top": 182.953125,
+          "right": 812.65625,
+          "bottom": 759.4375,
+          "left": 44
+        },
+        "dialogRect": {
+          "x": 19,
+          "y": 69.5625,
+          "width": 1227,
+          "height": 760.875,
+          "top": 69.5625,
+          "right": 1246,
+          "bottom": 830.4375,
+          "left": 19
+        },
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1
+      },
+      "cropped": false
+    },
+    {
+      "path": "docs/ui/catalog/browser/action-quote-detail-1280x900.png",
+      "sha256": "ab6c5e077c5b89e33bba349dd158292f7822591be2158fd49318b52289a5b06c",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F&asset=ui%2Faction-quote",
+        "title": "Quoted action control",
+        "preview": "http://127.0.0.1:39251/odot-game-assets/docs/ui/catalog/native-5/action-quote.png?v=05c12ec56a4a49ff23bbd617f80cfcc4755771eaab2149d2a041b44d9f1010be",
+        "label": "Native Godot \u00b7 Quoted action control \u00b7 mock data / host content \u00b7 static image",
+        "naturalWidth": 640,
+        "naturalHeight": 480,
+        "imageRect": {
+          "x": 44,
+          "y": 182.953125,
+          "width": 768.65625,
+          "height": 576.484375,
+          "top": 182.953125,
+          "right": 812.65625,
+          "bottom": 759.4375,
+          "left": 44
+        },
+        "dialogRect": {
+          "x": 19,
+          "y": 69.5625,
+          "width": 1227,
+          "height": 760.875,
+          "top": 69.5625,
+          "right": 1246,
+          "bottom": 830.4375,
+          "left": 19
+        },
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1
+      },
+      "cropped": false
+    },
+    {
+      "path": "docs/ui/catalog/browser/city-navigation-detail-1280x900.png",
+      "sha256": "fea84efe9482aa12cacde1187c5c08a56c59ffac09b5028c80cd4929ceb6b800",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F&asset=ui%2Fcity-navigation",
+        "title": "Observed-city navigation",
+        "preview": "http://127.0.0.1:39251/odot-game-assets/docs/ui/catalog/native-5/city-navigation.png?v=3d0f46fd367aa92a21fe87ff3784ee594ce76c99676d99901e70d076fb34cd15",
+        "label": "Native Godot \u00b7 Observed-city navigation \u00b7 mock data / host content \u00b7 static image",
+        "naturalWidth": 640,
+        "naturalHeight": 480,
+        "imageRect": {
+          "x": 44,
+          "y": 182.953125,
+          "width": 768.65625,
+          "height": 576.484375,
+          "top": 182.953125,
+          "right": 812.65625,
+          "bottom": 759.4375,
+          "left": 44
+        },
+        "dialogRect": {
+          "x": 19,
+          "y": 69.5625,
+          "width": 1227,
+          "height": 760.875,
+          "top": 69.5625,
+          "right": 1246,
+          "bottom": 830.4375,
+          "left": 19
+        },
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1
+      },
+      "cropped": false
+    },
+    {
+      "path": "docs/ui/catalog/browser/match-controls-detail-1280x900.png",
+      "sha256": "db8071940f9facb49b8010c2d4b94d20c17928e258e17b3a21f99372add39a6b",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F&asset=ui%2Fmatch-controls",
+        "title": "Phase and cooperative controls",
+        "preview": "http://127.0.0.1:39251/odot-game-assets/docs/ui/catalog/native-5/match-controls.png?v=246212f809e454717b236491c197b28b2986c4ae09d004bf61fff9b47756e3df",
+        "label": "Native Godot \u00b7 Phase and cooperative controls \u00b7 mock data / host content \u00b7 static image",
+        "naturalWidth": 640,
+        "naturalHeight": 480,
+        "imageRect": {
+          "x": 44,
+          "y": 182.953125,
+          "width": 768.65625,
+          "height": 576.484375,
+          "top": 182.953125,
+          "right": 812.65625,
+          "bottom": 759.4375,
+          "left": 44
+        },
+        "dialogRect": {
+          "x": 19,
+          "y": 69.5625,
+          "width": 1227,
+          "height": 760.875,
+          "top": 69.5625,
+          "right": 1246,
+          "bottom": 830.4375,
+          "left": 19
+        },
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1
+      },
+      "cropped": false
+    },
+    {
+      "path": "docs/ui/catalog/browser/session-feedback-detail-1280x900.png",
+      "sha256": "790df0e42fc8060aee16f2f2391e49e828c23e425c51247cf6bf578153d5d7ba",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F&asset=ui%2Fsession-feedback",
+        "title": "Connection and action feedback",
+        "preview": "http://127.0.0.1:39251/odot-game-assets/docs/ui/catalog/native-5/session-feedback.png?v=54f36d865b02adef54cc01b4a3c3435317fd7570cb5a404f6bfdb54f72f11565",
+        "label": "Native Godot \u00b7 Connection and action feedback \u00b7 mock data / host content \u00b7 static image",
+        "naturalWidth": 640,
+        "naturalHeight": 480,
+        "imageRect": {
+          "x": 44,
+          "y": 182.953125,
+          "width": 768.65625,
+          "height": 576.484375,
+          "top": 182.953125,
+          "right": 812.65625,
+          "bottom": 759.4375,
+          "left": 44
+        },
+        "dialogRect": {
+          "x": 19,
+          "y": 69.5625,
+          "width": 1227,
+          "height": 760.875,
+          "top": 69.5625,
+          "right": 1246,
+          "bottom": 830.4375,
+          "left": 19
+        },
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1
+      },
+      "cropped": false
+    },
+    {
+      "path": "docs/ui/catalog/browser/dialog-shell-detail-1280x900.png",
+      "sha256": "f6b81495b8ddd5f8d383872c5914fce6780ba6be40fea4f0781b27640d9dca36",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F&asset=ui%2Fdialog-shell",
+        "title": "Scrollable dialog shell",
+        "preview": "http://127.0.0.1:39251/odot-game-assets/docs/ui/catalog/native-5/dialog-shell.png?v=a46bfe4ec1daace005772cc8b1f9b8c1c065f0dbdbba022cd0172617fb9c8194",
+        "label": "Native Godot \u00b7 Scrollable dialog shell \u00b7 mock data / host content \u00b7 static image",
+        "naturalWidth": 640,
+        "naturalHeight": 480,
+        "imageRect": {
+          "x": 44,
+          "y": 182.953125,
+          "width": 768.65625,
+          "height": 576.484375,
+          "top": 182.953125,
+          "right": 812.65625,
+          "bottom": 759.4375,
+          "left": 44
+        },
+        "dialogRect": {
+          "x": 19,
+          "y": 69.5625,
+          "width": 1227,
+          "height": 760.875,
+          "top": 69.5625,
+          "right": 1246,
+          "bottom": 830.4375,
+          "left": 19
+        },
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1
+      },
+      "cropped": false
+    },
+    {
+      "path": "docs/ui/catalog/browser/unit-inspection-detail-1280x900.png",
+      "sha256": "218c62d0f58a40291bdc9bc793f2a66070cd95449afa295ff58f2cf5cd068815",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F&asset=ui%2Funit-inspection",
+        "title": "Unit inspection card",
+        "preview": "http://127.0.0.1:39251/odot-game-assets/docs/ui/catalog/native-5/unit-inspection.png?v=3146e64c72177c3025055af454cfa2b4bccbc51e75249c620cf5b9b98d194267",
+        "label": "Native Godot \u00b7 Unit inspection card \u00b7 mock data / host content \u00b7 static image",
+        "naturalWidth": 640,
+        "naturalHeight": 480,
+        "imageRect": {
+          "x": 44,
+          "y": 182.953125,
+          "width": 768.65625,
+          "height": 576.484375,
+          "top": 182.953125,
+          "right": 812.65625,
+          "bottom": 759.4375,
+          "left": 44
+        },
+        "dialogRect": {
+          "x": 19,
+          "y": 69.5625,
+          "width": 1227,
+          "height": 760.875,
+          "top": 69.5625,
+          "right": 1246,
+          "bottom": 830.4375,
+          "left": 19
+        },
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1
+      },
+      "cropped": false
+    },
+    {
+      "path": "docs/ui/catalog/browser/roster-detail-1280x900.png",
+      "sha256": "d4f2969b3f7cfc521552101cef5f05f1ef5e7d4fa016a536b1b2b6ce14191b15",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F&asset=ui%2Froster",
+        "title": "Army-home and Town hall roster rows",
+        "preview": "http://127.0.0.1:39251/odot-game-assets/docs/ui/catalog/native-5/roster.png?v=3990f7e25bbce9043503f918a644845227c98ba02041ff389bf88400bbd72957",
+        "label": "Native Godot \u00b7 Army-home and Town hall roster rows \u00b7 mock data / host content \u00b7 static image",
+        "naturalWidth": 640,
+        "naturalHeight": 480,
+        "imageRect": {
+          "x": 44,
+          "y": 182.953125,
+          "width": 768.65625,
+          "height": 576.484375,
+          "top": 182.953125,
+          "right": 812.65625,
+          "bottom": 759.4375,
+          "left": 44
+        },
+        "dialogRect": {
+          "x": 19,
+          "y": 69.5625,
+          "width": 1227,
+          "height": 760.875,
+          "top": 69.5625,
+          "right": 1246,
+          "bottom": 830.4375,
+          "left": 19
+        },
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1
+      },
+      "cropped": false
+    },
+    {
+      "path": "docs/ui/catalog/browser/hud-detail-1280x900.png",
+      "sha256": "4b10ecdefdb1018862f0129c2257e857c9459ffa2d12ed06dd90a7fffa915cfe",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F&asset=ui%2Fhud",
+        "title": "Settlement HUD prototype",
+        "preview": "http://127.0.0.1:39251/odot-game-assets/docs/ui/catalog/native-5/hud.png?v=40248baa04a088c94139e93970c9119479ff595dc6a3a7af4aec4b62661ace23",
+        "label": "Native Godot \u00b7 mock-data showcase \u00b7 static image; no game/services",
+        "naturalWidth": 1280,
+        "naturalHeight": 720,
+        "imageRect": {
+          "x": 44,
+          "y": 255.015625,
+          "width": 768.65625,
+          "height": 432.359375,
+          "top": 255.015625,
+          "right": 812.65625,
+          "bottom": 687.375,
+          "left": 44
+        },
+        "dialogRect": {
+          "x": 19,
+          "y": 141.625,
+          "width": 1227,
+          "height": 616.75,
+          "top": 141.625,
+          "right": 1246,
+          "bottom": 758.375,
+          "left": 19
+        },
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1
+      },
+      "cropped": false
+    },
+    {
+      "path": "docs/ui/catalog/browser/start-menu-detail-1280x900.png",
+      "sha256": "61d3b7d6cd6e94ea7dee4e24ad73aa3eda17cdb76661c68fd333b0b77d3ef61a",
+      "browser_context": {
+        "url": "http://127.0.0.1:39251/odot-game-assets/?q=ui%2F&asset=ui%2Fstart-menu",
+        "title": "Start and multiplayer entry",
+        "preview": "http://127.0.0.1:39251/odot-game-assets/docs/ui/catalog/native-5/start-menu.png?v=8ed01a0ea66be37460ceeb34515cf0a0258ff102372515af2148b5d185c18b08",
+        "label": "Native Godot \u00b7 mock-data showcase \u00b7 static image; no game/services",
+        "naturalWidth": 1280,
+        "naturalHeight": 720,
+        "imageRect": {
+          "x": 44,
+          "y": 255.015625,
+          "width": 768.65625,
+          "height": 432.359375,
+          "top": 255.015625,
+          "right": 812.65625,
+          "bottom": 687.375,
+          "left": 44
+        },
+        "dialogRect": {
+          "x": 19,
+          "y": 141.625,
+          "width": 1227,
+          "height": 616.75,
+          "top": 141.625,
+          "right": 1246,
+          "bottom": 758.375,
+          "left": 19
+        },
+        "width": 1280,
+        "height": 900,
+        "devicePixelRatio": 1
+      },
+      "cropped": false
+    }
+  ],
+  "visual_review": {
+    "inspected": "Normal 1280\u00d7900 viewport: grid top/bottom, whole grid, all 13 resource/example details. The scope-label correction changed only two showcase views; those final changed views were opened again.",
+    "identity": "Nine actual component scenes, actual Theme sampled on native controls, unchanged original transparent seal; two original mocked compositions explicitly authoring-only. No unrelated captures or HTML recreations.",
+    "legibility": "Card titles/kinds/static labels legible. Focused detail copy legible; dense HUD/menu details and thumbnails can require the full-size native PNG link. Native muted context text retains its original lower contrast; runtime style was not changed.",
+    "cropping_alpha": "Detail images contained without cropping, seal transparent surround/checkerboard visible. Roster viewport visibly scrolls; not all hidden rows are asserted visible.",
+    "limits": "No mobile/HiDPI/RTL/physical input/native-GPU campaign, browser does not execute Godot UI/game/services."
+  }
+}

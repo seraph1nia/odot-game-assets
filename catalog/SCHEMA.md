@@ -1,4 +1,4 @@
-# Catalog associations, version 1
+# Catalog associations v1 and generated index v2
 
 `catalog/associations.json` is tracked, human-editable metadata. The catalog's
 generated index at `exports/catalog.json` is disposable and should not be edited.
@@ -69,6 +69,47 @@ available `model`, `source`, `reference`, `preview`, and `thumbnail` records.
 File records contain repository-relative `path` and cache `version`. The model
 version is a SHA-256 hash of the whole GLB; ancillary versions track file changes.
 `error` records a model inspection failure while preserving the card.
+
+## Native UI entries (generated index v2)
+
+Associations and export-manifest formats remain unchanged. The generated index
+uses `schema_version: 2`. Existing GLB asset IDs, facts, file records, animation
+policies and behavior are unchanged; a missing `kind` denotes a legacy GLB entry
+with a non-null `model`. Consumers of the mixed index must dispatch on `kind` or
+presence of `model`, not assume every asset is 3D. Blender thumbnail generation
+filters by `model`; native UI never enters implicit 3D discovery.
+
+`tools/asset_catalog/ui_assets.py` adapts the landed UI inventory's actual
+`implementation.resource` bindings and `payload.json`, not a parallel inventory.
+It deduplicates resource aliases, excludes omitted/planned work and advertises
+only `UI/` resources plus the useful HUD/menu authoring examples. Native records
+have `model: null`, empty `animations`, null geometry statistics, and:
+
+| Field | Meaning |
+| --- | --- |
+| `kind` | `godot-scene`, `godot-theme`, or `image` |
+| `role` | `component`, `theme`, `art`, or `showcase`; compositions are not runtime components |
+| `id` | Stable `ui/<inventory-id>`; original seal uses `ui/menu-seal` (historical inventory key `watch-seal`, **not** the rejected Watch exploration image) |
+| `inventory_id`, `inventory`, `aliases` | Owning inventory binding and other inventory concepts illustrated by this same resource; no duplicate research-node/health-style component |
+| `authored_resource` | Repository-relative source resource path, retained even for unpublished showcase scenes |
+| `resource`, `source` | Native runtime file records; showcase downloads are suppressed in both live/static catalogs (`resource_excluded: true`) |
+| `package`, `api`, `provenance` | One shared runtime ZIP, interface documentation, and source/render provenance file records |
+| `dependencies`, `dependency_scope` | Explicit **shared package** file/hash set, not a claim of a per-scene minimal dependency closure |
+| `preview`, `thumbnail`, `preview_label` | Actual native capture/original PNG and honest static/mock-data/sample label |
+
+Categories are `ui/components`, `ui/theme`, `ui/art`, `ui/showcases`. All published
+file links are repository-relative and content-hashed. The browser uses an image
+and documented resource/download view for native entries, with no model-viewer,
+animation or camera controls. PNG alpha has checkerboard receiving backgrounds.
+The full-size image link preserves access to dense native compositions.
+
+The normal build checks source/dependency hashes, native-loaded resource identity,
+image hashes/dimensions, original seal linkage and capture-generator binding.
+It copies the single runtime dependency set, shared ZIP, selected views and owning
+documentation into the normal static artifact; private history/logs and prototypes
+are never bundled as runtime. Fixed ZIP member times/permissions and stored members
+make bytes independent of file timestamps and compressor versions. See
+[UI catalog evidence and authoring](../docs/ui/catalog/README.md).
 
 ## Batch export selection
 

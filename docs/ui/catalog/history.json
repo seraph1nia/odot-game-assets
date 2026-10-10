@@ -1,0 +1,138 @@
+{
+  "scope": "Historical task evidence, not shipped runtime or final acceptance",
+  "captures": [
+    {
+      "label": "native-1",
+      "scope": "Earlier focused export, not final advertised preview binding",
+      "status": "failed during metadata selection: FileNotFoundError for health-style.png; alias was mistaken for another resource entry",
+      "manifest": null,
+      "images": {
+        "docs/ui/catalog/native-1/action-quote.png": "05c12ec56a4a49ff23bbd617f80cfcc4755771eaab2149d2a041b44d9f1010be",
+        "docs/ui/catalog/native-1/city-navigation.png": "3d0f46fd367aa92a21fe87ff3784ee594ce76c99676d99901e70d076fb34cd15",
+        "docs/ui/catalog/native-1/dialog-shell.png": "a46bfe4ec1daace005772cc8b1f9b8c1c065f0dbdbba022cd0172617fb9c8194",
+        "docs/ui/catalog/native-1/hud.png": "40248baa04a088c94139e93970c9119479ff595dc6a3a7af4aec4b62661ace23",
+        "docs/ui/catalog/native-1/match-controls.png": "246212f809e454717b236491c197b28b2986c4ae09d004bf61fff9b47756e3df",
+        "docs/ui/catalog/native-1/resource-table.png": "01ae70c73b1df3f45d62edbe4eae0d6d12b9e0cc1f9ff37db6d851f82509a952",
+        "docs/ui/catalog/native-1/roster.png": "3990f7e25bbce9043503f918a644845227c98ba02041ff389bf88400bbd72957",
+        "docs/ui/catalog/native-1/session-feedback.png": "54f36d865b02adef54cc01b4a3c3435317fd7570cb5a404f6bfdb54f72f11565",
+        "docs/ui/catalog/native-1/start-menu.png": "8ed01a0ea66be37460ceeb34515cf0a0258ff102372515af2148b5d185c18b08",
+        "docs/ui/catalog/native-1/theme.png": "9ee32d3ffdbe5648a1c7a6a6f4c647b4247e239021bc790692836f966488d013",
+        "docs/ui/catalog/native-1/unit-inspection.png": "3146e64c72177c3025055af454cfa2b4bccbc51e75249c620cf5b9b98d194267",
+        "docs/ui/catalog/native-1/upkeep.png": "3fd88fa89c13151cff5a4d6a8ad9c6d549ad3f12db29f7a0e8b894de7176891d"
+      }
+    },
+    {
+      "label": "native-2",
+      "scope": "Earlier focused export, not final advertised preview binding",
+      "status": "successful earlier focused capture; superseded binding, preserved unchanged",
+      "manifest": "docs/ui/catalog/native-2/previews.json",
+      "images": {
+        "docs/ui/catalog/native-2/action-quote.png": "05c12ec56a4a49ff23bbd617f80cfcc4755771eaab2149d2a041b44d9f1010be",
+        "docs/ui/catalog/native-2/city-navigation.png": "3d0f46fd367aa92a21fe87ff3784ee594ce76c99676d99901e70d076fb34cd15",
+        "docs/ui/catalog/native-2/dialog-shell.png": "a46bfe4ec1daace005772cc8b1f9b8c1c065f0dbdbba022cd0172617fb9c8194",
+        "docs/ui/catalog/native-2/hud.png": "40248baa04a088c94139e93970c9119479ff595dc6a3a7af4aec4b62661ace23",
+        "docs/ui/catalog/native-2/match-controls.png": "246212f809e454717b236491c197b28b2986c4ae09d004bf61fff9b47756e3df",
+        "docs/ui/catalog/native-2/resource-table.png": "01ae70c73b1df3f45d62edbe4eae0d6d12b9e0cc1f9ff37db6d851f82509a952",
+        "docs/ui/catalog/native-2/roster.png": "3990f7e25bbce9043503f918a644845227c98ba02041ff389bf88400bbd72957",
+        "docs/ui/catalog/native-2/session-feedback.png": "54f36d865b02adef54cc01b4a3c3435317fd7570cb5a404f6bfdb54f72f11565",
+        "docs/ui/catalog/native-2/start-menu.png": "8ed01a0ea66be37460ceeb34515cf0a0258ff102372515af2148b5d185c18b08",
+        "docs/ui/catalog/native-2/theme.png": "9ee32d3ffdbe5648a1c7a6a6f4c647b4247e239021bc790692836f966488d013",
+        "docs/ui/catalog/native-2/unit-inspection.png": "3146e64c72177c3025055af454cfa2b4bccbc51e75249c620cf5b9b98d194267",
+        "docs/ui/catalog/native-2/upkeep.png": "3fd88fa89c13151cff5a4d6a8ad9c6d549ad3f12db29f7a0e8b894de7176891d"
+      }
+    },
+    {
+      "label": "native-3",
+      "scope": "Earlier focused export, not final advertised preview binding",
+      "status": "successful earlier focused capture; superseded binding, preserved unchanged",
+      "manifest": "docs/ui/catalog/native-3/previews.json",
+      "images": {
+        "docs/ui/catalog/native-3/action-quote.png": "05c12ec56a4a49ff23bbd617f80cfcc4755771eaab2149d2a041b44d9f1010be",
+        "docs/ui/catalog/native-3/city-navigation.png": "3d0f46fd367aa92a21fe87ff3784ee594ce76c99676d99901e70d076fb34cd15",
+        "docs/ui/catalog/native-3/dialog-shell.png": "a46bfe4ec1daace005772cc8b1f9b8c1c065f0dbdbba022cd0172617fb9c8194",
+        "docs/ui/catalog/native-3/hud.png": "40248baa04a088c94139e93970c9119479ff595dc6a3a7af4aec4b62661ace23",
+        "docs/ui/catalog/native-3/match-controls.png": "246212f809e454717b236491c197b28b2986c4ae09d004bf61fff9b47756e3df",
+        "docs/ui/catalog/native-3/resource-table.png": "01ae70c73b1df3f45d62edbe4eae0d6d12b9e0cc1f9ff37db6d851f82509a952",
+        "docs/ui/catalog/native-3/roster.png": "3990f7e25bbce9043503f918a644845227c98ba02041ff389bf88400bbd72957",
+        "docs/ui/catalog/native-3/session-feedback.png": "54f36d865b02adef54cc01b4a3c3435317fd7570cb5a404f6bfdb54f72f11565",
+        "docs/ui/catalog/native-3/start-menu.png": "8ed01a0ea66be37460ceeb34515cf0a0258ff102372515af2148b5d185c18b08",
+        "docs/ui/catalog/native-3/theme.png": "9ee32d3ffdbe5648a1c7a6a6f4c647b4247e239021bc790692836f966488d013",
+        "docs/ui/catalog/native-3/unit-inspection.png": "3146e64c72177c3025055af454cfa2b4bccbc51e75249c620cf5b9b98d194267",
+        "docs/ui/catalog/native-3/upkeep.png": "3fd88fa89c13151cff5a4d6a8ad9c6d549ad3f12db29f7a0e8b894de7176891d"
+      }
+    },
+    {
+      "label": "native-4",
+      "scope": "Earlier focused export, not final advertised preview binding",
+      "status": "successful earlier focused capture; superseded binding, preserved unchanged",
+      "manifest": "docs/ui/catalog/native-4/previews.json",
+      "images": {
+        "docs/ui/catalog/native-4/action-quote.png": "05c12ec56a4a49ff23bbd617f80cfcc4755771eaab2149d2a041b44d9f1010be",
+        "docs/ui/catalog/native-4/city-navigation.png": "3d0f46fd367aa92a21fe87ff3784ee594ce76c99676d99901e70d076fb34cd15",
+        "docs/ui/catalog/native-4/dialog-shell.png": "a46bfe4ec1daace005772cc8b1f9b8c1c065f0dbdbba022cd0172617fb9c8194",
+        "docs/ui/catalog/native-4/hud.png": "40248baa04a088c94139e93970c9119479ff595dc6a3a7af4aec4b62661ace23",
+        "docs/ui/catalog/native-4/match-controls.png": "246212f809e454717b236491c197b28b2986c4ae09d004bf61fff9b47756e3df",
+        "docs/ui/catalog/native-4/resource-table.png": "01ae70c73b1df3f45d62edbe4eae0d6d12b9e0cc1f9ff37db6d851f82509a952",
+        "docs/ui/catalog/native-4/roster.png": "3990f7e25bbce9043503f918a644845227c98ba02041ff389bf88400bbd72957",
+        "docs/ui/catalog/native-4/session-feedback.png": "54f36d865b02adef54cc01b4a3c3435317fd7570cb5a404f6bfdb54f72f11565",
+        "docs/ui/catalog/native-4/start-menu.png": "8ed01a0ea66be37460ceeb34515cf0a0258ff102372515af2148b5d185c18b08",
+        "docs/ui/catalog/native-4/theme.png": "9ee32d3ffdbe5648a1c7a6a6f4c647b4247e239021bc790692836f966488d013",
+        "docs/ui/catalog/native-4/unit-inspection.png": "3146e64c72177c3025055af454cfa2b4bccbc51e75249c620cf5b9b98d194267",
+        "docs/ui/catalog/native-4/upkeep.png": "3fd88fa89c13151cff5a4d6a8ad9c6d549ad3f12db29f7a0e8b894de7176891d"
+      }
+    }
+  ],
+  "failures": [
+    {
+      "stage": "Initial focused metadata selection",
+      "label": "native-1",
+      "exception": "FileNotFoundError",
+      "expected_missing_image": "docs/ui/catalog/native-1/health-style.png",
+      "reason": "The inventory health-style visual-system alias precedes its actual unit-inspection component. Selection now deduplicates actual resource kinds rather than creating a fake health-style component.",
+      "logs": ".cache/ui-catalog/native-1/"
+    },
+    {
+      "stage": "Initial native regression import",
+      "log": ".cache/ui-catalog-regression/import.log",
+      "error": "ERROR: .NET Sdk not found. The required version is '10.0.12'.",
+      "reason": "Task wrapper omitted the existing SDK from PATH; no engine/resource defect and no installation. Fresh isolated rerun with explicit SDK PATH succeeded."
+    },
+    {
+      "stage": "Initial browser attachment",
+      "session": "odot-ui-catalog",
+      "attempts": 2,
+      "code": "BRIDGE_NOT_READY",
+      "message": "Bridge is running but the attached CDP target appears to have gone away",
+      "verdict": "Failed connection, not browser evidence; resolved only after owned sandboxed approved private Chrome and a distinct task session successfully listed/selected/snapshotted actual pages."
+    },
+    {
+      "stage": "Browser evidence formatting",
+      "log": ".cache/ui-catalog-browser/final-root-ui-checks.txt",
+      "reason": "The bridge truncated the verbose 226-result JSON. Attempted machine parsing raised JSONDecodeError; the browser itself had completed. Final runs returned compact counts/package hash/full-results hash rather than pretending the truncated representation was parseable."
+    },
+    {
+      "stage": "Showcase detail scope label",
+      "reason": "Initial showcase stats showed the shared runtime namespace, misleading for authoring-only prototype scenes. Changed only showcase stats to Scope: Authoring-only prototype; real browser suite and changed detail views were checked again.",
+      "retained_views": {
+        "docs/ui/catalog/browser/history/hud-before-scope-label.png": "b26a77f5b305a1b8ae66c0959cdc21ed9035123dd443f204b2f70bbaa2aec1f1",
+        "docs/ui/catalog/browser/history/menu-before-scope-label.png": "9cc78be455e30e0231434bebfbd3afbf725997a32e24b130e48f33183605d897"
+      }
+    },
+    {
+      "stage": "Final model-check invocation precondition",
+      "log": ".cache/ui-catalog-browser/final-model-checks-2.txt",
+      "error": "Error: All generated model/UI entries appear in the grid",
+      "reason": "Acceptance script invoked while ui/ search was active instead of its documented unfiltered root precondition. Fresh unfiltered navigation succeeded with all 28 actual model checks; earlier failed invocation is not green evidence."
+    }
+  ],
+  "earlier_package_checks": [
+    {
+      "path": ".cache/ui-catalog-package/native-1/result.json",
+      "note": "Earlier generated package omitted PNG import recipe; this is not the final payload binding."
+    },
+    {
+      "path": ".cache/ui-catalog-package/native-2/result.json",
+      "note": "Same earlier package; retained native load evidence, superseded by final 32-file package-check.json."
+    }
+  ]
+}

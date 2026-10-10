@@ -42,15 +42,15 @@ function renderGrid() {
   const assets = catalog.assets.filter(asset =>
     (!state.category || asset.category === state.category) &&
     (!state.animated || asset.animations.length > 0) &&
-    `${asset.title} ${asset.id} ${asset.category}`.toLowerCase().includes(state.q.toLowerCase()));
-  $('count').textContent = `${assets.length} of ${catalog.assets.length} exported assets`;
+    `${asset.title} ${asset.id} ${asset.category} ${(asset.aliases || []).join(' ').replaceAll('-', ' ')}`.toLowerCase().includes(state.q.toLowerCase()));
+  $('count').textContent = `${assets.length} of ${catalog.assets.length} assets`;
   $('empty').hidden = assets.length !== 0;
   // Keep unaffected cards (and their loaded thumbnails) during automatic refresh.
   const old = new Map([...$('grid').children].map(card => [card.dataset.id, card]));
   const nodes = assets.map(asset => {
     const signature = JSON.stringify(asset);
     if (old.get(asset.id)?.dataset.signature === signature) return old.get(asset.id);
-    const card = document.createElement('button'); card.className = 'card';
+    const card = document.createElement('button'); card.className = asset.kind ? 'card ui-card' + (asset.role === 'art' ? ' art-card' : '') : 'card';
     card.dataset.id = asset.id; card.dataset.signature = signature;
     card.setAttribute('aria-label', `Open ${asset.title}`);
     const media = document.createElement('div'); media.className = 'card-media';
@@ -61,19 +61,49 @@ function renderGrid() {
     if (file) {
       const img = new Image(); img.alt = `${asset.title} preview`; img.loading = 'lazy';
       img.width = 480; img.height = 480;
-      img.src = fileURL(file); img.onerror = () => img.remove(); media.append(img);
+      img.src = fileURL(file); img.onload = () => {if (asset.kind) fallback.hidden = true;};
+      img.onerror = () => img.remove(); media.append(img);
     }
     if (asset.animations.length) media.append(text('span', `${asset.animations.length} clips`, 'badge'));
     const caption = text('div', '', 'caption');
     caption.append(text('div', asset.category, 'tag'), text('strong', asset.title),
-      text('small', `${number(asset.triangles)} triangles · ${number(asset.materials)} materials`));
+      text('small', asset.kind ? `${asset.role} · ${asset.kind}` : `${number(asset.triangles)} triangles · ${number(asset.materials)} materials`));
+    if (asset.kind) caption.append(text('small', asset.role === 'art' ? 'Original transparent PNG' : 'Native Godot · static preview'));
     if (asset.error) caption.append(text('small', 'Export unavailable', 'warning'));
     card.append(media, caption); card.onclick = () => {state.asset = asset.id; writeURL(true); syncDetail();};
     return card;
   });
   $('grid').replaceChildren(...nodes);
 }
+function renderResourceMetadata(asset) {
+  $('asset-title').textContent = asset.title; $('asset-category').textContent = asset.category;
+  $('stats').replaceChildren();
+  for (const [label, value] of [['Kind', asset.kind], ['Role', asset.role],
+    ['Resource size', `${(asset.bytes / 1024).toFixed(1)} KiB`],
+    [asset.role === 'showcase' ? 'Scope' : 'Namespace', asset.role === 'showcase' ? 'Authoring-only prototype' : 'res://UI/']]) {
+    $('stats').append(text('dt', label), text('dd', value));
+  }
+  $('links').replaceChildren();
+  for (const [file, label, download] of [[asset.package, 'Download runtime UI package (.zip)', true],
+    [asset.role === 'showcase' ? null : asset.resource, 'Native resource (dependencies in package)', true],
+    [asset.preview, 'Native preview PNG (full size)', false],
+    [asset.api, 'Data / signals / hosting API', false], [asset.provenance, 'Preview provenance', false],
+    [asset.inventory, 'Inventory and implementation', false]]) {
+    if (!file) continue;
+    const link = text('a', label); link.href = fileURL(file);
+    if (download) link.download = ''; $('links').append(link);
+  }
+  $('resource-note').textContent = `${asset.description}. ${asset.role === 'showcase' ?
+    'Authoring-only composition example; not an additional runtime component and not included in the runtime package.' :
+    'Extract UI/ from the shared package into a Godot project at res://UI/ and import. Loose scenes require the shared Theme/scripts.'} No UI/game/services run in this catalog.${asset.aliases.length ? ' Also illustrates inventory: ' + asset.aliases.join(', ') + '.' : ''}`;
+  $('asset-message').hidden = true;
+}
 function renderMetadata(asset) {
+  const native = Boolean(asset.kind);
+  $('resource-note').hidden = !native;
+  $('preview-section').hidden = native; $('reference-section').hidden = native;
+  document.querySelector('.camera-controls').hidden = native;
+  if (native) { renderResourceMetadata(asset); return; }
   $('asset-title').textContent = asset.title; $('asset-category').textContent = asset.category;
   $('stats').replaceChildren();
   for (const [label, value] of [['Triangles', number(asset.triangles)], ['Materials', number(asset.materials)],
@@ -183,6 +213,14 @@ function loadModel(asset) {
   for (const event of ['play', 'pause', 'finished']) model.addEventListener(event, updateTimeline);
   model.src = fileURL(asset.model);
 }
+function loadResource(asset) {
+  viewer?.pause(); viewer = null; ++clipGeneration; changingClip = false;
+  $('viewer-host').className = 'resource-view' + (asset.role === 'art' ? ' alpha-view' : '');
+  imageIn($('viewer-host'), asset.preview, asset.preview_label, 'Native preview unavailable');
+  $('load-status').textContent = asset.preview_label;
+  $('load-status').className = ''; $('animations').disabled = true; $('animations').hidden = true;
+  $('animation-note').textContent = ''; $('retry').hidden = true;
+}
 function syncDetail() {
   if (!state.asset) {
     viewer?.pause(); viewer = null; active = null; $('viewer-host').replaceChildren();
@@ -202,11 +240,15 @@ function syncDetail() {
     $('load-status').className = ''; $('load-status').textContent = 'Export unavailable'; $('animation-note').textContent = '';
     return;
   }
-  const reload = !active || asset.model.version !== active.model.version || asset.id !== active.id;
+  const reload = !active || asset.model?.version !== active.model?.version || asset.id !== active.id ||
+    (asset.kind && asset.preview?.version !== active.preview?.version);
   const policyChanged = active && JSON.stringify(asset.animations) !== JSON.stringify(active.animations);
   if (JSON.stringify(asset) !== JSON.stringify(active)) renderMetadata(asset);
   active = asset;
-  if (reload) loadModel(asset);
+  if (reload) {
+    if (asset.kind) loadResource(asset);
+    else { $('viewer-host').className = ''; loadModel(asset); }
+  }
   else if (policyChanged && viewer?.loaded && viewer.availableAnimations.length) selectClip(!viewer.paused);
 }
 async function refresh() {

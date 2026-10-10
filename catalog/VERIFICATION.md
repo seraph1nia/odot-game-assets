@@ -1,5 +1,49 @@
 # Local catalog verification
 
+## Mixed native UI catalog — 2026-10-10
+
+The generated static artifact now contains **118 unchanged model entries plus 13
+native UI resources/examples**. This task did not rebuild/export/render the 3D
+artwork or change original Blender/PNG/runtime UI files. Both 2D Blender UI sources
+remain excluded from implicit 3D selection; GLB thumbnail generation explicitly
+selects only model records. Existing associations/export metadata formats remain
+v1; the deliberately mixed generated index is v2.
+
+[UI catalog evidence and authoring](../docs/ui/catalog/README.md) owns the scoped
+native-preview, independent generated-package load, fresh 637-check UI regression,
+source/render/image/identity bindings, retained failures and honest integration
+limits. [Browser evidence](../docs/ui/catalog/browser-review.json) binds the actual
+static catalog revision, frontend bytes and normal-scale screenshots to checked
+inputs. Native PNGs come from Godot; browser screenshots prove presentation only,
+not browser execution of the native library.
+
+The actual output was served at a local root and `/odot-game-assets/`. The new
+real-browser `browser_ui_checks.js` returned **226 checks at each location**:
+all 13 entries, native image/resource dispatch, truthful roles/labels, portable
+relative links, fetched ZIP byte hashes, alias/category/animation filtering and
+return to a loaded GLB. Existing `browser_checks.js` returned **28 checks** against
+the final mixed site (bakery/knight/sword viewers, camera/playback/filter/companion
+views/local dependencies). Thirteen detail views and normal-scale grid views were
+actually opened and inspected, including alpha and the corrected authoring-only
+showcase scope. Dense native compositions have a full-size PNG link; card-sized
+mock copy is not claimed universally legible. The browser was an approved private
+Chrome for Testing 155, separate task-only profile, loopback CDP and sandbox enabled;
+no personal browser/defaults, downloads or installs were used.
+
+`mise run check` passes **73 tests**, Python lint/syntax and JavaScript syntax checks.
+New generation/packaging tests execute real consumers and HTTP fetches, enforce
+binding/path/dimension failures and every existing model ID, and exercise the
+actual warm GLB thumbnail/export planners without sending native UI to Blender.
+The generated ZIP's nine scenes, Theme and seal also loaded in an independent
+Godot project; normal CI needs no new Godot installation because source-bound
+native captures are committed and normal static generation validates bindings.
+
+This is implementation acceptance, **not** a manual deployment, publication,
+merge or game migration. Required delivery review/push/PR/CI belongs to the
+configured same-worker no-mistakes handoff.
+
+## Historical model-only verification
+
 Verified with real repository exports in Chromium on 2026-10-04.
 The catalog discovered all 40 exports present at the end of verification,
 including 16 reusable kit components with links to their shared Blender source.
