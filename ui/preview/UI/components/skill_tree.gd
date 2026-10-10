@@ -61,7 +61,7 @@ func set_data(value: Dictionary) -> bool:
 			if id.is_empty() or definitions.has(id) or str(step.get("parent", "")) != parent: return false
 			if not step.get("cost", 1) is int or step.get("cost", 1) < 1: return false
 			definitions[id] = step.duplicate(true)
-			definitions[id].merge({"center":CENTERS[1 + branch_index * 3 + index], "branch":str(branch.get("title", "Path " + str(branch_index + 1)))}, true)
+			definitions[id].merge({"center":CENTERS[1 + branch_index * 3 + index], "branch_index":branch_index, "branch":str(branch.get("title", "Path " + str(branch_index + 1)))}, true)
 			parent = id
 	var ownership: Array = value.get("owned", [])
 	var unique: Array = []
@@ -129,15 +129,17 @@ func build_nodes() -> void:
 		link.add_point(nodes[id].center)
 		canvas.add_child(link)
 		links[id] = link
-	var branch_titles: Array = []
+	var branch_indices: Array = []
 	for id in nodes:
-		if nodes[id].parent.is_empty() or nodes[id].branch in branch_titles: continue
-		branch_titles.append(nodes[id].branch)
+		if nodes[id].parent.is_empty(): continue
+		var branch_index = int(nodes[id].branch_index)
+		if branch_index in branch_indices: continue
+		branch_indices.append(branch_index)
 		var heading = Label.new()
 		heading.text = str(nodes[id].branch)
 		heading.theme_type_variation = "ContextLabel"
 		heading.mouse_filter = Control.MOUSE_FILTER_IGNORE
-		heading.position = [Vector2(130, 215), Vector2(640, 215), Vector2(575, 345)][branch_titles.size() - 1]
+		heading.position = [Vector2(130, 215), Vector2(640, 215), Vector2(575, 345)][branch_index]
 		canvas.add_child(heading)
 	for id in nodes:
 		var button = Button.new()

@@ -77,7 +77,9 @@ tree.set_data({"points": 3, "owned": [],
             {"id": "spark", "parent": "start", "title": "Spark", "cost": 1}]}]})
 ```
 
-- Exactly three branch Dictionaries, each with 1–3 node Dictionaries. Root and
+- Exactly three branch Dictionaries, each with 1–3 node Dictionaries. Branch
+  array order determines heading identity and position; branch titles need not
+  be unique and are preserved in headings and selected-node quotes. Root and
   nodes have unique nonempty String `id`s, short `title`s and optional
   `description`s. Root `cost` must be 1 (default 1); other costs are positive
   integers (default 1). `points` is a nonnegative integer. Every node's explicit

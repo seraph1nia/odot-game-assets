@@ -22,7 +22,18 @@ catalog remain intact. No renderer, forest, mesh or source-model changes.
   selected description/cost/reason outside the graph. Existing modal focus/input
   and original four-size Ledger regression stay in the same harness.
 
-## Fresh evidence
+## Branch-index review follow-up
+
+Heading identity now uses branch array indices rather than display titles. The
+native regression exercises all three duplicate-title pairings and all-equal
+Foundation titles, checking three positioned headings and every selected quote.
+The earlier evidence below predates this follow-up and does not certify its
+changed inputs. The outer pipeline must refresh full native evidence, inspect
+current tree images, refresh payload/catalog captures and load the final generated
+ZIP before updating current provenance, count and budget bindings. Historical
+and failed evidence, including browser receipts, must remain unchanged.
+
+## Fresh evidence before the branch-index follow-up
 
 [`production/mini-skill-tree-final/results.json`](production/mini-skill-tree-final/results.json):
 **706 checks, zero failures, 85 native viewport captures**. This is the existing

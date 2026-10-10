@@ -53,6 +53,29 @@ func run() -> void:
 	runner.expect(not tree.purchase("guard") and tree.points == 0 and tree.owned.size() == count, "already owned never spends twice")
 	runner.expect(tree.detail.data.reason.contains("Already owned"), "already owned reason visible")
 	await runner.capture("skill-tree-owned-1100x820")
+	for titles in [["Combat", "Combat", "Support"], ["Combat", "Support", "Support"], ["Combat", "Support", "Combat"], ["Foundation", "Foundation", "Foundation"]]:
+		var snapshot = UIFixtures.skill_tree()
+		for branch_index in range(3):
+			snapshot.branches[branch_index].title = titles[branch_index]
+		runner.expect(tree.set_data(snapshot), "duplicate branch titles accepted " + str(titles))
+		await runner.frames(8)
+		var headings: Array = []
+		for child in tree.canvas.get_children():
+			if child is Label: headings.append(child)
+		runner.expect(headings.size() == 3, "one heading per branch despite duplicate titles " + str(titles))
+		for branch_index in range(3):
+			var position = [Vector2(130, 215), Vector2(640, 215), Vector2(575, 345)][branch_index]
+			var matching: Array = []
+			for heading in headings:
+				if heading.position == position: matching.append(heading)
+			runner.expect(matching.size() == 1 and matching[0].text == titles[branch_index], "heading title at branch position " + str(branch_index) + " " + str(titles))
+			for step in snapshot.branches[branch_index].nodes:
+				tree.select_node(step.id)
+				var quote = titles[branch_index] + " · " + str(step.cost) + " skill point(s)\n" + step.description
+				runner.expect(tree.detail.get_node("Body/Quote").text == quote, "selected quote preserves supplied branch title and description " + step.id + " " + str(titles))
+		if titles == ["Combat", "Combat", "Support"]:
+			await runner.capture("skill-tree-duplicate-titles-1100x820")
+	tree.set_data(UIFixtures.skill_tree(0))
 	var invalid = UIFixtures.skill_tree()
 	invalid.root.cost = 2
 	runner.expect(not tree.set_data(invalid) and tree.points == 0, "invalid root cost rejected atomically")
