@@ -1,6 +1,10 @@
 # Ledger production — finished intended standalone package
 
-## Current host dialog-close acceptance
+Current extension evidence and limits are owned by [skill-tree validation](skill-tree-validation.md).
+The campaigns below are retained historical milestones, not current-source certification.
+`payload.json` owns the refreshed payload; earlier audits below are identified by their private logs.
+
+## Historical host dialog-close acceptance
 
 The host now synchronizes its screen mode/caption at the modal's shared `closed`
 boundary, returning to the actual underlying HUD or menu. Modal hiding, input scope,
@@ -22,11 +26,11 @@ Fresh normal source-bound acceptance: **637 checks / 0 failures / 79 captures**,
 Serial owned X11/XTest original Settings **11/0**, modal lifecycle **64/0**, zero world
 leaks: `.cache/ui-diagnosis/{full,modal}-os-none-review-dialog-close/probe.log`.
 Fresh private UI-only audit: **nine scenes, Theme/seal, 32 files**,
-`.cache/ui-payload/review-dialog-close/load.log`, current `payload.json` hashes.
+`.cache/ui-payload/review-dialog-close/load.log`.
 Nine focused metadata/provenance contracts validate current and preserved evidence.
 Full repository test/lint gates remain outer-pipeline-owned.
 
-All **79 current PNGs are exact SHA256 matches with identical dimensions** to the
+All **79 PNGs in this historical campaign are exact SHA256 matches with identical dimensions** to the
 previous reviewed set. No changed bytes and no new image inspection claimed.
 `visual-review-dialog-close.json` binds the new set to unchanged
 `visual-review-review-fixes.json`; earlier historical bindings/results/failures remain
@@ -54,7 +58,7 @@ Fresh normal acceptance: **588 checks / 0 failures / 79 captures**, source-bound
 Serial owned X11/XTest Settings **11/0**, modal **64/0**, zero world leaks:
 `.cache/ui-diagnosis/{full,modal}-os-none-review-fixes/probe.log`.
 Independent private UI-only audit: **nine scenes, Theme/seal, 32 files**,
-`.cache/ui-payload/review-fixes/load.log`, current hashes in `payload.json`.
+`.cache/ui-payload/review-fixes/load.log`.
 
 All **19 changed PNGs were opened at native dimensions**: eight start/multiplayer
 frames at all four desktop sizes and eleven 1280×720 HUD state frames. Menu now
@@ -129,7 +133,7 @@ commands exited 0 without infrastructure race. No physical-input claim; added
 composition inputs otherwise use native injected Godot events.
 
 Fresh private UI-only audit: **nine scenes, Theme/seal, 32 files**,
-`.cache/ui-payload/standalone-final/load.log`, current hashes `payload.json`.
+`.cache/ui-payload/standalone-final/load.log`.
 No prototypes/fixtures/services/game/tools as runtime dependencies. Total audited
 file bytes **100,661** (not engine package/GPU cost); only original 192px/48px seal
 **34,237 PNG / 147,456 decoded RGBA bytes**. `api.md` specifies all scene data/signals,
@@ -230,7 +234,7 @@ Settings/modal lifecycle, not the whole new production fixture. Other interactio
 checks use Godot native Controls with injected events, not physical input claims.
 
 Fresh independent UI-only payload: **nine scenes, Theme/seal, 32 files**,
-`.cache/ui-payload/production-package-reviewed/load.log`, hashes in `payload.json`.
+`.cache/ui-payload/production-package-reviewed/load.log`.
 No prototypes, tests, tools or game copied. `api.md`/`migration.json` document the
 portable component boundary and future adapter/scale/lifetime risks.
 
@@ -378,8 +382,8 @@ Not established: current-game theme baseline, localized/RTL/extreme-window/HiDPI
 physical keyboard/audio, native GPU/compositor, older engine, controller/mobile or
 runtime game behavior. Game stretch-policy/label-removal compatibility is a later
 separately authorized migration gate. No dependency install, extra art, pipeline,
-push, merge, release or migration. `payload.json` and `api.md` define this milestone's
-portable boundary and remaining adapter responsibilities.
+push, merge, release or migration. Current portable boundaries and adapter
+responsibilities are owned by `payload.json` and `api.md`, not this historical record.
 
 ---
 

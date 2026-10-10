@@ -54,7 +54,7 @@ func build() -> void:
 	WatchUI.label(toolbar, "THE COMMON WATCH · UI PREVIEW", "ContextLabel")
 	var scenes = OptionButton.new()
 	scenes.name = "ScreenSelector"
-	var screens = ["hud", "menu", "research", "town_hall", "settings", "details", "friends", "components"]
+	var screens = ["hud", "menu", "research", "town_hall", "settings", "details", "friends", "components", "skill_tree"]
 	for name in screens: scenes.add_item(name.capitalize())
 	toolbar.add_child(scenes)
 	scenes.item_selected.connect(func(index): switch_screen.call_deferred(screens[index]))
@@ -328,7 +328,7 @@ func open_dialog(kind: String, opener: Control = null) -> void:
 		dialog_content.changed.connect(func(key, value): last_action = "Mock " + key + " = " + str(value))
 		dialog_content.return_requested.connect(func(): confirm("Return to menu?", "This unsaved session would end. Mock confirmation only.", "return-menu"))
 	# The reusable modal owns close/cancel, Tab scope and invoker restoration.
-	var width = 760 if kind == "town_hall" else 650 if kind in ["research", "details", "components"] else 560
+	var width = 1000 if kind == "skill_tree" else 760 if kind == "town_hall" else 650 if kind in ["research", "details", "components"] else 560
 	dialog.popup_centered_clamped(Vector2i(width, 610 if kind in ["town_hall", "details"] else 540), .9)
 	dialog.get_ok_button().grab_focus()
 

@@ -61,7 +61,8 @@ def main():
             raise RuntimeError('Native loaded resource identity mismatch: ' + item['id'])
         entries[item['id']] = {'resource': PROJECT + resource,
             'path': path.relative_to(ROOT).as_posix(), 'sha256': digest(path),
-            'width': 1280 if composition else 640, 'height': 720 if composition else 480,
+            'width': 1280 if composition else 1100 if item['id'] == 'skill-tree' else 640,
+            'height': 720 if composition else 820 if item['id'] == 'skill-tree' else 480,
             'native_loaded_resource': observed.get(item['id']),
             'capture_host': PROJECT + ('prototypes/showcase.tscn' if composition else 'catalog/capture.gd'),
             'composition_screen': ('hud' if item['id'] == 'hud' else 'menu') if composition else None,

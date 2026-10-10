@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "results": "production/review-branch-artifacts-1/results.json",
+  "reviewed_captures": {
+    "skill-tree-duplicate-titles-1100x820.png": "da93eaff3b2b2a46ca079c62557ae226b7d8bf6cad806facdc04650ed034439c",
+    "skill-tree-insufficient-1100x820.png": "aaa31f2853b1e674bb7cb922cbe0f09912d2f10f15e99ff0923f011ec80aa8b2",
+    "skill-tree-narrow-420x700.png": "0ac84defc09b84667102de8b1d961be24c34aae1618351edece9379eb994404b",
+    "skill-tree-owned-1100x820.png": "07bd453fd3e8af848560cfa312a4d0c9c1211e884586e0372346ff12e6f80450",
+    "skill-tree-parent-unlock-1100x820.png": "24b2d49621368546a31c31168d07c213b520ddd208fb0642d8d10cd3e3831f25",
+    "skill-tree-root-1100x820.png": "eb24324c2cba0e9695f4748541f660b058609c6727f5c4710744c5523b111097",
+    "skill-tree-three-choices-1100x820.png": "9128c046daf2c18999d77edc9eddb414d399a83082bb37704333aeae3e246015"
+  },
+  "reviewed_catalog": {
+    "path": "docs/ui/catalog/review-branch-artifacts-1/skill-tree.png",
+    "sha256": "bf50a575ef97997d46d943e027ff2812b612b9ed93fce1dc3aa5cfce874f5a15"
+  },
+  "tools_sha256": {
+    "tools/ui/validate.py": "959040cdd2d8f6f06f02a067f651c17d1446f7e8deb910777b742b8acae5f5a3",
+    "tools/ui/audit_payload.py": "9c959940241f8ffbe8aec04711aa00accd86080b7f6cc8f8fbf003111cdb3322",
+    "tools/ui/capture_catalog.py": "65f6d8d2015421c64453183c696b825805359b2278ccf610caa98b1b7a15623c",
+    "tools/ui/check_catalog_package.py": "5fb0c01bdfb75abfc9fa8d892f0335232cef63c5cd71af4d7aef1dac976a43b0",
+    "tools/ui/capture_explorations.py": "d685ddfcf44793f32452de1ba31b7d9f0ec3353a4783eb1008fc01c55eac8326"
+  },
+  "scope": "Actual native viewport captures visually inspected; source hashes owned by results/previews and exact package bytes by package-check.json. Historical browser receipts do not certify changed payload.",
+  "results_sha256": "e841837da86b6c43e0a0f589fdb1fe79324e5ae73f0c82eb343578600ce7b59f"
+}

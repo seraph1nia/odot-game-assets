@@ -1,6 +1,20 @@
 class_name UIFixtures
 extends RefCounted
 # Representative authoritative projections, not a gameplay simulator.
+static func skill_tree(points: int = 6) -> Dictionary:
+	return {"points":points, "owned":[], "root":{"id":"foundation", "title":"Foundation", "cost":1, "description":"Open three paths. Choose freely between them; all later steps require their parent."}, "branches":[
+		{"title":"Vanguard · protection", "nodes":[
+			{"id":"guard", "parent":"foundation", "title":"Guard", "cost":1, "description":"Practice a steady defensive stance."},
+			{"id":"resolve", "parent":"guard", "title":"Resolve", "cost":1, "description":"Hold your stance under pressure."},
+			{"id":"bulwark", "parent":"resolve", "title":"Bulwark", "cost":2, "description":"Anchor the front line for nearby allies."}]},
+		{"title":"Wayfinder · precision", "nodes":[
+			{"id":"aim", "parent":"foundation", "title":"Aim", "cost":1, "description":"Pick a target with care."},
+			{"id":"tempo", "parent":"aim", "title":"Tempo", "cost":1, "description":"Keep a measured rhythm between shots."},
+			{"id":"pierce", "parent":"tempo", "title":"Pierce", "cost":2, "description":"Find a gap in a guarded position."}]},
+		{"title":"Arcanist · support", "nodes":[
+			{"id":"spark", "parent":"foundation", "title":"Spark", "cost":1, "description":"Channel a small pulse of arcane energy."},
+			{"id":"ward", "parent":"spark", "title":"Ward", "cost":1, "description":"Shape that energy into a protective ward."},
+			{"id":"beacon", "parent":"ward", "title":"Beacon", "cost":2, "description":"Extend the ward as a rallying light."}]}]}
 static func resources(state: String) -> Dictionary:
 	var rows = []
 	var names = ["Gold", "Food", "Wood", "Stone", "Metal", "Cloth"]

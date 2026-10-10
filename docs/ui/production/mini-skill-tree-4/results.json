@@ -1,0 +1,435 @@
+{
+	"captures": [
+		{
+			"height": 820,
+			"path": "skill-tree-root-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "skill-tree-three-choices-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "skill-tree-parent-unlock-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "skill-tree-insufficient-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "skill-tree-owned-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 700,
+			"path": "skill-tree-narrow-420x700.png",
+			"width": 420
+		},
+		{
+			"height": 820,
+			"path": "hud-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "menu-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "menu-multiplayer-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "research-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "research-locked-scrolled-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "town_hall-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "town_hall-empty-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "town_hall-stale-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "town_hall-storage-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "town_hall-recovery-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "town_hall-fragmented-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "settings-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "settings-about-error-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "details-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "details-paid-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "details-last-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "details-fresh-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "friends-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "friends-long-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "unit-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "components-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 720,
+			"path": "hud-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "menu-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "menu-multiplayer-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "research-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "research-locked-scrolled-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "town_hall-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "town_hall-empty-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "town_hall-stale-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "town_hall-storage-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "town_hall-recovery-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "town_hall-fragmented-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "settings-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "settings-about-error-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "details-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "details-paid-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "details-last-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "details-fresh-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "friends-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "friends-long-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "unit-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "components-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 900,
+			"path": "hud-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "menu-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "menu-multiplayer-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "research-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "research-locked-scrolled-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "town_hall-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "settings-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "settings-about-error-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "details-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "friends-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "friends-long-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "unit-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "components-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 1080,
+			"path": "hud-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "menu-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "menu-multiplayer-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "research-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "research-locked-scrolled-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "town_hall-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "settings-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "settings-about-error-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "details-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "friends-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "friends-long-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "unit-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "components-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 720,
+			"path": "hud-preparation-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-shortage-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-lost-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-combat-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-foreign-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-paused-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-victory-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-defeat-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-lobby-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-fallen-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-stale-1280x720.png",
+			"width": 1280
+		}
+	],
+	"checks": 691,
+	"failures": [
+		"middle initially visible in narrow host without stealing focus"
+	],
+	"scope": "Standalone native controls; no game integration or native GPU claim",
+	"selection": "all"
+}

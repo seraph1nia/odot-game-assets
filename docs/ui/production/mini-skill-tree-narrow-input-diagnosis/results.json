@@ -1,0 +1,44 @@
+{
+	"captures": [
+		{
+			"height": 820,
+			"path": "skill-tree-root-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "skill-tree-three-choices-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "skill-tree-parent-unlock-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "skill-tree-insufficient-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "skill-tree-owned-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 700,
+			"path": "skill-tree-narrow-420x700.png",
+			"width": 420
+		}
+	],
+	"checks": 67,
+	"failures": [
+		"narrow native root purchase costs one",
+		"narrow root exposes three choices guard",
+		"narrow root exposes three choices aim",
+		"narrow root exposes three choices spark",
+		"narrow keyboard purchase unlocks parent-dependent next step"
+	],
+	"scope": "Standalone native controls; no game integration or native GPU claim",
+	"selection": "skill-tree"
+}

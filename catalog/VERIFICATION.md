@@ -1,8 +1,10 @@
 # Local catalog verification
 
-## Mixed native UI catalog — 2026-10-10
+## Historical mixed native UI catalog — 2026-10-10
 
-The generated static artifact now contains **118 unchanged model entries plus 13
+Current native catalog/package acceptance is owned by
+[UI catalog evidence](../docs/ui/catalog/README.md#compact-skill-tree-extension-current-evidence).
+The pre-extension static artifact contained **118 unchanged model entries plus 13
 native UI resources/examples**. This task did not rebuild/export/render the 3D
 artwork or change original Blender/PNG/runtime UI files. Both 2D Blender UI sources
 remain excluded from implicit 3D selection; GLB thumbnail generation explicitly
@@ -10,12 +12,12 @@ selects only model records. Existing associations/export metadata formats remain
 v1; the deliberately mixed generated index is v2.
 
 [UI catalog evidence and authoring](../docs/ui/catalog/README.md) owns the scoped
-native-preview, independent generated-package load, fresh 637-check UI regression,
+native-preview, independent generated-package load, native UI regression,
 source/render/image/identity bindings, retained failures and honest integration
 limits. [Browser evidence](../docs/ui/catalog/browser-review.json) retains the
 original Chrome full-suite results/screenshots and separately records the repaired
 frontend's focused alias-search regression. See the
-[presentation evidence owner](../docs/ui/catalog/README.md#checked-package-and-presentation)
+[presentation evidence owner](../docs/ui/catalog/README.md#earlier-checked-package-and-presentation)
 for their distinct bindings, native/browser scope, visual limits and package checks.
 
 The original `mise run check` run passed Python lint/syntax, JavaScript syntax and
@@ -23,7 +25,7 @@ unit checks; this historical result does not certify subsequent changes.
 New generation/packaging tests execute real consumers and HTTP fetches, enforce
 binding/path/dimension failures and every existing model ID, and exercise the
 actual warm GLB thumbnail/export planners without sending native UI to Blender.
-The generated ZIP's nine scenes, Theme and seal also loaded in an independent
+The pre-extension ZIP's nine scenes, Theme and seal also loaded in an independent
 Godot project; normal CI needs no new Godot installation because source-bound
 native captures are committed and normal static generation validates bindings.
 

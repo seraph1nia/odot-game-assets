@@ -8,8 +8,8 @@ checked acceptance and separate external integration obligations.
 ## Payload
 
 Copy candidate: only `ui/preview/UI/` to a future game's `res://UI/` after separate
-authorization. `payload.json` records 32 source/import/UID/resource files and hashes.
-A fresh private project containing only this directory loaded all nine scenes,
+authorization. `payload.json` records 35 source/import/UID/resource files and hashes.
+A fresh private project containing only this directory loaded all ten scenes,
 Theme and seal with no preview, game or authoring-tool dependency.
 
 Do not copy `prototypes/`, `tests/`, `explorations/`, project settings, `.godot` caches,
@@ -38,6 +38,7 @@ shape. `prototypes/fixtures.gd` is illustrative data only, never a runtime depen
 | `session_feedback.tscn` | `set_data(Dictionary)` | `requested(action_id:String)` | status,message,reconnect,fresh; no sockets, tokens or teardown |
 | `unit_inspection.tscn` | `set_data(Dictionary)` | `requested(action_id:String, unit_id:int, destination_id:String)` | profile/health/status/recovery text, destinations, can_send/can_retire/reason; funding/recovery/model/status clocks stay external |
 | `army_roster.tscn` | `set_data(Dictionary)` | `unit_selected(unit_id:int)` | title,context,tiles,units,selected_id; display separate tile budgets, not pooling/transfer logic |
+| `skill_tree.tscn` | `set_data(Dictionary) -> bool` | `selected(id)`, `purchased(id, remaining_points)`, `rejected(id, reason)` | one-point root, three small chains, supplied points/owned; local guarded allocation, not game authority (below) |
 | `modal.tscn` | local lifecycle below | `canceled`, `confirmed`, `closed` | native Control composition, not a Window or session owner |
 
 Core quote/city/match/feedback and inspection/roster scenes have meaningful native
@@ -48,6 +49,71 @@ The inspector `Body/PreviewSlot` is an adapter-owned Control (mouse-filter Ignor
 attach native preview content there and project `show_preview=true`. No model loader
 or service is supplied. `army_roster` uses a native exclusive ButtonGroup; the
 adapter still owns selected identity/lifetime, not row indices.
+
+## Compact skill-tree allocation
+
+`skill_tree.tscn` extends the existing research-node/`quoted_action` presentation:
+its graph uses native inspectable Buttons and decorative links, and its selected
+node uses the existing quoted-action control for description, cost, prerequisite
+reason and purchase. It does not replace the historical research composition or
+its canonical `research-node` alias. Demo: choose **skill_tree** in the showcase
+screen selector. The host/fixtures are authoring-only; costs/effects are illustrative.
+
+Supply a complete typed snapshot after adding to the tree (or before ready):
+
+```gdscript
+var tree = preload("res://UI/components/skill_tree.tscn").instantiate()
+parent.add_child(tree)
+tree.set_data({"points": 3, "owned": [],
+    "root": {"id": "start", "title": "Foundation", "cost": 1,
+             "description": "Open three paths."},
+    "branches": [
+        {"title": "Protection", "nodes": [
+            {"id": "guard", "parent": "start", "title": "Guard", "cost": 1},
+            {"id": "resolve", "parent": "guard", "title": "Resolve", "cost": 2}]},
+        {"title": "Precision", "nodes": [
+            {"id": "aim", "parent": "start", "title": "Aim", "cost": 1}]},
+        {"title": "Support", "nodes": [
+            {"id": "spark", "parent": "start", "title": "Spark", "cost": 1}]}]})
+```
+
+- Exactly three branch Dictionaries, each with 1–3 node Dictionaries. Branch
+  array order determines heading identity and position; branch titles need not
+  be unique and are preserved in headings and selected-node quotes. Root and
+  nodes have unique nonempty String `id`s, short `title`s and optional
+  `description`s. Root `cost` must be 1 (default 1); other costs are positive
+  integers (default 1). `points` is a nonnegative integer. Every node's explicit
+  String `parent` must be the previous step (first step's parent is root).
+  No sibling exclusion or cross-branch dependencies. `owned` is an Array of
+  unique known String ids with their entire parent chain already owned.
+- `set_data` copies the snapshot, resets selection to root and replaces local
+  allocation; invalid topology/cost/ownership returns false without changing the
+  previous snapshot. This fixed small layout is not an arbitrary graph engine.
+- `select_node(id)` inspects; `node_state(id)` returns `owned`, `locked`,
+  `insufficient`, `available`, or `unknown`. Prerequisite failure takes priority
+  over funding. Owned nodes and locked nodes remain focusable/inspectable.
+- `purchase(id) -> bool` checks unknown/owned/parent/funding, spends exactly the
+  supplied cost once and updates labels, purchase eligibility and links before
+  emitting `purchased(id:String, remaining_points:int)`. A rejection leaves points
+  and ownership unchanged, displays a reason and emits `rejected(id, reason)`.
+  The native purchase button is disabled unless available. There is no refund,
+  respec, currency conversion, save or asynchronous game command system.
+- Links: muted = parent missing; amber = parent met (including insufficient
+  points); thick teal = owned. Node text states the distinction; pressed styling
+  marks selection and a teal outline marks native keyboard focus. All choices
+  remain readable independently of color.
+- Tab/Shift-Tab and Enter use Godot's native focus/activation. The fixed 960×550
+  graph has its own two-axis `ScrollContainer` with `follow_focus`; narrow hosts
+  clip/scroll the graph instead of shrinking text. Initial/replaced snapshots
+  present the root after native container sorting, without stealing focus or
+  retaining retired controls in callbacks; later user scroll stays unchanged. Put descriptions under a final
+  outer scroll owner for unusually long supplied copy. Short graph titles may
+  clip; the description and tooltip retain full copy. No global input interception.
+
+This component intentionally owns **local allocation only** (unlike intent-only
+quoted actions). Callers supply starting points/definitions/ownership and receive
+allocation signals; a future game's authority must validate/persist and replace
+snapshots itself. No economy/balance or illustrative effect becomes game policy.
 
 ## Local modal lifecycle
 
@@ -131,7 +197,7 @@ Add the content under its final modal owner before `_ready()` builds its body.
 
 ## Payload budget
 
-The audited **32 files total 100,661 bytes** on disk including scripts, UID/import
+The audited **35 files total 109,128 bytes** on disk including scripts, UID/import
 metadata and Theme, not a packaged-game or GPU-memory estimate. The only standalone
 image file is the 192×192 RGBA original seal:
 **34,237 PNG file bytes / 147,456 decoded RGBA bytes**, displayed at 48px with

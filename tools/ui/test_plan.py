@@ -56,14 +56,14 @@ class IntakeContracts(unittest.TestCase):
         self.assertTrue(load('tasks.json')['approved_decisions'])
         self.assertIsNone(load('tasks.json')['current_blocker'])
 
-    def test_final_evidence_and_source_binding(self):
+    def test_historical_final_evidence_is_preserved(self):
         result = load(load('tasks.json')['package_results'])
         self.assertEqual(result['failures'], [])
         self.assertEqual(result['checks'], load('tasks.json')['package_checks'])
         self.assertEqual(len(result['captures']), 79)
         self.assertIn('llvmpipe', result['renderer'])
-        for name, digest in result['source_sha256'].items():
-            self.assertEqual(hashlib.sha256((PROJECT / name).read_bytes()).hexdigest(), digest, name)
+        # This accepted package predates the additional skill tree. Its immutable
+        # artifact bindings remain below; current source binding has its own test.
         binding = load(load('tasks.json')['package_visual_review'])
         self.assertEqual(binding['capture_count'], 79)
         prior = load(binding['prior_review'])
@@ -88,6 +88,28 @@ class IntakeContracts(unittest.TestCase):
         self.assertTrue(inspected <= names)
         self.assertEqual(inherited + len(inspected), len(names))
         self.assertEqual(hashlib.sha256(''.join(rows).encode()).hexdigest(), binding['image_set_sha256'])
+
+    def test_current_skill_tree_evidence_and_source_binding(self):
+        binding = load('skill-tree-validation.json')
+        result = load(binding['results'])
+        self.assertEqual(hashlib.sha256((DOCS / binding['results']).read_bytes()).hexdigest(), binding['results_sha256'])
+        self.assertEqual(result['failures'], [])
+        self.assertEqual(result['checks'], 763)
+        self.assertEqual(len(result['captures']), 86)
+        self.assertIn('llvmpipe', result['renderer'])
+        for name, digest in result['source_sha256'].items():
+            self.assertEqual(hashlib.sha256((PROJECT / name).read_bytes()).hexdigest(), digest, name)
+        for name, digest in binding['tools_sha256'].items():
+            self.assertEqual(hashlib.sha256((ROOT / name).read_bytes()).hexdigest(), digest, name)
+        captures = {c['path']: c for c in result['captures']}
+        for name, digest in binding['reviewed_captures'].items():
+            path = DOCS / binding['results']
+            path = path.parent / name
+            self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), digest, name)
+            self.assertEqual(png_header(path)[:2], (captures[name]['width'], captures[name]['height']))
+        catalog = binding['reviewed_catalog']
+        self.assertEqual(hashlib.sha256((ROOT / catalog['path']).read_bytes()).hexdigest(), catalog['sha256'])
+        self.assertEqual(load('catalog/previews.json')['entries']['skill-tree']['sha256'], catalog['sha256'])
 
     def test_historical_representative_package_is_preserved(self):
         self.preserved_milestone('representative')

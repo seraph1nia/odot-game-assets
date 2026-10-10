@@ -80,7 +80,7 @@ an error and does not hide the other assets. Files are served on localhost only.
 Search `ui/` or select `ui/components`, `ui/theme`, `ui/art`, or `ui/showcases`.
 Inventory aliases are searchable case-insensitively in both canonical and spaced
 forms, such as `research-node` / `research node` and `health-style` / `health style`.
-The generated index includes **nine reusable native Godot scenes**, the **Ledger
+The generated index includes **ten reusable native Godot scenes**, the **Ledger
 Theme**, the **original transparent menu seal**, and two **authoring-only HUD/menu
 showcase examples**. Entries come from the landed
 [`docs/ui/inventory.json`](docs/ui/inventory.json) implementation/resource bindings;
@@ -91,6 +91,12 @@ or an HTML recreation of native interactions. Labels identify mock data, Theme
 control samples and static compositions. Dense showcase text can be opened at its
 original resolution with **Native preview PNG (full size)**. No UI/game/services
 run in the browser, and nothing has been migrated into the game.
+
+The additional **Mini skill tree** starts with a one-point middle node and three
+compact prerequisite paths (three illustrative steps each). It reuses Ledger's
+native research-node/quoted-action styling; points, definitions and initial
+ownership come from the caller. Native selection, guarded local purchase and
+focus-following two-axis scrolling work independently of the game.
 
 Each UI entry links one shared, generated `exports/ui/ledger-ui.zip` and the
 [data/signals/hosting API](docs/ui/api.md). Extract its `UI/` into a Godot project at
