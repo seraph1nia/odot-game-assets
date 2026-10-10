@@ -35,7 +35,7 @@ def digest(path):
 
 
 def mesh_contract():
-    """Full mesh/UV/normal/slot links: material edits must not rewrite them."""
+    """Guard mesh/UV/smooth/slot identity, not custom normals or modifier settings."""
     meshes = {}
     for mesh in bpy.data.meshes:
         data = ([tuple(v.co) for v in mesh.vertices],

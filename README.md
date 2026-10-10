@@ -368,8 +368,9 @@ deltas. The [four transparent woodland decal textures](sources/environment/decal
 are independent source/export PNGs, not projected terrain geometry. Their usage
 notes specify straight alpha, color space, orientation, placement and scale.
 
-Previous sources, GLBs and renders for this pass are retained locally under
-`.cache/softness/before/`; the comparison is in `.lavish/material-softness.html`.
+Previous sources, GLBs and renders for the earlier painted-finish softness pass
+are retained locally under `.cache/softness/before/`; its comparison is in
+`.lavish/material-softness.html`.
 Refresh the gallery, then run `python3 -m tools.asset_pack.softness_review` to
 regenerate that comparison from the saved before renders and current previews.
 

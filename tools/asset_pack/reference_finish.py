@@ -16,8 +16,8 @@ def palette():
             g.M[name] = existing
             continue
         g.material(name, spec.color, spec.roughness, spec.metallic, spec.emission)
-    # Libraries append materials with numerical suffixes. Apply the same finish
-    # to their actual material datablocks, retaining mesh/object slot sharing.
+    # Libraries append materials with numerical suffixes. Untagged variants inherit
+    # the palette factors; authored forest variants retain their own factors.
     for mat in list(bpy.data.materials):
         base=re.sub(r'\.\d+$','',mat.name)
         if (base not in g.M or mat==g.M[base] or not mat.use_nodes or

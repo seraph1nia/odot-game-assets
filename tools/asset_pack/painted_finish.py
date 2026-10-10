@@ -205,8 +205,9 @@ def texture_material(mat, directory):
 def forest_material(mat, directory):
     """Explicit opt-in refresh of owned woodland color/roughness/emission maps.
 
-    Preserve slots, UVs, normal maps and mesh data. Named-image caching is bypassed
-    with a scoped profile prefix; the default apply/build path is unchanged.
+    Preserve slots, UVs, normal maps and mesh data. The scoped profile prefix
+    avoids default painted-image collisions; image_map still reuses matching names.
+    The default apply/build path is unchanged.
     Call only after preserving and inspecting generated/manual channel ownership.
     """
     base = style.material_name(mat.name)

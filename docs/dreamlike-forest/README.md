@@ -35,8 +35,13 @@ procedures, inspect actual F1/F4/F5 originals (links in the existing reference i
 The new profile is owned by `art_style.FOREST` / `FOREST_MATERIALS` and the existing
 painted-finish module. It is explicit opt-in authoring, **not** a global
 `PAINTED_VERSION` bump or automatic change to unrelated generator defaults.
-The recipe requires the preserved baseline's exact source hashes; future manual
-edits must be inspected/preserved before a separately scoped reapplication.
+[`forest_refinement.py`](../../tools/asset_pack/forest_refinement.py) is a one-time
+baseline-authoring recipe, not a rebuild command for the current refined sources.
+It requires `--baseline <inventory.json>` with exact original source hashes, even
+without `--apply`; a scope-only run writes `scope.json`, while `--apply` saves
+sources/maps and writes `authored.json`. Current sources intentionally fail that
+baseline check. Preserve sources/maps and existing receipts before any separately
+scoped reapplication; the ignored implementation backups are not shipped here.
 
 ## Evidence policy
 
@@ -200,9 +205,11 @@ convincing Godot wind or interoperability. No custom glTF extension/mask schema.
   refreshed; unselected exports were not regenerated.
 
 The [checks](checks/) directory retains successful and real failed diagnostic logs.
-[Validation bindings](validation.json) bind final assets/maps/previews, code/runtime
-inputs and output hashes. No EIO/Btrfs recurrence was observed during this bounded
-CPU-only campaign; it neither fixes nor disproves the host's prior filesystem or
+[Validation bindings](validation.json) bind the implementation's final
+assets/maps/previews and output hashes, and record its implementation-time
+code/runtime inputs. These are historical evidence, not results rerun by later
+documentation or lint housekeeping. No EIO/Btrfs recurrence was observed during
+this bounded CPU-only campaign; it neither fixes nor disproves the host's prior filesystem or
 unqualified llvmpipe history. No game repository, UI art, browser/GPU qualification,
 engine/runtime/driver change, merge or release is part of this implementation.
 The same-worker no-mistakes pipeline owns subsequent review/fixes/test/docs/lint/
