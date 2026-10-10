@@ -1,0 +1,24 @@
+[asset-check] $ python3 -m tools.asset_pack.check environment/components/forest_fern environment/components/forest_hollow_tree environment/components/forest_lantern_flower environment/components/forest_lantern_snail environment/components/forest_leaf_clump environment/components/forest_moss environment/components/forest_mushroom_blue environment/components/forest_mushroom_purple environment/components/forest_mushroom_small environment/components/forest_spiral_fern environment/components/forest_spiral_tree environment/hex_bioluminescent_grove environment/hex_butterfly_glade environment/hex_crystal_grove environment/hex_crystal_shrine environment/hex_dream_menagerie environment/hex_glowing_mushrooms environment/hex_hollow_watchers environment/hex_lantern_bridge environment/hex_mystical_grove environment/hex_rune_shrine environment/hex_woodland_bridge
+Unchanged and verified: environment/components/forest_fern
+Unchanged and verified: environment/components/forest_hollow_tree
+Unchanged and verified: environment/components/forest_lantern_flower
+Unchanged and verified: environment/components/forest_lantern_snail
+Unchanged and verified: environment/components/forest_leaf_clump
+Unchanged and verified: environment/components/forest_moss
+Unchanged and verified: environment/components/forest_mushroom_blue
+Unchanged and verified: environment/components/forest_mushroom_purple
+Unchanged and verified: environment/components/forest_mushroom_small
+Unchanged and verified: environment/components/forest_spiral_fern
+Unchanged and verified: environment/components/forest_spiral_tree
+Unchanged and verified: environment/hex_bioluminescent_grove
+Unchanged and verified: environment/hex_butterfly_glade
+Unchanged and verified: environment/hex_crystal_grove
+Unchanged and verified: environment/hex_crystal_shrine
+Unchanged and verified: environment/hex_dream_menagerie
+Unchanged and verified: environment/hex_glowing_mushrooms
+Unchanged and verified: environment/hex_hollow_watchers
+Unchanged and verified: environment/hex_lantern_bridge
+Unchanged and verified: environment/hex_mystical_grove
+Unchanged and verified: environment/hex_rune_shrine
+Unchanged and verified: environment/hex_woodland_bridge
+Asset check: 0 exported, 0 verified, 22 unchanged

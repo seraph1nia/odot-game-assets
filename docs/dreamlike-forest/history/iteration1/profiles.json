@@ -1,0 +1,353 @@
+[
+  {
+    "asset": "environment/hex_glowing_mushrooms",
+    "source": "83bdbf9f327ab9fa4ae64c42b1cd487d2176b7a3869b57dc87b773448948c84c",
+    "glb": "b36087c27511d719e270a9d216dc18367dd690560e8c5967327afe1be44d0879",
+    "version": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        7.0,
+        -11.0,
+        8.0
+      ],
+      "rotation": [
+        1.0810669660568237,
+        -7.508620569751656e-08,
+        0.5667291879653931
+      ],
+      "scale": 6.650000095367432
+    },
+    "lights": [
+      [
+        "Warm key",
+        [
+          -3.0,
+          -4.0,
+          8.0
+        ],
+        "AREA",
+        1012.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6899999976158142
+        ],
+        5.199999809265137
+      ],
+      [
+        "Soft sky",
+        [
+          5.0,
+          -1.0,
+          5.0
+        ],
+        "AREA",
+        533.0,
+        [
+          0.7200000286102295,
+          0.8299999833106995,
+          1.0
+        ],
+        5.0
+      ],
+      [
+        "Leaf rim",
+        [
+          1.0,
+          5.0,
+          7.0
+        ],
+        "AREA",
+        1000.0,
+        [
+          1.0,
+          0.9399999976158142,
+          0.7300000190734863
+        ],
+        4.0
+      ]
+    ],
+    "world": [
+      [
+        "Color",
+        [
+          0.20000000298023224,
+          0.2199999988079071,
+          0.25,
+          1.0
+        ]
+      ],
+      [
+        "Strength",
+        0.3199999928474426
+      ],
+      [
+        "Weight",
+        0.0
+      ]
+    ],
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "samples": 64,
+    "frame": 1,
+    "outputs": {
+      "hex_glowing_mushrooms-source-no-bloom.png": "7b658b7898b1e4ff1760244b975ba701afc17a749480eacfa75042a0da19c0ae",
+      "hex_glowing_mushrooms-source-glow.png": "34d63cb1d0638b0d9248ee81d25d2f5edb31ea7804f3cdf4c52b4ca5092f1b55",
+      "hex_glowing_mushrooms-portable.png": "dd6a95ae1f047f1ba0471d4589bccebe57608d5b89cf2cea2405e361646838e4"
+    },
+    "portable": {
+      "camera": {
+        "location": [
+          7.48997163772583,
+          -11.23495864868164,
+          8.07091999053955
+        ],
+        "rotation": [
+          1.107764720916748,
+          4.5736044285149546e-08,
+          0.5880025625228882
+        ],
+        "scale": 8.866476058959961
+      },
+      "samples": 24,
+      "transform": "AgX",
+      "look": "None"
+    }
+  },
+  {
+    "asset": "environment/hex_crystal_grove",
+    "source": "76f551a0f9e6e75e45bd9b14fba5d622cc59136a83e8ed439782a96b7f329fd8",
+    "glb": "6adc290ea9012dbca9cce44bce79737dfe77bff1077fa480161f6bb9ebbb8542",
+    "version": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        7.0,
+        -11.0,
+        8.0
+      ],
+      "rotation": [
+        1.0810669660568237,
+        -7.508620569751656e-08,
+        0.5667291879653931
+      ],
+      "scale": 6.650000095367432
+    },
+    "lights": [
+      [
+        "Warm key",
+        [
+          -3.0,
+          -4.0,
+          8.0
+        ],
+        "AREA",
+        1012.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6899999976158142
+        ],
+        5.199999809265137
+      ],
+      [
+        "Soft sky",
+        [
+          5.0,
+          -1.0,
+          5.0
+        ],
+        "AREA",
+        533.0,
+        [
+          0.7200000286102295,
+          0.8299999833106995,
+          1.0
+        ],
+        5.0
+      ],
+      [
+        "Leaf rim",
+        [
+          1.0,
+          5.0,
+          7.0
+        ],
+        "AREA",
+        1000.0,
+        [
+          1.0,
+          0.9399999976158142,
+          0.7300000190734863
+        ],
+        4.0
+      ]
+    ],
+    "world": [
+      [
+        "Color",
+        [
+          0.20000000298023224,
+          0.2199999988079071,
+          0.25,
+          1.0
+        ]
+      ],
+      [
+        "Strength",
+        0.3199999928474426
+      ],
+      [
+        "Weight",
+        0.0
+      ]
+    ],
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "samples": 64,
+    "frame": 1,
+    "outputs": {
+      "hex_crystal_grove-source-no-bloom.png": "c52b4e19b2ccba19ed110001cd0770e3d7f5d937deb75d357d5b22e60f3d4f0a",
+      "hex_crystal_grove-source-glow.png": "94398bf7ce440ba038d47a62d3efc3e3a054a74f28fcd16a92267fb9a6c876ba",
+      "hex_crystal_grove-portable.png": "0284112ba99106eb2beece472c189ea9101e16812f12673fd4d8f04af44d57cd"
+    },
+    "portable": {
+      "camera": {
+        "location": [
+          7.548149585723877,
+          -11.322224617004395,
+          8.187734603881836
+        ],
+        "rotation": [
+          1.1077649593353271,
+          -4.940428510735728e-08,
+          0.5880027413368225
+        ],
+        "scale": 8.935345649719238
+      },
+      "samples": 24,
+      "transform": "AgX",
+      "look": "None"
+    }
+  },
+  {
+    "asset": "environment/hex_lantern_bridge",
+    "source": "1fcd25010e727eeb7aa2d094808d1cd5d8306b0383dffec1e01d7daaa0cad513",
+    "glb": "7692fcb8f2a4a2c4bdc22cb2f12e4b2f5429534ddf43e9e1b2759709d8133c7b",
+    "version": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        7.0,
+        -11.0,
+        8.0
+      ],
+      "rotation": [
+        1.0810669660568237,
+        -7.508620569751656e-08,
+        0.5667291879653931
+      ],
+      "scale": 6.650000095367432
+    },
+    "lights": [
+      [
+        "Warm key",
+        [
+          -3.0,
+          -4.0,
+          8.0
+        ],
+        "AREA",
+        1012.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6899999976158142
+        ],
+        5.199999809265137
+      ],
+      [
+        "Soft sky",
+        [
+          5.0,
+          -1.0,
+          5.0
+        ],
+        "AREA",
+        533.0,
+        [
+          0.7200000286102295,
+          0.8299999833106995,
+          1.0
+        ],
+        5.0
+      ],
+      [
+        "Leaf rim",
+        [
+          1.0,
+          5.0,
+          7.0
+        ],
+        "AREA",
+        1000.0,
+        [
+          1.0,
+          0.9399999976158142,
+          0.7300000190734863
+        ],
+        4.0
+      ]
+    ],
+    "world": [
+      [
+        "Color",
+        [
+          0.20000000298023224,
+          0.2199999988079071,
+          0.25,
+          1.0
+        ]
+      ],
+      [
+        "Strength",
+        0.3199999928474426
+      ],
+      [
+        "Weight",
+        0.0
+      ]
+    ],
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "samples": 64,
+    "frame": 1,
+    "outputs": {
+      "hex_lantern_bridge-source-no-bloom.png": "1294a5bd216b51781bd06149cae11238553ffe64d6ccd5b2e588777a85463cc2",
+      "hex_lantern_bridge-source-glow.png": "8776b8c7e0520b678aa1926c4a2de20a83d5661423a5fd4f1ea79bb733aef9ec",
+      "hex_lantern_bridge-portable.png": "467bb950f863d17acaa72bf7ddbcf8e1a7bdc530787ea78d4a6bf03c5eb17c24"
+    },
+    "portable": {
+      "camera": {
+        "location": [
+          6.946974277496338,
+          -10.420461654663086,
+          6.823251724243164
+        ],
+        "rotation": [
+          1.1077648401260376,
+          6.424759391165935e-08,
+          0.588002622127533
+        ],
+        "scale": 8.223687171936035
+      },
+      "samples": 24,
+      "transform": "AgX",
+      "look": "None"
+    }
+  }
+]

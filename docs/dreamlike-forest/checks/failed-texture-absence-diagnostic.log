@@ -1,0 +1,14 @@
+00:00.719  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/shared_forest_kit.blend"
+/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/.cache/dreamlike-forest/channels.py:16: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not m.use_nodes:continue
+00:01.480  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/shared_enchanted_kit.blend"
+Traceback (most recent call last):
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/.cache/dreamlike-forest/channels.py", line 41, in <module>
+    if style.material_name(m.name).startswith('mushroom_'):assert shader.inputs['Emission Strength'].default_value==0 and 'emissiveTexture' not in gm
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: '/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/.cache/dreamlike-forest/channels.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

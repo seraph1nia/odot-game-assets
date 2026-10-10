@@ -1,0 +1,241 @@
+{
+  "profile": "dreamlike_forest_v1",
+  "ids": [
+    "environment/components/forest_fern",
+    "environment/components/forest_hollow_tree",
+    "environment/components/forest_lantern_flower",
+    "environment/components/forest_lantern_snail",
+    "environment/components/forest_leaf_clump",
+    "environment/components/forest_moss",
+    "environment/components/forest_mushroom_blue",
+    "environment/components/forest_mushroom_purple",
+    "environment/components/forest_mushroom_small",
+    "environment/components/forest_spiral_fern",
+    "environment/components/forest_spiral_tree",
+    "environment/hex_bioluminescent_grove",
+    "environment/hex_butterfly_glade",
+    "environment/hex_crystal_grove",
+    "environment/hex_crystal_shrine",
+    "environment/hex_dream_menagerie",
+    "environment/hex_glowing_mushrooms",
+    "environment/hex_hollow_watchers",
+    "environment/hex_lantern_bridge",
+    "environment/hex_mystical_grove",
+    "environment/hex_rune_shrine",
+    "environment/hex_woodland_bridge"
+  ],
+  "sources": {
+    "sources/environment/shared_enchanted_kit.blend": {
+      "materials": [
+        "forest_leaf_lilac",
+        "forest_leaf_teal",
+        "gill_glow",
+        "mushroom_purple"
+      ]
+    },
+    "sources/environment/shared_forest_kit.blend": {
+      "materials": [
+        "forest_leaf",
+        "forest_leaf_light",
+        "gill_glow",
+        "moss",
+        "mushroom_blue",
+        "mushroom_purple"
+      ]
+    },
+    "sources/environment/hex_bioluminescent_grove.blend": {
+      "materials": [
+        "forest_leaf.009",
+        "forest_leaf.010",
+        "forest_leaf_light",
+        "forest_leaf_light.009",
+        "forest_leaf_light.010",
+        "gill_glow.012",
+        "gill_glow.013",
+        "gill_glow.014",
+        "moss.005",
+        "mushroom_blue.009",
+        "mushroom_blue.010",
+        "mushroom_purple.004"
+      ]
+    },
+    "sources/environment/hex_butterfly_glade.blend": {
+      "materials": [
+        "Painted receiving ground hex_butterfly_glade",
+        "forest_leaf.001",
+        "forest_leaf.002",
+        "forest_leaf_light",
+        "forest_leaf_light.001",
+        "forest_leaf_light.002",
+        "forest_leaf_lilac.001",
+        "forest_leaf_lilac.002",
+        "forest_leaf_lilac.003",
+        "forest_leaf_teal.001",
+        "forest_leaf_teal.002",
+        "forest_leaf_teal.003",
+        "gill_glow.001",
+        "gill_glow.002",
+        "gill_glow.003",
+        "moss.001",
+        "mushroom_blue.001",
+        "mushroom_purple.001"
+      ]
+    },
+    "sources/environment/hex_crystal_grove.blend": {
+      "materials": [
+        "forest_leaf.001",
+        "forest_leaf.002",
+        "forest_leaf_light",
+        "forest_leaf_light.001",
+        "forest_leaf_light.002",
+        "gill_glow.001",
+        "gill_glow.002",
+        "gill_glow.003",
+        "moss.001",
+        "mushroom_blue.001",
+        "mushroom_blue.002",
+        "mushroom_purple.001"
+      ]
+    },
+    "sources/environment/hex_crystal_shrine.blend": {
+      "materials": [
+        "forest_leaf.011",
+        "forest_leaf.012",
+        "forest_leaf_light",
+        "forest_leaf_light.011",
+        "forest_leaf_light.012",
+        "gill_glow.015",
+        "gill_glow.016",
+        "gill_glow.017",
+        "moss.006",
+        "mushroom_blue.011",
+        "mushroom_blue.012",
+        "mushroom_purple.005"
+      ]
+    },
+    "sources/environment/hex_dream_menagerie.blend": {
+      "materials": [
+        "Painted receiving ground hex_dream_menagerie",
+        "forest_leaf.003",
+        "forest_leaf.004",
+        "forest_leaf_light",
+        "forest_leaf_light.003",
+        "forest_leaf_light.004",
+        "forest_leaf_lilac.004",
+        "forest_leaf_lilac.005",
+        "forest_leaf_lilac.006",
+        "forest_leaf_teal.003",
+        "forest_leaf_teal.004",
+        "gill_glow.005",
+        "gill_glow.006",
+        "gill_glow.007",
+        "moss.002",
+        "mushroom_blue.003",
+        "mushroom_blue.004",
+        "mushroom_purple.003"
+      ]
+    },
+    "sources/environment/hex_glowing_mushrooms.blend": {
+      "materials": [
+        "forest_leaf.007",
+        "forest_leaf.008",
+        "forest_leaf_light",
+        "forest_leaf_light.007",
+        "forest_leaf_light.008",
+        "gill_glow.009",
+        "gill_glow.010",
+        "gill_glow.011",
+        "moss.004",
+        "mushroom_blue.007",
+        "mushroom_blue.008",
+        "mushroom_purple.003"
+      ]
+    },
+    "sources/environment/hex_hollow_watchers.blend": {
+      "materials": [
+        "Painted receiving ground hex_hollow_watchers",
+        "forest_leaf.001",
+        "forest_leaf.002",
+        "forest_leaf_light",
+        "forest_leaf_light.001",
+        "forest_leaf_light.002",
+        "forest_leaf_lilac.001",
+        "forest_leaf_lilac.002",
+        "forest_leaf_lilac.003",
+        "forest_leaf_teal.001",
+        "forest_leaf_teal.002",
+        "gill_glow.001",
+        "gill_glow.002",
+        "gill_glow.003",
+        "gill_glow.004",
+        "moss.001",
+        "mushroom_blue.001",
+        "mushroom_blue.002",
+        "mushroom_purple.001",
+        "mushroom_purple.002"
+      ]
+    },
+    "sources/environment/hex_lantern_bridge.blend": {
+      "materials": [
+        "forest_leaf.013",
+        "forest_leaf.014",
+        "forest_leaf_light",
+        "forest_leaf_light.013",
+        "forest_leaf_light.014",
+        "gill_glow.018",
+        "gill_glow.019",
+        "gill_glow.020",
+        "moss.007",
+        "mushroom_blue.013",
+        "mushroom_blue.014",
+        "mushroom_purple.006"
+      ]
+    },
+    "sources/environment/hex_mystical_grove.blend": {
+      "materials": [
+        "forest_leaf.003",
+        "forest_leaf.004",
+        "forest_leaf_light",
+        "forest_leaf_light.003",
+        "forest_leaf_light.004",
+        "gill_glow.004",
+        "gill_glow.005",
+        "gill_glow.006",
+        "moss.002",
+        "mushroom_blue.003",
+        "mushroom_blue.004",
+        "mushroom_purple.002"
+      ]
+    },
+    "sources/environment/hex_rune_shrine.blend": {
+      "materials": [
+        "forest_leaf.005",
+        "forest_leaf.006",
+        "forest_leaf_light",
+        "forest_leaf_light.005",
+        "forest_leaf_light.006",
+        "gill_glow.007",
+        "gill_glow.008",
+        "moss.003",
+        "mushroom_blue.005",
+        "mushroom_blue.006"
+      ]
+    },
+    "sources/environment/hex_woodland_bridge.blend": {
+      "materials": [
+        "forest_leaf.015",
+        "forest_leaf.016",
+        "forest_leaf_light",
+        "forest_leaf_light.015",
+        "forest_leaf_light.016",
+        "gill_glow.021",
+        "gill_glow.022",
+        "gill_glow.023",
+        "moss.008",
+        "mushroom_blue.015",
+        "mushroom_blue.016",
+        "mushroom_purple.007"
+      ]
+    }
+  }
+}

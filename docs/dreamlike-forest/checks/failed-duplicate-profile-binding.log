@@ -1,0 +1,5 @@
+Internal freshness audit failed: ('after', 'hex_glowing_mushrooms-portable.png').
+The source-render pass's duplicate portable output was superseded by the canonical portable rerender.
+Actual source/GLB and camera/AgX/look/samples match. No byte-identical CPU render assumption is valid.
+Corrected metadata ownership: source profiles own only source images; portable-profiles.json owns the canonical portable images.
+Exact superseded/current hashes retained in history/superseded-portable-bindings.json.

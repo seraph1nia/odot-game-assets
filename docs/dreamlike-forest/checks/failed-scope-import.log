@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/tools/asset_pack/forest_refinement.py", line 137, in <module>
+    main()
+    ~~~~^^
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/tools/asset_pack/forest_refinement.py", line 88, in main
+    from tools.asset_catalog.export_sources import plan_exports
+ModuleNotFoundError: No module named 'tools'
+
+Error: script failed, file: '/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/tools/asset_pack/forest_refinement.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

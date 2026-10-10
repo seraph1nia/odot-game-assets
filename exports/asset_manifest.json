@@ -1079,11 +1079,12 @@
     },
     {
       "file": "exports/environment/components/forest_fern.glb",
-      "bytes": 414796,
+      "bytes": 468244,
       "triangles": 576,
       "materials": 2,
       "animations": [],
-      "source": "sources/environment/shared_forest_kit.blend"
+      "source": "sources/environment/shared_forest_kit.blend",
+      "meshes": 57
     },
     {
       "file": "exports/environment/components/forest_foam.glb",
@@ -1120,43 +1121,48 @@
     },
     {
       "file": "exports/environment/components/forest_leaf_clump.glb",
-      "bytes": 334612,
+      "bytes": 388060,
       "triangles": 48,
       "materials": 2,
       "animations": [],
-      "source": "sources/environment/shared_forest_kit.blend"
+      "source": "sources/environment/shared_forest_kit.blend",
+      "meshes": 6
     },
     {
       "file": "exports/environment/components/forest_moss.glb",
-      "bytes": 344188,
+      "bytes": 365340,
       "triangles": 300,
       "materials": 2,
       "animations": [],
-      "source": "sources/environment/shared_forest_kit.blend"
+      "source": "sources/environment/shared_forest_kit.blend",
+      "meshes": 6
     },
     {
       "file": "exports/environment/components/forest_mushroom_blue.glb",
-      "bytes": 1602776,
+      "bytes": 1597304,
       "triangles": 1780,
       "materials": 5,
       "animations": [],
-      "source": "sources/environment/shared_forest_kit.blend"
+      "source": "sources/environment/shared_forest_kit.blend",
+      "meshes": 26
     },
     {
       "file": "exports/environment/components/forest_mushroom_purple.glb",
-      "bytes": 1612752,
+      "bytes": 1608232,
       "triangles": 1780,
       "materials": 5,
       "animations": [],
-      "source": "sources/environment/shared_forest_kit.blend"
+      "source": "sources/environment/shared_forest_kit.blend",
+      "meshes": 26
     },
     {
       "file": "exports/environment/components/forest_mushroom_small.glb",
-      "bytes": 1619876,
+      "bytes": 1614404,
       "triangles": 1900,
       "materials": 5,
       "animations": [],
-      "source": "sources/environment/shared_forest_kit.blend"
+      "source": "sources/environment/shared_forest_kit.blend",
+      "meshes": 36
     },
     {
       "file": "exports/environment/components/forest_root.glb",
@@ -1233,7 +1239,7 @@
     },
     {
       "file": "exports/environment/hex_bioluminescent_grove.glb",
-      "bytes": 6857464,
+      "bytes": 6944760,
       "triangles": 8152,
       "materials": 41,
       "animations": [],
@@ -1253,11 +1259,12 @@
       },
       "shared_kits": [
         "sources/environment/shared_forest_kit.blend"
-      ]
+      ],
+      "meshes": 205
     },
     {
       "file": "exports/environment/hex_crystal_grove.glb",
-      "bytes": 8552212,
+      "bytes": 8640792,
       "triangles": 8008,
       "materials": 40,
       "animations": [],
@@ -1282,7 +1289,7 @@
     },
     {
       "file": "exports/environment/hex_crystal_shrine.glb",
-      "bytes": 8764480,
+      "bytes": 8853388,
       "triangles": 10508,
       "materials": 44,
       "animations": [],
@@ -1304,11 +1311,12 @@
       },
       "shared_kits": [
         "sources/environment/shared_forest_kit.blend"
-      ]
+      ],
+      "meshes": 220
     },
     {
       "file": "exports/environment/hex_glowing_mushrooms.glb",
-      "bytes": 8492372,
+      "bytes": 8581108,
       "triangles": 7640,
       "materials": 37,
       "animations": [],
@@ -1327,11 +1335,12 @@
       },
       "shared_kits": [
         "sources/environment/shared_forest_kit.blend"
-      ]
+      ],
+      "meshes": 191
     },
     {
       "file": "exports/environment/hex_lantern_bridge.glb",
-      "bytes": 7646580,
+      "bytes": 7734540,
       "triangles": 9910,
       "materials": 49,
       "animations": [],
@@ -1359,7 +1368,7 @@
     },
     {
       "file": "exports/environment/hex_mystical_grove.glb",
-      "bytes": 8532720,
+      "bytes": 8621692,
       "triangles": 7640,
       "materials": 37,
       "animations": [],
@@ -1378,11 +1387,12 @@
       },
       "shared_kits": [
         "sources/environment/shared_forest_kit.blend"
-      ]
+      ],
+      "meshes": 191
     },
     {
       "file": "exports/environment/hex_rune_shrine.glb",
-      "bytes": 7178844,
+      "bytes": 7231164,
       "triangles": 10098,
       "materials": 44,
       "animations": [],
@@ -1403,11 +1413,12 @@
       },
       "shared_kits": [
         "sources/environment/shared_forest_kit.blend"
-      ]
+      ],
+      "meshes": 207
     },
     {
       "file": "exports/environment/hex_woodland_bridge.glb",
-      "bytes": 7808052,
+      "bytes": 7896016,
       "triangles": 10882,
       "materials": 57,
       "animations": [],
@@ -1431,7 +1442,8 @@
       },
       "shared_kits": [
         "sources/environment/shared_forest_kit.blend"
-      ]
+      ],
+      "meshes": 240
     },
     {
       "file": "exports/environment/components/forest_butterfly_cyan.glb",
@@ -1451,11 +1463,12 @@
     },
     {
       "file": "exports/environment/components/forest_hollow_tree.glb",
-      "bytes": 2280864,
+      "bytes": 2276336,
       "triangles": 6288,
       "materials": 6,
       "animations": [],
-      "source": "sources/environment/shared_enchanted_kit.blend"
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "meshes": 86
     },
     {
       "file": "exports/environment/components/forest_jackalope.glb",
@@ -1467,19 +1480,21 @@
     },
     {
       "file": "exports/environment/components/forest_lantern_flower.glb",
-      "bytes": 513188,
+      "bytes": 555496,
       "triangles": 424,
       "materials": 3,
       "animations": [],
-      "source": "sources/environment/shared_enchanted_kit.blend"
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "meshes": 9
     },
     {
       "file": "exports/environment/components/forest_lantern_snail.glb",
-      "bytes": 887236,
+      "bytes": 894712,
       "triangles": 2970,
       "materials": 6,
       "animations": [],
-      "source": "sources/environment/shared_enchanted_kit.blend"
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "meshes": 14
     },
     {
       "file": "exports/environment/components/forest_moon_moth.glb",
@@ -1491,23 +1506,25 @@
     },
     {
       "file": "exports/environment/components/forest_spiral_fern.glb",
-      "bytes": 440444,
+      "bytes": 482756,
       "triangles": 1152,
       "materials": 2,
       "animations": [],
-      "source": "sources/environment/shared_enchanted_kit.blend"
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "meshes": 21
     },
     {
       "file": "exports/environment/components/forest_spiral_tree.glb",
-      "bytes": 1038932,
+      "bytes": 1053088,
       "triangles": 3798,
       "materials": 5,
       "animations": [],
-      "source": "sources/environment/shared_enchanted_kit.blend"
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "meshes": 55
     },
     {
       "file": "exports/environment/hex_butterfly_glade.glb",
-      "bytes": 6036788,
+      "bytes": 6178236,
       "triangles": 14114,
       "materials": 45,
       "animations": [],
@@ -1530,11 +1547,12 @@
       "shared_kits": [
         "sources/environment/shared_enchanted_kit.blend",
         "sources/environment/shared_forest_kit.blend"
-      ]
+      ],
+      "meshes": 254
     },
     {
       "file": "exports/environment/hex_dream_menagerie.glb",
-      "bytes": 8369724,
+      "bytes": 8512904,
       "triangles": 20216,
       "materials": 56,
       "animations": [],
@@ -1559,11 +1577,12 @@
       "shared_kits": [
         "sources/environment/shared_enchanted_kit.blend",
         "sources/environment/shared_forest_kit.blend"
-      ]
+      ],
+      "meshes": 254
     },
     {
       "file": "exports/environment/hex_hollow_watchers.glb",
-      "bytes": 8246048,
+      "bytes": 8387876,
       "triangles": 19040,
       "materials": 51,
       "animations": [],
@@ -1587,7 +1606,8 @@
       "shared_kits": [
         "sources/environment/shared_enchanted_kit.blend",
         "sources/environment/shared_forest_kit.blend"
-      ]
+      ],
+      "meshes": 308
     },
     {
       "file": "exports/environment/hex_ground_dirt.glb",
