@@ -25,6 +25,15 @@ class ExportPlanTests(unittest.TestCase):
         jobs = plan_exports(self.root)
         self.assertEqual([job['id'] for job in jobs], ['future/cloud', 'props/kit/lantern'])
 
+    def test_ui_authoring_sources_do_not_enter_implicit_3d_exports(self):
+        self.source('sources/ui/menu_seal.blend')
+        self.source('sources/ui/explorations/watch_seal.blend')
+        self.source('sources/ui/physical_sign.blend')
+        self.source('sources/props/seal.blend')
+        jobs = plan_exports(self.root)
+        self.assertEqual([job['id'] for job in jobs], ['props/seal', 'ui/physical_sign'])
+        self.assertEqual(plan_exports(self.root, ['props/seal'])[0]['id'], 'props/seal')
+
     def test_explicit_shared_sources_and_selection_work_without_existing_exports(self):
         self.source('sources/props/library.blend')
         self.source('sources/environment/tile.blend')

@@ -1,0 +1,13 @@
+{
+  "milestone": "Host dialog-close synchronization within approved standalone E–G; no game integration/publication",
+  "final_directory": "docs/ui/production/review-dialog-close",
+  "capture_manifest": "production/review-dialog-close/results.json",
+  "capture_count": 79,
+  "image_set_sha256": "1adbd0cd0728bd79fb0cc4de76dfb8a2fe2afb42eaafa33ba22aa41195e60234",
+  "image_set_encoding": "UTF-8, result capture order: filename + space + width + space + height + space + SHA256(PNG bytes) + newline for each capture",
+  "prior_review": "visual-review-review-fixes.json",
+  "historical_m1": "visual-review-m1.json",
+  "review": "All 79 newly captured PNGs are exact SHA256 matches, with identical recorded dimensions, to the retained reviewed review-fixes image set. No changed image bytes and no new image inspection claimed in this round. Visual judgment is inherited only for identical bytes through prior_review; fresh 637-check normal acceptance separately binds the edited Godot source.",
+  "record": "production.md",
+  "newly_inspected": []
+}

@@ -1,0 +1,27 @@
+{
+	"captures": [],
+	"checks": 300,
+	"failures": [
+		"dialog closure restores underlying HUD Research",
+		"same selector item reopens Research",
+		"reopened dialog Esc restores HUD Research",
+		"dialog closure restores underlying HUD Town Hall",
+		"same selector item reopens Town Hall",
+		"reopened dialog Esc restores HUD Town Hall",
+		"dialog closure restores underlying HUD Settings",
+		"same selector item reopens Settings",
+		"reopened dialog Esc restores HUD Settings",
+		"dialog closure restores underlying HUD Details",
+		"same selector item reopens Details",
+		"reopened dialog Esc restores HUD Details",
+		"dialog closure restores underlying HUD Friends",
+		"same selector item reopens Friends",
+		"reopened dialog Esc restores HUD Friends",
+		"dialog closure restores underlying HUD Components",
+		"same selector item reopens Components",
+		"reopened dialog Esc restores HUD Components",
+		"screen selector returns from dialog to HUD"
+	],
+	"scope": "Standalone native controls; no game integration or native GPU claim",
+	"selection": "production"
+}
