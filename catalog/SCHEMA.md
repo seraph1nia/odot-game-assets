@@ -63,7 +63,7 @@ Unknown policy remains `null` in the index; the UI starts with Loop unchecked.
 The viewer always discovers playable clips from the actually loaded GLB.
 
 The generated index includes `schema_version`, `revision`, `warnings`, and `assets`.
-Each asset has a stable `id` (export-relative path without extension), `category`,
+Each GLB asset has a stable `id` (export-relative path without extension), `category`,
 display metadata, statistics, `animations` with `{name, duration, loop}`, and
 available `model`, `source`, `reference`, `preview`, and `thumbnail` records.
 File records contain repository-relative `path` and cache `version`. The model

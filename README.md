@@ -28,8 +28,8 @@ quality pilot, rollout or game integration. Those operations need separate scope
 Start with [docs/ui/README.md](docs/ui/README.md) for the approved Ledger direction,
 finished intended standalone native component/composition package, preserved
 accepted history, original editable menu seal, functional Godot preview, actual
-input/visual evidence and migration-ready interfaces. Game integration/publication
-remain separate and unauthorized; this is not an automatic game rollout.
+input/visual evidence and migration-ready interfaces. Game integration/rollout
+remain separate and unauthorized; catalog publication is not a game rollout.
 No game checkout is needed at runtime, and UI checks do not rebuild world assets
 or access shared Blender/MCP scenes.
 
@@ -78,6 +78,8 @@ an error and does not hide the other assets. Files are served on localhost only.
 ### Native Ledger UI resources
 
 Search `ui/` or select `ui/components`, `ui/theme`, `ui/art`, or `ui/showcases`.
+Inventory aliases are searchable case-insensitively in both canonical and spaced
+forms, such as `research-node` / `research node` and `health-style` / `health style`.
 The generated index includes **nine reusable native Godot scenes**, the **Ledger
 Theme**, the **original transparent menu seal**, and two **authoring-only HUD/menu
 showcase examples**. Entries come from the landed
@@ -93,32 +95,15 @@ run in the browser, and nothing has been migrated into the game.
 Each UI entry links one shared, generated `exports/ui/ledger-ui.zip` and the
 [data/signals/hosting API](docs/ui/api.md). Extract its `UI/` into a Godot project at
 `res://UI/`, import, then instantiate the desired scenes. A loose `.tscn` requires
-its shared Theme/scripts; prefer the ZIP. It contains only the audited runtime
-files (32, including the portable PNG import recipe/UID/settings), API, README
-and hash manifest. No prototypes, private caches/history, test logs or game/Blender/tools
-are runtime dependencies. Showcase composition scenes are deliberately not loose
-published downloads or members of the runtime ZIP.
+its shared Theme/scripts; prefer the ZIP. Showcase composition scenes are
+examples only, not runtime downloads.
 
-The normal index/static build generates that deterministic package and validates
-[payload hashes](docs/ui/payload.json), original seal source/output hashes, and
-[native preview source/image/identity bindings](docs/ui/catalog/previews.json).
-Changed or missing inputs fail closed rather than publishing stale UI pictures.
-Normal builds/Pages need only Python, using committed native authoring captures;
-they do not install or run Godot. To intentionally refresh the focused captures,
-use an **existing** Godot executable and a new evidence label:
-
-```sh
-python3 tools/ui/capture_catalog.py --godot /path/to/godot --label my-new-ui-views
-python3 -m tools.asset_catalog build
-python3 tools/ui/check_catalog_package.py --godot /path/to/godot --label my-new-package-check
-```
-
-These authoring checks use the existing owned Xvfb/software-rendering helpers.
-For the tested .NET Godot build, also pass `--dotnet-root /path/to/existing/sdk`.
-Runtime edits first require refreshing the existing payload audit; see
-[`docs/ui/catalog/README.md`](docs/ui/catalog/README.md) for coverage and provenance.
-The two 2D Blender seal sources remain excluded from implicit 3D exports/style
-checks. GLB thumbnail rendering selects model records only, never UI resources.
+UI generation uses committed, source-bound native captures and fails closed on
+changed or missing inputs; normal indexing/static packaging does not run Godot.
+See [UI catalog authoring and evidence](docs/ui/catalog/README.md#build-refresh-and-dependency-access)
+for the package contents, payload audit, intentional capture refresh procedure
+and provenance. The existing Blender stages for models in the Pages workflow
+remain unchanged.
 
 ### Refresh exports without rebuilding models
 
@@ -153,7 +138,10 @@ python3 -m tools.asset_catalog thumbnails --blender /path/to/blender
 python3 -m tools.asset_catalog thumbnails props/sword characters/knight --blender /path/to/blender
 ```
 
-The first command considers all exports; the second selects specific asset IDs.
+The first command considers all exported GLB models; the second selects specific
+model asset IDs. Native UI entries are excluded, and explicitly selecting a UI ID
+fails with `Not GLB asset IDs`; use the [native capture procedure](docs/ui/catalog/README.md#build-refresh-and-dependency-access)
+instead.
 Only missing or changed thumbnails render. `--force` explicitly rerenders the
 selection. A separate background Blender process imports each GLB, fits a neutral
 studio camera, and writes `exports/thumbnails/<asset-id>.png`. It never opens or

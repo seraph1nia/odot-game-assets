@@ -27,8 +27,8 @@ original `UI/art/menu_seal.png` / `ledger-seal` art provenance, **not** the reje
 `mise run catalog-build` / `python3 -m tools.asset_catalog build` generates the
 mixed index and one shared `exports/ui/ledger-ui.zip`. The normal Pages workflow
 already invokes this builder; no Godot/extra browser/CI tool installation or new
-workflow is required. The builder copies native resources, their 32 audited
-runtime/import/UID files, selected native previews, API/inventory/payload/migration/
+workflow is required. The builder copies the native runtime/import/UID files
+listed in [the payload audit](../payload.json), selected native previews, API/inventory/payload/migration/
 coverage/art-provenance records and the ZIP into `dist/catalog`. It does **not**
 publish private test logs, history, browser evidence, authoring prototype scenes,
 Blender sources or `.godot` caches. Existing GLB packaging and opt-in source policy
@@ -74,9 +74,8 @@ dependencies, generator, identities, image bytes or measured dimensions.
 - `package-check.json`: **actual generated ZIP** extracted into an independent
   temporary Godot project; all nine scenes instantiate/ready, Theme and seal load
   without prototypes, game checkout, Blender, generator or history. File hashes
-  and ZIP hash bind the check to the exact downloadable bytes. The package is
-  120,301 bytes; stored ZIP members/fixed metadata avoid compressor/timestamp
-  differences between fresh checkouts.
+  and ZIP hash bind the check to the exact downloadable bytes; stored ZIP members
+  and fixed metadata avoid compressor/timestamp differences between fresh checkouts.
 - `regression.json`: fresh original native UI input/state/layout suite, 637 checks,
   zero failures, 79 fixture captures. These regression frames are private evidence,
   **not** an assertion of fresh aesthetic inspection of every campaign view.
@@ -86,9 +85,11 @@ dependencies, generator, identities, image bytes or measured dimensions.
   bakery/knight/sword camera, animation, filter and companion-view acceptance.
   The original frontend/script hashes bind the retained Chrome screenshots and
   acceptance; `alias_search_regression` separately records the repaired frontend
-  and real-browser canonical/spaced alias checks. Browser captures are browser
-  presentation evidence, not native runtime input evidence. Normal-scale grid/detail screenshots were actually opened for visual
-  inspection; no browser-only image is called a native render.
+  and focused Firefox canonical/spaced/uppercase alias filtering and URL restoration.
+  This does not re-certify the original full suite: its subsequent GLB load timed
+  out in headless Firefox. Browser captures are browser presentation evidence,
+  not native runtime input evidence. Normal-scale grid/detail screenshots were
+  actually opened for visual inspection; no browser-only image is called a native render.
 - `tools/asset_catalog/test_ui_assets.py`: executable generation, exact payload,
   deterministic ZIP, native evidence hash binding, source/image/identity/dimension/
   path failures, static link fetches at root and repository subpath, every existing

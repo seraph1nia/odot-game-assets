@@ -4,7 +4,9 @@
 **637/0, 79 image bytes with visual-review coverage**, fresh serial OS Settings/modal and independent
 payload audit. Accepted M0/M1/representative milestones are preserved.
 [coverage.md](coverage.md) defines finished standalone scope and separate external
-integration requirements. **No game integration/mutation, migration or publication.**
+integration requirements. **No game integration/mutation or migration.**
+Standalone catalog access is described in the [root README](../../README.md#native-ledger-ui-resources);
+its authoring/evidence owner is [catalog/README.md](catalog/README.md).
 MAIN owns the coordinated delivery handoff; no competing pipeline.
 
 | Need | Read |

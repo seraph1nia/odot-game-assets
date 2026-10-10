@@ -12,25 +12,14 @@ v1; the deliberately mixed generated index is v2.
 [UI catalog evidence and authoring](../docs/ui/catalog/README.md) owns the scoped
 native-preview, independent generated-package load, fresh 637-check UI regression,
 source/render/image/identity bindings, retained failures and honest integration
-limits. [Browser evidence](../docs/ui/catalog/browser-review.json) binds the actual
-static catalog revision, frontend bytes and normal-scale screenshots to checked
-inputs. Native PNGs come from Godot; browser screenshots prove presentation only,
-not browser execution of the native library.
+limits. [Browser evidence](../docs/ui/catalog/browser-review.json) retains the
+original Chrome full-suite results/screenshots and separately records the repaired
+frontend's focused alias-search regression. See the
+[presentation evidence owner](../docs/ui/catalog/README.md#checked-package-and-presentation)
+for their distinct bindings, native/browser scope, visual limits and package checks.
 
-The actual output was served at a local root and `/odot-game-assets/`. The new
-real-browser `browser_ui_checks.js` returned **226 checks at each location**:
-all 13 entries, native image/resource dispatch, truthful roles/labels, portable
-relative links, fetched ZIP byte hashes, alias/category/animation filtering and
-return to a loaded GLB. Existing `browser_checks.js` returned **28 checks** against
-the final mixed site (bakery/knight/sword viewers, camera/playback/filter/companion
-views/local dependencies). Thirteen detail views and normal-scale grid views were
-actually opened and inspected, including alpha and the corrected authoring-only
-showcase scope. Dense native compositions have a full-size PNG link; card-sized
-mock copy is not claimed universally legible. The browser was an approved private
-Chrome for Testing 155, separate task-only profile, loopback CDP and sandbox enabled;
-no personal browser/defaults, downloads or installs were used.
-
-`mise run check` passes **73 tests**, Python lint/syntax and JavaScript syntax checks.
+The original `mise run check` run passed Python lint/syntax, JavaScript syntax and
+unit checks; this historical result does not certify subsequent changes.
 New generation/packaging tests execute real consumers and HTTP fetches, enforce
 binding/path/dimension failures and every existing model ID, and exercise the
 actual warm GLB thumbnail/export planners without sending native UI to Blender.
