@@ -187,7 +187,7 @@ class UIAssetsTests(unittest.TestCase):
         evidence = json.loads((ROOT / 'docs/ui/catalog/browser-review.json').read_text())
         build_site(root=self.root)
         output = self.root / 'dist/catalog'
-        for name, digest in evidence['frontend_sha256'].items():
+        for name, digest in evidence['alias_search_regression']['frontend_sha256'].items():
             self.assertEqual(hashlib.sha256((output / name).read_bytes()).hexdigest(), digest)
         for view in evidence['screenshots']:
             self.assertEqual(hashlib.sha256((ROOT / view['path']).read_bytes()).hexdigest(), view['sha256'])

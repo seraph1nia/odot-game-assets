@@ -42,7 +42,7 @@ function renderGrid() {
   const assets = catalog.assets.filter(asset =>
     (!state.category || asset.category === state.category) &&
     (!state.animated || asset.animations.length > 0) &&
-    `${asset.title} ${asset.id} ${asset.category} ${(asset.aliases || []).join(' ').replaceAll('-', ' ')}`.toLowerCase().includes(state.q.toLowerCase()));
+    `${asset.title} ${asset.id} ${asset.category} ${(asset.aliases || []).flatMap(alias => [alias, alias.replaceAll('-', ' ')]).join(' ')}`.toLowerCase().includes(state.q.toLowerCase()));
   $('count').textContent = `${assets.length} of ${catalog.assets.length} assets`;
   $('empty').hidden = assets.length !== 0;
   // Keep unaffected cards (and their loaded thumbnails) during automatic refresh.

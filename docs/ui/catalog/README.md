@@ -84,8 +84,10 @@ dependencies, generator, identities, image bytes or measured dimensions.
   root and `/odot-game-assets/`, real Chrome for Testing, native-entry dispatch,
   portable image/resource/API/ZIP links and fetched ZIP hashes, plus unchanged
   bakery/knight/sword camera, animation, filter and companion-view acceptance.
-  Browser captures are browser presentation evidence, not native runtime input
-  evidence. Normal-scale grid/detail screenshots were actually opened for visual
+  The original frontend/script hashes bind the retained Chrome screenshots and
+  acceptance; `alias_search_regression` separately records the repaired frontend
+  and real-browser canonical/spaced alias checks. Browser captures are browser
+  presentation evidence, not native runtime input evidence. Normal-scale grid/detail screenshots were actually opened for visual
   inspection; no browser-only image is called a native render.
 - `tools/asset_catalog/test_ui_assets.py`: executable generation, exact payload,
   deterministic ZIP, native evidence hash binding, source/image/identity/dimension/
@@ -104,11 +106,14 @@ Only normal model cards create model-viewer and expose camera/animation controls
 
 ## History and limits
 
-`history.json` retains this task's failures and earlier focused capture bindings.
-Original UI milestones, failures, images, migration/coverage records and original
-Blender/PNG/runtime semantics/style are unchanged. Private full logs remain in
-the named `.cache/` directories, never the public runtime payload/static output.
-Earlier success does not certify changed source or replace final bound evidence.
+`history.json` retains a concise summary of this task's failures and references to
+private unique failure evidence. Superseded duplicate native captures, obsolete
+manifests and superseded browser frames are not retained; final bound native,
+browser and package evidence remains. Original UI milestones, failures, images,
+migration/coverage records and original Blender/PNG/runtime semantics/style are
+unchanged. Private full logs remain in the named `.cache/` directories, never the
+public runtime payload/static output. Earlier success does not certify changed
+source or replace final bound evidence.
 
 The library remains standalone. Game namespace/input/authority/services adapters,
 engine/platform/scale/localization limits and any migration still require the

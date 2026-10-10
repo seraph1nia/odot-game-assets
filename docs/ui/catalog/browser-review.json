@@ -585,5 +585,116 @@
     "legibility": "Card titles/kinds/static labels legible. Focused detail copy legible; dense HUD/menu details and thumbnails can require the full-size native PNG link. Native muted context text retains its original lower contrast; runtime style was not changed.",
     "cropping_alpha": "Detail images contained without cropping, seal transparent surround/checkerboard visible. Roster viewport visibly scrolls; not all hidden rows are asserted visible.",
     "limits": "No mobile/HiDPI/RTL/physical input/native-GPU campaign, browser does not execute Godot UI/game/services."
+  },
+  "alias_search_regression": {
+    "scope": "Focused real Firefox canonical/spaced/uppercase alias filtering and URL restoration at root and repository subpath; original Chrome screenshot and full-suite bindings remain unchanged",
+    "frontend_sha256": {
+      "index.html": "8ca50ffb7965214ee24afd2a1c9b37d3c588ea09a3125c33bb11bb475bbee9e8",
+      "catalog/catalog.js": "ff5d53db6065d8366bc3f359f3d4b434fe93b1e9a6ddf3610ae71844de7190e2",
+      "catalog/catalog.css": "b14f88a9aced038e094e6cfd581ce9b9d45e6b368f5b6ddc77a227f766feb4b1"
+    },
+    "acceptance_script_sha256": "b01a3b7aacc7cf3f4d5d816db09be6839572b249af622bba97665dafb4d0d5af",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:157.0) Gecko/20100101 Firefox/157.0",
+    "before_fix_error": "Error: Inventory alias research-node finds ui/action-quote, not an invented component",
+    "queries": [
+      {
+        "query": "research-node",
+        "asset": "ui/action-quote"
+      },
+      {
+        "query": "research node",
+        "asset": "ui/action-quote"
+      },
+      {
+        "query": "RESEARCH-NODE",
+        "asset": "ui/action-quote"
+      },
+      {
+        "query": "health-style",
+        "asset": "ui/unit-inspection"
+      },
+      {
+        "query": "health style",
+        "asset": "ui/unit-inspection"
+      },
+      {
+        "query": "HEALTH-STYLE",
+        "asset": "ui/unit-inspection"
+      }
+    ],
+    "pages_queries": [
+      {
+        "query": "research-node",
+        "asset": "ui/action-quote"
+      },
+      {
+        "query": "research node",
+        "asset": "ui/action-quote"
+      },
+      {
+        "query": "RESEARCH-NODE",
+        "asset": "ui/action-quote"
+      },
+      {
+        "query": "health-style",
+        "asset": "ui/unit-inspection"
+      },
+      {
+        "query": "health style",
+        "asset": "ui/unit-inspection"
+      },
+      {
+        "query": "HEALTH-STYLE",
+        "asset": "ui/unit-inspection"
+      }
+    ],
+    "ordinary_queries": [
+      "ui/",
+      "sword",
+      ""
+    ],
+    "limits": "The broader UI suite passed alias assertions but its unchanged GLB load timed out in headless Firefox; this record claims only focused search verification.",
+    "restored_alias_queries": [
+      {
+        "base": "/",
+        "query": "research-node",
+        "asset": "ui/action-quote"
+      },
+      {
+        "base": "/",
+        "query": "research node",
+        "asset": "ui/action-quote"
+      },
+      {
+        "base": "/",
+        "query": "health-style",
+        "asset": "ui/unit-inspection"
+      },
+      {
+        "base": "/",
+        "query": "health style",
+        "asset": "ui/unit-inspection"
+      },
+      {
+        "base": "/odot-game-assets/",
+        "query": "research-node",
+        "asset": "ui/action-quote"
+      },
+      {
+        "base": "/odot-game-assets/",
+        "query": "research node",
+        "asset": "ui/action-quote"
+      },
+      {
+        "base": "/odot-game-assets/",
+        "query": "health-style",
+        "asset": "ui/unit-inspection"
+      },
+      {
+        "base": "/odot-game-assets/",
+        "query": "health style",
+        "asset": "ui/unit-inspection"
+      }
+    ]
   }
 }

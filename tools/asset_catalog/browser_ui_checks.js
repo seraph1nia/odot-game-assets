@@ -52,8 +52,18 @@ async () => {
     }
     $('close').click();
   }
-  change('search', 'research node', 'input');
-  assert(document.querySelectorAll('.card').length === 1 && document.querySelector('.card').dataset.id === 'ui/action-quote', 'Inventory research-node alias finds the actual quoted-action resource, not an invented component');
+  for (const asset of ui) {
+    for (const alias of asset.aliases) {
+      for (const query of new Set([alias, alias.replaceAll('-', ' '), alias.toUpperCase()])) {
+        change('search', query, 'input');
+        const cards = [...document.querySelectorAll('.card')];
+        assert(cards.length === 1 && cards[0].dataset.id === asset.id,
+          `Inventory alias ${query} finds ${asset.id}, not an invented component`);
+        assert(new URL(location.href).searchParams.get('q') === query,
+          `Inventory alias ${query} is preserved in the URL`);
+      }
+    }
+  }
   change('search', '', 'input'); change('category', 'ui/components');
   assert(document.querySelectorAll('.card').length === 9, 'UI component category contains nine reusable native scenes');
   $('animated').checked = true; $('animated').dispatchEvent(new Event('change'));
