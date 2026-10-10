@@ -52,9 +52,11 @@ class UIAssetsTests(unittest.TestCase):
         self.assertEqual(models, self.models)  # Existing model contracts unchanged.
         self.assertEqual(data['schema_version'], 2)
         ui = {asset['id']: asset for asset in data['assets'] if asset.get('kind')}
-        self.assertEqual(len(ui), 13)
+        self.assertEqual(len(ui), 14)
         self.assertEqual({a['role'] for a in ui.values()}, {'component', 'theme', 'art', 'showcase'})
-        self.assertEqual(len([a for a in ui.values() if a['role'] == 'component']), 9)
+        self.assertEqual(len([a for a in ui.values() if a['role'] == 'component']), 10)
+        self.assertEqual(ui['ui/skill-tree']['resource']['path'], PROJECT + 'UI/components/skill_tree.tscn')
+        self.assertEqual(ui['ui/skill-tree']['role'], 'component')
         self.assertEqual(ui['ui/menu-seal']['title'], 'Original menu seal')
         self.assertEqual(ui['ui/menu-seal']['kind'], 'image')
         self.assertEqual(ui['ui/theme']['kind'], 'godot-theme')
@@ -182,7 +184,7 @@ class UIAssetsTests(unittest.TestCase):
         jobs = plan_exports(ROOT)
         self.assertFalse({'sources/ui/menu_seal.blend', 'sources/ui/explorations/watch_seal.blend'} & {job['source'] for job in jobs})
 
-    def test_recorded_browser_output_bindings_match_generated_output_and_frames(self):
+    def test_historical_browser_frontend_frames_and_payload_remain_bound(self):
         # Persisted provenance contract, not a substitute for executing the browser suites.
         evidence = json.loads((ROOT / 'docs/ui/catalog/browser-review.json').read_text())
         build_site(root=self.root)
@@ -192,8 +194,13 @@ class UIAssetsTests(unittest.TestCase):
         for view in evidence['screenshots']:
             self.assertEqual(hashlib.sha256((ROOT / view['path']).read_bytes()).hexdigest(), view['sha256'])
         self.assertFalse((output / 'docs/ui/catalog/browser').exists())
+        # Historical browser receipts must not certify the enlarged runtime ZIP.
+        # Preserve the exact previously checked ZIP alongside its browser frames;
+        # current ZIP loading/hash coverage belongs to the fresh native check.
+        historical = ROOT / 'docs/ui/catalog/browser/ledger-ui-historical.zip'
         for result in evidence['ui_acceptance'].values():
-            self.assertEqual(result['package_sha256'], hashlib.sha256((output / PACKAGE).read_bytes()).hexdigest())
+            self.assertEqual(result['package_sha256'], hashlib.sha256(historical.read_bytes()).hexdigest())
+        self.assertFalse((output / 'docs/ui/catalog/browser/ledger-ui-historical.zip').exists())
 
     def test_published_file_links_fetch_under_local_and_pages_prefix(self):
         data = build_site(root=self.root)

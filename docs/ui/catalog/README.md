@@ -1,7 +1,8 @@
 # Generated Ledger UI catalog
 
-Scope: catalog publication of the **already shipped standalone native library**,
-not game migration, new UI design or an interaction/services demo in a browser.
+Scope: catalog publication of the **standalone native library**, including the
+additional compact skill-tree component. Not game migration or an
+interaction/services demo in a browser.
 The existing catalog generator/browser/Pages build owns this feature. See
 [generated schema](../../../catalog/SCHEMA.md#native-ui-entries-generated-index-v2),
 [API](../api.md), [runtime payload owner](../payload.json) and
@@ -10,7 +11,7 @@ The existing catalog generator/browser/Pages build owns this feature. See
 ## What is advertised
 
 The catalog derives entries from `inventory.json::implementation.resource`,
-deduplicating resource aliases. Nine native scene components, Ledger Theme and
+deduplicating resource aliases. Ten native scene components, Ledger Theme and
 original menu seal are actual runtime resources. HUD and menu are useful
 **authoring-only composition examples**, not extra reusable components. Research
 choice rows illustrate `quoted_action`; health styling illustrates
@@ -64,7 +65,24 @@ resource identity for components/Theme, host/screen, engine/backend, output hash
 dimensions and private relative log locations. Builds reject stale/changed source,
 dependencies, generator, identities, image bytes or measured dimensions.
 
-## Checked package and presentation
+## Compact skill-tree extension (current evidence)
+
+The current `previews.json` points at `mini-skill-tree-final/`: 13 native static views
+plus unchanged original seal. The new skill tree is 1100×820 to show the whole
+small graph and selected-node quote; other focused and composition dimensions
+remain as before. `package-check.json` now binds the ten-scene generated ZIP and
+exercises root/prerequisite/duplicate/funding guards in an independent UI-only
+project. [Skill-tree validation](../skill-tree-validation.md) records **706/0**
+native checks, 85 captures, concrete visual inspection and narrow/focus/wheel
+coverage. Runtime resources, generators and actual downloaded ZIP hashes bind
+these receipts; earlier package/browser evidence does not certify new bytes.
+The frontend itself is unchanged. Static generator/link tests cover the new
+entry, but no fresh live-browser acceptance is claimed for the enlarged payload.
+
+## Earlier checked package and presentation
+
+The following describes the retained pre-extension evidence, not certification
+of changed runtime/host/package inputs:
 
 - `previews.json` / `native-5/previews.json`: 12 final native static PNGs, plus the
   unchanged original transparent seal. Godot 4.7.2 .NET, Compatibility/OpenGL,

@@ -20,7 +20,12 @@ func _ready() -> void:
 		await test_input()
 		await test_dialogs()
 		await test_modal_scope()
-	await test_production()
+	if only != "skill-tree": await test_production()
+	var skill_probe = load("res://tests/skill_tree_checks.gd").new()
+	skill_probe.runner = self
+	add_child(skill_probe)
+	await skill_probe.run()
+	skill_probe.queue_free()
 	if only == "all": await test_layouts()
 	var result = {"checks":checks, "failures":failures, "captures":captures,
 		"scope":"Standalone native controls; no game integration or native GPU claim", "selection":only}

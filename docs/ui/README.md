@@ -20,6 +20,18 @@ MAIN owns the coordinated delivery handoff; no competing pipeline.
 | Why modal is not a Window | [causal diagnosis](settings-diagnosis.md), [contrary ownership result](modal-alternatives.md) |
 | Original Blender/PNG provenance | [source bindings](exploration-assets.json) |
 
+## Additional compact skill tree
+
+The portable library now includes `UI/components/skill_tree.tscn`: a one-point
+middle, three outward choices and three illustrative steps per path, with native
+inspection/purchase/focus and parent/point/duplicate guards. Choose **skill_tree**
+in the showcase screen selector. [API](api.md#compact-skill-tree-allocation) owns
+the caller snapshot and local allocation boundary;
+[skill-tree validation](skill-tree-validation.md) owns fresh **706/0**, 85 captures,
+visual review and independently loaded generated ZIP evidence. Earlier finished
+Ledger milestones above remain historical acceptance, not fresh receipts for
+this extension. No main-game or renderer changes.
+
 ## Reproduce checks in assets only
 
 Use existing Godot/Xvfb/xauth/Mesa; no install/upgrade. Never run these in the game
@@ -42,11 +54,13 @@ git diff --check
 ```
 
 Run graphical drivers **serially**: concurrent xvfb-run auto-number startup raced
-in retained evidence. `validate.py --only production` is the bounded new-input route
-(no captures); omit `--only` for full regression/capture acceptance.
+in retained evidence. `validate.py --only production` is the bounded production-input route plus the
+six skill-tree fixture captures; `--only skill-tree` runs only the compact tree's
+pointer/focus/budget/layout/lifecycle checks. Omit `--only` for full
+regression/capture acceptance.
 
 `validate.py` imports fresh, performs actual native events/state/layout assertions,
-binds source hashes, and writes 79 captures/results under `docs/ui/production/<label>/`.
+binds source hashes, and writes 85 captures/results (79 Ledger + six skill-tree) under `docs/ui/production/<label>/`.
 It rejects source changes during the run. `diagnose_settings.py` uses the same exact
 Settings sequence with synthetic input or owned X11/XTest, plus isolated cases and
 modal lifecycle checks; it does not directly cancel/refocus to make tests pass.

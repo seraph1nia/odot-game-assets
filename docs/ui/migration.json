@@ -5,6 +5,7 @@
   "payload_manifest":"payload.json",
   "interface_document":"api.md",
   "checked_payload_root":"ui/preview/UI/",
+  "skill_tree_boundary":"Standalone optional skill-tree component, not an automatic replacement for game ResearchPanel. Caller supplies root/three chains/points/owned; local guarded allocation only. Game authority/persistence/stale-input policy and illustrative effects remain external; existing research-node alias retained.",
   "modal_boundary":"In-tree native Control modal, not Window; preserve game local-input guards, child-dropdown-first Esc, Tab scope and valid invoker return",
   "game_revision":"d7e697710e15addade9ce82d28d6de94c05aacab",
   "proposed_runtime_namespace":"res://UI/",
@@ -25,7 +26,7 @@
     {"existing":"src/Game/SteamFriendsDialog.cs","inventory":["friends","dialog-shell","session-feedback"],"disposition":"theme complement only","integration":"Existing platform-owned friend/invite behavior","risk":"No real overlay/lobby calls in preview; native Steam windows retain platform presentation"}
   ],
   "excluded":["exploration comparison scene/scripts", "mock context and fixtures", "Blender sources/generators", "supplied reference images", "private logs/XDG state", "third-party Trio source kit copies"],
-  "validation_checked":["UI-only fresh independent project: 9 scenes, Theme and seal", "637 fresh input/state/layout checks including native selector navigation and same-item reopening after host dialog closure; four-size HUD/menu/base dialogs, meaningful smaller-size state variants; 79 image bytes with visual-review coverage (all exact byte/dimension matches to the retained reviewed review-fixes set)", "OS XTest same original Settings sequence and modal scope/focus-loss checks", "Relative runtime resource audit and hashes", "Original 192px RGBA/alpha source checks retained; fixed 48px seal; 34237 file bytes / 147456 decoded RGBA bytes, not GPU measurement; native StyleBoxFlat so no nine-slice"],
+  "validation_checked":["UI-only fresh independent project: 10 scenes, Theme and seal; skill-tree root/prerequisite/duplicate/point guards exercised", "637 fresh input/state/layout checks including native selector navigation and same-item reopening after host dialog closure; four-size HUD/menu/base dialogs, meaningful smaller-size state variants; 79 image bytes with visual-review coverage (all exact byte/dimension matches to the retained reviewed review-fixes set)", "OS XTest same original Settings sequence and modal scope/focus-loss checks", "Relative runtime resource audit and hashes", "Original 192px RGBA/alpha source checks retained; fixed 48px seal; 34237 file bytes / 147456 decoded RGBA bytes, not GPU measurement; native StyleBoxFlat so no nine-slice"],
   "integration_requirements_not_standalone_blockers":["Re-pin current game/label-removal; namespace collision and local world-input ownership audit", "Game scale/HiDPI/target-engine/native-desktop measurements", "Actual authority generation/phase/quote/transfer/funding/recovery and services/async lifetime tests after separate migration approval"],
   "presentation_limits":["Construction-time scroll ownership, not arbitrary reparenting", "Very long duplicate friend identity can require tooltip; keyboard-only discovery unestablished", "Default Godot font; localization/RTL/tiny-window/controller/mobile not certified"]
 }

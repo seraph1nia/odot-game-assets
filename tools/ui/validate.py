@@ -12,7 +12,7 @@ def main():
     parser.add_argument('--godot', required=True)
     parser.add_argument('--dotnet-root')
     parser.add_argument('--label', default='production')
-    parser.add_argument('--only', choices=['all', 'production'], default='all')
+    parser.add_argument('--only', choices=['all', 'production', 'skill-tree'], default='all')
     args = parser.parse_args()
     cache = ROOT / '.cache/ui' / args.label
     cache.mkdir(parents=True, exist_ok=True)

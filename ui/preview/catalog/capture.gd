@@ -33,8 +33,9 @@ func save_view(id: String, resource: String) -> void:
 	print("UI_CATALOG_CAPTURE ", id, " ", resource)
 func capture() -> void:
 	root.size = Vector2i(640, 480)
-	var names = {"resource-table":"resource_ledger", "upkeep":"upkeep_summary", "action-quote":"quoted_action", "city-navigation":"city_navigation", "match-controls":"match_controls", "session-feedback":"session_feedback", "unit-inspection":"unit_inspection", "roster":"army_roster", "dialog-shell":"modal"}
+	var names = {"resource-table":"resource_ledger", "upkeep":"upkeep_summary", "action-quote":"quoted_action", "city-navigation":"city_navigation", "match-controls":"match_controls", "session-feedback":"session_feedback", "unit-inspection":"unit_inspection", "roster":"army_roster", "dialog-shell":"modal", "skill-tree":"skill_tree"}
 	for id in names:
+		root.size = Vector2i(1100, 820) if id == "skill-tree" else Vector2i(640, 480)
 		var body = await fresh()
 		var component = load("res://UI/components/" + names[id] + ".tscn").instantiate()
 		if id == "dialog-shell":
@@ -54,7 +55,13 @@ func capture() -> void:
 				"session-feedback": component.set_data({"status":"Connection lost", "message":"The host supplies this message and recovery eligibility.", "reconnect":true, "fresh":true})
 				"unit-inspection": component.set_data(UIFixtures.unit())
 				"roster": component.set_data(UIFixtures.roster(true))
+				"skill-tree":
+					component.set_data(UIFixtures.skill_tree())
+					component.purchase("foundation")
+					component.select_node("guard")
+					component.scroll.custom_minimum_size.y = 550
 		await save_view(id, component.scene_file_path)
+	root.size = Vector2i(640, 480)
 	var body = await fresh()
 	var panel = PanelContainer.new()
 	body.add_child(panel)

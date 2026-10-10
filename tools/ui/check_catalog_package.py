@@ -45,10 +45,10 @@ def main():
     engine = [args.godot, '--headless', '--path', str(cache), '--audio-driver', 'Dummy']
     run_owned([*engine, '--editor', '--import'], env, cache / 'import.log')
     text = run_owned([*engine, '--script', 'res://probe.gd'], env, cache / 'load.log')
-    if 'UI_PAYLOAD 9 scenes' not in text:
+    if 'UI_PAYLOAD 10 scenes' not in text:
         raise RuntimeError('Native payload probe did not finish')
     result = {'package_sha256': hashlib.sha256(package.read_bytes()).hexdigest(),
-              'files': manifest['files'], 'checks': 'All nine scenes instantiated/ready, Theme and seal loaded in independent project; no prototypes/game/tools/cache history copied',
+              'files': manifest['files'], 'checks': 'All ten scenes instantiated/ready, skill purchase guards exercised, Theme and seal loaded in independent project; no prototypes/game/tools/cache history copied',
               'engine': run_owned([args.godot, '--version'], env, cache / 'version.log').strip(),
               'logs': [p.relative_to(ROOT).as_posix() for p in sorted(cache.glob('*.log'))]}
     (cache / 'result.json').write_text(json.dumps(result, indent=2) + '\n')
