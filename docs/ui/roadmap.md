@@ -15,10 +15,11 @@ boundary from exhaustive Cartesian products and separately authorized integratio
 Machine authority for status/dependencies/acceptance: [tasks.json](tasks.json).
 Inventory: [inventory.json](inventory.json). Exact approval: [decisions.md](decisions.md).
 Read [discovery.md](discovery.md) before investigating again; source is pinned.
-Read [art-direction.md](art-direction.md) and actual previews before resolving
-`artistic-approval`. If game inputs change, re-pin relevant evidence rather than
-launching/building/importing the game checkout. Label-removal work is pending;
-this plan neither grants permission for it nor reintroduces removed world labels.
+Read [art-direction.md](art-direction.md) and actual previews for the approved
+comparison evidence; [decisions.md](decisions.md) owns the resolved artistic decision.
+If game inputs change, re-pin relevant evidence rather than launching/building/
+importing the game checkout. Reconcile label-removal with the pinned intake before
+migration; this plan neither authorizes game edits nor reintroduces removed labels.
 
 ## Milestones
 

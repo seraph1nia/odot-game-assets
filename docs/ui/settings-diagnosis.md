@@ -1,4 +1,8 @@
-# Settings Esc causal investigation — trigger established, fix still blocked
+# Historical Settings Esc causal investigation — failed Window checkpoint
+
+This record describes the pre-Control-modal source, not a current blocker or a
+reproduction using today's probe. See [modal lifecycle](api.md#local-modal-lifecycle)
+for the implemented contract and [production.md](production.md) for acceptance.
 
 Bounded investigation authorized by inbox 003, 2026-10-09. No broad acceptance
 retry or assertion change. The requested `diagnostic-reasoning` skill was not in

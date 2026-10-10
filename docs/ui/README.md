@@ -71,8 +71,8 @@ no slice margins or additional initial Blender art. Do not rebuild merely to val
 `tools/ui/explore_crest.py` rebuilds **both** original studies through the existing
 isolated asset worker; preserve manual edits and obtain explicit regeneration scope
 before running it. Saved sources are editable; source/output hashes are recorded.
-The two 2D seal sources are excluded from implicit 3D discovery at `plan_exports()`;
-other nested 3D sources and explicit catalog mappings retain their export behavior.
+See [catalog batch export selection](../../catalog/SCHEMA.md#batch-export-selection)
+for the 2D authoring boundary and unchanged explicit 3D mappings.
 Historical result/source-binding and visual-review bytes are frozen in
 `preservation.json`; ordinary preservation checks need no pre-rebase Git objects.
 They do not independently reconstruct historical source checkouts. Portability

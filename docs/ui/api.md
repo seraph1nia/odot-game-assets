@@ -132,10 +132,11 @@ Add the content under its final modal owner before `_ready()` builds its body.
 ## Payload budget
 
 The audited **32 files total 100,661 bytes** on disk including scripts, UID/import
-metadata and Theme, not a packaged-game or GPU-memory estimate. The only image is
-the 192×192 RGBA original seal: **34,237 PNG file bytes / 147,456 decoded RGBA bytes**,
-displayed at 48px with transparent surround. Native StyleBoxFlat planes require no
-nine-slice texture; no additional fonts/images/Blender ornaments. Packed Godot import
+metadata and Theme, not a packaged-game or GPU-memory estimate. The only standalone
+image file is the 192×192 RGBA original seal:
+**34,237 PNG file bytes / 147,456 decoded RGBA bytes**, displayed at 48px with
+transparent surround. Native StyleBoxFlat planes require no nine-slice texture;
+no additional font/image files or Blender ornaments. Packed Godot import
 formats, rendering cost/FPS/VRAM and target-game package overhead are unmeasured.
 Authoring `.blend`, fixture/test/tool bytes are not runtime payload. Source/output
 hashes are in `exploration-assets.json`; resource hashes are in `payload.json`.

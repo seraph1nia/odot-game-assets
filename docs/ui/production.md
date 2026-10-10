@@ -273,8 +273,8 @@ and full logs remain as produced. No runtime assertion failure was hidden.
 interaction checks; `production-package-final`: 438/0/35. Image review found mock
 selector captions inconsistent with capture-only state assignment in About/friends;
 aligned selectors in capture setup, without changing runtime or input assertions.
-Final fresh `production-package-reviewed`: 438/0/35. This is the current source-bound
-acceptance, not reused M1 proof.
+Final fresh `production-package-reviewed`: 438/0/35. This was the source-bound
+acceptance for the representative milestone, not reused M1 proof.
 
 Parallel owned Xvfb starts caused a wrapper failure for the reviewed-label OS full
 probe: its 11 UI checks passed, but xvfb-run exited 1 (`Server is already active
@@ -357,8 +357,8 @@ First Control-modal full run (`control-modal-final/`) failed one of 264 checks:
 long mock return-intent feedback grew the preparation footer to touch the upkeep
 panel at 1280×720. A single 12px upper-stack offset correction produced breathing
 room without shrinking text/removing content. `control-modal-r1/` passed 264;
-then test-only coverage grew for OS focus loss/underlying-Esc evidence, and the
-a source-bound run passed 267. Local focus traversal was then corrected to include
+then test-only coverage grew for OS focus loss/underlying-Esc evidence, and a
+source-bound run passed 267. Local focus traversal was then corrected to include
 native internal TabBars/scrollbars (excluding child Windows). Added checks prove Tab
 actually reaches categories and Right/Left changes them, not just containment among
 other controls. Final fresh automated/OS/payload processes passed 271/64/9 scenes.

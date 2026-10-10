@@ -42,10 +42,9 @@ Use `null` to suppress a default source, preview, thumbnail, or reference. Refer
 crops use the image's natural pixel dimensions. Without a crop, the full image is
 shown. Associations for missing exports are retained but do not create cards.
 Export selectors are optional and mutually exclusive. Without one, the exporter
-uses a collection or root object matching the asset ID's final segment. Root-level
-overview `.blend` files are excluded from batch export. Shared libraries use
-explicit per-asset `source` mappings and selectors; no entire library is exported
-as a single model implicitly.
+uses a collection or root object matching the asset ID's final segment. See
+[batch export selection](#batch-export-selection) for discovery exclusions and
+shared-library mappings.
 
 The export manifest at `exports/asset_manifest.json` may provide these same fields
 on entries in its `assets` array, keyed by `file`. Explicit associations override
@@ -70,3 +69,18 @@ available `model`, `source`, `reference`, `preview`, and `thumbnail` records.
 File records contain repository-relative `path` and cache `version`. The model
 version is a SHA-256 hash of the whole GLB; ancillary versions track file changes.
 `error` records a model inspection failure while preserving the card.
+
+## Batch export selection
+
+`tools/asset_catalog/export_sources.py::plan_exports()` discovers nested `.blend`
+sources for 3D export. Implicit discovery skips root-level overview scenes, shared
+libraries named in explicit `source` mappings, and these two 2D UI authoring sources:
+
+- `sources/ui/menu_seal.blend`
+- `sources/ui/explorations/watch_seal.blend`
+
+The UI sources remain editable PNG-authoring projects, not automatic GLB assets.
+Other nested sources retain discovery behavior. Existing GLBs and explicit catalog
+mappings still supply candidates; explicit asset-ID selection is unchanged. Shared
+libraries use per-asset `source` mappings and selectors rather than exporting an
+entire library implicitly.

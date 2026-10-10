@@ -1,4 +1,9 @@
-# Native modal ownership candidate — contrary result and competing corrections
+# Historical native modal ownership candidate — contrary result
+
+This record preserves the failed Window candidate and then-proposed corrections.
+The in-tree Control alternative was subsequently implemented; see
+[modal lifecycle](api.md#local-modal-lifecycle) and [production.md](production.md).
+Pending/source-state statements below refer only to this historical checkpoint.
 
 Inbox 004 authorized one bounded ownership-based candidate and required stopping
 if its focused reproduction still failed. **It failed; no whole-suite retry.**

@@ -84,7 +84,9 @@ files, building geometry, or rendering previews:
 mise run catalog-export buildings/bakery characters/knight props/sword --blender /path/to/blender
 ```
 
-Omit the asset IDs to export all authored asset sources. Without mise, use
+Omit the asset IDs to export all eligible authored 3D sources; see
+[batch export selection](catalog/SCHEMA.md#batch-export-selection) for exclusions
+and explicit mappings. Without mise, use
 `python3 -m tools.asset_catalog export --blender /path/to/blender` (optionally adding
 the asset IDs). The direct Blender worker invocation also remains available.
 
@@ -183,8 +185,9 @@ on `main` also upload the artifact and deploy it to GitHub Pages. Its build step
 5. Package the static website, upload the Pages artifact, and deploy on `main`.
 
 The pipeline reads authored geometry from the `.blend` files. It never calls the
-procedural `build_pack.py` builders or saves source files. Root-level overview
-scenes are excluded. Per-asset `export_collection` or `export_object` metadata
+procedural `build_pack.py` builders or saves source files. The same
+[batch export selection](catalog/SCHEMA.md#batch-export-selection) applies in CI.
+Per-asset `export_collection` or `export_object` metadata
 selects terrain and shared components when the default naming convention does
 not apply. Existing GLBs without editable sources remain browsable.
 
