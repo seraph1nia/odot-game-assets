@@ -1,6 +1,10 @@
 # UI validation and limitations
 
-## Current host dialog-close acceptance
+Current extension evidence and limits are owned by [skill-tree validation](skill-tree-validation.md).
+The campaigns below are retained historical milestones, not current-source certification.
+`payload.json` owns the refreshed payload; earlier audits below are identified by their private logs.
+
+## Historical host dialog-close acceptance
 
 - Fresh normal native acceptance **637/0, 79 captures**, source-bound
   `production/review-dialog-close/results.json`, `.cache/ui/review-dialog-close/tests.log`.
@@ -13,7 +17,7 @@
 - Serial OS Settings **11/0**, modal **64/0**, zero world leaks:
   `.cache/ui-diagnosis/{full,modal}-os-none-review-dialog-close/probe.log`.
 - Fresh independent UI-only loader **nine scenes / Theme/seal / 32 files**:
-  `.cache/ui-payload/review-dialog-close/load.log`, `payload.json`.
+  `.cache/ui-payload/review-dialog-close/load.log`.
 - **79 exact prior PNG byte/dimension matches**, no changed images or new inspection
   claimed. `visual-review-dialog-close.json` inherits byte-bound prior visual judgment;
   fresh normal source hashes, not old screenshots, certify the edited source checks.
@@ -33,7 +37,7 @@ no physical/native-GPU performance, actual game integration, migration, installs
 - Serial owned OS Settings **11/0**, modal **64/0**, zero world leaks:
   `.cache/ui-diagnosis/{full,modal}-os-none-review-fixes/probe.log`.
 - Fresh independent UI-only loader **nine scenes, Theme/seal, 32 files**:
-  `.cache/ui-payload/review-fixes/load.log`, current `payload.json`.
+  `.cache/ui-payload/review-fixes/load.log`.
   Loading the isolated copy supplies portability evidence; source scans do not.
 - **19 changed PNGs actually opened**, **60 exact SHA256 matches** to the retained
   submitted set. Current binding `visual-review-review-fixes.json`; original
@@ -67,7 +71,7 @@ game access/write/import/build/launch, installs, extra art or migration.
   no repeated parallel Xvfb starts. Added composition input otherwise uses native
   Godot injected events, not physical or whole-suite OS input.
 - Private UI-only fresh copy **nine scenes, Theme/seal / 32 files** passed:
-  `.cache/ui-payload/standalone-final/load.log`, hashes `payload.json`.
+  `.cache/ui-payload/standalone-final/load.log`.
   No game/prototype/tool dependency; budget and interfaces in `api.md`.
 - **79 final reviewed image bytes**: 50 new frames opened, 29 exact SHA-256 matches
   to previously actually inspected images. Four target desktop sizes for HUD/menu/
@@ -108,7 +112,7 @@ failed; no reclassification to pass and no weakened tests.
   its UI assertions passed because simultaneous Xvfb auto-number startup raced;
   fatal display-100/cleanup log retained, one serial unchanged-source rerun passed.
 - Fresh UI-only independent copy **9 scenes / Theme / seal / 32 files**:
-  `.cache/ui-payload/production-package-reviewed/load.log`, `payload.json`.
+  `.cache/ui-payload/production-package-reviewed/load.log`.
 - All 35 final image bytes actually inspected. 27 new base frames match their opened
   `production-package/` bytes; eight additional state views reviewed, final corrected
   About/friends images reopened. `visual-review-components.json` binds hashes/dimensions;
@@ -156,8 +160,8 @@ evidence. No game import/build/launch. Run graphical drivers serially.
   text/coverage. Visual judgment and remaining dense-scroll issues: `production.md`;
   frame bindings: `visual-review-m1.json`. No machine aesthetic certification.
 - UI-only private independent project loaded **nine scenes, Theme and seal** with
-  no prototypes/game/tooling copied. Relative dependencies/hash and texture budgets:
-  `payload.json`; full log `.cache/ui-payload/m1-tab-scope/load.log`.
+  no prototypes/game/tooling copied. Historical audit log:
+  `.cache/ui-payload/m1-tab-scope/load.log`; current dependencies/budget are owned by `payload.json`/`api.md`.
 - Metadata/source/image contracts: **7 passed**, `.cache/ui/m1-tab-scope/plan.log`.
   Existing fast route: **56 tests and 2 inline JavaScript programs passed**, Python
   lint/syntax/guardrails, `.cache/ui/m1-tab-scope/repo-check.log`. Offline execution;

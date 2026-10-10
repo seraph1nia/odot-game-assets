@@ -5,22 +5,23 @@ on accepted M1 foundation/local modal and preserved representative milestone.
 External game integration remains separate in [coverage.md](coverage.md).
 State: [tasks.json](tasks.json).
 Interfaces/migration boundary: [api.md](api.md); actual evidence:
-[production.md](production.md). Existing world tooling/MCP/palettes remain unchanged.
+[skill-tree validation](skill-tree-validation.md) for the extension and
+[production.md](production.md) for pre-extension milestones. Existing world tooling/MCP/palettes remain unchanged.
 
 | Path | Responsibility |
 |---|---|
 | `docs/ui/` | Discovery, exact approval, inventory/backlog, reviews, source bindings, migration |
 | `docs/ui/previews/` | Historical M0 Ledger/Watch comparisons |
-| `docs/ui/production/review-dialog-close/` | Current source-bound 637-check/79-frame acceptance |
+| `docs/ui/production/review-dialog-close/` | Preserved pre-extension host dialog-close acceptance; current evidence is linked from `skill-tree-validation.md` |
 | `docs/ui/production/review-fixes/` | Preserved first review-fix 588-check/79-frame acceptance |
 | `docs/ui/production/standalone-final/` | Retained submitted 568-check/79-frame acceptance |
 | `docs/ui/preservation.json` | Frozen retained result/source-binding and visual-review byte contracts, independent of Git history |
 | `docs/ui/production/production-package-reviewed/` | Preserved accepted representative 35-frame evidence |
 | `docs/ui/production/m1-tab-scope/` | Preserved accepted 27-frame M1 foundation evidence |
-| `docs/ui/production/` other folders | Preserved failed/intermediate captures, not relabeled as current acceptance |
+| `docs/ui/production/` other folders | Campaign captures; current versus retained status is owned by `skill-tree-validation.md` and historical `production.md` |
 | `sources/ui/menu_seal.blend` | Approved original editable source, retained byte-for-byte from M0 |
 | `sources/ui/explorations/watch_seal.blend` | Rejected-alternative study, not runtime payload |
-| `ui/preview/UI/` | Portable relative runtime namespace; Theme, fixed art, helper, nine component scenes |
+| `ui/preview/UI/` | Portable relative runtime namespace; component interfaces and dependency boundary in `api.md` |
 | `ui/preview/prototypes/` | Standalone mocked compositions/fixtures, not game adapters or payload |
 | `ui/preview/explorations/`, `art/explorations/` | Historical study host/Watch PNG; not payload |
 | `ui/preview/tests/` | Actual native-event/state/layout checks, diagnosis and modal-scope fixtures |
@@ -44,11 +45,13 @@ Construction-time ownership/reparenting limitation is documented in `api.md`.
 That modal boundary follows the causal
 Window failure evidence, not an aesthetic redesign. See `api.md` for hosting.
 
-Components accept projections and emit intents. Game adapters keep quotes,
+Most components accept projections and emit intents; the compact skill tree owns
+local allocation only, as defined in [api.md](api.md#compact-skill-tree-allocation).
+Game adapters keep quotes,
 eligibility, generations/stage guards, networking/session, Steam, preferences,
 audio/update, unit picking/model rendering and gameplay authority. GDScript scenes
 have no C# gameplay reference or runtime checkout/cloud dependency. The UI-only
-private audit loaded all nine scenes without preview fixtures or tooling.
+private audit and its resource bindings are owned by [payload.json](payload.json).
 
 ## Source/render/validation traceability
 

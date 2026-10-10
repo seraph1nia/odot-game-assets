@@ -72,8 +72,8 @@ plus unchanged original seal. The new skill tree is 1100×820 to show the whole
 small graph and selected-node quote; other focused and composition dimensions
 remain as before. `package-check.json` now binds the ten-scene generated ZIP and
 exercises root/prerequisite/duplicate/funding guards in an independent UI-only
-project. [Skill-tree validation](../skill-tree-validation.md) records **763/0**
-native checks, 86 captures, concrete visual inspection and narrow/focus/wheel
+project. [Skill-tree validation](../skill-tree-validation.md) owns the current
+native campaign counts, concrete visual inspection and narrow/focus/wheel
 coverage. Runtime resources, generators and actual downloaded ZIP hashes bind
 these receipts; earlier package/browser evidence does not certify new bytes.
 The frontend itself is unchanged. Static generator/link tests cover the new
@@ -84,16 +84,17 @@ entry, but no fresh live-browser acceptance is claimed for the enlarged payload.
 The following describes the retained pre-extension evidence, not certification
 of changed runtime/host/package inputs:
 
-- `previews.json` / `native-5/previews.json`: 12 final native static PNGs, plus the
+- `native-5/previews.json`: 12 final native static PNGs, plus the
   unchanged original transparent seal. Godot 4.7.2 .NET, Compatibility/OpenGL,
   Xvfb/Mesa llvmpipe; ten 640×480 focused resource/Theme views and two 1280×720
   mock-data compositions. No native-GPU, live-game or new interaction-campaign
   certification is claimed.
-- `package-check.json`: **actual generated ZIP** extracted into an independent
-  temporary Godot project; all nine scenes instantiate/ready, Theme and seal load
-  without prototypes, game checkout, Blender, generator or history. File hashes
-  and ZIP hash bind the check to the exact downloadable bytes; stored ZIP members
-  and fixed metadata avoid compressor/timestamp differences between fresh checkouts.
+- The pre-extension ZIP loaded nine scenes, Theme and seal in an independent
+  Godot project. Its exact bytes remain in `browser/ledger-ui-historical.zip`,
+  bound by the retained browser receipts. `package-check.json` instead owns the
+  current package check described above; it is not a retained nine-scene receipt.
+  Stored ZIP members and fixed metadata avoid compressor/timestamp differences
+  between fresh checkouts.
 - `regression.json`: fresh original native UI input/state/layout suite, 637 checks,
   zero failures, 79 fixture captures. These regression frames are private evidence,
   **not** an assertion of fresh aesthetic inspection of every campaign view.
@@ -126,9 +127,9 @@ Only normal model cards create model-viewer and expose camera/animation controls
 ## History and limits
 
 `history.json` retains a concise summary of this task's failures and references to
-private unique failure evidence. Superseded duplicate native captures, obsolete
-manifests and superseded browser frames are not retained; final bound native,
-browser and package evidence remains. Original UI milestones, failures, images,
+private unique failure evidence. That earlier catalog cleanup predates the
+extension; retained extension iterations and failed evidence are listed in
+[skill-tree validation](../skill-tree-validation.md). Original UI milestones, failures, images,
 migration/coverage records and original Blender/PNG/runtime semantics/style are
 unchanged. Private full logs remain in the named `.cache/` directories, never the
 public runtime payload/static output. Earlier success does not certify changed

@@ -6,7 +6,8 @@ mock compositions and Phase G migration preparation, clarified by inbox 007.
 publication and rollout are not performed or certified.** Accepted M0/M1 and the
 scrolling/representative milestone remain unchanged historical evidence.
 
-Current normal acceptance: **637 checks / zero failures / 79 captures**;
+Current compact-tree acceptance is owned by [skill-tree validation](skill-tree-validation.md).
+The following Ledger criteria and visual bindings describe pre-extension acceptance:
 [production record](production.md), [source-bound results](production/review-dialog-close/results.json).
 Review fixes cover selector-navigation and close-then-same-item reopening for all six
 dialog options, Esc/header/footer close and underlying HUD/menu ownership. Original
@@ -28,7 +29,7 @@ Cartesian product or an exhaustive future-platform campaign.
 | Inspection/roster/hall | Exact profile/health/shaped statuses; field/stored/empty/native exclusive selection; no/full/fragmented destination; independent storage/healing quotes and maxima, occupied-sale refusal/empty-sale intent, stale/read-only selection, funded wounded/unfunded wounded/full-health recovery projections; no local heal/transfer/retire/capacity mutation | production `inspection()` / `hall_projections()` |
 | Details | Native planning/paid-current-wave/last-wave/fresh switching; current receipt versus previous reward and next forecast versus last receipt kept separate; fresh clears old receipt/reward/roster/allocation; foreign owner survives view switch; combat/outcome host projection | production `details_projections()` |
 | Menu/options/friends | Native solo/multiplayer/host/Back, Exit/Return cancel/confirm, Settings focus return; Graphics dropdown/Fullscreen gate, Audio keyboard/zero, six About/update/save feedback projections; seven friends projections, native Refresh/far-row invite/immediate busy/recoverable mock result/long-name tooltip | production `menu()` / `settings()` / `friends()`, original Settings/OS fixture |
-| Portability | UI-only 35-file copy loads ten scenes/Theme/seal (including compact skill-tree allocation) in a fresh private project; no game/tool/prototype dependency; relative paths/hashes, editable source linkage, texture budget, data/intent APIs and adapter order | `tools/ui/audit_payload.py`, `payload.json`, `api.md`, `migration.json` |
+| Portability | UI-only copy loads audited runtime scenes/Theme/seal in a fresh private project; no game/tool/prototype dependency; relative paths/hashes, editable source linkage, texture budget, data/intent APIs and adapter order | `tools/ui/audit_payload.py`, `payload.json`, `api.md`, `migration.json` |
 
 ## Desktop visual and input review
 
@@ -39,9 +40,9 @@ also have four-size frames. Details paid/last/fresh and hall empty/stale/storage
 recovery/fragmented have two-size state pictures. Eleven meaningful HUD state views
 are additionally captured at 1280×720. No claim that every state has four pictures.
 
-All **79 current image bytes have visual-review coverage**: exact SHA256/dimension
+All **79 pre-extension image bytes have visual-review coverage**: exact SHA256/dimension
 matches to the first review-fix set. No changed bytes or new inspection claimed this
-round. `visual-review-dialog-close.json` binds the current set to preserved
+round. `visual-review-dialog-close.json` binds that historical set to preserved
 `visual-review-review-fixes.json` (19 changed frames actually opened, 60 exact
 submitted-byte matches in that earlier round). All historical bindings remain unchanged.
 New/changed views never inherit acceptance merely because old screenshots exist.

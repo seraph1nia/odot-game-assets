@@ -1,8 +1,9 @@
 # The Common Watch UI workspace
 
-**Resume here:** intended standalone Ledger **E–G is complete and checked**:
-**637/0, 79 image bytes with visual-review coverage**, fresh serial OS Settings/modal and independent
-payload audit. Accepted M0/M1/representative milestones are preserved.
+**Resume here:** intended standalone Ledger **E–G is complete and checked**.
+[Skill-tree validation](skill-tree-validation.md) owns current extension acceptance;
+[production.md](production.md) retains the pre-extension Ledger campaign and serial
+OS Settings/modal evidence. Accepted M0/M1/representative milestones are preserved.
 [coverage.md](coverage.md) defines finished standalone scope and separate external
 integration requirements. **No game integration/mutation or migration.**
 Standalone catalog access is described in the [root README](../../README.md#native-ledger-ui-resources);
@@ -15,7 +16,7 @@ MAIN owns the coordinated delivery handoff; no competing pipeline.
 | Exact approved direction and scope | [decisions](decisions.md); [M0 artistic evidence](art-direction.md) |
 | Avoid rediscovering game behavior | [discovery](discovery.md), [inventory](inventory.json) |
 | Reuse components / prepare migration | [API](api.md), [architecture](architecture.md), [migration mapping](migration.json), [payload audit](payload.json) |
-| Actual checks / final pictures | [validation](validation.md), [current results](production/review-dialog-close/results.json), [visual bindings](visual-review-dialog-close.json) |
+| Actual checks / final pictures | [current extension evidence](skill-tree-validation.md); [historical Ledger validation](validation.md) and [visual bindings](visual-review-dialog-close.json) |
 | Retained acceptance byte contracts | [preservation manifest](preservation.json), [submitted visual binding](visual-review.json) |
 | Why modal is not a Window | [causal diagnosis](settings-diagnosis.md), [contrary ownership result](modal-alternatives.md) |
 | Original Blender/PNG provenance | [source bindings](exploration-assets.json) |
@@ -27,7 +28,7 @@ middle, three outward choices and three illustrative steps per path, with native
 inspection/purchase/focus and parent/point/duplicate guards. Choose **skill_tree**
 in the showcase screen selector. [API](api.md#compact-skill-tree-allocation) owns
 the caller snapshot and local allocation boundary;
-[skill-tree validation](skill-tree-validation.md) owns fresh **763/0**, 86 captures,
+[skill-tree validation](skill-tree-validation.md) owns current native counts,
 visual review and independently loaded generated ZIP evidence. Earlier finished
 Ledger milestones above remain historical acceptance, not fresh receipts for
 this extension. No main-game or renderer changes.
@@ -60,7 +61,8 @@ pointer/focus/budget/layout/lifecycle checks. Omit `--only` for full
 regression/capture acceptance.
 
 `validate.py` imports fresh, performs actual native events/state/layout assertions,
-binds source hashes, and writes 86 captures/results (79 Ledger + seven skill-tree) under `docs/ui/production/<label>/`.
+binds source hashes, and writes captures/results under `docs/ui/production/<label>/`.
+Current full and focused campaign counts are recorded in [skill-tree validation](skill-tree-validation.md#fresh-evidence).
 It rejects source changes during the run. `diagnose_settings.py` uses the same exact
 Settings sequence with synthetic input or owned X11/XTest, plus isolated cases and
 modal lifecycle checks; it does not directly cancel/refocus to make tests pass.
@@ -69,9 +71,10 @@ acceptance route. `audit_payload.py` copies only UI/ into a new private project 
 fails rather than overwriting its run directory. Plan tests certify metadata, not art.
 
 Open `ui/preview/project.godot` independently for review. Main scene is
-`prototypes/showcase.tscn`; screen/state selectors use mocks, no services. Final
-reviewed pictures/results are in `production/review-dialog-close/`;
-all 79 current PNGs match the reviewed `production/review-fixes/` bytes exactly;
+`prototypes/showcase.tscn`; screen/state selectors use mocks, no services. Current
+reviewed tree pictures/results are linked from [skill-tree validation](skill-tree-validation.md#fresh-evidence).
+The pre-extension Ledger pictures/results are in `production/review-dialog-close/`;
+all 79 PNGs in that historical campaign match the reviewed `production/review-fixes/` bytes exactly;
 `production/standalone-final/` and `visual-review.json` retain submitted acceptance bytes;
 `production/m1-tab-scope/` and `production/production-package-reviewed/` preserve
 accepted historical evidence, not proof of changed views. Other folders preserve failed/intermediate states. Review actual images,
