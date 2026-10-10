@@ -67,13 +67,13 @@ dependencies, generator, identities, image bytes or measured dimensions.
 
 ## Compact skill-tree extension (current evidence)
 
-The current `previews.json` points at `mini-skill-tree-final/`: 13 native static views
+The current `previews.json` points at `review-branch-artifacts-1/`: 13 native static views
 plus unchanged original seal. The new skill tree is 1100×820 to show the whole
 small graph and selected-node quote; other focused and composition dimensions
 remain as before. `package-check.json` now binds the ten-scene generated ZIP and
 exercises root/prerequisite/duplicate/funding guards in an independent UI-only
-project. [Skill-tree validation](../skill-tree-validation.md) records **706/0**
-native checks, 85 captures, concrete visual inspection and narrow/focus/wheel
+project. [Skill-tree validation](../skill-tree-validation.md) records **763/0**
+native checks, 86 captures, concrete visual inspection and narrow/focus/wheel
 coverage. Runtime resources, generators and actual downloaded ZIP hashes bind
 these receipts; earlier package/browser evidence does not certify new bytes.
 The frontend itself is unchanged. Static generator/link tests cover the new

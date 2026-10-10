@@ -94,8 +94,8 @@ class IntakeContracts(unittest.TestCase):
         result = load(binding['results'])
         self.assertEqual(hashlib.sha256((DOCS / binding['results']).read_bytes()).hexdigest(), binding['results_sha256'])
         self.assertEqual(result['failures'], [])
-        self.assertEqual(result['checks'], 706)
-        self.assertEqual(len(result['captures']), 85)
+        self.assertEqual(result['checks'], 763)
+        self.assertEqual(len(result['captures']), 86)
         self.assertIn('llvmpipe', result['renderer'])
         for name, digest in result['source_sha256'].items():
             self.assertEqual(hashlib.sha256((PROJECT / name).read_bytes()).hexdigest(), digest, name)

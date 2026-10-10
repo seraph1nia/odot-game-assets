@@ -197,7 +197,7 @@ Add the content under its final modal owner before `_ready()` builds its body.
 
 ## Payload budget
 
-The audited **35 files total 109,055 bytes** on disk including scripts, UID/import
+The audited **35 files total 109,128 bytes** on disk including scripts, UID/import
 metadata and Theme, not a packaged-game or GPU-memory estimate. The only standalone
 image file is the 192×192 RGBA original seal:
 **34,237 PNG file bytes / 147,456 decoded RGBA bytes**, displayed at 48px with

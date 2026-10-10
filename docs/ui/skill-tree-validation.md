@@ -27,28 +27,28 @@ catalog remain intact. No renderer, forest, mesh or source-model changes.
 Heading identity now uses branch array indices rather than display titles. The
 native regression exercises all three duplicate-title pairings and all-equal
 Foundation titles, checking three positioned headings and every selected quote.
-The earlier evidence below predates this follow-up and does not certify its
-changed inputs. The outer pipeline must refresh full native evidence, inspect
-current tree images, refresh payload/catalog captures and load the final generated
-ZIP before updating current provenance, count and budget bindings. Historical
-and failed evidence, including browser receipts, must remain unchanged.
+Current owners bind the regenerated full native campaign, payload audit and
+catalog captures under `review-branch-artifacts-1`, plus the independently loaded
+final generated ZIP. Historical and failed evidence, including browser receipts,
+is preserved and does not certify these changed inputs.
 
-## Fresh evidence before the branch-index follow-up
+## Fresh evidence
 
-[`production/mini-skill-tree-final/results.json`](production/mini-skill-tree-final/results.json):
-**706 checks, zero failures, 85 native viewport captures**. This is the existing
-637-check campaign plus 69 skill-tree checks/captures, not a browser recreation.
-The focused `--only skill-tree` run (`mini-skill-tree-focused-final`) passed 69/0
+[`production/review-branch-artifacts-1/results.json`](production/review-branch-artifacts-1/results.json):
+**763 checks, zero failures, 86 native viewport captures**. This is the existing
+637-check campaign plus 126 skill-tree checks/captures, not a browser recreation.
+The preserved focused `--only skill-tree` run
+([`review-branch-identity-1`](production/review-branch-identity-1/results.json)) passed 126/0
 before the full campaign, without increasing the supported timeout or dimensions.
 Godot 4.7.2 .NET / Compatibility / owned Xvfb / Mesa llvmpipe / Dummy audio. No
 personal desktop, application Window screenshot or browser session accessed.
 
-[`skill-tree-validation.json`](skill-tree-validation.json) binds the seven actual
-inspected images (six campaign states plus the current catalog tree preview),
+[`skill-tree-validation.json`](skill-tree-validation.json) binds the eight actual
+inspected images (seven campaign states plus the current catalog tree preview),
 source hashes in the result, and validation/capture/package tools. The catalog
 preview has its own complete resource/host/generator/image/dimension binding in
 [`catalog/previews.json`](catalog/previews.json), currently
-`catalog/mini-skill-tree-final/`. The final implementation commit containing these
+`catalog/review-branch-artifacts-1/`. The final implementation commit containing these
 bindings qualifies the evidence; any later changed input needs refreshed checks,
 not these earlier receipts. Head is reported at committed delivery, rather than a
 self-referential commit hash inside its own content.
@@ -70,8 +70,11 @@ already installed engine/SDK. Full process logs are retained privately in `.cach
 ## Concrete visual inspection
 
 Opened the current authored `native-5/action-quote.png` and `native-5/theme.png`
-before designing. Final six campaign images and `mini-skill-tree-final/skill-tree.png`
-were opened at actual native resolution. The full layout has cream planes,
+before designing. The seven current campaign tree images and
+`catalog/review-branch-artifacts-1/skill-tree.png` were opened at actual native
+resolution. The duplicate-title image shows Combat headings at both upper chains
+and Support beside the bottom chain, with the matching selected Support quote.
+The full layout has cream planes,
 ink copy, restrained amber availability/selection and teal focus/owned links.
 Three named spokes visibly start from the center; secondary steps remain legible,
 with descriptions and costs in the existing quoted-action owner. No copied PoE
@@ -130,6 +133,14 @@ Retained iteration history:
    direct purchase substitution or extra delay was needed. Final regression also
    asserts the exact two native pointer target sequences and released mask, and
    retains all budget/prerequisite/duplicate/keyboard/lifecycle checks (69/0).
+
+7. `mini-skill-tree-final` and `mini-skill-tree-focused-final` preserve the earlier
+   706/0 and 69/0 receipts; they do not certify the branch-index follow-up.
+   `review-branch-identity-1` retains the successful focused 126/0 regression.
+   `review-branch-artifacts-1` regenerates the full 763/0 campaign, catalog views,
+   payload audit and final ZIP loading against the corrected branch identity.
+   Current counts, budget and provenance bindings refer only to this refreshed
+   evidence; no historical browser receipt is rebound.
 
 ## Limits
 

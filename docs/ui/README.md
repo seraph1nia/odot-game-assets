@@ -27,7 +27,7 @@ middle, three outward choices and three illustrative steps per path, with native
 inspection/purchase/focus and parent/point/duplicate guards. Choose **skill_tree**
 in the showcase screen selector. [API](api.md#compact-skill-tree-allocation) owns
 the caller snapshot and local allocation boundary;
-[skill-tree validation](skill-tree-validation.md) owns fresh **706/0**, 85 captures,
+[skill-tree validation](skill-tree-validation.md) owns fresh **763/0**, 86 captures,
 visual review and independently loaded generated ZIP evidence. Earlier finished
 Ledger milestones above remain historical acceptance, not fresh receipts for
 this extension. No main-game or renderer changes.
@@ -55,12 +55,12 @@ git diff --check
 
 Run graphical drivers **serially**: concurrent xvfb-run auto-number startup raced
 in retained evidence. `validate.py --only production` is the bounded production-input route plus the
-six skill-tree fixture captures; `--only skill-tree` runs only the compact tree's
+seven skill-tree fixture captures; `--only skill-tree` runs only the compact tree's
 pointer/focus/budget/layout/lifecycle checks. Omit `--only` for full
 regression/capture acceptance.
 
 `validate.py` imports fresh, performs actual native events/state/layout assertions,
-binds source hashes, and writes 85 captures/results (79 Ledger + six skill-tree) under `docs/ui/production/<label>/`.
+binds source hashes, and writes 86 captures/results (79 Ledger + seven skill-tree) under `docs/ui/production/<label>/`.
 It rejects source changes during the run. `diagnose_settings.py` uses the same exact
 Settings sequence with synthetic input or owned X11/XTest, plus isolated cases and
 modal lifecycle checks; it does not directly cancel/refocus to make tests pass.
