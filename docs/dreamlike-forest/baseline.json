@@ -1,0 +1,961 @@
+{
+  "head": "102de2042734a4bffeff54642e483f249de0cd70",
+  "files": {
+    "sources/environment/hex_meadow_building.blend": {
+      "sha256": "f6649ac9f89282d56835163f277298f00dc77999709c0565ddd53c19fc33f7d7",
+      "bytes": 167429
+    },
+    "sources/environment/hex_meadow_character.blend": {
+      "sha256": "4f33ae1e5a3e3baf7911d86620861fe2c159967b28bf7630e6ea1d263755a6f3",
+      "bytes": 195103
+    },
+    "sources/environment/shared_enchanted_kit.blend": {
+      "sha256": "a925fc587a27d1bd8c3060694574692a189d26eae3996947501923629d662d23",
+      "bytes": 4299474
+    },
+    "sources/environment/shared_forest_kit.blend": {
+      "sha256": "dd0793ce691d3e495659114315c4fdd5912b4364353d1739e16bf690f7bcc4c6",
+      "bytes": 7807516
+    },
+    "sources/environment/hex_bioluminescent_grove.blend": {
+      "sha256": "451189945e69f9bae84b0f4173fcaf5839a954dc2e3107426f1081f05301d414",
+      "bytes": 9337423
+    },
+    "sources/environment/hex_butterfly_glade.blend": {
+      "sha256": "b03fd88a3f69b56c3bd9b18bcc19d1e5cb5aeec1a80c564571a03c9ff6e14af9",
+      "bytes": 6338748
+    },
+    "sources/environment/hex_crystal_grove.blend": {
+      "sha256": "6b053ede80e39a01fb3603d489f579369a1c8d2c30afc55bc981dbf56605010a",
+      "bytes": 10303920
+    },
+    "sources/environment/hex_crystal_shrine.blend": {
+      "sha256": "e55ac555e0ef39a06eeb7d291317ea341990830e954536af1fdeb53108709239",
+      "bytes": 10525714
+    },
+    "sources/environment/hex_dream_menagerie.blend": {
+      "sha256": "99437463d17283601633f3a25e235291f9e29e00e63a8df5710616ec0b25c67b",
+      "bytes": 6954360
+    },
+    "sources/environment/hex_glowing_mushrooms.blend": {
+      "sha256": "e7a8788959e75f419816410df01cdc4a80b0bd1b945b14ac4b5a57d04af1c59b",
+      "bytes": 10294462
+    },
+    "sources/environment/hex_hollow_watchers.blend": {
+      "sha256": "cb7eb6adf63a6d9a4191d5508b06149d62bb211a68bbc776d9601dbcb8a90dd5",
+      "bytes": 8173403
+    },
+    "sources/environment/hex_lantern_bridge.blend": {
+      "sha256": "e8c69f3f9c1674936997369e68484767c200758d245e46b69b4977d5e5311bee",
+      "bytes": 10715285
+    },
+    "sources/environment/hex_mystical_grove.blend": {
+      "sha256": "5f1a27f72a1baf8bac2a0e258f491b765c35d95efcdd5aeb8a0b9817c671c958",
+      "bytes": 10329146
+    },
+    "sources/environment/hex_rune_shrine.blend": {
+      "sha256": "06c7f9bf9e293451fbf2eda80e28e241a534e6cbe7b0c45ee7cac7d633aa0e30",
+      "bytes": 8498708
+    },
+    "sources/environment/hex_woodland_bridge.blend": {
+      "sha256": "910802a0a01b1011d175510b9f271bc8b63ffbe608f83a6abe9ccce02910bf2e",
+      "bytes": 10735806
+    },
+    "sources/environment/hex_ground_moss.blend": {
+      "sha256": "c42505e348ed41589c17f2839bfe625ac91607e5b4c4eadd280a93dae1f7d78b",
+      "bytes": 2114982
+    },
+    "sources/environment/hex_ground_grass.blend": {
+      "sha256": "5ae6f4f83d12fce4da1bb3234905c7365a920d999135cb83a5847346fd7216f7",
+      "bytes": 2178942
+    },
+    "sources/environment/hex_ground_dirt.blend": {
+      "sha256": "ae9f85d6364bee6a494560152997c75066a24f72dc55c6e3d3c977aa83a10b21",
+      "bytes": 1706167
+    },
+    "sources/environment/hex_ground_leaf_litter.blend": {
+      "sha256": "a21a8868ee0e040142171b19d3690edc9b6b3f6c52513cdf57419129c2f29290",
+      "bytes": 2164762
+    },
+    "sources/environment/hex_ground_pine_duff.blend": {
+      "sha256": "6cb6277065c8646c39f7951b3a18bb574a8e914fb3290ee97b67bb59f604f520",
+      "bytes": 1870780
+    },
+    "sources/environment/hex_path_straight.blend": {
+      "sha256": "4a6c10dc3ed4f00e92f5f187c983d4b3118db61ed7d027d08bf483476988c306",
+      "bytes": 355981
+    },
+    "sources/environment/hex_path_turn_120.blend": {
+      "sha256": "ae793cebf33c056502373d2d35e0e5ce12198aca0a7565df6194c24d37a29db9",
+      "bytes": 357483
+    },
+    "sources/environment/hex_path_turn_60.blend": {
+      "sha256": "8a13de68e88b8023e1350287cf0c6655e87048955f921d5c800cffd2e6290acf",
+      "bytes": 357406
+    },
+    "sources/environment/hex_path_end.blend": {
+      "sha256": "b01124c113cf93427df4007f811dc46774b79572224c26856a9b113594072551",
+      "bytes": 356168
+    },
+    "sources/environment/hex_river_overlay_straight.blend": {
+      "sha256": "29ca4b5a94366c443c2b118fd2ed153539eded82ceba9d2fa960e97e48e663b3",
+      "bytes": 186665
+    },
+    "sources/environment/hex_river_overlay_turn_120.blend": {
+      "sha256": "4d04a215cecd425c4dd9e5f549cc66df4aa2632bb4e9aab74ee252545901987a",
+      "bytes": 188589
+    },
+    "sources/environment/hex_river_overlay_turn_60.blend": {
+      "sha256": "e31bef5b427ee5c14cba78d6d6073f59234164673671b674bb2133661b8c3379",
+      "bytes": 188535
+    },
+    "sources/environment/hex_river_overlay_end.blend": {
+      "sha256": "0769f94a7de275233d3d52ebbd0d754a749b8d62345f8ff970a6debe5224f151",
+      "bytes": 188100
+    },
+    "sources/environment/textures/painted_bark_color.png": {
+      "sha256": "cae61f8f81c3675c849c9b72e9646553081b312a5d4c200af6c2f0478422cb84",
+      "bytes": 94849
+    },
+    "sources/environment/textures/painted_bark_haunted_color.png": {
+      "sha256": "a8d6a674f173a6075dfce4a24628998888f46931d1d56653b2b96c3b7d1eefab",
+      "bytes": 118879
+    },
+    "sources/environment/textures/painted_bark_haunted_light_color.png": {
+      "sha256": "222d2739986e04cb28ffa3ad67ba53faed5f1c1c380ecf918157a4fb8251e4da",
+      "bytes": 138974
+    },
+    "sources/environment/textures/painted_bark_light_color.png": {
+      "sha256": "8dfcadd8e563bc828a70aaeffca5e8db7c8c391693a9686362805a82364bb1bc",
+      "bytes": 113960
+    },
+    "sources/environment/textures/painted_crystal_blue_color.png": {
+      "sha256": "727c5ee6506e3bd2265d3c019833b68662989b57ee24cbc48dfe367d9d26ddf2",
+      "bytes": 527717
+    },
+    "sources/environment/textures/painted_crystal_blue_emission.png": {
+      "sha256": "0033c2e3d415fb2bb48a59a30a18d12feb4f8c46dc2735ce2a7c976db3e513f4",
+      "bytes": 531973
+    },
+    "sources/environment/textures/painted_crystal_cyan_color.png": {
+      "sha256": "3a6c992cd6f5624fb3e0ba347b522bb1ccac8b944238abdd692ae8e7b7154fbc",
+      "bytes": 525661
+    },
+    "sources/environment/textures/painted_crystal_cyan_emission.png": {
+      "sha256": "eb151ff7f2ac316821321efa3e3e58cadbac2391405fc016f6e9f931b3838f2e",
+      "bytes": 537394
+    },
+    "sources/environment/textures/painted_crystal_light_color.png": {
+      "sha256": "5c555fe9543d493727effd4920b9b3f1cadda6811a0a761ae2fc62a24b0a9df7",
+      "bytes": 514955
+    },
+    "sources/environment/textures/painted_crystal_light_emission.png": {
+      "sha256": "d48da21419b8a6735446dc1d442d88806efaca6d485fcd61908ed14757ff08be",
+      "bytes": 535692
+    },
+    "sources/environment/textures/painted_crystal_lilac_color.png": {
+      "sha256": "942d564d3004ec54eebe17c5ccbdbc2092a186c36be497c670c1d1993ad6da6d",
+      "bytes": 502991
+    },
+    "sources/environment/textures/painted_crystal_lilac_emission.png": {
+      "sha256": "b7fc31348f78a5d6af15ff25e6e5d4fce774c596fa12973b3cf402202cf42647",
+      "bytes": 521347
+    },
+    "sources/environment/textures/painted_crystal_purple_color.png": {
+      "sha256": "942d564d3004ec54eebe17c5ccbdbc2092a186c36be497c670c1d1993ad6da6d",
+      "bytes": 502991
+    },
+    "sources/environment/textures/painted_crystal_purple_emission.png": {
+      "sha256": "b7fc31348f78a5d6af15ff25e6e5d4fce774c596fa12973b3cf402202cf42647",
+      "bytes": 521347
+    },
+    "sources/environment/textures/painted_crystal_roughness.png": {
+      "sha256": "f77479390a57c8623dd652f33b93d4867f5e552c7b65dc5652a6433c012d16fc",
+      "bytes": 61765
+    },
+    "sources/environment/textures/painted_forest_leaf_color.png": {
+      "sha256": "ce0357ecd0b48ac6d270684ae13ded39a4af9ae3b029b0a7b23d8c0e73ea8ae4",
+      "bytes": 86523
+    },
+    "sources/environment/textures/painted_forest_leaf_light_color.png": {
+      "sha256": "715321310140ca9892aeb59705ff9a0fd1c1d555adba5ffc49e801203813eada",
+      "bytes": 97955
+    },
+    "sources/environment/textures/painted_forest_leaf_lilac_color.png": {
+      "sha256": "b4dab5300358aaf52f74b859b7c2beceb587df011af3e64cda4d9fad8e4e8a72",
+      "bytes": 109864
+    },
+    "sources/environment/textures/painted_forest_leaf_teal_color.png": {
+      "sha256": "6d63f4991e4a133c4482b643824fc1d0bbe0c6f2a82353c5af12d4bffbc77882",
+      "bytes": 92812
+    },
+    "sources/environment/textures/painted_fur_coral_color.png": {
+      "sha256": "eb3a40b4f1d276f7095a1cc9334a6a9db2bc7f2c1669a47e98b2ed635e95e0be",
+      "bytes": 115993
+    },
+    "sources/environment/textures/painted_fur_cream_color.png": {
+      "sha256": "3b7718f931dfaa81b0df3cddbb08a280a8795bfe9da36f71ec9f90b500bbda29",
+      "bytes": 132831
+    },
+    "sources/environment/textures/painted_fur_lavender_color.png": {
+      "sha256": "d07bfc2481e2b01a69628aacc7bd8e1c1ae5b076d0529125363f419549cd3714",
+      "bytes": 114514
+    },
+    "sources/environment/textures/painted_fur_roughness.png": {
+      "sha256": "dfad4b4cce21cf4085052b2cd01fc09789fb8cd5f043661eafb5e416a69799b0",
+      "bytes": 15089
+    },
+    "sources/environment/textures/painted_fur_teal_color.png": {
+      "sha256": "2c2d55cc95452c3f3a7edff4132499e987513c88108bdd0f9fc7b80e8dd10ce7",
+      "bytes": 103471
+    },
+    "sources/environment/textures/painted_gill_glow_color.png": {
+      "sha256": "8072479a7cc048e0e442e02915e417caa409a75abe100bfe889815a53111651c",
+      "bytes": 77326
+    },
+    "sources/environment/textures/painted_gill_glow_emission.png": {
+      "sha256": "f6ff5550fe7d78c234f2514f0a51f7a64bd3dde2c52c591f14c5c6edecf3b4cf",
+      "bytes": 97414
+    },
+    "sources/environment/textures/painted_gill_roughness.png": {
+      "sha256": "298b334fadc9f50d74f557439099b5b925b05b41e21f0820e73ef643b0ae3b6d",
+      "bytes": 11007
+    },
+    "sources/environment/textures/painted_grass_color.png": {
+      "sha256": "7e9b9118d3865e5e375e40a195cc436546f26aca443a50fd67d9f16c5f6d81f8",
+      "bytes": 164537
+    },
+    "sources/environment/textures/painted_grass_dark_color.png": {
+      "sha256": "89a677cd68f61f0204f157c814c84e47c685d79a53a0aaa60049ed4cb3cc8f9a",
+      "bytes": 145186
+    },
+    "sources/environment/textures/painted_grass_light_color.png": {
+      "sha256": "366fe0481229a8f63f7030e6f2e14557d2f1c621878811913e0a3a01e5c54e3e",
+      "bytes": 176833
+    },
+    "sources/environment/textures/painted_ground_roughness.png": {
+      "sha256": "f773deb612b7244a13156bf90f02be23a71a4c101f10cedc18f7663b234de37f",
+      "bytes": 28555
+    },
+    "sources/environment/textures/painted_hex_bioluminescent_grove_ground_color.png": {
+      "sha256": "c7d348f36c24ef267d66cbd6efb2e70939c136e462c9cb563dcdf0621b93c29f",
+      "bytes": 491383
+    },
+    "sources/environment/textures/painted_hex_bioluminescent_grove_ground_emission.png": {
+      "sha256": "f5d691eae6eb234b0603d9b98f3975498f13ac673b24593212cbbadc10925555",
+      "bytes": 135766
+    },
+    "sources/environment/textures/painted_hex_butterfly_glade_ground_color.png": {
+      "sha256": "a212afe413c79a7592ac95088da7c16b229329b992706417d59872bc09f00577",
+      "bytes": 477483
+    },
+    "sources/environment/textures/painted_hex_butterfly_glade_ground_emission.png": {
+      "sha256": "e7f0094ba7fd18da9b774189332f5c33501d40ea27162d56257e8351d3d61ebe",
+      "bytes": 111531
+    },
+    "sources/environment/textures/painted_hex_crystal_grove_ground_color.png": {
+      "sha256": "df5c96ea4ff04ec8b0934d51fbf45f2d29545593e0cf3a1e0f176c05fadc0110",
+      "bytes": 498781
+    },
+    "sources/environment/textures/painted_hex_crystal_grove_ground_emission.png": {
+      "sha256": "7a4fb6beda4db049e1bd84d12bc34c53588ff9da84f625d5b402589a8aa5d95f",
+      "bytes": 188718
+    },
+    "sources/environment/textures/painted_hex_crystal_shrine_ground_color.png": {
+      "sha256": "ccfe91205beb16a61e8b925f548dd6b451bdbcf1e978c09c71f0d03efee8cd9e",
+      "bytes": 502863
+    },
+    "sources/environment/textures/painted_hex_crystal_shrine_ground_emission.png": {
+      "sha256": "65e51f6a02e8565f83aa8007f08564a88185ea79345723907c87c3ccb04ef708",
+      "bytes": 208618
+    },
+    "sources/environment/textures/painted_hex_dream_menagerie_ground_color.png": {
+      "sha256": "9f9b840969142b74732881ccb98706291d258971fca490b37fe6d4efcfef2b90",
+      "bytes": 482962
+    },
+    "sources/environment/textures/painted_hex_dream_menagerie_ground_emission.png": {
+      "sha256": "7890b9a8cba0e050efd76ff11fa0c03a5d248bce168bde1bfcce544539c8cccd",
+      "bytes": 131136
+    },
+    "sources/environment/textures/painted_hex_glowing_mushrooms_ground_color.png": {
+      "sha256": "0d55ce4b24e7b682edb82071eac1ebf8e75b12f6ec6a0d2c7281af812b4f62c2",
+      "bytes": 495732
+    },
+    "sources/environment/textures/painted_hex_glowing_mushrooms_ground_emission.png": {
+      "sha256": "75b458e7feb372c60a25f9e67c22f83cd9b46817ebb6372d323c0580ea6a52f0",
+      "bytes": 169625
+    },
+    "sources/environment/textures/painted_hex_hollow_watchers_ground_color.png": {
+      "sha256": "ca292add29c0147999c91d04c6fa2a49e3462fbc15a97441571a2542c1e98da8",
+      "bytes": 480192
+    },
+    "sources/environment/textures/painted_hex_hollow_watchers_ground_emission.png": {
+      "sha256": "95d3ea509d7d3be6d3aa4167deea277e0f95863a5306e30b7b278bdd6e3ae57f",
+      "bytes": 105595
+    },
+    "sources/environment/textures/painted_hex_lantern_bridge_ground_color.png": {
+      "sha256": "dd8afbf93af21599e6cab529be29a2a280145382a9ed359d934c52e7599817a3",
+      "bytes": 492795
+    },
+    "sources/environment/textures/painted_hex_lantern_bridge_ground_emission.png": {
+      "sha256": "c136588ff4609f806c8dab2ab234ee631c46c2bf9d8a1dd8cb596ec7de4ab57a",
+      "bytes": 130541
+    },
+    "sources/environment/textures/painted_hex_mystical_grove_ground_color.png": {
+      "sha256": "e74a26d9926cfd1c23903aeb814b2b338ef95e0802024ea9cb24caa378c8f236",
+      "bytes": 502322
+    },
+    "sources/environment/textures/painted_hex_mystical_grove_ground_emission.png": {
+      "sha256": "81ea3fcfd00e2a214d0e8d91b78b37559f6a207e283ae06c0af5a5eed7dbd87b",
+      "bytes": 201636
+    },
+    "sources/environment/textures/painted_hex_rune_shrine_ground_color.png": {
+      "sha256": "08ee180b4acb3abd1db6ef76e989f0a34a54af8002605f0e5098818c4da8f7d3",
+      "bytes": 492270
+    },
+    "sources/environment/textures/painted_hex_rune_shrine_ground_emission.png": {
+      "sha256": "9b5b4625e3bcbfbbbe9e3eed9671952e2ac6722fb0943ba33600cf63e964674e",
+      "bytes": 138744
+    },
+    "sources/environment/textures/painted_hex_woodland_bridge_ground_color.png": {
+      "sha256": "dd8afbf93af21599e6cab529be29a2a280145382a9ed359d934c52e7599817a3",
+      "bytes": 492795
+    },
+    "sources/environment/textures/painted_hex_woodland_bridge_ground_emission.png": {
+      "sha256": "c136588ff4609f806c8dab2ab234ee631c46c2bf9d8a1dd8cb596ec7de4ab57a",
+      "bytes": 130541
+    },
+    "sources/environment/textures/painted_leaf_normal.png": {
+      "sha256": "0b2b7bb15e05098ee50c456d7831b8cffe7b6d165674dc7491206e55d86ce0af",
+      "bytes": 128018
+    },
+    "sources/environment/textures/painted_leaf_roughness.png": {
+      "sha256": "397f7c800470ba1a34456664cc8d4bdf4645ef200bfac91a030bba3226449b97",
+      "bytes": 14973
+    },
+    "sources/environment/textures/painted_moss_color.png": {
+      "sha256": "a6535d3b1c299b9a2dd1bb027256e7f3fe8b147d37dc8b3ed5b197798c6df430",
+      "bytes": 87270
+    },
+    "sources/environment/textures/painted_moss_roughness.png": {
+      "sha256": "397f7c800470ba1a34456664cc8d4bdf4645ef200bfac91a030bba3226449b97",
+      "bytes": 14973
+    },
+    "sources/environment/textures/painted_mushroom_blue_color.png": {
+      "sha256": "61f77c57ac8bf711dec0f7bbbf128ca9f68411fe845bfda9cfe7719ed7a1677d",
+      "bytes": 65388
+    },
+    "sources/environment/textures/painted_mushroom_blue_emission.png": {
+      "sha256": "6d91df2547d38cf2a41185db6b528883b8cd1df613595e1ac679f5bd2a359834",
+      "bytes": 85148
+    },
+    "sources/environment/textures/painted_mushroom_purple_color.png": {
+      "sha256": "c387cd04962bef57d647686fb8b22a7dd01303038af412885ff1f96f10909acd",
+      "bytes": 70330
+    },
+    "sources/environment/textures/painted_mushroom_purple_emission.png": {
+      "sha256": "46b596b63a313fda8492f8a55b0279f68c8001ed75edec39c149d7ea96b1bc78",
+      "bytes": 90127
+    },
+    "sources/environment/textures/painted_mushroom_roughness.png": {
+      "sha256": "bc903e17cf53bb9b38e43f1145ead4ed60195f070a8b8edb7b2e6d810b3176b8",
+      "bytes": 10250
+    },
+    "sources/environment/textures/painted_stone_color.png": {
+      "sha256": "67307cfeb71a485760da6095086ce87270ef36b0c2d42cf87943a03ccf0fc8c8",
+      "bytes": 140973
+    },
+    "sources/environment/textures/painted_stone_dark_color.png": {
+      "sha256": "bde3f24cba0af5bd4fe6975b64af9165f9f24052c8ee15467772cfb6538f7168",
+      "bytes": 131685
+    },
+    "sources/environment/textures/painted_stone_light_color.png": {
+      "sha256": "71bb56dbb113bc418a413386d10cc0d0065f78e61ff263daec740d563c0a3a6b",
+      "bytes": 148365
+    },
+    "sources/environment/textures/painted_stone_normal.png": {
+      "sha256": "f7fef5382240bcba83b6b81a3efc64dfeef1fbd373d7536d306f7400685d96d0",
+      "bytes": 51007
+    },
+    "sources/environment/textures/painted_stone_roughness.png": {
+      "sha256": "abcda7a360ca753e396708ddc0c73dbe9f5e9561a4d230f099a9f34b99d3c237",
+      "bytes": 20171
+    },
+    "sources/environment/textures/painted_water_color.png": {
+      "sha256": "7ac667b3318fadb2e9c962846e7da92112bffaf7e5f03b9e18b73f795f688107",
+      "bytes": 54336
+    },
+    "sources/environment/textures/painted_water_emission.png": {
+      "sha256": "eafa3a8f3bec3d90461b9f4189e81d3b700c2be6d29896ab1d930b5556979b3c",
+      "bytes": 73904
+    },
+    "sources/environment/textures/painted_water_light_color.png": {
+      "sha256": "4306fbc3f6d0d0997cdc79bc34d205a36cd7996f7165058b17a6d99d12b4ff8b",
+      "bytes": 74167
+    },
+    "sources/environment/textures/painted_water_light_emission.png": {
+      "sha256": "83ca38ee27ee7c7567ed2b6570c0858aaf0ae1463bb605f90f00e6203320a867",
+      "bytes": 91553
+    },
+    "sources/environment/textures/painted_water_roughness.png": {
+      "sha256": "703f0b7e6acfaa2d0f938d56ed13268b8d5ea286d1f6d80564ab273983dc827a",
+      "bytes": 10667
+    },
+    "sources/environment/textures/painted_window_color.png": {
+      "sha256": "d3537d6bbef532336ad0ea0451a3f30272fd2b71246ad782d7ccd9dcdbc56ef5",
+      "bytes": 49777
+    },
+    "sources/environment/textures/painted_window_emission.png": {
+      "sha256": "216273767ea0efd3aeb3f3840c32710cddab6d8e529d33f90c35c2cf7b905f76",
+      "bytes": 62001
+    },
+    "sources/environment/textures/painted_window_hot_color.png": {
+      "sha256": "085782fd97204224edc9e8abe44d6877a6956298a8909f389d82e82ae4e6bfc2",
+      "bytes": 59972
+    },
+    "sources/environment/textures/painted_window_hot_emission.png": {
+      "sha256": "1ae531fb463b2a398f19db9acca08385601d87b5f325f9102c2f393b2305eafa",
+      "bytes": 74204
+    },
+    "sources/environment/textures/painted_window_roughness.png": {
+      "sha256": "27ad12e9e5e731da48a46a12301e268159f586303ea947b1dd2478f055c904db",
+      "bytes": 8993
+    },
+    "sources/environment/textures/painted_wing_border_color.png": {
+      "sha256": "3b4acca68af9cf8049af448d1a8f9b2ce53c76b08f09d47bf1ad074b040f2136",
+      "bytes": 88159
+    },
+    "sources/environment/textures/painted_wing_coral_color.png": {
+      "sha256": "d2a3767d67f45da96f80ef066a9ca49dfb076fa822cf930941ee5d024064c566",
+      "bytes": 139407
+    },
+    "sources/environment/textures/painted_wing_cyan_color.png": {
+      "sha256": "f669221534dc42b09398ce79df7ce4e6ef1217543e0c0e88b8a08228f55a43cd",
+      "bytes": 139224
+    },
+    "sources/environment/textures/painted_wing_lilac_color.png": {
+      "sha256": "cf4b6d6c3f3dd453b7ad6203d8804794932ee682c4658537df80da688ef3ec96",
+      "bytes": 140846
+    },
+    "sources/environment/textures/painted_wing_moon_color.png": {
+      "sha256": "472f2e39c7fde7a4d9bfc647f9f26bc2e9de828abc7855814b39a9856a6f5d81",
+      "bytes": 139915
+    },
+    "sources/environment/textures/painted_wing_roughness.png": {
+      "sha256": "b1a9b3e56b372752f98842ab6e2230e1456048e84348ffe3ece90707363dd079",
+      "bytes": 19533
+    },
+    "sources/environment/textures/painted_wood_color.png": {
+      "sha256": "f3e3b06e314cb48690a7ce02190dd2751ecf7b8612e1d91350ce61a960df976b",
+      "bytes": 105198
+    },
+    "sources/environment/textures/painted_wood_dark_color.png": {
+      "sha256": "1c165acef967f2779eb6caab34c33a751a5e19245a66c2e9ad0806434835161a",
+      "bytes": 76586
+    },
+    "sources/environment/textures/painted_wood_edge_color.png": {
+      "sha256": "c6e3bda3af6745dd955fa97383e31020bb34f893e237502c17b5ce7351a04f2b",
+      "bytes": 142938
+    },
+    "sources/environment/textures/painted_wood_light_color.png": {
+      "sha256": "742cf923eef62ad63cfa04effa48f006bc0837b3587426f3382702290e05659f",
+      "bytes": 127878
+    },
+    "sources/environment/textures/painted_wood_normal.png": {
+      "sha256": "e40f9f817ef15f1ae6c1de1678ee556357b38290024743567a62b6e51b1436d1",
+      "bytes": 95248
+    },
+    "sources/environment/textures/painted_wood_roughness.png": {
+      "sha256": "6550c96dde6520c594c0b771812372b4af1e53362fbac8687f82c3c895454641",
+      "bytes": 22930
+    },
+    "sources/environment/textures/ground/ground_moss_base_color.png": {
+      "sha256": "0507b467c70fe3a843cc1caf1e611fe6297bc6adf20da3c73db237c64c3b3b9f",
+      "bytes": 711876
+    },
+    "sources/environment/textures/ground/ground_moss_roughness.png": {
+      "sha256": "7a933ac29defaad0792554716be2a2a47647f82cd011ce131fa91354d6ae9e25",
+      "bytes": 268881
+    },
+    "sources/environment/textures/ground/ground_moss_normal.png": {
+      "sha256": "a0bb89e2f8c421cf95fa90cde680ed968e94ab2c3c82950501a8f0fc4945edcb",
+      "bytes": 649144
+    },
+    "sources/environment/textures/ground/ground_foundation_base_color.png": {
+      "sha256": "6ad17f2decce1dd6b36e6b81e9f880cad768f46ecf03915403aa606c4cf70fff",
+      "bytes": 215441
+    },
+    "sources/environment/textures/ground/ground_foundation_roughness.png": {
+      "sha256": "9916eec6f45ead11090d8ce9d1c6b45a02dabc8f635594c82d79bfb263f738ea",
+      "bytes": 4589
+    },
+    "sources/environment/textures/ground/ground_foundation_normal.png": {
+      "sha256": "683b53d6807328d817cd7b454661235305b79a417d0b0156bf57a15190bab0d0",
+      "bytes": 161311
+    },
+    "sources/environment/textures/ground/ground_grass_base_color.png": {
+      "sha256": "5f3299cdf503b40af50490e5865264e940229120c65808c69ab349db34aa8066",
+      "bytes": 713065
+    },
+    "sources/environment/textures/ground/ground_grass_roughness.png": {
+      "sha256": "b380f235a6c7a375485a3eba0fbf70b04117f2cf05e32b9375f1a1e28d0bbcb2",
+      "bytes": 289917
+    },
+    "sources/environment/textures/ground/ground_grass_normal.png": {
+      "sha256": "750fbbeb01111ba571c8c38d1be1eb4c5600f7d0fe39756769cbc022c967be9c",
+      "bytes": 692506
+    },
+    "sources/environment/textures/ground/ground_dirt_base_color.png": {
+      "sha256": "78cf3f124861150971b8dc14c1c7448c3f8b5c50b004071f08f33c63a897cea2",
+      "bytes": 531948
+    },
+    "sources/environment/textures/ground/ground_dirt_roughness.png": {
+      "sha256": "7d28f85fe42953e66c03ef62a1b3318d18ec8ae0a7fa3c0882109e38ff453f3d",
+      "bytes": 225234
+    },
+    "sources/environment/textures/ground/ground_dirt_normal.png": {
+      "sha256": "3c6a887cc4f642a5a118bf0e7956d151300fc3018052f88a6c9289cd3334fab1",
+      "bytes": 468500
+    },
+    "sources/environment/textures/ground/ground_leaf_litter_base_color.png": {
+      "sha256": "c393a96fc0578ebcce416ac77c6aeb6fcda64da1387669cc60b63dec1a8d6825",
+      "bytes": 719364
+    },
+    "sources/environment/textures/ground/ground_leaf_litter_roughness.png": {
+      "sha256": "fdbed3f03447ebe42d11c63d9250afa709ba47d49bc062cf63142cee3201dee9",
+      "bytes": 281802
+    },
+    "sources/environment/textures/ground/ground_leaf_litter_normal.png": {
+      "sha256": "4bafbe18d196fe553cbeafa7772e58989fb06523216d3e9be075c4087e3aaf78",
+      "bytes": 680651
+    },
+    "sources/environment/textures/ground/ground_pine_duff_base_color.png": {
+      "sha256": "93c138c664be263ecb0594bd972d784f757e20533c4cc5229d3152a72359ff76",
+      "bytes": 564030
+    },
+    "sources/environment/textures/ground/ground_pine_duff_roughness.png": {
+      "sha256": "93d78cfe343c582d20848648705c2c9f0a1882c1c8d7d8f9228430577216ed1d",
+      "bytes": 257051
+    },
+    "sources/environment/textures/ground/ground_pine_duff_normal.png": {
+      "sha256": "ded83a41882ecea7839850d31acfdd434e6d546278f7aa6cd5220a56ea451c0a",
+      "bytes": 567424
+    },
+    "sources/environment/textures/ground/ground_path_base_color.png": {
+      "sha256": "4df77861de8e20a83f353986483ced3f12d0f25fc6756f470c4e4429564ef134",
+      "bytes": 141587
+    },
+    "sources/environment/textures/ground/ground_path_roughness.png": {
+      "sha256": "0a43092eb5e497767a618c556f496cf36ef6a1da5ec739f92854d87bb3dffa6b",
+      "bytes": 29684
+    },
+    "sources/environment/textures/ground/ground_path_normal.png": {
+      "sha256": "b20eee562fd81ec4819db79f5a927d21c83b7e1fcae7c1ef3c94019cb9bb1cde",
+      "bytes": 78912
+    },
+    "sources/environment/textures/ground/ground_river_base_color.png": {
+      "sha256": "f1ae59b3e97a039659eeac70beb1014e3cbf9f48cfaa38c31dd83f72f08fd657",
+      "bytes": 41696
+    },
+    "sources/environment/textures/ground/ground_river_roughness.png": {
+      "sha256": "4c2e8fbfbcf2e555d7ebf0ef76b1065a485e234966d0e4ff370b81a0854123dc",
+      "bytes": 5392
+    },
+    "sources/environment/textures/ground/ground_river_normal.png": {
+      "sha256": "3610f9aa6fedba1a8bac5212bcc29aeef7988177f5ec7a5428f122f968ad8c23",
+      "bytes": 36716
+    },
+    "exports/environment/hex_meadow_building.glb": {
+      "sha256": "240a93d7a6ba3cf88dddea5704327e0c13f52699c00bc923524b69a6726d6c40",
+      "bytes": 228636
+    },
+    "exports/environment/hex_meadow_character.glb": {
+      "sha256": "71ada6837e3a1a8bf0b363638ea22947fce902db7297e698910dfff52b1d5ffd",
+      "bytes": 210264
+    },
+    "exports/environment/hex_bioluminescent_grove.glb": {
+      "sha256": "7b2c22d173fd200ded0b90e265e69ab0b165fb4b71899bd6617a422964c77eb0",
+      "bytes": 6857464
+    },
+    "exports/environment/hex_butterfly_glade.glb": {
+      "sha256": "03f110e09953dee4144d29aa1955a2ec4478d521775c3cc55980f40e43fa8c32",
+      "bytes": 6036788
+    },
+    "exports/environment/hex_crystal_shrine.glb": {
+      "sha256": "0ab696cc206e490e28dc586b98654541644471e3a023aacc7596632ef7147faa",
+      "bytes": 8764480
+    },
+    "exports/environment/hex_dream_menagerie.glb": {
+      "sha256": "0e03d4ba320b7f61fafc490ae8cbf51833613cdc2fce07ab4ab34baecc7fffb6",
+      "bytes": 8369724
+    },
+    "exports/environment/hex_glowing_mushrooms.glb": {
+      "sha256": "4370d473b6e98712b21eddc1cde95c06eb36bb5cd94271326642f43ffc5282f3",
+      "bytes": 8492372
+    },
+    "exports/environment/hex_hollow_watchers.glb": {
+      "sha256": "4c19ebcc713f3ab244f325d54d68e5ccee64df0e62670b57457035d7b3b1b607",
+      "bytes": 8246048
+    },
+    "exports/environment/hex_mystical_grove.glb": {
+      "sha256": "b9dd65a0d0fa79b21fc5fa83b7b4ea6503e83b40f551666cd378fa8305f33efc",
+      "bytes": 8532720
+    },
+    "exports/environment/hex_rune_shrine.glb": {
+      "sha256": "34101a5c2a91e97adefaa336cabbb5f582fd9964669616bc9f8c09c896543e91",
+      "bytes": 7178844
+    },
+    "exports/environment/hex_woodland_bridge.glb": {
+      "sha256": "f61bc6212b37fc0c41a372b906520e8c18d9d52ef330365e963f5f7ee83eb118",
+      "bytes": 7808052
+    },
+    "exports/environment/hex_crystal_grove.glb": {
+      "sha256": "728cd5c29cdc2c765d39ef592922d673221b9e871d737f82e08f13ce804caa86",
+      "bytes": 8552212
+    },
+    "exports/environment/hex_lantern_bridge.glb": {
+      "sha256": "2c4528dd617964d2bd85641280fbaa00727b10b681c07302a18bf28d15e021e8",
+      "bytes": 7646580
+    },
+    "exports/environment/hex_ground_dirt.glb": {
+      "sha256": "20ead297b5bbba3479b53ca368d01db2640069c1bfec9bc75e6cc61331bca0cc",
+      "bytes": 1612600
+    },
+    "exports/environment/hex_ground_grass.glb": {
+      "sha256": "9c7471348e259532581eaa0fa622a06ce841fd06dbd5e4da40b52564bb2aacbd",
+      "bytes": 2080444
+    },
+    "exports/environment/hex_ground_leaf_litter.glb": {
+      "sha256": "4bfced1231c0473a0065dc091924dfa30eed76301a712b21af4e185a98f68002",
+      "bytes": 2067076
+    },
+    "exports/environment/hex_ground_moss.glb": {
+      "sha256": "917cea9eb3459e7e0251e0b1a072bdbc427a821c4b33253ffe0e9fbeebc1667f",
+      "bytes": 2014732
+    },
+    "exports/environment/hex_ground_pine_duff.glb": {
+      "sha256": "8bb3a275d60aae5b8ceae7770c1351517032f6926bc71975aa190fb34c83772f",
+      "bytes": 1775728
+    },
+    "exports/environment/hex_path_end.glb": {
+      "sha256": "b7d73c60dfbee7e15a01223f7f273265cf70e13b3638310f33bddee869ae120d",
+      "bytes": 266256
+    },
+    "exports/environment/hex_path_straight.glb": {
+      "sha256": "c05ae793721d9f5869aa0811d0d4b4e28971e76dc6ac2d340a3cf940efe29e6c",
+      "bytes": 262148
+    },
+    "exports/environment/hex_path_turn_120.glb": {
+      "sha256": "48627064b06c6a9550305ce314bd41a3c05eef6d1bec69332c2ca57fb943afb4",
+      "bytes": 271212
+    },
+    "exports/environment/hex_path_turn_60.glb": {
+      "sha256": "e1cea1e54a6dbd2703b1b7a29a1936594ec018dab449e43d522273ace5eb2cfa",
+      "bytes": 271208
+    },
+    "exports/environment/hex_river_overlay_end.glb": {
+      "sha256": "9b3c0c5defc7b64eca1d750b8a164b5f6e406cd48b2dbbf128dcfbeb9932a41b",
+      "bytes": 105976
+    },
+    "exports/environment/hex_river_overlay_straight.glb": {
+      "sha256": "1885f50d832c4ffbc74acdad66dee5b04906da8f3021c3a3cb2d2f2ccfe774aa",
+      "bytes": 100580
+    },
+    "exports/environment/hex_river_overlay_turn_120.glb": {
+      "sha256": "65f5a183bd30ad014f3d807551b06d6cf2596e0e2d5bde1f797f1661c5f69ee1",
+      "bytes": 109884
+    },
+    "exports/environment/hex_river_overlay_turn_60.glb": {
+      "sha256": "22622e359d0a5ed9757aee96f35b9f49e21a768ae0294d5a804d34e3082fcfbf",
+      "bytes": 109880
+    },
+    "exports/environment/components/forest_boulder.glb": {
+      "sha256": "88d721b332224223a91b03f0185a80079b29da321c126af8f11d70fbf9335c1e",
+      "bytes": 532572
+    },
+    "exports/environment/components/forest_bridge_plank.glb": {
+      "sha256": "3bbe29bf0da09a8854e91fa1a1d0d7cec4101fe364599f97b92258ba2517955e",
+      "bytes": 350896
+    },
+    "exports/environment/components/forest_bridge_post.glb": {
+      "sha256": "3203700af34d91dd830a51bf0c139a5af6bb811d80632e3dc0da9f5b5697a0dc",
+      "bytes": 513848
+    },
+    "exports/environment/components/forest_bridge_rail.glb": {
+      "sha256": "530d673b3b837a5bec8437fcb0a042be09c6340defbb14eea4144efff549715a",
+      "bytes": 355064
+    },
+    "exports/environment/components/forest_butterfly_cyan.glb": {
+      "sha256": "43067049e83fc117922c16f186133bb991bd31793fe353e6f5f597615028fcf6",
+      "bytes": 557464
+    },
+    "exports/environment/components/forest_butterfly_sunset.glb": {
+      "sha256": "56134d27ae19dabdf491ef5ae923305196bcc18a1815cf78d3d52ef2ee963594",
+      "bytes": 557688
+    },
+    "exports/environment/components/forest_crystal_blue.glb": {
+      "sha256": "66bbe689d10d2cc87b262247adb8d461f6c99e0318416a8067efb44eab915a47",
+      "bytes": 3243124
+    },
+    "exports/environment/components/forest_crystal_purple.glb": {
+      "sha256": "43225b52a57a1ca1aa435f7ea40938db4952aae3231d9391f93248656e32c543",
+      "bytes": 2116972
+    },
+    "exports/environment/components/forest_fern.glb": {
+      "sha256": "4758429b9344dd459518dccb51807a63353b5cce8d48b3ef97dbf905514d5ec9",
+      "bytes": 414796
+    },
+    "exports/environment/components/forest_hex_stream.glb": {
+      "sha256": "c83cf0f4509e2183a20eff14d8a82f97ef687edc8ab3e46c8d66ac008aac315b",
+      "bytes": 522936
+    },
+    "exports/environment/components/forest_hollow_tree.glb": {
+      "sha256": "c8f5cf4f06aef9cc7414d879cd3bb4755407fbec4169c5c4f5aa8d22e678f8ea",
+      "bytes": 2280864
+    },
+    "exports/environment/components/forest_jackalope.glb": {
+      "sha256": "f6d8ff16aec90fb4e3960a99f9412a0fc80365a6aef1fb463159883e29ab5448",
+      "bytes": 832100
+    },
+    "exports/environment/components/forest_lantern_flower.glb": {
+      "sha256": "cb386f1001b948e126970bb0d51fc3e87e19639d9cd1e8269070066d89ab456e",
+      "bytes": 513188
+    },
+    "exports/environment/components/forest_lantern_post.glb": {
+      "sha256": "3dc307419001367a0954c26d7e68294ce538f9ff6d4c454595dbb569e5c9b87d",
+      "bytes": 814724
+    },
+    "exports/environment/components/forest_lantern_snail.glb": {
+      "sha256": "b2693993b574e86743cfa5cb133831be1483e70d99af8121886f731bae4b9c65",
+      "bytes": 887236
+    },
+    "exports/environment/components/forest_leaf_clump.glb": {
+      "sha256": "3b41297dc9e70d3d111b13c911bd272aa58e808531b8d59ef54ad3fccad86a09",
+      "bytes": 334612
+    },
+    "exports/environment/components/forest_moon_moth.glb": {
+      "sha256": "d5f8a0224aa3d36342d9c2c9b993e630919985ce9071a8a4c445c6e0549aef48",
+      "bytes": 443248
+    },
+    "exports/environment/components/forest_moss.glb": {
+      "sha256": "12ddfecd05b27bd16faeaf73b0965d381a81428567341f762d8ec625205d8469",
+      "bytes": 344188
+    },
+    "exports/environment/components/forest_mushroom_small.glb": {
+      "sha256": "c98d4556cb00aafd690419a9a1298bd6b5aa01cc25dd02a56d107e212aec2f27",
+      "bytes": 1619876
+    },
+    "exports/environment/components/forest_root.glb": {
+      "sha256": "05e9b439119815638f850301327865d9379931eb172c5e998e91d473147a72a4",
+      "bytes": 417868
+    },
+    "exports/environment/components/forest_rune_circle.glb": {
+      "sha256": "50e7e76938c15693fa655e751ec4648beef7e69f29691a555bb1febc4a3f8ed2",
+      "bytes": 122584
+    },
+    "exports/environment/components/forest_rune_diamond.glb": {
+      "sha256": "8df109603befea666f724ab5c0dd78f56c916c02c95fba857b4874684de09cf2",
+      "bytes": 16612
+    },
+    "exports/environment/components/forest_shrine_plinth.glb": {
+      "sha256": "0048c6c81f4a0e17c506a935b8b3525f3ee8953e4765622d1c7359d972117ebe",
+      "bytes": 443148
+    },
+    "exports/environment/components/forest_spiral_fern.glb": {
+      "sha256": "dbc8161adb560e647dfdbe1965f660e33d882ba666b1f2a7d411b4e3e3a8b306",
+      "bytes": 440444
+    },
+    "exports/environment/components/forest_spiral_tree.glb": {
+      "sha256": "c49a9dfd4cd1ebd52a05c04eddeeb72c88fb83eee599410764fe1c2981b82260",
+      "bytes": 1038932
+    },
+    "exports/environment/components/forest_stone_arch_block.glb": {
+      "sha256": "058ec621f97be94b7d78717830c00341b7f3841d009f080b417477d8be90ec80",
+      "bytes": 228780
+    },
+    "exports/environment/components/forest_stone_block.glb": {
+      "sha256": "69c953ea885275355092859af46f1afe13d65babef98c78d612ce33ec4c35f48",
+      "bytes": 228764
+    },
+    "exports/environment/components/forest_waterfall.glb": {
+      "sha256": "8438d9f1b06450daa5d4e4ad48dd3dac43cd09eb4056bd8b4c293e5bcde205a4",
+      "bytes": 1307000
+    },
+    "exports/environment/components/forest_foam.glb": {
+      "sha256": "6dc24a66b6d4dd4c8e717872bccdefd2b381d63dbf83eb4aa41fdaa6b58e4e0e",
+      "bytes": 1352792
+    },
+    "exports/environment/components/forest_mushroom_blue.glb": {
+      "sha256": "ba30dde4fb33305feb871bd7bc9944cca97f03cfad65f8877bcbbd8474336928",
+      "bytes": 1602776
+    },
+    "exports/environment/components/forest_mushroom_purple.glb": {
+      "sha256": "b2ff7dae743e9c7f10ca104bc6eac316092af7dc06d7fca0ff6be0fdf76aa050",
+      "bytes": 1612752
+    },
+    "exports/environment/components/forest_rune_monolith.glb": {
+      "sha256": "c1c95012bf110bee07f0a6c4a9ec6a83310fd4ad6eb5c321888afc5e80626ff4",
+      "bytes": 390584
+    },
+    "exports/environment/components/forest_hex_meadow.glb": {
+      "sha256": "36406de0a4db79e007694d1b2e83418ed1e46ea370c9b65780ea93be676d4829",
+      "bytes": 355240
+    },
+    "exports/environment/components/forest_tree_snag.glb": {
+      "sha256": "6f3920303ed5104cb1fc554dc45b7b42c175420212391d5d8a17c2ca0c551c3e",
+      "bytes": 441064
+    },
+    "exports/previews/archer.png": {
+      "sha256": "65101e81ff5efe0cd4b38ed31465a6e2aa9ac2346231ad343eba3bfd0f479011",
+      "bytes": 955622
+    },
+    "exports/previews/archery_range.png": {
+      "sha256": "17152ecec7a12ede23ce3e07db03b19de7a7572b287b0d75ba45443d3b20eb8b",
+      "bytes": 1855028
+    },
+    "exports/previews/arrow_tower.png": {
+      "sha256": "ea4b3fd42d44e9b8fe3ee76024f139ed66f691151da0e26917750f7175fb956c",
+      "bytes": 1047093
+    },
+    "exports/previews/autobattler_overview.png": {
+      "sha256": "09438a8f25939896f94a25a35bcbbe3a818d37732e77f1d2c4c350a0342dccf3",
+      "bytes": 2814065
+    },
+    "exports/previews/bakery.png": {
+      "sha256": "0b85bef06294d2e727bc953f9a6a342942f5a4daac4343306b12792fa114b529",
+      "bytes": 1042813
+    },
+    "exports/previews/barracks.png": {
+      "sha256": "ebf4b5da69d7b92f3a46e22e68a8326f83d5168b3d43b6fcdcb43a09acc0c186",
+      "bytes": 1036251
+    },
+    "exports/previews/berserker.png": {
+      "sha256": "74490634d44e492255492250aac7b37a8839ba8cb0e021de2abe4cccbfd9779a",
+      "bytes": 1001153
+    },
+    "exports/previews/bombarding_tower.png": {
+      "sha256": "d04d9b732249e06f1f29b7b09c701a2df9697de74061bf933e69686de4fa69ec",
+      "bytes": 1007912
+    },
+    "exports/previews/evil_berserker_unit.png": {
+      "sha256": "75c12746c9dee260ea70bec5e57f6099635399261708f4dc384372ad4c5f70bb",
+      "bytes": 996170
+    },
+    "exports/previews/evil_mage_unit.png": {
+      "sha256": "5bbafcea6b79323934fef31d94f5d898cbc84d080dfd3400dfc7317650d6cb5e",
+      "bytes": 954698
+    },
+    "exports/previews/evil_melee_unit.png": {
+      "sha256": "0e2bfb6a266e2c0607cc26880078ce537f64544f3fc6bd00801dc20d0d29be14",
+      "bytes": 963524
+    },
+    "exports/previews/evil_overview.png": {
+      "sha256": "744de79793945c1cf7bff663238c09c49e30b05e942e158e5f52b893bdffd32b",
+      "bytes": 2499549
+    },
+    "exports/previews/evil_ranged_unit.png": {
+      "sha256": "fe2d6259e196d3afa94e9ed5125467e6adfce52699e18a006136b90706b60d18",
+      "bytes": 953436
+    },
+    "exports/previews/gold_mine.png": {
+      "sha256": "2f4a5514a1264830b8e98df3c878a5b17a4b9bd5c17b82d0492968c5969c05ad",
+      "bytes": 1016819
+    },
+    "exports/previews/hex_bioluminescent_grove.png": {
+      "sha256": "5feadfdbde86503e4011d392c7185b67b2d0eed0e6fcda4f404aefd61cc0a11e",
+      "bytes": 1682286
+    },
+    "exports/previews/hex_butterfly_glade.png": {
+      "sha256": "21eeb1e3211b2050f57a91ed421d397f040ecfe1037cdbdd3fefbfe7e979f1e5",
+      "bytes": 1660126
+    },
+    "exports/previews/hex_crystal_grove.png": {
+      "sha256": "2ba2ea309ea52231e660a5918d236f5590c57fb9c6ba38fba0662d2b6dd891e4",
+      "bytes": 1653590
+    },
+    "exports/previews/hex_crystal_shrine.png": {
+      "sha256": "b63879edde70c17797ff7d88d31444209a9a3a05d6ce9512c754cb46f61d8c93",
+      "bytes": 1659006
+    },
+    "exports/previews/hex_dream_menagerie.png": {
+      "sha256": "f81978d3d181fa350467a6a88fbbe10433c87a375b286c949a2b97c074bbac84",
+      "bytes": 1615142
+    },
+    "exports/previews/hex_glowing_mushrooms.png": {
+      "sha256": "fe00c31215439ae7d357f36aa33166d515a205a360def6f4e421cef6c4a1dc38",
+      "bytes": 1651251
+    },
+    "exports/previews/hex_hollow_watchers.png": {
+      "sha256": "37aac975856826b75cc2514ac360631fb0536048bbd23ceef6ae437ab8800eac",
+      "bytes": 1632984
+    },
+    "exports/previews/hex_lantern_bridge.png": {
+      "sha256": "e8a26c5e38a70ee0cf3f71658d99e19384bc49fd5165b37dc037b1ff7b37b19a",
+      "bytes": 1657505
+    },
+    "exports/previews/hex_mystical_grove.png": {
+      "sha256": "aecc44b5609881e7085945723a7f49e0e09520e9aab62e7454d76f06298e3087",
+      "bytes": 1633380
+    },
+    "exports/previews/hex_rune_shrine.png": {
+      "sha256": "c4652149993adb715db9f430b39d769cd43852257cd932d9979504196cb00e7b",
+      "bytes": 1689270
+    },
+    "exports/previews/hex_woodland_bridge.png": {
+      "sha256": "76a6f7ac39069343067fccbd4e4fdbb7fc8fd2f776075352c3a5de81bef16fdd",
+      "bytes": 1670084
+    },
+    "exports/previews/knight.png": {
+      "sha256": "16cc9d3e17d3e818a52607cff902c26504828e88f32d244f59da665a07346676",
+      "bytes": 986107
+    },
+    "exports/previews/mage.png": {
+      "sha256": "2bab8bf72e57c9f5efb58dc4d6198086c45a4b4c24ed94eebda935a8a9929224",
+      "bytes": 989781
+    },
+    "exports/previews/magic_academy.png": {
+      "sha256": "3b618c237516b37bac6d8e3a26b632775f32865b7b191e3890da6ea4849e22ba",
+      "bytes": 1017955
+    },
+    "exports/previews/metal_mine.png": {
+      "sha256": "2975c744f7f2922ea5dfa22889340f4fb95d23c483add87f77ffb5ad7ee77c17",
+      "bytes": 1746734
+    },
+    "exports/previews/overview.png": {
+      "sha256": "ac10e9b533d621dbde7119bc0ce4fb5cf7fc64db2f7c7bfb06bd6a0916d51f7e",
+      "bytes": 2608031
+    },
+    "exports/previews/research_tower.png": {
+      "sha256": "f06807cdb646f1132670793c43129008eb131b76260cba02a01dd6e68e75529f",
+      "bytes": 1820061
+    },
+    "exports/previews/stone_cutter.png": {
+      "sha256": "a63b683339af18b06c7075da1a31adc4632ea3b72eda68adfea6668a6adac22b",
+      "bytes": 1042164
+    },
+    "exports/previews/tavern.png": {
+      "sha256": "1ea1feb8962978adbc51f8ad6d564a82c5c3e00de31ab0b0ae28180468397f53",
+      "bytes": 1058190
+    },
+    "exports/previews/town_hall.png": {
+      "sha256": "5659201317086a808b4b22c7a59c2c7960c3619b765c4ae49193da7357125d93",
+      "bytes": 1916318
+    },
+    "exports/previews/trade_market.png": {
+      "sha256": "788e628b8b09c8c92898ad799182b85a1f4b6277b436612a023ce73e86a3c22d",
+      "bytes": 1017376
+    },
+    "exports/previews/tree_house.png": {
+      "sha256": "8e990e8b4dd8863fd5866da2c92beed82d940aef2f78d18e38874e2cea6fff2d",
+      "bytes": 1043970
+    },
+    "exports/previews/weaver.png": {
+      "sha256": "97c1c2d176776b0504f127a7c645a76bcf47a33dde9d7ff2d646a0003c8a1e50",
+      "bytes": 1822721
+    },
+    "exports/previews/woodcutter_hut.png": {
+      "sha256": "c5c1cf2b26b3ffbbdda13ba6d4d8df84336d6e25c067ba5009f5e8024e354d7b",
+      "bytes": 1021014
+    }
+  }
+}

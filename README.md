@@ -358,6 +358,16 @@ embedded GLB texture channels with:
 python3 -m tools.asset_pack.worker tools/asset_pack/verify_painted_blender.py --label painted-texture-validation buildings/archery_range environment/hex_crystal_grove environment/components/forest_crystal_blue
 ```
 
+The focused [dreamlike woodland art pass](docs/dreamlike-forest/README.md) refines
+existing mushroom, leaf, moss and gill material users in both forest libraries and
+their authored tile copies. Its explicit opt-in profile lives in `art_style.FOREST`;
+it does not restyle village palettes or regenerate edited meshes/UVs. Three focal
+comparisons cover the glowing mushroom grove, crystal grove and lantern bridge;
+the report binds source/export/channel hashes, CPU before/after views and resource
+deltas. The [four transparent woodland decal textures](sources/environment/decals/README.md)
+are independent source/export PNGs, not projected terrain geometry. Their usage
+notes specify straight alpha, color space, orientation, placement and scale.
+
 Previous sources, GLBs and renders for this pass are retained locally under
 `.cache/softness/before/`; the comparison is in `.lavish/material-softness.html`.
 Refresh the gallery, then run `python3 -m tools.asset_pack.softness_review` to

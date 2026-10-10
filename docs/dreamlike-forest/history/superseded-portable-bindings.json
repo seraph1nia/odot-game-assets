@@ -1,0 +1,20 @@
+[
+  {
+    "asset": "environment/hex_glowing_mushrooms",
+    "superseded_sha256": "a5cc1cbee0cfecaaa836029195d1401d5586ee8b1af2374d593ca3196bba290e",
+    "canonical_sha256": "056dec522e31459c531d90e64ca83e6a02b303570175f48c64b0ae19793a1901",
+    "note": "Canonical portable rerender superseded this native-pass duplicate; camera/profile controls match, but CPU renders are not promised byte-identical."
+  },
+  {
+    "asset": "environment/hex_crystal_grove",
+    "superseded_sha256": "6f10f87668fb038bc0334ea2a4946d71f719e352aef03585219298b7e764927d",
+    "canonical_sha256": "80630dc0bdc3e666112aceeb678b1476c075acc864dc27054818849ab28938e4",
+    "note": "Canonical portable rerender superseded this native-pass duplicate; camera/profile controls match, but CPU renders are not promised byte-identical."
+  },
+  {
+    "asset": "environment/hex_lantern_bridge",
+    "superseded_sha256": "741afcec4ff8d9575e1fcf3595f202d6292d114d5c0cc14e65afd3cd5e92d7fd",
+    "canonical_sha256": "919a292789daa324efbd06f3fd235b8de46093a5f1e7d13a2e17cca96b76c776",
+    "note": "Canonical portable rerender superseded this native-pass duplicate; camera/profile controls match, but CPU renders are not promised byte-identical."
+  }
+]

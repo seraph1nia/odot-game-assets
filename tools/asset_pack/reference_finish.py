@@ -9,12 +9,19 @@ import style_blender
 
 def palette():
     for name, spec in style.PAINTED_MATERIALS.items():
+        existing = bpy.data.materials.get(name)
+        if existing and existing.get('forest_finish') == style.FOREST.version:
+            # Explicitly authored woodland profiles own their scalar factors as
+            # well as images. Appending/reusing a kit must not reset those factors.
+            g.M[name] = existing
+            continue
         g.material(name, spec.color, spec.roughness, spec.metallic, spec.emission)
     # Libraries append materials with numerical suffixes. Apply the same finish
     # to their actual material datablocks, retaining mesh/object slot sharing.
     for mat in list(bpy.data.materials):
         base=re.sub(r'\.\d+$','',mat.name)
-        if base not in g.M or mat==g.M[base] or not mat.use_nodes:continue
+        if (base not in g.M or mat==g.M[base] or not mat.use_nodes or
+                mat.get('forest_finish') == style.FOREST.version):continue
         source=g.M[base]
         shader=next((n for n in mat.node_tree.nodes if n.type=='BSDF_PRINCIPLED'),None)
         original=next(n for n in source.node_tree.nodes if n.type=='BSDF_PRINCIPLED')

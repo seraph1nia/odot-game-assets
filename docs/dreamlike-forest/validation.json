@@ -1,0 +1,367 @@
+{
+  "baseline_head": "102de2042734a4bffeff54642e483f249de0cd70",
+  "runtime": {
+    "version": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "render_device": "CPU"
+  },
+  "pipeline": "implementation-local checks only; no-mistakes publication/CI pending handoff",
+  "code_inputs": {
+    "tools/asset_pack/art_style.py": "4b36c8cdf6ff3b74a3c685f9b415ef770f7bbb8248a74586db2dcd8c7b8ab2e3",
+    "tools/asset_pack/geometry.py": "0dfe95c6f1a8c372d5ff4ec0a398ee960ff2e8845430b36e05cd3a216109e9da",
+    "tools/asset_pack/painted_finish.py": "6a9adaf2d3863f653774d25287549ad86466287e0404222605a02f4fccc05b49",
+    "tools/asset_pack/reference_finish.py": "750d0a7893babd9ec009eae7c234aa99e4fd0f5dbb7f567ca07a21cb2eff67ef",
+    "tools/asset_pack/style_blender.py": "0bd164cbb16580f1f167b46ebbb79de0c4b0c00b52c8c87bf226d99d4855b78c",
+    "tools/asset_pack/forest_refinement.py": "d4b06d149def34ebb41ad06675ae2a3b14f0924b53d6d1a9ee0ae4de343f99aa",
+    "tools/asset_pack/forest_decals.py": "7d6621c767728d164f3df3e863a3a157bab9a1bee71be0ba9439d2f7e59a5e35",
+    "tools/asset_pack/test_style_blender.py": "3b56dfdaa8bf019c2bbae0018f6a8f0157fbc5fa65ab9dc516032808fb7b5da0",
+    "tools/asset_pack/render_previews.py": "75dc38e47559f79d2df91fab0bb6129b7956ab16b7fc12e649cb14f9672a132e",
+    "tools/asset_catalog/render_blender.py": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+    "tools/asset_catalog/export_blender.py": "52ddd26cd29d281d60fd3bd5f7123dc489bc3268d6b4ea47a93cd86ed87d9ccf",
+    "tools/asset_catalog/blender_selection.py": "1978d27935f25d855dd783321cf744a1d071a24f6095d04edf8ad4f726bd1e66",
+    "tools/asset_pack/check.py": "64223c3de514ec68617153d8ff09f48db7b547b4b14f610df771d36960b902a8",
+    "tools/asset_pack/verify_pack.py": "25436f4fd078b4ce5dd3e6f1b3be5d15e02d3f9d7d2fee7e48d6b4613c66487d",
+    "tools/asset_pack/verify_style_blender.py": "d2c9f4cf800f64da76f542a018fece4363c648fe70811cc50608fbd94c581a7d",
+    "tools/asset_pack/verify_forest_blender.py": "2b612f9f4032ce34089afe78959df512dc9894875fd367edda0c06051626bdd1",
+    "tools/asset_pack/verify_painted_blender.py": "da8981744259b938a7c31f8b01d4ac8dca16e7a6ff446ebc3e6a6fbb475757a2"
+  },
+  "assets": [
+    {
+      "id": "environment/components/forest_fern",
+      "source_sha256": "82b704e1165522adee33b1919c30cd2d20687c835d59b5657c6058e33dd62bd7",
+      "glb_sha256": "5f4f3ef964544244a373edda958872bb461943bc572a4c4a018dfa62d0c0ac4d",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_fern.png",
+        "sha256": "bf97a4883f16cc361d8af9bf2950146b8ce51d38c0d59456594318242613b5f8"
+      }
+    },
+    {
+      "id": "environment/components/forest_hollow_tree",
+      "source_sha256": "ec40594387cb22a9aa1a510c8e5a90a6d2e9664c7b9b562159f5ea50cb587a0b",
+      "glb_sha256": "d099814a028e1ff2c6bd70a4508b6773bb3824deae6ac69c542afefb71c4f7b1",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_hollow_tree.png",
+        "sha256": "c0f67a89c10ba1e41490cbb60c9b9bcd2edb3e37c17e15799222117dd1904840"
+      }
+    },
+    {
+      "id": "environment/components/forest_lantern_flower",
+      "source_sha256": "ec40594387cb22a9aa1a510c8e5a90a6d2e9664c7b9b562159f5ea50cb587a0b",
+      "glb_sha256": "3cb3e2873e95a371c96bd22d3f7198d1aed323e404fcffeddca0729052ce2738",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_lantern_flower.png",
+        "sha256": "e309afa490ac09c83fb637b3952dfe789a33720bed71dc5ce3b374ac89eba982"
+      }
+    },
+    {
+      "id": "environment/components/forest_lantern_snail",
+      "source_sha256": "ec40594387cb22a9aa1a510c8e5a90a6d2e9664c7b9b562159f5ea50cb587a0b",
+      "glb_sha256": "f80d99d04742f089528e80a673fc68794587f8090197a6eacf7d96587ea43e67",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_lantern_snail.png",
+        "sha256": "d20e08e7b7fb24d0238f2db0e28d7671c24b2e707e296aef1ea59eff9668d166"
+      }
+    },
+    {
+      "id": "environment/components/forest_leaf_clump",
+      "source_sha256": "82b704e1165522adee33b1919c30cd2d20687c835d59b5657c6058e33dd62bd7",
+      "glb_sha256": "e13fed25e5e74e8522b972d46d12d38abf2fa986f5e7dedbe89315c182494417",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_leaf_clump.png",
+        "sha256": "ea28d72c828d0524ac773e68f546942cfbbd4d7d27b4b9eba739cc893e54db24"
+      }
+    },
+    {
+      "id": "environment/components/forest_moss",
+      "source_sha256": "82b704e1165522adee33b1919c30cd2d20687c835d59b5657c6058e33dd62bd7",
+      "glb_sha256": "65129605918db3b06d3d6ea958418aed12da81656b6203e2650ffa4a924a0c34",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_moss.png",
+        "sha256": "072b14c81cfe7428e03ba99e37b24ec80b9c007d89c3e256f828021a9579f677"
+      }
+    },
+    {
+      "id": "environment/components/forest_mushroom_blue",
+      "source_sha256": "82b704e1165522adee33b1919c30cd2d20687c835d59b5657c6058e33dd62bd7",
+      "glb_sha256": "e6cc0181f5a92de24c7c663e2a8a0a8e9f025212f6b35e43721d501cbd585ac2",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_mushroom_blue.png",
+        "sha256": "89ea35c94a34922576cde25da73f1850fe14702d0bb4531ba8b2242d9872b45e"
+      }
+    },
+    {
+      "id": "environment/components/forest_mushroom_purple",
+      "source_sha256": "82b704e1165522adee33b1919c30cd2d20687c835d59b5657c6058e33dd62bd7",
+      "glb_sha256": "fe37e87b776d4635f7710af37c97a2634c1fb0f7bb9398f88adff4eb80a3704b",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_mushroom_purple.png",
+        "sha256": "165dc758cf243f1b225aea2dcb6a9497d9c771e18fe17805546ed455e70f1672"
+      }
+    },
+    {
+      "id": "environment/components/forest_mushroom_small",
+      "source_sha256": "82b704e1165522adee33b1919c30cd2d20687c835d59b5657c6058e33dd62bd7",
+      "glb_sha256": "43defa810c9771fe5cae5054539811aea96a108cc501eaae906440d2a3be2ca5",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_mushroom_small.png",
+        "sha256": "58fb531bfc7dec03b00ff9f0ad8bf0c3b4502cf9cf8720950909a2acf9c361e0"
+      }
+    },
+    {
+      "id": "environment/components/forest_spiral_fern",
+      "source_sha256": "ec40594387cb22a9aa1a510c8e5a90a6d2e9664c7b9b562159f5ea50cb587a0b",
+      "glb_sha256": "a417862f5cc490f17bffaf2e4b548264432b74a8b5f02ac8c71f6171a7c86f46",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_spiral_fern.png",
+        "sha256": "a70707e769afb682e921a5a419fff8eed890c19b6cc8126deac3cb3ad4861c37"
+      }
+    },
+    {
+      "id": "environment/components/forest_spiral_tree",
+      "source_sha256": "ec40594387cb22a9aa1a510c8e5a90a6d2e9664c7b9b562159f5ea50cb587a0b",
+      "glb_sha256": "023aebf03aeb2f5b93d5f2a5e3fe6ea72122984bd4fff8a3914a36abfb075d44",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/components/forest_spiral_tree.png",
+        "sha256": "89b05900e95e55cd05090cae1d2e36df074ab24bad0004404388e7791d9fdfb9"
+      }
+    },
+    {
+      "id": "environment/hex_bioluminescent_grove",
+      "source_sha256": "8b73fdce0760064c1f6ca1e1fb400aa3ec08d96921277d98c1f161460c311efd",
+      "glb_sha256": "d0a583952ac959d6c91b07f75854cc3b674c4e6685117837d307e4246c5dd6a8",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_bioluminescent_grove.png",
+        "sha256": "8e999a8078b4bb9f6eaeafb37c793acff03294ff56407df67608808814ae25fc"
+      },
+      "preview": {
+        "path": "exports/previews/hex_bioluminescent_grove.png",
+        "sha256": "49990f9e35ad8359cda140d8c2dcc8bf8538a0ac58a170d68a65cb32bc062a1c"
+      }
+    },
+    {
+      "id": "environment/hex_butterfly_glade",
+      "source_sha256": "369384a17957d6f9f3ba61af236cf7b5a99660a0c827a2481de9196200dee72e",
+      "glb_sha256": "224657ff1d2fe985d1e672c20896b9e8196e094f9c81dfe2c82b10cda9bea102",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_butterfly_glade.png",
+        "sha256": "7dc578e20845853f06784c4b94670c5b497990720bb7dacaa53c4ab0d25ad7f3"
+      },
+      "preview": {
+        "path": "exports/previews/hex_butterfly_glade.png",
+        "sha256": "61e2e6d21f6939f3cd5c89bca00b9df929ae8d2b94ae03b50257650a658b3a3c"
+      }
+    },
+    {
+      "id": "environment/hex_crystal_grove",
+      "source_sha256": "73fd0d66b02735acc0aa646a68aefe1826a767b4eb1174cb8c14b2608243ca57",
+      "glb_sha256": "1d589d5c031ab9e42eea4e2455522cd9f768a37c56bdce012a5414d071f3adf1",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_crystal_grove.png",
+        "sha256": "1c1b49f64d4938db92c927707e7e27e28315e7295a27ab1403f6b90b4934d723"
+      },
+      "preview": {
+        "path": "exports/previews/hex_crystal_grove.png",
+        "sha256": "0017db51cb95ec79daf8813778a9ec4f03b0a7ce9f2baa8f8196bcf4ed84ef15"
+      }
+    },
+    {
+      "id": "environment/hex_crystal_shrine",
+      "source_sha256": "32fd54e2b78680d9919825f4c7a8e07af5ca3362326f1022a57f4ec0f965d7fd",
+      "glb_sha256": "f9773e53ea140b0ab5c5980ad5070f433768a57aba9cf6f35995f816ce9675fe",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_crystal_shrine.png",
+        "sha256": "d59bb6b63821192314891276441733ad3e10a7c8bb1daf92e0ab6c16bb77d62f"
+      },
+      "preview": {
+        "path": "exports/previews/hex_crystal_shrine.png",
+        "sha256": "95b9665f895ede74a39da88e53ddd6feff43648131f7d0a09a2aad8e9bd4d7ec"
+      }
+    },
+    {
+      "id": "environment/hex_dream_menagerie",
+      "source_sha256": "66271f17c80bc4ce2bc2d19249617b3cda8ab88b311ba7204708e37a058e095b",
+      "glb_sha256": "0536ecff2bea26861bf829f10cba0dc119e649fa6782441cf3691efcf3f291b4",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_dream_menagerie.png",
+        "sha256": "f45c262387081d80f677297c0dcab7ef9ce169faf31a7fac2d6c19a3dccc3e7a"
+      },
+      "preview": {
+        "path": "exports/previews/hex_dream_menagerie.png",
+        "sha256": "4514b07d0d2f32bc7874e4253d2146face80bed2a2f02a87d3bbf817cb819003"
+      }
+    },
+    {
+      "id": "environment/hex_glowing_mushrooms",
+      "source_sha256": "613f88e2be277dc58d71b809cbdbce98e0880ee220a5e8a058a33f8908a60ff2",
+      "glb_sha256": "480511d75d6933b92c5c74162665995dd84de448ddbb9dc1bb711528cb90d32f",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_glowing_mushrooms.png",
+        "sha256": "6d4307806945763d2e0a6ad6b47e6dca5f3a503871d4197940cb53bb26f1b54f"
+      },
+      "preview": {
+        "path": "exports/previews/hex_glowing_mushrooms.png",
+        "sha256": "7fbca426d3367de14c196fede86af3b501a448c692b0ac6cde051cf334ccfa80"
+      }
+    },
+    {
+      "id": "environment/hex_hollow_watchers",
+      "source_sha256": "03dbe7a8265bc968bb933e3ade01766cfe8eb287723466f9f80561ff613de76f",
+      "glb_sha256": "d0dad95f21e7b7013a404c2b801057d86c147e73839ddcf2396d2241b376603f",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_hollow_watchers.png",
+        "sha256": "fc3f5fbcd48187606ff8a224953fb58136b585357ac22ad8ac683e380a3d5668"
+      },
+      "preview": {
+        "path": "exports/previews/hex_hollow_watchers.png",
+        "sha256": "8482802305838075870776297becdf4cbcb6543f5500e8ef30c5dafdb7085bbc"
+      }
+    },
+    {
+      "id": "environment/hex_lantern_bridge",
+      "source_sha256": "83dd9f816b979c42543b19665645729c4b4738f1cd8b9ff30292f944cdbabbe1",
+      "glb_sha256": "ebd5a1e6a2e49dc0722e17e1a6af4ddbe2fe1503ab0312f6275b63f125675f4f",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_lantern_bridge.png",
+        "sha256": "fef6f0855cb00a0b2169cad642a6b016985b364330fcbebb50947514f9d34c2d"
+      },
+      "preview": {
+        "path": "exports/previews/hex_lantern_bridge.png",
+        "sha256": "fbb9fa47a004daeffc96caa63aeb6ec54693e5e769a5e3f3800ae98bef8f239b"
+      }
+    },
+    {
+      "id": "environment/hex_mystical_grove",
+      "source_sha256": "3854dcd9530446a09e32d5f360f652cff3316024a98613c4244b4eed2fd73f88",
+      "glb_sha256": "4167df50a84e446bfd10f405306d7381ff2d370959c35581ed2f1163baab066d",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_mystical_grove.png",
+        "sha256": "4dcf42b17c60f914bc6481ca1e126110f642f9b0771a81958ef5610bd9d96ecb"
+      },
+      "preview": {
+        "path": "exports/previews/hex_mystical_grove.png",
+        "sha256": "5b770d87005acae18fea410955716c1d7ea6b7986161672519a2d49ca72ff13e"
+      }
+    },
+    {
+      "id": "environment/hex_rune_shrine",
+      "source_sha256": "fe1570244f6e8b3ea778c07eb610521dfe3d7653528918873ee26cd49a900dfc",
+      "glb_sha256": "ae308459faed9d424b442a4d6b1dc33d490b1c4be08d22f302265d5244b8162c",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_rune_shrine.png",
+        "sha256": "f6694e2b05e0294dc386752fb52376569f09c9c39945da538a3575e391f191b8"
+      },
+      "preview": {
+        "path": "exports/previews/hex_rune_shrine.png",
+        "sha256": "51f4d8ebafcce149f763d6e44c7fd1f0eb8d0fd8ba402b12fb5814aa98c8f6d3"
+      }
+    },
+    {
+      "id": "environment/hex_woodland_bridge",
+      "source_sha256": "0b45d82d64103719e23bc18064f235e742d4550434efba1415168ade25d7403b",
+      "glb_sha256": "361f2412a8ec1d022335319406927f5cb98b687209af17558522dc1eca7846cf",
+      "thumbnail": {
+        "path": "exports/thumbnails/environment/hex_woodland_bridge.png",
+        "sha256": "5a56f39ea6e72f2255db8496bb8f387aa195a04b02b894c21c1f1f435a2b1f74"
+      },
+      "preview": {
+        "path": "exports/previews/hex_woodland_bridge.png",
+        "sha256": "95da348a5ae62c0066a2c40142928f3e66c995129483e402adf93dcaf9a973b1"
+      }
+    }
+  ],
+  "outputs": {
+    "docs/dreamlike-forest/evidence/after/forest_mushroom_blue-portable-emission-off.png": "e7533e8d8973ff81f4406593046decdc2021ac7d1282a72aca6304b3e1fed8e3",
+    "docs/dreamlike-forest/evidence/after/forest_mushroom_blue-portable.png": "671cdc48393696391b98b66cf0e5ca83dd6bd9a0e2362c8029acbdde91952e5f",
+    "docs/dreamlike-forest/evidence/after/forest_spiral_tree-portable-emission-off.png": "02294a51336de1029f008146c22f260321fc31c999586e8663a93c5158082b32",
+    "docs/dreamlike-forest/evidence/after/forest_spiral_tree-portable.png": "02aae14c770a4b6ee9b480b200bafcfab3a76bd321a16609d91d8f994dbf849e",
+    "docs/dreamlike-forest/evidence/after/hex_crystal_grove-portable-emission-off.png": "7cda3da98b62b4224a8d5bea82e3367d0b8a9effe9f8d5cac14497fca10bc095",
+    "docs/dreamlike-forest/evidence/after/hex_crystal_grove-portable.png": "80630dc0bdc3e666112aceeb678b1476c075acc864dc27054818849ab28938e4",
+    "docs/dreamlike-forest/evidence/after/hex_crystal_grove-source-glow.png": "0017db51cb95ec79daf8813778a9ec4f03b0a7ce9f2baa8f8196bcf4ed84ef15",
+    "docs/dreamlike-forest/evidence/after/hex_crystal_grove-source-no-bloom.png": "181f3e420ab1d639d063641e7c08d4136aaee1144d80e7c638987e78fd879ea4",
+    "docs/dreamlike-forest/evidence/after/hex_glowing_mushrooms-portable-emission-off.png": "97fd891622ad6f0f5af2b41b4432568eb5c4fbb0d9566bb7209d2963c05b0941",
+    "docs/dreamlike-forest/evidence/after/hex_glowing_mushrooms-portable.png": "056dec522e31459c531d90e64ca83e6a02b303570175f48c64b0ae19793a1901",
+    "docs/dreamlike-forest/evidence/after/hex_glowing_mushrooms-source-glow.png": "7fbca426d3367de14c196fede86af3b501a448c692b0ac6cde051cf334ccfa80",
+    "docs/dreamlike-forest/evidence/after/hex_glowing_mushrooms-source-no-bloom.png": "b34cf7242735e16fdab75c3c6e6e134a8483939d8dce679f22e16289e63cd262",
+    "docs/dreamlike-forest/evidence/after/hex_lantern_bridge-portable-emission-off.png": "f120822ffd997f329826060b6d9f053d12d8c3d73d60c8820082378bbe332aa4",
+    "docs/dreamlike-forest/evidence/after/hex_lantern_bridge-portable.png": "919a292789daa324efbd06f3fd235b8de46093a5f1e7d13a2e17cca96b76c776",
+    "docs/dreamlike-forest/evidence/after/hex_lantern_bridge-source-glow.png": "fbb9fa47a004daeffc96caa63aeb6ec54693e5e769a5e3f3800ae98bef8f239b",
+    "docs/dreamlike-forest/evidence/after/hex_lantern_bridge-source-no-bloom.png": "04a666539a9d5eba1a3d104f9ec730af58545439308dcb1a327c8568b3fd45f7",
+    "docs/dreamlike-forest/evidence/after/profiles.json": "20b9d1098a11da4bb04fc3539e35cedbe950b278883420f8f5c31eae82d2ffce",
+    "docs/dreamlike-forest/evidence/before/forest_mushroom_blue-portable.png": "68c53b31da1904b48e71803930b11def7730454233b6eb3a92dcc451494888ce",
+    "docs/dreamlike-forest/evidence/before/forest_spiral_tree-portable.png": "66d7a5d8f6aa3b4ccacb9ea6f330c883419697acc2504b224b533444e8b00c51",
+    "docs/dreamlike-forest/evidence/before/hex_crystal_grove-portable.png": "971473a4f68e9bc16c5fd12f8aabe4c036d22391ada6f9427d4bf76a361f9b47",
+    "docs/dreamlike-forest/evidence/before/hex_crystal_grove-source-glow.png": "c902cb2054b046bc1da0b65dc2f9dddd1dd15032b7e21ab034a4b841b8ec9985",
+    "docs/dreamlike-forest/evidence/before/hex_crystal_grove-source-no-bloom.png": "aae79e37ad0ae55cf33b00291e1fff55724284bc922c999d8a77a9451fc7fb50",
+    "docs/dreamlike-forest/evidence/before/hex_glowing_mushrooms-portable.png": "3f119732536dd3bce83e16cefa58ea7dab05c4d14024f9f0df6f75b5cc0656e4",
+    "docs/dreamlike-forest/evidence/before/hex_glowing_mushrooms-source-glow.png": "cdb0e59c8d51e1a4fb0c3b464be9cae99b860b1ac7987e762b26539dbb89d6c6",
+    "docs/dreamlike-forest/evidence/before/hex_glowing_mushrooms-source-no-bloom.png": "c49ab4167974d4a11712ed825f3a10348b05f563841f98d9e4f831bf97d885f5",
+    "docs/dreamlike-forest/evidence/before/hex_lantern_bridge-portable.png": "208ab0db3d29598aefd6acf722c71c96551307d5c70253c7774be6d565a973d5",
+    "docs/dreamlike-forest/evidence/before/hex_lantern_bridge-source-glow.png": "12912e72658e5c3626cde3ef8eab757619a4485f7cbb7e5eb874cc56b0dbf908",
+    "docs/dreamlike-forest/evidence/before/hex_lantern_bridge-source-no-bloom.png": "5b987f1b69f6d6eb68c62f8a15a8d8acbc2fc19ed938672b07ba69882d7c1788",
+    "docs/dreamlike-forest/evidence/before/profiles.json": "1945ad044b3c0ea26770941a4bbd90deb27f98a9e555e622b6e76a014a2ad0f1",
+    "docs/dreamlike-forest/evidence/components-current.png": "40d96de5a738c08ec2cbab7cdbe09c9e4de1ebb74d7b16702b98e48f0fac1937",
+    "docs/dreamlike-forest/evidence/decals-dark.png": "8b1d99e4e8e3e9462e28ec8364c9520184a0b99e18ea4883cd1efe5258d5d4dd",
+    "docs/dreamlike-forest/evidence/decals-light.png": "1037c0aedea8ed14fc8b209310759f9a410a0f8689351e12c2a33bb9a3fff942",
+    "docs/dreamlike-forest/evidence/forest_mushroom_blue-underside-after-emission-off.png": "535dd47be43daace7c5393ab1b2d2762aa73482bb44b0ac0c2bceac98157d59d",
+    "docs/dreamlike-forest/evidence/forest_mushroom_blue-underside-after.png": "9fa79c427a18692f5532ef5826c5447f1ea1923d9ae1b309005c3406020d5451",
+    "docs/dreamlike-forest/evidence/forest_mushroom_blue-underside-before.png": "4c45ca75780e22820c8e0011e8369f9ceccda2325974a7870e2b3718a5b28513",
+    "docs/dreamlike-forest/evidence/hex_crystal_grove-portable-192.png": "e55335787fc657232af70e4a0164b4a830f1d79a16d662597f842280c89b03d7",
+    "docs/dreamlike-forest/evidence/hex_crystal_grove-portable-480.png": "dbdc8e755a51a33eab45ee8a89807c95e1cb21a902b105d077a9578c5663509b",
+    "docs/dreamlike-forest/evidence/hex_crystal_grove-portable-96.png": "75a3f23ae99be09fe0d1d79adab1b327fffc477b4e746eefcbe9bac4f93e95de",
+    "docs/dreamlike-forest/evidence/hex_crystal_grove-portable-body-vs-emission.png": "03177675d3ed6c79b7766c38b28eda86e9dadda91ae9f06efc4b45f1e3f178b8",
+    "docs/dreamlike-forest/evidence/hex_crystal_grove-source-glow-192.png": "c5d23b7ca691994cf9200ff9724ea1d8c57ab00222ef6df619f6be961f2bac3c",
+    "docs/dreamlike-forest/evidence/hex_crystal_grove-source-glow-480.png": "805f539ee2a1497af93e4b9ced1f205685e7ff09ef45827febafbc9756bc0a68",
+    "docs/dreamlike-forest/evidence/hex_crystal_grove-source-glow-96.png": "fc8f662cdbb158439f94d9fc465c20bf1955c1fed7d0382242f1b0febcc5eb65",
+    "docs/dreamlike-forest/evidence/hex_crystal_grove-source-no-bloom-192.png": "a900b177d4fa89f460a3d77f9b1872ed72c47caa50a11d236503f68c10c3131a",
+    "docs/dreamlike-forest/evidence/hex_crystal_grove-source-no-bloom-480.png": "62ad75b011da9d5218fc6b3ed37ab876ba91d481542d54cbb60e75563e190de5",
+    "docs/dreamlike-forest/evidence/hex_crystal_grove-source-no-bloom-96.png": "6baf06bfafaee6b73974b10eeffd0a82913e20b0c69b52e7b6b57a75463c7c6a",
+    "docs/dreamlike-forest/evidence/hex_glowing_mushrooms-portable-192.png": "ec63b918c36ee88ea070777f0689f0d56a708fe01ac286185dfe72b20871c21a",
+    "docs/dreamlike-forest/evidence/hex_glowing_mushrooms-portable-480.png": "7c59fc3d137deac0647288d78b18c1e4216919ba83615eb49a79a15b2201fb4c",
+    "docs/dreamlike-forest/evidence/hex_glowing_mushrooms-portable-96.png": "7d27a280ed57c93b0a0bb23e74ee97a51d935aa49f966b6f640c879fb66bf62a",
+    "docs/dreamlike-forest/evidence/hex_glowing_mushrooms-portable-body-vs-emission.png": "3bdca033f8274eac065548314fb5ca5684a1ca4501b7dee77129b29de666bf1e",
+    "docs/dreamlike-forest/evidence/hex_glowing_mushrooms-source-glow-192.png": "fcc4a992b4038bb2b29ea963b4c4069e274142d70938c61e7a9397863c2138c4",
+    "docs/dreamlike-forest/evidence/hex_glowing_mushrooms-source-glow-480.png": "0a46b79eb637a967f0ce921f1a036671f9374b28e5b8588729f61503cc6361b1",
+    "docs/dreamlike-forest/evidence/hex_glowing_mushrooms-source-glow-96.png": "8df6c7c2d36b9dc925633cddbbc6df919d4547694fa1052c8093d16a01532f49",
+    "docs/dreamlike-forest/evidence/hex_glowing_mushrooms-source-no-bloom-192.png": "1edd7fb1f27097e71d060190e91a0909e1011678495a03561fa1b844f7ae9a42",
+    "docs/dreamlike-forest/evidence/hex_glowing_mushrooms-source-no-bloom-480.png": "1dbba2fda18a1db9badb3bd25434e2c79ae42616f233df4cbb7805242440789d",
+    "docs/dreamlike-forest/evidence/hex_glowing_mushrooms-source-no-bloom-96.png": "e66ae0fe895a4de1b7042535da10409d31a3b82ee3bc0cfffc5643a0292fe3b1",
+    "docs/dreamlike-forest/evidence/hex_lantern_bridge-portable-192.png": "3489df324d2233a34f93e3566a3959acbed72fe0b439743b6ba234eb0e42e8c0",
+    "docs/dreamlike-forest/evidence/hex_lantern_bridge-portable-480.png": "87bce1aceb32bc2309a0f0fc4094f0ddb24ddb3211538351c58c7a1d909246d3",
+    "docs/dreamlike-forest/evidence/hex_lantern_bridge-portable-96.png": "2977fd111af986342151c19869bfb0faa50c16bbcc9c51a8703f26af080b32ea",
+    "docs/dreamlike-forest/evidence/hex_lantern_bridge-portable-body-vs-emission.png": "0fccba232421077a43b2065b90205e83fb970e2a244e4bf9138fc0420c6f6731",
+    "docs/dreamlike-forest/evidence/hex_lantern_bridge-source-glow-192.png": "f137d2d77f08f17f838e020685dcd20f88c7c652ccc3ffe5451cef93abae56e7",
+    "docs/dreamlike-forest/evidence/hex_lantern_bridge-source-glow-480.png": "9b12031bf1a98121457c37c3c743cbf882d7cd04a85f21c841e8a4d15d949af0",
+    "docs/dreamlike-forest/evidence/hex_lantern_bridge-source-glow-96.png": "35e4cd98e2005b523717f1d0ab899b132953cfd70459d06af6f3a90cbdf8bb0f",
+    "docs/dreamlike-forest/evidence/hex_lantern_bridge-source-no-bloom-192.png": "3ce1206b04bc4c20c3c90b819e517c7b9cb6a9667f1fdf05d4f93833f5498adf",
+    "docs/dreamlike-forest/evidence/hex_lantern_bridge-source-no-bloom-480.png": "389efc53e6f45abdbbe3176465125dfc3976efbd02c97559e70c694681c3e541",
+    "docs/dreamlike-forest/evidence/hex_lantern_bridge-source-no-bloom-96.png": "2814acb082889a2bc907cb05a67e1b89a2666a8ce6697dcb8d801b8bbb5cddd4"
+  },
+  "logs": {
+    "fast.log": "f5a57d30b7b060244e778840f02fd74d455dd245baa0853188b19c4bb3686f45",
+    "style-fixtures.log": "ae5b4b0cc9f042ab106dc85042282faeefe059cdc6464dd7fed7610b08971d88",
+    "selected-export.log": "14b99e02400435ed3507d569bf34053622c35e01aef47b88d5a8f761271f2efa",
+    "selected-roundtrip.log": "c4a4e1c467ed0eb3e3706110a94fec382d246987b1e64246e5fb1a4e834fa788",
+    "incremental-check.log": "39722acaf2781ac15664bd06348f74eed5e4cb313aaac33089832f0591b94262",
+    "source-style.log": "f946617811d6245d011b559e77e6d3e6219de9a63e411fc07f7effe76d4b0dbe",
+    "forest-grid.log": "c77dd063b0752149ae0c2268af51bb30dcea7756839a4be79b4c7bb30e6da431",
+    "packed-maps.log": "1784643e42db4a8a5185a11d81ef4635ecd18bd176caef34c9874ad769342a35",
+    "pixel-factor-fidelity.log": "c8fba5f742bd177b37e032eb138c677ed5829acaa0590a40e31db9de7079bdf1",
+    "failed-texture-absence-diagnostic.log": "a9042308d3471948a5383135195ff474133552e981482a6660b833b98c94f84a",
+    "failed-scope-import.log": "cdbdfc57aad9f7e837e730e7cb6bd0aa40ea844be2c68345f3cb83f5728f05c2",
+    "native-before.log": "5a78118f1b3a5e6168d9bf6e3800ee95ff2d2266f486ac2080e718bf9030620c",
+    "native-final.log": "84eecc572c5fac9f4b43a7331064babf055a6f593dd938afd183ebf2b2475f58",
+    "dependent-previews.log": "d2694d209e92ae21eca76a0bb54bb608edd8d4b408a4b5de2d2a721b82540954",
+    "portable-before.log": "00063a4de9b8a3fc1ccac40c3baae65a6e0192c2e9b07c54517ae21c11359221",
+    "portable-after.log": "d7c718b9bb7dc248721c2376a20ce83e66645d007ca91d39d43b7c4c7419f8a1",
+    "underside.log": "cf449e62002b9e8fa7590feb4855b4046e7a36a16958f4dfc60e98829a9c653a",
+    "thumbnails.log": "e7719947b749cfb7bba0dfff5d64301d537b187b719f4192598934555ac424d9",
+    "failed-duplicate-profile-binding.log": "69762f35e4061eee0fac3687f3c69fe308bf88b3ae8db6e21f1acf3dfb60f07b"
+  },
+  "source_profile_protocol": "saved whole scene; 1200px CPU Cycles/64 samples/original camera-lights-frame-AgX; compositor explicitly off/on; portable fresh factory GLB import through existing catalog renderer",
+  "failed_diagnostics_retained": [
+    "failed-scope-import.log",
+    "failed-texture-absence-diagnostic.log",
+    "failed-duplicate-profile-binding.log"
+  ],
+  "host_limits": "No EIO recurrence in this bounded campaign; no llvmpipe/GPU/Forward+/game validation"
+}

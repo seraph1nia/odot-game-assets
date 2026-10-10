@@ -1,0 +1,299 @@
+[
+  {
+    "asset": "environment/hex_glowing_mushrooms",
+    "source": "e7a8788959e75f419816410df01cdc4a80b0bd1b945b14ac4b5a57d04af1c59b",
+    "glb": "4370d473b6e98712b21eddc1cde95c06eb36bb5cd94271326642f43ffc5282f3",
+    "version": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        7.0,
+        -11.0,
+        8.0
+      ],
+      "rotation": [
+        1.0810669660568237,
+        -7.508620569751656e-08,
+        0.5667291879653931
+      ],
+      "scale": 6.650000095367432
+    },
+    "lights": [
+      [
+        "Warm key",
+        [
+          -3.0,
+          -4.0,
+          8.0
+        ],
+        "AREA",
+        1012.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6899999976158142
+        ],
+        5.199999809265137
+      ],
+      [
+        "Soft sky",
+        [
+          5.0,
+          -1.0,
+          5.0
+        ],
+        "AREA",
+        533.0,
+        [
+          0.7200000286102295,
+          0.8299999833106995,
+          1.0
+        ],
+        5.0
+      ],
+      [
+        "Leaf rim",
+        [
+          1.0,
+          5.0,
+          7.0
+        ],
+        "AREA",
+        1000.0,
+        [
+          1.0,
+          0.9399999976158142,
+          0.7300000190734863
+        ],
+        4.0
+      ]
+    ],
+    "world": [
+      [
+        "Color",
+        [
+          0.20000000298023224,
+          0.2199999988079071,
+          0.25,
+          1.0
+        ]
+      ],
+      [
+        "Strength",
+        0.3199999928474426
+      ],
+      [
+        "Weight",
+        0.0
+      ]
+    ],
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "samples": 64,
+    "frame": 1,
+    "outputs": {
+      "hex_glowing_mushrooms-source-no-bloom.png": "c49ab4167974d4a11712ed825f3a10348b05f563841f98d9e4f831bf97d885f5",
+      "hex_glowing_mushrooms-source-glow.png": "cdb0e59c8d51e1a4fb0c3b464be9cae99b860b1ac7987e762b26539dbb89d6c6"
+    },
+    "portable_note": "Initial inherited-source profile superseded; fresh factory-scene portable views are bound separately in portable-profiles.json."
+  },
+  {
+    "asset": "environment/hex_crystal_grove",
+    "source": "6b053ede80e39a01fb3603d489f579369a1c8d2c30afc55bc981dbf56605010a",
+    "glb": "728cd5c29cdc2c765d39ef592922d673221b9e871d737f82e08f13ce804caa86",
+    "version": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        7.0,
+        -11.0,
+        8.0
+      ],
+      "rotation": [
+        1.0810669660568237,
+        -7.508620569751656e-08,
+        0.5667291879653931
+      ],
+      "scale": 6.650000095367432
+    },
+    "lights": [
+      [
+        "Warm key",
+        [
+          -3.0,
+          -4.0,
+          8.0
+        ],
+        "AREA",
+        1012.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6899999976158142
+        ],
+        5.199999809265137
+      ],
+      [
+        "Soft sky",
+        [
+          5.0,
+          -1.0,
+          5.0
+        ],
+        "AREA",
+        533.0,
+        [
+          0.7200000286102295,
+          0.8299999833106995,
+          1.0
+        ],
+        5.0
+      ],
+      [
+        "Leaf rim",
+        [
+          1.0,
+          5.0,
+          7.0
+        ],
+        "AREA",
+        1000.0,
+        [
+          1.0,
+          0.9399999976158142,
+          0.7300000190734863
+        ],
+        4.0
+      ]
+    ],
+    "world": [
+      [
+        "Color",
+        [
+          0.20000000298023224,
+          0.2199999988079071,
+          0.25,
+          1.0
+        ]
+      ],
+      [
+        "Strength",
+        0.3199999928474426
+      ],
+      [
+        "Weight",
+        0.0
+      ]
+    ],
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "samples": 64,
+    "frame": 1,
+    "outputs": {
+      "hex_crystal_grove-source-no-bloom.png": "aae79e37ad0ae55cf33b00291e1fff55724284bc922c999d8a77a9451fc7fb50",
+      "hex_crystal_grove-source-glow.png": "c902cb2054b046bc1da0b65dc2f9dddd1dd15032b7e21ab034a4b841b8ec9985"
+    },
+    "portable_note": "Initial inherited-source profile superseded; fresh factory-scene portable views are bound separately in portable-profiles.json."
+  },
+  {
+    "asset": "environment/hex_lantern_bridge",
+    "source": "e8c69f3f9c1674936997369e68484767c200758d245e46b69b4977d5e5311bee",
+    "glb": "2c4528dd617964d2bd85641280fbaa00727b10b681c07302a18bf28d15e021e8",
+    "version": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        7.0,
+        -11.0,
+        8.0
+      ],
+      "rotation": [
+        1.0810669660568237,
+        -7.508620569751656e-08,
+        0.5667291879653931
+      ],
+      "scale": 6.650000095367432
+    },
+    "lights": [
+      [
+        "Warm key",
+        [
+          -3.0,
+          -4.0,
+          8.0
+        ],
+        "AREA",
+        1012.0,
+        [
+          1.0,
+          0.8600000143051147,
+          0.6899999976158142
+        ],
+        5.199999809265137
+      ],
+      [
+        "Soft sky",
+        [
+          5.0,
+          -1.0,
+          5.0
+        ],
+        "AREA",
+        533.0,
+        [
+          0.7200000286102295,
+          0.8299999833106995,
+          1.0
+        ],
+        5.0
+      ],
+      [
+        "Leaf rim",
+        [
+          1.0,
+          5.0,
+          7.0
+        ],
+        "AREA",
+        1000.0,
+        [
+          1.0,
+          0.9399999976158142,
+          0.7300000190734863
+        ],
+        4.0
+      ]
+    ],
+    "world": [
+      [
+        "Color",
+        [
+          0.20000000298023224,
+          0.2199999988079071,
+          0.25,
+          1.0
+        ]
+      ],
+      [
+        "Strength",
+        0.3199999928474426
+      ],
+      [
+        "Weight",
+        0.0
+      ]
+    ],
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "samples": 64,
+    "frame": 1,
+    "outputs": {
+      "hex_lantern_bridge-source-no-bloom.png": "5b987f1b69f6d6eb68c62f8a15a8d8acbc2fc19ed938672b07ba69882d7c1788",
+      "hex_lantern_bridge-source-glow.png": "12912e72658e5c3626cde3ef8eab757619a4485f7cbb7e5eb874cc56b0dbf908"
+    },
+    "portable_note": "Initial inherited-source profile superseded; fresh factory-scene portable views are bound separately in portable-profiles.json."
+  }
+]

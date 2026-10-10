@@ -197,6 +197,40 @@ class GroundStyle:
                 (.5, self.river_edge_height))
 
 
+@dataclass(frozen=True)
+class ForestFinish:
+    """Opt-in dreamlike woodland pass; never restyles village/base palettes."""
+    version: str = 'dreamlike_forest_v1'
+    shadow: tuple = (.15, .34, .34)
+    leaf_tip: tuple = (.49, .65, .36)
+    cap_blue_tip: tuple = (.49, .48, .72)
+    cap_purple_tip: tuple = (.67, .47, .70)
+    gill_tip: tuple = (.32, .72, .73)
+    ground_from: tuple = (.48, .63, .18)
+    ground_to: tuple = (.36, .53, .30)
+    root_blend: float = .38
+    gill_root_blend: float = .14
+    tip_blend: float = .32
+    roughness_variation: float = .045
+    gill_emission: float = .72
+    decal_size: int = 512
+    decal_opacity: float = .42
+
+
+FOREST = ForestFinish()
+# Named material roles keep their existing family/identity. This is an explicit
+# authoring profile, not a change to PAINTED_MATERIALS or PAINTED_VERSION.
+FOREST_MATERIALS = MappingProxyType({
+    'forest_leaf': MaterialStyle((.28, .49, .35)),
+    'forest_leaf_light': MaterialStyle((.42, .59, .32)),
+    'forest_leaf_teal': MaterialStyle((.24, .51, .46)),
+    'forest_leaf_lilac': MaterialStyle((.54, .41, .64)),
+    'moss': MaterialStyle((.34, .48, .26), .90),
+    'mushroom_blue': MaterialStyle((.25, .39, .64), .80),
+    'mushroom_purple': MaterialStyle((.48, .32, .62), .80),
+    'gill_glow': MaterialStyle((.76, .72, .78), .78, emission=FOREST.gill_emission),
+})
+
 GROUND = GroundStyle()
 TEXTURES = TextureStyle()
 GEOMETRY = GeometryStyle()

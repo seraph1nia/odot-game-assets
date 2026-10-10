@@ -1,0 +1,118 @@
+{
+  "reason": "Iteration1 no-bloom source view exposed nearly black occluded stems. Raise diffuse lavender body/root value, retaining zero lower-stem emission and localized upper mask. No emission floor or lighting change.",
+  "sources": {
+    "sources/environment/shared_enchanted_kit.blend": {
+      "before": "24dc86c71ab887a9877ae9aeabab1014019452fe8afe0ac3fd26e52e2541e4c4",
+      "after": "ec40594387cb22a9aa1a510c8e5a90a6d2e9664c7b9b562159f5ea50cb587a0b",
+      "gill_materials": [
+        "gill_glow"
+      ]
+    },
+    "sources/environment/shared_forest_kit.blend": {
+      "before": "290f96a4a053e44700d2ca211b0c97519c2942eb0f1babe7ba01351bd976db4b",
+      "after": "82b704e1165522adee33b1919c30cd2d20687c835d59b5657c6058e33dd62bd7",
+      "gill_materials": [
+        "gill_glow"
+      ]
+    },
+    "sources/environment/hex_bioluminescent_grove.blend": {
+      "before": "315a329cfd6f999745460563c70db1ee40d4416f0ba6c174411bc5f4fc0eb545",
+      "after": "8b73fdce0760064c1f6ca1e1fb400aa3ec08d96921277d98c1f161460c311efd",
+      "gill_materials": [
+        "gill_glow.012",
+        "gill_glow.013",
+        "gill_glow.014"
+      ]
+    },
+    "sources/environment/hex_butterfly_glade.blend": {
+      "before": "12ded7499094739a15bcf571998b167fd0030bf840292b34897b66c1ad8e9528",
+      "after": "369384a17957d6f9f3ba61af236cf7b5a99660a0c827a2481de9196200dee72e",
+      "gill_materials": [
+        "gill_glow.001",
+        "gill_glow.002",
+        "gill_glow.003"
+      ]
+    },
+    "sources/environment/hex_crystal_grove.blend": {
+      "before": "76f551a0f9e6e75e45bd9b14fba5d622cc59136a83e8ed439782a96b7f329fd8",
+      "after": "73fd0d66b02735acc0aa646a68aefe1826a767b4eb1174cb8c14b2608243ca57",
+      "gill_materials": [
+        "gill_glow.001",
+        "gill_glow.002",
+        "gill_glow.003"
+      ]
+    },
+    "sources/environment/hex_crystal_shrine.blend": {
+      "before": "0772b0f523ea5db84bae3df77b704aa981be7ae1066dea139831695182804031",
+      "after": "32fd54e2b78680d9919825f4c7a8e07af5ca3362326f1022a57f4ec0f965d7fd",
+      "gill_materials": [
+        "gill_glow.015",
+        "gill_glow.016",
+        "gill_glow.017"
+      ]
+    },
+    "sources/environment/hex_dream_menagerie.blend": {
+      "before": "4df0dd20b69754dbaf11c096cc339e1aa20067d487874985d8c5996f16487f28",
+      "after": "66271f17c80bc4ce2bc2d19249617b3cda8ab88b311ba7204708e37a058e095b",
+      "gill_materials": [
+        "gill_glow.005",
+        "gill_glow.006",
+        "gill_glow.007"
+      ]
+    },
+    "sources/environment/hex_glowing_mushrooms.blend": {
+      "before": "83bdbf9f327ab9fa4ae64c42b1cd487d2176b7a3869b57dc87b773448948c84c",
+      "after": "613f88e2be277dc58d71b809cbdbce98e0880ee220a5e8a058a33f8908a60ff2",
+      "gill_materials": [
+        "gill_glow.009",
+        "gill_glow.010",
+        "gill_glow.011"
+      ]
+    },
+    "sources/environment/hex_hollow_watchers.blend": {
+      "before": "d2738d03d8756c4fda065843b9a444a8301c05bc6244c966e992e06e43ee8495",
+      "after": "03dbe7a8265bc968bb933e3ade01766cfe8eb287723466f9f80561ff613de76f",
+      "gill_materials": [
+        "gill_glow.001",
+        "gill_glow.002",
+        "gill_glow.003",
+        "gill_glow.004"
+      ]
+    },
+    "sources/environment/hex_lantern_bridge.blend": {
+      "before": "1fcd25010e727eeb7aa2d094808d1cd5d8306b0383dffec1e01d7daaa0cad513",
+      "after": "83dd9f816b979c42543b19665645729c4b4738f1cd8b9ff30292f944cdbabbe1",
+      "gill_materials": [
+        "gill_glow.018",
+        "gill_glow.019",
+        "gill_glow.020"
+      ]
+    },
+    "sources/environment/hex_mystical_grove.blend": {
+      "before": "f2c694be8b94a0f61d6e85682f2c1cd56e0b7f1cb50f38e8997e936528b73612",
+      "after": "3854dcd9530446a09e32d5f360f652cff3316024a98613c4244b4eed2fd73f88",
+      "gill_materials": [
+        "gill_glow.004",
+        "gill_glow.005",
+        "gill_glow.006"
+      ]
+    },
+    "sources/environment/hex_rune_shrine.blend": {
+      "before": "56f95a274f45329f48d3b529f1173115c226d7086f8a9844dffb7ff8b7ccc431",
+      "after": "fe1570244f6e8b3ea778c07eb610521dfe3d7653528918873ee26cd49a900dfc",
+      "gill_materials": [
+        "gill_glow.007",
+        "gill_glow.008"
+      ]
+    },
+    "sources/environment/hex_woodland_bridge.blend": {
+      "before": "b99156f4b3c2d331510e4422403409a8f4234b20825f7a2d47d24ad1b8b7cb9a",
+      "after": "0b45d82d64103719e23bc18064f235e742d4550434efba1415168ade25d7403b",
+      "gill_materials": [
+        "gill_glow.021",
+        "gill_glow.022",
+        "gill_glow.023"
+      ]
+    }
+  }
+}

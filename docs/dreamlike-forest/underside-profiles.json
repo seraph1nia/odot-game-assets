@@ -1,0 +1,74 @@
+[
+  {
+    "phase": "before",
+    "emission": true,
+    "bloom": false,
+    "glb_sha256": "ba30dde4fb33305feb871bd7bc9944cca97f03cfad65f8877bcbbd8474336928",
+    "output": "docs/dreamlike-forest/evidence/forest_mushroom_blue-underside-before.png",
+    "sha256": "4c45ca75780e22820c8e0011e8369f9ceccda2325974a7870e2b3718a5b28513",
+    "camera": {
+      "location": [
+        3.4458510875701904,
+        -5.048776626586914,
+        0.4388383626937866
+      ],
+      "rotation": [
+        1.6538101434707642,
+        2.9662274414476997e-08,
+        0.5880025625228882
+      ],
+      "scale": 3.577194929122925
+    },
+    "profile": "existing portable catalog CPU/SUNs; only camera elevation changed for underside diagnosis",
+    "runtime": "5.2.2 LTS",
+    "build": "d13f752e3b9c"
+  },
+  {
+    "phase": "after",
+    "emission": true,
+    "bloom": false,
+    "glb_sha256": "e6cc0181f5a92de24c7c663e2a8a0a8e9f025212f6b35e43721d501cbd585ac2",
+    "output": "docs/dreamlike-forest/evidence/forest_mushroom_blue-underside-after.png",
+    "sha256": "9fa79c427a18692f5532ef5826c5447f1ea1923d9ae1b309005c3406020d5451",
+    "camera": {
+      "location": [
+        3.4458510875701904,
+        -5.048776626586914,
+        0.4388383626937866
+      ],
+      "rotation": [
+        1.6538101434707642,
+        2.9662274414476997e-08,
+        0.5880025625228882
+      ],
+      "scale": 3.577194929122925
+    },
+    "profile": "existing portable catalog CPU/SUNs; only camera elevation changed for underside diagnosis",
+    "runtime": "5.2.2 LTS",
+    "build": "d13f752e3b9c"
+  },
+  {
+    "phase": "after",
+    "emission": false,
+    "bloom": false,
+    "glb_sha256": "e6cc0181f5a92de24c7c663e2a8a0a8e9f025212f6b35e43721d501cbd585ac2",
+    "output": "docs/dreamlike-forest/evidence/forest_mushroom_blue-underside-after-emission-off.png",
+    "sha256": "535dd47be43daace7c5393ab1b2d2762aa73482bb44b0ac0c2bceac98157d59d",
+    "camera": {
+      "location": [
+        3.4458510875701904,
+        -5.048776626586914,
+        0.4388383626937866
+      ],
+      "rotation": [
+        1.6538101434707642,
+        2.9662274414476997e-08,
+        0.5880025625228882
+      ],
+      "scale": 3.577194929122925
+    },
+    "profile": "existing portable catalog CPU/SUNs; only camera elevation changed for underside diagnosis",
+    "runtime": "5.2.2 LTS",
+    "build": "d13f752e3b9c"
+  }
+]

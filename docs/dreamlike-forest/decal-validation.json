@@ -1,0 +1,74 @@
+[
+  {
+    "file": "exports/environment/decals/forest_decal_fairy_ring.png",
+    "sha256": "ea338339c57034a4f7bdb523fabf6d4529a11debd999aa54544ceb3ef2b18a74",
+    "dimensions": [
+      512,
+      512
+    ],
+    "alpha_min": 0,
+    "alpha_max": 77,
+    "alpha_levels": 78,
+    "transparent_fraction": 0.8348159790039062,
+    "straight_rgb": [
+      171,
+      120,
+      178
+    ],
+    "transparent_border": true
+  },
+  {
+    "file": "exports/environment/decals/forest_decal_moss_wash.png",
+    "sha256": "a7c6416be09c0ea7d9a7847f622c916cec6d5a2638303f6fdd41fec3d0bccad4",
+    "dimensions": [
+      512,
+      512
+    ],
+    "alpha_min": 0,
+    "alpha_max": 94,
+    "alpha_levels": 95,
+    "transparent_fraction": 0.7208404541015625,
+    "straight_rgb": [
+      125,
+      166,
+      92
+    ],
+    "transparent_border": true
+  },
+  {
+    "file": "exports/environment/decals/forest_decal_rune_circle.png",
+    "sha256": "8d16aee6a1397271e5b37e25d12ac430f372a327e0b956f32b8b8720a0a86176",
+    "dimensions": [
+      512,
+      512
+    ],
+    "alpha_min": 0,
+    "alpha_max": 107,
+    "alpha_levels": 108,
+    "transparent_fraction": 0.8873519897460938,
+    "straight_rgb": [
+      61,
+      219,
+      255
+    ],
+    "transparent_border": true
+  },
+  {
+    "file": "exports/environment/decals/forest_decal_spore_growth.png",
+    "sha256": "b75d2718063b6109b698a9aa96d2570771aca6d1a58c2df5384055e18aad062f",
+    "dimensions": [
+      512,
+      512
+    ],
+    "alpha_min": 0,
+    "alpha_max": 107,
+    "alpha_levels": 108,
+    "transparent_fraction": 0.9240684509277344,
+    "straight_rgb": [
+      82,
+      184,
+      186
+    ],
+    "transparent_border": true
+  }
+]

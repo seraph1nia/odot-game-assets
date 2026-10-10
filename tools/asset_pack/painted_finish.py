@@ -202,6 +202,64 @@ def texture_material(mat, directory):
     mat['texture_family'] = kind
 
 
+def forest_material(mat, directory):
+    """Explicit opt-in refresh of owned woodland color/roughness/emission maps.
+
+    Preserve slots, UVs, normal maps and mesh data. Named-image caching is bypassed
+    with a scoped profile prefix; the default apply/build path is unchanged.
+    Call only after preserving and inspecting generated/manual channel ownership.
+    """
+    base = style.material_name(mat.name)
+    if base not in style.FOREST_MATERIALS or mat.get('forest_finish') == style.FOREST.version:
+        return False
+    shader = next(n for n in mat.node_tree.nodes if n.type == 'BSDF_PRINCIPLED')
+    spec = style.FOREST_MATERIALS[base]
+    kind = family(base)
+    size = style.TEXTURES.size_for(kind)
+    value, tint, _ = fields(kind, size)
+    v, u = np.mgrid[0:size, 0:size].astype(np.float32) / (size - 1)
+    color = np.array(style.srgb_to_linear(spec.color), dtype=np.float32)
+    shadow = np.array(style.srgb_to_linear(style.FOREST.shadow), dtype=np.float32)
+    root_blend = style.FOREST.gill_root_blend if kind == 'gill' else style.FOREST.root_blend
+    roots = root_blend * (1 - v) ** 2
+    linear = color * (1 - roots[:, :, None]) + shadow * roots[:, :, None]
+    tip = (style.FOREST.cap_blue_tip if base == 'mushroom_blue' else
+           style.FOREST.cap_purple_tip if base == 'mushroom_purple' else
+           style.FOREST.gill_tip if kind == 'gill' else
+           spec.color if base == 'forest_leaf_lilac' else style.FOREST.leaf_tip)
+    tips = style.FOREST.tip_blend * v ** 2
+    linear = linear * (1 - tips[:, :, None]) + np.array(style.srgb_to_linear(tip)) * tips[:, :, None]
+    linear = np.clip(linear * value[:, :, None] * tint, 0, 1)
+    rough = np.clip(spec.roughness + style.FOREST.roughness_variation * (value - value.mean()),
+                    style.TEXTURES.roughness_min, style.TEXTURES.roughness_max)
+    prefix = style.FOREST.version + '_' + base
+
+    def bind(channel, values, suffix, data=False):
+        image = image_map(prefix + '_' + suffix, values, directory, data=data)
+        socket = shader.inputs[channel]
+        if socket.is_linked and socket.links[0].from_node.type == 'TEX_IMAGE':
+            socket.links[0].from_node.image = image
+        else:
+            node = mat.node_tree.nodes.new('ShaderNodeTexImage')
+            node.image = image
+            mat.node_tree.links.new(node.outputs['Color'], socket)
+
+    bind('Base Color', linear, 'color')
+    bind('Roughness', rough, 'roughness', data=True)
+    shader.inputs['Base Color'].default_value = (*color, 1)
+    shader.inputs['Roughness'].default_value = spec.roughness
+    shader.inputs['Emission Strength'].default_value = spec.emission
+    mat.diffuse_color = (*color, 1)
+    if spec.emission:
+        # Gills retain a shaded lavender-gray root/body. Cyan is localized to
+        # the upper stem and cap underside, not a uniformly luminous stalk.
+        mask = np.clip((v - .62) / .38, 0, 1)
+        mask = mask * mask * (3 - 2 * mask)
+        bind('Emission Color', linear * mask[:, :, None], 'emission')
+    mat['forest_finish'] = style.FOREST.version
+    return True
+
+
 def project_uv(obj):
     mesh = obj.data
     if mesh.uv_layers:

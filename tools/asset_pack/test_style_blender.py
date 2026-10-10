@@ -175,6 +175,71 @@ class BlenderStyleTests(unittest.TestCase):
         self.assertTrue(any('six animation clips' in error for error in errors))
         self.assertTrue(any('FPS' in error for error in errors))
 
+    def test_opt_in_forest_finish_preserves_uv_normal_slots_and_unselected_materials(self):
+        forest_kit.leaves()
+        paint.apply(self.col)
+        obj = next(iter(self.col.objects))
+        mat = obj.material_slots[0].material
+        shader = next(n for n in mat.node_tree.nodes if n.type == 'BSDF_PRINCIPLED')
+        normal = shader.inputs['Normal'].links[0].from_node.inputs['Color'].links[0].from_node.image
+        uv = [tuple(item.uv) for item in obj.data.uv_layers.active.data]
+        wood = g.M['wood']
+        self.assertFalse(paint.forest_material(wood, self.directory))
+        self.assertNotIn('forest_finish', wood)
+        self.assertTrue(paint.forest_material(mat, self.directory))
+        self.assertFalse(paint.forest_material(mat, self.directory))
+        self.assertIs(obj.material_slots[0].material, mat)
+        self.assertEqual(uv, [tuple(item.uv) for item in obj.data.uv_layers.active.data])
+        self.assertIs(normal, shader.inputs['Normal'].links[0].from_node.inputs['Color'].links[0].from_node.image)
+        self.assert_clean()
+
+    def test_palette_reuse_retains_explicit_forest_scalar_and_image_ownership(self):
+        for name in ['gill_glow', 'mushroom_blue']:
+            mat = g.M[name]
+            paint.texture_material(mat, self.directory)
+            paint.forest_material(mat, self.directory)
+            variant = mat.copy();variant.name = name + '.001'
+            shader = next(n for n in mat.node_tree.nodes if n.type == 'BSDF_PRINCIPLED')
+            image = shader.inputs['Base Color'].links[0].from_node.image
+            strength = shader.inputs['Emission Strength'].default_value
+            finish.palette()
+            self.assertIs(g.M[name], mat)
+            for actual in [mat, variant]:
+                node = next(n for n in actual.node_tree.nodes if n.type == 'BSDF_PRINCIPLED')
+                self.assertEqual(node.inputs['Emission Strength'].default_value, strength)
+                self.assertIs(node.inputs['Base Color'].links[0].from_node.image, image)
+
+    def test_localized_gill_mask_survives_real_export_and_import(self):
+        obj = g.cube('Gill fixture', (0, 0, .5), (1, 1, 1), 'gill_glow')
+        paint.apply(self.col)
+        mat = obj.material_slots[0].material
+        paint.forest_material(mat, self.directory)
+        shader = next(n for n in mat.node_tree.nodes if n.type == 'BSDF_PRINCIPLED')
+        image = shader.inputs['Emission Color'].links[0].from_node.image
+        def mask_rows(image):
+            pixels = np.array(image.pixels[:]).reshape(image.size[1], image.size[0], 4)
+            return pixels[:, :, :3].max(axis=(1, 2))
+        rows = mask_rows(image)
+        self.assertEqual(float(rows[:int(len(rows) * .6)].max()), 0)
+        self.assertGreater(float(rows[-1]), .25)
+        self.assertAlmostEqual(shader.inputs['Emission Strength'].default_value, style.FOREST.gill_emission, places=6)
+        bpy.ops.object.select_all(action='DESELECT');obj.select_set(True)
+        bpy.context.view_layer.objects.active = obj
+        path = self.directory / 'forest-mask.glb'
+        bpy.ops.export_scene.gltf(filepath=str(path), use_selection=True, export_apply=True, export_animations=False)
+        data = path.read_bytes();length = struct.unpack_from('<I', data, 12)[0]
+        document = json.loads(data[20:20 + length])
+        material = document['materials'][0]
+        self.assertIn('emissiveTexture', material)
+        image_index = document['textures'][material['emissiveTexture']['index']]['source']
+        self.assertIn('bufferView', document['images'][image_index])
+        bpy.ops.wm.read_factory_settings(use_empty=True)
+        bpy.ops.import_scene.gltf(filepath=str(path))
+        imported = next(m for m in bpy.data.materials if m.use_nodes)
+        shader = next(n for n in imported.node_tree.nodes if n.type == 'BSDF_PRINCIPLED')
+        imported_image = shader.inputs['Emission Color'].links[0].from_node.image
+        np.testing.assert_allclose(mask_rows(imported_image), rows, atol=2 / 255)
+
     def test_painted_maps_and_uvs_survive_actual_glb_export(self):
         obj=self.painted_cube()
         bpy.ops.object.select_all(action='DESELECT');obj.select_set(True)

@@ -1,0 +1,48 @@
+00:00.515  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/shared_forest_kit.blend"
+Verified art style: environment/components/forest_fern
+00:00.668  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/shared_enchanted_kit.blend"
+Verified art style: environment/components/forest_hollow_tree
+00:00.791  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/shared_enchanted_kit.blend"
+Verified art style: environment/components/forest_lantern_flower
+00:00.865  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/shared_enchanted_kit.blend"
+Verified art style: environment/components/forest_lantern_snail
+00:00.944  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/shared_forest_kit.blend"
+Verified art style: environment/components/forest_leaf_clump
+00:01.010  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/shared_forest_kit.blend"
+Verified art style: environment/components/forest_moss
+00:01.083  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/shared_forest_kit.blend"
+Verified art style: environment/components/forest_mushroom_blue
+00:01.220  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/shared_forest_kit.blend"
+Verified art style: environment/components/forest_mushroom_purple
+00:01.335  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/shared_forest_kit.blend"
+Verified art style: environment/components/forest_mushroom_small
+00:01.444  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/shared_enchanted_kit.blend"
+Verified art style: environment/components/forest_spiral_fern
+00:01.515  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/shared_enchanted_kit.blend"
+Verified art style: environment/components/forest_spiral_tree
+00:01.603  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/hex_bioluminescent_grove.blend"
+Verified art style: environment/hex_bioluminescent_grove
+00:02.232  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/hex_butterfly_glade.blend"
+Verified art style: environment/hex_butterfly_glade
+00:02.753  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/hex_crystal_grove.blend"
+Verified art style: environment/hex_crystal_grove
+00:03.422  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/hex_crystal_shrine.blend"
+Verified art style: environment/hex_crystal_shrine
+00:04.098  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/hex_dream_menagerie.blend"
+Verified art style: environment/hex_dream_menagerie
+00:04.727  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/hex_glowing_mushrooms.blend"
+Verified art style: environment/hex_glowing_mushrooms
+00:05.360  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/hex_hollow_watchers.blend"
+Verified art style: environment/hex_hollow_watchers
+00:05.969  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/hex_lantern_bridge.blend"
+Verified art style: environment/hex_lantern_bridge
+00:06.773  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/hex_mystical_grove.blend"
+Verified art style: environment/hex_mystical_grove
+00:07.408  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/hex_rune_shrine.blend"
+Verified art style: environment/hex_rune_shrine
+00:08.064  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/hex_woodland_bridge.blend"
+Verified art style: environment/hex_woodland_bridge
+Art style checks passed: 22 authored assets
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

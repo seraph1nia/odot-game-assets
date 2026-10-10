@@ -1,0 +1,134 @@
+[
+  {
+    "phase": "before",
+    "id": "environment/hex_glowing_mushrooms",
+    "source_sha256": "e7a8788959e75f419816410df01cdc4a80b0bd1b945b14ac4b5a57d04af1c59b",
+    "method": "project all selected authored mesh vertices, exclude studio; no silhouette segmentation or game occupancy inference",
+    "normalized_bounds": [
+      [
+        0.15935607254505157,
+        0.13268549740314484
+      ],
+      [
+        0.8406437039375305,
+        0.8223357796669006
+      ]
+    ],
+    "occupied_height_by_image_box": {
+      "1200": 827.58,
+      "480": 331.03,
+      "192": 132.41,
+      "96": 66.21
+    }
+  },
+  {
+    "phase": "before",
+    "id": "environment/hex_crystal_grove",
+    "source_sha256": "6b053ede80e39a01fb3603d489f579369a1c8d2c30afc55bc981dbf56605010a",
+    "method": "project all selected authored mesh vertices, exclude studio; no silhouette segmentation or game occupancy inference",
+    "normalized_bounds": [
+      [
+        0.15935607254505157,
+        0.13268549740314484
+      ],
+      [
+        0.8406437039375305,
+        0.7953147888183594
+      ]
+    ],
+    "occupied_height_by_image_box": {
+      "1200": 795.16,
+      "480": 318.06,
+      "192": 127.22,
+      "96": 63.61
+    }
+  },
+  {
+    "phase": "before",
+    "id": "environment/hex_lantern_bridge",
+    "source_sha256": "e8c69f3f9c1674936997369e68484767c200758d245e46b69b4977d5e5311bee",
+    "method": "project all selected authored mesh vertices, exclude studio; no silhouette segmentation or game occupancy inference",
+    "normalized_bounds": [
+      [
+        0.15995699167251587,
+        0.13268549740314484
+      ],
+      [
+        0.840042769908905,
+        0.6573066115379333
+      ]
+    ],
+    "occupied_height_by_image_box": {
+      "1200": 629.55,
+      "480": 251.82,
+      "192": 100.73,
+      "96": 50.36
+    }
+  },
+  {
+    "phase": "after",
+    "id": "environment/hex_glowing_mushrooms",
+    "source_sha256": "613f88e2be277dc58d71b809cbdbce98e0880ee220a5e8a058a33f8908a60ff2",
+    "method": "project all selected authored mesh vertices, exclude studio; no silhouette segmentation or game occupancy inference",
+    "normalized_bounds": [
+      [
+        0.15935607254505157,
+        0.13268549740314484
+      ],
+      [
+        0.8406437039375305,
+        0.8223357796669006
+      ]
+    ],
+    "occupied_height_by_image_box": {
+      "1200": 827.58,
+      "480": 331.03,
+      "192": 132.41,
+      "96": 66.21
+    }
+  },
+  {
+    "phase": "after",
+    "id": "environment/hex_crystal_grove",
+    "source_sha256": "73fd0d66b02735acc0aa646a68aefe1826a767b4eb1174cb8c14b2608243ca57",
+    "method": "project all selected authored mesh vertices, exclude studio; no silhouette segmentation or game occupancy inference",
+    "normalized_bounds": [
+      [
+        0.15935607254505157,
+        0.13268549740314484
+      ],
+      [
+        0.8406437039375305,
+        0.7953147888183594
+      ]
+    ],
+    "occupied_height_by_image_box": {
+      "1200": 795.16,
+      "480": 318.06,
+      "192": 127.22,
+      "96": 63.61
+    }
+  },
+  {
+    "phase": "after",
+    "id": "environment/hex_lantern_bridge",
+    "source_sha256": "83dd9f816b979c42543b19665645729c4b4738f1cd8b9ff30292f944cdbabbe1",
+    "method": "project all selected authored mesh vertices, exclude studio; no silhouette segmentation or game occupancy inference",
+    "normalized_bounds": [
+      [
+        0.15995699167251587,
+        0.13268549740314484
+      ],
+      [
+        0.840042769908905,
+        0.6573066115379333
+      ]
+    ],
+    "occupied_height_by_image_box": {
+      "1200": 629.55,
+      "480": 251.82,
+      "192": 100.73,
+      "96": 50.36
+    }
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "phase": "before",
+    "asset": "environment/hex_glowing_mushrooms",
+    "glb": "4370d473b6e98712b21eddc1cde95c06eb36bb5cd94271326642f43ffc5282f3",
+    "output": "docs/dreamlike-forest/evidence/before/hex_glowing_mushrooms-portable.png",
+    "output_sha256": "3f119732536dd3bce83e16cefa58ea7dab05c4d14024f9f0df6f75b5cc0656e4",
+    "runtime": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        7.48997163772583,
+        -11.23495864868164,
+        8.07091999053955
+      ],
+      "rotation": [
+        1.107764720916748,
+        4.5736044285149546e-08,
+        0.5880025625228882
+      ],
+      "scale": 8.866476058959961
+    },
+    "samples": 24,
+    "resolution": [
+      480,
+      480
+    ],
+    "transform": "AgX",
+    "look": "None",
+    "bloom": false,
+    "device": "CPU"
+  },
+  {
+    "phase": "before",
+    "asset": "environment/hex_crystal_grove",
+    "glb": "728cd5c29cdc2c765d39ef592922d673221b9e871d737f82e08f13ce804caa86",
+    "output": "docs/dreamlike-forest/evidence/before/hex_crystal_grove-portable.png",
+    "output_sha256": "971473a4f68e9bc16c5fd12f8aabe4c036d22391ada6f9427d4bf76a361f9b47",
+    "runtime": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        7.548149585723877,
+        -11.322224617004395,
+        8.187734603881836
+      ],
+      "rotation": [
+        1.1077649593353271,
+        -4.940428510735728e-08,
+        0.5880027413368225
+      ],
+      "scale": 8.935345649719238
+    },
+    "samples": 24,
+    "resolution": [
+      480,
+      480
+    ],
+    "transform": "AgX",
+    "look": "None",
+    "bloom": false,
+    "device": "CPU"
+  },
+  {
+    "phase": "before",
+    "asset": "environment/hex_lantern_bridge",
+    "glb": "2c4528dd617964d2bd85641280fbaa00727b10b681c07302a18bf28d15e021e8",
+    "output": "docs/dreamlike-forest/evidence/before/hex_lantern_bridge-portable.png",
+    "output_sha256": "208ab0db3d29598aefd6acf722c71c96551307d5c70253c7774be6d565a973d5",
+    "runtime": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        6.946974277496338,
+        -10.420461654663086,
+        6.823251724243164
+      ],
+      "rotation": [
+        1.1077648401260376,
+        6.424759391165935e-08,
+        0.588002622127533
+      ],
+      "scale": 8.223687171936035
+    },
+    "samples": 24,
+    "resolution": [
+      480,
+      480
+    ],
+    "transform": "AgX",
+    "look": "None",
+    "bloom": false,
+    "device": "CPU"
+  },
+  {
+    "phase": "before",
+    "asset": "environment/components/forest_mushroom_blue",
+    "glb": "ba30dde4fb33305feb871bd7bc9944cca97f03cfad65f8877bcbbd8474336928",
+    "output": "docs/dreamlike-forest/evidence/before/forest_mushroom_blue-portable.png",
+    "output_sha256": "68c53b31da1904b48e71803930b11def7730454233b6eb3a92dcc451494888ce",
+    "runtime": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        3.101841926574707,
+        -4.5327630043029785,
+        3.6633737087249756
+      ],
+      "rotation": [
+        1.1077649593353271,
+        -1.9397884187810632e-08,
+        0.5880026817321777
+      ],
+      "scale": 3.577194929122925
+    },
+    "samples": 24,
+    "resolution": [
+      480,
+      480
+    ],
+    "transform": "AgX",
+    "look": "None",
+    "bloom": false,
+    "device": "CPU"
+  },
+  {
+    "phase": "before",
+    "asset": "environment/components/forest_spiral_tree",
+    "glb": "c49a9dfd4cd1ebd52a05c04eddeeb72c88fb83eee599410764fe1c2981b82260",
+    "output": "docs/dreamlike-forest/evidence/before/forest_spiral_tree-portable.png",
+    "output_sha256": "66d7a5d8f6aa3b4ccacb9ea6f330c883419697acc2504b224b533444e8b00c51",
+    "runtime": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        4.229698657989502,
+        -6.282774925231934,
+        5.684069633483887
+      ],
+      "rotation": [
+        1.1077649593353271,
+        1.0608516731736017e-08,
+        0.588002622127533
+      ],
+      "scale": 5.007030963897705
+    },
+    "samples": 24,
+    "resolution": [
+      480,
+      480
+    ],
+    "transform": "AgX",
+    "look": "None",
+    "bloom": false,
+    "device": "CPU"
+  },
+  {
+    "phase": "after",
+    "asset": "environment/hex_glowing_mushrooms",
+    "glb": "480511d75d6933b92c5c74162665995dd84de448ddbb9dc1bb711528cb90d32f",
+    "output": "docs/dreamlike-forest/evidence/after/hex_glowing_mushrooms-portable.png",
+    "output_sha256": "056dec522e31459c531d90e64ca83e6a02b303570175f48c64b0ae19793a1901",
+    "runtime": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        7.48997163772583,
+        -11.23495864868164,
+        8.07091999053955
+      ],
+      "rotation": [
+        1.107764720916748,
+        4.5736044285149546e-08,
+        0.5880025625228882
+      ],
+      "scale": 8.866476058959961
+    },
+    "samples": 24,
+    "resolution": [
+      480,
+      480
+    ],
+    "transform": "AgX",
+    "look": "None",
+    "bloom": false,
+    "device": "CPU",
+    "body_output": "docs/dreamlike-forest/evidence/after/hex_glowing_mushrooms-portable-emission-off.png",
+    "body_sha256": "97fd891622ad6f0f5af2b41b4432568eb5c4fbb0d9566bb7209d2963c05b0941"
+  },
+  {
+    "phase": "after",
+    "asset": "environment/hex_crystal_grove",
+    "glb": "1d589d5c031ab9e42eea4e2455522cd9f768a37c56bdce012a5414d071f3adf1",
+    "output": "docs/dreamlike-forest/evidence/after/hex_crystal_grove-portable.png",
+    "output_sha256": "80630dc0bdc3e666112aceeb678b1476c075acc864dc27054818849ab28938e4",
+    "runtime": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        7.548149585723877,
+        -11.322224617004395,
+        8.187734603881836
+      ],
+      "rotation": [
+        1.1077649593353271,
+        -4.940428510735728e-08,
+        0.5880027413368225
+      ],
+      "scale": 8.935345649719238
+    },
+    "samples": 24,
+    "resolution": [
+      480,
+      480
+    ],
+    "transform": "AgX",
+    "look": "None",
+    "bloom": false,
+    "device": "CPU",
+    "body_output": "docs/dreamlike-forest/evidence/after/hex_crystal_grove-portable-emission-off.png",
+    "body_sha256": "7cda3da98b62b4224a8d5bea82e3367d0b8a9effe9f8d5cac14497fca10bc095"
+  },
+  {
+    "phase": "after",
+    "asset": "environment/hex_lantern_bridge",
+    "glb": "ebd5a1e6a2e49dc0722e17e1a6af4ddbe2fe1503ab0312f6275b63f125675f4f",
+    "output": "docs/dreamlike-forest/evidence/after/hex_lantern_bridge-portable.png",
+    "output_sha256": "919a292789daa324efbd06f3fd235b8de46093a5f1e7d13a2e17cca96b76c776",
+    "runtime": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        6.946974277496338,
+        -10.420461654663086,
+        6.823251724243164
+      ],
+      "rotation": [
+        1.1077648401260376,
+        6.424759391165935e-08,
+        0.588002622127533
+      ],
+      "scale": 8.223687171936035
+    },
+    "samples": 24,
+    "resolution": [
+      480,
+      480
+    ],
+    "transform": "AgX",
+    "look": "None",
+    "bloom": false,
+    "device": "CPU",
+    "body_output": "docs/dreamlike-forest/evidence/after/hex_lantern_bridge-portable-emission-off.png",
+    "body_sha256": "f120822ffd997f329826060b6d9f053d12d8c3d73d60c8820082378bbe332aa4"
+  },
+  {
+    "phase": "after",
+    "asset": "environment/components/forest_mushroom_blue",
+    "glb": "e6cc0181f5a92de24c7c663e2a8a0a8e9f025212f6b35e43721d501cbd585ac2",
+    "output": "docs/dreamlike-forest/evidence/after/forest_mushroom_blue-portable.png",
+    "output_sha256": "671cdc48393696391b98b66cf0e5ca83dd6bd9a0e2362c8029acbdde91952e5f",
+    "runtime": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        3.101841926574707,
+        -4.5327630043029785,
+        3.6633737087249756
+      ],
+      "rotation": [
+        1.1077649593353271,
+        -1.9397884187810632e-08,
+        0.5880026817321777
+      ],
+      "scale": 3.577194929122925
+    },
+    "samples": 24,
+    "resolution": [
+      480,
+      480
+    ],
+    "transform": "AgX",
+    "look": "None",
+    "bloom": false,
+    "device": "CPU",
+    "body_output": "docs/dreamlike-forest/evidence/after/forest_mushroom_blue-portable-emission-off.png",
+    "body_sha256": "e7533e8d8973ff81f4406593046decdc2021ac7d1282a72aca6304b3e1fed8e3"
+  },
+  {
+    "phase": "after",
+    "asset": "environment/components/forest_spiral_tree",
+    "glb": "023aebf03aeb2f5b93d5f2a5e3fe6ea72122984bd4fff8a3914a36abfb075d44",
+    "output": "docs/dreamlike-forest/evidence/after/forest_spiral_tree-portable.png",
+    "output_sha256": "02aae14c770a4b6ee9b480b200bafcfab3a76bd321a16609d91d8f994dbf849e",
+    "runtime": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "camera": {
+      "location": [
+        4.229698657989502,
+        -6.282774925231934,
+        5.684069633483887
+      ],
+      "rotation": [
+        1.1077649593353271,
+        1.0608516731736017e-08,
+        0.588002622127533
+      ],
+      "scale": 5.007030963897705
+    },
+    "samples": 24,
+    "resolution": [
+      480,
+      480
+    ],
+    "transform": "AgX",
+    "look": "None",
+    "bloom": false,
+    "device": "CPU",
+    "body_output": "docs/dreamlike-forest/evidence/after/forest_spiral_tree-portable-emission-off.png",
+    "body_sha256": "02294a51336de1029f008146c22f260321fc31c999586e8663a93c5158082b32"
+  }
+]
