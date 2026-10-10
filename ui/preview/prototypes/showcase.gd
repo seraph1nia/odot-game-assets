@@ -2,7 +2,9 @@ extends Control
 # Standalone composition host: all actions are mock intents, never gameplay.
 var screen_mode = "hud"
 var state = "building"
-var selection = "Producer"
+var selection = "Empty plot"
+var selected_heading: Label
+var selected_summary: Label
 var dialog: WatchModal
 var active_confirmation: WatchModal
 var dialog_content: Control
@@ -12,6 +14,7 @@ var world_clicks = 0
 var navigation: Control
 var ledger: Control
 var upkeep: Control
+var information_scroll: ScrollContainer
 var match_controls: Control
 var feedback: Control
 var status_line: Label
@@ -39,7 +42,7 @@ func settle() -> void:
 
 func build() -> void:
 	var bg = ColorRect.new()
-	bg.color = Color("718982")
+	bg.color = Color("344943")
 	bg.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	bg.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(bg)
@@ -51,6 +54,11 @@ func build() -> void:
 	add_child(margin)
 	var body = WatchUI.stack(margin, 12)
 	var toolbar = WatchUI.row(body)
+	var settings_button = WatchUI.button(toolbar, "Settings")
+	settings_button.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+	settings_button.name = "Settings"
+	settings_button.pressed.connect(func(): open_dialog("settings", settings_button))
+	WatchUI.ornament(toolbar, 76)
 	WatchUI.label(toolbar, "THE COMMON WATCH · UI PREVIEW", "ContextLabel")
 	var scenes = OptionButton.new()
 	scenes.name = "ScreenSelector"
@@ -64,10 +72,6 @@ func build() -> void:
 	for name in state_names: states.add_item(name.capitalize())
 	toolbar.add_child(states)
 	states.item_selected.connect(func(index): state = state_names[index]; refresh_hud())
-	var settings_button = WatchUI.button(toolbar, "Settings")
-	settings_button.size_flags_horizontal = Control.SIZE_SHRINK_END
-	settings_button.name = "Settings"
-	settings_button.pressed.connect(func(): open_dialog("settings", settings_button))
 	var area = Control.new()
 	area.name = "Content"
 	area.mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -124,28 +128,50 @@ func build_content() -> void:
 			elif id == "exit": confirm("Exit Game", "Exit request only: this preview does not end a game session.", "exit")
 			else: last_action = id)
 		return
+	# Native section allocation reserves the footer; variable information scrolls
+	# inside the remaining upper region instead of growing across its hit targets.
+	var sections = WatchUI.stack(area, 16)
+	sections.name = "HudSections"
+	sections.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	sections.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	var upper = WatchUI.row(sections)
+	upper.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	upper.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	var field = Control.new()
+	field.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	field.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	upper.add_child(field)
+	information_scroll = ScrollContainer.new()
+	information_scroll.name = "InformationScroll"
+	information_scroll.custom_minimum_size.x = 296
+	information_scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	information_scroll.vertical_scroll_mode = ScrollContainer.SCROLL_MODE_SHOW_ALWAYS
+	information_scroll.follow_focus = true
+	upper.add_child(information_scroll)
 	var right = VBoxContainer.new()
 	right.name = "Information"
-	right.set_anchors_and_offsets_preset(Control.PRESET_TOP_RIGHT)
-	right.offset_left = -260
-	right.offset_top = 0
-	area.add_child(right)
+	right.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	information_scroll.add_child(right)
 	ledger = WatchUI.component("resource_ledger", right)
 	upkeep = WatchUI.component("upkeep_summary", right)
 	var footer = PanelContainer.new()
 	footer.name = "HudFooter"
-	footer.grow_vertical = Control.GROW_DIRECTION_BEGIN
-	footer.theme_type_variation = "InformationPanel"
-	footer.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_WIDE)
-	footer.offset_top = -224
-	area.add_child(footer)
+	# Separate branch-framed panes, not one opaque bar over the world.
+	footer.add_theme_stylebox_override("panel", StyleBoxEmpty.new())
+	footer.custom_minimum_size.y = 264
+	sections.add_child(footer)
 	var columns = WatchUI.row(footer, 16)
-	var city = WatchUI.stack(columns)
-	city.custom_minimum_size.x = 220
+	var city_panel = PanelContainer.new()
+	city_panel.theme_type_variation = "InformationPanel"
+	columns.add_child(city_panel)
+	var city = WatchUI.stack(city_panel, 6)
+	city.custom_minimum_size.x = 200
 	city.size_flags_horizontal = Control.SIZE_FILL
+	WatchUI.corner_ornament(city_panel, city)
 	navigation = WatchUI.component("city_navigation", city)
 	navigation.city_requested.connect(func(id): state = "foreign" if id == 2 else "building"; refresh_hud())
-	WatchUI.label(city, "City 100/100 · Army 6")
+	selected_heading = WatchUI.label(city, "Metal mine · Level 1", "HeadingLabel")
+	selected_summary = WatchUI.label(city, "+4 metal/turn · 1 worker\n2 wood (build cost) · Active")
 	var links = WatchUI.row(city)
 	for item in [["Details", "details"], ["Research", "research"]]:
 		var id = item[1]
@@ -153,12 +179,18 @@ func build_content() -> void:
 		b.pressed.connect(func(): open_dialog(id, b))
 	var invite = WatchUI.button(city, "Invite friends")
 	invite.pressed.connect(func(): open_dialog("friends", invite))
-	status_line = WatchUI.label(city, "Connected · mock", "ContextLabel")
+	status_line = WatchUI.label(area, "Connected · mock", "ContextLabel")
+	status_line.position = Vector2(8, 36)
+	status_line.size = Vector2(590, 36)
 	status_line.max_lines_visible = 2
-	context = WatchUI.stack(columns)
+	var context_panel = PanelContainer.new()
+	context_panel.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	context_panel.theme_type_variation = "InformationPanel"
+	columns.add_child(context_panel)
+	context = WatchUI.stack(context_panel, 6)
 	context.name = "Context"
 	context.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	context.custom_minimum_size.x = 380
+	context.custom_minimum_size.x = 360
 	var picker = OptionButton.new()
 	picker.name = "Selection"
 	for text in ["Producer", "Empty plot", "Locked plot", "Recruiter", "Market", "Town hall", "Army homes", "Unit"]: picker.add_item(text)
@@ -167,7 +199,10 @@ func build_content() -> void:
 	var context_body = VBoxContainer.new()
 	context_body.name = "Actions"
 	context.add_child(context_body)
-	match_controls = WatchUI.component("match_controls", columns)
+	var match_panel = PanelContainer.new()
+	match_panel.theme_type_variation = "InformationPanel"
+	columns.add_child(match_panel)
+	match_controls = WatchUI.component("match_controls", match_panel)
 	match_controls.requested.connect(record_action)
 	feedback = WatchUI.component("session_feedback", match_controls)
 	feedback.requested.connect(record_action)
@@ -200,9 +235,13 @@ func refresh_context() -> void:
 		"Empty plot":
 			title = "Purchased plot · Construction"
 			var tabs = TabBar.new()
-			for name in ["Production", "Army", "Defense", "Trade"]: tabs.add_tab(name)
+			for name in ["Production", "Army", "Defense", "Trade", "Skill Tree"]: tabs.add_tab(name)
+			tabs.tab_alignment = TabBar.ALIGNMENT_LEFT
 			host.add_child(tabs)
-			tabs.tab_changed.connect(func(index): fill_build_quotes(host.get_node("QuoteScroll/Choices"), index, editable, reason))
+			tabs.tab_selected.connect(func(index):
+				if index == 4:
+					open_dialog("research", tabs)
+				else: fill_build_quotes(host.get_node("QuoteScroll/Choices"), index, editable, reason))
 		"Locked plot":
 			title = "Locked plot · Land expansion"
 			quotes = [{"id":"buy-plot", "title":"Buy plot", "quote":"5 gold · purchase is permanent", "enabled":editable, "variant":"PrimaryButton"}]
@@ -228,18 +267,19 @@ func refresh_context() -> void:
 			title = "Knight II · Inspection"
 			var b = WatchUI.button(host, "Inspect unit")
 			b.pressed.connect(func(): open_dialog("unit", b))
-	var heading = WatchUI.label(host, title, "HeadingLabel")
+	var heading = WatchUI.label(host, title, "ContextLabel")
 	heading.name = "Heading"
 	host.move_child(heading, 0)
 	var scroll = ScrollContainer.new()
 	scroll.name = "QuoteScroll"
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
 	scroll.follow_focus = true
-	scroll.custom_minimum_size.y = 132
+	# Retain a real scroll viewport when upper projections need extra lines.
+	scroll.custom_minimum_size.y = 156 if get_viewport_rect().size.y >= 820 else 112 if not str(ledger.data.get("context", "")).is_empty() else 144
 	host.add_child(scroll)
 	var grid = GridContainer.new()
 	grid.name = "Choices"
-	grid.columns = 2
+	grid.columns = 3 if selection == "Empty plot" and get_viewport_rect().size.x >= 1280 else 2
 	grid.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	scroll.add_child(grid)
 	if selection == "Empty plot": fill_build_quotes(grid, 0, editable, reason)
@@ -264,7 +304,8 @@ func fill_build_quotes(grid: Node, group: int, editable: bool, reason: String) -
 		[["Barracks", "Barracks", "2 wood"], ["Archery range", "ArcheryRange", "2 wood"], ["Magic academy", "Arcanum", "5 gold · 2 wood · 3 stone"], ["Research tower", "ResearchTower", "2 wood · 2 stone"], ["Town hall", "TownHall", "5 gold · 2 wood · 2 stone"]],
 		[["Arrow tower", "ArrowTower", "4 gold · 3 wood"], ["Bombard tower", "CatapultTower", "6 gold · 4 wood · 3 stone · 2 metal"]],
 		[["Market", "Market", "2 wood · 2 stone"]]]
-	for entry in groups[group]: add_action(grid, {"id":"build-"+entry[1], "title":entry[0], "quote":entry[2], "enabled":editable, "reason":reason})
+	var icons = {"Lumbermill":"wood", "Farm":"food", "Mine":"gold", "Stonecutter":"stone", "MetalMine":"metal", "Weaver":"cloth"}
+	for entry in groups[group]: add_action(grid, {"id":"build-"+entry[1], "title":entry[0], "quote":entry[2], "icon":icons.get(entry[1], ""), "enabled":editable, "reason":reason})
 	if group == 0:
 		add_action(grid, {"id":"gold-recovery", "title":"Woodcutter · recovery", "quote":"4 gold · explicit alternative", "enabled":false, "reason":"Only eligible at exactly zero wood."})
 

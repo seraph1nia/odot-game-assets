@@ -12,12 +12,19 @@ theme_type_variation = "HeadingLabel"
 [node name="Counters" type="Label" parent="."]
 layout_mode = 2
 autowrap_mode = 3
+[node name="Progress" type="ProgressBar" parent="."]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 16)
+mouse_filter = 2
+show_percentage = false
+visible = false
 [node name="Ready" type="Button" parent="."]
 layout_mode = 2
 custom_minimum_size = Vector2(0, 36)
-theme_type_variation = "PrimaryButton"
+theme_type_variation = "ReadyButton"
 [node name="Pause" type="Button" parent="."]
 layout_mode = 2
+theme_type_variation = "MagicButton"
 custom_minimum_size = Vector2(0, 36)
 [node name="Start" type="Button" parent="."]
 layout_mode = 2

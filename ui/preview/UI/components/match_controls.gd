@@ -9,6 +9,11 @@ func set_data(value: Dictionary) -> void:
 	data = value.duplicate(true)
 	$Phase.text = str(data.get("phase", "Lobby"))
 	$Counters.text = str(data.get("counters", ""))
+	# Optional supplied progress projection; no inferred turn/wave advancement.
+	$Progress.visible = data.has("progress_value")
+	$Progress.max_value = maxf(1.0, float(data.get("progress_max", 100)))
+	$Progress.value = float(data.get("progress_value", 0))
+	$Progress.tooltip_text = str(data.get("progress_text", ""))
 	$Ready.text = str(data.get("ready_label", "Ready"))
 	$Ready.disabled = not bool(data.get("can_ready", false))
 	$Ready.visible = bool(data.get("show_ready", true)) and not bool(data.get("terminal", false))

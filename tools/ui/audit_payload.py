@@ -24,8 +24,12 @@ func check() -> void:
 	assert(not skills.purchase("a"))
 	assert(skills.purchase("root") and skills.points == 1)
 	assert(skills.purchase("a") and not skills.purchase("a") and skills.points == 0)
+	assert(body.theme != null and body.theme.default_font != null)
+	assert(body.theme.get_stylebox("panel", "PanelContainer") is StyleBoxTexture)
+	for name in ["branch_frame", "parchment_button", "woodland_corners", "resource_icons"]:
+		assert(load("res://UI/art/woodland/" + name + ".svg") != null)
 	assert(load("res://UI/art/menu_seal.png") != null)
-	print("UI_PAYLOAD 10 scenes, skill purchase guards, Theme and seal load without prototypes, game or tooling")
+	print("UI_PAYLOAD 10 scenes, skill purchase guards, woodland Theme/art/font and original seal load without prototypes, game or tooling")
 	quit()
 '''
 
@@ -67,7 +71,10 @@ def main():
     result = {'scope': 'Only UI/ copied; no prototypes/game/tooling runtime dependencies',
               'files': manifest, 'log': (cache / 'load.log').relative_to(ROOT).as_posix(),
               'seal_file_bytes': (source / 'art/menu_seal.png').stat().st_size,
-              'seal_rgba_bytes': 192 * 192 * 4, 'nine_slice': 'not applicable: native StyleBoxFlat, fixed seal'}
+              'seal_rgba_bytes': 192 * 192 * 4,
+              'nine_slice': 'branch_frame: 40px protected corners / 16px content; parchment: 24px horizontal, 16px vertical corners / 6px card content; fixed seal and transparent ornaments are never sliced',
+              'art_provenance': 'docs/ui/woodland-art.json',
+              'total_file_bytes': sum(path.stat().st_size for path in source.rglob('*') if path.is_file())}
     (ROOT / 'docs/ui/payload.json').write_text(json.dumps(result, indent=2) + '\n')
     print(f"UI payload passed: 10 scenes, Theme, fixed seal; {len(manifest)} files; log={result['log']}")
 

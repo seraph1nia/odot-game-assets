@@ -20,13 +20,17 @@ func _ready() -> void:
 		await test_input()
 		await test_dialogs()
 		await test_modal_scope()
-	if only != "skill-tree": await test_production()
-	var skill_probe = load("res://tests/skill_tree_checks.gd").new()
-	skill_probe.runner = self
-	add_child(skill_probe)
-	await skill_probe.run()
-	skill_probe.queue_free()
-	if only == "all": await test_layouts()
+	if only not in ["skill-tree", "woodland"]: await test_production()
+	if only != "woodland":
+		var skill_probe = load("res://tests/skill_tree_checks.gd").new()
+		skill_probe.runner = self
+		add_child(skill_probe)
+		await skill_probe.run()
+		skill_probe.queue_free()
+	if only == "woodland": await test_woodland()
+	if only == "all":
+		await test_layouts()
+		await test_woodland()
 	var result = {"checks":checks, "failures":failures, "captures":captures,
 		"scope":"Standalone native controls; no game integration or native GPU claim", "selection":only}
 	var file = FileAccess.open(output.path_join("results.json"), FileAccess.WRITE)
@@ -247,6 +251,122 @@ func capture(name: String) -> void:
 	expect(image.save_png(path) == OK, "capture " + name)
 	captures.append({"path":name+".png", "width":image.get_width(), "height":image.get_height()})
 
+# Added visual/input acceptance for the shared woodland skin, not a second tree.
+func test_woodland() -> void:
+	await test_information_layout()
+	for size in [Vector2i(1100, 820), Vector2i(1280, 720)]:
+		get_window().size = size
+		ui.state = "building"
+		ui.selection = "Empty plot"
+		ui.switch_screen("hud")
+		await frames(6)
+		var footer = ui.find_child("HudFooter", true, false)
+		expect(ui.information_scroll.get_global_rect().intersection(ui.upkeep.get_global_rect()).end.y < footer.get_global_rect().position.y, "woodland construction panes separate " + str(size))
+		await capture("hud-choices-" + str(size.x) + "x" + str(size.y))
+	var action = ui.actions[0].get_node("Body/Action")
+	var world = ui.world_clicks
+	action.grab_focus()
+	await frames()
+	expect(get_viewport().gui_get_focus_owner() == action, "woodland card retains native focus")
+	await capture("hud-focus-1280x720")
+	var motion = InputEventMouseMotion.new()
+	motion.position = action.get_global_rect().get_center()
+	motion.global_position = motion.position
+	Input.parse_input_event(motion)
+	await frames()
+	expect(action.is_hovered(), "woodland card receives native pointer hover")
+	await capture("hud-hover-1280x720")
+	var tabs = ui.context.get_node("Actions").get_child(1)
+	tabs.grab_focus()
+	for i in range(4): await key(KEY_RIGHT)
+	expect(ui.dialog != null and ui.dialog.visible, "Skill Tree tab opens existing research modal")
+	await capture("hud-skill-tab-1280x720")
+	await key(KEY_ESCAPE)
+	expect(get_viewport().gui_get_focus_owner() == tabs, "Skill Tree closure restores native tab focus")
+	# Re-select the same tab: no dead entry after dialog closure.
+	await click_point(tabs.get_global_rect().position + tabs.get_tab_rect(4).get_center())
+	expect(ui.dialog.visible, "same Skill Tree tab reopens existing modal")
+	await key(KEY_ESCAPE)
+	expect(ui.world_clicks == world, "woodland art/tab interactions do not leak world input")
+	ui.state = "preparation"
+	ui.refresh_hud()
+	await frames()
+	expect(ui.information_scroll.get_global_rect().intersection(ui.upkeep.get_global_rect()).end.y < ui.find_child("HudFooter", true, false).get_global_rect().position.y, "variable preparation copy leaves woodland construction space")
+	await capture("hud-choices-preparation-1280x720")
+
+func wheel_at(scroll: ScrollContainer, down: bool) -> void:
+	var point = scroll.get_global_rect().get_center()
+	var motion = InputEventMouseMotion.new()
+	motion.position = point
+	motion.global_position = point
+	Input.parse_input_event(motion)
+	for i in range(10):
+		# Wheel indices are buttons to the synthetic parser: each real pulse must
+		# release, or its held mask prevents subsequent left clicks reaching GUI.
+		for pressed in [true, false]:
+			var event = InputEventMouseButton.new()
+			event.position = point
+			event.global_position = point
+			event.button_index = MOUSE_BUTTON_WHEEL_DOWN if down else MOUSE_BUTTON_WHEEL_UP
+			event.pressed = pressed
+			Input.parse_input_event(event)
+	await frames()
+
+func test_information_layout() -> void:
+	var world = ui.world_clicks
+	for size in [Vector2i(1280, 720), Vector2i(1100, 820)]:
+		get_window().size = size
+		ui.switch_screen("hud")
+		for selection in ["Producer", "Empty plot"]:
+			ui.selection = selection
+			for state in ["building", "combat", "preparation", "lost", "building"]:
+				ui.state = state
+				ui.refresh_hud()
+				await frames(6)
+				var scroll = ui.information_scroll
+				var footer = ui.find_child("HudFooter", true, false)
+				expect(scroll.get_global_rect().end.y + 15 <= footer.get_global_rect().position.y, "native information/footer allocation " + state + selection + str(size))
+				expect(Rect2(Vector2.ZERO, Vector2(size)).encloses(footer.get_global_rect()), "native footer bounds " + state + selection + str(size))
+				for pair in ui.ledger.value_labels.values():
+					for label in pair: expect(label.get_minimum_size().x <= label.size.x and label.get_theme_font_size("font_size") == 14, "information quantities retain native font/width " + state)
+				await wheel_at(scroll, true)
+				var last = ui.upkeep.get_node("Body").get_child(ui.upkeep.get_node("Body").get_child_count()-1)
+				expect(scroll.get_global_rect().encloses(last.get_global_rect()), "last information line reachable " + state + selection + str(size))
+				await wheel_at(scroll, false)
+				expect(scroll.scroll_vertical == 0, "reverse wheel restores stocks " + state)
+				expect(Input.get_mouse_button_mask() == 0, "paired native wheel pulses leave no held buttons " + state)
+				var b = ui.match_controls.get_node("Ready") if state in ["building", "preparation"] else ui.feedback.get_node("Actions/Reconnect") if state == "lost" else ui.match_controls.get_node("Pause")
+				ui.last_action = ""
+				await click(b)
+				expect(ui.last_action.begins_with("Request:"), "footer action clickable through information boundary " + state)
+	# Falsifying content case: no reduced font/padding or omitted text.
+	get_window().size = Vector2i(1280, 720)
+	ui.state = "preparation"
+	ui.selection = "Empty plot"
+	ui.refresh_hud()
+	await frames()
+	var footer_y = ui.find_child("HudFooter", true, false).get_global_rect().position.y
+	var data = ui.ledger.data.duplicate(true)
+	data.context = "Next building turn.\nNo income on Ready for battle.\nAdditional externally supplied localized explanation of preparation.\nThis deliberately longer paragraph preserves all information and native font minima.\nNo action has spent resources."
+	ui.ledger.set_data(data)
+	await frames()
+	expect(ui.find_child("HudFooter", true, false).get_global_rect().position.y == footer_y, "long supplied copy cannot displace footer")
+	expect(ui.information_scroll.get_v_scroll_bar().max_value > ui.information_scroll.size.y, "long supplied copy uses native overflow")
+	await wheel_at(ui.information_scroll, true)
+	var last = ui.upkeep.get_node("Body").get_child(ui.upkeep.get_node("Body").get_child_count()-1)
+	expect(ui.information_scroll.get_global_rect().encloses(last.get_global_rect()), "long copy remains fully reachable")
+	# Construction costs below the fold retain real wheel/focus/Enter ownership.
+	var choices = ui.context.get_node("Actions/QuoteScroll")
+	await wheel_at(choices, true)
+	expect(choices.scroll_vertical > 0, "construction quotes retain real wheel scrolling")
+	var target = ui.actions[5].get_node("Body/Action")
+	target.grab_focus()
+	await frames()
+	expect(choices.get_global_rect().encloses(target.get_global_rect()), "native focus reveals far construction action")
+	await key(KEY_ENTER)
+	expect(ui.last_action.contains("build-Weaver"), "far construction action emits opaque id")
+	expect(ui.world_clicks == world, "information/quote scrolling and footer clicks do not leak world input")
+
 func test_layouts() -> void:
 	for size in [Vector2i(1100,820), Vector2i(1280,720), Vector2i(1600,900), Vector2i(1920,1080)]:
 		get_window().size = size
@@ -258,13 +378,13 @@ func test_layouts() -> void:
 		var footer = ui.find_child("HudFooter", true, false)
 		expect(rect.encloses(ui.ledger.get_global_rect()), "ledger viewport fit " + str(size))
 		expect(rect.encloses(footer.get_global_rect()), "footer viewport fit " + str(size))
-		expect(ui.upkeep.get_global_rect().end.y < footer.get_global_rect().position.y, "information/footer separation " + str(size))
+		expect(ui.information_scroll.get_global_rect().intersection(ui.upkeep.get_global_rect()).end.y < footer.get_global_rect().position.y, "information/footer separation " + str(size))
 		for variant in ["preparation", "shortage", "lost"]:
 			ui.state = variant
 			ui.refresh_hud()
 			await frames()
 			expect(rect.encloses(footer.get_global_rect()), "state footer fit " + variant + str(size))
-			expect(ui.upkeep.get_global_rect().end.y < footer.get_global_rect().position.y, "state separation " + variant + str(size))
+			expect(ui.information_scroll.get_global_rect().intersection(ui.upkeep.get_global_rect()).end.y < footer.get_global_rect().position.y, "state separation " + variant + str(size))
 		ui.state = "building"
 		ui.refresh_hud()
 		await frames()

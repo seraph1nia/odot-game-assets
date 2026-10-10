@@ -1,0 +1,59 @@
+{
+	"captures": [
+		{
+			"height": 820,
+			"path": "hud-choices-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 720,
+			"path": "hud-choices-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-focus-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-hover-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-skill-tab-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-choices-preparation-1280x720.png",
+			"width": 1280
+		}
+	],
+	"checks": 362,
+	"failures": [
+		"footer action clickable through information boundary building",
+		"footer action clickable through information boundary combat",
+		"footer action clickable through information boundary preparation",
+		"footer action clickable through information boundary lost",
+		"footer action clickable through information boundary building",
+		"footer action clickable through information boundary building",
+		"footer action clickable through information boundary combat",
+		"footer action clickable through information boundary preparation",
+		"footer action clickable through information boundary lost",
+		"footer action clickable through information boundary building",
+		"footer action clickable through information boundary building",
+		"footer action clickable through information boundary combat",
+		"footer action clickable through information boundary preparation",
+		"footer action clickable through information boundary lost",
+		"footer action clickable through information boundary building",
+		"footer action clickable through information boundary building",
+		"footer action clickable through information boundary combat",
+		"footer action clickable through information boundary preparation",
+		"footer action clickable through information boundary lost",
+		"footer action clickable through information boundary building"
+	],
+	"scope": "Standalone native controls; no game integration or native GPU claim",
+	"selection": "woodland"
+}

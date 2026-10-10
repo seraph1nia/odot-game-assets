@@ -10,7 +10,9 @@ func set_data(value: Dictionary) -> void:
 func refresh() -> void:
 	$Body/Action.text = str(data.get("title", "Action"))
 	$Body/Action.disabled = not bool(data.get("enabled", false))
-	$Body/Action.theme_type_variation = str(data.get("variant", ""))
+	$Body/Action.theme_type_variation = str(data.get("variant", "CardButton"))
+	$Body/Action.icon = WatchUI.resource_icon(str(data.get("icon", "")))
+	$Body/Action.add_theme_constant_override("icon_max_width", 24)
 	$Body/Quote.text = str(data.get("quote", ""))
 	$Body/Quote.visible = not $Body/Quote.text.is_empty()
 	$Body/Reason.text = str(data.get("reason", ""))
