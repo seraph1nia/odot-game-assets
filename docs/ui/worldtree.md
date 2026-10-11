@@ -104,10 +104,9 @@ for inspection transport; original native screenshots retain their exact hashes.
 ## Review-fix qualification boundary
 
 The review fixes preserve the actual underlying showcase screen on dialog closure
-and remove the non-modal Worldtree focus wrap. Internal node order is retained;
-empty boundary links leave Tab/Shift-Tab escape and re-entry to the native host,
-including when the request footer is disabled. The focused executable checks now
-exercise both directions in the actual showcase, enabled→disabled footer changes,
+and implement the [API's non-modal native traversal contract](api.md#living-worldtree-presentation-additive).
+The focused executable checks exercise escape and re-entry in both directions in
+the actual showcase, enabled→disabled footer changes,
 direct and switch-to Worldtree Settings closure, native Close/Escape, invoker
 restoration and dialog replacement. Snapshot, pointer, icon, animation and render
 coverage remains in the same focused campaign.
@@ -120,18 +119,21 @@ and accepted evidence. The first review-focused attempt is preserved at
 failures and measured failing-input hashes in `failure-binding.json`. Its native
 Tab sequence exposed that disabling a Button does not remove `FOCUS_ALL`; the
 footer now also loses native focusability while disabled and regains it when
-available. Current shipping qualification is recorded in
+available. Shipping qualification for the recorded archive is in
 `catalog/worldtree-shipping-refresh/shipping-check.json`: the retained focused
 campaign's complete measured source map matches current inputs; fresh UI-only
 loading, 14 native catalog views, the real catalog build and direct loading of
 `exports/ui/ledger-ui.zip` all pass. The shipping ZIP and static copy are entirely
 byte-identical. All 14 fresh catalog PNGs match the pre-review images; the
-Worldtree, HUD and menu images were also reopened. Current source/package bindings
-in `worldtree-validation.json` select the **2231-check/21-capture focused** campaign,
+Worldtree, HUD and menu images were also reopened. Runtime and recorded-package
+bindings in `worldtree-validation.json` select the **2231-check/21-capture focused** campaign,
 not a new full regression. The original full-campaign binding, payload, previews
 and package receipt remain unchanged under `catalog/worldtree-pre-review/`.
 No historical execution is relabeled, and no new full-suite/browser/PCK/game
-qualification is claimed.
+qualification is claimed. These receipts bind their recorded archive/API bytes;
+later API documentation edits require regenerating the ZIP and measuring member
+continuity before package qualification can transfer. Runtime receipts alone do
+not qualify a changed archive.
 
 ## Submitted measured acceptance (before review fixes)
 

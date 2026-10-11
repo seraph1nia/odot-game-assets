@@ -9,8 +9,9 @@ checked acceptance and separate external integration obligations.
 
 Copy candidate: only `ui/preview/UI/` to a future game's `res://UI/` after separate
 authorization. `payload.json` records the exact current source/import/UID/resource file set and hashes.
-A fresh private project containing only this directory loads all eleven scenes,
-woodland Theme/SVG art/serif font and original seal without preview, game or authoring tools.
+The audit loads the runtime scenes, Theme/art/font and original seal in a fresh
+private project without preview, game or authoring tools. Current qualification
+and its limits are owned by [Worldtree qualification](worldtree.md#review-fix-qualification-boundary).
 
 Do not copy `prototypes/`, `tests/`, `explorations/`, project settings, `.godot` caches,
 Blender sources/generators or reference images as runtime dependencies. The
@@ -143,7 +144,11 @@ tree.node_action_requested.connect(func(id): print("Intent only: ", id))
   from parent/points/icon. No cost, spending, skill effect or progression reward.
 - `select_node(id)` and native node Buttons update only inspected selection and
   emit `node_selected(id)`. Dormant/acquired nodes remain inspectable. Native
-  focus/Tab/Shift-Tab/Enter are preserved; decorations ignore pointer input.
+  Tab/Shift-Tab follows canonical node order without changing inspected selection;
+  Enter inspects the focused node. The available request footer follows the last
+  node; when disabled, it is not focusable. Boundary links remain unset so native
+  host traversal can escape and re-enter in both directions; this non-modal
+  component does not confine focus. Decorations ignore pointer input.
   `request_action()`/the footer emits `node_action_requested(id)` only for a
   supplied available selected node; it changes neither points nor acquired IDs.
 - To animate one **newly acquired** module, pass its ID as the second `set_data`
@@ -269,8 +274,8 @@ selected-building, turn/progress and cost values are illustrative supplied layou
 data, not a simulation or new gameplay authority.
 
 `payload.json` owns current total file bytes and hashes, including scripts, imports,
-Theme, four original editable SVG runtime copies and an unmodified DejaVu Serif
-font plus its redistribution license (`UI/fonts/LICENSE-DejaVu.txt`). The original
+Theme, original artwork and an unmodified DejaVu Serif font plus its
+redistribution license (`UI/fonts/LICENSE-DejaVu.txt`). The original
 192×192 RGBA seal remains **34,237 PNG / 147,456 decoded RGBA bytes**, displayed at
 48px with transparent surround; its Blender/PNG provenance is unchanged.
 Branch frame slices are 40px with 16px content margins. Parchment horizontal slices

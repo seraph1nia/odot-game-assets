@@ -1,7 +1,9 @@
 # UI validation and limitations
 
 Current evidence and limits are owned by
-[woodland acceptance](woodland.md#current-acceptance-and-visual-review).
+[Worldtree qualification](worldtree.md#review-fix-qualification-boundary).
+[Woodland acceptance](woodland.md#current-acceptance-and-visual-review) retains its
+earlier evidence.
 [Skill-tree validation](skill-tree-validation.md) preserves pre-woodland extension evidence.
 The campaigns below are retained historical milestones, not current-source certification.
 `payload.json` owns the refreshed payload; earlier audits below are identified by their private logs.

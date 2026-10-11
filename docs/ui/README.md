@@ -3,7 +3,9 @@
 **Resume here:** the existing standalone Ledger kit now follows the supplied
 [woodland HUD reference](references/README.md): [design/source ownership](woodland.md),
 [original-art bindings](woodland-art.json), and
-[current acceptance](woodland.md#current-acceptance-and-visual-review).
+[retained woodland acceptance](woodland.md#current-acceptance-and-visual-review).
+[Worldtree qualification](worldtree.md#review-fix-qualification-boundary) owns
+current-source and shipping evidence.
 [Skill-tree validation](skill-tree-validation.md) retains the separately landed
 compact tree's contracts; its inherited skin uses refreshed current bindings.
 Accepted light Ledger M0/M1/representative milestones remain historical evidence.
@@ -19,7 +21,7 @@ MAIN owns the coordinated delivery handoff; no competing pipeline.
 | Current reference/direction and historical approval | [woodland](woodland.md), [retained reference](references/README.md); historical [decisions](decisions.md) / [M0 evidence](art-direction.md) |
 | Avoid rediscovering game behavior | [discovery](discovery.md), [inventory](inventory.json) |
 | Reuse components / prepare migration | [API](api.md), [architecture](architecture.md), [migration mapping](migration.json), [payload audit](payload.json) |
-| Actual checks / final pictures | [current woodland evidence](woodland.md#current-acceptance-and-visual-review); [historical compact-tree evidence](skill-tree-validation.md), [Ledger validation](validation.md) and [visual bindings](visual-review-dialog-close.json) |
+| Actual checks / final pictures | [current Worldtree qualification](worldtree.md#review-fix-qualification-boundary); [retained woodland evidence](woodland.md#current-acceptance-and-visual-review); [historical compact-tree evidence](skill-tree-validation.md), [Ledger validation](validation.md) and [visual bindings](visual-review-dialog-close.json) |
 | Retained acceptance byte contracts | [preservation manifest](preservation.json), [submitted visual binding](visual-review.json) |
 | Why modal is not a Window | [causal diagnosis](settings-diagnosis.md), [contrary ownership result](modal-alternatives.md) |
 | Source/art/font/reference provenance | [original seal bindings](exploration-assets.json), [woodland bindings](woodland-art.json) |
@@ -42,8 +44,9 @@ middle, three outward choices and three illustrative steps per path, with native
 inspection/purchase/focus and parent/point/duplicate guards. Choose **skill_tree**
 in the showcase screen selector. [API](api.md#compact-skill-tree-allocation) owns
 the caller snapshot and local allocation boundary;
-[woodland acceptance](woodland.md#current-acceptance-and-visual-review) owns current
-native counts, visual review and independently loaded generated ZIP evidence.
+[woodland acceptance](woodland.md#current-acceptance-and-visual-review) retains its
+inherited-skin regression and visual review; current shipping qualification is
+linked above.
 [Skill-tree validation](skill-tree-validation.md) preserves pre-woodland extension
 evidence. No main-game or renderer changes.
 
@@ -74,12 +77,13 @@ seven skill-tree fixture captures; `--only skill-tree` runs only the compact tre
 pointer/focus/budget/layout/lifecycle checks. `--only woodland` runs the focused
 same-window resize, information/footer allocation, variable-copy/wheel/pointer,
 progress-tooltip, focus/tab and inherited-font checks. See
-[woodland acceptance](woodland.md#current-acceptance-and-visual-review) for current
-capture counts. Omit `--only` for the complete regression/capture acceptance.
+[woodland acceptance](woodland.md#current-acceptance-and-visual-review) for retained
+woodland capture counts. Omit `--only` for the complete regression/capture acceptance.
 
 `validate.py` imports fresh, performs actual native events/state/layout assertions,
 binds source hashes, and writes captures/results under `docs/ui/production/<label>/`.
-Current full/focused campaigns and inherited-tree skin checks are recorded in
+Current qualification is linked above; retained full/focused campaigns and
+inherited-tree skin checks are recorded in
 [woodland](woodland.md#current-acceptance-and-visual-review); [skill-tree validation](skill-tree-validation.md#fresh-evidence)
 preserves the earlier pre-theme extension.
 It rejects source changes during the run. `diagnose_settings.py` uses the same exact
@@ -91,8 +95,9 @@ fails rather than overwriting its run directory. Plan tests certify metadata, no
 
 Open `ui/preview/project.godot` independently for review. Main scene is
 `prototypes/showcase.tscn`; screen/state selectors use mocks, no services. Current
-reviewed HUD/menu/tree pictures/results and image/tool/package bindings are linked
-from [woodland](woodland.md#current-acceptance-and-visual-review).
+qualification and selected image/tool/package bindings are linked above; retained
+HUD/menu/inherited-tree review is in
+[woodland](woodland.md#current-acceptance-and-visual-review).
 The pre-extension Ledger pictures/results are in `production/review-dialog-close/`;
 all 79 PNGs in that historical campaign match the reviewed `production/review-fixes/` bytes exactly;
 `production/standalone-final/` and `visual-review.json` retain submitted acceptance bytes;

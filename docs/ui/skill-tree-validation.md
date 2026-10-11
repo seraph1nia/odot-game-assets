@@ -1,9 +1,10 @@
 # Compact native skill-tree extension: acceptance and limits
 
 **Preserved pre-woodland acceptance record.** Its exact source/image/tool receipts
-remain unchanged and do not certify the later shared Theme/art/font. Current
+remain unchanged and do not certify the later shared Theme/art/font. Retained
 inherited-tree regression and visual/package bindings are in [woodland.md](woodland.md)
-and [woodland-validation.json](woodland-validation.json). No compact-tree runtime
+and [woodland-validation.json](woodland-validation.json). Current-source and shipping
+qualification is owned by [Worldtree qualification](worldtree.md#review-fix-qualification-boundary). No compact-tree runtime
 behavior/topology/allocation rewrite occurred in that skin adaptation.
 
 This extends Ledger's portable native library, not the main game. The existing

@@ -5,9 +5,10 @@ The supplied [hud.png](references/hud.png) is retained unchanged, with
 native Ledger kit** and authoring hosts. It does not introduce a second UI
 framework, gameplay/economy, terrain, service adapters or a new skill tree.
 The previous light Ledger milestones remain historical evidence, not acceptance
-for the changed resources. Current acceptance and exact source/image/tool/package
-bindings are in [woodland-validation.json](woodland-validation.json); [production.md](production.md)
-preserves the earlier Ledger record.
+for the changed resources. Retained woodland acceptance and exact
+source/image/tool/package bindings are in
+[woodland-validation.json](woodland-validation.json); [production.md](production.md)
+preserves the earlier Ledger record. Current shipping qualification is linked below.
 
 ## Visual rules and editable ownership
 
@@ -84,10 +85,10 @@ Theme without new navigation flows. See [API](api.md).
 ## Current acceptance and visual review
 
 The woodland-only acceptance below is preserved at its tested revision, not
-rebound onto the additive Worldtree source. Current full-source regression,
-actual Worldtree pictures, 11-scene UI-only loading and newly generated package
-qualification are owned by [worldtree-validation.json](worldtree-validation.json)
-and [worldtree.md](worldtree.md). Historical source/tool/package continuity
+rebound onto the additive Worldtree source.
+[Worldtree qualification](worldtree.md#review-fix-qualification-boundary) owns
+current-source and shipping evidence and its limits; exact bindings are in
+[worldtree-validation.json](worldtree-validation.json). Historical source/tool/package continuity
 statements below describe the retained woodland revision. The woodland Theme,
 original seal and compact 10-node component bytes are unchanged by Worldtree.
 
@@ -121,7 +122,7 @@ the original native receipt before comparing every member with the actual final 
 Native runtime qualification is therefore **reused by unchanged relevant inputs**,
 not a claim that the documentation-only final ZIP was independently loaded again.
 Current container/doc hashes, sizes, changed-member list and continuity measurements
-are owned by [catalog/package-check.json](catalog/package-check.json), which points
+are owned by [the preserved woodland package selection](catalog/worldtree-prior/package-check.json), which points
 to the preserved original native-load receipt. The remaining code/art/metadata
 bytes, excluding only the exact unmodified font/license, stay below the original
 200KB budget; no arbitrary extra-art allowance is added. Decoded textures/glyph
