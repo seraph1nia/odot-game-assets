@@ -89,7 +89,7 @@ class IntakeContracts(unittest.TestCase):
         self.assertEqual(inherited + len(inspected), len(names))
         self.assertEqual(hashlib.sha256(''.join(rows).encode()).hexdigest(), binding['image_set_sha256'])
 
-    def test_current_skill_tree_evidence_and_source_binding(self):
+    def test_historical_skill_tree_evidence_is_preserved(self):
         binding = load('skill-tree-validation.json')
         result = load(binding['results'])
         self.assertEqual(hashlib.sha256((DOCS / binding['results']).read_bytes()).hexdigest(), binding['results_sha256'])
@@ -97,10 +97,9 @@ class IntakeContracts(unittest.TestCase):
         self.assertEqual(result['checks'], 763)
         self.assertEqual(len(result['captures']), 86)
         self.assertIn('llvmpipe', result['renderer'])
-        for name, digest in result['source_sha256'].items():
-            self.assertEqual(hashlib.sha256((PROJECT / name).read_bytes()).hexdigest(), digest, name)
-        for name, digest in binding['tools_sha256'].items():
-            self.assertEqual(hashlib.sha256((ROOT / name).read_bytes()).hexdigest(), digest, name)
+        # Immutable result hash above retains the original source-hash map.
+        # This pre-woodland capture set does not certify the changed Theme;
+        # the same complete current-source/tool assertions live below.
         captures = {c['path']: c for c in result['captures']}
         for name, digest in binding['reviewed_captures'].items():
             path = DOCS / binding['results']
@@ -109,7 +108,37 @@ class IntakeContracts(unittest.TestCase):
             self.assertEqual(png_header(path)[:2], (captures[name]['width'], captures[name]['height']))
         catalog = binding['reviewed_catalog']
         self.assertEqual(hashlib.sha256((ROOT / catalog['path']).read_bytes()).hexdigest(), catalog['sha256'])
-        self.assertEqual(load('catalog/previews.json')['entries']['skill-tree']['sha256'], catalog['sha256'])
+
+    def test_current_woodland_evidence_and_source_binding(self):
+        binding = load('woodland-validation.json')
+        result = load(binding['results'])
+        self.assertEqual(hashlib.sha256((DOCS / binding['results']).read_bytes()).hexdigest(), binding['results_sha256'])
+        self.assertEqual((result['checks'], result['failures']), (1193, []))
+        self.assertEqual(len(result['captures']), 92)
+        self.assertIn('llvmpipe', result['renderer'])
+        for name, digest in result['source_sha256'].items():
+            self.assertEqual(hashlib.sha256((PROJECT / name).read_bytes()).hexdigest(), digest, name)
+        for name, digest in binding['tools_sha256'].items():
+            self.assertEqual(hashlib.sha256((ROOT / name).read_bytes()).hexdigest(), digest, name)
+        captures = {c['path']: c for c in result['captures']}
+        for name, digest in binding['capture_sha256'].items():
+            path = (DOCS / binding['results']).parent / name
+            self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), digest, name)
+            self.assertEqual(png_header(path)[:2], (captures[name]['width'], captures[name]['height']))
+        self.assertEqual(set(captures), set(binding['capture_sha256']))
+        for name, digest in binding['catalog_sha256'].items():
+            entry = load('catalog/previews.json')['entries'][name]
+            self.assertEqual(entry['sha256'], digest)
+            self.assertEqual(hashlib.sha256((ROOT / entry['path']).read_bytes()).hexdigest(), digest)
+        self.assertEqual(load('catalog/package-check.json')['package_sha256'], binding['package_sha256'])
+        art = load('woodland-art.json')
+        self.assertEqual(hashlib.sha256((ROOT / art['reference']['path']).read_bytes()).hexdigest(), art['reference']['sha256'])
+        self.assertEqual(png_header(ROOT / art['reference']['path'])[:2], (art['reference']['width'], art['reference']['height']))
+        for asset in art['artwork']:
+            for field in ('source', 'output'):
+                self.assertEqual(hashlib.sha256((ROOT / asset[field]).read_bytes()).hexdigest(), asset['sha256'])
+        for field, digest in [('path', 'sha256'), ('license', 'license_sha256')]:
+            self.assertEqual(hashlib.sha256((ROOT / art['font'][field]).read_bytes()).hexdigest(), art['font'][digest])
 
     def test_historical_representative_package_is_preserved(self):
         self.preserved_milestone('representative')

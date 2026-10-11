@@ -1,5 +1,11 @@
 # Compact native skill-tree extension: acceptance and limits
 
+**Preserved pre-woodland acceptance record.** Its exact source/image/tool receipts
+remain unchanged and do not certify the later shared Theme/art/font. Current
+inherited-tree regression and visual/package bindings are in [woodland.md](woodland.md)
+and [woodland-validation.json](woodland-validation.json). No compact-tree runtime
+behavior/topology/allocation rewrite occurred in that skin adaptation.
+
 This extends Ledger's portable native library, not the main game. The existing
 `research-node` alias, all nine previous components, Theme, menu seal and model
 catalog remain intact. No renderer, forest, mesh or source-model changes.

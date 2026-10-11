@@ -5,8 +5,9 @@ on accepted M1 foundation/local modal and preserved representative milestone.
 External game integration remains separate in [coverage.md](coverage.md).
 State: [tasks.json](tasks.json).
 Interfaces/migration boundary: [api.md](api.md); actual evidence:
-[skill-tree validation](skill-tree-validation.md) for the extension and
-[production.md](production.md) for pre-extension milestones. Existing world tooling/MCP/palettes remain unchanged.
+[woodland presentation](woodland.md), [current production acceptance](production.md)
+and [compact-tree contracts](skill-tree-validation.md). Earlier milestones stay
+historical. Existing world tooling/MCP/palettes remain unchanged.
 
 | Path | Responsibility |
 |---|---|
@@ -30,11 +31,16 @@ Interfaces/migration boundary: [api.md](api.md); actual evidence:
 
 ## Native semantics first
 
-Theme/StyleBoxFlat own flexible surfaces. Native Buttons, Labels, grids, scrolling,
-OptionButton/PopupMenu, HSlider and TabContainer own ordinary widget behavior.
-The approved Blender gate seal stays fixed at 48px from a transparent 192px PNG;
-no dynamic text is baked and there is no decorative frame/icon family or nine-slice
-texture. Native semantic close marking is not extra Blender artwork.
+The existing Theme uses native StyleBoxFlat insets and original SVG StyleBoxTexture
+branch/parchment slices for flexible surfaces. Native Buttons, Labels, grids,
+scrolling, OptionButton/PopupMenu, HSlider and TabContainer retain widget behavior.
+The original Blender gate seal stays fixed at 48px from its unchanged 192px PNG.
+Woodland frame/icon/vignette manual sources and the font/license are bound in
+`woodland-art.json`; no dynamic text or supplied screenshot pixels are baked into
+controls. Fixed transparent ornaments ignore input and preserve aspect ratio.
+The HUD's native section container reserves its footer while variable stock/upkeep
+copy uses the bounded upper scroll region; decoration does not allocate hit targets.
+Native semantic close marking is not extra Blender artwork.
 
 The new modal uses an in-tree Control/scrim/centered panel rather than Window.
 Its small visible-only lifecycle handles local cancellation, Tab scope and valid

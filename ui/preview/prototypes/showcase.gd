@@ -240,7 +240,7 @@ func refresh_context() -> void:
 			host.add_child(tabs)
 			tabs.tab_selected.connect(func(index):
 				if index == 4:
-					open_dialog("research", tabs)
+					open_dialog("skill_tree", tabs)
 				else: fill_build_quotes(host.get_node("QuoteScroll/Choices"), index, editable, reason))
 		"Locked plot":
 			title = "Locked plot · Land expansion"

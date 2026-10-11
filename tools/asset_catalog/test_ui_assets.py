@@ -78,8 +78,17 @@ class UIAssetsTests(unittest.TestCase):
     def test_runtime_package_is_compact_deterministic_and_exactly_the_payload(self):
         assets = build_ui_assets(self.root)
         package = (self.root / PACKAGE).read_bytes()
-        self.assertLess(len(package), 200_000)
         with zipfile.ZipFile(io.BytesIO(package)) as archive:
+            # Keep the original 200KB code/art/metadata ceiling. The approved
+            # unmodified serif font + license have a separately hash-bound cost;
+            # do not give arbitrary new artwork/files an enlarged allowance.
+            font = json.loads((ROOT / 'docs/ui/woodland-art.json').read_text())['font']
+            font_bytes = 0
+            for field, hash_field in [('path', 'sha256'), ('license', 'license_sha256')]:
+                data = archive.read(font[field].removeprefix(PROJECT))
+                self.assertEqual(hashlib.sha256(data).hexdigest(), font[hash_field])
+                font_bytes += len(data)
+            self.assertLess(len(package) - font_bytes, 200_000)
             manifest = json.loads(archive.read('manifest.json'))
             expected = {name.removeprefix(PROJECT): digest for name, digest in payload_files(self.root).items()}
             self.assertEqual(manifest['files'], expected)

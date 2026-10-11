@@ -25,9 +25,10 @@ quality pilot, rollout or game integration. Those operations need separate scope
 
 ## UI / HUD workspace
 
-Start with [docs/ui/README.md](docs/ui/README.md) for the approved Ledger direction,
-finished intended standalone native component/composition package, preserved
-accepted history, original editable menu seal, functional Godot preview, actual
+Start with [docs/ui/README.md](docs/ui/README.md) for the woodland Ledger HUD/menu
+adaptation to the retained [supplied reference](docs/ui/references/hud.png),
+standalone native component/composition package, preserved accepted history,
+original editable menu seal, functional Godot preview, actual
 input/visual evidence and migration-ready interfaces. Game integration/rollout
 remain separate and unauthorized; catalog publication is not a game rollout.
 No game checkout is needed at runtime, and UI checks do not rebuild world assets
@@ -81,7 +82,8 @@ Search `ui/` or select `ui/components`, `ui/theme`, `ui/art`, or `ui/showcases`.
 Inventory aliases are searchable case-insensitively in both canonical and spaced
 forms, such as `research-node` / `research node` and `health-style` / `health style`.
 The generated index includes **ten reusable native Godot scenes**, the **Ledger
-Theme**, the **original transparent menu seal**, and two **authoring-only HUD/menu
+woodland Theme** (original SVG borders/icons/vignette and licensed serif font),
+the **unchanged original transparent menu seal**, and two **authoring-only HUD/menu
 showcase examples**. Entries come from the landed
 [`docs/ui/inventory.json`](docs/ui/inventory.json) implementation/resource bindings;
 planned/omitted items and resource aliases are not additional components.

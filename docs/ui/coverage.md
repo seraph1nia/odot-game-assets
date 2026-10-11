@@ -6,7 +6,9 @@ mock compositions and Phase G migration preparation, clarified by inbox 007.
 publication and rollout are not performed or certified.** Accepted M0/M1 and the
 scrolling/representative milestone remain unchanged historical evidence.
 
-Current compact-tree acceptance is owned by [skill-tree validation](skill-tree-validation.md).
+Current woodland/inherited-tree acceptance is owned by [woodland](woodland.md)
+and its exact [machine binding](woodland-validation.json). The earlier compact-tree
+[skill-tree validation](skill-tree-validation.md) remains preserved pre-theme evidence.
 The following Ledger criteria and visual bindings describe pre-extension acceptance:
 [production record](production.md), [source-bound results](production/review-dialog-close/results.json).
 Review fixes cover selector-navigation and close-then-same-item reopening for all six

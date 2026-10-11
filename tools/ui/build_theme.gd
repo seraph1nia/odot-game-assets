@@ -55,7 +55,10 @@ func _initialize() -> void:
 	t.set_type_variation("InsetPanel", "PanelContainer")
 	t.set_stylebox("panel", "InsetPanel", box("20232c", "574b46", 8))
 	t.set_type_variation("QuotedPanel", "PanelContainer")
-	t.set_stylebox("panel", "QuotedPanel", painted("parchment_button", 24, 6))
+	var card = painted("parchment_button", 24, 6)
+	card.content_margin_left = 14
+	card.content_margin_right = 14
+	t.set_stylebox("panel", "QuotedPanel", card)
 	t.set_color("font_color", "QuotedPanel", Color("30251e"))
 	t.set_type_variation("QuoteLabel", "Label")
 	t.set_color("font_color", "QuoteLabel", Color("30251e"))
@@ -80,14 +83,22 @@ func _initialize() -> void:
 			if state == "pressed": color = color.darkened(.12)
 			if state == "disabled": color = Color("29292c")
 			var style: StyleBox = box(color.to_html(), "97714c", 8)
+			if type == "Button":
+				# Locked/unfunded tree nodes inherit Button; preserve whole states.
+				style.content_margin_left = 4
+				style.content_margin_right = 4
 			if type == "PrimaryButton":
-				style = painted("parchment_button", 24, 10)
-				style.modulate_color = Color("ffffff") if state == "normal" else Color("ffe9b8") if state == "hover" else Color("c8ac80") if state == "pressed" else Color("857e75")
+				style = painted("parchment_button", 24, 8)
+				# Compact tree nodes keep their authored 124px grip/rect and 14px
+				# text; reserve enough inner width for the complete Available state.
+				style.content_margin_left = 4
+				style.content_margin_right = 4
+				style.modulate_color = Color("ffffff") if state == "normal" else Color("ffe9b8") if state == "hover" else Color("c8ac80") if state == "pressed" else Color("706961")
 			if type == "CardButton": style = box("ffffff18" if state == "hover" else "00000018" if state == "pressed" else "00000000", "00000000", 2)
 			t.set_stylebox(state, type, style)
 		var ink = Color("30251e") if type in ["PrimaryButton", "CardButton"] else Color("f2e6cb")
 		for color_name in ["font_color", "font_focus_color", "font_hover_color", "font_pressed_color", "font_hover_pressed_color"]: t.set_color(color_name, type, ink)
-		t.set_color("font_disabled_color", type, Color("65594a") if type in ["PrimaryButton", "CardButton"] else Color("aaa394"))
+		t.set_color("font_disabled_color", type, Color("f2e6cb") if type == "PrimaryButton" else Color("65594a") if type == "CardButton" else Color("aaa394"))
 		t.set_stylebox("focus", type, focus)
 	for type in ["TabContainer", "TabBar"]:
 		t.set_stylebox("tab_selected", type, box("64462d", "e5b46d"))

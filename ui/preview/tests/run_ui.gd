@@ -279,13 +279,21 @@ func test_woodland() -> void:
 	var tabs = ui.context.get_node("Actions").get_child(1)
 	tabs.grab_focus()
 	for i in range(4): await key(KEY_RIGHT)
-	expect(ui.dialog != null and ui.dialog.visible, "Skill Tree tab opens existing research modal")
+	expect(ui.dialog != null and ui.dialog.visible, "Skill Tree tab opens landed compact tree modal")
+	# Check real native font metrics against the authored node inset, not source
+	# text or a smaller-font substitute. Point/state labels must remain complete.
+	check_tree_text_width(ui.dialog_content.tree)
 	await capture("hud-skill-tab-1280x720")
+	var unfunded_tree = UIFixtures.skill_tree(0)
+	unfunded_tree["owned"] = ["foundation"]
+	ui.dialog_content.tree.set_data(unfunded_tree)
+	await frames(4)
+	check_tree_text_width(ui.dialog_content.tree)
 	await key(KEY_ESCAPE)
 	expect(get_viewport().gui_get_focus_owner() == tabs, "Skill Tree closure restores native tab focus")
 	# Re-select the same tab: no dead entry after dialog closure.
 	await click_point(tabs.get_global_rect().position + tabs.get_tab_rect(4).get_center())
-	expect(ui.dialog.visible, "same Skill Tree tab reopens existing modal")
+	expect(ui.dialog.visible, "same Skill Tree tab reopens landed compact tree modal")
 	await key(KEY_ESCAPE)
 	expect(ui.world_clicks == world, "woodland art/tab interactions do not leak world input")
 	ui.state = "preparation"
@@ -293,6 +301,14 @@ func test_woodland() -> void:
 	await frames()
 	expect(ui.information_scroll.get_global_rect().intersection(ui.upkeep.get_global_rect()).end.y < ui.find_child("HudFooter", true, false).get_global_rect().position.y, "variable preparation copy leaves woodland construction space")
 	await capture("hud-choices-preparation-1280x720")
+
+func check_tree_text_width(tree) -> void:
+	for node_button in tree.buttons.values():
+		var inset = node_button.get_theme_stylebox("normal")
+		var available_width = node_button.size.x - inset.get_content_margin(SIDE_LEFT) - inset.get_content_margin(SIDE_RIGHT)
+		for line in node_button.text.split("\n"):
+			var text_width = node_button.get_theme_font("font").get_string_size(line, HORIZONTAL_ALIGNMENT_LEFT, -1, node_button.get_theme_font_size("font_size")).x
+			expect(text_width <= available_width, "inherited tree node title/cost/state fits native font metrics " + line)
 
 func wheel_at(scroll: ScrollContainer, down: bool) -> void:
 	var point = scroll.get_global_rect().get_center()

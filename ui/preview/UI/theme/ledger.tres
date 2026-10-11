@@ -45,9 +45,9 @@ texture_margin_right = 40.0
 texture_margin_bottom = 40.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dekq0"]
-content_margin_left = 8.0
+content_margin_left = 4.0
 content_margin_top = 8.0
-content_margin_right = 8.0
+content_margin_right = 4.0
 content_margin_bottom = 8.0
 bg_color = Color(0.16078432, 0.16078432, 0.17254902, 1)
 border_width_left = 1
@@ -77,9 +77,9 @@ corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ney7b"]
-content_margin_left = 8.0
+content_margin_left = 4.0
 content_margin_top = 8.0
-content_margin_right = 8.0
+content_margin_right = 4.0
 content_margin_bottom = 8.0
 bg_color = Color(0.28627452, 0.25882354, 0.26666668, 1)
 border_width_left = 1
@@ -93,9 +93,9 @@ corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d88v4"]
-content_margin_left = 8.0
+content_margin_left = 4.0
 content_margin_top = 8.0
-content_margin_right = 8.0
+content_margin_right = 4.0
 content_margin_bottom = 8.0
 bg_color = Color(0.1882353, 0.15686275, 0.16470589, 1)
 border_width_left = 1
@@ -109,9 +109,9 @@ corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ej2n0"]
-content_margin_left = 8.0
+content_margin_left = 4.0
 content_margin_top = 8.0
-content_margin_right = 8.0
+content_margin_right = 4.0
 content_margin_bottom = 8.0
 bg_color = Color(0.16470589, 0.13725491, 0.14509805, 1)
 border_width_left = 1
@@ -580,22 +580,22 @@ corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nnti7"]
-content_margin_left = 10.0
-content_margin_top = 10.0
-content_margin_right = 10.0
-content_margin_bottom = 10.0
+content_margin_left = 4.0
+content_margin_top = 8.0
+content_margin_right = 4.0
+content_margin_bottom = 8.0
 texture = ExtResource("2_81ags")
 texture_margin_left = 24.0
 texture_margin_top = 16.0
 texture_margin_right = 24.0
 texture_margin_bottom = 16.0
-modulate_color = Color(0.52156866, 0.49411765, 0.45882353, 1)
+modulate_color = Color(0.4392157, 0.4117647, 0.38039216, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ygafk"]
-content_margin_left = 10.0
-content_margin_top = 10.0
-content_margin_right = 10.0
-content_margin_bottom = 10.0
+content_margin_left = 4.0
+content_margin_top = 8.0
+content_margin_right = 4.0
+content_margin_bottom = 8.0
 texture = ExtResource("2_81ags")
 texture_margin_left = 24.0
 texture_margin_top = 16.0
@@ -604,10 +604,10 @@ texture_margin_bottom = 16.0
 modulate_color = Color(1, 0.9137255, 0.72156864, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l24ql"]
-content_margin_left = 10.0
-content_margin_top = 10.0
-content_margin_right = 10.0
-content_margin_bottom = 10.0
+content_margin_left = 4.0
+content_margin_top = 8.0
+content_margin_right = 4.0
+content_margin_bottom = 8.0
 texture = ExtResource("2_81ags")
 texture_margin_left = 24.0
 texture_margin_top = 16.0
@@ -615,10 +615,10 @@ texture_margin_right = 24.0
 texture_margin_bottom = 16.0
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kt1tl"]
-content_margin_left = 10.0
-content_margin_top = 10.0
-content_margin_right = 10.0
-content_margin_bottom = 10.0
+content_margin_left = 4.0
+content_margin_top = 8.0
+content_margin_right = 4.0
+content_margin_bottom = 8.0
 texture = ExtResource("2_81ags")
 texture_margin_left = 24.0
 texture_margin_top = 16.0
@@ -659,9 +659,9 @@ corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1cnau"]
-content_margin_left = 6.0
+content_margin_left = 14.0
 content_margin_top = 6.0
-content_margin_right = 6.0
+content_margin_right = 14.0
 content_margin_bottom = 6.0
 texture = ExtResource("2_81ags")
 texture_margin_left = 24.0
@@ -1097,7 +1097,7 @@ PopupMenu/styles/hover = SubResource("StyleBoxFlat_2yec2")
 PopupMenu/styles/panel = SubResource("StyleBoxFlat_nq71r")
 PrimaryButton/base_type = &"Button"
 PrimaryButton/colors/font_color = Color(0.1882353, 0.14509805, 0.11764706, 1)
-PrimaryButton/colors/font_disabled_color = Color(0.39607844, 0.34901962, 0.2901961, 1)
+PrimaryButton/colors/font_disabled_color = Color(0.9490196, 0.9019608, 0.79607844, 1)
 PrimaryButton/colors/font_focus_color = Color(0.1882353, 0.14509805, 0.11764706, 1)
 PrimaryButton/colors/font_hover_color = Color(0.1882353, 0.14509805, 0.11764706, 1)
 PrimaryButton/colors/font_hover_pressed_color = Color(0.1882353, 0.14509805, 0.11764706, 1)

@@ -1,5 +1,11 @@
 # Historical M0 artistic proposal — Ledger subsequently approved
 
+**Current visual direction:** [woodland Ledger](woodland.md), adapting the supplied
+[HUD reference](references/README.md). Original editable SVG/frame/icon/vignette and
+font/license provenance live in [woodland-art.json](woodland-art.json); the original
+small seal remains unchanged. The light Ledger comparisons and approval below are
+historical, not receipts for the newly skinned kit. Current acceptance: [production](production.md).
+
 Current approval is recorded verbatim in [decisions.md](decisions.md): Ledger,
 only the small original menu seal initially. Current production evidence and
 remaining acceptance: [production.md](production.md). The proposal/comparisons below

@@ -8,9 +8,9 @@ checked acceptance and separate external integration obligations.
 ## Payload
 
 Copy candidate: only `ui/preview/UI/` to a future game's `res://UI/` after separate
-authorization. `payload.json` records 35 source/import/UID/resource files and hashes.
-A fresh private project containing only this directory loaded all ten scenes,
-Theme and seal with no preview, game or authoring-tool dependency.
+authorization. `payload.json` records the exact current source/import/UID/resource file set and hashes.
+A fresh private project containing only this directory loads all ten scenes,
+woodland Theme/SVG art/serif font and original seal without preview, game or authoring tools.
 
 Do not copy `prototypes/`, `tests/`, `explorations/`, project settings, `.godot` caches,
 Blender sources/generators or reference images as runtime dependencies. The
@@ -32,9 +32,9 @@ shape. `prototypes/fixtures.gd` is illustrative data only, never a runtime depen
 |---|---|---|---|
 | `resource_ledger.tscn` | `set_data(Dictionary)` | none | title, rows{name,stock,income}, income_heading, context; six resources externally supplied |
 | `upkeep_summary.tscn` | `set_data(Dictionary)` | none | heading, rows{label,value}, detail; forecast/receipt/wave decided externally |
-| `quoted_action.tscn` | `set_data(Dictionary)` | `requested(action_id:String)` | id,title,quote,enabled,reason,variant; never spends resources |
+| `quoted_action.tscn` | `set_data(Dictionary)` | `requested(action_id:String)` | id,title,quote,enabled,reason,variant, optional icon (gold/food/wood/stone/metal/cloth); never spends resources |
 | `city_navigation.tscn` | `set_data(Array, selected_id:int)` | `city_requested(city_id:int)` | id,label,context; game clears selection/camera and determines edit rights |
-| `match_controls.tscn` | `set_data(Dictionary)` | `requested(action_id:String)` | phase,counters,ready/pause labels/ids/eligibility/visibility,terminal; no phase transition |
+| `match_controls.tscn` | `set_data(Dictionary)` | `requested(action_id:String)` | phase,counters,ready/pause labels/ids/eligibility/visibility,terminal, optional progress_value/progress_max/progress_text; no phase transition |
 | `session_feedback.tscn` | `set_data(Dictionary)` | `requested(action_id:String)` | status,message,reconnect,fresh; no sockets, tokens or teardown |
 | `unit_inspection.tscn` | `set_data(Dictionary)` | `requested(action_id:String, unit_id:int, destination_id:String)` | profile/health/status/recovery text, destinations, can_send/can_retire/reason; funding/recovery/model/status clocks stay external |
 | `army_roster.tscn` | `set_data(Dictionary)` | `unit_selected(unit_id:int)` | title,context,tiles,units,selected_id; display separate tile budgets, not pooling/transfer logic |
@@ -195,17 +195,42 @@ Add the content under its final modal owner before `_ready()` builds its body.
   query/send, lifetime, host/leave, update and audio services rather than copying
   the prototype's callbacks or request-status labels.
 
-## Payload budget
+## Woodland presentation and payload budget
 
-The audited **35 files total 109,128 bytes** on disk including scripts, UID/import
-metadata and Theme, not a packaged-game or GPU-memory estimate. The only standalone
-image file is the 192×192 RGBA original seal:
-**34,237 PNG file bytes / 147,456 decoded RGBA bytes**, displayed at 48px with
-transparent surround. Native StyleBoxFlat planes require no nine-slice texture;
-no additional font/image files or Blender ornaments. Packed Godot import
-formats, rendering cost/FPS/VRAM and target-game package overhead are unmeasured.
-Authoring `.blend`, fixture/test/tool bytes are not runtime payload. Source/output
-hashes are in `exploration-assets.json`; resource hashes are in `payload.json`.
+The same native scenes now share dark inset branch frames, cream serif text,
+parchment quoted cards, amber active/primary controls, green Ready, violet Pause,
+and native hover/pressed/disabled/2px blue focus feedback. Canonical ids, aliases,
+existing signals and local allocation/modal/scroll ownership are unchanged.
+`WatchUI.resource_icon(name)` returns an optional original atlas cell (unknown
+names return null); labels never depend on icons. `WatchUI.ornament(parent, width)`
+returns a fixed-aspect pointer/focus-inert TextureRect. `corner_ornament(panel, body)`
+uses a Canvas-only Sprite2D and hides itself unless 52px of spare body space remains.
+These are lightweight bindings inside the existing helpers, not replacement controls.
+
+The authoring HUD's native vertical section container reserves its footer and 16px
+separation, with stock/upkeep inside one bounded upper scroll owner. Variable copy
+remains readable/reachable rather than growing over footer hit targets. Construction
+keeps its separate native quote scroll and focus-follow. The Skill Tree tab opens
+the landed compact-tree host; historical Research stays separate. Demo resource,
+selected-building, turn/progress and cost values are illustrative supplied layout
+data, not a simulation or new gameplay authority.
+
+`payload.json` owns current total file bytes and hashes, including scripts, imports,
+Theme, four original editable SVG runtime copies and an unmodified DejaVu Serif
+font plus its redistribution license (`UI/fonts/LICENSE-DejaVu.txt`). The original
+192×192 RGBA seal remains **34,237 PNG / 147,456 decoded RGBA bytes**, displayed at
+48px with transparent surround; its Blender/PNG provenance is unchanged.
+Branch frame slices are 40px with 16px content margins. Parchment horizontal slices
+are 24px and vertical slices 16px; quoted cards reserve 14px horizontal / 6px vertical
+content padding. Fixed ornaments/seal/atlas cells are not sliced or stretched.
+
+Repository design/source owners: `docs/ui/woodland.md`, `docs/ui/woodland-art.json`,
+`sources/ui/woodland/` and the supplied `docs/ui/references/hud.png`. The supplied
+reference, manual authoring sources and preview fixtures are not runtime ZIP members.
+Portable SVG/font imports are regenerated by the receiving Godot project. Packed
+import sizes, rendering/FPS/VRAM and target-game overhead remain unmeasured; these
+file-byte totals are not GPU/performance certification. No Blender rebuild or
+runtime installer is required.
 
 ## Migration order and authority (later authorization only)
 

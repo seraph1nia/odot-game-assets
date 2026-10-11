@@ -72,7 +72,7 @@ def main():
               'files': manifest, 'log': (cache / 'load.log').relative_to(ROOT).as_posix(),
               'seal_file_bytes': (source / 'art/menu_seal.png').stat().st_size,
               'seal_rgba_bytes': 192 * 192 * 4,
-              'nine_slice': 'branch_frame: 40px protected corners / 16px content; parchment: 24px horizontal, 16px vertical corners / 6px card content; fixed seal and transparent ornaments are never sliced',
+              'nine_slice': 'branch_frame: 40px protected corners / 16px content; parchment: 24px horizontal, 16px vertical corners / 14px horizontal, 6px vertical card content; fixed seal and transparent ornaments are never sliced',
               'art_provenance': 'docs/ui/woodland-art.json',
               'total_file_bytes': sum(path.stat().st_size for path in source.rglob('*') if path.is_file())}
     (ROOT / 'docs/ui/payload.json').write_text(json.dumps(result, indent=2) + '\n')

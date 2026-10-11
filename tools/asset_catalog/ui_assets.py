@@ -15,7 +15,9 @@ PREVIEWS = 'docs/ui/catalog/previews.json'
 PACKAGE = 'exports/ui/ledger-ui.zip'
 DOCUMENTS = ('docs/ui/api.md', 'docs/ui/payload.json', 'docs/ui/inventory.json',
              'docs/ui/migration.json', 'docs/ui/coverage.md', PREVIEWS,
-             'docs/ui/exploration-assets.json')
+             'docs/ui/exploration-assets.json', 'docs/ui/woodland-art.json',
+             'docs/ui/woodland.md', 'docs/ui/woodland-diagnosis.md',
+             'docs/ui/woodland-validation.json')
 
 
 def digest(path):

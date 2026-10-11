@@ -1,0 +1,100 @@
+{
+  "captures": [
+    {
+      "height": 820,
+      "path": "hud-choices-1100x820.png",
+      "width": 1100
+    },
+    {
+      "height": 720,
+      "path": "hud-choices-1280x720.png",
+      "width": 1280
+    },
+    {
+      "height": 720,
+      "path": "hud-focus-1280x720.png",
+      "width": 1280
+    },
+    {
+      "height": 720,
+      "path": "hud-hover-1280x720.png",
+      "width": 1280
+    },
+    {
+      "height": 720,
+      "path": "hud-skill-tab-1280x720.png",
+      "width": 1280
+    },
+    {
+      "height": 720,
+      "path": "hud-choices-preparation-1280x720.png",
+      "width": 1280
+    }
+  ],
+  "checks": 422,
+  "failures": [],
+  "scope": "Standalone native controls; no game integration or native GPU claim",
+  "selection": "woodland",
+  "renderer": "OpenGL API 4.6 (Core Profile) Mesa 26.2.4-arch3.1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 23.1.1, 256 bits)",
+  "log": ".cache/ui/woodland-accepted-focused/tests.log",
+  "source_sha256": {
+    "UI/art/menu_seal.png": "cf3e2ceb4510be6d6a052e882597c2313216e2268a9aaa61fdf1d7e1308d2ced",
+    "UI/art/woodland/branch_frame.svg": "cb0aca39770e057cd90ec6fc021e80cc9a9961ea515cefeee34166684b5d91c0",
+    "UI/art/woodland/parchment_button.svg": "98398d1e0bc3f811bcc205a61726e30c2162d3159368e146f542203bfc674e5e",
+    "UI/art/woodland/resource_icons.svg": "5c6506c29d9b111f4c78633fcbf422fd28c15aea961d8aac36a578bd950138cd",
+    "UI/art/woodland/woodland_corners.svg": "bd285cb4c35641833689bbdf64364ff345ac0a9b9a8ee6715656a0c4839c6753",
+    "UI/components/army_roster.gd": "921f7dbdb8f7859e807fcf3655157886e9e90faed2957551aff9102a4088eeab",
+    "UI/components/army_roster.tscn": "0e0f0675c60fe152c65ab3bc3421a26a1da1f76baf8ffb1ad93f084e6262db02",
+    "UI/components/city_navigation.gd": "af62a4e98958567bf99e9c43bfbc67f9d749c5ece1c00b3405ffa0b770e7b024",
+    "UI/components/city_navigation.tscn": "18ecf9ae05484ada6b8f357946ebbf853dc0d4bdedbc60cc391334e2a63eec68",
+    "UI/components/match_controls.gd": "afeca8cd9f2b44c748e2aae51eb20dc7a90d136814d4d1528df898a4bc2ea3fa",
+    "UI/components/match_controls.tscn": "f22728bcd90f7a45289e2e939f30226fd6730cf9fac7285543e83cd81040f173",
+    "UI/components/modal.gd": "b97a2971f4b16e869dd6435cde13ff87f246d6266e0275fa1c2ab992479ddc8b",
+    "UI/components/modal.tscn": "6a5760a99e15c2b9739e55f8da11e152a004f5b71400352cf64071b9938db699",
+    "UI/components/quoted_action.gd": "5045e31ab3537603a691e20bf19c982a46895e11f65bbc317035a27b5611ba3e",
+    "UI/components/quoted_action.tscn": "a5cc1c72220fe5c3ba3ddbc704ede385b6aa5698c41c8fbc568b77fc64304214",
+    "UI/components/resource_ledger.gd": "82b7f6578053063bdfe2a266023f893d0bd4fdb6522308dab4246914dd799e74",
+    "UI/components/resource_ledger.tscn": "68d2a237795eb6da03109f48d806a357c4a267ca0bd36ce55aea5af3ce9b5ac2",
+    "UI/components/session_feedback.gd": "565c86855b59c72c47d901013bcc8ad79f2c947453a64816d487f9b247e0c927",
+    "UI/components/session_feedback.tscn": "c613eeaf9cf3ab0affb0e54a60822b80328c661b16b47b8dddb6a87c95b8ca42",
+    "UI/components/skill_tree.gd": "e979867a5260156271d44d731aefa720b76ca3b6555e09e6c5e513b33e329fc0",
+    "UI/components/skill_tree.tscn": "bc052ea039eb4be323910a542e76ae78214986acb62a2499d5b5293b6a98d5e3",
+    "UI/components/unit_inspection.gd": "037a8413120d1d3c703123220650eed4a7bf2032e26558ef9d7b0512bc4d8997",
+    "UI/components/unit_inspection.tscn": "248c17dbe9ceab0a3610dc2cba77b7066dd6cfb9f4f2c6bba6ed3bd19d24d6b0",
+    "UI/components/upkeep_summary.gd": "feb5832f8d06316b9a2b9e4f852b8839cba498c19c33d57d584f1b321fde1fb0",
+    "UI/components/upkeep_summary.tscn": "4e86a0129d5a1f1132d95bd0293b7e3c79a4bc783c0b4f3f6a5ebe019e88454e",
+    "UI/fonts/DejaVuSerif.ttf": "ae665174c5b7fdb9b457d112db098cbe651dff847bfcf8bcb711172856d0c6b1",
+    "UI/fonts/LICENSE-DejaVu.txt": "7a083b136e64d064794c3419751e5c7dd10d2f64c108fe5ba161eae5e5958a93",
+    "UI/theme/ledger.tres": "e5ee7852f2873c274155c363ec5b93c9d01f6ba9dcf81f69f7a0921726f46ca5",
+    "UI/ui_helpers.gd": "275d370115a6004c929908511943e44550f433bd82654fec7729e924b659a532",
+    "art/explorations/watch_seal.png": "7a07395d2407f0799c5a2605273834dfd6e5efaf2c86781c7d47c9365e67e973",
+    "catalog/capture.gd": "c6f5f1fbdfcaed4fd0838983014de8304ff6b50cdb639ca0e406e1c59f422da9",
+    "explorations/check_images.gd": "9c2715048a801241ce3d190f6e0f27364894aaa2458d341afdd45eddc2fa2941",
+    "explorations/comparison.gd": "f448c9737f72eacd40fa71710f0d4dca2a75396130d599e29ffb4391a436bded",
+    "explorations/comparison.tscn": "47ed72313a4d905d19704635499b6a7d95e42fca3d5315380b286f5f0c230804",
+    "project.godot": "3d586f6963e99721ff2736fba234ffe514ab849e109f500f489dace4054e4f8d",
+    "prototypes/details.gd": "f3c899e381b04dafcd57dd637e00f25503e916cb671e1847927631c6ce7bd727",
+    "prototypes/details.tscn": "9060c6bbd13b3470d16f121df102a49a534b33986b8fa598a0ab2c3c590d159b",
+    "prototypes/fixtures.gd": "f9149065cc7a0a68bd27fd9594b38ff1c108c4fb44b3ee3e25245087c6bd4fbd",
+    "prototypes/friends.gd": "c04a17705370b7942d9b39858ad0f3562bc9b3b8d8946eeef5c7242637b8e64e",
+    "prototypes/friends.tscn": "b969a6020833cceb4d1676766e7e46c8c034d6a0d788f8d1672ba9d2dfab4707",
+    "prototypes/menu.gd": "7243570c9ab460015632c6228669d452749aed07f33287dcedf78c4c47627575",
+    "prototypes/menu.tscn": "1b6d3bc8e9a9f70a7dc8caabd9b404200c0ad7283339c01f8d9b86aea6745dde",
+    "prototypes/research.gd": "8ca90ba503157e5e824374ae2d38ba0cd4e9de247ac5bff1356b3586fec8ebe4",
+    "prototypes/research.tscn": "188775b1e1159c5e6b1204542c8e3845871bd8886712f586f26ae4aff33bb7ac",
+    "prototypes/settings.gd": "da5e4cba6cf842dcd4aec0f6b1cf801c19c220bfb9215d4d056c3e0b62cf90c5",
+    "prototypes/settings.tscn": "47510d617af9fc62e837a5bf03bbe23856e96c04dd2d8b1a9151a2b6c95c19ca",
+    "prototypes/showcase.gd": "c5df799f65ae4fe755c487e4f23f0130bbaf2734595c7a1efb3a877afa36e8a3",
+    "prototypes/showcase.tscn": "61fa7e7503c1551e52fdd6c0737c9c5cd763cb9c8e90d4ab8be849e46e48af23",
+    "prototypes/skill_tree.gd": "da08aa2f7e4519dd001edbb2650533bdaf89ad38dbd53ec9463cd02aedbc1017",
+    "prototypes/skill_tree.tscn": "cc0b11eee07c113406f501487818d971011769c32f032ab6d81373c1dfa157f2",
+    "prototypes/town_hall.gd": "f29cafe69308325a263cc16be746e3d2a7daaf87bbd1b4158151a1446dc8f95c",
+    "prototypes/town_hall.tscn": "6bdeaaa84aedbdf3d30ba85bd78325d077ba355e677555336c8b4c472576ff12",
+    "tests/diagnose_settings.gd": "e48c74ec65d8b6d28f7a0c4724ce088e43b9919df33ba6861d9d966503fbafa8",
+    "tests/diagnose_settings.tscn": "ff87ed2d1a0d9996e3c6967c8a964e1e0bf0c8415b1e228bce75f96e2d686a51",
+    "tests/production_checks.gd": "7209f67ed0977775e03bf24644f12244105a0c03d8f08d2ae358bbc44cc45f28",
+    "tests/run_ui.gd": "7385e647703eebd75964f6c688afb3e60282e2e918b8bf7272bc234af45e1b38",
+    "tests/runner.tscn": "7fdc450da039307f630ab6afcd05c01ffb2d7ec5133f28006389ca5938d370fe",
+    "tests/skill_tree_checks.gd": "4a6143219cd755bf83f101620f3433b953fc01f96bc4a210decfbfaae320eaaa"
+  }
+}
