@@ -206,8 +206,12 @@
     "tools/ui/test_plan.py": "5efd49270f3dff3591aeb10dec93be88dc3edcb5cefd0c49086a08fb5da90061",
     "tools/ui/validate.py": "c563a7e17946bfe7f8be28e7526d0bc39ddd3abdc3305e1fa6dbd9ff920cd1d6"
   },
-  "package_sha256": "6795ad0e79a876f40af17a3e4bb5dc8959c82cf9e88fa32665f722d0e3f4d1ad",
+  "package_sha256": "9e33e478bd3ce329fd9ad892eb19858b84b1dc797fb8ff8aed3c23c8381df946",
   "package_check": "catalog/package-check.json",
+  "package_check_sha256": "0fedc8b12ca0c4f2da30f0cbed292a6c254a0f9c20be5fd804a841e4ce7f4917",
+  "package_qualification": "Reused native qualification by measured byte-identical relevant members; the current documentation-only ZIP was inspected, not independently loaded again. catalog/package-check.json owns changed-document/container measurements and the separately preserved native-load receipt.",
+  "prior_live_resize_validation": "production/woodland-live-resize-accepted/validation.json",
+  "prior_live_resize_validation_sha256": "dc9641a76199a10bb4861888abcbe0f8c6e52d58e74cc1a0bbc6a42f59fc8c92",
   "payload_manifest": "payload.json",
   "art_provenance": "woodland-art.json",
   "serial_os_checks": {
@@ -243,7 +247,7 @@
     "production/woodland-final-2/results.json",
     "production/woodland-reviewed/results.json"
   ],
-  "scope": "Native Controls, owned Xvfb/Compatibility/Mesa llvmpipe and independent headless UI-only/actual ZIP loading. No hardware GPU/FPS/VRAM, game integration, full localization/RTL, mobile, live-browser acceptance or deployment certification. Historical Ledger/compact-tree/browser bindings remain unchanged and do not certify edited inputs. Implementation HEAD is reported at commit/delivery rather than a self-referential hash inside its own content.",
+  "scope": "Retained Native Controls, owned Xvfb/Compatibility/Mesa llvmpipe and independent headless UI-only/previous-ZIP loading qualify unchanged runtime inputs. The documentation-only final ZIP has measured archive/member continuity, not a new native load. No hardware GPU/FPS/VRAM, game integration, full localization/RTL, mobile, live-browser acceptance or deployment certification. Historical Ledger/compact-tree/browser bindings remain unchanged and do not certify edited inputs. Implementation HEAD is reported at commit/delivery rather than a self-referential hash inside its own content.",
   "checks": 1395,
   "capture_count": 100,
   "focused": {
@@ -318,7 +322,7 @@
       "sha256": "ecf72f22ac206146e7e9d76f70c3bdce6864a73c96b1c8fc33a8b447b88aa7e7"
     }
   },
-  "package_bytes": 554641,
+  "package_bytes": 554750,
   "verified_toolchain": {
     "godot": {
       "path": "/home/bart/.local/share/mise/installs/godot-dotnet/4.7.2-stable/godot",
@@ -361,7 +365,7 @@
   "prior_hover_validation_sha256": "ec3e5e3151c7c5a5f9a34cdd4f6628cb4632e7e066b2e58b11a377b99b00ffe3",
   "historical_hover_payload": "catalog/woodland-hover-refreshed/payload.json",
   "historical_hover_package_check": "catalog/woodland-hover-refreshed/package-check.json",
-  "runtime_payload_scope": "Only authoring composition and native test driver changed. Fresh UI-only audit and independent final-ZIP load confirmed unchanged runtime file/member/package bytes; no prototype or test driver is a runtime member.",
+  "runtime_payload_scope": "The prior live-resize refresh changed only authoring composition and native test driver and independently loaded its ZIP. The later compact-tree focus documentation correction changes only api.md inside the regenerated ZIP. Read-only archive comparison confirmed every runtime/import/UID member, manifest, README, member name and entry metadata unchanged; current source/test-driver, evidence-owner and native tool-binary bindings also match. Existing native/capture/OS qualification is reused only for those unchanged inputs. Detailed measured continuity and changed-document hashes belong to catalog/package-check.json; no new native/test/environment execution is claimed.",
   "pre_fix_reproduction": {
     "record": "production/woodland-live-resize-before-fix/reproduction.json",
     "sha256": "2e7b8f38e865d4f696a44d1cedcdd923cb7a989b9e823b7b4d176b70fdd8c3dc",

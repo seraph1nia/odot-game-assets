@@ -100,14 +100,27 @@ focus, world-click counts and action requests. Progress keeps its rendering and
 uses native MOUSE_FILTER_PASS; footer/category/skill-tree and scroll assertions
 are unchanged.
 Serial owned XTest Settings/modal probes pass **11/0** and **64/0**, with zero world
-clicks. Independent UI-only loading checks ten scenes and 46 files, including the
-woodland art/font/license, original seal and skill purchase guards. The final
-catalog has 13 freshly bound native previews. The UI-only payload is 525106 file
-bytes; the deterministic ZIP is 554641 bytes, including 389476 bytes for the exact
-unmodified font/license. Its remaining 165165 bytes retain the original 200KB
-code/art/metadata budget; no arbitrary extra-art allowance is added. Decoded
-textures/glyph caches and GPU allocation are not measured. The actual generated ZIP is loaded
-separately and its exact member/package hashes remain in `catalog/package-check.json`.
+clicks. The retained independent UI-only native load checked ten scenes and 46
+runtime files, including the woodland art/font/license, original seal and skill
+purchase guards. The final catalog retains 13 source-bound native previews.
+The later compact-tree API focus correction changed only the ZIP's `api.md`;
+all runtime scenes/scripts/UIDs, Theme, fonts/license, art/import recipes,
+manifest and extraction/import guidance are measured byte-identical to that
+previously loaded package. Member names, order and entry metadata also match.
+The previous deterministic ZIP was reconstructed from its retained native-load
+extraction through the existing package owner, and its entire archive hash matched
+the original native receipt before comparing every member with the actual final ZIP.
+Native runtime qualification is therefore **reused by unchanged relevant inputs**,
+not a claim that the documentation-only final ZIP was independently loaded again.
+Current container/doc hashes, sizes, changed-member list and continuity measurements
+are owned by [catalog/package-check.json](catalog/package-check.json), which points
+to the preserved original native-load receipt. The remaining code/art/metadata
+bytes, excluding only the exact unmodified font/license, stay below the original
+200KB budget; no arbitrary extra-art allowance is added. Decoded textures/glyph
+caches and GPU allocation are not measured. Current source/test-driver, evidence
+owner and recorded native tool-binary bindings also match the retained campaigns;
+no new native captures, test counts or environment execution are claimed for this
+documentation-only correction. Required final pipeline lint/CI remains separate.
 
 The refreshed native-resolution review covers the two progress tooltip frames,
 same-window Production/Army and modal resize frames, default/narrow construction,
@@ -139,6 +152,9 @@ The same final native test driver was also run in an isolated worktree-local cop
 with only the pre-fix showcase restored: 19 expected failures included stale live
 breakpoints and pane overflow. That negative reproduction is retained at
 `production/woodland-live-resize-before-fix/`, not counted as current acceptance.
+The pre-documentation package selection is preserved at
+`production/woodland-live-resize-accepted/validation.json`; its original native
+package receipt remains at `catalog/woodland-live-resize-accepted/package-check.json`.
 
 The first refresh attempt could not start Godot because PATH exposed inactive mise
 shims; its log remains at `.cache/ui/woodland-progress-hover/import.log`. A later

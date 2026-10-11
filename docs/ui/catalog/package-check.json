@@ -1,5 +1,5 @@
 {
-  "package_sha256": "6795ad0e79a876f40af17a3e4bb5dc8959c82cf9e88fa32665f722d0e3f4d1ad",
+  "package_sha256": "9e33e478bd3ce329fd9ad892eb19858b84b1dc797fb8ff8aed3c23c8381df946",
   "files": {
     "UI/art/menu_seal.png": "cf3e2ceb4510be6d6a052e882597c2313216e2268a9aaa61fdf1d7e1308d2ced",
     "UI/art/menu_seal.png.import": "8f06dede6295eba269e542a904e5ae91904db6eafd43f5ed225f15713d584529",
@@ -48,11 +48,59 @@
     "UI/ui_helpers.gd": "275d370115a6004c929908511943e44550f433bd82654fec7729e924b659a532",
     "UI/ui_helpers.gd.uid": "b5cfd062d51df5ee0c263019b8a87ceb9020684fd17e5c6640c3cb28a693ae0d"
   },
-  "checks": "All ten scenes instantiated/ready, skill purchase guards exercised, woodland Theme/SVG decorations/serif font and original seal loaded in independent project; no prototypes/game/tools/cache history copied",
-  "engine": "4.7.2.stable.mono.official.ed1daf0bf",
-  "logs": [
-    ".cache/ui-catalog-package/woodland-live-resize-accepted/import.log",
-    ".cache/ui-catalog-package/woodland-live-resize-accepted/load.log",
-    ".cache/ui-catalog-package/woodland-live-resize-accepted/version.log"
-  ]
+  "checks": "Read-only archive inspection measured byte-identical runtime, manifest, entry guidance and member metadata; only the api.md focus-style pointer changed. Previous native qualification is reused, not a native run on this ZIP.",
+  "package_bytes": 554750,
+  "native_qualification": "Reused by measured unchanged runtime/member inputs; no native load was run on this documentation-only ZIP.",
+  "reused_native_load": {
+    "receipt": "woodland-live-resize-accepted/package-check.json",
+    "receipt_sha256": "4247214c53e26c289e826fb824c20e21e889602a2e818000b9504c4763e2d5e3",
+    "package_sha256": "6795ad0e79a876f40af17a3e4bb5dc8959c82cf9e88fa32665f722d0e3f4d1ad",
+    "package_bytes": 554641
+  },
+  "member_continuity": {
+    "method": "Reconstructed previous deterministic ZIP through tools/asset_catalog/ui_assets.py::package_bytes from retained independently loaded extraction; its whole-archive SHA-256 equals the native receipt. Read and compared every previous/current archive member byte and entry metadata, not just hashes or counts.",
+    "previous_extraction": ".cache/ui-catalog-package/woodland-live-resize-accepted/",
+    "current_archive": "exports/ui/ledger-ui.zip",
+    "published_archive": "dist/catalog/exports/ui/ledger-ui.zip",
+    "published_archive_byte_identical": true,
+    "member_count": 49,
+    "unchanged_runtime_member_count": 46,
+    "runtime_member_sha256_owner": "files",
+    "unchanged_non_runtime_members": {
+      "manifest.json": "341e47e64bbf6a816281871842ef0e4f123932720aa7d61e34f1a64efc596407",
+      "README.txt": "f85618d68f6a1163b10aa88f52ce332683b309357f3b91393ebdbe98536ffcb2"
+    },
+    "member_names_order_and_entry_metadata_identical": true,
+    "entry_metadata_compared": [
+      "filename",
+      "date_time",
+      "compress_type",
+      "create_system",
+      "create_version",
+      "extract_version",
+      "flag_bits",
+      "internal_attr",
+      "external_attr",
+      "extra",
+      "comment"
+    ],
+    "changed_documentation_members": [
+      {
+        "path": "api.md",
+        "previous_sha256": "d0e407056e5ab214e7032bc473e6da35d3938696fa7511c4411284aeda78208a",
+        "current_sha256": "73c7f22ad02859e10d0ab1f69a6ca9cdeebbe323b2340a084fee1a77f80139b8",
+        "previous_bytes": 17516,
+        "current_bytes": 17625
+      }
+    ],
+    "entry_semantics": "Same res://UI/ namespace and complete manifest file map; same README extraction/import instructions; no project.godot, shaders, prototypes, test drivers, tools or caches added. All UI scene/script/UID, Theme, font/license, art and import recipes are byte-identical; the independent loader generates the same project.godot/probe from unchanged owners.",
+    "native_logs_sha256": {
+      ".cache/ui-catalog-package/woodland-live-resize-accepted/import.log": "64eb8c09a9da8e16a75ac2b4ff7891951ef1382293c0f70d325f8617c721f302",
+      ".cache/ui-catalog-package/woodland-live-resize-accepted/load.log": "44bb10e4587addd17c593cf27b2dce53c2165acee912a5b015f6ed6599834f21",
+      ".cache/ui-catalog-package/woodland-live-resize-accepted/version.log": "0e0e71b31bada9dad0d5bec80e325e3579cfb2e36885ab03221a9338525cb51b"
+    },
+    "independent_project_sha256": "3b12e189e45b05aa6cf533a0455d741fc59d078dd37aecc0309dca5caeebe9cd",
+    "independent_probe_sha256": "f966ca8f43183b0e9d6dd52818d0d71502c16a4e28435a79da3963487d8f37d5",
+    "relevant_input_scope": "Both selected native campaigns retain all 58 current source/test-driver hashes; all woodland-validation tools_sha256 and verified_toolchain binary hashes matched current files. Existing runtime/capture/OS evidence is reused without new counts, captures, native loading or environment execution; no new environment qualification is claimed."
+  }
 }

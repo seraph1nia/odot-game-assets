@@ -69,9 +69,9 @@ dependencies, generator, identities, image bytes or measured dimensions.
 
 [`previews.json`](previews.json) owns the current capture selection, dimensions,
 resource/host/generator bindings and image hashes; per-run manifests preserve
-previous selections. [`package-check.json`](package-check.json) binds the actual
-ten-scene generated ZIP independently loaded in a UI-only project, including
-woodland Theme/art/font, original seal and skill purchase guards.
+previous selections. [`package-check.json`](package-check.json) owns current ZIP
+selection, measured member continuity and the separate preserved native-load
+receipt; it distinguishes archive inspection from direct native loading.
 [Woodland acceptance](../woodland.md#current-acceptance-and-visual-review) owns the
 current native campaign and visual-review scope, with exact bindings in
 [woodland-validation.json](../woodland-validation.json).
