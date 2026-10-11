@@ -1,0 +1,118 @@
+{
+	"captures": [
+		{
+			"height": 820,
+			"path": "worldtree-A-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "worldtree-B-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "worldtree-C-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "worldtree-D-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 720,
+			"path": "worldtree-A-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "worldtree-B-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "worldtree-C-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "worldtree-D-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 900,
+			"path": "worldtree-A-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "worldtree-B-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "worldtree-C-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 900,
+			"path": "worldtree-D-1600x900.png",
+			"width": 1600
+		},
+		{
+			"height": 1080,
+			"path": "worldtree-A-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "worldtree-B-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "worldtree-C-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "worldtree-D-1920x1080.png",
+			"width": 1920
+		},
+		{
+			"height": 720,
+			"path": "worldtree-transition-before-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "worldtree-transition-in-flight-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "worldtree-transition-after-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "worldtree-30-icon-library-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "worldtree-showcase-1280x720.png",
+			"width": 1280
+		}
+	],
+	"checks": 2231,
+	"failures": [
+		"switch-to Worldtree disabled footer forward escape to host",
+		"switch-to Worldtree disabled footer forward escape to host",
+		"direct Worldtree disabled footer forward escape to host",
+		"direct Worldtree disabled footer forward escape to host"
+	],
+	"scope": "Standalone native controls; no game integration or native GPU claim",
+	"selection": "worldtree"
+}

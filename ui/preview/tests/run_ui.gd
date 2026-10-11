@@ -53,14 +53,16 @@ func expect(condition: bool, name: String) -> void:
 		failures.append(name)
 		push_error("UI assertion: " + name)
 
-func key(code: Key) -> void:
+func key(code: Key, shift: bool = false) -> void:
 	var event = InputEventKey.new()
 	event.keycode = code
+	event.shift_pressed = shift
 	event.pressed = true
 	Input.parse_input_event(event)
 	await frames(2)
 	event = InputEventKey.new()
 	event.keycode = code
+	event.shift_pressed = shift
 	event.pressed = false
 	Input.parse_input_event(event)
 	await frames(2)

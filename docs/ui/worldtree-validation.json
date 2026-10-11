@@ -1,5 +1,13 @@
 {
   "schema_version": 1,
+  "qualification_status": {
+    "submitted_receipts": "Retained pre-review evidence; source, runtime and package hashes below identify tested historical inputs, not the changed worktree",
+    "changed_inputs": ["ui/preview/UI/components/worldtree.gd", "ui/preview/prototypes/showcase.gd", "ui/preview/tests/worldtree_checks.gd", "ui/preview/tests/run_ui.gd"],
+    "review_focused_results": "production/worldtree-review-fixes-2/results.json",
+    "review_focused_binding": "production/worldtree-review-fixes-2/review-binding.json",
+    "review_failed_attempt": "production/worldtree-review-fixes/failure-binding.json",
+    "current_acceptance": "Pending outer-pipeline full-source, UI-only, catalog and actual generated-ZIP refresh; do not rebind old execution to changed inputs"
+  },
   "scope": "Additive standalone artwork/presentation only; no main-game process, adapter, economy, progression reward, multiplayer or Blender rebuild",
   "results": "production/worldtree-ready/results.json",
   "results_sha256": "6ba17317b8a2768c1c47c8c5d42a423e7d46bfb66ad76376b352b4dfe22a0c37",

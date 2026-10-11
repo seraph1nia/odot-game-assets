@@ -1,6 +1,7 @@
 extends Control
 # Standalone composition host: all actions are mock intents, never gameplay.
 var screen_mode = "hud"
+var content_mode = "hud"
 var state = "building"
 var selection = "Empty plot"
 var selected_heading: Label
@@ -100,6 +101,7 @@ func sync_selectors() -> void:
 	select_value(find_child("StateSelector", true, false), state.capitalize())
 
 func build_content() -> void:
+	content_mode = screen_mode if screen_mode in ["hud", "menu", "worldtree"] else "hud"
 	sync_selectors()
 	var area = $Layout.get_child(0).get_node("Content")
 	WatchUI.clear(area)
@@ -343,8 +345,9 @@ func open_dialog(kind: String, opener: Control = null) -> void:
 	dialog.name = "PreviewDialog"
 	dialog.title = kind.capitalize().replace("_", " ")
 	dialog.invoker = dialog_opener
+	var underlying_screen = content_mode
 	dialog.closed.connect(func():
-		screen_mode = "hud" if is_instance_valid(ledger) else "menu"
+		screen_mode = underlying_screen
 		sync_selectors())
 	add_child(dialog)
 	var scroll = dialog.get_content()

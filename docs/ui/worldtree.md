@@ -101,7 +101,30 @@ failures/intermediates and historical woodland accepted evidence are preserved,
 not rebound onto changed source. Re-encoded private image-review copies are only
 for inspection transport; original native screenshots retain their exact hashes.
 
-## Current measured acceptance
+## Review-fix qualification boundary
+
+The review fixes preserve the actual underlying showcase screen on dialog closure
+and remove the non-modal Worldtree focus wrap. Internal node order is retained;
+empty boundary links leave Tab/Shift-Tab escape and re-entry to the native host,
+including when the request footer is disabled. The focused executable checks now
+exercise both directions in the actual showcase, enabled→disabled footer changes,
+direct and switch-to Worldtree Settings closure, native Close/Escape, invoker
+restoration and dialog replacement. Snapshot, pointer, icon, animation and render
+coverage remains in the same focused campaign.
+
+The submitted receipts below qualify their recorded pre-fix inputs only, not the
+changed runtime or host. Fresh review-focused results use
+`production/worldtree-review-fixes-2/results.json`, separately from prior failures
+and accepted evidence. The first review-focused attempt is preserved at
+`production/worldtree-review-fixes/` with its four disabled-footer forward-escape
+failures and measured failing-input hashes in `failure-binding.json`. Its native
+Tab sequence exposed that disabling a Button does not remove `FOCUS_ALL`; the
+footer now also loses native focusability while disabled and regains it when
+available. The outer pipeline must refresh full-source qualification,
+UI-only loading, catalog and actual generated-ZIP receipts before claiming current
+acceptance. Do not update old source hashes or relabel prior package execution.
+
+## Submitted measured acceptance (before review fixes)
 
 `production/worldtree-ready/results.json`: **3220 checks / zero failures / 121
 actual captures** = the retained 1395-check/100-frame standalone regression plus
@@ -137,8 +160,10 @@ entire generated ZIP are bound in `worldtree-validation.json`.
 
 Preserved failures/diagnosis are independent of final acceptance: the first
 keyboard-route campaign exposed Godot's geometric fallback from an explicitly
-disabled focus target (two assertions). Native enabled/disabled routes now remain
-explicit, with real available-footer Tab/Enter and disabled-wrap witnesses. An
+disabled focus target (two assertions). The submitted enabled/disabled routes remained
+explicit, with real available-footer Tab/Enter and disabled-wrap witnesses. Those
+wrap assertions described the old confined component, not host escape; the review
+fix replaces them with actual showcase boundary traversal in both directions. An
 earlier mechanically passing showcase image had a stale A caption while showing
 D; inspection caught it, the stage picker was synchronized, and both stage/D and
 demo/C assertions plus a fresh correct-caption picture now pass. The original
@@ -158,6 +183,7 @@ localization/RTL/HiDPI or arbitrary small windows. Future Godot exports must inc
 the entire UI resource set and the two runtime JSON files in the non-resource
 export filter; selective-scene/PCK export is not qualified by raw-project loading.
 UI-only and generated-ZIP
-loaders qualify the actual current package separately; headless loading/input
+loaders must qualify the changed package separately; retained submitted receipts
+qualify only their recorded inputs. Headless loading/input
 never substitutes for native rendered image inspection. References, authoring
 sources, prototypes, tests and caches are never portable runtime dependencies.

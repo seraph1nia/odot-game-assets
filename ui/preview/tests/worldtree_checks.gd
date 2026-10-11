@@ -69,13 +69,10 @@ func run() -> void:
 	runner.expect(get_viewport().gui_get_focus_owner() == tree.action and tree.snapshot.selected == "secondary_left_a", "native Tab reaches request footer without changing inspected available node")
 	await runner.key(KEY_ENTER)
 	runner.expect(requests == ["secondary_left_a","secondary_left_a"] and tree.snapshot == before, "native keyboard request emits intent only")
-	await runner.key(KEY_TAB)
-	runner.expect(get_viewport().gui_get_focus_owner() == tree.buttons.root, "native Tab returns from footer to tree")
 	tree.buttons.terminal_right_b_2.grab_focus()
 	await runner.key(KEY_ENTER)
 	runner.expect(tree.snapshot.selected == "terminal_right_b_2", "native Enter inspects dormant terminal")
-	await runner.key(KEY_TAB)
-	runner.expect(get_viewport().gui_get_focus_owner() == tree.buttons.root, "native stable Tab traverses all nodes")
+	tree.buttons.root.grab_focus()
 	await runner.key(KEY_ENTER)
 	runner.expect(tree.snapshot.selected == "root" and tree.action.disabled, "acquired root inspectable, action disabled")
 	var valid = fixture(tree,2)
@@ -165,6 +162,7 @@ func run() -> void:
 	await runner.frames(8)
 	var demo = runner.ui.get_node("Layout").get_child(0).get_node("Content").get_child(0)
 	runner.expect(demo.tree.buttons.size() == 24, "existing showcase discovers additive standalone Worldtree")
+	await check_host(runner.ui, demo, "switch-to Worldtree")
 	demo.show_stage(3)
 	runner.expect(demo.picker.selected == 3, "demo stage selector matches externally shown family")
 	await runner.frames(4)
@@ -173,8 +171,91 @@ func run() -> void:
 	await get_tree().create_timer(.5).timeout
 	runner.expect(demo.tree.awakening_id == "secondary_left_a" and demo.tree.edges.secondary_left_a.sap.progress > 0, "native showcase demo button drives real child transition")
 	runner.expect(demo.picker.selected == 2, "child demonstration synchronizes baseline stage selector")
+	runner.ui.hide()
+	var direct = preload("res://prototypes/showcase.tscn").instantiate()
+	direct.screen_mode = "worldtree"
+	runner.add_child(direct)
+	await runner.frames(8)
+	var direct_demo = direct.get_node("Layout").get_child(0).get_node("Content").get_child(0)
+	await check_host(direct, direct_demo, "direct Worldtree")
+	direct.queue_free()
+	await runner.frames()
+	runner.ui.show()
+	for mode in ["menu", "hud"]:
+		runner.ui.switch_screen(mode)
+		await runner.frames(8)
+		await check_settings(runner.ui, mode, "Settings over " + mode)
 	runner.ui.switch_screen("hud")
 	await runner.frames(8)
+
+func check_settings(host: Control, mode: String, label: String) -> void:
+	var settings = host.find_child("Settings", true, false)
+	var selector = host.find_child("ScreenSelector", true, false)
+	var area = host.get_node("Layout").get_child(0).get_node("Content")
+	var children = area.get_children()
+	for escape in [false, true]:
+		await runner.click(settings)
+		runner.expect(host.dialog.visible, label + " native opener shows dialog")
+		if escape: await runner.key(KEY_ESCAPE)
+		else: await runner.click(host.dialog.get_ok_button())
+		runner.expect(not host.dialog.visible and host.screen_mode == mode, label + " close preserves underlying screen")
+		runner.expect(selector.get_item_text(selector.selected) == mode.capitalize(), label + " selector matches underlying screen")
+		runner.expect(area.get_children() == children, label + " content identities survive dialog close")
+		runner.expect(get_viewport().gui_get_focus_owner() == settings, label + " native invoker focus restored")
+		host.close_dialog()
+	await runner.click(settings)
+	host.open_dialog("friends", settings)
+	await runner.frames()
+	await runner.key(KEY_ESCAPE)
+	runner.expect(host.screen_mode == mode and area.get_children() == children, label + " dialog replacement preserves underlying screen")
+	host.close_dialog()
+
+func check_host(host: Control, demo: Control, label: String) -> void:
+	await check_settings(host, "worldtree", label)
+	var tree = demo.tree
+	var ids: Array = tree.definitions.keys()
+	var settings = host.find_child("Settings", true, false)
+	var screens = host.find_child("ScreenSelector", true, false)
+	var states = host.find_child("StateSelector", true, false)
+	var demonstration = demo.get_child(0).get_child(1)
+	for selected in ["root", "secondary_left_a", "root"]:
+		var value = fixture(tree, 2)
+		value.selected = selected
+		tree.set_data(value)
+		var before = tree.snapshot.duplicate(true)
+		var enabled: bool = selected == "secondary_left_a"
+		var context = label + (" enabled footer" if enabled else " disabled footer")
+		tree.buttons[ids[0]].grab_focus()
+		for id in ids.slice(1):
+			await runner.key(KEY_TAB)
+			runner.expect(get_viewport().gui_get_focus_owner() == tree.buttons[id], context + " ordered forward " + id)
+		if enabled:
+			await runner.key(KEY_TAB)
+			runner.expect(get_viewport().gui_get_focus_owner() == tree.action, context + " terminal reaches footer")
+		await runner.key(KEY_TAB)
+		runner.expect(get_viewport().gui_get_focus_owner() == settings, context + " forward escape to host")
+		await runner.key(KEY_TAB, true)
+		runner.expect(get_viewport().gui_get_focus_owner() == (tree.action if enabled else tree.buttons[ids[-1]]), context + " backward re-entry from host")
+		if enabled:
+			await runner.key(KEY_TAB, true)
+			runner.expect(get_viewport().gui_get_focus_owner() == tree.buttons[ids[-1]], context + " footer returns to terminal")
+		var reverse = ids.slice(0, -1)
+		reverse.reverse()
+		for id in reverse:
+			await runner.key(KEY_TAB, true)
+			runner.expect(get_viewport().gui_get_focus_owner() == tree.buttons[id], context + " ordered backward " + id)
+		await runner.key(KEY_TAB, true)
+		runner.expect(get_viewport().gui_get_focus_owner() == demonstration, context + " backward escape to host")
+		await runner.key(KEY_TAB)
+		runner.expect(get_viewport().gui_get_focus_owner() == tree.buttons[ids[0]], context + " forward re-entry from host")
+		await runner.key(KEY_TAB, true)
+		for control in [demo.picker, states, screens, settings]:
+			await runner.key(KEY_TAB, true)
+			runner.expect(get_viewport().gui_get_focus_owner() == control, context + " backward host navigation " + control.name)
+		for control in [screens, states, demo.picker, demonstration, tree.buttons[ids[0]]]:
+			await runner.key(KEY_TAB)
+			runner.expect(get_viewport().gui_get_focus_owner() == control, context + " forward host navigation " + control.name)
+		runner.expect(tree.snapshot == before, context + " traversal cannot change inspection or acquisition")
 
 func merge(value: Dictionary, replacement: Dictionary) -> Dictionary:
 	var result = value.duplicate(true)

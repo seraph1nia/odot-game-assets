@@ -92,8 +92,8 @@ func _ready() -> void:
 	# Stable native traversal, including all dormant nodes. No custom key handler.
 	var ids: Array = definitions.keys()
 	for i in range(ids.size()):
-		buttons[ids[i]].focus_next = buttons[ids[(i+1)%ids.size()]].get_path()
-		buttons[ids[i]].focus_previous = buttons[ids[(i-1+ids.size())%ids.size()]].get_path()
+		if i < ids.size()-1: buttons[ids[i]].focus_next = buttons[ids[i+1]].get_path()
+		if i > 0: buttons[ids[i]].focus_previous = buttons[ids[i-1]].get_path()
 	var row = HBoxContainer.new()
 	row.name = "SelectedNodeFooter"
 	row.position = Vector2(22, size.y-62)
@@ -104,14 +104,13 @@ func _ready() -> void:
 	row.add_child(footer)
 	action = Button.new()
 	action.text = "Request awakening"
+	action.disabled = true
+	action.focus_mode = Control.FOCUS_NONE
 	action.pressed.connect(request_action)
 	row.add_child(action)
 	# Focus alone previews the native focus ring; Enter inspects. Preserve selection
 	# while tabbing so the footer's intent button remains keyboard reachable.
-	buttons[ids[-1]].focus_next = action.get_path()
-	buttons[ids[0]].focus_previous = action.get_path()
 	action.focus_previous = buttons[ids[-1]].get_path()
-	action.focus_next = buttons[ids[0]].get_path()
 	resized.connect(layout_tree)
 	layout_tree()
 	if not snapshot.is_empty():
@@ -120,7 +119,6 @@ func _ready() -> void:
 	else:
 		canvas.hide()
 		points_label.text = "Skill Points —"
-		action.disabled = true
 
 func picture(parent: Node, key: String, pos: Vector2, dimensions: Vector2) -> TextureRect:
 	var p = TextureRect.new()
@@ -202,11 +200,9 @@ func refresh_selection() -> void:
 	var id: String = snapshot.selected
 	footer.text = snapshot.icons[id].replace("_", " ").capitalize() + " · " + node_state(id).capitalize() + "\n" + id + " · visual preview only"
 	action.disabled = node_state(id) != "available"
-	# Godot falls back geometrically for an explicit disabled target rather than
-	# following its next path. Keep the enabled native route explicit in both states.
+	action.focus_mode = Control.FOCUS_NONE if action.disabled else Control.FOCUS_ALL
 	var ids: Array = definitions.keys()
-	buttons[ids[-1]].focus_next = buttons[ids[0]].get_path() if action.disabled else action.get_path()
-	buttons[ids[0]].focus_previous = buttons[ids[-1]].get_path() if action.disabled else action.get_path()
+	buttons[ids[-1]].focus_next = NodePath() if action.disabled else action.get_path()
 
 func refresh() -> void:
 	points_label.text = "Skill Points  " + str(snapshot.points)
