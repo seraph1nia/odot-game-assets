@@ -100,8 +100,9 @@ tree.set_data({"points": 3, "owned": [],
   respec, currency conversion, save or asynchronous game command system.
 - Links: muted = parent missing; amber = parent met (including insufficient
   points); thick teal = owned. Node text states the distinction; pressed styling
-  marks selection and a teal outline marks native keyboard focus. All choices
-  remain readable independently of color.
+  marks selection; native keyboard-focus styling is owned by the
+  [woodland visual rules](woodland.md#visual-rules-and-editable-ownership), distinct
+  from owned-link styling. All choices remain readable independently of color.
 - Tab/Shift-Tab and Enter use Godot's native focus/activation. The fixed 960×550
   graph has its own two-axis `ScrollContainer` with `follow_focus`; narrow hosts
   clip/scroll the graph instead of shrinking text. Initial/replaced snapshots
