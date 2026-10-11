@@ -120,9 +120,18 @@ and accepted evidence. The first review-focused attempt is preserved at
 failures and measured failing-input hashes in `failure-binding.json`. Its native
 Tab sequence exposed that disabling a Button does not remove `FOCUS_ALL`; the
 footer now also loses native focusability while disabled and regains it when
-available. The outer pipeline must refresh full-source qualification,
-UI-only loading, catalog and actual generated-ZIP receipts before claiming current
-acceptance. Do not update old source hashes or relabel prior package execution.
+available. Current shipping qualification is recorded in
+`catalog/worldtree-shipping-refresh/shipping-check.json`: the retained focused
+campaign's complete measured source map matches current inputs; fresh UI-only
+loading, 14 native catalog views, the real catalog build and direct loading of
+`exports/ui/ledger-ui.zip` all pass. The shipping ZIP and static copy are entirely
+byte-identical. All 14 fresh catalog PNGs match the pre-review images; the
+Worldtree, HUD and menu images were also reopened. Current source/package bindings
+in `worldtree-validation.json` select the **2231-check/21-capture focused** campaign,
+not a new full regression. The original full-campaign binding, payload, previews
+and package receipt remain unchanged under `catalog/worldtree-pre-review/`.
+No historical execution is relabeled, and no new full-suite/browser/PCK/game
+qualification is claimed.
 
 ## Submitted measured acceptance (before review fixes)
 
@@ -182,8 +191,8 @@ native GPU performance/FPS/VRAM, physical desktop input, game integration,
 localization/RTL/HiDPI or arbitrary small windows. Future Godot exports must include
 the entire UI resource set and the two runtime JSON files in the non-resource
 export filter; selective-scene/PCK export is not qualified by raw-project loading.
-UI-only and generated-ZIP
-loaders must qualify the changed package separately; retained submitted receipts
-qualify only their recorded inputs. Headless loading/input
+The fresh UI-only and generated-ZIP
+loaders separately qualify the changed shipping package; retained submitted
+receipts qualify only their recorded inputs. Headless loading/input
 never substitutes for native rendered image inspection. References, authoring
 sources, prototypes, tests and caches are never portable runtime dependencies.

@@ -165,7 +165,7 @@
     "components/upkeep_summary.gd": "feb5832f8d06316b9a2b9e4f852b8839cba498c19c33d57d584f1b321fde1fb0",
     "components/upkeep_summary.gd.uid": "1900afce66dde13b75468a896a5f3d7ac3ea15f5c90235f9e18411d66bdc8aca",
     "components/upkeep_summary.tscn": "4e86a0129d5a1f1132d95bd0293b7e3c79a4bc783c0b4f3f6a5ebe019e88454e",
-    "components/worldtree.gd": "f0e58b6f7cd1aa0a6fdbdd4806a4e8d6d5602953d10f6c298908a82cf42d411b",
+    "components/worldtree.gd": "a8392bf39f46d1d2e84312a50bc87665c62a1be34dc03973f7fce72ab154dcb0",
     "components/worldtree.gd.uid": "3638585aa21fe229ab9eb4363c23591cdc50910f85b12e2e4944099f04b3fd2c",
     "components/worldtree.tscn": "f9c18f707e0aa222d23f934172caf02637b825d18c65737c17f27dd2ea0b3480",
     "components/worldtree_branch.gd": "cdfd67aa07bc761cce5cad119dfb947106e09d9111a700004261e5cd9db7d0c5",
@@ -177,10 +177,10 @@
     "ui_helpers.gd": "275d370115a6004c929908511943e44550f433bd82654fec7729e924b659a532",
     "ui_helpers.gd.uid": "b5cfd062d51df5ee0c263019b8a87ceb9020684fd17e5c6640c3cb28a693ae0d"
   },
-  "log": ".cache/ui-payload/worldtree-ready/load.log",
+  "log": ".cache/ui-payload/worldtree-shipping-refresh/load.log",
   "seal_file_bytes": 34237,
   "seal_rgba_bytes": 147456,
   "nine_slice": "branch_frame: 40px protected corners / 16px content; parchment: 24px horizontal, 16px vertical corners / 14px horizontal, 6px vertical card content; fixed seal and transparent ornaments are never sliced",
   "art_provenance": "docs/ui/woodland-art.json",
-  "total_file_bytes": 715087
+  "total_file_bytes": 714772
 }

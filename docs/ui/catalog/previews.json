@@ -7,12 +7,12 @@
   "generator": "tools/ui/capture_catalog.py",
   "generator_sha256": "b143855a11b363b0141510f90e359138a0e7295ec5f69d33f1aa9497de45ab26",
   "logs": [
-    ".cache/ui-catalog/worldtree-ready/focused.log",
-    ".cache/ui-catalog/worldtree-ready/hud.log",
-    ".cache/ui-catalog/worldtree-ready/import.log",
-    ".cache/ui-catalog/worldtree-ready/start-menu.log",
-    ".cache/ui-catalog/worldtree-ready/version.log",
-    ".cache/ui-catalog/worldtree-ready/xvfb.log"
+    ".cache/ui-catalog/worldtree-shipping-refresh/focused.log",
+    ".cache/ui-catalog/worldtree-shipping-refresh/hud.log",
+    ".cache/ui-catalog/worldtree-shipping-refresh/import.log",
+    ".cache/ui-catalog/worldtree-shipping-refresh/start-menu.log",
+    ".cache/ui-catalog/worldtree-shipping-refresh/version.log",
+    ".cache/ui-catalog/worldtree-shipping-refresh/xvfb.log"
   ],
   "source_sha256": {
     "ui/preview/project.godot": "3d586f6963e99721ff2736fba234ffe514ab849e109f500f489dace4054e4f8d",
@@ -170,7 +170,7 @@
     "ui/preview/UI/components/unit_inspection.tscn": "248c17dbe9ceab0a3610dc2cba77b7066dd6cfb9f4f2c6bba6ed3bd19d24d6b0",
     "ui/preview/UI/components/upkeep_summary.gd": "feb5832f8d06316b9a2b9e4f852b8839cba498c19c33d57d584f1b321fde1fb0",
     "ui/preview/UI/components/upkeep_summary.tscn": "4e86a0129d5a1f1132d95bd0293b7e3c79a4bc783c0b4f3f6a5ebe019e88454e",
-    "ui/preview/UI/components/worldtree.gd": "f0e58b6f7cd1aa0a6fdbdd4806a4e8d6d5602953d10f6c298908a82cf42d411b",
+    "ui/preview/UI/components/worldtree.gd": "a8392bf39f46d1d2e84312a50bc87665c62a1be34dc03973f7fce72ab154dcb0",
     "ui/preview/UI/components/worldtree.tscn": "f9c18f707e0aa222d23f934172caf02637b825d18c65737c17f27dd2ea0b3480",
     "ui/preview/UI/components/worldtree_branch.gd": "cdfd67aa07bc761cce5cad119dfb947106e09d9111a700004261e5cd9db7d0c5",
     "ui/preview/UI/fonts/DejaVuSerif.ttf": "ae665174c5b7fdb9b457d112db098cbe651dff847bfcf8bcb711172856d0c6b1",
@@ -189,7 +189,7 @@
     "ui/preview/prototypes/research.tscn": "188775b1e1159c5e6b1204542c8e3845871bd8886712f586f26ae4aff33bb7ac",
     "ui/preview/prototypes/settings.gd": "da5e4cba6cf842dcd4aec0f6b1cf801c19c220bfb9215d4d056c3e0b62cf90c5",
     "ui/preview/prototypes/settings.tscn": "47510d617af9fc62e837a5bf03bbe23856e96c04dd2d8b1a9151a2b6c95c19ca",
-    "ui/preview/prototypes/showcase.gd": "20cd95fa4959fa04e5c36596bb742b5293503df3b0c1e019b4410c61d3244fed",
+    "ui/preview/prototypes/showcase.gd": "a140cc789e337c88ef66660e30e249df3a982f57b355905e80148ac82eddd6d8",
     "ui/preview/prototypes/showcase.tscn": "61fa7e7503c1551e52fdd6c0737c9c5cd763cb9c8e90d4ab8be849e46e48af23",
     "ui/preview/prototypes/skill_tree.gd": "da08aa2f7e4519dd001edbb2650533bdaf89ad38dbd53ec9463cd02aedbc1017",
     "ui/preview/prototypes/skill_tree.tscn": "cc0b11eee07c113406f501487818d971011769c32f032ab6d81373c1dfa157f2",
@@ -202,7 +202,7 @@
   "entries": {
     "theme": {
       "resource": "ui/preview/UI/theme/ledger.tres",
-      "path": "docs/ui/catalog/worldtree-ready/theme.png",
+      "path": "docs/ui/catalog/worldtree-shipping-refresh/theme.png",
       "sha256": "22977e85328cfaf57d428efcc077c97e4695d63e6cd65d1c6e19c9796f491f06",
       "width": 640,
       "height": 480,
@@ -213,7 +213,7 @@
     },
     "resource-table": {
       "resource": "ui/preview/UI/components/resource_ledger.tscn",
-      "path": "docs/ui/catalog/worldtree-ready/resource-table.png",
+      "path": "docs/ui/catalog/worldtree-shipping-refresh/resource-table.png",
       "sha256": "c18e83cac5aa0fabb34b07d25b451df45054a055bf53e1ce5772cd8dd13e8817",
       "width": 640,
       "height": 480,
@@ -224,7 +224,7 @@
     },
     "upkeep": {
       "resource": "ui/preview/UI/components/upkeep_summary.tscn",
-      "path": "docs/ui/catalog/worldtree-ready/upkeep.png",
+      "path": "docs/ui/catalog/worldtree-shipping-refresh/upkeep.png",
       "sha256": "fadc9faefdfa0066b57379d630be974184efddf40eefa3a533f4720b5aed49b7",
       "width": 640,
       "height": 480,
@@ -235,7 +235,7 @@
     },
     "action-quote": {
       "resource": "ui/preview/UI/components/quoted_action.tscn",
-      "path": "docs/ui/catalog/worldtree-ready/action-quote.png",
+      "path": "docs/ui/catalog/worldtree-shipping-refresh/action-quote.png",
       "sha256": "0369bbf14d73caf04a6ce7ab48958760a76a18b29ee5401da7829044087495ca",
       "width": 640,
       "height": 480,
@@ -246,7 +246,7 @@
     },
     "city-navigation": {
       "resource": "ui/preview/UI/components/city_navigation.tscn",
-      "path": "docs/ui/catalog/worldtree-ready/city-navigation.png",
+      "path": "docs/ui/catalog/worldtree-shipping-refresh/city-navigation.png",
       "sha256": "eb302b23eac0b677d316150d233a179f13a7673b645781fb88b187b9cd424bf8",
       "width": 640,
       "height": 480,
@@ -257,7 +257,7 @@
     },
     "match-controls": {
       "resource": "ui/preview/UI/components/match_controls.tscn",
-      "path": "docs/ui/catalog/worldtree-ready/match-controls.png",
+      "path": "docs/ui/catalog/worldtree-shipping-refresh/match-controls.png",
       "sha256": "d85ecc7e76e3ba380e193497857604e5133b4ca166b04229acf6436422f68a61",
       "width": 640,
       "height": 480,
@@ -268,7 +268,7 @@
     },
     "session-feedback": {
       "resource": "ui/preview/UI/components/session_feedback.tscn",
-      "path": "docs/ui/catalog/worldtree-ready/session-feedback.png",
+      "path": "docs/ui/catalog/worldtree-shipping-refresh/session-feedback.png",
       "sha256": "ad63e814d7aef70cfcf87d1c2d11cad357a57589d66d41d9740be30ea3802ecc",
       "width": 640,
       "height": 480,
@@ -279,7 +279,7 @@
     },
     "dialog-shell": {
       "resource": "ui/preview/UI/components/modal.tscn",
-      "path": "docs/ui/catalog/worldtree-ready/dialog-shell.png",
+      "path": "docs/ui/catalog/worldtree-shipping-refresh/dialog-shell.png",
       "sha256": "d2419cc476311d62ea1b47cbff7fdb769be418a84674f17e036286c23cdcee4a",
       "width": 640,
       "height": 480,
@@ -290,7 +290,7 @@
     },
     "unit-inspection": {
       "resource": "ui/preview/UI/components/unit_inspection.tscn",
-      "path": "docs/ui/catalog/worldtree-ready/unit-inspection.png",
+      "path": "docs/ui/catalog/worldtree-shipping-refresh/unit-inspection.png",
       "sha256": "10c8c2205c178ee18f3520e3b2ca3018c72401355de4048e7c835ef76af9ea17",
       "width": 640,
       "height": 480,
@@ -301,7 +301,7 @@
     },
     "roster": {
       "resource": "ui/preview/UI/components/army_roster.tscn",
-      "path": "docs/ui/catalog/worldtree-ready/roster.png",
+      "path": "docs/ui/catalog/worldtree-shipping-refresh/roster.png",
       "sha256": "cce516567a460807c1167f7434ee712eda213d39911a7ea42b766c048c367ebc",
       "width": 640,
       "height": 480,
@@ -312,7 +312,7 @@
     },
     "worldtree": {
       "resource": "ui/preview/UI/components/worldtree.tscn",
-      "path": "docs/ui/catalog/worldtree-ready/worldtree.png",
+      "path": "docs/ui/catalog/worldtree-shipping-refresh/worldtree.png",
       "sha256": "d686e1d123dd13dc359d46fd13f3cd880205ee062d5aff36bca55340fc5e8060",
       "width": 1100,
       "height": 820,
@@ -323,7 +323,7 @@
     },
     "skill-tree": {
       "resource": "ui/preview/UI/components/skill_tree.tscn",
-      "path": "docs/ui/catalog/worldtree-ready/skill-tree.png",
+      "path": "docs/ui/catalog/worldtree-shipping-refresh/skill-tree.png",
       "sha256": "d1a525fa6e0e1b2b0778253b5aadddfdc66ce30585a000f03e9cd2c60800d6af",
       "width": 1100,
       "height": 820,
@@ -334,7 +334,7 @@
     },
     "hud": {
       "resource": "ui/preview/prototypes/showcase.tscn",
-      "path": "docs/ui/catalog/worldtree-ready/hud.png",
+      "path": "docs/ui/catalog/worldtree-shipping-refresh/hud.png",
       "sha256": "1bfc82768886c234a8b275baf7ee28075c66b87bcdc7f8034ee9bee7e1c40b84",
       "width": 1280,
       "height": 720,
@@ -345,7 +345,7 @@
     },
     "start-menu": {
       "resource": "ui/preview/prototypes/menu.tscn",
-      "path": "docs/ui/catalog/worldtree-ready/start-menu.png",
+      "path": "docs/ui/catalog/worldtree-shipping-refresh/start-menu.png",
       "sha256": "0fcf3dd6d5df4930b704a39859a15b2dee656265400e36722eddc85df175f533",
       "width": 1280,
       "height": 720,

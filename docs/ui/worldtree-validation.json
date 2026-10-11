@@ -1,26 +1,27 @@
 {
   "schema_version": 1,
   "qualification_status": {
-    "submitted_receipts": "Retained pre-review evidence; source, runtime and package hashes below identify tested historical inputs, not the changed worktree",
-    "changed_inputs": ["ui/preview/UI/components/worldtree.gd", "ui/preview/prototypes/showcase.gd", "ui/preview/tests/worldtree_checks.gd", "ui/preview/tests/run_ui.gd"],
+    "submitted_receipts": "Historical full 3220-check/121-capture binding retained unchanged at catalog/worldtree-pre-review/worldtree-validation.json; it does not qualify changed inputs",
+    "changed_inputs": [
+      "ui/preview/UI/components/worldtree.gd",
+      "ui/preview/prototypes/showcase.gd",
+      "ui/preview/tests/worldtree_checks.gd",
+      "ui/preview/tests/run_ui.gd"
+    ],
     "review_focused_results": "production/worldtree-review-fixes-2/results.json",
     "review_focused_binding": "production/worldtree-review-fixes-2/review-binding.json",
     "review_failed_attempt": "production/worldtree-review-fixes/failure-binding.json",
-    "current_acceptance": "Pending outer-pipeline full-source, UI-only, catalog and actual generated-ZIP refresh; do not rebind old execution to changed inputs"
+    "current_acceptance": "Current source-matching focused Worldtree campaign (2231 checks/21 captures), freshly executed independent UI-only audit, native catalog captures and direct generated-ZIP load; no new full-suite or browser qualification claimed",
+    "historical_binding": "catalog/worldtree-pre-review/worldtree-validation.json",
+    "historical_binding_sha256": "891f6c1cb0b7e26118e7e5a92621bb66a3d0e75de1efb42b77918ddb1dbe6490",
+    "shipping_refresh": "catalog/worldtree-shipping-refresh/shipping-check.json"
   },
   "scope": "Additive standalone artwork/presentation only; no main-game process, adapter, economy, progression reward, multiplayer or Blender rebuild",
-  "results": "production/worldtree-ready/results.json",
-  "results_sha256": "6ba17317b8a2768c1c47c8c5d42a423e7d46bfb66ad76376b352b4dfe22a0c37",
-  "checks": 3220,
-  "capture_count": 121,
+  "results": "production/worldtree-review-fixes-2/results.json",
+  "results_sha256": "6b11dadf53efd7da9ee93dce3a3931750430df4ddfd65e84c95c86632dfb30bf",
+  "checks": 2231,
+  "capture_count": 21,
   "capture_sha256": {
-    "skill-tree-root-1100x820.png": "efaf3a0198141830bdd72ecc175117c8afb69a3812c7e9b61b68a97be9c9b009",
-    "skill-tree-three-choices-1100x820.png": "b4c2c924e78d1ca9cac2dcc587487deb3c6535640da2b0a471874f8121c21e04",
-    "skill-tree-parent-unlock-1100x820.png": "99e8ce7b38b09b4089ad5bd9cfecd28f2e4a67bcbb70d0a6d7a3b12f0b6207cc",
-    "skill-tree-insufficient-1100x820.png": "4e5a3ffc4fac61699f8d0e1d571c9a2ad0b4a8658f9938337d1baad0e85f7717",
-    "skill-tree-owned-1100x820.png": "86880a2ef6859465e4b52c21d66b291818c79cac4bd82b1d29f8069733a01fc1",
-    "skill-tree-duplicate-titles-1100x820.png": "2ac6203b766266264507dd90aafa13b07d44c571ed7afd3346591ef58b09fc28",
-    "skill-tree-narrow-420x700.png": "ecf72f22ac206146e7e9d76f70c3bdce6864a73c96b1c8fc33a8b447b88aa7e7",
     "worldtree-A-1100x820.png": "2715a8ad286cf0a0672dda66c1457d07d774392b86d3a8afb2dd9a70984b70b2",
     "worldtree-B-1100x820.png": "d246d25e9fa820accf8998f2bdc36d07f614ad706a01efc50df3114823cd791b",
     "worldtree-C-1100x820.png": "fad2275839a895a98c5744b3595dc9c957ba7966a8e5ada322b6bc68d0db9641",
@@ -38,103 +39,10 @@
     "worldtree-C-1920x1080.png": "7b16fc8248776ff8518bfbcaea938a13feb42b2138e9b2d7017c88ce79d3450c",
     "worldtree-D-1920x1080.png": "3eb9f8d572409fc87e365f5888734ae43cb1dfe85bcc567aa77feb4630f36674",
     "worldtree-transition-before-1280x720.png": "6c1a9f37df13f73903c5a84d6f106014f6f8310bf98169073be6810e31356060",
-    "worldtree-transition-in-flight-1280x720.png": "3f7b2815a1499c0ece5c166abd6c247a45ba9932c5c30e483b4dca927a29d014",
+    "worldtree-transition-in-flight-1280x720.png": "d4ed89ef830858682d6969a5777c1d4cb13473d0e3a9a15b6e6a7609207f8424",
     "worldtree-transition-after-1280x720.png": "64f4e69f78f8d3846dc31703fc4a7c0ed42277b6f1b9c4b2bc33c2e48d387f5a",
     "worldtree-30-icon-library-1280x720.png": "b5854dc87d1baef599dd1e78a09c049c88234dfeef4eed5914fd4d05c86f7293",
-    "worldtree-showcase-1280x720.png": "965823570af145a057bca4fc6ff67e3ab7d3d6330ac99b6cf5c9c7dca65ae5db",
-    "hud-1100x820.png": "93dd5fffe231ea53602b4e83824345e3605833abdfa520397f932666fdafbca4",
-    "menu-1100x820.png": "c7dc581923306bb5c0fa687f92ec9f7a515a21bc23afb1156b986258cce8146a",
-    "menu-multiplayer-1100x820.png": "85dbe7559952265459fa57fd53d3709cc6f3644bd954b67054e1c5331349237b",
-    "research-1100x820.png": "05b53b55a2a5b7c23b3b3ba0ad8ecf94bcd0d5b02f141b15a8dd3b3fb5caf354",
-    "research-locked-scrolled-1100x820.png": "055542b4c5525c4841281f452bd891281f26b3bd579e0f01b51b7571bc719ef5",
-    "town_hall-1100x820.png": "c26a076af3417847d406b08e699a1e90919eea46b0c6b9c851a2ef152bdedf57",
-    "town_hall-empty-1100x820.png": "45ba72bb79a90af06802ce9a2c79218a4fa5423695413267d52314080029c76f",
-    "town_hall-stale-1100x820.png": "b68d6e31852fb9487edd57f8921b8c0075dd65a4054103e636953e3485f24cd9",
-    "town_hall-storage-1100x820.png": "aa33285b2dd7aea3bf797ec4514527786c7ae5717dc7891a01e2b56cd46e3090",
-    "town_hall-recovery-1100x820.png": "a579fbc5e23273d1b248921ad1f7d38467f6f0ea4fa0668b02c296fdfd12378d",
-    "town_hall-fragmented-1100x820.png": "aa4de61cf7e5a75f3ce6049c1468c76a4e49182db98368479bdf552214de7bc1",
-    "settings-1100x820.png": "10f1865ecd61e493cba5f286429c02d8393d95ba276bd4f4a6c92892c0467436",
-    "settings-about-error-1100x820.png": "bf32a07a330d41308d8a18fd1f587817a607a89a904332671c70da1740508b5a",
-    "details-1100x820.png": "7ac74a0294429d009e76fb96b61987bfcbf6265a5a61f6599ee3c217c3d8f018",
-    "details-paid-1100x820.png": "f09796d3356d76db8ba2d2c5abb9b510fbf9c5d4993a1a6d9dca1b88191a3cd2",
-    "details-last-1100x820.png": "81eb0641b833dc897f2169314afbc760125d2289fb1776aa0da6be8a6d7a071b",
-    "details-fresh-1100x820.png": "c89bd9d363e6c0c8d315dc11af24d1b66a82feee4e5bb8b20285af7aefeae1a7",
-    "friends-1100x820.png": "9fa887f9bc37de6a5142a25bbbc1fad7119c8df6ae95501b72ae83409a3b484f",
-    "friends-long-1100x820.png": "ef25882af021e51b362e05950af42d9f7969f2895447f1a78b3a56852ec1af97",
-    "unit-1100x820.png": "c4fb0de56e53e2f2a466b146538f0e68f567382eb700644085d8e55f5d7a7aec",
-    "components-1100x820.png": "8a78b587ec63076e292923ac354b4fdc91e1b7b7feec3c97e71ce9e9d9f19fb4",
-    "hud-1280x720.png": "1ec7802791f0e7330564d433f3cc6dcd7f0e09c62d9508f0e4b59a137448c07d",
-    "menu-1280x720.png": "0fcf3dd6d5df4930b704a39859a15b2dee656265400e36722eddc85df175f533",
-    "menu-multiplayer-1280x720.png": "3c723702d0229da03085ce73b4ccbd4140df0b1b20be69f2439778a4f36f0af1",
-    "research-1280x720.png": "70860b7ea8fc3f8b809c724cd0b28340bb08c51ffe9a5f8e714c536445eb8e65",
-    "research-locked-scrolled-1280x720.png": "4a2ad07c514426d057486637690084a4edcf648fa8a22b7ef8b0e7fe7ef4c807",
-    "town_hall-1280x720.png": "98c2af44207e678def8f9f43db1c4d21ee5c1d2faa56375bb3e14473a6a43ad7",
-    "town_hall-empty-1280x720.png": "426f39bcb10f04dd082d27cfbe0659c5dad2413ba26fd6bc9d8611bf59c8da0b",
-    "town_hall-stale-1280x720.png": "d9512e222e2f0506c4e3dfac14988eab81ac972087c97a6f17a4b5db81fa6272",
-    "town_hall-storage-1280x720.png": "97dc410fa945e052f1353dadd6dda2f08a6ee582fbb9289fc8bfee9c1ff145f6",
-    "town_hall-recovery-1280x720.png": "6fa8104d9963efe911cd4f59fd5344eb0f7dd802ac76701f23ae037993ab4e33",
-    "town_hall-fragmented-1280x720.png": "6c65958332c7339acab243630b63e0650c4ae90dbc4f951525b72aa7aff31f24",
-    "settings-1280x720.png": "cfe3e3c6083bda1e7b215cd08a3c61222e4f4330a50fdf9d0096b2a5bdbaaac5",
-    "settings-about-error-1280x720.png": "62483ea0bc61d06cf1162d73ef244947f5bc93b67fbd83bd9f4d0519f1f0a3e5",
-    "details-1280x720.png": "f4e412d6c5e148796f59261b5e0807f8b14f663ba335555aaa339645746cbfe4",
-    "details-paid-1280x720.png": "ae39f91cb17ad25a3b24592c27e51c320202d4698d3ca3e186fd1f10d395aa4a",
-    "details-last-1280x720.png": "99541edfb3da8ec98f3c34b9ffceb08ce02270c2a43ab6f320b45575490048d4",
-    "details-fresh-1280x720.png": "080947d714a2dff09e08fec07d8192798acdccaeb5271c34b60ef8ee8047299f",
-    "friends-1280x720.png": "9e96a259ed36ef8b6a1dac7dc8ac420bb0de0d8f775b6b4c4c66728ffae67f48",
-    "friends-long-1280x720.png": "4f348b539a28661a5a2b37bf4b13902910503687c88e6b9dbe80599d4209848e",
-    "unit-1280x720.png": "1d6e169a7051cce043b536b32ee9aba0c969bc5fa81b749a74f147ea0d6bbc6d",
-    "components-1280x720.png": "7f9138fbe5c714b151e8491efbafb249e520ff0bc0c42d8711ada1c7780553d8",
-    "hud-1600x900.png": "2de094bb930fafd1d46417b9c674ebdc9d7bc4c741210db23d14aa7c984fe4a2",
-    "menu-1600x900.png": "8377f0c49e16af1dde894dbc972271bb7134b4116952698f7443d3581220448b",
-    "menu-multiplayer-1600x900.png": "63a38754812e7943878be97285cd63991740f83a4586f39371117555f3ecf909",
-    "research-1600x900.png": "facd5516b9745d7e6803207da4abe6e2070ba149ae489c7b726a173a0c96020a",
-    "research-locked-scrolled-1600x900.png": "bd53289a1f82369958394f6a83d654a32ce0259c201d938f47f96894069ad114",
-    "town_hall-1600x900.png": "4ab530fec59685d639d28caf39bc91a8e91f677fb6bca5ce27804f61cf2ea316",
-    "settings-1600x900.png": "e669059c14d15a71a5bb986c759d0371a49dfd4889761080152c421758b2c267",
-    "settings-about-error-1600x900.png": "c401cbfbf430116ac1abb5ecaf67625fea4c5c2c956e590de50ee3b68c51abf4",
-    "details-1600x900.png": "9416294d25a0131a3d51af30b8c4c5573c2a1221f32b91c210a480e809ec6688",
-    "friends-1600x900.png": "9d086c5291333dd150bc3bd7915cb95ccf5a432784e0732f3f9ea49df3ffbfdb",
-    "friends-long-1600x900.png": "0a63e661fafba385cc587d4e7729e6436c79f95d7298b983a14c4b026ed1779a",
-    "unit-1600x900.png": "da8bc169bd527fd47431179241b448e264194fe401d1120f716c4f018414e9c7",
-    "components-1600x900.png": "c042c6c2524d45d258771a4ace59968a801dfd3a2683b7119172eccba472ac64",
-    "hud-1920x1080.png": "f590bde4fac872676f47490a1e8a49615340bf23cac7657421b70dcff155f673",
-    "menu-1920x1080.png": "398ca2037c036d225874dadb665cbdd98d313b1739c4fa29aec9d58083756ae2",
-    "menu-multiplayer-1920x1080.png": "5783f35003edadd8354ecfe8ffb28ecca4fbab5f462e2a3fd55520e0d11961fa",
-    "research-1920x1080.png": "ce5445be5f14409fe92bef40017be9786a62702ece145983ac265f0004e6b418",
-    "research-locked-scrolled-1920x1080.png": "4427ab30e68d0903f63a7fe1fab52db23b052e6fcd7008dc53a853a478fdf309",
-    "town_hall-1920x1080.png": "5e994720eb89a3d959c5f60bf72bfe60d4d52d1eaab9be19e9273e372ed80eb3",
-    "settings-1920x1080.png": "3b0e6900db55028a6a984d5943a445f3aa2f933ca515cafd420c1aaa10ed7daa",
-    "settings-about-error-1920x1080.png": "7fbe44563604a7c383c2b51628914b64c1a15c2436f870a8612ef14a70944c43",
-    "details-1920x1080.png": "a6a429791d6e994a84839e16cc56b9c51b4c9e8e0ea5ecf4d693d1657171cf90",
-    "friends-1920x1080.png": "0eaccec80aa6c3fa1b3ac777918361003802cc16643eeb7782a34e7599e73b4f",
-    "friends-long-1920x1080.png": "8eaf735f887b6b86cf7158716f89bd27549cce39cba25267cc8ef4be6abe47d3",
-    "unit-1920x1080.png": "b5ad1ca64823d1f3aa4edd8d8df6c70ea0160676fd256682ac65742385598c30",
-    "components-1920x1080.png": "0339b54e476a672f5c39f3fb82b43792b5144612d0652c15d96a66218937214e",
-    "hud-preparation-1280x720.png": "dedf6afb082e9f82ffde0779548e6e34a29c950be862e6f838d806fa88fa8b1e",
-    "hud-shortage-1280x720.png": "a46f36c4452c51379e2b672b9c1ce4cd7edda7eeb4a38178406635b9e8bd88be",
-    "hud-lost-1280x720.png": "609d2e87834943e2574426e211ee7b716d03484e47b144ccecdf92503ddd2856",
-    "hud-combat-1280x720.png": "2141c092aaf2e39b8c1cd468e914e96778752420b693ee7a83657d89cbfee214",
-    "hud-foreign-1280x720.png": "feecac5ba8c5d41819ebc6413d6b743fcd33945a7476764b39391c80e7e30efe",
-    "hud-paused-1280x720.png": "85aada0045871cfc00669b2affc7fe99cc758e5fd7051ededfb84a1bd09896b7",
-    "hud-victory-1280x720.png": "888878c735ca47a12189f16b999a4a791d9d8bf21e5ed27682ffaff9efd7116a",
-    "hud-defeat-1280x720.png": "261a37e2fe17199869f7c3706ceb2ba24f71d3836a4059513a370c65e594b397",
-    "hud-lobby-1280x720.png": "de51829159911f62aea8c17245e325b1d7a345edb29a7721a660865b79311e54",
-    "hud-fallen-1280x720.png": "df789b1aa8501b2f9193a2e174a32e45115475970c75f82a68df7d3512e1c60a",
-    "hud-stale-1280x720.png": "10264091db6ef4b01817962bb334a19c0587d10220c01ba8a4d3600ac6677da6",
-    "hud-live-0-1100x820.png": "b4416a55202dae1ece1977c7e6a4047eb58fd531a90b606a5a92d3d07a10bdd2",
-    "hud-live-0-1280x720.png": "b29d590aa3381e73021d249e313911702c6a80e221900e333baa3c9b544e258a",
-    "hud-live-1-1100x820.png": "c1084665ea6353ad615474023b721051ab2c73518f7fe301258c3f617210921a",
-    "hud-live-1-1280x720.png": "26dd3fbd03f9dd56ba7a49f4e0695e017f3aca09b55400e8ae541c998428841c",
-    "hud-live-modal-1100x820.png": "eb77edfffce1390fd0eb4b6c14846d7a735fe99bed2649e0c62bb8d1d7e1344d",
-    "hud-live-modal-1280x720.png": "7be398484d666e4bffddb23b583b3d2175b7c269187bc098a7fc26a915aecc55",
-    "hud-choices-1100x820.png": "d9b8ce9a2f87c25b8cdf88859e5135880aa19f6633164f7fa53f740de815a1e1",
-    "hud-progress-tooltip-1100x820.png": "0475c71b9c294c4d0358422d89d3ce4a1f69f8ea08231a75c967147992783c6e",
-    "hud-choices-1280x720.png": "96cd647234443b1c06717ee963c23c15c265438edeeb7a4fab72a65d0ec78930",
-    "hud-progress-tooltip-1280x720.png": "460d68dbd7dc0c371ab067a5339187788434923283db286cf2ac4bd1e3e06984",
-    "hud-focus-1280x720.png": "2ad04e9607287abeeabcc3b93ee4a83a95eb065a48797b767f37d12dd3c72609",
-    "hud-hover-1280x720.png": "551e76c150379c58471035ba1eee514b8d3911d0486a140619eb84b47aa2dad0",
-    "hud-skill-tab-1280x720.png": "b2f45f481caccbb2f8d76253b699607c4895904d9c6a8de1bde2b7d99c51b5c2",
-    "hud-choices-preparation-1280x720.png": "44212d0ed34779a264f422429a9da838d2670d9ab38b85a01f255c4c266c70f7"
+    "worldtree-showcase-1280x720.png": "c50f22d923984ddfe4d113275dd2f9ca2c1fb0154a0f00da3f9d13c59b76cb23"
   },
   "tools_sha256": {
     "tools/ui/build_worldtree_art.py": "152b33723265b46663e8fe617d197079b6070f807f665826c5b7dba22373148d",
@@ -334,164 +242,58 @@
     "art/worldtree/topology.json": "f916023b78d66341d9d6268ea17c6ca322b87a5bcb1c6e7eebfda223bd0332e9",
     "art/worldtree/twig.svg": "7b904391a7220963fd8d23c3a5f31359f4a5d42445e7533b6433aab3e3fa74b7",
     "art/worldtree/twig.svg.import": "1ffc00e2840d732c863b82bcc4d05db2e1549ccc98aad4f03df0b500b4a82a2c",
-    "components/worldtree.gd": "f0e58b6f7cd1aa0a6fdbdd4806a4e8d6d5602953d10f6c298908a82cf42d411b",
+    "components/worldtree.gd": "a8392bf39f46d1d2e84312a50bc87665c62a1be34dc03973f7fce72ab154dcb0",
     "components/worldtree.gd.uid": "3638585aa21fe229ab9eb4363c23591cdc50910f85b12e2e4944099f04b3fd2c",
     "components/worldtree.tscn": "f9c18f707e0aa222d23f934172caf02637b825d18c65737c17f27dd2ea0b3480",
     "components/worldtree_branch.gd": "cdfd67aa07bc761cce5cad119dfb947106e09d9111a700004261e5cd9db7d0c5",
     "components/worldtree_branch.gd.uid": "16292109d2aaac2bff5ce1c0b686a5dff56ea6b3dc6f517f2ca10986ca667854"
   },
   "footprint": {
-    "worldtree_source_import_uid_bytes": 189981,
+    "worldtree_source_import_uid_bytes": 189666,
     "worldtree_ceiling": 200000,
     "legacy_serialized_zip_bytes_without_unchanged_font_license": 168922,
     "legacy_ceiling": 200000,
-    "total_payload_bytes": 715087,
+    "total_payload_bytes": 714772,
     "shared_font_and_license_bytes": 389476,
     "policy": "Original legacy serialized 200KB ceiling retained; explicitly authorized Worldtree separately measured/bounded to 200KB source/import/UID bytes, with exact native-qualified member list; no blanket exemption for unrelated artwork. Decoded textures/GPU allocation unmeasured."
   },
   "review": {
-    "method": "Actual native-size image inspection via independently decoded/re-encoded, validated private RGB PNG transport copies. Twenty final images measured byte-identical to already opened image bytes; timed final in-flight frame newly opened. Only image-review observations reused; current source/tool/runtime execution is the fresh full 3220/0 campaign above, not relabeled historical proof.",
+    "method": "Current focused campaign executes the changed runtime/host. Current showcase and in-flight frames reopened; unchanged stage/size/gallery/before/after image-only review reused solely after measured PNG byte equality, not as source/package execution proof.",
     "images": [
       {
-        "path": "worldtree-30-icon-library-1280x720.png",
-        "sha256": "b5854dc87d1baef599dd1e78a09c049c88234dfeef4eed5914fd4d05c86f7293",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-A-1100x820.png",
-        "sha256": "2715a8ad286cf0a0672dda66c1457d07d774392b86d3a8afb2dd9a70984b70b2",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-A-1280x720.png",
-        "sha256": "1c90dd4cdaa68d9b9b0c53f77128d02edd4c06bb943c8614a32a7b7a32e24151",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-A-1600x900.png",
-        "sha256": "78c1d0cc36daaec25ccf8ac0472f982dddd9d62c10d4f1d23bda71c15e4e233f",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-A-1920x1080.png",
-        "sha256": "80fa27f64181253c79a1d65beb5e0c1c71790d9ee566977734ccea54a1f35bf5",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-B-1100x820.png",
-        "sha256": "d246d25e9fa820accf8998f2bdc36d07f614ad706a01efc50df3114823cd791b",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-B-1280x720.png",
-        "sha256": "9ce4e5379797cdb26106bdc6c5f5c27c73db40b1fe94cf91d9d8c2e5c4606c8d",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-B-1600x900.png",
-        "sha256": "a8d905333ae01ca5966cba5690fdd3b41de319b2cc18fb957b1a47ab0c399f61",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-B-1920x1080.png",
-        "sha256": "89a6225115af7954fcab3ed6e6b20a0e3b62e89b142bbee633794e81a58eff68",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-C-1100x820.png",
-        "sha256": "fad2275839a895a98c5744b3595dc9c957ba7966a8e5ada322b6bc68d0db9641",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-C-1280x720.png",
-        "sha256": "6c1a9f37df13f73903c5a84d6f106014f6f8310bf98169073be6810e31356060",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-C-1600x900.png",
-        "sha256": "9710f77158339c9bdf7deec63ecc92ac4a826d05911b9f125d565babe0607064",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-C-1920x1080.png",
-        "sha256": "7b16fc8248776ff8518bfbcaea938a13feb42b2138e9b2d7017c88ce79d3450c",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-D-1100x820.png",
-        "sha256": "f769ae0b290df13b95b7ac38ac0df4cfc89d73c2fa87e33178a3d7ec3e493eb0",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-D-1280x720.png",
-        "sha256": "97cfe709eecf187a24a8a1df2b106df87d0432fa437e53b46bd53927bbc5e39e",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-D-1600x900.png",
-        "sha256": "264e3796b020fd79106dcf23192c002a624a0f959b09cbfb7aeb7593c1056706",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-D-1920x1080.png",
-        "sha256": "3eb9f8d572409fc87e365f5888734ae43cb1dfe85bcc567aa77feb4630f36674",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
         "path": "worldtree-showcase-1280x720.png",
-        "sha256": "965823570af145a057bca4fc6ff67e3ab7d3d6330ac99b6cf5c9c7dca65ae5db",
-        "observation": "Opened fixed-caption image at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-transition-after-1280x720.png",
-        "sha256": "64f4e69f78f8d3846dc31703fc4a7c0ed42277b6f1b9c4b2bc33c2e48d387f5a",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
-      },
-      {
-        "path": "worldtree-transition-before-1280x720.png",
-        "sha256": "6c1a9f37df13f73903c5a84d6f106014f6f8310bf98169073be6810e31356060",
-        "observation": "Opened all stage/size, gallery, before/after frames at native resolution; measured byte-identical final capture"
+        "sha256": "c50f22d923984ddfe4d113275dd2f9ca2c1fb0154a0f00da3f9d13c59b76cb23",
+        "observation": "Opened actual native PNG: Worldtree selector and D caption match the living left family; center/right wood remains dormant, all terminals and compact disabled footer remain visible"
       },
       {
         "path": "worldtree-transition-in-flight-1280x720.png",
-        "sha256": "3f7b2815a1499c0ece5c166abd6c247a45ba9932c5c30e483b4dca927a29d014",
-        "observation": "New final in-flight frame opened at native resolution via validated RGB PNG"
+        "sha256": "d4ed89ef830858682d6969a5777c1d4cb13473d0e3a9a15b6e6a7609207f8424",
+        "observation": "Opened actual native PNG: local sap advances along left secondary wood before socket/foliage reveal; unrelated primaries and branches retain their stage-C presentation"
       }
     ],
-    "judgment": "Gloomy blue-green woodland, narrow organically curved physical wood, readable distinct icons, all twelve terminals visible, amber acquired sap/socket contrast, subtle available sockets with outgoing dead wood, fresh leaves/flowers/mushrooms only on acquired modules, aligned fixed sockets/wood endpoints. Stage D shows left-family isolation; real travelling endpoint precedes leaf reveal. Compact cream footer/header and native focus/intent controls remain readable.",
-    "pixel_independence": {
-      "center_and_right_families": {
-        "geometry": "680x340+490+55",
-        "method": "SHA256 of decoded 8-bit RGB crop from actual final native PNG, not an implementation-text proxy",
-        "phase_sha256": {
-          "before": "0ff35dec86beb1841916ae42955bda3c4bb811f442d4680bc7e184597994ab8d",
-          "in-flight": "0ff35dec86beb1841916ae42955bda3c4bb811f442d4680bc7e184597994ab8d",
-          "after": "0ff35dec86beb1841916ae42955bda3c4bb811f442d4680bc7e184597994ab8d"
-        },
-        "byte_identical": true
-      },
-      "unrelated_left_secondary": {
-        "geometry": "95x165+375+70",
-        "method": "SHA256 of decoded 8-bit RGB crop from actual final native PNG, not an implementation-text proxy",
-        "phase_sha256": {
-          "before": "40b002938aab903ab0b09e1df5c3d9a048977f0598fdfd36cdde69aba2bf88be",
-          "in-flight": "40b002938aab903ab0b09e1df5c3d9a048977f0598fdfd36cdde69aba2bf88be",
-          "after": "40b002938aab903ab0b09e1df5c3d9a048977f0598fdfd36cdde69aba2bf88be"
-        },
-        "byte_identical": true
-      },
-      "root_and_trunk": {
-        "geometry": "180x220+550+400",
-        "method": "SHA256 of decoded 8-bit RGB crop from actual final native PNG, not an implementation-text proxy",
-        "phase_sha256": {
-          "before": "e3dc182dd9f20a248a8148580e8c17348f7b67e27e46fdc9c55a8876300cb57b",
-          "in-flight": "e3dc182dd9f20a248a8148580e8c17348f7b67e27e46fdc9c55a8876300cb57b",
-          "after": "e3dc182dd9f20a248a8148580e8c17348f7b67e27e46fdc9c55a8876300cb57b"
-        },
-        "byte_identical": true
-      }
-    },
-    "limits": "Lightweight original shaded SVG/cartoon adaptation, not raster/3D reference fidelity. Full existing 100 regression frames generated and mechanically checked, not a claim of new visual inspection of every unrelated frame."
+    "byte_identical_to_historically_reviewed_images": [
+      "worldtree-A-1100x820.png",
+      "worldtree-B-1100x820.png",
+      "worldtree-C-1100x820.png",
+      "worldtree-D-1100x820.png",
+      "worldtree-A-1280x720.png",
+      "worldtree-B-1280x720.png",
+      "worldtree-C-1280x720.png",
+      "worldtree-D-1280x720.png",
+      "worldtree-A-1600x900.png",
+      "worldtree-B-1600x900.png",
+      "worldtree-C-1600x900.png",
+      "worldtree-D-1600x900.png",
+      "worldtree-A-1920x1080.png",
+      "worldtree-B-1920x1080.png",
+      "worldtree-C-1920x1080.png",
+      "worldtree-D-1920x1080.png",
+      "worldtree-transition-before-1280x720.png",
+      "worldtree-transition-after-1280x720.png",
+      "worldtree-30-icon-library-1280x720.png"
+    ],
+    "judgment": "Actual showcase preserves D caption/selector, left-family amber sap/foliage, dormant center/right families, visible terminals and compact footer. In-flight frame shows local left-secondary sap before foliage; unrelated primaries remain at stage C.",
+    "limits": "No new inspection or execution claimed for the unrelated historical regression frames; historical decoded crop witnesses remain in the historical binding, not rebound to current frames."
   },
   "preserved_failures": [
     {
@@ -516,14 +318,19 @@
   "payload_audit": {
     "files": 175,
     "scenes": 11,
-    "log": ".cache/ui-payload/worldtree-ready/load.log",
+    "log": ".cache/ui-payload/worldtree-shipping-refresh/load.log",
     "proof": "Fresh independent UI-only project: all scenes ready, compact-tree guards, Worldtree intent-only snapshot/unknown-icon/30 textures and real parent-to-child animation plus unchanged trunk sibling; no prototypes/game/tools copied"
   },
-  "package_sha256": "a01304395166916aaaada1f15af5cffdf88348c45adf86c170657c48d0e9e7ff",
+  "package_sha256": "8ca234ee7e19133343ef111bd3ca40331060042a90f0ef02bdb1521d92f779c9",
   "package_check": "catalog/package-check.json",
-  "package_check_sha256": "7c708aae9dd29f626274e77323843341a416c4212be03c253c7888d72d6206ab",
+  "package_check_sha256": "af78adbbc2eb3d5fe16886c975d84dc3f071e73d08fed332e559ad88e0d88d91",
   "package_tested": "exports/ui/ledger-ui.zip",
-  "static_package_copy": {"path": "dist/catalog/exports/ui/ledger-ui.zip", "sha256": "a01304395166916aaaada1f15af5cffdf88348c45adf86c170657c48d0e9e7ff", "bytes": 784817, "entire_archive_byte_identical_to_directly_loaded_zip": true},
+  "static_package_copy": {
+    "path": "dist/catalog/exports/ui/ledger-ui.zip",
+    "sha256": "8ca234ee7e19133343ef111bd3ca40331060042a90f0ef02bdb1521d92f779c9",
+    "bytes": 784502,
+    "entire_archive_byte_identical_to_directly_loaded_zip": true
+  },
   "package_proof": "Actual newly generated ZIP extracted and natively loaded in a fresh private headless project, including independent child animation. No old ZIP execution reused. Static dist copy must remain entire-archive byte-identical.",
   "catalog_sha256": {
     "theme": "22977e85328cfaf57d428efcc077c97e4695d63e6cd65d1c6e19c9796f491f06",
