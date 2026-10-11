@@ -2,7 +2,8 @@
 
 **Resume here:** the existing standalone Ledger kit now follows the supplied
 [woodland HUD reference](references/README.md): [design/source ownership](woodland.md),
-[original-art bindings](woodland-art.json), and [current acceptance](production.md).
+[original-art bindings](woodland-art.json), and
+[current acceptance](woodland.md#current-acceptance-and-visual-review).
 [Skill-tree validation](skill-tree-validation.md) retains the separately landed
 compact tree's contracts; its inherited skin uses refreshed current bindings.
 Accepted light Ledger M0/M1/representative milestones remain historical evidence.
@@ -18,7 +19,7 @@ MAIN owns the coordinated delivery handoff; no competing pipeline.
 | Current reference/direction and historical approval | [woodland](woodland.md), [retained reference](references/README.md); historical [decisions](decisions.md) / [M0 evidence](art-direction.md) |
 | Avoid rediscovering game behavior | [discovery](discovery.md), [inventory](inventory.json) |
 | Reuse components / prepare migration | [API](api.md), [architecture](architecture.md), [migration mapping](migration.json), [payload audit](payload.json) |
-| Actual checks / final pictures | [current extension evidence](skill-tree-validation.md); [historical Ledger validation](validation.md) and [visual bindings](visual-review-dialog-close.json) |
+| Actual checks / final pictures | [current woodland evidence](woodland.md#current-acceptance-and-visual-review); [historical compact-tree evidence](skill-tree-validation.md), [Ledger validation](validation.md) and [visual bindings](visual-review-dialog-close.json) |
 | Retained acceptance byte contracts | [preservation manifest](preservation.json), [submitted visual binding](visual-review.json) |
 | Why modal is not a Window | [causal diagnosis](settings-diagnosis.md), [contrary ownership result](modal-alternatives.md) |
 | Source/art/font/reference provenance | [original seal bindings](exploration-assets.json), [woodland bindings](woodland-art.json) |
@@ -30,10 +31,10 @@ middle, three outward choices and three illustrative steps per path, with native
 inspection/purchase/focus and parent/point/duplicate guards. Choose **skill_tree**
 in the showcase screen selector. [API](api.md#compact-skill-tree-allocation) owns
 the caller snapshot and local allocation boundary;
-[skill-tree validation](skill-tree-validation.md) owns current native counts,
-visual review and independently loaded generated ZIP evidence. Earlier finished
-Ledger milestones above remain historical acceptance, not fresh receipts for
-this extension. No main-game or renderer changes.
+[woodland acceptance](woodland.md#current-acceptance-and-visual-review) owns current
+native counts, visual review and independently loaded generated ZIP evidence.
+[Skill-tree validation](skill-tree-validation.md) preserves pre-woodland extension
+evidence. No main-game or renderer changes.
 
 ## Reproduce checks in assets only
 
@@ -60,8 +61,10 @@ Run graphical drivers **serially**: concurrent xvfb-run auto-number startup race
 in retained evidence. `validate.py --only production` is the bounded production-input route plus the
 seven skill-tree fixture captures; `--only skill-tree` runs only the compact tree's
 pointer/focus/budget/layout/lifecycle checks. `--only woodland` runs the focused
-information/footer allocation, variable-copy/wheel/pointer/focus/tab checks with
-six captures. Omit `--only` for the complete current regression/capture acceptance.
+same-window resize, information/footer allocation, variable-copy/wheel/pointer,
+progress-tooltip, focus/tab and inherited-font checks. See
+[woodland acceptance](woodland.md#current-acceptance-and-visual-review) for current
+capture counts. Omit `--only` for the complete regression/capture acceptance.
 
 `validate.py` imports fresh, performs actual native events/state/layout assertions,
 binds source hashes, and writes captures/results under `docs/ui/production/<label>/`.

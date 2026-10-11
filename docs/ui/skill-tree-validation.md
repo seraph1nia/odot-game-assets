@@ -33,10 +33,10 @@ catalog remain intact. No renderer, forest, mesh or source-model changes.
 Heading identity now uses branch array indices rather than display titles. The
 native regression exercises all three duplicate-title pairings and all-equal
 Foundation titles, checking three positioned headings and every selected quote.
-Current owners bind the regenerated full native campaign, payload audit and
-catalog captures under `review-branch-artifacts-1`, plus the independently loaded
-final generated ZIP. Historical and failed evidence, including browser receipts,
-is preserved and does not certify these changed inputs.
+At this pre-woodland milestone, owners bound the regenerated full native campaign,
+payload audit, catalog captures under `review-branch-artifacts-1`, and independently
+loaded generated ZIP. These receipts are now historical; current acceptance is
+linked above.
 
 ## Fresh evidence
 
@@ -50,12 +50,12 @@ Godot 4.7.2 .NET / Compatibility / owned Xvfb / Mesa llvmpipe / Dummy audio. No
 personal desktop, application Window screenshot or browser session accessed.
 
 [`skill-tree-validation.json`](skill-tree-validation.json) binds the eight actual
-inspected images (seven campaign states plus the current catalog tree preview),
-source hashes in the result, and validation/capture/package tools. The catalog
-preview has its own complete resource/host/generator/image/dimension binding in
-[`catalog/previews.json`](catalog/previews.json), currently
-`catalog/review-branch-artifacts-1/`. The final implementation commit containing these
-bindings qualifies the evidence; any later changed input needs refreshed checks,
+inspected images (seven campaign states plus that milestone's catalog tree preview),
+source hashes in the result, and validation/capture/package tools. The retained
+catalog preview has its resource/host/generator/image/dimension binding in
+[`catalog/review-branch-artifacts-1/previews.json`](catalog/review-branch-artifacts-1/previews.json).
+The final implementation commit containing these bindings qualifies the evidence;
+any later changed input needs refreshed checks,
 not these earlier receipts. Head is reported at committed delivery, rather than a
 self-referential commit hash inside its own content.
 
@@ -63,8 +63,10 @@ Fresh `audit_payload.py` loads **35 UI-only files / ten scenes**, Theme and seal
 in a private independent project. `check_catalog_package.py` separately extracts
 the **actual generated ZIP**, imports and instantiates all ten scenes and exercises
 skill root/prerequisite/duplicate/funding guards with no prototypes or fixture
-imports. [`catalog/package-check.json`](catalog/package-check.json) binds exact
-ZIP/member hashes and engine/logs. Static catalog build includes `ui/skill-tree`
+imports. The then-current package check bound exact ZIP/member hashes and
+engine/logs; [`catalog/package-check.json`](catalog/package-check.json) now selects
+the later woodland package and must not be read as this milestone's receipt.
+Static catalog build includes `ui/skill-tree`
 in the existing component category/shared package; unchanged native aliases and
 all model IDs pass the existing generator/link/package tests. No new browser UI
 framework or fake interactive screenshot is added.

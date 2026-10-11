@@ -8,15 +8,18 @@ A–C is the first delivery, not completion of the overall UI system.
 ## Resume state
 
 Current phase: intended standalone **E–G completed**, coordinated delivery handoff
-pending. Accepted M0/M1/representative evidence preserved. [Skill-tree validation](skill-tree-validation.md)
-owns current extension acceptance; `production.md` retains pre-extension Ledger
-acceptance, serial OS checks and historical failures. `coverage.md` distinguishes the finished standalone
+pending. Accepted M0/M1/representative evidence preserved.
+[Woodland acceptance](woodland.md#current-acceptance-and-visual-review) owns the
+current HUD/menu and inherited-tree evidence; [skill-tree validation](skill-tree-validation.md)
+and `production.md` retain pre-woodland extension and Ledger acceptance.
+`coverage.md` distinguishes the finished standalone
 boundary from exhaustive Cartesian products and separately authorized integration.
 Machine authority for status/dependencies/acceptance: [tasks.json](tasks.json).
 Inventory: [inventory.json](inventory.json). Exact approval: [decisions.md](decisions.md).
 Read [discovery.md](discovery.md) before investigating again; source is pinned.
-Read [art-direction.md](art-direction.md) and actual previews for the approved
-comparison evidence; [decisions.md](decisions.md) owns the resolved artistic decision.
+Read [woodland.md](woodland.md) for the current reference-led direction.
+[Art-direction.md](art-direction.md) and [decisions.md](decisions.md) retain the
+historical comparison and initial approval.
 If game inputs change, re-pin relevant evidence rather than launching/building/
 importing the game checkout. Reconcile label-removal with the pinned intake before
 migration; this plan neither authorizes game edits nor reintroduces removed labels.
@@ -78,8 +81,8 @@ manifest/APIs. No missing RPG gameplay panels; generic assets explicitly rejecte
 - Resolved: Ledger; only the small original menu seal as initial Blender decoration.
 - Resolved technical blocker: in-tree native Control modal replaces the newly
   authored unreliable embedded Window shell. No new artistic decision required.
-- New font remains a future decision, not a dependency now. Default Godot font
-  with clearer scale is the low-risk initial recommendation.
+- Current presentation and font provenance are owned by [woodland.md](woodland.md)
+  and [woodland-art.json](woodland-art.json); the initial default-font proposal is historical.
 - Current-game visual/interaction baseline and label-removal result need refreshed
   read-only evidence before migration. Older docs screenshots are not current.
 

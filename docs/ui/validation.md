@@ -1,6 +1,8 @@
 # UI validation and limitations
 
-Current extension evidence and limits are owned by [skill-tree validation](skill-tree-validation.md).
+Current evidence and limits are owned by
+[woodland acceptance](woodland.md#current-acceptance-and-visual-review).
+[Skill-tree validation](skill-tree-validation.md) preserves pre-woodland extension evidence.
 The campaigns below are retained historical milestones, not current-source certification.
 `payload.json` owns the refreshed payload; earlier audits below are identified by their private logs.
 
