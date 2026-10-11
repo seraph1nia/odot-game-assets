@@ -83,9 +83,16 @@ Theme without new navigation flows. See [API](api.md).
 
 ## Current acceptance and visual review
 
-`production/woodland-accepted/results.json`: **1193 checks / zero failures / 92
-native captures**, including all prior Ledger and 126 landed compact-tree checks.
-The focused woodland/font/input/layout slice passes **422/0 with six captures**.
+`production/woodland-hover-refreshed/results.json`: **1203 checks / zero failures /
+94 native captures**, including all prior Ledger and 126 landed compact-tree
+checks. The focused woodland/font/input/layout slice at
+`production/woodland-hover-refreshed-focused/results.json` passes **432/0 with
+eight captures**. The added checks discover the supplied progress description in
+an actual native tooltip at 1280×720 and 1100×820, observe pointer propagation
+through MatchControls to the enclosing HUD panel, and assert unchanged keyboard
+focus, world-click counts and action requests. Progress keeps its rendering and
+uses native MOUSE_FILTER_PASS; footer/category/skill-tree and scroll assertions
+are unchanged.
 Serial owned XTest Settings/modal probes pass **11/0** and **64/0**, with zero world
 clicks. Independent UI-only loading checks ten scenes and 46 files, including the
 woodland art/font/license, original seal and skill purchase guards. The final
@@ -96,18 +103,33 @@ code/art/metadata budget; no arbitrary extra-art allowance is added. Decoded
 textures/glyph caches and GPU allocation are not measured. The actual generated ZIP is loaded
 separately and its exact member/package hashes remain in `catalog/package-check.json`.
 
-Reviewed the complete 92-frame set as reduced layout/color contact sheets, not
-as proof of small-text legibility. Opened default/narrow HUD/construction/menu,
-preparation/lost, focus/hover and all seven inherited-tree state images at native
-resolution, plus all 13 catalog previews (four current images opened directly;
-nine verified exact-byte matches to the immediately prior native-resolution review,
-not reused old-source certification). Those actual images show quiet dark wells,
+The refreshed native-resolution review covers the two progress tooltip frames,
+default/narrow HUD/construction, preparation/lost, focus/hover and the HUD skill-tree
+modal, plus the affected catalog HUD and match-controls images. Remaining images
+are fresh executable captures, not a claim of new visual inspection of every
+frame. Exact-byte image-only review reuse is recorded separately in
+`woodland-validation.json`; it does not certify old source. These images show quiet dark wells,
 cream readable headings, parchment controls, original woodland accents and
 separate green Ready/violet Pause. Narrow construction intentionally shows two
 columns and a scroll-reachable continuation. The tree retains one middle root,
 three indexed spokes, exact point/state words and a readable disabled purchase.
 `woodland-validation.json` distinguishes native-resolution reviews from overview
 coverage and binds every image; no old screenshots certify changed resources.
+The previous 1193/0/92 full campaign, 422/0/6 focused campaign, catalog run,
+payload and package receipts remain untouched as history. Their original
+validation selection is retained at `production/woodland-accepted/validation.json`.
+
+The first refresh attempt could not start Godot because PATH exposed inactive mise
+shims; its log remains at `.cache/ui/woodland-progress-hover/import.log`. A later
+supplemental OS import crashed before checks; that log remains at
+`.cache/ui-diagnosis/full-os-none-woodland-hover-refreshed/import.log`. The OS
+owner's import was aligned with the existing Dummy-audio UI commands, then new
+serial OS runs at `woodland-hover-refreshed-2` passed without world leaks. The new
+runs use the exact existing Godot 4.7.2 .NET and .NET 10.0.401 binaries named in the
+submitted plan, with path/version/binary hashes recorded in the validation binding.
+No tools were installed or swapped and no global trust/configuration was changed.
+The initial local Ruff limitation remains historical; this native UI refresh does
+not claim to execute or waive the outer pipeline's required lint/CI phases.
 
 Layout and pointer failures are retained in [woodland-diagnosis.md](woodland-diagnosis.md).
 The additional pre-acceptance `woodland-final-2` (1153/0) and `woodland-reviewed`

@@ -119,7 +119,7 @@ def main():
     if args.dotnet_root:
         env['DOTNET_ROOT'] = args.dotnet_root
         env['PATH'] = args.dotnet_root + os.pathsep + env['PATH']
-    run_owned([args.godot, '--path', str(ROOT / 'ui/preview'), '--headless', '--editor', '--import'],
+    run_owned([args.godot, '--path', str(ROOT / 'ui/preview'), '--audio-driver', 'Dummy', '--headless', '--editor', '--import'],
               env, cache / 'import.log', timeout=60)
     command = ['xvfb-run', '-a', '--auth-file', str(cache / 'display.auth'),
                '-e', str(cache / 'xvfb.log'), '-s', '-screen 0 1920x1080x24 -nolisten tcp',

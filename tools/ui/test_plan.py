@@ -109,12 +109,34 @@ class IntakeContracts(unittest.TestCase):
         catalog = binding['reviewed_catalog']
         self.assertEqual(hashlib.sha256((ROOT / catalog['path']).read_bytes()).hexdigest(), catalog['sha256'])
 
-    def test_current_woodland_evidence_and_source_binding(self):
-        binding = load('woodland-validation.json')
+    def test_historical_woodland_evidence_is_preserved(self):
+        current = load('woodland-validation.json')
+        self.assertEqual(hashlib.sha256((DOCS / current['prior_validation']).read_bytes()).hexdigest(), current['prior_validation_sha256'])
+        binding = load(current['prior_validation'])
         result = load(binding['results'])
         self.assertEqual(hashlib.sha256((DOCS / binding['results']).read_bytes()).hexdigest(), binding['results_sha256'])
         self.assertEqual((result['checks'], result['failures']), (1193, []))
         self.assertEqual(len(result['captures']), 92)
+        for name, digest in binding['capture_sha256'].items():
+            self.assertEqual(hashlib.sha256(((DOCS / binding['results']).parent / name).read_bytes()).hexdigest(), digest, name)
+
+    def test_current_woodland_evidence_and_source_binding(self):
+        binding = load('woodland-validation.json')
+        result = load(binding['results'])
+        self.assertEqual(hashlib.sha256((DOCS / binding['results']).read_bytes()).hexdigest(), binding['results_sha256'])
+        self.assertEqual((result['checks'], result['failures']), (1203, []))
+        self.assertEqual(len(result['captures']), 94)
+        focused = binding['focused']
+        focused_result = load(focused['results'])
+        self.assertEqual(hashlib.sha256((DOCS / focused['results']).read_bytes()).hexdigest(), focused['results_sha256'])
+        self.assertEqual((focused_result['checks'], focused_result['failures']), (432, []))
+        self.assertEqual(len(focused_result['captures']), 8)
+        self.assertEqual(focused_result['selection'], 'woodland')
+        self.assertEqual(focused_result['source_sha256'], result['source_sha256'])
+        for capture in focused_result['captures']:
+            path = (DOCS / focused['results']).parent / capture['path']
+            self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), focused['capture_sha256'][capture['path']])
+            self.assertEqual(png_header(path)[:2], (capture['width'], capture['height']))
         self.assertIn('llvmpipe', result['renderer'])
         for name, digest in result['source_sha256'].items():
             self.assertEqual(hashlib.sha256((PROJECT / name).read_bytes()).hexdigest(), digest, name)

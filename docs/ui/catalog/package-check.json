@@ -1,5 +1,5 @@
 {
-  "package_sha256": "00ca7d39c1de33db94eee672e3ba279f7b5dd0c1812a56d56ac9ec3e5c287f12",
+  "package_sha256": "6795ad0e79a876f40af17a3e4bb5dc8959c82cf9e88fa32665f722d0e3f4d1ad",
   "files": {
     "UI/art/menu_seal.png": "cf3e2ceb4510be6d6a052e882597c2313216e2268a9aaa61fdf1d7e1308d2ced",
     "UI/art/menu_seal.png.import": "8f06dede6295eba269e542a904e5ae91904db6eafd43f5ed225f15713d584529",
@@ -19,7 +19,7 @@
     "UI/components/city_navigation.tscn": "18ecf9ae05484ada6b8f357946ebbf853dc0d4bdedbc60cc391334e2a63eec68",
     "UI/components/match_controls.gd": "afeca8cd9f2b44c748e2aae51eb20dc7a90d136814d4d1528df898a4bc2ea3fa",
     "UI/components/match_controls.gd.uid": "5e4f18b98ad315dd73767e1fcb89a5394c81fc4d8c87f7142cf763f0b26cd848",
-    "UI/components/match_controls.tscn": "f22728bcd90f7a45289e2e939f30226fd6730cf9fac7285543e83cd81040f173",
+    "UI/components/match_controls.tscn": "3e7fd4ae576e86d7b1a2d6ccfe9a8149337a0807cfbb701aa3c454b44b4c30d3",
     "UI/components/modal.gd": "b97a2971f4b16e869dd6435cde13ff87f246d6266e0275fa1c2ab992479ddc8b",
     "UI/components/modal.gd.uid": "1e92a18c668534cfff329f24b523e03a4b8115bf6225685b175ef8bab0f36d62",
     "UI/components/modal.tscn": "6a5760a99e15c2b9739e55f8da11e152a004f5b71400352cf64071b9938db699",
@@ -51,8 +51,8 @@
   "checks": "All ten scenes instantiated/ready, skill purchase guards exercised, woodland Theme/SVG decorations/serif font and original seal loaded in independent project; no prototypes/game/tools/cache history copied",
   "engine": "4.7.2.stable.mono.official.ed1daf0bf",
   "logs": [
-    ".cache/ui-catalog-package/woodland-accepted/import.log",
-    ".cache/ui-catalog-package/woodland-accepted/load.log",
-    ".cache/ui-catalog-package/woodland-accepted/version.log"
+    ".cache/ui-catalog-package/woodland-hover-refreshed/import.log",
+    ".cache/ui-catalog-package/woodland-hover-refreshed/load.log",
+    ".cache/ui-catalog-package/woodland-hover-refreshed/version.log"
   ]
 }

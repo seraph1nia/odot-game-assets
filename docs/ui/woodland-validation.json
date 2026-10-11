@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "results": "production/woodland-accepted/results.json",
-  "results_sha256": "d80169cd56eb119c17016454d214cd09a51401a6c935331ded528f2d85f14c0a",
+  "results": "production/woodland-hover-refreshed/results.json",
+  "results_sha256": "1967f7ae47132c085e2b3c82ea1e89b3def890775a8af901b9fee7f47f51503c",
   "capture_sha256": {
     "skill-tree-root-1100x820.png": "efaf3a0198141830bdd72ecc175117c8afb69a3812c7e9b61b68a97be9c9b009",
     "skill-tree-three-choices-1100x820.png": "b4c2c924e78d1ca9cac2dcc587487deb3c6535640da2b0a471874f8121c21e04",
@@ -90,31 +90,28 @@
     "hud-fallen-1280x720.png": "df789b1aa8501b2f9193a2e174a32e45115475970c75f82a68df7d3512e1c60a",
     "hud-stale-1280x720.png": "10264091db6ef4b01817962bb334a19c0587d10220c01ba8a4d3600ac6677da6",
     "hud-choices-1100x820.png": "d9b8ce9a2f87c25b8cdf88859e5135880aa19f6633164f7fa53f740de815a1e1",
+    "hud-progress-tooltip-1100x820.png": "0475c71b9c294c4d0358422d89d3ce4a1f69f8ea08231a75c967147992783c6e",
     "hud-choices-1280x720.png": "96cd647234443b1c06717ee963c23c15c265438edeeb7a4fab72a65d0ec78930",
+    "hud-progress-tooltip-1280x720.png": "460d68dbd7dc0c371ab067a5339187788434923283db286cf2ac4bd1e3e06984",
     "hud-focus-1280x720.png": "2ad04e9607287abeeabcc3b93ee4a83a95eb065a48797b767f37d12dd3c72609",
     "hud-hover-1280x720.png": "551e76c150379c58471035ba1eee514b8d3911d0486a140619eb84b47aa2dad0",
     "hud-skill-tab-1280x720.png": "b2f45f481caccbb2f8d76253b699607c4895904d9c6a8de1bde2b7d99c51b5c2",
     "hud-choices-preparation-1280x720.png": "44212d0ed34779a264f422429a9da838d2670d9ab38b85a01f255c4c266c70f7"
   },
   "native_resolution_review": [
-    "hud-choices-1280x720.png",
+    "hud-progress-tooltip-1100x820.png",
+    "hud-progress-tooltip-1280x720.png",
+    "hud-1100x820.png",
+    "hud-1280x720.png",
     "hud-choices-1100x820.png",
-    "menu-1280x720.png",
-    "menu-1100x820.png",
+    "hud-choices-1280x720.png",
     "hud-choices-preparation-1280x720.png",
     "hud-lost-1280x720.png",
     "hud-focus-1280x720.png",
     "hud-hover-1280x720.png",
-    "hud-skill-tab-1280x720.png",
-    "skill-tree-root-1100x820.png",
-    "skill-tree-three-choices-1100x820.png",
-    "skill-tree-parent-unlock-1100x820.png",
-    "skill-tree-insufficient-1100x820.png",
-    "skill-tree-owned-1100x820.png",
-    "skill-tree-duplicate-titles-1100x820.png",
-    "skill-tree-narrow-420x700.png"
+    "hud-skill-tab-1280x720.png"
   ],
-  "overview_review": "All 92 current images reviewed in eight reduced contact sheets for layout/color, not small-text legibility; private sheets .cache/ui-theme/accepted-sheet-{1..8}.png",
+  "overview_review": "No new whole-campaign overview claimed; current direct native-resolution review is the targeted list above. Prior 92-frame overview remains in prior_validation.",
   "catalog_sha256": {
     "theme": "22977e85328cfaf57d428efcc077c97e4695d63e6cd65d1c6e19c9796f491f06",
     "resource-table": "c18e83cac5aa0fabb34b07d25b451df45054a055bf53e1ce5772cd8dd13e8817",
@@ -131,10 +128,8 @@
     "start-menu": "0fcf3dd6d5df4930b704a39859a15b2dee656265400e36722eddc85df175f533"
   },
   "catalog_native_resolution_review": [
-    "dialog-shell",
     "hud",
-    "start-menu",
-    "skill-tree"
+    "match-controls"
   ],
   "catalog_exact_pixel_review_reuse": {
     "theme": {
@@ -157,13 +152,13 @@
       "prior_native_review": "docs/ui/catalog/woodland-reviewed/city-navigation.png",
       "sha256": "eb302b23eac0b677d316150d233a179f13a7673b645781fb88b187b9cd424bf8"
     },
-    "match-controls": {
-      "prior_native_review": "docs/ui/catalog/woodland-reviewed/match-controls.png",
-      "sha256": "d85ecc7e76e3ba380e193497857604e5133b4ca166b04229acf6436422f68a61"
-    },
     "session-feedback": {
       "prior_native_review": "docs/ui/catalog/woodland-reviewed/session-feedback.png",
       "sha256": "ad63e814d7aef70cfcf87d1c2d11cad357a57589d66d41d9740be30ea3802ecc"
+    },
+    "dialog-shell": {
+      "prior_native_review": "docs/ui/catalog/woodland-accepted/dialog-shell.png",
+      "sha256": "d2419cc476311d62ea1b47cbff7fdb769be418a84674f17e036286c23cdcee4a"
     },
     "unit-inspection": {
       "prior_native_review": "docs/ui/catalog/woodland-reviewed/unit-inspection.png",
@@ -172,21 +167,33 @@
     "roster": {
       "prior_native_review": "docs/ui/catalog/woodland-reviewed/roster.png",
       "sha256": "cce516567a460807c1167f7434ee712eda213d39911a7ea42b766c048c367ebc"
+    },
+    "skill-tree": {
+      "prior_native_review": "docs/ui/catalog/woodland-accepted/skill-tree.png",
+      "sha256": "d1a525fa6e0e1b2b0778253b5aadddfdc66ce30585a000f03e9cd2c60800d6af"
+    },
+    "start-menu": {
+      "prior_native_review": "docs/ui/catalog/woodland-accepted/start-menu.png",
+      "sha256": "0fcf3dd6d5df4930b704a39859a15b2dee656265400e36722eddc85df175f533"
     }
   },
-  "catalog_review_scope": "Nine current freshly rendered catalog images exactly match the prior actually opened native image bytes; four current catalog images opened directly. This is image-only review reuse, not old-source certification. Current source/host/generator hashes remain owned by previews.json and current input/state checks by results.",
+  "catalog_review_scope": "Two affected current images opened at native resolution; any listed image-only reuse was verified by exact bytes against an explicitly recorded prior native review. Current source/host/generator/resource identities come from the freshly generated current and per-run previews.json owners.",
   "tools_sha256": {
-    "tools/ui/validate.py": "c563a7e17946bfe7f8be28e7526d0bc39ddd3abdc3305e1fa6dbd9ff920cd1d6",
-    "tools/ui/build_theme.gd": "f99d7ae6f81562ce6711befbd8024f3b45ec0366d4f167fe44e652e9a52b3401",
-    "tools/ui/audit_payload.py": "8f9018ba3b6dd04680c29c96b37d747705c5a9774a85b27c745bc911060ec2c5",
-    "tools/ui/check_catalog_package.py": "0987d6d8d93b9680c11b72db615130f57fcb12c2d8bba131c49d7cc043625965",
-    "tools/ui/capture_catalog.py": "65f6d8d2015421c64453183c696b825805359b2278ccf610caa98b1b7a15623c",
-    "tools/ui/diagnose_settings.py": "750fe97ea30f328f556ceb004c229ae1428f0b4ee688a3fc0fdd45de6597f7da",
-    "tools/ui/test_plan.py": "dfa2a3f21c2b4736ed744ed649b368c55c5f82533d42711dfa6e5484e4d24119",
+    "tools/asset_catalog/__main__.py": "a370158533337179dc2332dffa961b02f8774bce39f10dfe75cdd1c62c4b76ff",
+    "tools/asset_catalog/build_site.py": "45e74a23b95d07a82fea3b193e390eed1c1b63c40b0a00f822a5d1253726dee8",
+    "tools/asset_catalog/index.py": "9bb2ba3b37d1cbd6c247483fe7c33870b7a285c43d1e4ac32b8c7647e0dfc6c7",
+    "tools/asset_catalog/test_ui_assets.py": "d1be4bfce4bf8d377d004f6b27d3c2c30fd6d5b08bafe11b8bee2dcca995deaa",
     "tools/asset_catalog/ui_assets.py": "7c9d642c28410a4583423e5ac884202c9a0a6621594735db6164efcc3a51f1b3",
-    "tools/asset_catalog/test_ui_assets.py": "d1be4bfce4bf8d377d004f6b27d3c2c30fd6d5b08bafe11b8bee2dcca995deaa"
+    "tools/ui/audit_payload.py": "8f9018ba3b6dd04680c29c96b37d747705c5a9774a85b27c745bc911060ec2c5",
+    "tools/ui/build_theme.gd": "f99d7ae6f81562ce6711befbd8024f3b45ec0366d4f167fe44e652e9a52b3401",
+    "tools/ui/capture_catalog.py": "65f6d8d2015421c64453183c696b825805359b2278ccf610caa98b1b7a15623c",
+    "tools/ui/capture_explorations.py": "d685ddfcf44793f32452de1ba31b7d9f0ec3353a4783eb1008fc01c55eac8326",
+    "tools/ui/check_catalog_package.py": "0987d6d8d93b9680c11b72db615130f57fcb12c2d8bba131c49d7cc043625965",
+    "tools/ui/diagnose_settings.py": "ef5bfe9f74569fb54cd57f3190cbbe43e02fa97f6ed164326e03d5fc491ac3ce",
+    "tools/ui/test_plan.py": "4bf356fe48bac60db7e430b1a1e33472d82a1fa9a6c6e7aaab3693f76ad3742c",
+    "tools/ui/validate.py": "c563a7e17946bfe7f8be28e7526d0bc39ddd3abdc3305e1fa6dbd9ff920cd1d6"
   },
-  "package_sha256": "00ca7d39c1de33db94eee672e3ba279f7b5dd0c1812a56d56ac9ec3e5c287f12",
+  "package_sha256": "6795ad0e79a876f40af17a3e4bb5dc8959c82cf9e88fa32665f722d0e3f4d1ad",
   "package_check": "catalog/package-check.json",
   "payload_manifest": "payload.json",
   "art_provenance": "woodland-art.json",
@@ -195,13 +202,19 @@
       "checks": 11,
       "failures": [],
       "world_clicks": 0,
-      "logs": ".cache/ui-diagnosis/full-os-none-woodland-accepted/"
+      "logs": ".cache/ui-diagnosis/full-os-none-woodland-hover-refreshed-2/",
+      "result_log_sha256": "f541c3af93b02f6addf5eba81b4810473ae698a432cf64fc9792997bc96bde71",
+      "source_binding": "production/woodland-hover-refreshed/results.json",
+      "owner_sha256": "ef5bfe9f74569fb54cd57f3190cbbe43e02fa97f6ed164326e03d5fc491ac3ce"
     },
     "modal": {
       "checks": 64,
       "failures": [],
       "world_clicks": 0,
-      "logs": ".cache/ui-diagnosis/modal-os-none-woodland-accepted/"
+      "logs": ".cache/ui-diagnosis/modal-os-none-woodland-hover-refreshed-2/",
+      "result_log_sha256": "ea3f8245e247cd70eb33ceee5e5d19f27b71654dcabf77922da9b1449c7a5166",
+      "source_binding": "production/woodland-hover-refreshed/results.json",
+      "owner_sha256": "ef5bfe9f74569fb54cd57f3190cbbe43e02fa97f6ed164326e03d5fc491ac3ce"
     }
   },
   "preserved_failures": [
@@ -214,5 +227,104 @@
     "production/woodland-final-2/results.json",
     "production/woodland-reviewed/results.json"
   ],
-  "scope": "Native Controls, owned Xvfb/Compatibility/Mesa llvmpipe and independent headless UI-only/actual ZIP loading. No hardware GPU/FPS/VRAM, game integration, full localization/RTL, mobile, live-browser acceptance or deployment certification. Historical Ledger/compact-tree/browser bindings remain unchanged and do not certify edited inputs. Implementation HEAD is reported at commit/delivery rather than a self-referential hash inside its own content."
+  "scope": "Native Controls, owned Xvfb/Compatibility/Mesa llvmpipe and independent headless UI-only/actual ZIP loading. No hardware GPU/FPS/VRAM, game integration, full localization/RTL, mobile, live-browser acceptance or deployment certification. Historical Ledger/compact-tree/browser bindings remain unchanged and do not certify edited inputs. Implementation HEAD is reported at commit/delivery rather than a self-referential hash inside its own content.",
+  "checks": 1203,
+  "capture_count": 94,
+  "focused": {
+    "results": "production/woodland-hover-refreshed-focused/results.json",
+    "results_sha256": "b6e4d1997a636f62c5eb464e2f6c726d1527a25b9499948203fa8ec684ce4da2",
+    "checks": 432,
+    "capture_count": 8,
+    "capture_sha256": {
+      "hud-choices-1100x820.png": "d9b8ce9a2f87c25b8cdf88859e5135880aa19f6633164f7fa53f740de815a1e1",
+      "hud-progress-tooltip-1100x820.png": "0475c71b9c294c4d0358422d89d3ce4a1f69f8ea08231a75c967147992783c6e",
+      "hud-choices-1280x720.png": "96cd647234443b1c06717ee963c23c15c265438edeeb7a4fab72a65d0ec78930",
+      "hud-progress-tooltip-1280x720.png": "460d68dbd7dc0c371ab067a5339187788434923283db286cf2ac4bd1e3e06984",
+      "hud-focus-1280x720.png": "2ad04e9607287abeeabcc3b93ee4a83a95eb065a48797b767f37d12dd3c72609",
+      "hud-hover-1280x720.png": "551e76c150379c58471035ba1eee514b8d3911d0486a140619eb84b47aa2dad0",
+      "hud-skill-tab-1280x720.png": "b2f45f481caccbb2f8d76253b699607c4895904d9c6a8de1bde2b7d99c51b5c2",
+      "hud-choices-preparation-1280x720.png": "44212d0ed34779a264f422429a9da838d2670d9ab38b85a01f255c4c266c70f7"
+    }
+  },
+  "prior_validation": "production/woodland-accepted/validation.json",
+  "prior_validation_sha256": "c63612dfacfbd0fee9f519958fcf1bf1bc750104bea4acc4bcf668f047ebe0e3",
+  "historical_payload": "catalog/woodland-accepted/payload.json",
+  "historical_package_check": "catalog/woodland-accepted/package-check.json",
+  "exact_pixel_review_reuse": {
+    "menu-1280x720.png": {
+      "prior_native_review": "production/woodland-accepted/menu-1280x720.png",
+      "sha256": "0fcf3dd6d5df4930b704a39859a15b2dee656265400e36722eddc85df175f533"
+    },
+    "menu-1100x820.png": {
+      "prior_native_review": "production/woodland-accepted/menu-1100x820.png",
+      "sha256": "c7dc581923306bb5c0fa687f92ec9f7a515a21bc23afb1156b986258cce8146a"
+    },
+    "skill-tree-root-1100x820.png": {
+      "prior_native_review": "production/woodland-accepted/skill-tree-root-1100x820.png",
+      "sha256": "efaf3a0198141830bdd72ecc175117c8afb69a3812c7e9b61b68a97be9c9b009"
+    },
+    "skill-tree-three-choices-1100x820.png": {
+      "prior_native_review": "production/woodland-accepted/skill-tree-three-choices-1100x820.png",
+      "sha256": "b4c2c924e78d1ca9cac2dcc587487deb3c6535640da2b0a471874f8121c21e04"
+    },
+    "skill-tree-parent-unlock-1100x820.png": {
+      "prior_native_review": "production/woodland-accepted/skill-tree-parent-unlock-1100x820.png",
+      "sha256": "99e8ce7b38b09b4089ad5bd9cfecd28f2e4a67bcbb70d0a6d7a3b12f0b6207cc"
+    },
+    "skill-tree-insufficient-1100x820.png": {
+      "prior_native_review": "production/woodland-accepted/skill-tree-insufficient-1100x820.png",
+      "sha256": "4e5a3ffc4fac61699f8d0e1d571c9a2ad0b4a8658f9938337d1baad0e85f7717"
+    },
+    "skill-tree-owned-1100x820.png": {
+      "prior_native_review": "production/woodland-accepted/skill-tree-owned-1100x820.png",
+      "sha256": "86880a2ef6859465e4b52c21d66b291818c79cac4bd82b1d29f8069733a01fc1"
+    },
+    "skill-tree-duplicate-titles-1100x820.png": {
+      "prior_native_review": "production/woodland-accepted/skill-tree-duplicate-titles-1100x820.png",
+      "sha256": "2ac6203b766266264507dd90aafa13b07d44c571ed7afd3346591ef58b09fc28"
+    },
+    "skill-tree-narrow-420x700.png": {
+      "prior_native_review": "production/woodland-accepted/skill-tree-narrow-420x700.png",
+      "sha256": "ecf72f22ac206146e7e9d76f70c3bdce6864a73c96b1c8fc33a8b447b88aa7e7"
+    }
+  },
+  "package_bytes": 554641,
+  "verified_toolchain": {
+    "godot": {
+      "path": "/home/bart/.local/share/mise/installs/godot-dotnet/4.7.2-stable/godot",
+      "version": "4.7.2.stable.mono.official.ed1daf0bf",
+      "binary_sha256": "fc1bd592b5e771c65d52968f99835b4f2b7fe7b7cbc141e202cb63e01c95ec4d"
+    },
+    "dotnet": {
+      "path": "/home/bart/.local/share/mise/installs/dotnet/10.0.401/dotnet",
+      "version": "10.0.401",
+      "binary_sha256": "01d89e0a0191052bfea616cd4ce624c8faf13b05bbddf7f64499c23e2a9d9269"
+    },
+    "xvfb": {
+      "path": "/usr/bin/Xvfb",
+      "binary_sha256": "7d16a6e019ae16428663835b14e4e6a53c73eec605178129f0b0da62d41974cc"
+    }
+  },
+  "verification_environment": {
+    "LIBGL_ALWAYS_SOFTWARE": "1",
+    "GALLIUM_DRIVER": "llvmpipe",
+    "audio_driver": "Dummy",
+    "display": "private owned Xvfb",
+    "DOTNET_ROOT": "/home/bart/.local/share/mise/installs/dotnet/10.0.401",
+    "DOTNET_CLI_HOME": ".cache/dotnet",
+    "XDG_DATA_CONFIG_CACHE": "per-owner worktree .cache directories"
+  },
+  "preserved_unavailable_attempts": [
+    {
+      "log": ".cache/ui/woodland-progress-hover/import.log",
+      "log_sha256": "f8d91a5488d54227d023953fd8f9eedbe4d7f1e77b31d2c32d70feaab076a345",
+      "reason": "PATH mise shim refused untrusted config; later read-only resolution reported no active Godot/.NET versions; no engine execution or native evidence"
+    },
+    {
+      "log": ".cache/ui-diagnosis/full-os-none-woodland-hover-refreshed/import.log",
+      "log_sha256": "692fec1f2bb3aec66a0282a39ba7bf44db6e5d66d85cdbab670bd718ca0bc7c9",
+      "reason": "Supplemental OS owner headless import crashed before checks; its missing Dummy audio-driver argument was aligned with the other existing UI import owners before fresh serial OS checks"
+    }
+  ],
+  "lint_scope": "Initial caller Ruff absence remains historical. This review-phase native/package verification does not execute or waive the outer executor required repository lint/CI gates."
 }
