@@ -83,6 +83,14 @@ Theme without new navigation flows. See [API](api.md).
 
 ## Current acceptance and visual review
 
+The woodland-only acceptance below is preserved at its tested revision, not
+rebound onto the additive Worldtree source. Current full-source regression,
+actual Worldtree pictures, 11-scene UI-only loading and newly generated package
+qualification are owned by [worldtree-validation.json](worldtree-validation.json)
+and [worldtree.md](worldtree.md). Historical source/tool/package continuity
+statements below describe the retained woodland revision. The woodland Theme,
+original seal and compact 10-node component bytes are unchanged by Worldtree.
+
 `production/woodland-live-resize-accepted/results.json`: **1395 checks / zero failures /
 100 native captures**, including all prior Ledger and 126 landed compact-tree
 checks. The focused woodland/font/input/layout slice at

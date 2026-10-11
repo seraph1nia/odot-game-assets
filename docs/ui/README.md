@@ -24,6 +24,17 @@ MAIN owns the coordinated delivery handoff; no competing pipeline.
 | Why modal is not a Window | [causal diagnosis](settings-diagnosis.md), [contrary ownership result](modal-alternatives.md) |
 | Source/art/font/reference provenance | [original seal bindings](exploration-assets.json), [woodland bindings](woodland-art.json) |
 
+## Additive living Worldtree
+
+Choose **worldtree** in the existing showcase for the modular 24-node/23-wooden-edge
+presentation, four canonical visual stages and a real independently awakening child.
+Thirty original replaceable SVG icons and editable modular artwork live in
+`sources/ui/worldtree/`, with runtime copies under `UI/art/worldtree/`.
+[Worldtree direction, provenance and checks](worldtree.md) and
+[presentation-only API](api.md#living-worldtree-presentation-additive) are its owners.
+The accepted compact tree and woodland Theme remain unchanged. Use
+`validate.py --only worldtree` for the focused windowed render/input campaign.
+
 ## Additional compact skill tree
 
 The portable library now includes `UI/components/skill_tree.tscn`: a one-point

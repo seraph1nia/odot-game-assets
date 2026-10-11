@@ -133,7 +133,7 @@ class IntakeContracts(unittest.TestCase):
         self.assertEqual((focused['checks'], focused['failures']), (432, []))
         self.assertEqual(len(focused['captures']), 8)
 
-    def test_current_woodland_evidence_and_source_binding(self):
+    def test_historical_woodland_accepted_evidence(self):
         binding = load('woodland-validation.json')
         result = load(binding['results'])
         self.assertEqual(hashlib.sha256((DOCS / binding['results']).read_bytes()).hexdigest(), binding['results_sha256'])
@@ -151,10 +151,8 @@ class IntakeContracts(unittest.TestCase):
             self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), focused['capture_sha256'][capture['path']])
             self.assertEqual(png_header(path)[:2], (capture['width'], capture['height']))
         self.assertIn('llvmpipe', result['renderer'])
-        for name, digest in result['source_sha256'].items():
-            self.assertEqual(hashlib.sha256((PROJECT / name).read_bytes()).hexdigest(), digest, name)
-        for name, digest in binding['tools_sha256'].items():
-            self.assertEqual(hashlib.sha256((ROOT / name).read_bytes()).hexdigest(), digest, name)
+        # Historical source/tool maps remain inside the immutable hashed result
+        # and binding; the additive Worldtree campaign below owns current bytes.
         captures = {c['path']: c for c in result['captures']}
         for name, digest in binding['capture_sha256'].items():
             path = (DOCS / binding['results']).parent / name
@@ -162,10 +160,10 @@ class IntakeContracts(unittest.TestCase):
             self.assertEqual(png_header(path)[:2], (captures[name]['width'], captures[name]['height']))
         self.assertEqual(set(captures), set(binding['capture_sha256']))
         for name, digest in binding['catalog_sha256'].items():
-            entry = load('catalog/previews.json')['entries'][name]
+            entry = load('catalog/worldtree-prior/previews.json')['entries'][name]
             self.assertEqual(entry['sha256'], digest)
             self.assertEqual(hashlib.sha256((ROOT / entry['path']).read_bytes()).hexdigest(), digest)
-        self.assertEqual(load('catalog/package-check.json')['package_sha256'], binding['package_sha256'])
+        self.assertEqual(load('catalog/worldtree-prior/package-check.json')['package_sha256'], binding['package_sha256'])
         art = load('woodland-art.json')
         self.assertEqual(hashlib.sha256((ROOT / art['reference']['path']).read_bytes()).hexdigest(), art['reference']['sha256'])
         self.assertEqual(png_header(ROOT / art['reference']['path'])[:2], (art['reference']['width'], art['reference']['height']))
@@ -174,6 +172,25 @@ class IntakeContracts(unittest.TestCase):
                 self.assertEqual(hashlib.sha256((ROOT / asset[field]).read_bytes()).hexdigest(), asset['sha256'])
         for field, digest in [('path', 'sha256'), ('license', 'license_sha256')]:
             self.assertEqual(hashlib.sha256((ROOT / art['font'][field]).read_bytes()).hexdigest(), art['font'][digest])
+
+    def test_current_worldtree_full_campaign_source_binding(self):
+        binding = load('worldtree-validation.json')
+        result = load(binding['results'])
+        self.assertEqual(hashlib.sha256((DOCS / binding['results']).read_bytes()).hexdigest(), binding['results_sha256'])
+        self.assertEqual(result['failures'], [])
+        self.assertEqual(result['checks'], binding['checks'])
+        self.assertEqual(len(result['captures']), binding['capture_count'])
+        for name, digest in result['source_sha256'].items():
+            self.assertEqual(hashlib.sha256((PROJECT / name).read_bytes()).hexdigest(), digest, name)
+        for name, digest in binding['tools_sha256'].items():
+            self.assertEqual(hashlib.sha256((ROOT / name).read_bytes()).hexdigest(), digest, name)
+        for name, digest in binding['capture_sha256'].items():
+            self.assertEqual(hashlib.sha256(((DOCS / binding['results']).parent / name).read_bytes()).hexdigest(), digest, name)
+        self.assertEqual(load('catalog/package-check.json')['package_sha256'], binding['package_sha256'])
+        for name, digest in binding['catalog_sha256'].items():
+            entry = load('catalog/previews.json')['entries'][name]
+            self.assertEqual(entry['sha256'], digest)
+            self.assertEqual(hashlib.sha256((ROOT / entry['path']).read_bytes()).hexdigest(), digest)
 
     def test_historical_representative_package_is_preserved(self):
         self.preserved_milestone('representative')

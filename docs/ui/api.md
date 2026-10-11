@@ -9,7 +9,7 @@ checked acceptance and separate external integration obligations.
 
 Copy candidate: only `ui/preview/UI/` to a future game's `res://UI/` after separate
 authorization. `payload.json` records the exact current source/import/UID/resource file set and hashes.
-A fresh private project containing only this directory loads all ten scenes,
+A fresh private project containing only this directory loads all eleven scenes,
 woodland Theme/SVG art/serif font and original seal without preview, game or authoring tools.
 
 Do not copy `prototypes/`, `tests/`, `explorations/`, project settings, `.godot` caches,
@@ -39,6 +39,7 @@ shape. `prototypes/fixtures.gd` is illustrative data only, never a runtime depen
 | `unit_inspection.tscn` | `set_data(Dictionary)` | `requested(action_id:String, unit_id:int, destination_id:String)` | profile/health/status/recovery text, destinations, can_send/can_retire/reason; funding/recovery/model/status clocks stay external |
 | `army_roster.tscn` | `set_data(Dictionary)` | `unit_selected(unit_id:int)` | title,context,tiles,units,selected_id; display separate tile budgets, not pooling/transfer logic |
 | `skill_tree.tscn` | `set_data(Dictionary) -> bool` | `selected(id)`, `purchased(id, remaining_points)`, `rejected(id, reason)` | one-point root, three small chains, supplied points/owned; local guarded allocation, not game authority (below) |
+| `worldtree.tscn` | `set_data(Dictionary, animate_id:String = "") -> bool` | `node_selected(id)`, `node_action_requested(id)`, `awakening_finished(id)` | canonical 24-node visual snapshots; independent wood/sap/foliage/socket/icon; intent-only, never spends or acquires locally |
 | `modal.tscn` | local lifecycle below | `canceled`, `confirmed`, `closed` | native Control composition, not a Window or session owner |
 
 Core quote/city/match/feedback and inspection/roster scenes have meaningful native
@@ -115,6 +116,57 @@ This component intentionally owns **local allocation only** (unlike intent-only
 quoted actions). Callers supply starting points/definitions/ownership and receive
 allocation signals; a future game's authority must validate/persist and replace
 snapshots itself. No economy/balance or illustrative effect becomes game policy.
+
+## Living Worldtree presentation (additive)
+
+`res://UI/components/worldtree.tscn` is independent of the compact tree above.
+Supply every field: `acquired:Array[String]`, `available:Array[String]`,
+`icons:Dictionary` with exactly all 24 canonical node IDs mapped to one of the
+30 icon keys, `selected:String` (known node), and `points:int` (nonnegative,
+displayed only). IDs, parent relationships, immutable anchors, demo stages and
+icon vocabulary are in `res://UI/art/worldtree/topology.json`; no gameplay effects.
+
+```gdscript
+var tree = preload("res://UI/components/worldtree.tscn").instantiate()
+parent.add_child(tree)
+var icons = {}
+for node in tree.topology.nodes: icons[node.id] = node.icon_key
+assert(tree.set_data({"acquired":["root"], "available":["trunk_1"],
+    "icons":icons, "selected":"root", "points":5}))
+tree.node_selected.connect(func(id): print("Inspect: ", id))
+tree.node_action_requested.connect(func(id): print("Intent only: ", id))
+```
+
+- Complete snapshots are deep-copied. Malformed/unknown IDs/icons, duplicate IDs,
+  acquired/available overlap, incomplete acquired parent chains, missing fields or
+  invalid points return false atomically. Availability is supplied, not inferred
+  from parent/points/icon. No cost, spending, skill effect or progression reward.
+- `select_node(id)` and native node Buttons update only inspected selection and
+  emit `node_selected(id)`. Dormant/acquired nodes remain inspectable. Native
+  focus/Tab/Shift-Tab/Enter are preserved; decorations ignore pointer input.
+  `request_action()`/the footer emits `node_action_requested(id)` only for a
+  supplied available selected node; it changes neither points nor acquired IDs.
+- To animate one **newly acquired** module, pass its ID as the second `set_data`
+  argument with the updated complete snapshot. Its parent must be acquired in
+  the previous snapshot. Sap travels parent→child in 1.2s through that module's
+  actual wooden branch; then socket light, leaves/details and endpoint pulse
+  appear. Other modules have independent instance state. Invalid or already
+  acquired animation IDs are rejected. A replacement snapshot cancels the old
+  tween; freeing the component kills its bound tween. A snapshot supplied before
+  ready is presented when ready. `awakening_finished(id)` marks visual completion,
+  never a gameplay mutation. Root awakening is a local roots/socket reveal.
+- Preserve the physical tree: responsive layout uniformly fits canonical anchors
+  inside the component, never rebuilds nodes/edges. Supported screenshot sizes:
+  1100×820, 1280×720, 1600×900 and 1920×1080. Minimum component size 900×560;
+  tiny windows/localization/RTL/HiDPI and game embedding remain unqualified.
+- For a future Godot PCK/export, include the entire `UI/` resource set, not only
+  selected-scene inferred dependencies: illustrations are loaded by known dynamic
+  paths. Include `UI/art/worldtree/*.json` in the export's non-resource file filter.
+  Source-directory and ZIP loading are qualified here; selective/PCK game exports
+  require separate receiving-project validation (no game export was performed).
+- Editable originals, provenance, exact topology checks, source/tool/render bindings,
+  all four stages at all four sizes and independent transition witnesses:
+  [worldtree.md](worldtree.md). Choose **worldtree** in the existing showcase.
 
 ## Local modal lifecycle
 

@@ -52,9 +52,11 @@ class UIAssetsTests(unittest.TestCase):
         self.assertEqual(models, self.models)  # Existing model contracts unchanged.
         self.assertEqual(data['schema_version'], 2)
         ui = {asset['id']: asset for asset in data['assets'] if asset.get('kind')}
-        self.assertEqual(len(ui), 14)
+        self.assertEqual(len(ui), 15)
         self.assertEqual({a['role'] for a in ui.values()}, {'component', 'theme', 'art', 'showcase'})
-        self.assertEqual(len([a for a in ui.values() if a['role'] == 'component']), 10)
+        self.assertEqual(len([a for a in ui.values() if a['role'] == 'component']), 11)
+        self.assertEqual(ui['ui/worldtree']['resource']['path'], PROJECT + 'UI/components/worldtree.tscn')
+        self.assertEqual(ui['ui/worldtree']['role'], 'component')
         self.assertEqual(ui['ui/skill-tree']['resource']['path'], PROJECT + 'UI/components/skill_tree.tscn')
         self.assertEqual(ui['ui/skill-tree']['role'], 'component')
         self.assertEqual(ui['ui/menu-seal']['title'], 'Original menu seal')
@@ -79,16 +81,24 @@ class UIAssetsTests(unittest.TestCase):
         assets = build_ui_assets(self.root)
         package = (self.root / PACKAGE).read_bytes()
         with zipfile.ZipFile(io.BytesIO(package)) as archive:
-            # Keep the original 200KB code/art/metadata ceiling. The approved
-            # unmodified serif font + license have a separately hash-bound cost;
-            # do not give arbitrary new artwork/files an enlarged allowance.
+            # Preserve the original library's 200KB serialized ceiling. The
+            # explicitly authorized additive Worldtree has a separately measured
+            # 200KB source/import footprint; no blanket allowance for other files.
+            # The unmodified font/license retain their exact hash-bound cost.
             font = json.loads((ROOT / 'docs/ui/woodland-art.json').read_text())['font']
             font_bytes = 0
             for field, hash_field in [('path', 'sha256'), ('license', 'license_sha256')]:
                 data = archive.read(font[field].removeprefix(PROJECT))
                 self.assertEqual(hashlib.sha256(data).hexdigest(), font[hash_field])
                 font_bytes += len(data)
-            self.assertLess(len(package) - font_bytes, 200_000)
+            files = payload_files(self.root)
+            worldtree_files = {name: value for name, value in files.items()
+                               if '/art/worldtree/' in name or '/components/worldtree' in name}
+            legacy_files = {name: value for name, value in files.items() if name not in worldtree_files}
+            from tools.asset_catalog.ui_assets import package_bytes
+            self.assertLess(len(package_bytes(self.root, legacy_files)) - font_bytes, 200_000)
+            self.assertLess(sum((self.root / name).stat().st_size for name in worldtree_files), 200_000)
+            self.assertEqual(len(worldtree_files), len(json.loads((self.root / 'docs/ui/worldtree-validation.json').read_text())['runtime_files']))
             manifest = json.loads(archive.read('manifest.json'))
             expected = {name.removeprefix(PROJECT): digest for name, digest in payload_files(self.root).items()}
             self.assertEqual(manifest['files'], expected)

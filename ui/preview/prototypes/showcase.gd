@@ -30,7 +30,7 @@ func _ready() -> void:
 		if arg.begins_with("--capture="): capture_path = arg.trim_prefix("--capture=")
 	build()
 	get_viewport().size_changed.connect(update_context_layout)
-	if screen_mode not in ["hud", "menu"]: open_dialog(screen_mode)
+	if screen_mode not in ["hud", "menu", "worldtree"]: open_dialog(screen_mode)
 	if not capture_path.is_empty():
 		await settle()
 		await RenderingServer.frame_post_draw
@@ -63,7 +63,7 @@ func build() -> void:
 	WatchUI.label(toolbar, "THE COMMON WATCH · UI PREVIEW", "ContextLabel")
 	var scenes = OptionButton.new()
 	scenes.name = "ScreenSelector"
-	var screens = ["hud", "menu", "research", "town_hall", "settings", "details", "friends", "components", "skill_tree"]
+	var screens = ["hud", "menu", "research", "town_hall", "settings", "details", "friends", "components", "skill_tree", "worldtree"]
 	for name in screens: scenes.add_item(name.capitalize())
 	toolbar.add_child(scenes)
 	scenes.item_selected.connect(func(index): switch_screen.call_deferred(screens[index]))
@@ -83,7 +83,7 @@ func build() -> void:
 func switch_screen(mode: String) -> void:
 	close_dialog()
 	screen_mode = mode
-	if mode in ["hud", "menu"]: build_content()
+	if mode in ["hud", "menu", "worldtree"]: build_content()
 	else:
 		if ledger == null or not is_instance_valid(ledger): screen_mode = "hud"; build_content(); screen_mode = mode
 		open_dialog(mode)
@@ -104,6 +104,11 @@ func build_content() -> void:
 	var area = $Layout.get_child(0).get_node("Content")
 	WatchUI.clear(area)
 	ledger = null
+	if screen_mode == "worldtree":
+		var preview = load("res://prototypes/worldtree.tscn").instantiate()
+		preview.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+		area.add_child(preview)
+		return
 	var field_note = WatchUI.label(area, "Original abstract tabletop context · mock data · no game services", "ContextLabel")
 	field_note.position = Vector2(8, 8)
 	field_note.size = Vector2(590, 24)

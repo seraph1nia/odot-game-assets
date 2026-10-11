@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "purpose": "Worldtree reference art, canonical topology, prompt and editable starter icons",
+  "files": [
+    {
+      "path": "CONTACT_SHEET.png",
+      "size_bytes": 2376139,
+      "sha256": "889b9834b0f1a97cda63e58f57a71711ce99c1005032ec89a0db1c683671f9bf"
+    },
+    {
+      "path": "IMPLEMENTATION_PROMPT.md",
+      "size_bytes": 12228,
+      "sha256": "5a52870792c7c3268f2e97b9d7ddf009d9588c138377cd228ae57670bf7a9a5e"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3494,
+      "sha256": "6eff8cb5ca66318c6d546a52273518fd81f3d2ba599a8b94ae6e9c6b2d6d0d4d"
+    },
+    {
+      "path": "art_references/01_dormant_modular_art_board.png",
+      "size_bytes": 2526682,
+      "sha256": "f49f864cefa71d0d2d16b6260b4aa3c040f21e478ba127a3316ac7f797394fbf"
+    },
+    {
+      "path": "art_references/02_awakened_modular_art_board.png",
+      "size_bytes": 2767631,
+      "sha256": "ebf410d9cf4209679b01f4204e4a7dc660481be0eef6baa2a0c41d8a3b8c4ce3"
+    },
+    {
+      "path": "art_references/03_activation_stages_art_board.png",
+      "size_bytes": 2888790,
+      "sha256": "616579884f7829b54f1e28380bf2e2fab9f3a1438a93f16c477037e44cdfd8cd"
+    },
+    {
+      "path": "art_references/04_node_state_and_decor_reference.png",
+      "size_bytes": 2140977,
+      "sha256": "88217d931a7c7ff11cf4c07a3b092352612d8da97c2c94c37d8731f6381b1543"
+    },
+    {
+      "path": "art_references/05_icon_style_library.png",
+      "size_bytes": 2467383,
+      "sha256": "202d237f2b046d7c44ec093094ddc1199ea2e4d4a9c7508f7827035afe41965e"
+    },
+    {
+      "path": "art_references/06_in_game_tree_style_reference.png",
+      "size_bytes": 2020554,
+      "sha256": "c48b536da40689727a167919b9cb32c1685b04693534f954abd6ba476ef65b29"
+    },
+    {
+      "path": "canonical/VALIDATION.md",
+      "size_bytes": 992,
+      "sha256": "99e98569f94b90abf78b58a0b041cebefa81c39c45ca4b9398233ffa91c1654a"
+    },
+    {
+      "path": "canonical/activation_stages/01_root_only.png",
+      "size_bytes": 219997,
+      "sha256": "bcf8061b1684ee402b7a7202ffe19e84b216f21029830a280cd09340fe339ccd"
+    },
+    {
+      "path": "canonical/activation_stages/01_root_only.svg",
+      "size_bytes": 26663,
+      "sha256": "4cf3f5ba63a765272250ecea63996a2091df981b20e8924607f59678b31c992f"
+    },
+    {
+      "path": "canonical/activation_stages/02_trunk_awakened.png",
+      "size_bytes": 227719,
+      "sha256": "cd8f32cf7adb9aae1a8d657d5c85168e2249e74361b4a13048d590ade1d4ed0a"
+    },
+    {
+      "path": "canonical/activation_stages/02_trunk_awakened.svg",
+      "size_bytes": 27714,
+      "sha256": "230230369a7def3a881ddebff556ad18bec326bbfbfc79b1a704a14ce86de7b9"
+    },
+    {
+      "path": "canonical/activation_stages/03_three_primaries_awakened.png",
+      "size_bytes": 239143,
+      "sha256": "c30f71aa9d436acdc4924a5d20f2f71c710ec252296512dd9acee2da16a2a94b"
+    },
+    {
+      "path": "canonical/activation_stages/03_three_primaries_awakened.svg",
+      "size_bytes": 29306,
+      "sha256": "43f01eb30749872ed85bf6921903a0a128446018c704754abc75fedc17e84a72"
+    },
+    {
+      "path": "canonical/activation_stages/04_left_branch_family_awakened.png",
+      "size_bytes": 253606,
+      "sha256": "0f1747ef785cc2a6512d18ca7b7f43966d4fdca1ea10b98e8bdf66ee445706d0"
+    },
+    {
+      "path": "canonical/activation_stages/04_left_branch_family_awakened.svg",
+      "size_bytes": 32128,
+      "sha256": "ab6cc99c4c5d1ba2a4fcdcf0cedc984df59543879f9bab6a97c63c8778373356"
+    },
+    {
+      "path": "canonical/exact_24_node_tree.png",
+      "size_bytes": 271373,
+      "sha256": "2f09877355c51acda7d538208ff470f0c94aee6d5d027113cc9255d5838aa77a"
+    },
+    {
+      "path": "canonical/exact_24_node_tree.svg",
+      "size_bytes": 43693,
+      "sha256": "f489871781226cc5923fb53116610c3cd1fc680ec3b4e96d73444714cf258102"
+    },
+    {
+      "path": "canonical/worldtree_topology.json",
+      "size_bytes": 9766,
+      "sha256": "f916023b78d66341d9d6268ea17c6ca322b87a5bcb1c6e7eebfda223bd0332e9"
+    },
+    {
+      "path": "icon_catalog.json",
+      "size_bytes": 511,
+      "sha256": "46360978e934bef5c72278fc0cb94eb34cfdd77133a2d21bc2a68991572e028d"
+    },
+    {
+      "path": "starter_icon_svgs/acorn.svg",
+      "size_bytes": 327,
+      "sha256": "39ca6f765a113efac0550e7256e72791d6f6757e4f7b36a6a7d2021aacf897e2"
+    },
+    {
+      "path": "starter_icon_svgs/antlers.svg",
+      "size_bytes": 337,
+      "sha256": "941c854836772768ef25897745ed06e876d95aa6e5748fc60b992ce16631ad4b"
+    },
+    {
+      "path": "starter_icon_svgs/book.svg",
+      "size_bytes": 323,
+      "sha256": "0f0df97f004c163c0762d0a23ab75af71b6f236ce46eac1a3dd1607a3b54509e"
+    },
+    {
+      "path": "starter_icon_svgs/boot.svg",
+      "size_bytes": 294,
+      "sha256": "4cbdb5f3ac3349ec2bc6ab58c7d2af2de400323a9994d15a8dcae0a18abbf7fd"
+    },
+    {
+      "path": "starter_icon_svgs/bow.svg",
+      "size_bytes": 282,
+      "sha256": "d24a7c8b4c558d57b1f00b7568296d838bd33f7f4c5591391d8f043fb2067b51"
+    },
+    {
+      "path": "starter_icon_svgs/crescent_moon.svg",
+      "size_bytes": 307,
+      "sha256": "84ad06471d8219bee73f0565f5a52467fcfe4a5dc5a6bdf04ad2a1a599386369"
+    },
+    {
+      "path": "starter_icon_svgs/crossed_swords.svg",
+      "size_bytes": 330,
+      "sha256": "28d7f952f4d411a68a3dc28a2ffdb10bd976ef0b4fafb6594a8c7b6f4375417a"
+    },
+    {
+      "path": "starter_icon_svgs/crystal.svg",
+      "size_bytes": 308,
+      "sha256": "f687f7c601444619af8487c9390fcf79b3b28238bfc0b91ef7ba594fc04844a4"
+    },
+    {
+      "path": "starter_icon_svgs/eye.svg",
+      "size_bytes": 312,
+      "sha256": "f2a84d8bb7ae6e4de80a3bf4c86f9f3dd518832a0507ecc89785941a325809f7"
+    },
+    {
+      "path": "starter_icon_svgs/feather.svg",
+      "size_bytes": 314,
+      "sha256": "26b8bca07e4d049506075183af2bda68a5d675438bef67b3695339590da2f306"
+    },
+    {
+      "path": "starter_icon_svgs/flame.svg",
+      "size_bytes": 318,
+      "sha256": "68c65e064f2de8bf112167f57258de7ffbf6bfb550e384e00bbef7ea4e847cad"
+    },
+    {
+      "path": "starter_icon_svgs/heart.svg",
+      "size_bytes": 269,
+      "sha256": "129675e752d51f348644b6e9a845fe67e30fd59d81ae924c7312465e00db986d"
+    },
+    {
+      "path": "starter_icon_svgs/lantern.svg",
+      "size_bytes": 329,
+      "sha256": "da3e425ce14c802d645c7cb36bd14991fad61451bccefa7bd505e7719bfc2184"
+    },
+    {
+      "path": "starter_icon_svgs/leaf.svg",
+      "size_bytes": 283,
+      "sha256": "055ec3f394c3881280f1c0049e82ca3e943d0f488cef6f8f586f5fa45b1c7cf5"
+    },
+    {
+      "path": "starter_icon_svgs/mushroom.svg",
+      "size_bytes": 284,
+      "sha256": "9199381972737ffaf05855aa1a5fa44a3223dbd445dc631186fe117bc5548b9b"
+    },
+    {
+      "path": "starter_icon_svgs/owl.svg",
+      "size_bytes": 384,
+      "sha256": "a4d09fdf1a7759d644b9d953daa718c6f7c0c846593be4795f9d4617c426e844"
+    },
+    {
+      "path": "starter_icon_svgs/paw.svg",
+      "size_bytes": 411,
+      "sha256": "000891990f4a53922dd4c3e752bed28c9f560ac279d251501d3b9650353af7d0"
+    },
+    {
+      "path": "starter_icon_svgs/poison_drop.svg",
+      "size_bytes": 371,
+      "sha256": "0bdec80f0123a5e475e8d481a936886d56318d82875854492d9a6e0c5854bceb"
+    },
+    {
+      "path": "starter_icon_svgs/rune.svg",
+      "size_bytes": 294,
+      "sha256": "7e55efa03db4c2a81ccd5863517c54adb45e37debd8ba3facc9048a089b762d6"
+    },
+    {
+      "path": "starter_icon_svgs/shield.svg",
+      "size_bytes": 278,
+      "sha256": "5d224d68da35ddf5d2bbbd32e4f5d51b9dd73d16923420485351808ed6e9926e"
+    },
+    {
+      "path": "starter_icon_svgs/snowflake.svg",
+      "size_bytes": 303,
+      "sha256": "c21ed037686bb482c68913596525c7ebd038e7ca5f2349b6053019e24b5dcd0f"
+    },
+    {
+      "path": "starter_icon_svgs/spark.svg",
+      "size_bytes": 270,
+      "sha256": "7888884c854c9f29a10ff337696cfd62e855057f087d4b65f50dd6da75dd15bf"
+    },
+    {
+      "path": "starter_icon_svgs/spiral.svg",
+      "size_bytes": 319,
+      "sha256": "f41f0b9f635f82b4cc1ea43de9c093b72b7c9364f01b185c4004921d3efffec2"
+    },
+    {
+      "path": "starter_icon_svgs/squirrel.svg",
+      "size_bytes": 391,
+      "sha256": "557175a1a9b1a042a4618536d5f9db666698e05243437da123aecbe40a0ceb65"
+    },
+    {
+      "path": "starter_icon_svgs/stone.svg",
+      "size_bytes": 298,
+      "sha256": "9e019cbaa145857c213d49771ac71c1e9ead963c8277fb15df1a24546554e3b7"
+    },
+    {
+      "path": "starter_icon_svgs/thorn_vine.svg",
+      "size_bytes": 351,
+      "sha256": "8f648b1dcc5a78a2b7f27b2f3e69c8a2b057ec34725201bfdbe0fa5da8d11d1b"
+    },
+    {
+      "path": "starter_icon_svgs/tower.svg",
+      "size_bytes": 290,
+      "sha256": "14b604f299d4c3f6ec907564b2f3430a29b06d83f229b917dc600598aefd247d"
+    },
+    {
+      "path": "starter_icon_svgs/tree_roots.svg",
+      "size_bytes": 323,
+      "sha256": "c975fe4e99b38046d519f46aa0521d8f4f2d69a2d73dec8abed7c12d169b1306"
+    },
+    {
+      "path": "starter_icon_svgs/water_drop.svg",
+      "size_bytes": 287,
+      "sha256": "b3f73438dd350a8b4f0f99384e9b8535af409ca3d7089eb990976b2f02be09a1"
+    },
+    {
+      "path": "starter_icon_svgs/world_seed.svg",
+      "size_bytes": 367,
+      "sha256": "1ed7c44608e1c18e9f84ba668393f558aef0d3fec95f3d44e3f05e03e32808ee"
+    }
+  ]
+}
