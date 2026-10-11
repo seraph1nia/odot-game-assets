@@ -1,5 +1,5 @@
 {
-  "package_sha256": "8ca234ee7e19133343ef111bd3ca40331060042a90f0ef02bdb1521d92f779c9",
+  "package_sha256": "7ee161be44cc1442258f4ae0fc97d53213882b598bfed38c7de548defe930ec0",
   "files": {
     "UI/art/menu_seal.png": "cf3e2ceb4510be6d6a052e882597c2313216e2268a9aaa61fdf1d7e1308d2ced",
     "UI/art/menu_seal.png.import": "8f06dede6295eba269e542a904e5ae91904db6eafd43f5ed225f15713d584529",
@@ -177,11 +177,63 @@
     "UI/ui_helpers.gd": "275d370115a6004c929908511943e44550f433bd82654fec7729e924b659a532",
     "UI/ui_helpers.gd.uid": "b5cfd062d51df5ee0c263019b8a87ceb9020684fd17e5c6640c3cb28a693ae0d"
   },
-  "checks": "All eleven scenes instantiated/ready, skill purchase guards exercised, Worldtree 24-node/23-edge/30-icon, intent-only snapshots and real headless independent child animation exercised, woodland Theme/SVG decorations/serif font and original seal loaded in independent project; no prototypes/game/tools/cache history copied",
-  "engine": "4.7.2.stable.mono.official.ed1daf0bf",
-  "logs": [
-    ".cache/ui-catalog-package/worldtree-shipping-refresh/import.log",
-    ".cache/ui-catalog-package/worldtree-shipping-refresh/load.log",
-    ".cache/ui-catalog-package/worldtree-shipping-refresh/version.log"
-  ]
+  "checks": "Serialized archive/member accounting only: all runtime inputs, manifest, extraction guidance and normalized entry metadata are unchanged; only api.md differs. Native qualification is reused from the preserved direct-load receipt, not a native run on this ZIP.",
+  "package_bytes": 784881,
+  "native_qualification": "Reused by measured unchanged relevant inputs; the documentation-updated ZIP was not natively loaded.",
+  "reused_native_load": {
+    "receipt": "worldtree-shipping-refresh/package-check.json",
+    "receipt_sha256": "af78adbbc2eb3d5fe16886c975d84dc3f071e73d08fed332e559ad88e0d88d91",
+    "package_sha256": "8ca234ee7e19133343ef111bd3ca40331060042a90f0ef02bdb1521d92f779c9",
+    "package_bytes": 784502
+  },
+  "member_continuity": {
+    "method": "Reconstructed the prior deterministic ZIP with the unchanged tools/asset_catalog/ui_assets.py::package_bytes owner, current runtime bytes verified against the direct receipt, and api.md from c820177. The complete reconstructed archive SHA256 equals the directly-tested archive receipt. Compared every reconstructed/current member name, byte and normalized entry metadata; only api.md differs.",
+    "previous_api_revision": "c820177bf67abef59c2ad8ac983d6047e2b809d1",
+    "reconstructed_previous_archive": ".cache/ui-docs-refresh/ledger-ui-directly-tested.zip",
+    "current_archive": "exports/ui/ledger-ui.zip",
+    "published_archive": "dist/catalog/exports/ui/ledger-ui.zip",
+    "member_count": 178,
+    "unchanged_runtime_member_count": 175,
+    "runtime_member_sha256_owner": "files",
+    "unchanged_non_runtime_members": {
+      "manifest.json": "9918e5613533835e66c2c7d677a5cf3c45eeb7e3af460476d47a60efb00521b0",
+      "README.txt": "f85618d68f6a1163b10aa88f52ce332683b309357f3b91393ebdbe98536ffcb2"
+    },
+    "member_names_order_and_entry_metadata_identical": true,
+    "entry_metadata_compared": [
+      "filename",
+      "date_time",
+      "compress_type",
+      "create_system",
+      "create_version",
+      "extract_version",
+      "flag_bits",
+      "internal_attr",
+      "external_attr",
+      "extra",
+      "comment"
+    ],
+    "changed_documentation_members": [
+      {
+        "path": "api.md",
+        "previous_sha256": "411911df5ec9d88de384d93f8f05aa52059cdd40db750b6e064efe3b397aaf28",
+        "current_sha256": "f7e40750a8b074b83b1c6048dbab351f9dcaa631020c55f5f846cf8ff15ea280",
+        "previous_bytes": 21273,
+        "current_bytes": 21652
+      }
+    ],
+    "entry_semantics": "Same res://UI/ namespace, complete normalized manifest and README extraction/import instructions. Every scene/script/UID, Theme, font/license, SVG/JSON art and import recipe is byte-identical. No runtime, input, resource, prototype, project, cache or tool member added or removed.",
+    "relevant_input_continuity": {
+      "results": "production/worldtree-review-fixes-2/results.json",
+      "results_sha256": "6b11dadf53efd7da9ee93dce3a3931750430df4ddfd65e84c95c86632dfb30bf",
+      "source_map_owner": "results::source_sha256",
+      "unchanged_source_count": 127,
+      "tools_map_owner": "docs/ui/worldtree-validation.json::tools_sha256",
+      "unchanged_tool_count": 12,
+      "qualification": "Retained executions and environment qualifications only; no tests, native loading, captures or environment requalification performed in this documentation pass."
+    },
+    "generated_catalog_entries": 15,
+    "catalog_entry_identities_and_resource_versions_unchanged": true,
+    "published_archive_byte_identical": true
+  }
 }

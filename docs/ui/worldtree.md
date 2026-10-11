@@ -119,21 +119,30 @@ and accepted evidence. The first review-focused attempt is preserved at
 failures and measured failing-input hashes in `failure-binding.json`. Its native
 Tab sequence exposed that disabling a Button does not remove `FOCUS_ALL`; the
 footer now also loses native focusability while disabled and regains it when
-available. Shipping qualification for the recorded archive is in
-`catalog/worldtree-shipping-refresh/shipping-check.json`: the retained focused
-campaign's complete measured source map matches current inputs; fresh UI-only
-loading, 14 native catalog views, the real catalog build and direct loading of
-`exports/ui/ledger-ui.zip` all pass. The shipping ZIP and static copy are entirely
-byte-identical. All 14 fresh catalog PNGs match the pre-review images; the
-Worldtree, HUD and menu images were also reopened. Runtime and recorded-package
-bindings in `worldtree-validation.json` select the **2231-check/21-capture focused** campaign,
-not a new full regression. The original full-campaign binding, payload, previews
-and package receipt remain unchanged under `catalog/worldtree-pre-review/`.
-No historical execution is relabeled, and no new full-suite/browser/PCK/game
-qualification is claimed. These receipts bind their recorded archive/API bytes;
-later API documentation edits require regenerating the ZIP and measuring member
-continuity before package qualification can transfer. Runtime receipts alone do
-not qualify a changed archive.
+available. The retained shipping campaign is in
+`catalog/worldtree-shipping-refresh/shipping-check.json`: UI-only loading,
+14 native catalog views, the real catalog build and direct loading of its recorded
+ZIP passed. Its original direct-load receipt is preserved unchanged alongside it
+at `catalog/worldtree-shipping-refresh/package-check.json`. The recorded archive
+and then-published static copy were entirely byte-identical. All 14 catalog PNGs
+match the pre-review images; the Worldtree, HUD and menu images were also reopened.
+Runtime bindings in `worldtree-validation.json` select the
+**2231-check/21-capture focused** campaign, not a new full regression. The original
+full-campaign binding, payload, previews and package receipt remain unchanged
+under `catalog/worldtree-pre-review/`.
+
+After API documentation corrections, the existing package/catalog owners generated
+the current ZIP and portable static UI copies without tests, loading or captures.
+[`catalog/package-check.json`](catalog/package-check.json) owns the current and
+previous container hashes, exact changed-documentation-member list and measured
+continuity: every runtime member, manifest, extraction guide, normalized ZIP entry,
+retained campaign input and logical catalog resource entry is unchanged. Only
+`api.md` differs. The prior archive was reconstructed with the unchanged package
+owner and historical API bytes; its entire hash exactly matches the directly
+loaded archive receipt. Current native qualification is reused by this measured
+continuity; **the documentation-updated ZIP was not natively loaded**. Current
+shipping bindings select this receipt, not a relabeled old execution. No new
+full-suite/browser/PCK/game or environment qualification is claimed.
 
 ## Submitted measured acceptance (before review fixes)
 
@@ -193,8 +202,8 @@ native GPU performance/FPS/VRAM, physical desktop input, game integration,
 localization/RTL/HiDPI or arbitrary small windows. Future Godot exports must include
 the entire UI resource set and the two runtime JSON files in the non-resource
 export filter; selective-scene/PCK export is not qualified by raw-project loading.
-The fresh UI-only and generated-ZIP
-loaders separately qualify the changed shipping package; retained submitted
-receipts qualify only their recorded inputs. Headless loading/input
-never substitutes for native rendered image inspection. References, authoring
+The retained UI-only and generated-ZIP loaders qualify their recorded inputs;
+the current docs-only package selection and measured native-qualification reuse
+are described in [the review-fix boundary](#review-fix-qualification-boundary).
+Headless loading/input never substitutes for native rendered image inspection. References, authoring
 sources, prototypes, tests and caches are never portable runtime dependencies.

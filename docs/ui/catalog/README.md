@@ -71,7 +71,9 @@ dependencies, generator, identities, image bytes or measured dimensions.
 [`previews.json`](previews.json) owns the current capture selection, dimensions,
 resource/host/generator bindings and image hashes; per-run manifests preserve
 previous selections. [`package-check.json`](package-check.json) owns the selected
-ZIP's direct native-load receipt and measured member hashes.
+ZIP's measured member hashes and qualification selection, including docs-only
+continuity to its preserved direct native-load receipt; it distinguishes directly
+tested archive bytes from a documentation-updated container.
 [Worldtree qualification](../worldtree.md#review-fix-qualification-boundary) owns
 current native campaign, shipping-refresh and visual-review scope; exact bindings
 are in [worldtree-validation.json](../worldtree-validation.json).

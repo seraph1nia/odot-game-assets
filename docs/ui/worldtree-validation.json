@@ -11,7 +11,7 @@
     "review_focused_results": "production/worldtree-review-fixes-2/results.json",
     "review_focused_binding": "production/worldtree-review-fixes-2/review-binding.json",
     "review_failed_attempt": "production/worldtree-review-fixes/failure-binding.json",
-    "current_acceptance": "Current source-matching focused Worldtree campaign (2231 checks/21 captures), freshly executed independent UI-only audit, native catalog captures and direct generated-ZIP load; no new full-suite or browser qualification claimed",
+    "current_acceptance": "Current source-matching focused Worldtree campaign (2231 checks/21 captures), independent UI-only audit and native catalog captures retained at their recorded inputs; current documentation-updated ZIP reuses prior direct native-load qualification by measured identical runtime/input/resource members, not a new load; no new full-suite or browser qualification claimed",
     "historical_binding": "catalog/worldtree-pre-review/worldtree-validation.json",
     "historical_binding_sha256": "891f6c1cb0b7e26118e7e5a92621bb66a3d0e75de1efb42b77918ddb1dbe6490",
     "shipping_refresh": "catalog/worldtree-shipping-refresh/shipping-check.json"
@@ -321,17 +321,17 @@
     "log": ".cache/ui-payload/worldtree-shipping-refresh/load.log",
     "proof": "Fresh independent UI-only project: all scenes ready, compact-tree guards, Worldtree intent-only snapshot/unknown-icon/30 textures and real parent-to-child animation plus unchanged trunk sibling; no prototypes/game/tools copied"
   },
-  "package_sha256": "8ca234ee7e19133343ef111bd3ca40331060042a90f0ef02bdb1521d92f779c9",
+  "package_sha256": "7ee161be44cc1442258f4ae0fc97d53213882b598bfed38c7de548defe930ec0",
   "package_check": "catalog/package-check.json",
-  "package_check_sha256": "af78adbbc2eb3d5fe16886c975d84dc3f071e73d08fed332e559ad88e0d88d91",
-  "package_tested": "exports/ui/ledger-ui.zip",
+  "package_check_sha256": "b8dffe4373c0b1e1e987c684e997b9927c65247962e47d4ac00819e74339c4a3",
   "static_package_copy": {
     "path": "dist/catalog/exports/ui/ledger-ui.zip",
-    "sha256": "8ca234ee7e19133343ef111bd3ca40331060042a90f0ef02bdb1521d92f779c9",
-    "bytes": 784502,
-    "entire_archive_byte_identical_to_directly_loaded_zip": true
+    "sha256": "7ee161be44cc1442258f4ae0fc97d53213882b598bfed38c7de548defe930ec0",
+    "bytes": 784881,
+    "entire_archive_byte_identical_to_current_generated_zip": true,
+    "entire_archive_byte_identical_to_directly_loaded_zip": false
   },
-  "package_proof": "Actual newly generated ZIP extracted and natively loaded in a fresh private headless project, including independent child animation. No old ZIP execution reused. Static dist copy must remain entire-archive byte-identical.",
+  "package_proof": "Current ZIP generated through the existing owner. All 175 runtime members, manifest and entry guidance match the prior directly-tested archive exactly; only api.md differs. Native qualification is reused by this measured continuity, not a native load of current archive bytes. Exact comparison and original direct-load receipt are selected by package_check.",
   "catalog_sha256": {
     "theme": "22977e85328cfaf57d428efcc077c97e4695d63e6cd65d1c6e19c9796f491f06",
     "resource-table": "c18e83cac5aa0fabb34b07d25b451df45054a055bf53e1ce5772cd8dd13e8817",
@@ -362,5 +362,8 @@
     "Godot native Input.parse_input_event pointer/key delivery, not physical desktop or OS XTest certification for this new component",
     "No new direct browser campaign; generated catalog/HTTP/package consumers are checked through existing unit owners, browser driver counts updated to actual 15/11",
     "No localization/RTL/HiDPI/tiny windows or main-game integration acceptance"
-  ]
+  ],
+  "package_generated": "exports/ui/ledger-ui.zip",
+  "directly_tested_package_receipt": "catalog/worldtree-shipping-refresh/package-check.json",
+  "directly_tested_package_sha256": "8ca234ee7e19133343ef111bd3ca40331060042a90f0ef02bdb1521d92f779c9"
 }
