@@ -252,6 +252,13 @@ func capture(name: String) -> void:
 	captures.append({"path":name+".png", "width":image.get_width(), "height":image.get_height()})
 
 # Added visual/input acceptance for the shared woodland skin, not a second tree.
+func visible_tooltip(node: Node, text: String) -> bool:
+	if node is Label and node.text == text and node.is_visible_in_tree() and node.get_window().visible and node.get_window() != get_window():
+		return true
+	for child in node.get_children(true):
+		if visible_tooltip(child, text): return true
+	return false
+
 func test_woodland() -> void:
 	await test_information_layout()
 	for size in [Vector2i(1100, 820), Vector2i(1280, 720)]:
@@ -263,6 +270,33 @@ func test_woodland() -> void:
 		var footer = ui.find_child("HudFooter", true, false)
 		expect(ui.information_scroll.get_global_rect().intersection(ui.upkeep.get_global_rect()).end.y < footer.get_global_rect().position.y, "woodland construction panes separate " + str(size))
 		await capture("hud-choices-" + str(size.x) + "x" + str(size.y))
+		var progress = ui.match_controls.get_node("Progress")
+		var panel = ui.match_controls.get_parent()
+		var received = [0, 0]
+		var on_controls = func(event):
+			if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed: received[0] += 1
+		var on_panel = func(event):
+			if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed: received[1] += 1
+		ui.match_controls.gui_input.connect(on_controls)
+		panel.gui_input.connect(on_panel)
+		var ready = ui.match_controls.get_node("Ready")
+		ready.grab_focus()
+		var world_before = ui.world_clicks
+		var action_before = ui.last_action
+		var hover = InputEventMouseMotion.new()
+		hover.position = progress.get_global_rect().get_center()
+		hover.global_position = hover.position
+		Input.parse_input_event(hover)
+		await get_tree().create_timer(0.8).timeout
+		await frames()
+		expect(visible_tooltip(get_tree().root, "Building turn · 2 / 3 (illustrative projection)"), "supplied progress description appears in native tooltip " + str(size))
+		await capture("hud-progress-tooltip-" + str(size.x) + "x" + str(size.y))
+		await click(progress)
+		expect(received == [1, 1], "progress pointer propagates through controls to containing HUD " + str(size))
+		expect(ui.world_clicks == world_before and ui.last_action == action_before, "progress pointer neither leaks to world nor requests actions " + str(size))
+		expect(get_viewport().gui_get_focus_owner() == ready, "progress hover/click preserves keyboard focus " + str(size))
+		ui.match_controls.gui_input.disconnect(on_controls)
+		panel.gui_input.disconnect(on_panel)
 	var action = ui.actions[0].get_node("Body/Action")
 	var world = ui.world_clicks
 	action.grab_focus()
