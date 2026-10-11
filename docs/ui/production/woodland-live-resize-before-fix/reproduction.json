@@ -1,0 +1,28 @@
+{
+  "scope": "Native same-window regression with current test driver in an isolated worktree-local project; only showcase.gd replaced by pre-fix HEAD bytes, not caller source or current-source acceptance",
+  "showcase_sha256": "c5df799f65ae4fe755c487e4f23f0130bbaf2734595c7a1efb3a877afa36e8a3",
+  "test_driver_sha256": "66d8384146981d38d3ec19f931cf13b898bcaba80220a78d2226e1005d4656b2",
+  "results_sha256": "930e0f3824e1158a0e8f16dddb0b8ef50103e1abb091016f13b42e2b77600193",
+  "log": ".cache/ui-live-resize-before-fix/.cache/ui/before-fix/tests.log",
+  "failures": [
+    "live width/height breakpoints (1100, 820)",
+    "live pane stays inside actual margins (1100, 820)",
+    "live width/height breakpoints (1100, 720)",
+    "live pane stays inside actual margins (1100, 720)",
+    "live width/height breakpoints (1100, 820)",
+    "live pane stays inside actual margins (1100, 820)",
+    "live width/height breakpoints (1280, 820)",
+    "live width/height breakpoints (1100, 820)",
+    "live pane stays inside actual margins (1100, 820)",
+    "live width/height breakpoints (1100, 720)",
+    "live pane stays inside actual margins (1100, 720)",
+    "live width/height breakpoints (1100, 820)",
+    "live pane stays inside actual margins (1100, 820)",
+    "live width/height breakpoints (1280, 820)",
+    "live projection quote height follows viewport preparation",
+    "live projection pane bounds preparation(1100, 820)",
+    "live projection quote height follows viewport lost",
+    "live projection pane bounds lost(1100, 820)",
+    "live projection complete tail reason remains reachable lost(1100, 820) viewport=[P: (276.0, 655.0), S: (564.0, 112.0)] reason=[P: (290.0, 794.0), S: (162.0, 33.0)]"
+  ]
+}

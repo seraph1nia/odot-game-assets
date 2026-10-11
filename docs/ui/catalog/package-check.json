@@ -51,8 +51,8 @@
   "checks": "All ten scenes instantiated/ready, skill purchase guards exercised, woodland Theme/SVG decorations/serif font and original seal loaded in independent project; no prototypes/game/tools/cache history copied",
   "engine": "4.7.2.stable.mono.official.ed1daf0bf",
   "logs": [
-    ".cache/ui-catalog-package/woodland-hover-refreshed/import.log",
-    ".cache/ui-catalog-package/woodland-hover-refreshed/load.log",
-    ".cache/ui-catalog-package/woodland-hover-refreshed/version.log"
+    ".cache/ui-catalog-package/woodland-live-resize-accepted/import.log",
+    ".cache/ui-catalog-package/woodland-live-resize-accepted/load.log",
+    ".cache/ui-catalog-package/woodland-live-resize-accepted/version.log"
   ]
 }

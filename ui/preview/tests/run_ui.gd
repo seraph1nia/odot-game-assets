@@ -260,6 +260,7 @@ func visible_tooltip(node: Node, text: String) -> bool:
 	return false
 
 func test_woodland() -> void:
+	await test_live_hud_resize()
 	await test_information_layout()
 	for size in [Vector2i(1100, 820), Vector2i(1280, 720)]:
 		get_window().size = size
@@ -335,6 +336,83 @@ func test_woodland() -> void:
 	await frames()
 	expect(ui.information_scroll.get_global_rect().intersection(ui.upkeep.get_global_rect()).end.y < ui.find_child("HudFooter", true, false).get_global_rect().position.y, "variable preparation copy leaves woodland construction space")
 	await capture("hud-choices-preparation-1280x720")
+
+func test_live_hud_resize() -> void:
+	get_window().size = Vector2i(1280, 720)
+	ui.state = "building"
+	ui.selection = "Empty plot"
+	ui.switch_screen("hud")
+	await frames(6)
+	var world = ui.world_clicks
+	var tabs = ui.context.get_node("Actions").get_child(1)
+	var footer = ui.find_child("HudFooter", true, false)
+	var ready = ui.match_controls.get_node("Ready")
+	var cards: Array
+	for group in [0, 1]:
+		if group == 1: await click_point(tabs.get_global_rect().position + tabs.get_tab_rect(group).get_center())
+		var scroll = ui.context.get_node("Actions/QuoteScroll")
+		var grid = scroll.get_node("Choices")
+		cards = ui.actions.duplicate()
+		ready.grab_focus()
+		await wheel_at(scroll, true)
+		var sizes = [Vector2i(1100, 820), Vector2i(1280, 720), Vector2i(1100, 720), Vector2i(1100, 820), Vector2i(1280, 820), Vector2i(1280, 720)]
+		for index in range(sizes.size()):
+			var before_scroll = scroll.scroll_vertical
+			var size = sizes[index]
+			get_window().size = size
+			await frames(6)
+			expect(ui.state == "building" and ui.selection == "Empty plot", "live resize preserves state/selection " + str(size))
+			expect(scroll == ui.context.get_node("Actions/QuoteScroll") and grid == scroll.get_node("Choices") and cards == ui.actions, "live resize retains quote controls " + str(size))
+			expect(tabs.current_tab == group, "live resize preserves category " + str(group))
+			expect(grid.columns == (3 if size.x >= 1280 else 2) and scroll.custom_minimum_size.y == (156 if size.y >= 820 else 144), "live width/height breakpoints " + str(size))
+			var available = Rect2(Vector2(12, 12), Vector2(size) - Vector2(24, 24))
+			for pane in footer.get_child(0).get_children(): expect(available.encloses(pane.get_global_rect()), "live pane stays inside actual margins " + str(size))
+			expect(get_viewport().gui_get_focus_owner() == ready, "live resize keeps native focus " + str(size))
+			expect(scroll.scroll_vertical <= mini(before_scroll, int(scroll.get_v_scroll_bar().max_value - scroll.get_v_scroll_bar().page)) and (before_scroll == 0 or scroll.get_v_scroll_bar().max_value <= scroll.get_v_scroll_bar().page or scroll.scroll_vertical > 0), "live resize retains scroll without reset, allowing native clamp " + str(size) + " group=" + str(group) + " before/actual/limit=" + str(Vector3(before_scroll, scroll.scroll_vertical, scroll.get_v_scroll_bar().max_value - scroll.get_v_scroll_bar().page)))
+			expect(scroll.size.y >= scroll.custom_minimum_size.y, "live quote viewport remains allocated " + str(size))
+			await wheel_at(scroll, true)
+			expect(scroll.get_global_rect().encloses(cards[-1].get_global_rect()), "live quote tail reachable with native wheel " + str(size))
+			await click(ready)
+			expect(ui.last_action.contains("Request: ready"), "live footer receives native pointer " + str(size))
+			if index < 2: await capture("hud-live-" + str(group) + "-" + str(size.x) + "x" + str(size.y))
+		if group == 0:
+			var target = cards[5].get_node("Body/Action")
+			target.grab_focus()
+			await frames()
+			expect(scroll.get_global_rect().encloses(target.get_global_rect()), "live quote native focus reveals far action")
+			await key(KEY_ENTER)
+			expect(ui.last_action.contains("build-Weaver"), "live quote keyboard activation retains opaque identity")
+	await click_point(tabs.get_global_rect().position + tabs.get_tab_rect(4).get_center())
+	var modal = ui.dialog
+	var modal_focus = get_viewport().gui_get_focus_owner()
+	for size in [Vector2i(1100, 820), Vector2i(1280, 720)]:
+		get_window().size = size
+		await frames(6)
+		expect(ui.dialog == modal and modal.visible and modal.invoker == tabs and ui.dialog_opener == tabs, "live modal/invoker retained " + str(size))
+		expect(get_viewport().gui_get_focus_owner() == modal_focus, "live modal keeps native focus " + str(size))
+		expect(cards == ui.actions, "live modal resize retains underlying category controls " + str(size))
+		await capture("hud-live-modal-" + str(size.x) + "x" + str(size.y))
+	await key(KEY_ESCAPE)
+	expect(get_viewport().gui_get_focus_owner() == tabs, "live modal close restores retained tab invoker")
+	for projection in ["preparation", "lost"]:
+		ui.state = projection
+		ui.refresh_hud()
+		await frames()
+		var scroll = ui.context.get_node("Actions/QuoteScroll")
+		for size in [Vector2i(1100, 820), Vector2i(1280, 720)]:
+			get_window().size = size
+			await frames(6)
+			expect(ui.state == projection and ui.selection == "Empty plot", "live projection resize preserves snapshot " + projection)
+			expect(scroll == ui.context.get_node("Actions/QuoteScroll"), "live projection retains quote viewport " + projection)
+			expect(scroll.custom_minimum_size.y == (156 if size.y >= 820 else 112), "live projection quote height follows viewport " + projection)
+			var available = Rect2(Vector2(12, 12), Vector2(size) - Vector2(24, 24))
+			for pane in footer.get_child(0).get_children(): expect(available.encloses(pane.get_global_rect()), "live projection pane bounds " + projection + str(size))
+			await wheel_at(scroll, true)
+			await wheel_at(scroll, true)
+			expect(scroll.get_global_rect().encloses(ui.actions[-1].get_node("Body/Reason").get_global_rect()), "live projection complete tail reason remains reachable " + projection + str(size) + " viewport=" + str(scroll.get_global_rect()) + " reason=" + str(ui.actions[-1].get_node("Body/Reason").get_global_rect()))
+			await click(ui.match_controls.get_node("Ready") if projection == "preparation" else ui.feedback.get_node("Actions/Reconnect"))
+			expect(ui.last_action.contains("ready") if projection == "preparation" else ui.last_action.contains("reconnect"), "live projection footer input retained " + projection)
+	expect(ui.world_clicks == world, "live resize/category/modal/quote input never leaks to world")
 
 func check_tree_text_width(tree) -> void:
 	for node_button in tree.buttons.values():

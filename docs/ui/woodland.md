@@ -83,11 +83,17 @@ Theme without new navigation flows. See [API](api.md).
 
 ## Current acceptance and visual review
 
-`production/woodland-hover-refreshed/results.json`: **1203 checks / zero failures /
-94 native captures**, including all prior Ledger and 126 landed compact-tree
+`production/woodland-live-resize-accepted/results.json`: **1395 checks / zero failures /
+100 native captures**, including all prior Ledger and 126 landed compact-tree
 checks. The focused woodland/font/input/layout slice at
-`production/woodland-hover-refreshed-focused/results.json` passes **432/0 with
-eight captures**. The added checks discover the supplied progress description in
+`production/woodland-live-resize-accepted-focused/results.json` passes **624/0 with
+14 captures**. Same-window resize checks cover wide→narrow→wide and independent
+width/height transitions, retained construction category/control identities,
+native scroll clamping and tail reachability, keyboard/pointer actions, modal
+focus/invoker continuity, and preparation/lost projections. A single viewport
+resize update changes only existing grid columns and quote viewport minimums;
+context creation uses the same update. No resize rebuilds the HUD or resets
+selection, category, focus or scroll. The retained hover checks discover the supplied progress description in
 an actual native tooltip at 1280×720 and 1100×820, observe pointer propagation
 through MatchControls to the enclosing HUD panel, and assert unchanged keyboard
 focus, world-click counts and action requests. Progress keeps its rendering and
@@ -104,8 +110,9 @@ textures/glyph caches and GPU allocation are not measured. The actual generated 
 separately and its exact member/package hashes remain in `catalog/package-check.json`.
 
 The refreshed native-resolution review covers the two progress tooltip frames,
-default/narrow HUD/construction, preparation/lost, focus/hover and the HUD skill-tree
-modal, plus the affected catalog HUD and match-controls images. Remaining images
+same-window Production/Army and modal resize frames, default/narrow construction,
+preparation/lost, focus/hover and the HUD skill-tree modal, plus the affected
+catalog HUD image. Remaining images
 are fresh executable captures, not a claim of new visual inspection of every
 frame. Exact-byte image-only review reuse is recorded separately in
 `woodland-validation.json`; it does not certify old source. These images show quiet dark wells,
@@ -118,6 +125,20 @@ coverage and binds every image; no old screenshots certify changed resources.
 The previous 1193/0/92 full campaign, 422/0/6 focused campaign, catalog run,
 payload and package receipts remain untouched as history. Their original
 validation selection is retained at `production/woodland-accepted/validation.json`.
+The later 1203/0/94 and 432/0/8 hover campaigns and their catalog/payload/package
+receipts also remain historical, selected by the untouched
+`production/woodland-hover-refreshed/validation.json`.
+The first two live-resize focused attempts are also preserved at
+`production/woodland-live-resize-focused/` and
+`production/woodland-live-resize-focused-2/`. They exposed incorrect new-test
+assumptions about intermediate native scroll clamping and the number of wheel
+pulses needed for the longer lost-state content. The accepted checks allow native
+clamping without a scroll reset and traverse the complete tail reason; no existing
+assertions, font/card minima, dimensions or timeout targets were reduced.
+The same final native test driver was also run in an isolated worktree-local copy
+with only the pre-fix showcase restored: 19 expected failures included stale live
+breakpoints and pane overflow. That negative reproduction is retained at
+`production/woodland-live-resize-before-fix/`, not counted as current acceptance.
 
 The first refresh attempt could not start Godot because PATH exposed inactive mise
 shims; its log remains at `.cache/ui/woodland-progress-hover/import.log`. A later

@@ -29,6 +29,7 @@ func _ready() -> void:
 		if arg.begins_with("--state="): state = arg.get_slice("=", 1)
 		if arg.begins_with("--capture="): capture_path = arg.trim_prefix("--capture=")
 	build()
+	get_viewport().size_changed.connect(update_context_layout)
 	if screen_mode not in ["hud", "menu"]: open_dialog(screen_mode)
 	if not capture_path.is_empty():
 		await settle()
@@ -274,12 +275,9 @@ func refresh_context() -> void:
 	scroll.name = "QuoteScroll"
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
 	scroll.follow_focus = true
-	# Retain a real scroll viewport when upper projections need extra lines.
-	scroll.custom_minimum_size.y = 156 if get_viewport_rect().size.y >= 820 else 112 if not str(ledger.data.get("context", "")).is_empty() else 144
 	host.add_child(scroll)
 	var grid = GridContainer.new()
 	grid.name = "Choices"
-	grid.columns = 3 if selection == "Empty plot" and get_viewport_rect().size.x >= 1280 else 2
 	grid.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	scroll.add_child(grid)
 	if selection == "Empty plot": fill_build_quotes(grid, 0, editable, reason)
@@ -288,6 +286,13 @@ func refresh_context() -> void:
 		for data in quotes:
 			if not editable: data.reason = reason
 			add_action(grid, data)
+	update_context_layout()
+
+func update_context_layout() -> void:
+	if ledger == null or not is_instance_valid(ledger): return
+	var scroll = context.get_node("Actions/QuoteScroll")
+	scroll.custom_minimum_size.y = 156 if get_viewport_rect().size.y >= 820 else 112 if not str(ledger.data.get("context", "")).is_empty() else 144
+	scroll.get_node("Choices").columns = 3 if selection == "Empty plot" and get_viewport_rect().size.x >= 1280 else 2
 
 func add_action(parent: Node, data: Dictionary) -> void:
 	var card = WatchUI.component("quoted_action", parent)

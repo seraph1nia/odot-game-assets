@@ -1,0 +1,98 @@
+{
+	"captures": [
+		{
+			"height": 820,
+			"path": "hud-live-0-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 720,
+			"path": "hud-live-0-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 820,
+			"path": "hud-live-1-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 720,
+			"path": "hud-live-1-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 820,
+			"path": "hud-live-modal-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 720,
+			"path": "hud-live-modal-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 820,
+			"path": "hud-choices-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "hud-progress-tooltip-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 720,
+			"path": "hud-choices-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-progress-tooltip-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-focus-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-hover-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-skill-tab-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-choices-preparation-1280x720.png",
+			"width": 1280
+		}
+	],
+	"checks": 624,
+	"failures": [
+		"live width/height breakpoints (1100, 820)",
+		"live pane stays inside actual margins (1100, 820)",
+		"live width/height breakpoints (1100, 720)",
+		"live pane stays inside actual margins (1100, 720)",
+		"live width/height breakpoints (1100, 820)",
+		"live pane stays inside actual margins (1100, 820)",
+		"live width/height breakpoints (1280, 820)",
+		"live width/height breakpoints (1100, 820)",
+		"live pane stays inside actual margins (1100, 820)",
+		"live width/height breakpoints (1100, 720)",
+		"live pane stays inside actual margins (1100, 720)",
+		"live width/height breakpoints (1100, 820)",
+		"live pane stays inside actual margins (1100, 820)",
+		"live width/height breakpoints (1280, 820)",
+		"live projection quote height follows viewport preparation",
+		"live projection pane bounds preparation(1100, 820)",
+		"live projection quote height follows viewport lost",
+		"live projection pane bounds lost(1100, 820)",
+		"live projection complete tail reason remains reachable lost(1100, 820) viewport=[P: (276.0, 655.0), S: (564.0, 112.0)] reason=[P: (290.0, 794.0), S: (162.0, 33.0)]"
+	],
+	"scope": "Standalone native controls; no game integration or native GPU claim",
+	"selection": "woodland"
+}

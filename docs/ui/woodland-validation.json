@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "results": "production/woodland-hover-refreshed/results.json",
-  "results_sha256": "1967f7ae47132c085e2b3c82ea1e89b3def890775a8af901b9fee7f47f51503c",
+  "results": "production/woodland-live-resize-accepted/results.json",
+  "results_sha256": "c478b4e6c8734fefe2e3af0e1bd80f7752c3aa538cca5280871a668db9047579",
   "capture_sha256": {
     "skill-tree-root-1100x820.png": "efaf3a0198141830bdd72ecc175117c8afb69a3812c7e9b61b68a97be9c9b009",
     "skill-tree-three-choices-1100x820.png": "b4c2c924e78d1ca9cac2dcc587487deb3c6535640da2b0a471874f8121c21e04",
@@ -89,6 +89,12 @@
     "hud-lobby-1280x720.png": "de51829159911f62aea8c17245e325b1d7a345edb29a7721a660865b79311e54",
     "hud-fallen-1280x720.png": "df789b1aa8501b2f9193a2e174a32e45115475970c75f82a68df7d3512e1c60a",
     "hud-stale-1280x720.png": "10264091db6ef4b01817962bb334a19c0587d10220c01ba8a4d3600ac6677da6",
+    "hud-live-0-1100x820.png": "b4416a55202dae1ece1977c7e6a4047eb58fd531a90b606a5a92d3d07a10bdd2",
+    "hud-live-0-1280x720.png": "b29d590aa3381e73021d249e313911702c6a80e221900e333baa3c9b544e258a",
+    "hud-live-1-1100x820.png": "c1084665ea6353ad615474023b721051ab2c73518f7fe301258c3f617210921a",
+    "hud-live-1-1280x720.png": "26dd3fbd03f9dd56ba7a49f4e0695e017f3aca09b55400e8ae541c998428841c",
+    "hud-live-modal-1100x820.png": "eb77edfffce1390fd0eb4b6c14846d7a735fe99bed2649e0c62bb8d1d7e1344d",
+    "hud-live-modal-1280x720.png": "7be398484d666e4bffddb23b583b3d2175b7c269187bc098a7fc26a915aecc55",
     "hud-choices-1100x820.png": "d9b8ce9a2f87c25b8cdf88859e5135880aa19f6633164f7fa53f740de815a1e1",
     "hud-progress-tooltip-1100x820.png": "0475c71b9c294c4d0358422d89d3ce4a1f69f8ea08231a75c967147992783c6e",
     "hud-choices-1280x720.png": "96cd647234443b1c06717ee963c23c15c265438edeeb7a4fab72a65d0ec78930",
@@ -99,10 +105,14 @@
     "hud-choices-preparation-1280x720.png": "44212d0ed34779a264f422429a9da838d2670d9ab38b85a01f255c4c266c70f7"
   },
   "native_resolution_review": [
+    "hud-live-0-1100x820.png",
+    "hud-live-0-1280x720.png",
+    "hud-live-1-1100x820.png",
+    "hud-live-1-1280x720.png",
+    "hud-live-modal-1100x820.png",
+    "hud-live-modal-1280x720.png",
     "hud-progress-tooltip-1100x820.png",
     "hud-progress-tooltip-1280x720.png",
-    "hud-1100x820.png",
-    "hud-1280x720.png",
     "hud-choices-1100x820.png",
     "hud-choices-1280x720.png",
     "hud-choices-preparation-1280x720.png",
@@ -111,7 +121,7 @@
     "hud-hover-1280x720.png",
     "hud-skill-tab-1280x720.png"
   ],
-  "overview_review": "No new whole-campaign overview claimed; current direct native-resolution review is the targeted list above. Prior 92-frame overview remains in prior_validation.",
+  "overview_review": "No new whole-campaign overview claimed; current direct native-resolution review is the targeted list above. Earlier whole-campaign and targeted reviews remain in preserved validation selections.",
   "catalog_sha256": {
     "theme": "22977e85328cfaf57d428efcc077c97e4695d63e6cd65d1c6e19c9796f491f06",
     "resource-table": "c18e83cac5aa0fabb34b07d25b451df45054a055bf53e1ce5772cd8dd13e8817",
@@ -128,8 +138,7 @@
     "start-menu": "0fcf3dd6d5df4930b704a39859a15b2dee656265400e36722eddc85df175f533"
   },
   "catalog_native_resolution_review": [
-    "hud",
-    "match-controls"
+    "hud"
   ],
   "catalog_exact_pixel_review_reuse": {
     "theme": {
@@ -151,6 +160,10 @@
     "city-navigation": {
       "prior_native_review": "docs/ui/catalog/woodland-reviewed/city-navigation.png",
       "sha256": "eb302b23eac0b677d316150d233a179f13a7673b645781fb88b187b9cd424bf8"
+    },
+    "match-controls": {
+      "prior_native_review": "docs/ui/catalog/woodland-hover-refreshed/match-controls.png",
+      "sha256": "d85ecc7e76e3ba380e193497857604e5133b4ca166b04229acf6436422f68a61"
     },
     "session-feedback": {
       "prior_native_review": "docs/ui/catalog/woodland-reviewed/session-feedback.png",
@@ -177,7 +190,7 @@
       "sha256": "0fcf3dd6d5df4930b704a39859a15b2dee656265400e36722eddc85df175f533"
     }
   },
-  "catalog_review_scope": "Two affected current images opened at native resolution; any listed image-only reuse was verified by exact bytes against an explicitly recorded prior native review. Current source/host/generator/resource identities come from the freshly generated current and per-run previews.json owners.",
+  "catalog_review_scope": "Affected current HUD opened at native resolution; listed image-only reuse was verified by exact bytes against explicitly recorded prior native reviews. Current source/host/generator/resource identities come from the freshly generated current and per-run previews.json owners.",
   "tools_sha256": {
     "tools/asset_catalog/__main__.py": "a370158533337179dc2332dffa961b02f8774bce39f10dfe75cdd1c62c4b76ff",
     "tools/asset_catalog/build_site.py": "45e74a23b95d07a82fea3b193e390eed1c1b63c40b0a00f822a5d1253726dee8",
@@ -190,7 +203,7 @@
     "tools/ui/capture_explorations.py": "d685ddfcf44793f32452de1ba31b7d9f0ec3353a4783eb1008fc01c55eac8326",
     "tools/ui/check_catalog_package.py": "0987d6d8d93b9680c11b72db615130f57fcb12c2d8bba131c49d7cc043625965",
     "tools/ui/diagnose_settings.py": "ef5bfe9f74569fb54cd57f3190cbbe43e02fa97f6ed164326e03d5fc491ac3ce",
-    "tools/ui/test_plan.py": "4bf356fe48bac60db7e430b1a1e33472d82a1fa9a6c6e7aaab3693f76ad3742c",
+    "tools/ui/test_plan.py": "5efd49270f3dff3591aeb10dec93be88dc3edcb5cefd0c49086a08fb5da90061",
     "tools/ui/validate.py": "c563a7e17946bfe7f8be28e7526d0bc39ddd3abdc3305e1fa6dbd9ff920cd1d6"
   },
   "package_sha256": "6795ad0e79a876f40af17a3e4bb5dc8959c82cf9e88fa32665f722d0e3f4d1ad",
@@ -202,18 +215,18 @@
       "checks": 11,
       "failures": [],
       "world_clicks": 0,
-      "logs": ".cache/ui-diagnosis/full-os-none-woodland-hover-refreshed-2/",
+      "logs": ".cache/ui-diagnosis/full-os-none-woodland-live-resize-accepted/",
       "result_log_sha256": "f541c3af93b02f6addf5eba81b4810473ae698a432cf64fc9792997bc96bde71",
-      "source_binding": "production/woodland-hover-refreshed/results.json",
+      "source_binding": "production/woodland-live-resize-accepted/results.json",
       "owner_sha256": "ef5bfe9f74569fb54cd57f3190cbbe43e02fa97f6ed164326e03d5fc491ac3ce"
     },
     "modal": {
       "checks": 64,
       "failures": [],
       "world_clicks": 0,
-      "logs": ".cache/ui-diagnosis/modal-os-none-woodland-hover-refreshed-2/",
+      "logs": ".cache/ui-diagnosis/modal-os-none-woodland-live-resize-accepted/",
       "result_log_sha256": "ea3f8245e247cd70eb33ceee5e5d19f27b71654dcabf77922da9b1449c7a5166",
-      "source_binding": "production/woodland-hover-refreshed/results.json",
+      "source_binding": "production/woodland-live-resize-accepted/results.json",
       "owner_sha256": "ef5bfe9f74569fb54cd57f3190cbbe43e02fa97f6ed164326e03d5fc491ac3ce"
     }
   },
@@ -221,21 +234,30 @@
     "production/woodland-1/results.json",
     "production/woodland-2/results.json",
     "production/woodland-layout-focused/results.json",
-    "production/woodland-final/results.json"
+    "production/woodland-final/results.json",
+    "production/woodland-live-resize-focused/results.json",
+    "production/woodland-live-resize-focused-2/results.json",
+    "production/woodland-live-resize-before-fix/results.json"
   ],
   "preserved_intermediate_visual_rejections": [
     "production/woodland-final-2/results.json",
     "production/woodland-reviewed/results.json"
   ],
   "scope": "Native Controls, owned Xvfb/Compatibility/Mesa llvmpipe and independent headless UI-only/actual ZIP loading. No hardware GPU/FPS/VRAM, game integration, full localization/RTL, mobile, live-browser acceptance or deployment certification. Historical Ledger/compact-tree/browser bindings remain unchanged and do not certify edited inputs. Implementation HEAD is reported at commit/delivery rather than a self-referential hash inside its own content.",
-  "checks": 1203,
-  "capture_count": 94,
+  "checks": 1395,
+  "capture_count": 100,
   "focused": {
-    "results": "production/woodland-hover-refreshed-focused/results.json",
-    "results_sha256": "b6e4d1997a636f62c5eb464e2f6c726d1527a25b9499948203fa8ec684ce4da2",
-    "checks": 432,
-    "capture_count": 8,
+    "results": "production/woodland-live-resize-accepted-focused/results.json",
+    "results_sha256": "15c5cae74f89310f9e2260578abc596ff5cc5ce30841d02c68678c5bce80ce53",
+    "checks": 624,
+    "capture_count": 14,
     "capture_sha256": {
+      "hud-live-0-1100x820.png": "b4416a55202dae1ece1977c7e6a4047eb58fd531a90b606a5a92d3d07a10bdd2",
+      "hud-live-0-1280x720.png": "b29d590aa3381e73021d249e313911702c6a80e221900e333baa3c9b544e258a",
+      "hud-live-1-1100x820.png": "c1084665ea6353ad615474023b721051ab2c73518f7fe301258c3f617210921a",
+      "hud-live-1-1280x720.png": "26dd3fbd03f9dd56ba7a49f4e0695e017f3aca09b55400e8ae541c998428841c",
+      "hud-live-modal-1100x820.png": "eb77edfffce1390fd0eb4b6c14846d7a735fe99bed2649e0c62bb8d1d7e1344d",
+      "hud-live-modal-1280x720.png": "7be398484d666e4bffddb23b583b3d2175b7c269187bc098a7fc26a915aecc55",
       "hud-choices-1100x820.png": "d9b8ce9a2f87c25b8cdf88859e5135880aa19f6633164f7fa53f740de815a1e1",
       "hud-progress-tooltip-1100x820.png": "0475c71b9c294c4d0358422d89d3ce4a1f69f8ea08231a75c967147992783c6e",
       "hud-choices-1280x720.png": "96cd647234443b1c06717ee963c23c15c265438edeeb7a4fab72a65d0ec78930",
@@ -251,6 +273,14 @@
   "historical_payload": "catalog/woodland-accepted/payload.json",
   "historical_package_check": "catalog/woodland-accepted/package-check.json",
   "exact_pixel_review_reuse": {
+    "hud-1100x820.png": {
+      "prior_native_review": "production/woodland-hover-refreshed/hud-1100x820.png",
+      "sha256": "93dd5fffe231ea53602b4e83824345e3605833abdfa520397f932666fdafbca4"
+    },
+    "hud-1280x720.png": {
+      "prior_native_review": "production/woodland-hover-refreshed/hud-1280x720.png",
+      "sha256": "1ec7802791f0e7330564d433f3cc6dcd7f0e09c62d9508f0e4b59a137448c07d"
+    },
     "menu-1280x720.png": {
       "prior_native_review": "production/woodland-accepted/menu-1280x720.png",
       "sha256": "0fcf3dd6d5df4930b704a39859a15b2dee656265400e36722eddc85df175f533"
@@ -326,5 +356,16 @@
       "reason": "Supplemental OS owner headless import crashed before checks; its missing Dummy audio-driver argument was aligned with the other existing UI import owners before fresh serial OS checks"
     }
   ],
-  "lint_scope": "Initial caller Ruff absence remains historical. This review-phase native/package verification does not execute or waive the outer executor required repository lint/CI gates."
+  "lint_scope": "Initial caller Ruff absence remains historical. This review-phase native/package verification does not execute or waive the outer executor required repository lint/CI gates.",
+  "prior_hover_validation": "production/woodland-hover-refreshed/validation.json",
+  "prior_hover_validation_sha256": "ec3e5e3151c7c5a5f9a34cdd4f6628cb4632e7e066b2e58b11a377b99b00ffe3",
+  "historical_hover_payload": "catalog/woodland-hover-refreshed/payload.json",
+  "historical_hover_package_check": "catalog/woodland-hover-refreshed/package-check.json",
+  "runtime_payload_scope": "Only authoring composition and native test driver changed. Fresh UI-only audit and independent final-ZIP load confirmed unchanged runtime file/member/package bytes; no prototype or test driver is a runtime member.",
+  "pre_fix_reproduction": {
+    "record": "production/woodland-live-resize-before-fix/reproduction.json",
+    "sha256": "2e7b8f38e865d4f696a44d1cedcdd923cb7a989b9e823b7b4d176b70fdd8c3dc",
+    "scope": "Expected failing same-window regression against isolated pre-fix showcase with current test driver; not current-source acceptance"
+  },
+  "resize_failure_scope": "First two focused attempts retained unmodified: new-test assumptions required correction for intermediate native scroll clamping and sufficient native wheel traversal of long lost-state content. Existing assertions/minima/dimensions/timeouts unchanged."
 }
