@@ -6,7 +6,9 @@ mock compositions and Phase G migration preparation, clarified by inbox 007.
 publication and rollout are not performed or certified.** Accepted M0/M1 and the
 scrolling/representative milestone remain unchanged historical evidence.
 
-Current woodland/inherited-tree acceptance is owned by [woodland](woodland.md)
+Current-source and shipping qualification is owned by
+[Worldtree qualification](worldtree.md#review-fix-qualification-boundary).
+Retained woodland/inherited-tree acceptance is owned by [woodland](woodland.md)
 and its exact [machine binding](woodland-validation.json). The earlier compact-tree
 [skill-tree validation](skill-tree-validation.md) remains preserved pre-theme evidence.
 The following Ledger criteria and visual bindings describe pre-extension acceptance:

@@ -20,13 +20,19 @@ func _ready() -> void:
 		await test_input()
 		await test_dialogs()
 		await test_modal_scope()
-	if only not in ["skill-tree", "woodland"]: await test_production()
-	if only != "woodland":
+	if only not in ["skill-tree", "woodland", "worldtree"]: await test_production()
+	if only not in ["woodland", "worldtree"]:
 		var skill_probe = load("res://tests/skill_tree_checks.gd").new()
 		skill_probe.runner = self
 		add_child(skill_probe)
 		await skill_probe.run()
 		skill_probe.queue_free()
+	if only in ["all", "worldtree"]:
+		var worldtree_probe = load("res://tests/worldtree_checks.gd").new()
+		worldtree_probe.runner = self
+		add_child(worldtree_probe)
+		await worldtree_probe.run()
+		worldtree_probe.queue_free()
 	if only == "woodland": await test_woodland()
 	if only == "all":
 		await test_layouts()
@@ -47,14 +53,16 @@ func expect(condition: bool, name: String) -> void:
 		failures.append(name)
 		push_error("UI assertion: " + name)
 
-func key(code: Key) -> void:
+func key(code: Key, shift: bool = false) -> void:
 	var event = InputEventKey.new()
 	event.keycode = code
+	event.shift_pressed = shift
 	event.pressed = true
 	Input.parse_input_event(event)
 	await frames(2)
 	event = InputEventKey.new()
 	event.keycode = code
+	event.shift_pressed = shift
 	event.pressed = false
 	Input.parse_input_event(event)
 	await frames(2)

@@ -81,7 +81,7 @@ an error and does not hide the other assets. Files are served on localhost only.
 Search `ui/` or select `ui/components`, `ui/theme`, `ui/art`, or `ui/showcases`.
 Inventory aliases are searchable case-insensitively in both canonical and spaced
 forms, such as `research-node` / `research node` and `health-style` / `health style`.
-The generated index includes **ten reusable native Godot scenes**, the **Ledger
+The generated index includes **eleven reusable native Godot scenes**, the **Ledger
 woodland Theme** (original SVG borders/icons/vignette and licensed serif font),
 the **unchanged original transparent menu seal**, and two **authoring-only HUD/menu
 showcase examples**. Entries come from the landed
@@ -99,6 +99,14 @@ compact prerequisite paths (three illustrative steps each). It reuses Ledger's
 native research-node/quoted-action styling; points, definitions and initial
 ownership come from the caller. Native selection, guarded local purchase and
 focus-following two-axis scrolling work independently of the game.
+
+The additive **Living Worldtree** is a presentation-only 24-node/23-wooden-edge
+component with independently awakening sap, foliage, sockets and 30 replaceable
+original SVG icons. The existing showcase's **worldtree** screen supplies four
+canonical activation stages and a real isolated child transition; clicks emit
+intent only and never spend points or acquire locally. [Artwork, provenance,
+checks and screenshots](docs/ui/worldtree.md) and [API](docs/ui/api.md#living-worldtree-presentation-additive)
+are kept in the standalone UI workspace, not the game.
 
 Each UI entry links one shared, generated `exports/ui/ledger-ui.zip` and the
 [data/signals/hosting API](docs/ui/api.md). Extract its `UI/` into a Godot project at

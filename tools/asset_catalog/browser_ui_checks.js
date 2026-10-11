@@ -14,7 +14,7 @@ async () => {
   const root = new URL('./', document.baseURI);
   const metadata = await (await fetch(new URL('catalog.json', root))).json();
   const ui = metadata.assets.filter(asset => asset.kind);
-  assert(metadata.schema_version === 2 && ui.length === 13, 'Generated v2 catalog advertises exactly 13 distinct shipped UI resources/examples');
+  assert(metadata.schema_version === 2 && ui.length === 15, 'Generated v2 catalog advertises exactly 15 distinct shipped UI resources/examples');
   if ($('detail').open) $('close').click();
   change('search', 'ui/', 'input'); change('category', '');
   $('animated').checked = false; $('animated').dispatchEvent(new Event('change'));
@@ -65,7 +65,7 @@ async () => {
     }
   }
   change('search', '', 'input'); change('category', 'ui/components');
-  assert(document.querySelectorAll('.card').length === 9, 'UI component category contains nine reusable native scenes');
+  assert(document.querySelectorAll('.card').length === 11, 'UI component category contains eleven reusable native scenes');
   $('animated').checked = true; $('animated').dispatchEvent(new Event('change'));
   assert(document.querySelectorAll('.card').length === 0, 'UI resources do not acquire fictitious model animations');
   $('animated').checked = false; $('animated').dispatchEvent(new Event('change')); change('category', '');

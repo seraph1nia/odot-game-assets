@@ -1,0 +1,610 @@
+{
+  "scope": "Original additive modular 2D Worldtree; concept reference only, not runtime sheets",
+  "reference_zip": {
+    "supplied_name": "worldtree_reference_pack.zip",
+    "sha256": "fb729dfc4e6f4c879fe0d7d25dcd39ff4b94e33c3f36fd920343e8ef290b2cf3",
+    "original_immutable": true,
+    "safe_relative_extraction": true,
+    "members": {
+      "sources/ui/worldtree/reference/CONTACT_SHEET.png": {
+        "sha256": "889b9834b0f1a97cda63e58f57a71711ce99c1005032ec89a0db1c683671f9bf",
+        "bytes": 2376139
+      },
+      "sources/ui/worldtree/reference/IMPLEMENTATION_PROMPT.md": {
+        "sha256": "5a52870792c7c3268f2e97b9d7ddf009d9588c138377cd228ae57670bf7a9a5e",
+        "bytes": 12228
+      },
+      "sources/ui/worldtree/reference/MANIFEST_SHA256.json": {
+        "sha256": "e4057f4adfe03728a2a0a9cf833597f8a84951098529258872e7c98868e180fa",
+        "bytes": 9178
+      },
+      "sources/ui/worldtree/reference/README.md": {
+        "sha256": "6eff8cb5ca66318c6d546a52273518fd81f3d2ba599a8b94ae6e9c6b2d6d0d4d",
+        "bytes": 3494
+      },
+      "sources/ui/worldtree/reference/art_references/01_dormant_modular_art_board.png": {
+        "sha256": "f49f864cefa71d0d2d16b6260b4aa3c040f21e478ba127a3316ac7f797394fbf",
+        "bytes": 2526682
+      },
+      "sources/ui/worldtree/reference/art_references/02_awakened_modular_art_board.png": {
+        "sha256": "ebf410d9cf4209679b01f4204e4a7dc660481be0eef6baa2a0c41d8a3b8c4ce3",
+        "bytes": 2767631
+      },
+      "sources/ui/worldtree/reference/art_references/03_activation_stages_art_board.png": {
+        "sha256": "616579884f7829b54f1e28380bf2e2fab9f3a1438a93f16c477037e44cdfd8cd",
+        "bytes": 2888790
+      },
+      "sources/ui/worldtree/reference/art_references/04_node_state_and_decor_reference.png": {
+        "sha256": "88217d931a7c7ff11cf4c07a3b092352612d8da97c2c94c37d8731f6381b1543",
+        "bytes": 2140977
+      },
+      "sources/ui/worldtree/reference/art_references/05_icon_style_library.png": {
+        "sha256": "202d237f2b046d7c44ec093094ddc1199ea2e4d4a9c7508f7827035afe41965e",
+        "bytes": 2467383
+      },
+      "sources/ui/worldtree/reference/art_references/06_in_game_tree_style_reference.png": {
+        "sha256": "c48b536da40689727a167919b9cb32c1685b04693534f954abd6ba476ef65b29",
+        "bytes": 2020554
+      },
+      "sources/ui/worldtree/reference/canonical/VALIDATION.md": {
+        "sha256": "99e98569f94b90abf78b58a0b041cebefa81c39c45ca4b9398233ffa91c1654a",
+        "bytes": 992
+      },
+      "sources/ui/worldtree/reference/canonical/activation_stages/01_root_only.png": {
+        "sha256": "bcf8061b1684ee402b7a7202ffe19e84b216f21029830a280cd09340fe339ccd",
+        "bytes": 219997
+      },
+      "sources/ui/worldtree/reference/canonical/activation_stages/01_root_only.svg": {
+        "sha256": "4cf3f5ba63a765272250ecea63996a2091df981b20e8924607f59678b31c992f",
+        "bytes": 26663
+      },
+      "sources/ui/worldtree/reference/canonical/activation_stages/02_trunk_awakened.png": {
+        "sha256": "cd8f32cf7adb9aae1a8d657d5c85168e2249e74361b4a13048d590ade1d4ed0a",
+        "bytes": 227719
+      },
+      "sources/ui/worldtree/reference/canonical/activation_stages/02_trunk_awakened.svg": {
+        "sha256": "230230369a7def3a881ddebff556ad18bec326bbfbfc79b1a704a14ce86de7b9",
+        "bytes": 27714
+      },
+      "sources/ui/worldtree/reference/canonical/activation_stages/03_three_primaries_awakened.png": {
+        "sha256": "c30f71aa9d436acdc4924a5d20f2f71c710ec252296512dd9acee2da16a2a94b",
+        "bytes": 239143
+      },
+      "sources/ui/worldtree/reference/canonical/activation_stages/03_three_primaries_awakened.svg": {
+        "sha256": "43f01eb30749872ed85bf6921903a0a128446018c704754abc75fedc17e84a72",
+        "bytes": 29306
+      },
+      "sources/ui/worldtree/reference/canonical/activation_stages/04_left_branch_family_awakened.png": {
+        "sha256": "0f1747ef785cc2a6512d18ca7b7f43966d4fdca1ea10b98e8bdf66ee445706d0",
+        "bytes": 253606
+      },
+      "sources/ui/worldtree/reference/canonical/activation_stages/04_left_branch_family_awakened.svg": {
+        "sha256": "ab6cc99c4c5d1ba2a4fcdcf0cedc984df59543879f9bab6a97c63c8778373356",
+        "bytes": 32128
+      },
+      "sources/ui/worldtree/reference/canonical/exact_24_node_tree.png": {
+        "sha256": "2f09877355c51acda7d538208ff470f0c94aee6d5d027113cc9255d5838aa77a",
+        "bytes": 271373
+      },
+      "sources/ui/worldtree/reference/canonical/exact_24_node_tree.svg": {
+        "sha256": "f489871781226cc5923fb53116610c3cd1fc680ec3b4e96d73444714cf258102",
+        "bytes": 43693
+      },
+      "sources/ui/worldtree/reference/canonical/worldtree_topology.json": {
+        "sha256": "f916023b78d66341d9d6268ea17c6ca322b87a5bcb1c6e7eebfda223bd0332e9",
+        "bytes": 9766
+      },
+      "sources/ui/worldtree/reference/icon_catalog.json": {
+        "sha256": "46360978e934bef5c72278fc0cb94eb34cfdd77133a2d21bc2a68991572e028d",
+        "bytes": 511
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/acorn.svg": {
+        "sha256": "39ca6f765a113efac0550e7256e72791d6f6757e4f7b36a6a7d2021aacf897e2",
+        "bytes": 327
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/antlers.svg": {
+        "sha256": "941c854836772768ef25897745ed06e876d95aa6e5748fc60b992ce16631ad4b",
+        "bytes": 337
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/book.svg": {
+        "sha256": "0f0df97f004c163c0762d0a23ab75af71b6f236ce46eac1a3dd1607a3b54509e",
+        "bytes": 323
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/boot.svg": {
+        "sha256": "4cbdb5f3ac3349ec2bc6ab58c7d2af2de400323a9994d15a8dcae0a18abbf7fd",
+        "bytes": 294
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/bow.svg": {
+        "sha256": "d24a7c8b4c558d57b1f00b7568296d838bd33f7f4c5591391d8f043fb2067b51",
+        "bytes": 282
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/crescent_moon.svg": {
+        "sha256": "84ad06471d8219bee73f0565f5a52467fcfe4a5dc5a6bdf04ad2a1a599386369",
+        "bytes": 307
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/crossed_swords.svg": {
+        "sha256": "28d7f952f4d411a68a3dc28a2ffdb10bd976ef0b4fafb6594a8c7b6f4375417a",
+        "bytes": 330
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/crystal.svg": {
+        "sha256": "f687f7c601444619af8487c9390fcf79b3b28238bfc0b91ef7ba594fc04844a4",
+        "bytes": 308
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/eye.svg": {
+        "sha256": "f2a84d8bb7ae6e4de80a3bf4c86f9f3dd518832a0507ecc89785941a325809f7",
+        "bytes": 312
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/feather.svg": {
+        "sha256": "26b8bca07e4d049506075183af2bda68a5d675438bef67b3695339590da2f306",
+        "bytes": 314
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/flame.svg": {
+        "sha256": "68c65e064f2de8bf112167f57258de7ffbf6bfb550e384e00bbef7ea4e847cad",
+        "bytes": 318
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/heart.svg": {
+        "sha256": "129675e752d51f348644b6e9a845fe67e30fd59d81ae924c7312465e00db986d",
+        "bytes": 269
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/lantern.svg": {
+        "sha256": "da3e425ce14c802d645c7cb36bd14991fad61451bccefa7bd505e7719bfc2184",
+        "bytes": 329
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/leaf.svg": {
+        "sha256": "055ec3f394c3881280f1c0049e82ca3e943d0f488cef6f8f586f5fa45b1c7cf5",
+        "bytes": 283
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/mushroom.svg": {
+        "sha256": "9199381972737ffaf05855aa1a5fa44a3223dbd445dc631186fe117bc5548b9b",
+        "bytes": 284
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/owl.svg": {
+        "sha256": "a4d09fdf1a7759d644b9d953daa718c6f7c0c846593be4795f9d4617c426e844",
+        "bytes": 384
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/paw.svg": {
+        "sha256": "000891990f4a53922dd4c3e752bed28c9f560ac279d251501d3b9650353af7d0",
+        "bytes": 411
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/poison_drop.svg": {
+        "sha256": "0bdec80f0123a5e475e8d481a936886d56318d82875854492d9a6e0c5854bceb",
+        "bytes": 371
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/rune.svg": {
+        "sha256": "7e55efa03db4c2a81ccd5863517c54adb45e37debd8ba3facc9048a089b762d6",
+        "bytes": 294
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/shield.svg": {
+        "sha256": "5d224d68da35ddf5d2bbbd32e4f5d51b9dd73d16923420485351808ed6e9926e",
+        "bytes": 278
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/snowflake.svg": {
+        "sha256": "c21ed037686bb482c68913596525c7ebd038e7ca5f2349b6053019e24b5dcd0f",
+        "bytes": 303
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/spark.svg": {
+        "sha256": "7888884c854c9f29a10ff337696cfd62e855057f087d4b65f50dd6da75dd15bf",
+        "bytes": 270
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/spiral.svg": {
+        "sha256": "f41f0b9f635f82b4cc1ea43de9c093b72b7c9364f01b185c4004921d3efffec2",
+        "bytes": 319
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/squirrel.svg": {
+        "sha256": "557175a1a9b1a042a4618536d5f9db666698e05243437da123aecbe40a0ceb65",
+        "bytes": 391
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/stone.svg": {
+        "sha256": "9e019cbaa145857c213d49771ac71c1e9ead963c8277fb15df1a24546554e3b7",
+        "bytes": 298
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/thorn_vine.svg": {
+        "sha256": "8f648b1dcc5a78a2b7f27b2f3e69c8a2b057ec34725201bfdbe0fa5da8d11d1b",
+        "bytes": 351
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/tower.svg": {
+        "sha256": "14b604f299d4c3f6ec907564b2f3430a29b06d83f229b917dc600598aefd247d",
+        "bytes": 290
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/tree_roots.svg": {
+        "sha256": "c975fe4e99b38046d519f46aa0521d8f4f2d69a2d73dec8abed7c12d169b1306",
+        "bytes": 323
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/water_drop.svg": {
+        "sha256": "b3f73438dd350a8b4f0f99384e9b8535af409ca3d7089eb990976b2f02be09a1",
+        "bytes": 287
+      },
+      "sources/ui/worldtree/reference/starter_icon_svgs/world_seed.svg": {
+        "sha256": "1ed7c44608e1c18e9f84ba668393f558aef0d3fec95f3d44e3f05e03e32808ee",
+        "bytes": 367
+      }
+    }
+  },
+  "attribution": "Supplied README: concept boards AI-generated for the conversation; canonical diagrams/JSON and starter vectors programmatically authored for the handoff. Runtime illustrations/30 motifs originally authored in this repository from that direction; no supplied starter SVG is used as runtime art.",
+  "generator": "tools/ui/build_worldtree_art.py",
+  "generator_sha256": "152b33723265b46663e8fe617d197079b6070f807f665826c5b7dba22373148d",
+  "artwork": [
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_primary_center.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_primary_center.svg",
+      "sha256": "386f73ced25f6aa6cce4fbee0003691ed5302531186a5fceb30080b026971742",
+      "bytes": 2699
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_primary_left.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_primary_left.svg",
+      "sha256": "fc6e0218fd39789d251fa84ba418afe49f9380e2c2bc9513556edf1b0f56c039",
+      "bytes": 2790
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_primary_right.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_primary_right.svg",
+      "sha256": "bfac4c38ffb174f8b129f43c78a794b728927cd50951caa4e5f34966d96ba18b",
+      "bytes": 2808
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_secondary_center_a.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_secondary_center_a.svg",
+      "sha256": "84cfc7c109993db9dbbf11106a956fec8544eb561442122293e7ea0388c351b7",
+      "bytes": 2764
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_secondary_center_b.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_secondary_center_b.svg",
+      "sha256": "050e91aca98a04ae5734d2f8acd6d8841cd61e897f18770b7ada495d73d5802e",
+      "bytes": 2778
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_secondary_left_a.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_secondary_left_a.svg",
+      "sha256": "337e88fe61d32f6bbb37156b2ec12c7bf89a749a0a10cdfe52717dfd7d54e645",
+      "bytes": 2759
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_secondary_left_b.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_secondary_left_b.svg",
+      "sha256": "51b830d8827274e4118f439e1097b42c998ee78cee7d94b0b66c8b56fa40d75d",
+      "bytes": 2741
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_secondary_right_a.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_secondary_right_a.svg",
+      "sha256": "a4db496f60eff53f2b59d3ebed759cf71c43abf23097b94342328fd96559d979",
+      "bytes": 2733
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_secondary_right_b.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_secondary_right_b.svg",
+      "sha256": "b212f4670b3eb9ef8ac740d4a7ef6b9b1b055bc4212e0c5bb639c17832d579c9",
+      "bytes": 2782
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_terminal_center_a_1.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_terminal_center_a_1.svg",
+      "sha256": "6d31cf5e236c3d28fd9dd6415bae483691f77b43039ef068ad5b07d8b67adfec",
+      "bytes": 2714
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_terminal_center_a_2.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_terminal_center_a_2.svg",
+      "sha256": "dcd0d2eeae66a4911999ba1041e9f730b1d1f7227cdf17096344f075a2e96333",
+      "bytes": 2709
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_terminal_center_b_1.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_terminal_center_b_1.svg",
+      "sha256": "b23e07daa0f1cf4c59f9d5e6e4dc2d4d743b5f1e788781a34b0163ede7b8efe7",
+      "bytes": 2730
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_terminal_center_b_2.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_terminal_center_b_2.svg",
+      "sha256": "184097c5814e9ab0ce3b08944b0ab7cc6f98915b79b5d95ede9ad9bfa2561006",
+      "bytes": 2694
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_terminal_left_a_1.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_terminal_left_a_1.svg",
+      "sha256": "0c58feb65603ca0f49dcc882edd4548f851ed8dc5ebb17f22608a187e5ea9b8e",
+      "bytes": 2712
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_terminal_left_a_2.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_terminal_left_a_2.svg",
+      "sha256": "95c4deee164736ec2865233c15fd7fa86ebd07363fff6c47226f01d9eb3e99ca",
+      "bytes": 2715
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_terminal_left_b_1.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_terminal_left_b_1.svg",
+      "sha256": "3222c53e6adb695e19a41ec675d48482d4cba6a72f2c1f4bd7a26533b2a0dbc8",
+      "bytes": 2713
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_terminal_left_b_2.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_terminal_left_b_2.svg",
+      "sha256": "e7ca31e19ea17ccc060e71e6ecb909cd6831c5e84c0457b253c0f5166db3128a",
+      "bytes": 2716
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_terminal_right_a_1.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_terminal_right_a_1.svg",
+      "sha256": "65c89f6cb041fea2d48117540b55b0d0f9263e15c0caaf4c435148abc50e97d4",
+      "bytes": 2708
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_terminal_right_a_2.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_terminal_right_a_2.svg",
+      "sha256": "375667a37f4e2394101d78e27687626421c3c55516773658732d2320fa217085",
+      "bytes": 2716
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_terminal_right_b_1.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_terminal_right_b_1.svg",
+      "sha256": "5bff8ece8abede2c468ca40b678f6a00e1bffe207c64a6ba14cdd3b655b8b1a4",
+      "bytes": 2720
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_terminal_right_b_2.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_terminal_right_b_2.svg",
+      "sha256": "95c4deee164736ec2865233c15fd7fa86ebd07363fff6c47226f01d9eb3e99ca",
+      "bytes": 2715
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_trunk_1.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_trunk_1.svg",
+      "sha256": "10043d61eedff55fa7300c7ddf194532ee2960423cdfefe1ace48623199e1d9a",
+      "bytes": 2693
+    },
+    {
+      "source": "sources/ui/worldtree/branches/edge_to_trunk_2.svg",
+      "output": "ui/preview/UI/art/worldtree/branches/edge_to_trunk_2.svg",
+      "sha256": "10043d61eedff55fa7300c7ddf194532ee2960423cdfefe1ace48623199e1d9a",
+      "bytes": 2693
+    },
+    {
+      "source": "sources/ui/worldtree/foliage_alive.svg",
+      "output": "ui/preview/UI/art/worldtree/foliage_alive.svg",
+      "sha256": "a4e5b862175483d32ed5e3c0375de6a3e552658279f616d6b139e903c9c13a5d",
+      "bytes": 1755
+    },
+    {
+      "source": "sources/ui/worldtree/foliage_dead.svg",
+      "output": "ui/preview/UI/art/worldtree/foliage_dead.svg",
+      "sha256": "13de01be67aba7208734cde082c2004df25f175994a3ef534922058b147301b7",
+      "bytes": 709
+    },
+    {
+      "source": "sources/ui/worldtree/forest.svg",
+      "output": "ui/preview/UI/art/worldtree/forest.svg",
+      "sha256": "1b6fb9e47019e31885c2dd1b2ac64b63e2fb27cbee7540d2cc1bf0da351330b3",
+      "bytes": 6406
+    },
+    {
+      "source": "sources/ui/worldtree/halo.svg",
+      "output": "ui/preview/UI/art/worldtree/halo.svg",
+      "sha256": "d25611d8d6b541ac50c7460648b3a1abb1d462fd7440a7b61b825347ea703e7a",
+      "bytes": 468
+    },
+    {
+      "source": "sources/ui/worldtree/icons/acorn.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/acorn.svg",
+      "sha256": "242bb9dd8d4a145667a753ad3d1b2c23db9a810fa25fa3aaa66dbc62d036a5c2",
+      "bytes": 447
+    },
+    {
+      "source": "sources/ui/worldtree/icons/antlers.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/antlers.svg",
+      "sha256": "9f80d847bfbe44a7d3b351f44db09e2fdecc6bcdd21d2c173f5b3850a63aaeaf",
+      "bytes": 468
+    },
+    {
+      "source": "sources/ui/worldtree/icons/book.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/book.svg",
+      "sha256": "4221c2224e350b007716894b2c060fa0854e8ef4d59f87ab8c1c017f62fde873",
+      "bytes": 450
+    },
+    {
+      "source": "sources/ui/worldtree/icons/boot.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/boot.svg",
+      "sha256": "bbd5272b833dc1761884079a42284d3a21b96d18e6d7ba41113e9019d38b596d",
+      "bytes": 421
+    },
+    {
+      "source": "sources/ui/worldtree/icons/bow.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/bow.svg",
+      "sha256": "94f64a1d9237592246c4810035c23a3dd2fd2fe6a1b422b686b7f134197d8852",
+      "bytes": 386
+    },
+    {
+      "source": "sources/ui/worldtree/icons/crescent_moon.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/crescent_moon.svg",
+      "sha256": "0500720db2a016c14e62a43935cbbbafad0760770ea8fbd21d7097fbbcd23839",
+      "bytes": 441
+    },
+    {
+      "source": "sources/ui/worldtree/icons/crossed_swords.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/crossed_swords.svg",
+      "sha256": "d3d3e983af2a5f0705c9a39ebe8a273f623f0da4b84865ec21810b82dfbcf2c5",
+      "bytes": 444
+    },
+    {
+      "source": "sources/ui/worldtree/icons/crystal.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/crystal.svg",
+      "sha256": "8cb3bdfe86b9bb6a8fac654f2668b84f55564160e2e1608ab00fcd4e5b5248f8",
+      "bytes": 446
+    },
+    {
+      "source": "sources/ui/worldtree/icons/eye.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/eye.svg",
+      "sha256": "508deb3902e336dc815b8f4741208596b7e23319b11cb280b58511f5e041c146",
+      "bytes": 416
+    },
+    {
+      "source": "sources/ui/worldtree/icons/feather.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/feather.svg",
+      "sha256": "afd57c2c564bd141fa5c25051fb957db0943a194b31244b85531f1e27b653f56",
+      "bytes": 456
+    },
+    {
+      "source": "sources/ui/worldtree/icons/flame.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/flame.svg",
+      "sha256": "c11281b87342151f73f060ea18d35f6a001bab4aaadccedbd4ea2ba8e3efb356",
+      "bytes": 467
+    },
+    {
+      "source": "sources/ui/worldtree/icons/heart.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/heart.svg",
+      "sha256": "7f46177d66add3019fa594c0233ea4158dd96136bfc863c654250a23cb42630a",
+      "bytes": 425
+    },
+    {
+      "source": "sources/ui/worldtree/icons/lantern.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/lantern.svg",
+      "sha256": "e61bb8876265cd219d7811922a156c684e11d391b42ffc13afab19488dc79322",
+      "bytes": 465
+    },
+    {
+      "source": "sources/ui/worldtree/icons/leaf.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/leaf.svg",
+      "sha256": "4bd3da4eedd54a377fc7c8bd8121f91936c6dd181a8128bdc73a372eb962ca52",
+      "bytes": 402
+    },
+    {
+      "source": "sources/ui/worldtree/icons/mushroom.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/mushroom.svg",
+      "sha256": "9b3885ed4273b6804e8bfff3c3020310a278014bf9143a929b0f51a72a2e8854",
+      "bytes": 432
+    },
+    {
+      "source": "sources/ui/worldtree/icons/owl.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/owl.svg",
+      "sha256": "63ff7408726c97c2912ca939d0876f227f62935ac6c861fc4f8e4fe4fcbbef05",
+      "bytes": 514
+    },
+    {
+      "source": "sources/ui/worldtree/icons/paw.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/paw.svg",
+      "sha256": "2464566e36734f05e1e95d511242d112a353cfa29698c8d6df523abe568c8308",
+      "bytes": 567
+    },
+    {
+      "source": "sources/ui/worldtree/icons/poison_drop.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/poison_drop.svg",
+      "sha256": "8ba0fc609d1240bd046fe1e2dc4b65026ef4f2c9a35a7e18eefea08ad2da18bd",
+      "bytes": 483
+    },
+    {
+      "source": "sources/ui/worldtree/icons/rune.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/rune.svg",
+      "sha256": "b4a9e9aab048b1d2679d6e3c78ead64fe53d853e67fa2396ba0709844b2fa083",
+      "bytes": 382
+    },
+    {
+      "source": "sources/ui/worldtree/icons/shield.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/shield.svg",
+      "sha256": "83a51ae61d1d1c015fb332587c64c911a77b783e648355014f1323fabc6962c0",
+      "bytes": 426
+    },
+    {
+      "source": "sources/ui/worldtree/icons/snowflake.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/snowflake.svg",
+      "sha256": "484a273131e923d9815c84953efd3b719e946c16d6d60b5b40c005fd99317ffd",
+      "bytes": 478
+    },
+    {
+      "source": "sources/ui/worldtree/icons/spark.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/spark.svg",
+      "sha256": "b10c01a7547dd2ac4dee307e68ca0d87d1b1ffb904c8a156b00b507e1666b818",
+      "bytes": 381
+    },
+    {
+      "source": "sources/ui/worldtree/icons/spiral.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/spiral.svg",
+      "sha256": "3b8eba3bf0a57a8dc30d857c51d2592429f6a039b045a562327eaf48d8fbc56d",
+      "bytes": 426
+    },
+    {
+      "source": "sources/ui/worldtree/icons/squirrel.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/squirrel.svg",
+      "sha256": "322fbd6d72e7b7ff3eefd9159353443e35890805a1b6f401429bbcdef6779105",
+      "bytes": 477
+    },
+    {
+      "source": "sources/ui/worldtree/icons/stone.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/stone.svg",
+      "sha256": "0355609da6a9b70e23d42444f9baff24533ba7bc36a83e284d694180b5cde903",
+      "bytes": 420
+    },
+    {
+      "source": "sources/ui/worldtree/icons/thorn_vine.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/thorn_vine.svg",
+      "sha256": "7400be875aa8194e895ced9adc31e0c33552321bbcda96b74da314ebd07e71b0",
+      "bytes": 459
+    },
+    {
+      "source": "sources/ui/worldtree/icons/tower.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/tower.svg",
+      "sha256": "4a1e0c9ff80e371e43a347226603ca0608652142eeeba620587c50b9a33c2b30",
+      "bytes": 431
+    },
+    {
+      "source": "sources/ui/worldtree/icons/tree_roots.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/tree_roots.svg",
+      "sha256": "0d32f351f8649a99f332c232fae8647ff01faa707da7b2ec235285b94d2e6c62",
+      "bytes": 442
+    },
+    {
+      "source": "sources/ui/worldtree/icons/water_drop.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/water_drop.svg",
+      "sha256": "cd84af48e5f8a33dee5b1f55b2f5af29069aae1b6c7158cb371c6eac0d98b7c5",
+      "bytes": 411
+    },
+    {
+      "source": "sources/ui/worldtree/icons/world_seed.svg",
+      "output": "ui/preview/UI/art/worldtree/icons/world_seed.svg",
+      "sha256": "2c9521904fe79b5ea6c22d3faf32b4bcdd6b39991e7798e8fea037e2389749cd",
+      "bytes": 480
+    },
+    {
+      "source": "sources/ui/worldtree/modules.json",
+      "output": "ui/preview/UI/art/worldtree/modules.json",
+      "sha256": "5f70024956d82817508687508f7601dd16e19518d8676f26a9495bb2289f7da6",
+      "bytes": 10084
+    },
+    {
+      "source": "sources/ui/worldtree/roots.svg",
+      "output": "ui/preview/UI/art/worldtree/roots.svg",
+      "sha256": "c295fa8b08fb16e068d8ab8c9eacab0b4a4652a97309c127621933f8c02b2ea4",
+      "bytes": 3107
+    },
+    {
+      "source": "sources/ui/worldtree/roots_alive.svg",
+      "output": "ui/preview/UI/art/worldtree/roots_alive.svg",
+      "sha256": "b8aaa47b4919d5e3a85f5c7d57cc546c25f92cdc97f1a32a289677957b8752b1",
+      "bytes": 3428
+    },
+    {
+      "source": "sources/ui/worldtree/socket.svg",
+      "output": "ui/preview/UI/art/worldtree/socket.svg",
+      "sha256": "5c389735c9d3327115dd580d967fab8f00be2381533e2389e917a9bee7f6850b",
+      "bytes": 695
+    },
+    {
+      "source": "sources/ui/worldtree/topology.json",
+      "output": "ui/preview/UI/art/worldtree/topology.json",
+      "sha256": "f916023b78d66341d9d6268ea17c6ca322b87a5bcb1c6e7eebfda223bd0332e9",
+      "bytes": 9766
+    },
+    {
+      "source": "sources/ui/worldtree/twig.svg",
+      "output": "ui/preview/UI/art/worldtree/twig.svg",
+      "sha256": "7b904391a7220963fd8d23c3a5f31359f4a5d42445e7533b6433aab3e3fa74b7",
+      "bytes": 361
+    }
+  ],
+  "icons": 30,
+  "wooden_connections": 23,
+  "runtime_art_bytes": 112924,
+  "limitations": "Lightweight shaded/outlined original SVG adaptation; not painted raster reference fidelity or 3D. File bytes exclude Godot decoded texture caches/GPU allocations."
+}

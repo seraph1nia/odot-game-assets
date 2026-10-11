@@ -1,0 +1,20 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:372)
+OpenGL API 4.6 (Core Profile) Mesa 26.2.4-arch3.1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 23.1.1, 256 bits)
+
+ERROR: UI assertion: native stable Tab traverses all nodes
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] expect (res://tests/run_ui.gd:54)
+       [1] run (res://tests/worldtree_checks.gd:78)
+       [2] key (res://tests/run_ui.gd:66)
+       [3] frames (res://tests/run_ui.gd:48)
+ERROR: UI assertion: acquired root inspectable, action disabled
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] expect (res://tests/run_ui.gd:54)
+       [1] run (res://tests/worldtree_checks.gd:80)
+       [2] key (res://tests/run_ui.gd:66)
+       [3] frames (res://tests/run_ui.gd:48)
+UI_TESTS 3220 checks; 2 failures; 121 captures

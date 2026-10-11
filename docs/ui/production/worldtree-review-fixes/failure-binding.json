@@ -1,0 +1,17 @@
+{
+  "scope": "Failed first review-focused campaign, not acceptance",
+  "checks": 2231,
+  "failures": 4,
+  "capture_count": 21,
+  "results": "docs/ui/production/worldtree-review-fixes/results.json",
+  "results_sha256": "127c176606c134c6f45fec0145130f0246f4cb0cc82f4a5014b20f62289c6a34",
+  "log": ".cache/ui/worldtree-review-fixes/tests.log",
+  "log_sha256": "c1835c273cf75061c772edefd9f13c1fba3cdc88ca830a639c77a451dc2632db",
+  "changed_source_sha256": {
+    "ui/preview/UI/components/worldtree.gd": "c2d65e59ab789d3136542280fa6a22ccc05f0aa3777ac0532bdb90fb84711f14",
+    "ui/preview/prototypes/showcase.gd": "a140cc789e337c88ef66660e30e249df3a982f57b355905e80148ac82eddd6d8",
+    "ui/preview/tests/worldtree_checks.gd": "9f4b7c6b1d64700099be96737bcce6c03f78c857c1da0879b695fcd0f382bfce",
+    "ui/preview/tests/run_ui.gd": "bf82694ff8d518710dcadecc0b1fbe84d78308ef9687bff2901f86991376dc7b"
+  },
+  "cause": "Native Tab still included the disabled footer with FOCUS_ALL; disabled footer must also be non-focusable"
+}

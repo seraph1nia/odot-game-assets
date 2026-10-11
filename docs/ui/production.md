@@ -1,6 +1,8 @@
 # Ledger production — finished intended standalone package
 
-Current woodland HUD/menu and inherited-tree evidence and limits are owned by
+Current-source and shipping qualification is owned by
+[Worldtree qualification](worldtree.md#review-fix-qualification-boundary).
+Retained woodland HUD/menu and inherited-tree evidence and limits are owned by
 [woodland](woodland.md) and [woodland-validation.json](woodland-validation.json).
 [Skill-tree validation](skill-tree-validation.md) preserves the pre-theme extension.
 The campaigns below are retained historical milestones, not current-source certification.

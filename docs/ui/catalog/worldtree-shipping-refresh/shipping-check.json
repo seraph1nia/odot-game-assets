@@ -1,0 +1,47 @@
+{
+  "scope": "Focused repair of shipping catalog bindings after Worldtree review fixes; no new full regression, browser, PCK or main-game qualification",
+  "historical_receipts": "docs/ui/catalog/worldtree-pre-review/",
+  "runtime_campaign": {
+    "path": "docs/ui/production/worldtree-review-fixes-2/results.json",
+    "sha256": "6b11dadf53efd7da9ee93dce3a3931750430df4ddfd65e84c95c86632dfb30bf",
+    "source_continuity": "Every measured source hash matches current preview inputs; the existing review-focused native execution is retained, not relabeled as a new run"
+  },
+  "payload_audit": {
+    "path": "docs/ui/payload.json",
+    "sha256": "e9983dff6354ebaf09422bc73bafc4a461442f58d2c5fa23b1b5964650ed9217",
+    "files": 175,
+    "scenes": 11
+  },
+  "previews": {
+    "path": "docs/ui/catalog/previews.json",
+    "sha256": "fba0c6bf9ccd2c565bc79cebd094792558e9f124219ac6b44eda18bf47481724",
+    "count": 14,
+    "visual_review": "Fresh native Worldtree, HUD and menu images opened; all 14 fresh catalog PNGs measured byte-identical to pre-review catalog images. Worldtree retains 24 aligned sockets/wooden branches, live left family and dark center/right families."
+  },
+  "direct_package_load": {
+    "path": "docs/ui/catalog/package-check.json",
+    "sha256": "af78adbbc2eb3d5fe16886c975d84dc3f071e73d08fed332e559ad88e0d88d91",
+    "tested_package": "exports/ui/ledger-ui.zip",
+    "package_sha256": "8ca234ee7e19133343ef111bd3ca40331060042a90f0ef02bdb1521d92f779c9",
+    "bytes": 784502,
+    "static_copy_entire_archive_byte_identical": true
+  },
+  "consumer": "build_ui_assets: 15 entries / 11 components; python3 -m tools.asset_catalog build: 133 mixed assets; independent actual shipping ZIP loaded all eleven scenes and exercised Worldtree intent/state/animation/icon resources",
+  "historical_rejection": "UI payload binding changed: components/worldtree.gd; refresh the payload audit",
+  "logs": {
+    "payload": ".cache/ui-payload/worldtree-shipping-refresh/load.log",
+    "package": [
+      ".cache/ui-catalog-package/worldtree-shipping-refresh/import.log",
+      ".cache/ui-catalog-package/worldtree-shipping-refresh/load.log",
+      ".cache/ui-catalog-package/worldtree-shipping-refresh/version.log"
+    ],
+    "previews": [
+      ".cache/ui-catalog/worldtree-shipping-refresh/focused.log",
+      ".cache/ui-catalog/worldtree-shipping-refresh/hud.log",
+      ".cache/ui-catalog/worldtree-shipping-refresh/import.log",
+      ".cache/ui-catalog/worldtree-shipping-refresh/start-menu.log",
+      ".cache/ui-catalog/worldtree-shipping-refresh/version.log",
+      ".cache/ui-catalog/worldtree-shipping-refresh/xvfb.log"
+    ]
+  }
+}

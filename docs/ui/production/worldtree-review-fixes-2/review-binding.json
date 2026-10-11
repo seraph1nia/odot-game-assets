@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "scope": "Review-focused Worldtree resource, snapshot, native input, animation and render checks; not full-repository or package acceptance",
+  "results": "docs/ui/production/worldtree-review-fixes-2/results.json",
+  "results_sha256": "6b11dadf53efd7da9ee93dce3a3931750430df4ddfd65e84c95c86632dfb30bf",
+  "checks": 2231,
+  "failures": [],
+  "capture_count": 21,
+  "log": ".cache/ui/worldtree-review-fixes-2/tests.log",
+  "command": "python3 tools/ui/validate.py --godot /home/bart/.local/share/mise/installs/godot-dotnet/4.7.2-stable/godot --dotnet-root /home/bart/.local/share/mise/installs/dotnet/10.0.401 --only worldtree --label worldtree-review-fixes-2",
+  "source_binding": "The fresh results.json source_sha256 map measures the executed preview inputs; the driver rejected changes during the campaign",
+  "changed_source_sha256": {
+    "UI/components/worldtree.gd": "a8392bf39f46d1d2e84312a50bc87665c62a1be34dc03973f7fce72ab154dcb0",
+    "prototypes/showcase.gd": "a140cc789e337c88ef66660e30e249df3a982f57b355905e80148ac82eddd6d8",
+    "tests/run_ui.gd": "bf82694ff8d518710dcadecc0b1fbe84d78308ef9687bff2901f86991376dc7b",
+    "tests/worldtree_checks.gd": "9f4b7c6b1d64700099be96737bcce6c03f78c857c1da0879b695fcd0f382bfce"
+  },
+  "runtime": {
+    "godot_path": "/home/bart/.local/share/mise/installs/godot-dotnet/4.7.2-stable/godot",
+    "godot_sha256": "fc1bd592b5e771c65d52968f99835b4f2b7fe7b7cbc141e202cb63e01c95ec4d",
+    "godot_logged_version": "4.7.2.stable.mono.official.ed1daf0bf",
+    "dotnet_root": "/home/bart/.local/share/mise/installs/dotnet/10.0.401",
+    "dotnet_executable_sha256": "01d89e0a0191052bfea616cd4ce624c8faf13b05bbddf7f64499c23e2a9d9269",
+    "renderer": "OpenGL API 4.6 (Core Profile) Mesa 26.2.4-arch3.1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 23.1.1, 256 bits)",
+    "input": "Native Input.parse_input_event pointer and keyboard events on an owned Xvfb display; not physical desktop input"
+  },
+  "observed_regressions": [
+    "Direct and switch-to Worldtree Settings Close/Escape preserve screen identity, selector, content identities and invoker focus",
+    "Settings dialog replacement preserves Worldtree, Menu and HUD content identity",
+    "All 24 node controls retain ordered forward and backward traversal without mutating the snapshot",
+    "Enabled and disabled footer states support actual showcase boundary escape and re-entry in both directions, including host stage/demo/Settings/screen controls"
+  ],
+  "visual_review": [
+    {
+      "path": "worldtree-showcase-1280x720.png",
+      "sha256": "c50f22d923984ddfe4d113275dd2f9ca2c1fb0154a0f00da3f9d13c59b76cb23",
+      "observation": "Opened actual native PNG: Worldtree selector and D caption match the living left family; center/right wood remains dormant, all terminals and compact disabled footer remain visible"
+    },
+    {
+      "path": "worldtree-transition-in-flight-1280x720.png",
+      "sha256": "d4ed89ef830858682d6969a5777c1d4cb13473d0e3a9a15b6e6a7609207f8424",
+      "observation": "Opened actual native PNG: local sap advances along left secondary wood before socket/foliage reveal; unrelated primaries and branches retain their stage-C presentation"
+    }
+  ],
+  "preserved_failed_attempt": "docs/ui/production/worldtree-review-fixes/failure-binding.json",
+  "remaining_qualification": "Outer pipeline owns full-source regression, UI-only loading, fresh catalog and actual generated-ZIP acceptance; pre-review receipts were not relabeled or rebound"
+}

@@ -5,21 +5,22 @@ on accepted M1 foundation/local modal and preserved representative milestone.
 External game integration remains separate in [coverage.md](coverage.md).
 State: [tasks.json](tasks.json).
 Interfaces/migration boundary: [api.md](api.md); actual evidence:
-[current woodland acceptance](woodland.md#current-acceptance-and-visual-review)
-and [compact-tree API](api.md#compact-skill-tree-allocation). Earlier milestones stay
+[current Worldtree qualification](worldtree.md#review-fix-qualification-boundary)
+and [retained woodland acceptance](woodland.md#current-acceptance-and-visual-review).
+Component contracts are owned by [api.md](api.md). Earlier milestones stay
 historical. Existing world tooling/MCP/palettes remain unchanged.
 
 | Path | Responsibility |
 |---|---|
 | `docs/ui/` | Discovery, exact approval, inventory/backlog, reviews, source bindings, migration |
 | `docs/ui/previews/` | Historical M0 Ledger/Watch comparisons |
-| `docs/ui/production/review-dialog-close/` | Preserved pre-extension host dialog-close acceptance; current evidence is linked from `woodland.md` |
+| `docs/ui/production/review-dialog-close/` | Preserved pre-extension host dialog-close acceptance; current qualification is linked above |
 | `docs/ui/production/review-fixes/` | Preserved first review-fix 588-check/79-frame acceptance |
 | `docs/ui/production/standalone-final/` | Retained submitted 568-check/79-frame acceptance |
 | `docs/ui/preservation.json` | Frozen retained result/source-binding and visual-review byte contracts, independent of Git history |
 | `docs/ui/production/production-package-reviewed/` | Preserved accepted representative 35-frame evidence |
 | `docs/ui/production/m1-tab-scope/` | Preserved accepted 27-frame M1 foundation evidence |
-| `docs/ui/production/` other folders | Campaign captures; current versus retained status is owned by `woodland.md`, historical `skill-tree-validation.md` and `production.md` |
+| `docs/ui/production/` other folders | Campaign captures; current qualification is linked above; `woodland.md`, `skill-tree-validation.md` and `production.md` retain earlier evidence |
 | `sources/ui/menu_seal.blend` | Approved original editable source, retained byte-for-byte from M0 |
 | `sources/ui/explorations/watch_seal.blend` | Rejected-alternative study, not runtime payload |
 | `ui/preview/UI/` | Portable relative runtime namespace; component interfaces and dependency boundary in `api.md` |

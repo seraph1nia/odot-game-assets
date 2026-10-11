@@ -17,7 +17,8 @@ DOCUMENTS = ('docs/ui/api.md', 'docs/ui/payload.json', 'docs/ui/inventory.json',
              'docs/ui/migration.json', 'docs/ui/coverage.md', PREVIEWS,
              'docs/ui/exploration-assets.json', 'docs/ui/woodland-art.json',
              'docs/ui/woodland.md', 'docs/ui/woodland-diagnosis.md',
-             'docs/ui/woodland-validation.json')
+             'docs/ui/woodland-validation.json', 'docs/ui/worldtree.md',
+             'docs/ui/worldtree-art.json', 'docs/ui/worldtree-validation.json')
 
 
 def digest(path):

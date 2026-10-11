@@ -1,7 +1,7 @@
 # Generated Ledger UI catalog
 
 Scope: catalog publication of the **standalone native library**, including the
-additional compact skill-tree component. Not game migration or an
+compact skill-tree and additive Living Worldtree components. Not game migration or an
 interaction/services demo in a browser.
 The existing catalog generator/browser/Pages build owns this feature. See
 [generated schema](../../../catalog/SCHEMA.md#native-ui-entries-generated-index-v2),
@@ -11,8 +11,9 @@ The existing catalog generator/browser/Pages build owns this feature. See
 ## What is advertised
 
 The catalog derives entries from `inventory.json::implementation.resource`,
-deduplicating resource aliases. Ten native scene components, Ledger Theme and
-original menu seal are actual runtime resources. HUD and menu are useful
+deduplicating resource aliases. The native scene components, Ledger Theme and
+original menu seal are actual runtime resources; the generated inventory is the
+source of entry counts. HUD and menu are useful
 **authoring-only composition examples**, not extra reusable components. Research
 choice rows illustrate `quoted_action`; health styling illustrates
 `unit_inspection`. Planned/omitted items, the rejected alternate Watch art,
@@ -65,20 +66,21 @@ resource identity for components/Theme, host/screen, engine/backend, output hash
 dimensions and private relative log locations. Builds reject stale/changed source,
 dependencies, generator, identities, image bytes or measured dimensions.
 
-## Current woodland and compact-tree evidence
+## Current evidence
 
 [`previews.json`](previews.json) owns the current capture selection, dimensions,
 resource/host/generator bindings and image hashes; per-run manifests preserve
-previous selections. [`package-check.json`](package-check.json) owns current ZIP
-selection, measured member continuity and the separate preserved native-load
-receipt; it distinguishes archive inspection from direct native loading.
-[Woodland acceptance](../woodland.md#current-acceptance-and-visual-review) owns the
-current native campaign and visual-review scope, with exact bindings in
-[woodland-validation.json](../woodland-validation.json).
-[Skill-tree validation](../skill-tree-validation.md) retains the pre-woodland
-extension evidence. Earlier package/browser receipts do not certify changed
-inputs. The frontend itself is unchanged; no fresh live-browser acceptance is
-claimed for the woodland payload.
+previous selections. [`package-check.json`](package-check.json) owns the selected
+ZIP's measured member hashes and qualification selection, including docs-only
+continuity to its preserved direct native-load receipt; it distinguishes directly
+tested archive bytes from a documentation-updated container.
+[Worldtree qualification](../worldtree.md#review-fix-qualification-boundary) owns
+current native campaign, shipping-refresh and visual-review scope; exact bindings
+are in [worldtree-validation.json](../worldtree-validation.json).
+[Woodland acceptance](../woodland.md#current-acceptance-and-visual-review) and
+[skill-tree validation](../skill-tree-validation.md) retain earlier evidence.
+Earlier package/browser receipts do not certify changed inputs. The frontend
+itself is unchanged; no fresh live-browser acceptance is claimed for Worldtree.
 
 ## Earlier checked package and presentation
 
@@ -133,8 +135,9 @@ extension; retained extension iterations and failed evidence are listed in
 [skill-tree validation](../skill-tree-validation.md), and woodland refresh history
 in [woodland acceptance](../woodland.md#current-acceptance-and-visual-review) and
 [diagnosis](../woodland-diagnosis.md). Original UI milestones, failures, images,
-migration/coverage records and seal Blender/PNG bytes remain unchanged; current
-shared presentation is owned by [woodland](../woodland.md).
+migration/coverage records and seal Blender/PNG bytes remain unchanged. Shared
+Theme presentation is owned by [woodland](../woodland.md); additive Worldtree art
+and qualification are owned by [worldtree](../worldtree.md).
 Private full logs remain in the named `.cache/` directories, never the
 public runtime payload/static output. Earlier success does not certify changed
 source or replace final bound evidence.

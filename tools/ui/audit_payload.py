@@ -14,7 +14,7 @@ func check() -> void:
 	var body = Control.new()
 	root.add_child(body)
 	body.theme = load("res://UI/theme/ledger.tres")
-	var components = ["resource_ledger", "upkeep_summary", "quoted_action", "city_navigation", "match_controls", "session_feedback", "unit_inspection", "army_roster", "modal", "skill_tree"]
+	var components = ["resource_ledger", "upkeep_summary", "quoted_action", "city_navigation", "match_controls", "session_feedback", "unit_inspection", "army_roster", "modal", "skill_tree", "worldtree"]
 	for name in components:
 		var component = load("res://UI/components/" + name + ".tscn").instantiate()
 		body.add_child(component)
@@ -24,12 +24,35 @@ func check() -> void:
 	assert(not skills.purchase("a"))
 	assert(skills.purchase("root") and skills.points == 1)
 	assert(skills.purchase("a") and not skills.purchase("a") and skills.points == 0)
+	var worldtree = body.get_node("Worldtree")
+	var icons = {}
+	for n in worldtree.topology.nodes: icons[n.id] = n.icon_key
+	var state = {"acquired":["root"], "available":["trunk_1"], "icons":icons, "selected":"trunk_1", "points":5}
+	assert(worldtree.set_data(state) and worldtree.buttons.size() == 24 and worldtree.edges.size() == 23)
+	var requests = []
+	worldtree.node_action_requested.connect(func(id): requests.append(id))
+	worldtree.request_action()
+	assert(requests == ["trunk_1"] and worldtree.snapshot == state)
+	var acquired_world = state.duplicate(true)
+	acquired_world.acquired.append("trunk_1")
+	acquired_world.available.clear()
+	assert(worldtree.set_data(acquired_world, "trunk_1"))
+	await create_timer(0.5).timeout
+	assert(worldtree.edges.trunk_1.sap.progress > 0 and worldtree.edges.trunk_1.sap.progress < 1)
+	assert(worldtree.edges.trunk_1.fresh.modulate.a == 0 and worldtree.edges.trunk_2.sap.progress == 0)
+	await create_timer(1.8).timeout
+	assert(worldtree.edges.trunk_1.sap.progress == 1 and worldtree.edges.trunk_1.fresh.modulate.a == 1)
+	assert(worldtree.edges.trunk_2.sap.progress == 0 and worldtree.snapshot.points == 5)
+	assert(worldtree.set_data(state))
+	state.icons.root = "unknown"
+	assert(not worldtree.set_data(state) and worldtree.snapshot.icons.root == "world_seed")
+	for key in worldtree.topology.icon_catalog: assert(load("res://UI/art/worldtree/icons/" + key + ".svg") != null)
 	assert(body.theme != null and body.theme.default_font != null)
 	assert(body.theme.get_stylebox("panel", "PanelContainer") is StyleBoxTexture)
 	for name in ["branch_frame", "parchment_button", "woodland_corners", "resource_icons"]:
 		assert(load("res://UI/art/woodland/" + name + ".svg") != null)
 	assert(load("res://UI/art/menu_seal.png") != null)
-	print("UI_PAYLOAD 10 scenes, skill purchase guards, woodland Theme/art/font and original seal load without prototypes, game or tooling")
+	print("UI_PAYLOAD 11 scenes, skill purchase guards, Worldtree intent/state/animation/independent-sibling/24-node/23-edge/30-icon contracts, woodland Theme/art/font and original seal load without prototypes, game or tooling")
 	quit()
 '''
 
@@ -66,7 +89,7 @@ def main():
     engine = [args.godot, '--headless', '--path', str(cache), '--audio-driver', 'Dummy']
     run_owned([*engine, '--editor', '--import'], env, cache / 'import.log')
     text = run_owned([*engine, '--script', 'res://probe.gd'], env, cache / 'load.log')
-    if 'ERROR:' in text or 'UI_PAYLOAD 10 scenes' not in text:
+    if 'ERROR:' in text or 'UI_PAYLOAD 11 scenes' not in text:
         raise RuntimeError('Payload load failed; see private full log')
     result = {'scope': 'Only UI/ copied; no prototypes/game/tooling runtime dependencies',
               'files': manifest, 'log': (cache / 'load.log').relative_to(ROOT).as_posix(),
@@ -76,7 +99,7 @@ def main():
               'art_provenance': 'docs/ui/woodland-art.json',
               'total_file_bytes': sum(path.stat().st_size for path in source.rglob('*') if path.is_file())}
     (ROOT / 'docs/ui/payload.json').write_text(json.dumps(result, indent=2) + '\n')
-    print(f"UI payload passed: 10 scenes, Theme, fixed seal; {len(manifest)} files; log={result['log']}")
+    print(f"UI payload passed: 11 scenes, Theme, fixed seal; {len(manifest)} files; log={result['log']}")
 
 
 if __name__ == '__main__':

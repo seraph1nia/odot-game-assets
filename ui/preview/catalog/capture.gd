@@ -33,9 +33,9 @@ func save_view(id: String, resource: String) -> void:
 	print("UI_CATALOG_CAPTURE ", id, " ", resource)
 func capture() -> void:
 	root.size = Vector2i(640, 480)
-	var names = {"resource-table":"resource_ledger", "upkeep":"upkeep_summary", "action-quote":"quoted_action", "city-navigation":"city_navigation", "match-controls":"match_controls", "session-feedback":"session_feedback", "unit-inspection":"unit_inspection", "roster":"army_roster", "dialog-shell":"modal", "skill-tree":"skill_tree"}
+	var names = {"resource-table":"resource_ledger", "upkeep":"upkeep_summary", "action-quote":"quoted_action", "city-navigation":"city_navigation", "match-controls":"match_controls", "session-feedback":"session_feedback", "unit-inspection":"unit_inspection", "roster":"army_roster", "dialog-shell":"modal", "skill-tree":"skill_tree", "worldtree":"worldtree"}
 	for id in names:
-		root.size = Vector2i(1100, 820) if id == "skill-tree" else Vector2i(640, 480)
+		root.size = Vector2i(1100, 820) if id in ["skill-tree", "worldtree"] else Vector2i(640, 480)
 		var body = await fresh()
 		var component = load("res://UI/components/" + names[id] + ".tscn").instantiate()
 		if id == "dialog-shell":
@@ -55,6 +55,10 @@ func capture() -> void:
 				"session-feedback": component.set_data({"status":"Connection lost", "message":"The host supplies this message and recovery eligibility.", "reconnect":true, "fresh":true})
 				"unit-inspection": component.set_data(UIFixtures.unit())
 				"roster": component.set_data(UIFixtures.roster(true))
+				"worldtree":
+					var icons = {}
+					for n in component.topology.nodes: icons[n.id] = n.icon_key
+					component.set_data({"acquired":component.topology.activation_fixtures[3].owned, "available":["primary_center","primary_right"], "icons":icons, "selected":"root", "points":5})
 				"skill-tree":
 					component.set_data(UIFixtures.skill_tree())
 					component.purchase("foundation")
