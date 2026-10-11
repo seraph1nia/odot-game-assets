@@ -57,6 +57,39 @@ static func clear(parent: Node) -> void:
 		parent.remove_child(child)
 		child.queue_free()
 
+# Original optional scan aids; names/costs remain readable native text.
+static func resource_icon(name: String) -> Texture2D:
+	var names = ["gold", "food", "wood", "stone", "metal", "cloth"]
+	var index = names.find(name.to_lower())
+	if index < 0: return null
+	var icon = AtlasTexture.new()
+	icon.atlas = load("res://UI/art/woodland/resource_icons.svg")
+	icon.region = Rect2(index * 32, 0, 32, 32)
+	return icon
+
+static func ornament(parent: Node, width: int = 180) -> TextureRect:
+	var art = TextureRect.new()
+	art.texture = load("res://UI/art/woodland/woodland_corners.svg")
+	art.custom_minimum_size = Vector2(width, width * 112.0 / 240.0)
+	art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	art.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	art.focus_mode = Control.FOCUS_NONE
+	parent.add_child(art)
+	return art
+
+# Canvas-only ornament uses spare panel space, never layout or hit targets.
+static func corner_ornament(panel: PanelContainer, body: Container) -> void:
+	var art = Sprite2D.new()
+	art.texture = load("res://UI/art/woodland/woodland_corners.svg")
+	art.scale = Vector2(.45, .45)
+	panel.add_child(art)
+	var place = func():
+		art.visible = panel.size.y - body.get_combined_minimum_size().y - 32 >= 52
+		art.position = Vector2(panel.size.x * .5, panel.size.y - 34)
+	panel.resized.connect(func(): place.call_deferred())
+	place.call_deferred()
+
 static func component(path: String, parent: Node) -> Control:
 	var scene = load("res://UI/components/" + path + ".tscn")
 	var c = scene.instantiate()

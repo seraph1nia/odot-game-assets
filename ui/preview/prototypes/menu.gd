@@ -36,3 +36,4 @@ func show_menu() -> void:
 				else: requested.emit(id))
 			if id == "solo": b.grab_focus()
 	WatchUI.label($Body, "Open Steam to log in" if offline else "Mock friend · online", "ContextLabel")
+	WatchUI.ornament($Body, 180)

@@ -5,20 +5,21 @@ on accepted M1 foundation/local modal and preserved representative milestone.
 External game integration remains separate in [coverage.md](coverage.md).
 State: [tasks.json](tasks.json).
 Interfaces/migration boundary: [api.md](api.md); actual evidence:
-[skill-tree validation](skill-tree-validation.md) for the extension and
-[production.md](production.md) for pre-extension milestones. Existing world tooling/MCP/palettes remain unchanged.
+[current woodland acceptance](woodland.md#current-acceptance-and-visual-review)
+and [compact-tree API](api.md#compact-skill-tree-allocation). Earlier milestones stay
+historical. Existing world tooling/MCP/palettes remain unchanged.
 
 | Path | Responsibility |
 |---|---|
 | `docs/ui/` | Discovery, exact approval, inventory/backlog, reviews, source bindings, migration |
 | `docs/ui/previews/` | Historical M0 Ledger/Watch comparisons |
-| `docs/ui/production/review-dialog-close/` | Preserved pre-extension host dialog-close acceptance; current evidence is linked from `skill-tree-validation.md` |
+| `docs/ui/production/review-dialog-close/` | Preserved pre-extension host dialog-close acceptance; current evidence is linked from `woodland.md` |
 | `docs/ui/production/review-fixes/` | Preserved first review-fix 588-check/79-frame acceptance |
 | `docs/ui/production/standalone-final/` | Retained submitted 568-check/79-frame acceptance |
 | `docs/ui/preservation.json` | Frozen retained result/source-binding and visual-review byte contracts, independent of Git history |
 | `docs/ui/production/production-package-reviewed/` | Preserved accepted representative 35-frame evidence |
 | `docs/ui/production/m1-tab-scope/` | Preserved accepted 27-frame M1 foundation evidence |
-| `docs/ui/production/` other folders | Campaign captures; current versus retained status is owned by `skill-tree-validation.md` and historical `production.md` |
+| `docs/ui/production/` other folders | Campaign captures; current versus retained status is owned by `woodland.md`, historical `skill-tree-validation.md` and `production.md` |
 | `sources/ui/menu_seal.blend` | Approved original editable source, retained byte-for-byte from M0 |
 | `sources/ui/explorations/watch_seal.blend` | Rejected-alternative study, not runtime payload |
 | `ui/preview/UI/` | Portable relative runtime namespace; component interfaces and dependency boundary in `api.md` |
@@ -30,11 +31,16 @@ Interfaces/migration boundary: [api.md](api.md); actual evidence:
 
 ## Native semantics first
 
-Theme/StyleBoxFlat own flexible surfaces. Native Buttons, Labels, grids, scrolling,
-OptionButton/PopupMenu, HSlider and TabContainer own ordinary widget behavior.
-The approved Blender gate seal stays fixed at 48px from a transparent 192px PNG;
-no dynamic text is baked and there is no decorative frame/icon family or nine-slice
-texture. Native semantic close marking is not extra Blender artwork.
+The existing Theme uses native StyleBoxFlat insets and original SVG StyleBoxTexture
+branch/parchment slices for flexible surfaces. Native Buttons, Labels, grids,
+scrolling, OptionButton/PopupMenu, HSlider and TabContainer retain widget behavior.
+The original Blender gate seal stays fixed at 48px from its unchanged 192px PNG.
+Woodland frame/icon/vignette manual sources and the font/license are bound in
+`woodland-art.json`; no dynamic text or supplied screenshot pixels are baked into
+controls. Fixed transparent ornaments ignore input and preserve aspect ratio.
+The HUD's native section container reserves its footer while variable stock/upkeep
+copy uses the bounded upper scroll region; decoration does not allocate hit targets.
+Native semantic close marking is not extra Blender artwork.
 
 The new modal uses an in-tree Control/scrim/centered panel rather than Window.
 Its small visible-only lifecycle handles local cancellation, Tab scope and valid

@@ -1,0 +1,82 @@
+{
+	"captures": [
+		{
+			"height": 820,
+			"path": "hud-live-0-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 720,
+			"path": "hud-live-0-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 820,
+			"path": "hud-live-1-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 720,
+			"path": "hud-live-1-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 820,
+			"path": "hud-live-modal-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 720,
+			"path": "hud-live-modal-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 820,
+			"path": "hud-choices-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 820,
+			"path": "hud-progress-tooltip-1100x820.png",
+			"width": 1100
+		},
+		{
+			"height": 720,
+			"path": "hud-choices-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-progress-tooltip-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-focus-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-hover-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-skill-tab-1280x720.png",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "hud-choices-preparation-1280x720.png",
+			"width": 1280
+		}
+	],
+	"checks": 624,
+	"failures": [
+		"live resize preserves scroll subject to native clamp (1280, 720)",
+		"live resize preserves scroll subject to native clamp (1280, 820)",
+		"live projection complete tail reason remains reachable lost"
+	],
+	"scope": "Standalone native controls; no game integration or native GPU claim",
+	"selection": "woodland"
+}

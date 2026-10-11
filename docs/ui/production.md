@@ -1,6 +1,8 @@
 # Ledger production — finished intended standalone package
 
-Current extension evidence and limits are owned by [skill-tree validation](skill-tree-validation.md).
+Current woodland HUD/menu and inherited-tree evidence and limits are owned by
+[woodland](woodland.md) and [woodland-validation.json](woodland-validation.json).
+[Skill-tree validation](skill-tree-validation.md) preserves the pre-theme extension.
 The campaigns below are retained historical milestones, not current-source certification.
 `payload.json` owns the refreshed payload; earlier audits below are identified by their private logs.
 

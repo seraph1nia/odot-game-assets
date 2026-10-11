@@ -39,7 +39,7 @@ static func match_state(state: String) -> Dictionary:
 	if state == "lobby":
 		return {"phase":"Cooperative lobby", "counters":"2 / 4 players · host", "show_ready":false, "show_pause":false, "show_start":true, "can_start":true, "context":"Start request only; the game validates lobby eligibility."}
 	var can_edit = state in ["building", "shortage", "preparation"]
-	return {"phase":state.capitalize() + " · Wave 2", "counters":"Production 2 of 3" if state != "preparation" else "Income received · Prepare for battle",
+	return {"phase":state.capitalize() + " · Wave 2", "progress_value":2, "progress_max":3, "progress_text":"Building turn · 2 / 3 (illustrative projection)", "counters":"Production 2 of 3" if state != "preparation" else "Income received · Prepare for battle",
 		"ready_label":"Ready for battle" if state == "preparation" else "Unready" if state == "ready" else "Ready", "ready_id":"unready" if state == "ready" else "ready", "can_ready":can_edit or state == "ready",
 		"pause_label":"Resume whole match" if state == "paused" else "Pause whole match", "pause_id":"resume" if state == "paused" else "pause",
 		"can_pause":state not in ["lost", "victory", "defeat"], "terminal":state in ["victory", "defeat"], "show_ready":state != "lost", "show_pause":state != "lost", "show_context":state != "lost",

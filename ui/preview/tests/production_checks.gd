@@ -325,8 +325,12 @@ func edge_controls() -> void:
 	var tabs = ui.context.get_node("Actions").get_child(1)
 	for index in range(4):
 		tabs.grab_focus()
-		await key(KEY_HOME)
-		for i in range(index): await key(KEY_RIGHT)
+		# Native TabBar does not reset on Home. Navigate from its actual tab;
+		# cumulative Right presses otherwise reach the modal Skill Tree entry.
+		for i in range(absi(index - tabs.current_tab)): await key(KEY_RIGHT if index > tabs.current_tab else KEY_LEFT)
+		expect(tabs.current_tab == index, "native construction category index " + str(index))
+		expect(ui.dialog == null or not ui.dialog.visible, "construction category navigation does not open Skill Tree " + str(index))
+		ui.last_action = ""
 		await click(ui.actions[0].get_node("Body/Action"))
 		expect(ui.last_action.contains(ui.actions[0].data.id), "native construction group intent " + str(index))
 	ui.selection = "Recruiter"

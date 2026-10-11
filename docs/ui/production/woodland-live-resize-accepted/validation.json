@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "results": "production/woodland-live-resize-accepted/results.json",
+  "results_sha256": "c478b4e6c8734fefe2e3af0e1bd80f7752c3aa538cca5280871a668db9047579",
+  "capture_sha256": {
+    "skill-tree-root-1100x820.png": "efaf3a0198141830bdd72ecc175117c8afb69a3812c7e9b61b68a97be9c9b009",
+    "skill-tree-three-choices-1100x820.png": "b4c2c924e78d1ca9cac2dcc587487deb3c6535640da2b0a471874f8121c21e04",
+    "skill-tree-parent-unlock-1100x820.png": "99e8ce7b38b09b4089ad5bd9cfecd28f2e4a67bcbb70d0a6d7a3b12f0b6207cc",
+    "skill-tree-insufficient-1100x820.png": "4e5a3ffc4fac61699f8d0e1d571c9a2ad0b4a8658f9938337d1baad0e85f7717",
+    "skill-tree-owned-1100x820.png": "86880a2ef6859465e4b52c21d66b291818c79cac4bd82b1d29f8069733a01fc1",
+    "skill-tree-duplicate-titles-1100x820.png": "2ac6203b766266264507dd90aafa13b07d44c571ed7afd3346591ef58b09fc28",
+    "skill-tree-narrow-420x700.png": "ecf72f22ac206146e7e9d76f70c3bdce6864a73c96b1c8fc33a8b447b88aa7e7",
+    "hud-1100x820.png": "93dd5fffe231ea53602b4e83824345e3605833abdfa520397f932666fdafbca4",
+    "menu-1100x820.png": "c7dc581923306bb5c0fa687f92ec9f7a515a21bc23afb1156b986258cce8146a",
+    "menu-multiplayer-1100x820.png": "85dbe7559952265459fa57fd53d3709cc6f3644bd954b67054e1c5331349237b",
+    "research-1100x820.png": "05b53b55a2a5b7c23b3b3ba0ad8ecf94bcd0d5b02f141b15a8dd3b3fb5caf354",
+    "research-locked-scrolled-1100x820.png": "055542b4c5525c4841281f452bd891281f26b3bd579e0f01b51b7571bc719ef5",
+    "town_hall-1100x820.png": "c26a076af3417847d406b08e699a1e90919eea46b0c6b9c851a2ef152bdedf57",
+    "town_hall-empty-1100x820.png": "45ba72bb79a90af06802ce9a2c79218a4fa5423695413267d52314080029c76f",
+    "town_hall-stale-1100x820.png": "b68d6e31852fb9487edd57f8921b8c0075dd65a4054103e636953e3485f24cd9",
+    "town_hall-storage-1100x820.png": "aa33285b2dd7aea3bf797ec4514527786c7ae5717dc7891a01e2b56cd46e3090",
+    "town_hall-recovery-1100x820.png": "a579fbc5e23273d1b248921ad1f7d38467f6f0ea4fa0668b02c296fdfd12378d",
+    "town_hall-fragmented-1100x820.png": "aa4de61cf7e5a75f3ce6049c1468c76a4e49182db98368479bdf552214de7bc1",
+    "settings-1100x820.png": "10f1865ecd61e493cba5f286429c02d8393d95ba276bd4f4a6c92892c0467436",
+    "settings-about-error-1100x820.png": "bf32a07a330d41308d8a18fd1f587817a607a89a904332671c70da1740508b5a",
+    "details-1100x820.png": "7ac74a0294429d009e76fb96b61987bfcbf6265a5a61f6599ee3c217c3d8f018",
+    "details-paid-1100x820.png": "f09796d3356d76db8ba2d2c5abb9b510fbf9c5d4993a1a6d9dca1b88191a3cd2",
+    "details-last-1100x820.png": "81eb0641b833dc897f2169314afbc760125d2289fb1776aa0da6be8a6d7a071b",
+    "details-fresh-1100x820.png": "c89bd9d363e6c0c8d315dc11af24d1b66a82feee4e5bb8b20285af7aefeae1a7",
+    "friends-1100x820.png": "9fa887f9bc37de6a5142a25bbbc1fad7119c8df6ae95501b72ae83409a3b484f",
+    "friends-long-1100x820.png": "ef25882af021e51b362e05950af42d9f7969f2895447f1a78b3a56852ec1af97",
+    "unit-1100x820.png": "c4fb0de56e53e2f2a466b146538f0e68f567382eb700644085d8e55f5d7a7aec",
+    "components-1100x820.png": "8a78b587ec63076e292923ac354b4fdc91e1b7b7feec3c97e71ce9e9d9f19fb4",
+    "hud-1280x720.png": "1ec7802791f0e7330564d433f3cc6dcd7f0e09c62d9508f0e4b59a137448c07d",
+    "menu-1280x720.png": "0fcf3dd6d5df4930b704a39859a15b2dee656265400e36722eddc85df175f533",
+    "menu-multiplayer-1280x720.png": "3c723702d0229da03085ce73b4ccbd4140df0b1b20be69f2439778a4f36f0af1",
+    "research-1280x720.png": "70860b7ea8fc3f8b809c724cd0b28340bb08c51ffe9a5f8e714c536445eb8e65",
+    "research-locked-scrolled-1280x720.png": "4a2ad07c514426d057486637690084a4edcf648fa8a22b7ef8b0e7fe7ef4c807",
+    "town_hall-1280x720.png": "98c2af44207e678def8f9f43db1c4d21ee5c1d2faa56375bb3e14473a6a43ad7",
+    "town_hall-empty-1280x720.png": "426f39bcb10f04dd082d27cfbe0659c5dad2413ba26fd6bc9d8611bf59c8da0b",
+    "town_hall-stale-1280x720.png": "d9512e222e2f0506c4e3dfac14988eab81ac972087c97a6f17a4b5db81fa6272",
+    "town_hall-storage-1280x720.png": "97dc410fa945e052f1353dadd6dda2f08a6ee582fbb9289fc8bfee9c1ff145f6",
+    "town_hall-recovery-1280x720.png": "6fa8104d9963efe911cd4f59fd5344eb0f7dd802ac76701f23ae037993ab4e33",
+    "town_hall-fragmented-1280x720.png": "6c65958332c7339acab243630b63e0650c4ae90dbc4f951525b72aa7aff31f24",
+    "settings-1280x720.png": "cfe3e3c6083bda1e7b215cd08a3c61222e4f4330a50fdf9d0096b2a5bdbaaac5",
+    "settings-about-error-1280x720.png": "62483ea0bc61d06cf1162d73ef244947f5bc93b67fbd83bd9f4d0519f1f0a3e5",
+    "details-1280x720.png": "f4e412d6c5e148796f59261b5e0807f8b14f663ba335555aaa339645746cbfe4",
+    "details-paid-1280x720.png": "ae39f91cb17ad25a3b24592c27e51c320202d4698d3ca3e186fd1f10d395aa4a",
+    "details-last-1280x720.png": "99541edfb3da8ec98f3c34b9ffceb08ce02270c2a43ab6f320b45575490048d4",
+    "details-fresh-1280x720.png": "080947d714a2dff09e08fec07d8192798acdccaeb5271c34b60ef8ee8047299f",
+    "friends-1280x720.png": "9e96a259ed36ef8b6a1dac7dc8ac420bb0de0d8f775b6b4c4c66728ffae67f48",
+    "friends-long-1280x720.png": "4f348b539a28661a5a2b37bf4b13902910503687c88e6b9dbe80599d4209848e",
+    "unit-1280x720.png": "1d6e169a7051cce043b536b32ee9aba0c969bc5fa81b749a74f147ea0d6bbc6d",
+    "components-1280x720.png": "7f9138fbe5c714b151e8491efbafb249e520ff0bc0c42d8711ada1c7780553d8",
+    "hud-1600x900.png": "2de094bb930fafd1d46417b9c674ebdc9d7bc4c741210db23d14aa7c984fe4a2",
+    "menu-1600x900.png": "8377f0c49e16af1dde894dbc972271bb7134b4116952698f7443d3581220448b",
+    "menu-multiplayer-1600x900.png": "63a38754812e7943878be97285cd63991740f83a4586f39371117555f3ecf909",
+    "research-1600x900.png": "facd5516b9745d7e6803207da4abe6e2070ba149ae489c7b726a173a0c96020a",
+    "research-locked-scrolled-1600x900.png": "bd53289a1f82369958394f6a83d654a32ce0259c201d938f47f96894069ad114",
+    "town_hall-1600x900.png": "4ab530fec59685d639d28caf39bc91a8e91f677fb6bca5ce27804f61cf2ea316",
+    "settings-1600x900.png": "e669059c14d15a71a5bb986c759d0371a49dfd4889761080152c421758b2c267",
+    "settings-about-error-1600x900.png": "c401cbfbf430116ac1abb5ecaf67625fea4c5c2c956e590de50ee3b68c51abf4",
+    "details-1600x900.png": "9416294d25a0131a3d51af30b8c4c5573c2a1221f32b91c210a480e809ec6688",
+    "friends-1600x900.png": "9d086c5291333dd150bc3bd7915cb95ccf5a432784e0732f3f9ea49df3ffbfdb",
+    "friends-long-1600x900.png": "0a63e661fafba385cc587d4e7729e6436c79f95d7298b983a14c4b026ed1779a",
+    "unit-1600x900.png": "da8bc169bd527fd47431179241b448e264194fe401d1120f716c4f018414e9c7",
+    "components-1600x900.png": "c042c6c2524d45d258771a4ace59968a801dfd3a2683b7119172eccba472ac64",
+    "hud-1920x1080.png": "f590bde4fac872676f47490a1e8a49615340bf23cac7657421b70dcff155f673",
+    "menu-1920x1080.png": "398ca2037c036d225874dadb665cbdd98d313b1739c4fa29aec9d58083756ae2",
+    "menu-multiplayer-1920x1080.png": "5783f35003edadd8354ecfe8ffb28ecca4fbab5f462e2a3fd55520e0d11961fa",
+    "research-1920x1080.png": "ce5445be5f14409fe92bef40017be9786a62702ece145983ac265f0004e6b418",
+    "research-locked-scrolled-1920x1080.png": "4427ab30e68d0903f63a7fe1fab52db23b052e6fcd7008dc53a853a478fdf309",
+    "town_hall-1920x1080.png": "5e994720eb89a3d959c5f60bf72bfe60d4d52d1eaab9be19e9273e372ed80eb3",
+    "settings-1920x1080.png": "3b0e6900db55028a6a984d5943a445f3aa2f933ca515cafd420c1aaa10ed7daa",
+    "settings-about-error-1920x1080.png": "7fbe44563604a7c383c2b51628914b64c1a15c2436f870a8612ef14a70944c43",
+    "details-1920x1080.png": "a6a429791d6e994a84839e16cc56b9c51b4c9e8e0ea5ecf4d693d1657171cf90",
+    "friends-1920x1080.png": "0eaccec80aa6c3fa1b3ac777918361003802cc16643eeb7782a34e7599e73b4f",
+    "friends-long-1920x1080.png": "8eaf735f887b6b86cf7158716f89bd27549cce39cba25267cc8ef4be6abe47d3",
+    "unit-1920x1080.png": "b5ad1ca64823d1f3aa4edd8d8df6c70ea0160676fd256682ac65742385598c30",
+    "components-1920x1080.png": "0339b54e476a672f5c39f3fb82b43792b5144612d0652c15d96a66218937214e",
+    "hud-preparation-1280x720.png": "dedf6afb082e9f82ffde0779548e6e34a29c950be862e6f838d806fa88fa8b1e",
+    "hud-shortage-1280x720.png": "a46f36c4452c51379e2b672b9c1ce4cd7edda7eeb4a38178406635b9e8bd88be",
+    "hud-lost-1280x720.png": "609d2e87834943e2574426e211ee7b716d03484e47b144ccecdf92503ddd2856",
+    "hud-combat-1280x720.png": "2141c092aaf2e39b8c1cd468e914e96778752420b693ee7a83657d89cbfee214",
+    "hud-foreign-1280x720.png": "feecac5ba8c5d41819ebc6413d6b743fcd33945a7476764b39391c80e7e30efe",
+    "hud-paused-1280x720.png": "85aada0045871cfc00669b2affc7fe99cc758e5fd7051ededfb84a1bd09896b7",
+    "hud-victory-1280x720.png": "888878c735ca47a12189f16b999a4a791d9d8bf21e5ed27682ffaff9efd7116a",
+    "hud-defeat-1280x720.png": "261a37e2fe17199869f7c3706ceb2ba24f71d3836a4059513a370c65e594b397",
+    "hud-lobby-1280x720.png": "de51829159911f62aea8c17245e325b1d7a345edb29a7721a660865b79311e54",
+    "hud-fallen-1280x720.png": "df789b1aa8501b2f9193a2e174a32e45115475970c75f82a68df7d3512e1c60a",
+    "hud-stale-1280x720.png": "10264091db6ef4b01817962bb334a19c0587d10220c01ba8a4d3600ac6677da6",
+    "hud-live-0-1100x820.png": "b4416a55202dae1ece1977c7e6a4047eb58fd531a90b606a5a92d3d07a10bdd2",
+    "hud-live-0-1280x720.png": "b29d590aa3381e73021d249e313911702c6a80e221900e333baa3c9b544e258a",
+    "hud-live-1-1100x820.png": "c1084665ea6353ad615474023b721051ab2c73518f7fe301258c3f617210921a",
+    "hud-live-1-1280x720.png": "26dd3fbd03f9dd56ba7a49f4e0695e017f3aca09b55400e8ae541c998428841c",
+    "hud-live-modal-1100x820.png": "eb77edfffce1390fd0eb4b6c14846d7a735fe99bed2649e0c62bb8d1d7e1344d",
+    "hud-live-modal-1280x720.png": "7be398484d666e4bffddb23b583b3d2175b7c269187bc098a7fc26a915aecc55",
+    "hud-choices-1100x820.png": "d9b8ce9a2f87c25b8cdf88859e5135880aa19f6633164f7fa53f740de815a1e1",
+    "hud-progress-tooltip-1100x820.png": "0475c71b9c294c4d0358422d89d3ce4a1f69f8ea08231a75c967147992783c6e",
+    "hud-choices-1280x720.png": "96cd647234443b1c06717ee963c23c15c265438edeeb7a4fab72a65d0ec78930",
+    "hud-progress-tooltip-1280x720.png": "460d68dbd7dc0c371ab067a5339187788434923283db286cf2ac4bd1e3e06984",
+    "hud-focus-1280x720.png": "2ad04e9607287abeeabcc3b93ee4a83a95eb065a48797b767f37d12dd3c72609",
+    "hud-hover-1280x720.png": "551e76c150379c58471035ba1eee514b8d3911d0486a140619eb84b47aa2dad0",
+    "hud-skill-tab-1280x720.png": "b2f45f481caccbb2f8d76253b699607c4895904d9c6a8de1bde2b7d99c51b5c2",
+    "hud-choices-preparation-1280x720.png": "44212d0ed34779a264f422429a9da838d2670d9ab38b85a01f255c4c266c70f7"
+  },
+  "native_resolution_review": [
+    "hud-live-0-1100x820.png",
+    "hud-live-0-1280x720.png",
+    "hud-live-1-1100x820.png",
+    "hud-live-1-1280x720.png",
+    "hud-live-modal-1100x820.png",
+    "hud-live-modal-1280x720.png",
+    "hud-progress-tooltip-1100x820.png",
+    "hud-progress-tooltip-1280x720.png",
+    "hud-choices-1100x820.png",
+    "hud-choices-1280x720.png",
+    "hud-choices-preparation-1280x720.png",
+    "hud-lost-1280x720.png",
+    "hud-focus-1280x720.png",
+    "hud-hover-1280x720.png",
+    "hud-skill-tab-1280x720.png"
+  ],
+  "overview_review": "No new whole-campaign overview claimed; current direct native-resolution review is the targeted list above. Earlier whole-campaign and targeted reviews remain in preserved validation selections.",
+  "catalog_sha256": {
+    "theme": "22977e85328cfaf57d428efcc077c97e4695d63e6cd65d1c6e19c9796f491f06",
+    "resource-table": "c18e83cac5aa0fabb34b07d25b451df45054a055bf53e1ce5772cd8dd13e8817",
+    "upkeep": "fadc9faefdfa0066b57379d630be974184efddf40eefa3a533f4720b5aed49b7",
+    "action-quote": "0369bbf14d73caf04a6ce7ab48958760a76a18b29ee5401da7829044087495ca",
+    "city-navigation": "eb302b23eac0b677d316150d233a179f13a7673b645781fb88b187b9cd424bf8",
+    "match-controls": "d85ecc7e76e3ba380e193497857604e5133b4ca166b04229acf6436422f68a61",
+    "session-feedback": "ad63e814d7aef70cfcf87d1c2d11cad357a57589d66d41d9740be30ea3802ecc",
+    "dialog-shell": "d2419cc476311d62ea1b47cbff7fdb769be418a84674f17e036286c23cdcee4a",
+    "unit-inspection": "10c8c2205c178ee18f3520e3b2ca3018c72401355de4048e7c835ef76af9ea17",
+    "roster": "cce516567a460807c1167f7434ee712eda213d39911a7ea42b766c048c367ebc",
+    "skill-tree": "d1a525fa6e0e1b2b0778253b5aadddfdc66ce30585a000f03e9cd2c60800d6af",
+    "hud": "1bfc82768886c234a8b275baf7ee28075c66b87bcdc7f8034ee9bee7e1c40b84",
+    "start-menu": "0fcf3dd6d5df4930b704a39859a15b2dee656265400e36722eddc85df175f533"
+  },
+  "catalog_native_resolution_review": [
+    "hud"
+  ],
+  "catalog_exact_pixel_review_reuse": {
+    "theme": {
+      "prior_native_review": "docs/ui/catalog/woodland-reviewed/theme.png",
+      "sha256": "22977e85328cfaf57d428efcc077c97e4695d63e6cd65d1c6e19c9796f491f06"
+    },
+    "resource-table": {
+      "prior_native_review": "docs/ui/catalog/woodland-reviewed/resource-table.png",
+      "sha256": "c18e83cac5aa0fabb34b07d25b451df45054a055bf53e1ce5772cd8dd13e8817"
+    },
+    "upkeep": {
+      "prior_native_review": "docs/ui/catalog/woodland-reviewed/upkeep.png",
+      "sha256": "fadc9faefdfa0066b57379d630be974184efddf40eefa3a533f4720b5aed49b7"
+    },
+    "action-quote": {
+      "prior_native_review": "docs/ui/catalog/woodland-reviewed/action-quote.png",
+      "sha256": "0369bbf14d73caf04a6ce7ab48958760a76a18b29ee5401da7829044087495ca"
+    },
+    "city-navigation": {
+      "prior_native_review": "docs/ui/catalog/woodland-reviewed/city-navigation.png",
+      "sha256": "eb302b23eac0b677d316150d233a179f13a7673b645781fb88b187b9cd424bf8"
+    },
+    "match-controls": {
+      "prior_native_review": "docs/ui/catalog/woodland-hover-refreshed/match-controls.png",
+      "sha256": "d85ecc7e76e3ba380e193497857604e5133b4ca166b04229acf6436422f68a61"
+    },
+    "session-feedback": {
+      "prior_native_review": "docs/ui/catalog/woodland-reviewed/session-feedback.png",
+      "sha256": "ad63e814d7aef70cfcf87d1c2d11cad357a57589d66d41d9740be30ea3802ecc"
+    },
+    "dialog-shell": {
+      "prior_native_review": "docs/ui/catalog/woodland-accepted/dialog-shell.png",
+      "sha256": "d2419cc476311d62ea1b47cbff7fdb769be418a84674f17e036286c23cdcee4a"
+    },
+    "unit-inspection": {
+      "prior_native_review": "docs/ui/catalog/woodland-reviewed/unit-inspection.png",
+      "sha256": "10c8c2205c178ee18f3520e3b2ca3018c72401355de4048e7c835ef76af9ea17"
+    },
+    "roster": {
+      "prior_native_review": "docs/ui/catalog/woodland-reviewed/roster.png",
+      "sha256": "cce516567a460807c1167f7434ee712eda213d39911a7ea42b766c048c367ebc"
+    },
+    "skill-tree": {
+      "prior_native_review": "docs/ui/catalog/woodland-accepted/skill-tree.png",
+      "sha256": "d1a525fa6e0e1b2b0778253b5aadddfdc66ce30585a000f03e9cd2c60800d6af"
+    },
+    "start-menu": {
+      "prior_native_review": "docs/ui/catalog/woodland-accepted/start-menu.png",
+      "sha256": "0fcf3dd6d5df4930b704a39859a15b2dee656265400e36722eddc85df175f533"
+    }
+  },
+  "catalog_review_scope": "Affected current HUD opened at native resolution; listed image-only reuse was verified by exact bytes against explicitly recorded prior native reviews. Current source/host/generator/resource identities come from the freshly generated current and per-run previews.json owners.",
+  "tools_sha256": {
+    "tools/asset_catalog/__main__.py": "a370158533337179dc2332dffa961b02f8774bce39f10dfe75cdd1c62c4b76ff",
+    "tools/asset_catalog/build_site.py": "45e74a23b95d07a82fea3b193e390eed1c1b63c40b0a00f822a5d1253726dee8",
+    "tools/asset_catalog/index.py": "9bb2ba3b37d1cbd6c247483fe7c33870b7a285c43d1e4ac32b8c7647e0dfc6c7",
+    "tools/asset_catalog/test_ui_assets.py": "d1be4bfce4bf8d377d004f6b27d3c2c30fd6d5b08bafe11b8bee2dcca995deaa",
+    "tools/asset_catalog/ui_assets.py": "7c9d642c28410a4583423e5ac884202c9a0a6621594735db6164efcc3a51f1b3",
+    "tools/ui/audit_payload.py": "8f9018ba3b6dd04680c29c96b37d747705c5a9774a85b27c745bc911060ec2c5",
+    "tools/ui/build_theme.gd": "f99d7ae6f81562ce6711befbd8024f3b45ec0366d4f167fe44e652e9a52b3401",
+    "tools/ui/capture_catalog.py": "65f6d8d2015421c64453183c696b825805359b2278ccf610caa98b1b7a15623c",
+    "tools/ui/capture_explorations.py": "d685ddfcf44793f32452de1ba31b7d9f0ec3353a4783eb1008fc01c55eac8326",
+    "tools/ui/check_catalog_package.py": "0987d6d8d93b9680c11b72db615130f57fcb12c2d8bba131c49d7cc043625965",
+    "tools/ui/diagnose_settings.py": "ef5bfe9f74569fb54cd57f3190cbbe43e02fa97f6ed164326e03d5fc491ac3ce",
+    "tools/ui/test_plan.py": "5efd49270f3dff3591aeb10dec93be88dc3edcb5cefd0c49086a08fb5da90061",
+    "tools/ui/validate.py": "c563a7e17946bfe7f8be28e7526d0bc39ddd3abdc3305e1fa6dbd9ff920cd1d6"
+  },
+  "package_sha256": "6795ad0e79a876f40af17a3e4bb5dc8959c82cf9e88fa32665f722d0e3f4d1ad",
+  "package_check": "catalog/package-check.json",
+  "payload_manifest": "payload.json",
+  "art_provenance": "woodland-art.json",
+  "serial_os_checks": {
+    "settings": {
+      "checks": 11,
+      "failures": [],
+      "world_clicks": 0,
+      "logs": ".cache/ui-diagnosis/full-os-none-woodland-live-resize-accepted/",
+      "result_log_sha256": "f541c3af93b02f6addf5eba81b4810473ae698a432cf64fc9792997bc96bde71",
+      "source_binding": "production/woodland-live-resize-accepted/results.json",
+      "owner_sha256": "ef5bfe9f74569fb54cd57f3190cbbe43e02fa97f6ed164326e03d5fc491ac3ce"
+    },
+    "modal": {
+      "checks": 64,
+      "failures": [],
+      "world_clicks": 0,
+      "logs": ".cache/ui-diagnosis/modal-os-none-woodland-live-resize-accepted/",
+      "result_log_sha256": "ea3f8245e247cd70eb33ceee5e5d19f27b71654dcabf77922da9b1449c7a5166",
+      "source_binding": "production/woodland-live-resize-accepted/results.json",
+      "owner_sha256": "ef5bfe9f74569fb54cd57f3190cbbe43e02fa97f6ed164326e03d5fc491ac3ce"
+    }
+  },
+  "preserved_failures": [
+    "production/woodland-1/results.json",
+    "production/woodland-2/results.json",
+    "production/woodland-layout-focused/results.json",
+    "production/woodland-final/results.json",
+    "production/woodland-live-resize-focused/results.json",
+    "production/woodland-live-resize-focused-2/results.json",
+    "production/woodland-live-resize-before-fix/results.json"
+  ],
+  "preserved_intermediate_visual_rejections": [
+    "production/woodland-final-2/results.json",
+    "production/woodland-reviewed/results.json"
+  ],
+  "scope": "Native Controls, owned Xvfb/Compatibility/Mesa llvmpipe and independent headless UI-only/actual ZIP loading. No hardware GPU/FPS/VRAM, game integration, full localization/RTL, mobile, live-browser acceptance or deployment certification. Historical Ledger/compact-tree/browser bindings remain unchanged and do not certify edited inputs. Implementation HEAD is reported at commit/delivery rather than a self-referential hash inside its own content.",
+  "checks": 1395,
+  "capture_count": 100,
+  "focused": {
+    "results": "production/woodland-live-resize-accepted-focused/results.json",
+    "results_sha256": "15c5cae74f89310f9e2260578abc596ff5cc5ce30841d02c68678c5bce80ce53",
+    "checks": 624,
+    "capture_count": 14,
+    "capture_sha256": {
+      "hud-live-0-1100x820.png": "b4416a55202dae1ece1977c7e6a4047eb58fd531a90b606a5a92d3d07a10bdd2",
+      "hud-live-0-1280x720.png": "b29d590aa3381e73021d249e313911702c6a80e221900e333baa3c9b544e258a",
+      "hud-live-1-1100x820.png": "c1084665ea6353ad615474023b721051ab2c73518f7fe301258c3f617210921a",
+      "hud-live-1-1280x720.png": "26dd3fbd03f9dd56ba7a49f4e0695e017f3aca09b55400e8ae541c998428841c",
+      "hud-live-modal-1100x820.png": "eb77edfffce1390fd0eb4b6c14846d7a735fe99bed2649e0c62bb8d1d7e1344d",
+      "hud-live-modal-1280x720.png": "7be398484d666e4bffddb23b583b3d2175b7c269187bc098a7fc26a915aecc55",
+      "hud-choices-1100x820.png": "d9b8ce9a2f87c25b8cdf88859e5135880aa19f6633164f7fa53f740de815a1e1",
+      "hud-progress-tooltip-1100x820.png": "0475c71b9c294c4d0358422d89d3ce4a1f69f8ea08231a75c967147992783c6e",
+      "hud-choices-1280x720.png": "96cd647234443b1c06717ee963c23c15c265438edeeb7a4fab72a65d0ec78930",
+      "hud-progress-tooltip-1280x720.png": "460d68dbd7dc0c371ab067a5339187788434923283db286cf2ac4bd1e3e06984",
+      "hud-focus-1280x720.png": "2ad04e9607287abeeabcc3b93ee4a83a95eb065a48797b767f37d12dd3c72609",
+      "hud-hover-1280x720.png": "551e76c150379c58471035ba1eee514b8d3911d0486a140619eb84b47aa2dad0",
+      "hud-skill-tab-1280x720.png": "b2f45f481caccbb2f8d76253b699607c4895904d9c6a8de1bde2b7d99c51b5c2",
+      "hud-choices-preparation-1280x720.png": "44212d0ed34779a264f422429a9da838d2670d9ab38b85a01f255c4c266c70f7"
+    }
+  },
+  "prior_validation": "production/woodland-accepted/validation.json",
+  "prior_validation_sha256": "c63612dfacfbd0fee9f519958fcf1bf1bc750104bea4acc4bcf668f047ebe0e3",
+  "historical_payload": "catalog/woodland-accepted/payload.json",
+  "historical_package_check": "catalog/woodland-accepted/package-check.json",
+  "exact_pixel_review_reuse": {
+    "hud-1100x820.png": {
+      "prior_native_review": "production/woodland-hover-refreshed/hud-1100x820.png",
+      "sha256": "93dd5fffe231ea53602b4e83824345e3605833abdfa520397f932666fdafbca4"
+    },
+    "hud-1280x720.png": {
+      "prior_native_review": "production/woodland-hover-refreshed/hud-1280x720.png",
+      "sha256": "1ec7802791f0e7330564d433f3cc6dcd7f0e09c62d9508f0e4b59a137448c07d"
+    },
+    "menu-1280x720.png": {
+      "prior_native_review": "production/woodland-accepted/menu-1280x720.png",
+      "sha256": "0fcf3dd6d5df4930b704a39859a15b2dee656265400e36722eddc85df175f533"
+    },
+    "menu-1100x820.png": {
+      "prior_native_review": "production/woodland-accepted/menu-1100x820.png",
+      "sha256": "c7dc581923306bb5c0fa687f92ec9f7a515a21bc23afb1156b986258cce8146a"
+    },
+    "skill-tree-root-1100x820.png": {
+      "prior_native_review": "production/woodland-accepted/skill-tree-root-1100x820.png",
+      "sha256": "efaf3a0198141830bdd72ecc175117c8afb69a3812c7e9b61b68a97be9c9b009"
+    },
+    "skill-tree-three-choices-1100x820.png": {
+      "prior_native_review": "production/woodland-accepted/skill-tree-three-choices-1100x820.png",
+      "sha256": "b4c2c924e78d1ca9cac2dcc587487deb3c6535640da2b0a471874f8121c21e04"
+    },
+    "skill-tree-parent-unlock-1100x820.png": {
+      "prior_native_review": "production/woodland-accepted/skill-tree-parent-unlock-1100x820.png",
+      "sha256": "99e8ce7b38b09b4089ad5bd9cfecd28f2e4a67bcbb70d0a6d7a3b12f0b6207cc"
+    },
+    "skill-tree-insufficient-1100x820.png": {
+      "prior_native_review": "production/woodland-accepted/skill-tree-insufficient-1100x820.png",
+      "sha256": "4e5a3ffc4fac61699f8d0e1d571c9a2ad0b4a8658f9938337d1baad0e85f7717"
+    },
+    "skill-tree-owned-1100x820.png": {
+      "prior_native_review": "production/woodland-accepted/skill-tree-owned-1100x820.png",
+      "sha256": "86880a2ef6859465e4b52c21d66b291818c79cac4bd82b1d29f8069733a01fc1"
+    },
+    "skill-tree-duplicate-titles-1100x820.png": {
+      "prior_native_review": "production/woodland-accepted/skill-tree-duplicate-titles-1100x820.png",
+      "sha256": "2ac6203b766266264507dd90aafa13b07d44c571ed7afd3346591ef58b09fc28"
+    },
+    "skill-tree-narrow-420x700.png": {
+      "prior_native_review": "production/woodland-accepted/skill-tree-narrow-420x700.png",
+      "sha256": "ecf72f22ac206146e7e9d76f70c3bdce6864a73c96b1c8fc33a8b447b88aa7e7"
+    }
+  },
+  "package_bytes": 554641,
+  "verified_toolchain": {
+    "godot": {
+      "path": "/home/bart/.local/share/mise/installs/godot-dotnet/4.7.2-stable/godot",
+      "version": "4.7.2.stable.mono.official.ed1daf0bf",
+      "binary_sha256": "fc1bd592b5e771c65d52968f99835b4f2b7fe7b7cbc141e202cb63e01c95ec4d"
+    },
+    "dotnet": {
+      "path": "/home/bart/.local/share/mise/installs/dotnet/10.0.401/dotnet",
+      "version": "10.0.401",
+      "binary_sha256": "01d89e0a0191052bfea616cd4ce624c8faf13b05bbddf7f64499c23e2a9d9269"
+    },
+    "xvfb": {
+      "path": "/usr/bin/Xvfb",
+      "binary_sha256": "7d16a6e019ae16428663835b14e4e6a53c73eec605178129f0b0da62d41974cc"
+    }
+  },
+  "verification_environment": {
+    "LIBGL_ALWAYS_SOFTWARE": "1",
+    "GALLIUM_DRIVER": "llvmpipe",
+    "audio_driver": "Dummy",
+    "display": "private owned Xvfb",
+    "DOTNET_ROOT": "/home/bart/.local/share/mise/installs/dotnet/10.0.401",
+    "DOTNET_CLI_HOME": ".cache/dotnet",
+    "XDG_DATA_CONFIG_CACHE": "per-owner worktree .cache directories"
+  },
+  "preserved_unavailable_attempts": [
+    {
+      "log": ".cache/ui/woodland-progress-hover/import.log",
+      "log_sha256": "f8d91a5488d54227d023953fd8f9eedbe4d7f1e77b31d2c32d70feaab076a345",
+      "reason": "PATH mise shim refused untrusted config; later read-only resolution reported no active Godot/.NET versions; no engine execution or native evidence"
+    },
+    {
+      "log": ".cache/ui-diagnosis/full-os-none-woodland-hover-refreshed/import.log",
+      "log_sha256": "692fec1f2bb3aec66a0282a39ba7bf44db6e5d66d85cdbab670bd718ca0bc7c9",
+      "reason": "Supplemental OS owner headless import crashed before checks; its missing Dummy audio-driver argument was aligned with the other existing UI import owners before fresh serial OS checks"
+    }
+  ],
+  "lint_scope": "Initial caller Ruff absence remains historical. This review-phase native/package verification does not execute or waive the outer executor required repository lint/CI gates.",
+  "prior_hover_validation": "production/woodland-hover-refreshed/validation.json",
+  "prior_hover_validation_sha256": "ec3e5e3151c7c5a5f9a34cdd4f6628cb4632e7e066b2e58b11a377b99b00ffe3",
+  "historical_hover_payload": "catalog/woodland-hover-refreshed/payload.json",
+  "historical_hover_package_check": "catalog/woodland-hover-refreshed/package-check.json",
+  "runtime_payload_scope": "Only authoring composition and native test driver changed. Fresh UI-only audit and independent final-ZIP load confirmed unchanged runtime file/member/package bytes; no prototype or test driver is a runtime member.",
+  "pre_fix_reproduction": {
+    "record": "production/woodland-live-resize-before-fix/reproduction.json",
+    "sha256": "2e7b8f38e865d4f696a44d1cedcdd923cb7a989b9e823b7b4d176b70fdd8c3dc",
+    "scope": "Expected failing same-window regression against isolated pre-fix showcase with current test driver; not current-source acceptance"
+  },
+  "resize_failure_scope": "First two focused attempts retained unmodified: new-test assumptions required correction for intermediate native scroll clamping and sufficient native wheel traversal of long lost-state content. Existing assertions/minima/dimensions/timeouts unchanged."
+}

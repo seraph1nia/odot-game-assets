@@ -1,9 +1,12 @@
 # The Common Watch UI workspace
 
-**Resume here:** intended standalone Ledger **E–G is complete and checked**.
-[Skill-tree validation](skill-tree-validation.md) owns current extension acceptance;
-[production.md](production.md) retains the pre-extension Ledger campaign and serial
-OS Settings/modal evidence. Accepted M0/M1/representative milestones are preserved.
+**Resume here:** the existing standalone Ledger kit now follows the supplied
+[woodland HUD reference](references/README.md): [design/source ownership](woodland.md),
+[original-art bindings](woodland-art.json), and
+[current acceptance](woodland.md#current-acceptance-and-visual-review).
+[Skill-tree validation](skill-tree-validation.md) retains the separately landed
+compact tree's contracts; its inherited skin uses refreshed current bindings.
+Accepted light Ledger M0/M1/representative milestones remain historical evidence.
 [coverage.md](coverage.md) defines finished standalone scope and separate external
 integration requirements. **No game integration/mutation or migration.**
 Standalone catalog access is described in the [root README](../../README.md#native-ledger-ui-resources);
@@ -13,13 +16,13 @@ MAIN owns the coordinated delivery handoff; no competing pipeline.
 | Need | Read |
 |---|---|
 | Current work / outstanding acceptance | [tasks.json](tasks.json), [production.md](production.md), [roadmap](roadmap.md) |
-| Exact approved direction and scope | [decisions](decisions.md); [M0 artistic evidence](art-direction.md) |
+| Current reference/direction and historical approval | [woodland](woodland.md), [retained reference](references/README.md); historical [decisions](decisions.md) / [M0 evidence](art-direction.md) |
 | Avoid rediscovering game behavior | [discovery](discovery.md), [inventory](inventory.json) |
 | Reuse components / prepare migration | [API](api.md), [architecture](architecture.md), [migration mapping](migration.json), [payload audit](payload.json) |
-| Actual checks / final pictures | [current extension evidence](skill-tree-validation.md); [historical Ledger validation](validation.md) and [visual bindings](visual-review-dialog-close.json) |
+| Actual checks / final pictures | [current woodland evidence](woodland.md#current-acceptance-and-visual-review); [historical compact-tree evidence](skill-tree-validation.md), [Ledger validation](validation.md) and [visual bindings](visual-review-dialog-close.json) |
 | Retained acceptance byte contracts | [preservation manifest](preservation.json), [submitted visual binding](visual-review.json) |
 | Why modal is not a Window | [causal diagnosis](settings-diagnosis.md), [contrary ownership result](modal-alternatives.md) |
-| Original Blender/PNG provenance | [source bindings](exploration-assets.json) |
+| Source/art/font/reference provenance | [original seal bindings](exploration-assets.json), [woodland bindings](woodland-art.json) |
 
 ## Additional compact skill tree
 
@@ -28,10 +31,10 @@ middle, three outward choices and three illustrative steps per path, with native
 inspection/purchase/focus and parent/point/duplicate guards. Choose **skill_tree**
 in the showcase screen selector. [API](api.md#compact-skill-tree-allocation) owns
 the caller snapshot and local allocation boundary;
-[skill-tree validation](skill-tree-validation.md) owns current native counts,
-visual review and independently loaded generated ZIP evidence. Earlier finished
-Ledger milestones above remain historical acceptance, not fresh receipts for
-this extension. No main-game or renderer changes.
+[woodland acceptance](woodland.md#current-acceptance-and-visual-review) owns current
+native counts, visual review and independently loaded generated ZIP evidence.
+[Skill-tree validation](skill-tree-validation.md) preserves pre-woodland extension
+evidence. No main-game or renderer changes.
 
 ## Reproduce checks in assets only
 
@@ -57,12 +60,17 @@ git diff --check
 Run graphical drivers **serially**: concurrent xvfb-run auto-number startup raced
 in retained evidence. `validate.py --only production` is the bounded production-input route plus the
 seven skill-tree fixture captures; `--only skill-tree` runs only the compact tree's
-pointer/focus/budget/layout/lifecycle checks. Omit `--only` for full
-regression/capture acceptance.
+pointer/focus/budget/layout/lifecycle checks. `--only woodland` runs the focused
+same-window resize, information/footer allocation, variable-copy/wheel/pointer,
+progress-tooltip, focus/tab and inherited-font checks. See
+[woodland acceptance](woodland.md#current-acceptance-and-visual-review) for current
+capture counts. Omit `--only` for the complete regression/capture acceptance.
 
 `validate.py` imports fresh, performs actual native events/state/layout assertions,
 binds source hashes, and writes captures/results under `docs/ui/production/<label>/`.
-Current full and focused campaign counts are recorded in [skill-tree validation](skill-tree-validation.md#fresh-evidence).
+Current full/focused campaigns and inherited-tree skin checks are recorded in
+[woodland](woodland.md#current-acceptance-and-visual-review); [skill-tree validation](skill-tree-validation.md#fresh-evidence)
+preserves the earlier pre-theme extension.
 It rejects source changes during the run. `diagnose_settings.py` uses the same exact
 Settings sequence with synthetic input or owned X11/XTest, plus isolated cases and
 modal lifecycle checks; it does not directly cancel/refocus to make tests pass.
@@ -72,7 +80,8 @@ fails rather than overwriting its run directory. Plan tests certify metadata, no
 
 Open `ui/preview/project.godot` independently for review. Main scene is
 `prototypes/showcase.tscn`; screen/state selectors use mocks, no services. Current
-reviewed tree pictures/results are linked from [skill-tree validation](skill-tree-validation.md#fresh-evidence).
+reviewed HUD/menu/tree pictures/results and image/tool/package bindings are linked
+from [woodland](woodland.md#current-acceptance-and-visual-review).
 The pre-extension Ledger pictures/results are in `production/review-dialog-close/`;
 all 79 PNGs in that historical campaign match the reviewed `production/review-fixes/` bytes exactly;
 `production/standalone-final/` and `visual-review.json` retain submitted acceptance bytes;
@@ -96,6 +105,11 @@ Historical result/source-binding and visual-review bytes are frozen in
 `preservation.json`; ordinary preservation checks need no pre-rebase Git objects.
 They do not independently reconstruct historical source checkouts. Portability
 behavior is established by the private UI-only Godot loader, not source-text scans.
+
+Original editable woodland SVGs live in `sources/ui/woodland/`; their identical
+runtime copies and the bundled DejaVu Serif/license are independently audited.
+The supplied PNG is design-only, not runtime artwork or a baked scene/label texture.
+See [woodland](woodland.md) for native slices, safe padding and inert decorations.
 
 The native Theme authoring script is `tools/ui/build_theme.gd`; preserve manual
 Theme edits before intentionally regenerating through a private headless engine:

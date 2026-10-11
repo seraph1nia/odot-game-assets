@@ -1,9 +1,14 @@
 # Historical M0 artistic proposal — Ledger subsequently approved
 
-Current approval is recorded verbatim in [decisions.md](decisions.md): Ledger,
-only the small original menu seal initially. Current production evidence and
-remaining acceptance: [production.md](production.md). The proposal/comparisons below
-are preserved M0 evidence; pending statements refer to that earlier checkpoint.
+**Current visual direction:** [woodland Ledger](woodland.md), adapting the supplied
+[HUD reference](references/README.md). Original editable SVG/frame/icon/vignette and
+font/license provenance live in [woodland-art.json](woodland-art.json); the original
+small seal remains unchanged. Current acceptance is owned by
+[woodland](woodland.md#current-acceptance-and-visual-review).
+
+The initial Ledger/small-seal approval is recorded verbatim in
+[decisions.md](decisions.md). The proposal/comparisons and pending statements below
+are preserved M0 evidence, not receipts for the newly skinned kit.
 
 **M0 recommendation: A / Ledger**, at the time not yet approved. B: Watch is a genuine dark alternative.
 These are original, limited **approval explorations**, not production components.

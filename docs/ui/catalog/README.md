@@ -65,19 +65,20 @@ resource identity for components/Theme, host/screen, engine/backend, output hash
 dimensions and private relative log locations. Builds reject stale/changed source,
 dependencies, generator, identities, image bytes or measured dimensions.
 
-## Compact skill-tree extension (current evidence)
+## Current woodland and compact-tree evidence
 
-The current `previews.json` points at `review-branch-artifacts-1/`: 13 native static views
-plus unchanged original seal. The new skill tree is 1100×820 to show the whole
-small graph and selected-node quote; other focused and composition dimensions
-remain as before. `package-check.json` now binds the ten-scene generated ZIP and
-exercises root/prerequisite/duplicate/funding guards in an independent UI-only
-project. [Skill-tree validation](../skill-tree-validation.md) owns the current
-native campaign counts, concrete visual inspection and narrow/focus/wheel
-coverage. Runtime resources, generators and actual downloaded ZIP hashes bind
-these receipts; earlier package/browser evidence does not certify new bytes.
-The frontend itself is unchanged. Static generator/link tests cover the new
-entry, but no fresh live-browser acceptance is claimed for the enlarged payload.
+[`previews.json`](previews.json) owns the current capture selection, dimensions,
+resource/host/generator bindings and image hashes; per-run manifests preserve
+previous selections. [`package-check.json`](package-check.json) owns current ZIP
+selection, measured member continuity and the separate preserved native-load
+receipt; it distinguishes archive inspection from direct native loading.
+[Woodland acceptance](../woodland.md#current-acceptance-and-visual-review) owns the
+current native campaign and visual-review scope, with exact bindings in
+[woodland-validation.json](../woodland-validation.json).
+[Skill-tree validation](../skill-tree-validation.md) retains the pre-woodland
+extension evidence. Earlier package/browser receipts do not certify changed
+inputs. The frontend itself is unchanged; no fresh live-browser acceptance is
+claimed for the woodland payload.
 
 ## Earlier checked package and presentation
 
@@ -129,9 +130,12 @@ Only normal model cards create model-viewer and expose camera/animation controls
 `history.json` retains a concise summary of this task's failures and references to
 private unique failure evidence. That earlier catalog cleanup predates the
 extension; retained extension iterations and failed evidence are listed in
-[skill-tree validation](../skill-tree-validation.md). Original UI milestones, failures, images,
-migration/coverage records and original Blender/PNG/runtime semantics/style are
-unchanged. Private full logs remain in the named `.cache/` directories, never the
+[skill-tree validation](../skill-tree-validation.md), and woodland refresh history
+in [woodland acceptance](../woodland.md#current-acceptance-and-visual-review) and
+[diagnosis](../woodland-diagnosis.md). Original UI milestones, failures, images,
+migration/coverage records and seal Blender/PNG bytes remain unchanged; current
+shared presentation is owned by [woodland](../woodland.md).
+Private full logs remain in the named `.cache/` directories, never the
 public runtime payload/static output. Earlier success does not certify changed
 source or replace final bound evidence.
 
