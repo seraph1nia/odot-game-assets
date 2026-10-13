@@ -32,17 +32,13 @@ def main():
         parser.error('Unknown 3D IDs: '+', '.join(sorted(requested-ids)))
     record_path = ROOT/'docs/whisperwood/renders.json'
     records = json.loads(record_path.read_text()) if record_path.exists() else {'scope': 'Actual CPU neutral GLB renders, not native GPU/game-camera or artist acceptance', 'assets': {}}
-    renderer_inputs = digest(ROOT/'tools/asset_catalog/render_blender.py') + digest(ROOT/'tools/asset_pack/woodland_render.py')
-    renderer = hashlib.sha256(renderer_inputs.encode()).hexdigest()
+    renderer = hashlib.sha256((digest(ROOT/'tools/asset_catalog/render_blender.py') +
+                               digest(ROOT/'tools/asset_pack/woodland_render.py')).encode()).hexdigest()
     for asset_id in sorted(requested):
         model = ROOT/('.cache/whisperwood/before/exports' if args.stage == 'before' else 'exports')/(asset_id+'.glb')
         output = ROOT/'docs/whisperwood/evidence'/args.stage/(asset_id+'.png')
         model_hash = digest(model)
         previous = records['assets'].get(asset_id, {}).get(args.stage, {})
-        # Migrate the original concatenated input fingerprint without claiming
-        # a new render: the underlying renderer/derivation bytes are identical.
-        if previous.get('renderer_sha256') == renderer_inputs:
-            previous['renderer_sha256'] = renderer
         tiers = [output.with_name(output.stem+f'-{size}.png') for size in (192, 96)]
         if (previous.get('export_sha256') == model_hash and previous.get('renderer_sha256') == renderer and
                 output.exists() and previous.get('image_sha256') == digest(output) and all(p.exists() for p in tiers)):

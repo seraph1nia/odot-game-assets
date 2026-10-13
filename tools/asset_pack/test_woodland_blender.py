@@ -1,5 +1,6 @@
 """Isolated fixtures for source-preserving woodland authoring boundaries."""
 import hashlib
+import json
 import sys
 from pathlib import Path
 
@@ -11,6 +12,52 @@ import woodland_refinement as woodland
 def graph(mat):
     return repr([(n.bl_idname, n.name, [(s.name, str(s.default_value)) for s in n.inputs
                                       if hasattr(s, 'default_value')]) for n in mat.node_tree.nodes]) + repr([(x.from_node.name, x.from_socket.name, x.to_node.name, x.to_socket.name) for x in mat.node_tree.links])
+
+
+def ownership_contract():
+    from tools.asset_catalog.blender_selection import load_asset
+
+    receipts = json.loads((woodland.g.ROOT/'docs/whisperwood/authored.json').read_text())['sources']
+    expected = {'knight': 12, 'archer': 9, 'berserker': 16, 'evil_berserker_unit': 16,
+                'evil_mage_unit': 13, 'evil_melee_unit': 14, 'evil_ranged_unit': 10, 'mage': 13}
+    for name, count in expected.items():
+        path = 'sources/characters/'+name+'.blend'
+        source = woodland.g.ROOT/path
+        before = hashlib.sha256(source.read_bytes()).hexdigest()
+        job = {'id': 'characters/'+name, 'source': path, 'collection': None, 'object': None}
+        selected = set(load_asset(job, woodland.g.ROOT))
+        assert set(woodland.asset_objects(job)) == selected
+        existing = {o for o in bpy.data.objects if not o.get('woodland_detail')}
+        added = [o for o in selected if o not in existing and o.type == 'MESH']
+        assert len(added) == receipts[path]['added_mesh_objects'] == count, name
+        assert hashlib.sha256(source.read_bytes()).hexdigest() == before == receipts[path]['sha256_after']
+
+    bpy.ops.wm.read_factory_settings(use_empty=True)
+    unit = bpy.data.collections.new('unit')
+    plain = bpy.data.collections.new('plain')
+    equipment = bpy.data.collections.new('EQUIPMENT')
+    nested = bpy.data.collections.new('nested')
+    equipment.children.link(nested)
+    rig = bpy.data.objects.new('rig', bpy.data.armatures.new('rig'))
+    unit.objects.link(rig)
+    body = bpy.data.objects.new('body', bpy.data.meshes.new('body'))
+    unit.objects.link(body)
+    existing = set(bpy.data.objects)
+    gear = bpy.data.objects.new('gear', bpy.data.meshes.new('gear'))
+    nested.objects.link(gear)
+    unit.objects.link(gear)
+    extra = bpy.data.objects.new('extra gear', bpy.data.meshes.new('extra gear'))
+    nested.objects.link(extra)
+    plain.objects.link(body)
+    root = bpy.data.objects.new('root', None)
+    body.parent = root
+    job = {'id': 'unit', 'source': 'fixture.blend', 'collection': 'unit', 'object': None}
+    owned = set(woodland.asset_objects(job))
+    assert owned == {rig, body, gear, extra}
+    assert len([o for o in owned if o not in existing and o.type == 'MESH']) == 2
+    assert woodland.asset_objects(dict(job, collection='plain')) == [body]
+    assert set(woodland.asset_objects(dict(job, collection=None, object='root'))) == {root, body}
+    print('Woodland ownership: eight saved character receipts include equipment; nested/shared equipment counted once; plain collections and root assets exclude unrelated equipment; source bytes unchanged')
 
 
 def main():
@@ -50,6 +97,7 @@ def main():
     assert not woodland.retained_presentation_volume(mat)
     assert hashlib.sha256(source.read_bytes()).hexdigest() == before
     print('Woodland guard: real PRINCIPLED_VOLUME/Volume output retained unchanged; unknown surface, inactive Principled and exported volume rejected; source bytes unchanged')
+    ownership_contract()
 
 
 if __name__ == '__main__':

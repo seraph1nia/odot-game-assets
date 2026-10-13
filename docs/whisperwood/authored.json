@@ -494,7 +494,7 @@
       "changed_landmarks": [
         "Blue sweeping helmet plume"
       ],
-      "added_mesh_objects": 3,
+      "added_mesh_objects": 12,
       "rig_contract_preserved": true,
       "growth_revision": 1
     },
@@ -1608,7 +1608,7 @@
         "Quiver white fletching.008",
         "Quiver white fletching.009"
       ],
-      "added_mesh_objects": 6,
+      "added_mesh_objects": 9,
       "rig_contract_preserved": true,
       "growth_revision": 0,
       "supplied_missing_uvs": [
@@ -1752,7 +1752,7 @@
         "Shaggy cream fur tuft.089",
         "Shaggy cream fur tuft.090"
       ],
-      "added_mesh_objects": 10,
+      "added_mesh_objects": 16,
       "rig_contract_preserved": true,
       "growth_revision": 0
     },
@@ -1799,7 +1799,7 @@
         "Bent dark helmet horn",
         "Bent dark helmet horn.001"
       ],
-      "added_mesh_objects": 10,
+      "added_mesh_objects": 16,
       "rig_contract_preserved": true,
       "growth_revision": 0
     },
@@ -1841,7 +1841,7 @@
         "Bent dark helmet horn.001",
         "Red horn tip.001"
       ],
-      "added_mesh_objects": 8,
+      "added_mesh_objects": 13,
       "rig_contract_preserved": true,
       "growth_revision": 0,
       "supplied_missing_uvs": [
@@ -1890,7 +1890,7 @@
         "Heavy shoulder plate",
         "Heavy shoulder plate.001"
       ],
-      "added_mesh_objects": 5,
+      "added_mesh_objects": 14,
       "rig_contract_preserved": true,
       "growth_revision": 0
     },
@@ -1938,7 +1938,7 @@
       "changed_landmarks": [
         "Open cloth hood"
       ],
-      "added_mesh_objects": 7,
+      "added_mesh_objects": 10,
       "rig_contract_preserved": true,
       "growth_revision": 0,
       "supplied_missing_uvs": [
@@ -1983,7 +1983,7 @@
       "changed_landmarks": [
         "Bent purple wizard hat"
       ],
-      "added_mesh_objects": 8,
+      "added_mesh_objects": 13,
       "rig_contract_preserved": true,
       "growth_revision": 0,
       "supplied_missing_uvs": [

@@ -354,47 +354,17 @@
     "worldtree_ceiling": 200000,
     "legacy_serialized_zip_bytes_without_unchanged_font_license": 168922,
     "legacy_ceiling": 200000,
-    "total_payload_bytes": 714772,
+    "total_payload_bytes": 714817,
     "shared_font_and_license_bytes": 389476,
     "policy": "Original legacy serialized 200KB ceiling retained; explicitly authorized Worldtree separately measured/bounded to 200KB source/import/UID bytes, with exact native-qualified member list; no blanket exemption for unrelated artwork. Decoded textures/GPU allocation unmeasured."
   },
   "review": {
-    "method": "Current focused campaign executes the changed runtime/host. Current showcase and in-flight frames reopened; unchanged stage/size/gallery/before/after image-only review reused solely after measured PNG byte equality, not as source/package execution proof.",
-    "images": [
-      {
-        "path": "worldtree-showcase-1280x720.png",
-        "sha256": "c50f22d923984ddfe4d113275dd2f9ca2c1fb0154a0f00da3f9d13c59b76cb23",
-        "observation": "Opened actual native PNG: Worldtree selector and D caption match the living left family; center/right wood remains dormant, all terminals and compact disabled footer remain visible"
-      },
-      {
-        "path": "worldtree-transition-in-flight-1280x720.png",
-        "sha256": "d4ed89ef830858682d6969a5777c1d4cb13473d0e3a9a15b6e6a7609207f8424",
-        "observation": "Opened actual native PNG: local sap advances along left secondary wood before socket/foliage reveal; unrelated primaries and branches retain their stage-C presentation"
-      }
-    ],
-    "byte_identical_to_historically_reviewed_images": [
-      "worldtree-A-1100x820.png",
-      "worldtree-B-1100x820.png",
-      "worldtree-C-1100x820.png",
-      "worldtree-D-1100x820.png",
-      "worldtree-A-1280x720.png",
-      "worldtree-B-1280x720.png",
-      "worldtree-C-1280x720.png",
-      "worldtree-D-1280x720.png",
-      "worldtree-A-1600x900.png",
-      "worldtree-B-1600x900.png",
-      "worldtree-C-1600x900.png",
-      "worldtree-D-1600x900.png",
-      "worldtree-A-1920x1080.png",
-      "worldtree-B-1920x1080.png",
-      "worldtree-C-1920x1080.png",
-      "worldtree-D-1920x1080.png",
-      "worldtree-transition-before-1280x720.png",
-      "worldtree-transition-after-1280x720.png",
-      "worldtree-30-icon-library-1280x720.png"
-    ],
-    "judgment": "Actual showcase preserves D caption/selector, left-family amber sap/foliage, dormant center/right families, visible terminals and compact footer. In-flight frame shows local left-secondary sap before foliage; unrelated primaries remain at stage C.",
-    "limits": "No new inspection or execution claimed for the unrelated historical regression frames; historical decoded crop witnesses remain in the historical binding, not rebound to current frames."
+    "method": "Current full standalone native campaign generates and mechanically checks the changed runtime/host captures. Historical image inspection is preserved separately, not reused as current visual acceptance.",
+    "images": [],
+    "historical_binding": "../whisperwood/ui-before-validation.json",
+    "historical_binding_sha256": "90b9b744e9c182a209d8d578ebb07377bf96a15e6237a1fde57391f5618a935f",
+    "judgment": "No new Worldtree stage/size/gallery/transition visual judgment recorded by this binding; current mechanical results do not establish artistic acceptance.",
+    "limits": "Current captures differ from historically reviewed images. Historical showcase/in-flight observations and decoded crop witnesses remain in their historical bindings; no byte equality or visual-review continuity is claimed."
   },
   "preserved_failures": [
     {
@@ -419,20 +389,13 @@
   "payload_audit": {
     "files": 175,
     "scenes": 11,
-    "log": ".cache/ui-payload/worldtree-shipping-refresh/load.log",
+    "log": ".cache/ui-payload/whisperwood-final/load.log",
     "proof": "Fresh independent UI-only project: all scenes ready, compact-tree guards, Worldtree intent-only snapshot/unknown-icon/30 textures and real parent-to-child animation plus unchanged trunk sibling; no prototypes/game/tools copied"
   },
   "package_sha256": "4df648aeaa39b3f7b7b6743a01e932b4f43fb3d97ae61717a07193cb5a9e351b",
   "package_check": "catalog/package-check.json",
-  "package_check_sha256": "b8dffe4373c0b1e1e987c684e997b9927c65247962e47d4ac00819e74339c4a3",
-  "static_package_copy": {
-    "path": "dist/catalog/exports/ui/ledger-ui.zip",
-    "sha256": "7ee161be44cc1442258f4ae0fc97d53213882b598bfed38c7de548defe930ec0",
-    "bytes": 784881,
-    "entire_archive_byte_identical_to_current_generated_zip": true,
-    "entire_archive_byte_identical_to_directly_loaded_zip": false
-  },
-  "package_proof": "Current ZIP generated through the existing owner. All 175 runtime members, manifest and entry guidance match the prior directly-tested archive exactly; only api.md differs. Native qualification is reused by this measured continuity, not a native load of current archive bytes. Exact comparison and original direct-load receipt are selected by package_check.",
+  "package_check_sha256": "b36590227d83240c560536568857d47f8c8cf4c1986b50462b2cc4e1d479f6ae",
+  "package_proof": "Current package-check receipt binds the 4df648 archive and all 175 runtime members to an independent native UI-only load with eleven scenes and Worldtree/woodland contracts. No historical archive continuity or static distribution-copy equality is claimed; ZIP files are untracked and absent from this worktree.",
   "catalog_sha256": {
     "theme": "4db379c2b307df9d62ce58dda7a03ef2c2cb328b9e1597aa856ffa80edacaad5",
     "resource-table": "db0fd4781199d893ef9798e87b65b0f881f442da37f12651299d71d90aa46272",
@@ -465,6 +428,6 @@
     "No localization/RTL/HiDPI/tiny windows or main-game integration acceptance"
   ],
   "package_generated": "exports/ui/ledger-ui.zip",
-  "directly_tested_package_receipt": "catalog/worldtree-shipping-refresh/package-check.json",
-  "directly_tested_package_sha256": "8ca234ee7e19133343ef111bd3ca40331060042a90f0ef02bdb1521d92f779c9"
+  "directly_tested_package_receipt": "catalog/package-check.json",
+  "directly_tested_package_sha256": "4df648aeaa39b3f7b7b6743a01e932b4f43fb3d97ae61717a07193cb5a9e351b"
 }

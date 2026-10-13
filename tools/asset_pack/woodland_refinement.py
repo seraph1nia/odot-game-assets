@@ -24,6 +24,7 @@ import geometry as g
 import painted_finish as paint
 from woodland_profiles import BUILDINGS, UNITS
 from tools.asset_catalog.export_sources import plan_exports
+from tools.asset_catalog.blender_selection import asset_objects
 
 SPEC = style.WHISPERWOOD
 TAG = SPEC.version
@@ -707,13 +708,7 @@ def main():
             for obj in list(bpy.data.objects):
                 if obj.type == 'EMPTY' and obj.name.split('.')[0] in ('shield', 'evil_shield', 'sword', 'evil_sword', 'staff', 'evil_staff', 'bow', 'crossbow', 'axe', 'axe_offhand', 'evil_axe', 'evil_axe_offhand', 'arrow', 'evil_hand_flame'):
                     gear_detail(obj, obj.name.split('.')[0], category)
-        owned = {o for j in jobs if j['source'] == path
-                 for col in [bpy.data.collections.get(j['collection'] or Path(j['id']).name)]
-                 if col for o in col.all_objects}
-        if not owned:
-            owned = {o for j in jobs if j['source'] == path
-                     for root in [bpy.data.objects.get(j['object'] or Path(j['id']).name)]
-                     if root for o in root.children_recursive}
+        owned = {o for j in jobs if j['source'] == path for o in asset_objects(j)}
         added = [o for o in owned if o not in existing and o.type == 'MESH']
         directory = g.ROOT/'sources'/category/'textures/whisperwood'
         used = {s.material for o in bpy.data.objects if o.type == 'MESH' for s in o.material_slots if s.material}
