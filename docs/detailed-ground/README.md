@@ -1,5 +1,10 @@
 # Detailed forest-ground suite
 
+The placement/interface contracts below still apply. The renders and verification
+receipts describe the original suite, before the selective Whisperwood palette
+refresh; current source/export/image bindings are owned by
+[the overhaul ledger](../whisperwood/README.md).
+
 ## Delivery and authority
 
 13 new canonical sources/GLBs: five bases, four independent dirt-path pieces and

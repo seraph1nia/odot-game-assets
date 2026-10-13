@@ -16,9 +16,10 @@ full-size viewing; [crop evidence](evidence.md) directs visual inspection.
 The 27 supplied PNGs include the superseding W0 direction board and 26
 historical PNGs across five earlier sets. W0 governs the current woodland
 palette/growth/role direction; earlier images retain functional/faction context.
-They map to 32 asset views (seven board crops plus 25 individual images).
-Their originals were visually inspected during the 2026-10-07 guidance scout;
-25 archive image dimensions/hashes matched the checked-in manifests. No original
+The historical sets map to 32 asset views (seven board crops plus 25 individual
+images), separately from W0. Those originals were visually inspected during the
+2026-10-07 guidance scout; 25 archive image dimensions/hashes matched the
+checked-in manifests. No original
 was edited. Archive hashes are recorded declarations: the archives themselves
 were not independently reverified.
 

@@ -3,8 +3,8 @@
 The current [Whisperwood refresh](../../whisperwood/README.md) includes all 15
 native catalog entries: six referenced SVG ornament palettes changed; native
 scripts/scenes/theme resource, fonts and original menu seal stayed byte-identical.
-Fresh catalog images and a full 3,626-check/121-capture standalone campaign bind
-current resources in [worldtree-validation.json](../worldtree-validation.json).
+Current catalog capture and full standalone campaign bindings are selected by
+[Worldtree qualification](../worldtree.md#whisperwood-selective-refresh).
 Historical evidence below is preserved, not reassigned to the new palettes.
 
 Scope: catalog publication of the **standalone native library**, including the
@@ -78,10 +78,9 @@ dependencies, generator, identities, image bytes or measured dimensions.
 [`previews.json`](previews.json) owns the current capture selection, dimensions,
 resource/host/generator bindings and image hashes; per-run manifests preserve
 previous selections. [`package-check.json`](package-check.json) owns the selected
-ZIP's measured member hashes and qualification selection, including docs-only
-continuity to its preserved direct native-load receipt; it distinguishes directly
-tested archive bytes from a documentation-updated container.
-[Worldtree qualification](../worldtree.md#review-fix-qualification-boundary) owns
+ZIP's measured member hashes and direct native-load qualification. Earlier docs-only
+continuity receipts remain historical; they do not qualify the changed Whisperwood artwork.
+[Worldtree qualification](../worldtree.md#whisperwood-selective-refresh) owns
 current native campaign, shipping-refresh and visual-review scope; exact bindings
 are in [worldtree-validation.json](../worldtree-validation.json).
 [Woodland acceptance](../woodland.md#current-acceptance-and-visual-review) and

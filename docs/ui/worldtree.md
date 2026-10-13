@@ -5,9 +5,14 @@
 Alive foliage/root bodies are muted; the original small luminous accents,
 24-node/23-edge topology, animation/state API and hit geometry are unchanged.
 [The overhaul ledger](../whisperwood/README.md) records retained/refined subparts.
-Current [full native qualification](worldtree-validation.json) has 3,626 checks
-and 121 actual software-rendered captures; the older qualification narrative
-below remains historical. No actual-game, native-GPU or artist acceptance claim.
+[worldtree-validation.json](worldtree-validation.json) owns the current full
+standalone campaign selection, measured counts, capture hashes, payload and
+package bindings. Its package receipt records a direct independent native load;
+no historical archive continuity or static distribution-copy equality is claimed.
+Current captures have no newly recorded Worldtree stage/size/gallery/transition
+visual judgment in that binding; historical image reviews do not transfer to
+changed pixels. The older qualification narrative below remains historical.
+No actual-game, native-GPU or artist acceptance claim.
 
 This additive component does not replace the accepted 10-node `skill_tree`, its
 allocation API/tests, or the woodland Theme. No main-game process, adapters,
@@ -104,13 +109,17 @@ sap-before-leaves transition assertions. Fresh actual viewport captures cover
 A/B/C/D at **all four requested sizes**, transition before/in-flight/after at
 1280×720 and a native icon gallery. The existing compact tree tests are retained.
 
-Current measured results, input/source/tool/runtime/render/package bindings and
-actual image inspection are in `worldtree-validation.json`. Earlier campaign
+Current measured bindings and visual-review limits are selected in
+[the Whisperwood qualification](#whisperwood-selective-refresh). Earlier campaign
 failures/intermediates and historical woodland accepted evidence are preserved,
-not rebound onto changed source. Re-encoded private image-review copies are only
-for inspection transport; original native screenshots retain their exact hashes.
+not rebound onto changed source. Historical re-encoded private image-review copies
+were only for inspection transport; original native screenshots retain their exact hashes.
 
 ## Review-fix qualification boundary
+
+This section describes the historical pre-Whisperwood review fixes and shipping
+campaign, not the current campaign selection. Current-source qualification is
+owned by [the Whisperwood refresh](#whisperwood-selective-refresh).
 
 The review fixes preserve the actual underlying showcase screen on dialog closure
 and implement the [API's non-modal native traversal contract](api.md#living-worldtree-presentation-additive).
@@ -135,23 +144,12 @@ ZIP passed. Its original direct-load receipt is preserved unchanged alongside it
 at `catalog/worldtree-shipping-refresh/package-check.json`. The recorded archive
 and then-published static copy were entirely byte-identical. All 14 catalog PNGs
 match the pre-review images; the Worldtree, HUD and menu images were also reopened.
-Runtime bindings in `worldtree-validation.json` select the
-**2231-check/21-capture focused** campaign, not a new full regression. The original
-full-campaign binding, payload, previews and package receipt remain unchanged
-under `catalog/worldtree-pre-review/`.
-
-After API documentation corrections, the existing package/catalog owners generated
-the current ZIP and portable static UI copies without tests, loading or captures.
-[`catalog/package-check.json`](catalog/package-check.json) owns the current and
-previous container hashes, exact changed-documentation-member list and measured
-continuity: every runtime member, manifest, extraction guide, normalized ZIP entry,
-retained campaign input and logical catalog resource entry is unchanged. Only
-`api.md` differs. The prior archive was reconstructed with the unchanged package
-owner and historical API bytes; its entire hash exactly matches the directly
-loaded archive receipt. Current native qualification is reused by this measured
-continuity; **the documentation-updated ZIP was not natively loaded**. Current
-shipping bindings select this receipt, not a relabeled old execution. No new
-full-suite/browser/PCK/game or environment qualification is claimed.
+The retained pre-Whisperwood binding in
+[`../whisperwood/ui-before-validation.json`](../whisperwood/ui-before-validation.json)
+selects that focused campaign and its later docs-only package continuity;
+neither certifies the changed Whisperwood artwork. The original full-campaign
+binding, payload, previews and package receipt remain unchanged under
+`catalog/worldtree-pre-review/`.
 
 ## Submitted measured acceptance (before review fixes)
 
@@ -185,7 +183,8 @@ across 129 runtime members, including 112,924 bytes of original SVG/JSON art.
 The full UI payload has 175 files / 715,087 bytes; the shared unmodified font and
 license account for 389,476 bytes. This is a scoped original-art addition, not a
 blanket allowance for unrelated files; all actual package members/hashes and the
-entire generated ZIP are bound in `worldtree-validation.json`.
+entire generated ZIP are bound in the preserved
+[`catalog/worldtree-pre-review/worldtree-validation.json`](catalog/worldtree-pre-review/worldtree-validation.json).
 
 Preserved failures/diagnosis are independent of final acceptance: the first
 keyboard-route campaign exposed Godot's geometric fallback from an explicitly
@@ -212,7 +211,7 @@ localization/RTL/HiDPI or arbitrary small windows. Future Godot exports must inc
 the entire UI resource set and the two runtime JSON files in the non-resource
 export filter; selective-scene/PCK export is not qualified by raw-project loading.
 The retained UI-only and generated-ZIP loaders qualify their recorded inputs;
-the current docs-only package selection and measured native-qualification reuse
-are described in [the review-fix boundary](#review-fix-qualification-boundary).
+the current package and visual-review scope are described in
+[the Whisperwood qualification](#whisperwood-selective-refresh).
 Headless loading/input never substitutes for native rendered image inspection. References, authoring
 sources, prototypes, tests and caches are never portable runtime dependencies.

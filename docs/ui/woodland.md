@@ -3,9 +3,9 @@
 ## Whisperwood selective refresh
 
 The six ornament palette refinements and unchanged native code/layout/seal are
-recorded in [the 133-ID overhaul ledger](../whisperwood/README.md). Current full
-standalone native qualification is [worldtree-validation.json](worldtree-validation.json):
-3,626 checks and 121 actual software-rendered captures. Earlier Ledger/woodland
+recorded in [the overhaul ledger](../whisperwood/README.md). See
+[Worldtree qualification](worldtree.md#whisperwood-selective-refresh) for the
+current standalone native campaign and shipping evidence. Earlier Ledger/woodland
 receipts below are historical at their original inputs, not newly rebound proof.
 No UI redesign, actual-game integration or native-GPU/artist acceptance is claimed.
 

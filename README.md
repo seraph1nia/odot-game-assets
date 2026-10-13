@@ -12,7 +12,7 @@ invocable skills. Pi discovers project `.agents/skills/` entries on demand;
 must be verified separately.
 
 - [Current Whisperwood analysis, full inventory and completion evidence](docs/whisperwood/README.md)
-- [Reference authority, 27 supplied images including the new woodland board](.agents/skills/asset-art-direction/references/index.md)
+- [Reference authority and supplied-image inventory](.agents/skills/asset-art-direction/references/index.md)
 - [D01–D09 visual standards](.agents/skills/asset-art-direction/design/index.md)
 - [Concrete Blender procedures](.agents/skills/asset-art-direction/blender/index.md)
 - [Existing pipeline owners and command side effects](.agents/skills/asset-art-direction/pipeline/index.md)
@@ -450,13 +450,14 @@ the component meshes, palette materials, and rigs. Display terrain, smoke, and
 studio lighting are separate presentation collections; building and character
 exports omit those collections. `exports/previews/` contains the actual renders.
 
-All eleven buildings have a second reference refinement pass: larger role signs
+An earlier eleven-building reference refinement pass added larger role signs
 and signature objects, substantial stone courses and timber joints, thicker
 roof shingles, and recessed entrances. The bakery emphasizes bread, the barracks
 its raised sword shield, the towers arrows and a hollow cannon, and the academy
 its crystal and orb. Geometry stays in broad shapes for readability at game scale.
-The updated sources, GLBs, previews, and catalog thumbnails use the same asset IDs.
-Characters remain at their existing modeling stage.
+That pass kept the same asset IDs and did not remodel characters. It is historical;
+[current building and character refinements](docs/whisperwood/completion.json)
+are recorded per ID in the selective refinement ledger.
 
 For a local before/reference/after review, save the previous building previews
 under `.cache/building-upgrade/before/` before rebuilding, refresh the asset

@@ -79,6 +79,10 @@ same-window resize, information/footer allocation, variable-copy/wheel/pointer,
 progress-tooltip, focus/tab and inherited-font checks. See
 [woodland acceptance](woodland.md#current-acceptance-and-visual-review) for retained
 woodland capture counts. Omit `--only` for the complete regression/capture acceptance.
+The native campaign defaults to a 180-second limit; `--timeout-seconds <1–900>`
+sets an explicit bound for larger software-rendered campaigns. The Whisperwood
+full campaign's recorded bound and results are in
+[the overhaul evidence](../whisperwood/README.md#delivery-evidence).
 
 `validate.py` imports fresh, performs actual native events/state/layout assertions,
 binds source hashes, and writes captures/results under `docs/ui/production/<label>/`.
