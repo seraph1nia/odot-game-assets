@@ -28,6 +28,16 @@ not a rule to add glow to all props. Fine marks follow
 [D04](../design/surfaces.md#d04)/[UV maps](../blender/uv-maps.md); kit palette
 variants stay with their existing code owner, not this leaf's new color table.
 
+## Woodland adaptation
+
+[W0](../references/index.md#whisperwood) governs weathered low-saturation bodies,
+not a supplied prop turnaround. Add function-led detail: stave/strap/tie layers
+for containers, carved bindings and worn wraps for equipment, damp lichen on
+standing masonry, dense overlapping leaves on plant prototypes. Preserve grips,
+blade facets, cannonball/arrow readability and reusable placement pivots. Do not
+put the same vine wreath on books, skulls, arrows and armor spikes. Standalone
+terrain retains placement interfaces and uses clustered damp growth/litter.
+
 ## Acceptance scope
 
 Check functional silhouette at intended size, pivot/scale on placement, shared

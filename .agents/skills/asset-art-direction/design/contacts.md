@@ -11,16 +11,25 @@ not a uniformly decorated six-sided border.
 
 ## Standard and rationale
 
-Cluster secondary detail around meaningful contacts and role/story areas; vary
-scale, rotation, curvature and overlap. Preserve rest areas and negative space.
+For the [W0 woodland direction](../references/index.md#whisperwood), increase
+organic growth substantially: roots grip foundations, vines follow timber and
+masonry, moss shelves collect at ledges and damp roof overlaps. Cluster layered
+secondary detail around meaningful contacts and role/story areas; vary scale,
+rotation, curvature and overlap. Preserve rest areas and negative space. More
+detail is required, but equal coverage everywhere is not: doors, working machinery,
+faces, grips, bridge apertures and river connectors must remain readable.
 Paint feathered contact darkening and local colored bounce on receiving surfaces,
 not floating hard disks. Contacts make the miniature feel planted; uncontrolled
 repetition makes it busy and procedural.
 
 ## Scope and exceptions
 
-Terrain-bearing tiles; building display dressing; props only when their export
-scope owns a receiver. Buildings/units omit display terrain from portable exports,
+Terrain-bearing tiles and intrinsic building growth (inside the building export
+selector), not only disposable display dressing. Ground props may carry planted
+moss/lichen where plausible; portable weapons/units carry weathering, leather
+wraps and traveling equipment, not generic vines over their grips. Flat occupation
+floors/overlays retain their flatness and connector contracts; put their fine
+growth in maps rather than obstructive geometry. Buildings/units omit display terrain from portable exports,
 so do not require its bounce/shadow to travel inside their GLB. A footprint/grid
 contract still limits a tile even if a plant overhang would look attractive.
 

@@ -18,7 +18,12 @@ separation at the review sizes owned by [D08](presentation.md#d08).
 Use chunky miniature proportions and deliberate height tiers; supporting detail
 must not compete with the role cue. Do not normalize buildings to realistic
 soldier-to-door ratios: these are tabletop miniatures.
-Role discrimination matters more than close-up object count.
+Role discrimination matters more than close-up object count. The superseding
+[W0 board](../references/index.md#whisperwood) requires stronger caricature, not
+just palette grading: choose one standout working/personality feature for each
+building and character, enlarge or reshape it, then layer trade/travel details
+around it. Compare same-family silhouettes; shared moss or a common cottage
+shell cannot substitute for individually different proportions and props.
 
 ## Scope and exceptions
 

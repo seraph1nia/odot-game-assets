@@ -21,6 +21,17 @@ These qualify common silhouette/palette/construction rules, not new thresholds.
 | B1/B2 | Lookout/target/bow emblem versus observatory dome/telescope/armillary |
 | B3/B4/B5 | Ore outcrop/hoist/cart versus loom/canopy/cloth versus civic wings/bell/shield |
 
+For [W0](../references/index.md#whisperwood), use the illustrated working
+arrangements as role-specific inspiration: saw wheel/hoist/log racks for the
+woodcutter, cap-like layered shelter and bread/wheat for the bakery, low portal
+and gold cart versus taller dark ore/rails for the two mines, standing blocks
+and crane for stonecutting, flowing cloth/loom for weaving, tent peaks/scales
+for trading, branched civic crown/glazing for the hall. These are adaptations,
+not a claim of already matching the board. Other defense/arcane buildings must
+keep their own lookout/cannon/spear/observatory/academy signatures. Add growth
+to structural contacts inside the exported building collection, avoiding signs,
+muzzles, entrances and working props.
+
 Don't turn every role into a cottage plus tiny attachments. Protect different
 masses and the main sign before adding detail. Shared construction/palette follows
 [D02](../design/shape-edges.md#d02)/[D03](../design/palette.md#d03); no independent

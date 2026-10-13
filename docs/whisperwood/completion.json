@@ -1,0 +1,940 @@
+{
+  "assets": [
+    {
+      "id": "buildings/archery_range",
+      "kind": "glb",
+      "source": "sources/buildings/archery_range.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/archery_range.png"
+    },
+    {
+      "id": "buildings/arrow_tower",
+      "kind": "glb",
+      "source": "sources/buildings/arrow_tower.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/arrow_tower.png"
+    },
+    {
+      "id": "buildings/bakery",
+      "kind": "glb",
+      "source": "sources/buildings/bakery.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/bakery.png"
+    },
+    {
+      "id": "buildings/barracks",
+      "kind": "glb",
+      "source": "sources/buildings/barracks.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/barracks.png"
+    },
+    {
+      "id": "buildings/bombarding_tower",
+      "kind": "glb",
+      "source": "sources/buildings/bombarding_tower.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/bombarding_tower.png"
+    },
+    {
+      "id": "buildings/gold_mine",
+      "kind": "glb",
+      "source": "sources/buildings/gold_mine.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/gold_mine.png"
+    },
+    {
+      "id": "buildings/magic_academy",
+      "kind": "glb",
+      "source": "sources/buildings/magic_academy.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/magic_academy.png"
+    },
+    {
+      "id": "buildings/metal_mine",
+      "kind": "glb",
+      "source": "sources/buildings/metal_mine.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/metal_mine.png"
+    },
+    {
+      "id": "buildings/research_tower",
+      "kind": "glb",
+      "source": "sources/buildings/research_tower.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/research_tower.png"
+    },
+    {
+      "id": "buildings/stone_cutter",
+      "kind": "glb",
+      "source": "sources/buildings/stone_cutter.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/stone_cutter.png"
+    },
+    {
+      "id": "buildings/tavern",
+      "kind": "glb",
+      "source": "sources/buildings/tavern.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/tavern.png"
+    },
+    {
+      "id": "buildings/town_hall",
+      "kind": "glb",
+      "source": "sources/buildings/town_hall.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/town_hall.png"
+    },
+    {
+      "id": "buildings/trade_market",
+      "kind": "glb",
+      "source": "sources/buildings/trade_market.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/trade_market.png"
+    },
+    {
+      "id": "buildings/tree_house",
+      "kind": "glb",
+      "source": "sources/buildings/tree_house.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/tree_house.png"
+    },
+    {
+      "id": "buildings/weaver",
+      "kind": "glb",
+      "source": "sources/buildings/weaver.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/weaver.png"
+    },
+    {
+      "id": "buildings/woodcutter_hut",
+      "kind": "glb",
+      "source": "sources/buildings/woodcutter_hut.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/buildings/woodcutter_hut.png"
+    },
+    {
+      "id": "characters/archer",
+      "kind": "glb",
+      "source": "sources/characters/archer.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/characters/archer.png"
+    },
+    {
+      "id": "characters/berserker",
+      "kind": "glb",
+      "source": "sources/characters/berserker.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/characters/berserker.png"
+    },
+    {
+      "id": "characters/evil_berserker_unit",
+      "kind": "glb",
+      "source": "sources/characters/evil_berserker_unit.blend",
+      "status": "pending",
+      "before": "exports/previews/evil_berserker_unit.png"
+    },
+    {
+      "id": "characters/evil_mage_unit",
+      "kind": "glb",
+      "source": "sources/characters/evil_mage_unit.blend",
+      "status": "pending",
+      "before": "exports/previews/evil_mage_unit.png"
+    },
+    {
+      "id": "characters/evil_melee_unit",
+      "kind": "glb",
+      "source": "sources/characters/evil_melee_unit.blend",
+      "status": "pending",
+      "before": "exports/previews/evil_melee_unit.png"
+    },
+    {
+      "id": "characters/evil_ranged_unit",
+      "kind": "glb",
+      "source": "sources/characters/evil_ranged_unit.blend",
+      "status": "pending",
+      "before": "exports/previews/evil_ranged_unit.png"
+    },
+    {
+      "id": "characters/knight",
+      "kind": "glb",
+      "source": "sources/characters/knight.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/characters/knight.png"
+    },
+    {
+      "id": "characters/mage",
+      "kind": "glb",
+      "source": "sources/characters/mage.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/characters/mage.png"
+    },
+    {
+      "id": "environment/components/forest_boulder",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_boulder.png"
+    },
+    {
+      "id": "environment/components/forest_bridge_plank",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_bridge_plank.png"
+    },
+    {
+      "id": "environment/components/forest_bridge_post",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_bridge_post.png"
+    },
+    {
+      "id": "environment/components/forest_bridge_rail",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_bridge_rail.png"
+    },
+    {
+      "id": "environment/components/forest_butterfly_cyan",
+      "kind": "glb",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_butterfly_cyan.png"
+    },
+    {
+      "id": "environment/components/forest_butterfly_sunset",
+      "kind": "glb",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_butterfly_sunset.png"
+    },
+    {
+      "id": "environment/components/forest_crystal_blue",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_crystal_blue.png"
+    },
+    {
+      "id": "environment/components/forest_crystal_purple",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_crystal_purple.png"
+    },
+    {
+      "id": "environment/components/forest_fern",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_fern.png"
+    },
+    {
+      "id": "environment/components/forest_foam",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_foam.png"
+    },
+    {
+      "id": "environment/components/forest_hex_meadow",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_hex_meadow.png"
+    },
+    {
+      "id": "environment/components/forest_hex_stream",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_hex_stream.png"
+    },
+    {
+      "id": "environment/components/forest_hollow_tree",
+      "kind": "glb",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_hollow_tree.png"
+    },
+    {
+      "id": "environment/components/forest_jackalope",
+      "kind": "glb",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_jackalope.png"
+    },
+    {
+      "id": "environment/components/forest_lantern_flower",
+      "kind": "glb",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_lantern_flower.png"
+    },
+    {
+      "id": "environment/components/forest_lantern_post",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_lantern_post.png"
+    },
+    {
+      "id": "environment/components/forest_lantern_snail",
+      "kind": "glb",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_lantern_snail.png"
+    },
+    {
+      "id": "environment/components/forest_leaf_clump",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_leaf_clump.png"
+    },
+    {
+      "id": "environment/components/forest_moon_moth",
+      "kind": "glb",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_moon_moth.png"
+    },
+    {
+      "id": "environment/components/forest_moss",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_moss.png"
+    },
+    {
+      "id": "environment/components/forest_mushroom_blue",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_mushroom_blue.png"
+    },
+    {
+      "id": "environment/components/forest_mushroom_purple",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_mushroom_purple.png"
+    },
+    {
+      "id": "environment/components/forest_mushroom_small",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_mushroom_small.png"
+    },
+    {
+      "id": "environment/components/forest_root",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_root.png"
+    },
+    {
+      "id": "environment/components/forest_rune_circle",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_rune_circle.png"
+    },
+    {
+      "id": "environment/components/forest_rune_diamond",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_rune_diamond.png"
+    },
+    {
+      "id": "environment/components/forest_rune_monolith",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_rune_monolith.png"
+    },
+    {
+      "id": "environment/components/forest_shrine_plinth",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_shrine_plinth.png"
+    },
+    {
+      "id": "environment/components/forest_spiral_fern",
+      "kind": "glb",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_spiral_fern.png"
+    },
+    {
+      "id": "environment/components/forest_spiral_tree",
+      "kind": "glb",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_spiral_tree.png"
+    },
+    {
+      "id": "environment/components/forest_stone_arch_block",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_stone_arch_block.png"
+    },
+    {
+      "id": "environment/components/forest_stone_block",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_stone_block.png"
+    },
+    {
+      "id": "environment/components/forest_tree_snag",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_tree_snag.png"
+    },
+    {
+      "id": "environment/components/forest_waterfall",
+      "kind": "glb",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/components/forest_waterfall.png"
+    },
+    {
+      "id": "environment/hex_bioluminescent_grove",
+      "kind": "glb",
+      "source": "sources/environment/hex_bioluminescent_grove.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/hex_bioluminescent_grove.png"
+    },
+    {
+      "id": "environment/hex_butterfly_glade",
+      "kind": "glb",
+      "source": "sources/environment/hex_butterfly_glade.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/hex_butterfly_glade.png"
+    },
+    {
+      "id": "environment/hex_crystal_grove",
+      "kind": "glb",
+      "source": "sources/environment/hex_crystal_grove.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/hex_crystal_grove.png"
+    },
+    {
+      "id": "environment/hex_crystal_shrine",
+      "kind": "glb",
+      "source": "sources/environment/hex_crystal_shrine.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/hex_crystal_shrine.png"
+    },
+    {
+      "id": "environment/hex_dream_menagerie",
+      "kind": "glb",
+      "source": "sources/environment/hex_dream_menagerie.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/hex_dream_menagerie.png"
+    },
+    {
+      "id": "environment/hex_glowing_mushrooms",
+      "kind": "glb",
+      "source": "sources/environment/hex_glowing_mushrooms.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/hex_glowing_mushrooms.png"
+    },
+    {
+      "id": "environment/hex_ground_dirt",
+      "kind": "glb",
+      "source": "sources/environment/hex_ground_dirt.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "environment/hex_ground_grass",
+      "kind": "glb",
+      "source": "sources/environment/hex_ground_grass.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "environment/hex_ground_leaf_litter",
+      "kind": "glb",
+      "source": "sources/environment/hex_ground_leaf_litter.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "environment/hex_ground_moss",
+      "kind": "glb",
+      "source": "sources/environment/hex_ground_moss.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "environment/hex_ground_pine_duff",
+      "kind": "glb",
+      "source": "sources/environment/hex_ground_pine_duff.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "environment/hex_hollow_watchers",
+      "kind": "glb",
+      "source": "sources/environment/hex_hollow_watchers.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/hex_hollow_watchers.png"
+    },
+    {
+      "id": "environment/hex_lantern_bridge",
+      "kind": "glb",
+      "source": "sources/environment/hex_lantern_bridge.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/hex_lantern_bridge.png"
+    },
+    {
+      "id": "environment/hex_meadow_building",
+      "kind": "glb",
+      "source": "sources/environment/hex_meadow_building.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/hex_meadow_building.png"
+    },
+    {
+      "id": "environment/hex_meadow_character",
+      "kind": "glb",
+      "source": "sources/environment/hex_meadow_character.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/hex_meadow_character.png"
+    },
+    {
+      "id": "environment/hex_mystical_grove",
+      "kind": "glb",
+      "source": "sources/environment/hex_mystical_grove.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/hex_mystical_grove.png"
+    },
+    {
+      "id": "environment/hex_path_end",
+      "kind": "glb",
+      "source": "sources/environment/hex_path_end.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "environment/hex_path_straight",
+      "kind": "glb",
+      "source": "sources/environment/hex_path_straight.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "environment/hex_path_turn_120",
+      "kind": "glb",
+      "source": "sources/environment/hex_path_turn_120.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "environment/hex_path_turn_60",
+      "kind": "glb",
+      "source": "sources/environment/hex_path_turn_60.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "environment/hex_river_overlay_end",
+      "kind": "glb",
+      "source": "sources/environment/hex_river_overlay_end.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "environment/hex_river_overlay_straight",
+      "kind": "glb",
+      "source": "sources/environment/hex_river_overlay_straight.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "environment/hex_river_overlay_turn_120",
+      "kind": "glb",
+      "source": "sources/environment/hex_river_overlay_turn_120.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "environment/hex_river_overlay_turn_60",
+      "kind": "glb",
+      "source": "sources/environment/hex_river_overlay_turn_60.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "environment/hex_rune_shrine",
+      "kind": "glb",
+      "source": "sources/environment/hex_rune_shrine.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/hex_rune_shrine.png"
+    },
+    {
+      "id": "environment/hex_woodland_bridge",
+      "kind": "glb",
+      "source": "sources/environment/hex_woodland_bridge.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/environment/hex_woodland_bridge.png"
+    },
+    {
+      "id": "props/arrow",
+      "kind": "glb",
+      "source": "sources/props/arrow.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/arrow.png"
+    },
+    {
+      "id": "props/axe",
+      "kind": "glb",
+      "source": "sources/props/axe.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/axe.png"
+    },
+    {
+      "id": "props/axe_offhand",
+      "kind": "glb",
+      "source": "sources/props/axe_offhand.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/axe_offhand.png"
+    },
+    {
+      "id": "props/bow",
+      "kind": "glb",
+      "source": "sources/props/bow.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/bow.png"
+    },
+    {
+      "id": "props/crossbow",
+      "kind": "glb",
+      "source": "sources/props/crossbow.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "props/evil_axe",
+      "kind": "glb",
+      "source": "sources/props/evil_axe.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "props/evil_axe_offhand",
+      "kind": "glb",
+      "source": "sources/props/evil_axe_offhand.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "props/evil_hand_flame",
+      "kind": "glb",
+      "source": "sources/props/evil_hand_flame.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "props/evil_shield",
+      "kind": "glb",
+      "source": "sources/props/evil_shield.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "props/evil_staff",
+      "kind": "glb",
+      "source": "sources/props/evil_staff.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "props/evil_sword",
+      "kind": "glb",
+      "source": "sources/props/evil_sword.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "props/kit_arrow",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_arrow.png"
+    },
+    {
+      "id": "props/kit_axe",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_axe.png"
+    },
+    {
+      "id": "props/kit_barrel",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_barrel.png"
+    },
+    {
+      "id": "props/kit_bench",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_bench.png"
+    },
+    {
+      "id": "props/kit_book",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_book.png"
+    },
+    {
+      "id": "props/kit_cannonball",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_cannonball.png"
+    },
+    {
+      "id": "props/kit_crate",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_crate.png"
+    },
+    {
+      "id": "props/kit_lantern",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_lantern.png"
+    },
+    {
+      "id": "props/kit_mug",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_mug.png"
+    },
+    {
+      "id": "props/kit_open_barrel",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "props/kit_open_crate",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "props/kit_parcel",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_parcel.png"
+    },
+    {
+      "id": "props/kit_pine",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_pine.png"
+    },
+    {
+      "id": "props/kit_roof_tile",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_roof_tile.png"
+    },
+    {
+      "id": "props/kit_shrub",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_shrub.png"
+    },
+    {
+      "id": "props/kit_skull",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "props/kit_spear",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_spear.png"
+    },
+    {
+      "id": "props/kit_spike",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": null
+    },
+    {
+      "id": "props/kit_stone_block",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_stone_block.png"
+    },
+    {
+      "id": "props/kit_target",
+      "kind": "glb",
+      "source": "sources/props/shared_village_kit.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/kit_target.png"
+    },
+    {
+      "id": "props/shield",
+      "kind": "glb",
+      "source": "sources/props/shield.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/shield.png"
+    },
+    {
+      "id": "props/staff",
+      "kind": "glb",
+      "source": "sources/props/staff.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/staff.png"
+    },
+    {
+      "id": "props/sword",
+      "kind": "glb",
+      "source": "sources/props/sword.blend",
+      "status": "pending",
+      "before": "exports/thumbnails/props/sword.png"
+    },
+    {
+      "id": "ui/theme",
+      "kind": "godot-theme",
+      "source": "ui/preview/UI/theme/ledger.tres",
+      "status": "pending",
+      "before": "docs/ui/catalog/worldtree-shipping-refresh/theme.png"
+    },
+    {
+      "id": "ui/menu-seal",
+      "kind": "image",
+      "source": "ui/preview/UI/art/menu_seal.png",
+      "status": "pending",
+      "before": "ui/preview/UI/art/menu_seal.png"
+    },
+    {
+      "id": "ui/resource-table",
+      "kind": "godot-scene",
+      "source": "ui/preview/UI/components/resource_ledger.tscn",
+      "status": "pending",
+      "before": "docs/ui/catalog/worldtree-shipping-refresh/resource-table.png"
+    },
+    {
+      "id": "ui/upkeep",
+      "kind": "godot-scene",
+      "source": "ui/preview/UI/components/upkeep_summary.tscn",
+      "status": "pending",
+      "before": "docs/ui/catalog/worldtree-shipping-refresh/upkeep.png"
+    },
+    {
+      "id": "ui/action-quote",
+      "kind": "godot-scene",
+      "source": "ui/preview/UI/components/quoted_action.tscn",
+      "status": "pending",
+      "before": "docs/ui/catalog/worldtree-shipping-refresh/action-quote.png"
+    },
+    {
+      "id": "ui/city-navigation",
+      "kind": "godot-scene",
+      "source": "ui/preview/UI/components/city_navigation.tscn",
+      "status": "pending",
+      "before": "docs/ui/catalog/worldtree-shipping-refresh/city-navigation.png"
+    },
+    {
+      "id": "ui/match-controls",
+      "kind": "godot-scene",
+      "source": "ui/preview/UI/components/match_controls.tscn",
+      "status": "pending",
+      "before": "docs/ui/catalog/worldtree-shipping-refresh/match-controls.png"
+    },
+    {
+      "id": "ui/session-feedback",
+      "kind": "godot-scene",
+      "source": "ui/preview/UI/components/session_feedback.tscn",
+      "status": "pending",
+      "before": "docs/ui/catalog/worldtree-shipping-refresh/session-feedback.png"
+    },
+    {
+      "id": "ui/dialog-shell",
+      "kind": "godot-scene",
+      "source": "ui/preview/UI/components/modal.tscn",
+      "status": "pending",
+      "before": "docs/ui/catalog/worldtree-shipping-refresh/dialog-shell.png"
+    },
+    {
+      "id": "ui/unit-inspection",
+      "kind": "godot-scene",
+      "source": "ui/preview/UI/components/unit_inspection.tscn",
+      "status": "pending",
+      "before": "docs/ui/catalog/worldtree-shipping-refresh/unit-inspection.png"
+    },
+    {
+      "id": "ui/roster",
+      "kind": "godot-scene",
+      "source": "ui/preview/UI/components/army_roster.tscn",
+      "status": "pending",
+      "before": "docs/ui/catalog/worldtree-shipping-refresh/roster.png"
+    },
+    {
+      "id": "ui/worldtree",
+      "kind": "godot-scene",
+      "source": "ui/preview/UI/components/worldtree.tscn",
+      "status": "pending",
+      "before": "docs/ui/catalog/worldtree-shipping-refresh/worldtree.png"
+    },
+    {
+      "id": "ui/skill-tree",
+      "kind": "godot-scene",
+      "source": "ui/preview/UI/components/skill_tree.tscn",
+      "status": "pending",
+      "before": "docs/ui/catalog/worldtree-shipping-refresh/skill-tree.png"
+    },
+    {
+      "id": "ui/hud",
+      "kind": "godot-scene",
+      "source": null,
+      "status": "pending",
+      "before": "docs/ui/catalog/worldtree-shipping-refresh/hud.png"
+    },
+    {
+      "id": "ui/start-menu",
+      "kind": "godot-scene",
+      "source": null,
+      "status": "pending",
+      "before": "docs/ui/catalog/worldtree-shipping-refresh/start-menu.png"
+    }
+  ],
+  "non_catalog": [
+    "four woodland decal textures",
+    "root overview scenes",
+    "two UI seal authoring scenes"
+  ]
+}

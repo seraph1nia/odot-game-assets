@@ -11,13 +11,18 @@ invocable skills. Pi discovers project `.agents/skills/` entries on demand;
 `/skill:asset-art-direction` explicitly loads this entry. Other clients' discovery
 must be verified separately.
 
-- [Reference authority, 26 images and 32 mapped views](.agents/skills/asset-art-direction/references/index.md)
+- [Current Whisperwood analysis, full inventory and completion evidence](docs/whisperwood/README.md)
+- [Reference authority, 27 supplied images including the new woodland board](.agents/skills/asset-art-direction/references/index.md)
 - [D01–D09 visual standards](.agents/skills/asset-art-direction/design/index.md)
 - [Concrete Blender procedures](.agents/skills/asset-art-direction/blender/index.md)
 - [Existing pipeline owners and command side effects](.agents/skills/asset-art-direction/pipeline/index.md)
 - [Guidance verification and visual acceptance](.agents/skills/asset-art-direction/review/index.md)
 
-These qualitative standards preserve selective organic softness and broad planes;
+The current direction is substantially overgrown, muted and gloomy, with
+individual role caricature and layered functional detail. The supplied
+[Whisperwood board](sources/reference/whisperwood/direction.png) supersedes older
+bright/clean palette choices; it is illustrative guidance, not attained 3D
+fidelity. These qualitative standards preserve selective organic softness and broad planes;
 dreaming-forest assets are authored adaptations, not supplied-reference matches.
 Numeric art calibration and actual game occupied-pixel sizes remain provisional.
 Installing guidance changes no asset and authorizes no rebuild/render/export,

@@ -14,6 +14,14 @@ Read [rig/animation](../blender/units.md), whose primary visual owner is
 - E3: skull hood/red scarf/cape and crossbow.
 - E4: horned skull helmet, broad bare arms and dual axes.
 
+The [W0 direction](../references/index.md#whisperwood) supplies no unit art.
+Adapt it through muted travel-worn cloth/armor, layered role equipment and stronger
+individual proportions: proud shield/plume knight; crooked scholarly hat and
+scrolls mage; rangy quiver/hood archer; heavy fur/trophy berserker; bone-faced
+shield sentinel; horned flame occultist; scarf/crossbow ambusher; massive horned
+raider. Do not hide faces/hands or bind foliage across joints. New attachments
+must follow the existing skeleton and remain clear through all six clips.
+
 These qualify [D03](../design/palette.md#d03) and
 [D07](../design/consistency.md#d07) faction/material relationships; they do not
 justify a different photoreal shader family. D02's selective organic softness

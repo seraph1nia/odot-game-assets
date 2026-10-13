@@ -6,13 +6,17 @@
 [IDs](../references/index.md) V0/A2/B4 combine warm timber, muted pale masonry,
 cool roof/cloth and small amber/gold accents. V2 has a red roof. E1–E4 use dark
 armor/cloth, bone and red signals. F1–F8 place cyan/violet magic against natural
-green/gray/brown support. Reference ground can be bright yellow-green, but it
-occupies a bounded diorama rather than a verified full-screen game landscape.
+green/gray/brown support. The superseding [W0 woodland board](../references/index.md#whisperwood)
+uses cool slate, gray-green growth and aged brown timber with small amber and
+cyan/violet lights. Older bright yellow-green reference ground is historical
+context, not the target for the authorized Whisperwood overhaul.
 
 ## Standard and rationale
 
-Assign support/body/role/accent color roles. Keep related variation within
-surfaces and protect material/focal separation in grayscale as well as color.
+Assign support/body/role/accent color roles. Use substantially lower-saturation support and body colors, retaining related
+variation within surfaces and material/focal separation in grayscale as well as
+color. Gloom comes from weathered materials and cool support values, not crushed
+blacks or merely dimming preview lights. Warm windows remain small readable accents.
 Preserve existing unit/faction identity. Coherence is relational, not exact
 screen-pixel matching under unknown reference lights.
 
@@ -20,8 +24,9 @@ screen-pixel matching under unknown reference lights.
 
 All families. Bakery red roof/tree-house greens, dark enemy/red flame and
 luminous forest cyan/violet are named exceptions to a simplified blue-roof,
-warm-window village palette. Do not impose a universally muted palette on magic
-or paint enemy equipment in hero colors. Family leaves link these exceptions
+warm-window village palette. Mute magic bodies as well as natural supports; concentrate chroma and emission
+on narrow highlights, runes, eyes and lantern/window centers. Preserve different
+hero/enemy hues rather than painting enemy equipment in hero colors. Family leaves link these exceptions
 without creating independent swatch tables.
 
 ## Qualitative examples
