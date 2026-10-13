@@ -1,0 +1,174 @@
+[
+  {
+    "path": "docs/whisperwood/evidence/sheets/buildings-1.png",
+    "ids": [
+      "buildings/archery_range",
+      "buildings/arrow_tower",
+      "buildings/bakery",
+      "buildings/barracks",
+      "buildings/bombarding_tower",
+      "buildings/gold_mine",
+      "buildings/magic_academy",
+      "buildings/metal_mine",
+      "buildings/research_tower",
+      "buildings/stone_cutter",
+      "buildings/tavern",
+      "buildings/town_hall",
+      "buildings/trade_market",
+      "buildings/tree_house",
+      "buildings/weaver",
+      "buildings/woodcutter_hut"
+    ],
+    "scope": "Actual paired neutral GLB renders, before then after; montage derivation, no fabricated assets"
+  },
+  {
+    "path": "docs/whisperwood/evidence/sheets/characters-1.png",
+    "ids": [
+      "characters/archer",
+      "characters/berserker",
+      "characters/evil_berserker_unit",
+      "characters/evil_mage_unit",
+      "characters/evil_melee_unit",
+      "characters/evil_ranged_unit",
+      "characters/knight",
+      "characters/mage"
+    ],
+    "scope": "Actual paired neutral GLB renders, before then after; montage derivation, no fabricated assets"
+  },
+  {
+    "path": "docs/whisperwood/evidence/sheets/environment-1.png",
+    "ids": [
+      "environment/components/forest_boulder",
+      "environment/components/forest_bridge_plank",
+      "environment/components/forest_bridge_post",
+      "environment/components/forest_bridge_rail",
+      "environment/components/forest_butterfly_cyan",
+      "environment/components/forest_butterfly_sunset",
+      "environment/components/forest_crystal_blue",
+      "environment/components/forest_crystal_purple",
+      "environment/components/forest_fern",
+      "environment/components/forest_foam",
+      "environment/components/forest_hex_meadow",
+      "environment/components/forest_hex_stream",
+      "environment/components/forest_hollow_tree",
+      "environment/components/forest_jackalope",
+      "environment/components/forest_lantern_flower",
+      "environment/components/forest_lantern_post"
+    ],
+    "scope": "Actual paired neutral GLB renders, before then after; montage derivation, no fabricated assets"
+  },
+  {
+    "path": "docs/whisperwood/evidence/sheets/environment-2.png",
+    "ids": [
+      "environment/components/forest_lantern_snail",
+      "environment/components/forest_leaf_clump",
+      "environment/components/forest_moon_moth",
+      "environment/components/forest_moss",
+      "environment/components/forest_mushroom_blue",
+      "environment/components/forest_mushroom_purple",
+      "environment/components/forest_mushroom_small",
+      "environment/components/forest_root",
+      "environment/components/forest_rune_circle",
+      "environment/components/forest_rune_diamond",
+      "environment/components/forest_rune_monolith",
+      "environment/components/forest_shrine_plinth",
+      "environment/components/forest_spiral_fern",
+      "environment/components/forest_spiral_tree",
+      "environment/components/forest_stone_arch_block",
+      "environment/components/forest_stone_block"
+    ],
+    "scope": "Actual paired neutral GLB renders, before then after; montage derivation, no fabricated assets"
+  },
+  {
+    "path": "docs/whisperwood/evidence/sheets/environment-3.png",
+    "ids": [
+      "environment/components/forest_tree_snag",
+      "environment/components/forest_waterfall",
+      "environment/hex_bioluminescent_grove",
+      "environment/hex_butterfly_glade",
+      "environment/hex_crystal_grove",
+      "environment/hex_crystal_shrine",
+      "environment/hex_dream_menagerie",
+      "environment/hex_glowing_mushrooms",
+      "environment/hex_ground_dirt",
+      "environment/hex_ground_grass",
+      "environment/hex_ground_leaf_litter",
+      "environment/hex_ground_moss",
+      "environment/hex_ground_pine_duff",
+      "environment/hex_hollow_watchers",
+      "environment/hex_lantern_bridge",
+      "environment/hex_meadow_building"
+    ],
+    "scope": "Actual paired neutral GLB renders, before then after; montage derivation, no fabricated assets"
+  },
+  {
+    "path": "docs/whisperwood/evidence/sheets/environment-4.png",
+    "ids": [
+      "environment/hex_meadow_character",
+      "environment/hex_mystical_grove",
+      "environment/hex_path_end",
+      "environment/hex_path_straight",
+      "environment/hex_path_turn_120",
+      "environment/hex_path_turn_60",
+      "environment/hex_river_overlay_end",
+      "environment/hex_river_overlay_straight",
+      "environment/hex_river_overlay_turn_120",
+      "environment/hex_river_overlay_turn_60",
+      "environment/hex_rune_shrine",
+      "environment/hex_woodland_bridge"
+    ],
+    "scope": "Actual paired neutral GLB renders, before then after; montage derivation, no fabricated assets"
+  },
+  {
+    "path": "docs/whisperwood/evidence/sheets/props-1.png",
+    "ids": [
+      "props/arrow",
+      "props/axe",
+      "props/axe_offhand",
+      "props/bow",
+      "props/crossbow",
+      "props/evil_axe",
+      "props/evil_axe_offhand",
+      "props/evil_hand_flame",
+      "props/evil_shield",
+      "props/evil_staff",
+      "props/evil_sword",
+      "props/kit_arrow",
+      "props/kit_axe",
+      "props/kit_barrel",
+      "props/kit_bench",
+      "props/kit_book"
+    ],
+    "scope": "Actual paired neutral GLB renders, before then after; montage derivation, no fabricated assets"
+  },
+  {
+    "path": "docs/whisperwood/evidence/sheets/props-2.png",
+    "ids": [
+      "props/kit_cannonball",
+      "props/kit_crate",
+      "props/kit_lantern",
+      "props/kit_mug",
+      "props/kit_open_barrel",
+      "props/kit_open_crate",
+      "props/kit_parcel",
+      "props/kit_pine",
+      "props/kit_roof_tile",
+      "props/kit_shrub",
+      "props/kit_skull",
+      "props/kit_spear",
+      "props/kit_spike",
+      "props/kit_stone_block",
+      "props/kit_target",
+      "props/shield"
+    ],
+    "scope": "Actual paired neutral GLB renders, before then after; montage derivation, no fabricated assets"
+  },
+  {
+    "path": "docs/whisperwood/evidence/sheets/props-3.png",
+    "ids": [
+      "props/staff",
+      "props/sword"
+    ],
+    "scope": "Actual paired neutral GLB renders, before then after; montage derivation, no fabricated assets"
+  }
+]

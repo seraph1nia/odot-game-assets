@@ -68,22 +68,89 @@ The task authorizes isolated asset previews and saved-source exports/checks, not
 game launches, game journeys, imports, global settings or tool installation.
 Mechanical checks do not establish artist acceptance, native GPU performance or
 actual game-camera quality. Review matched before/after exported views at 96,
-192 and 480 occupied-pixel inspection tiers (provisional, not measured game views).
-Keep before/after lighting identical; an additional gloomy presentation view is
-allowed only if labeled as such. Inventory rows remain pending until actual
-source/export/check/image evidence exists; a material-only row cannot be called
-an individually redesigned silhouette.
+192 and 480 px canvas tiers (provisional, not measured occupied/game pixels).
+Keep the neutral renderer/lighting procedure identical; its automatic geometry
+fit is not a frozen camera projection. Authored studio views are supplementary,
+not quantitative matched views. Rows require actual source/export/check/image
+evidence; material-only rows are not individually redesigned silhouettes.
 
-Native UI is present in the catalog, but the supplied board has no UI design.
-It already uses a muted woodland Ledger theme and an original menu seal with
-source-bound native captures. Whether to restyle that API-compatible native suite
-or retain it as a category-appropriate exception requires an explicit scope
-resolution, not silently counting it as a 3D pass. Overview scenes must likewise
-be synchronized or disclosed as historical assemblies rather than fresh outputs.
+The scope ruling includes all 15 native UI entries, followed by the clarification
+**“Only do the sub parts that need refinement.”** The board has no UI design:
+retain the existing Ledger structure, native API, contrast/hit geometry, fonts
+and original seal. Only six SVG ornamental palettes needed muting; they and
+unchanged native resources are recorded in [ui-refined.json](ui-refined.json).
+The three root overview sources/renders are explicitly historical assemblies,
+not synchronized Whisperwood outputs; preserving their manual assembly content
+avoids silently replacing it with a rebuild. Two seal authoring sources remain
+unchanged along with the original seal identity.
 
 ## Delivery evidence
 
-Actual output comparison, per-ID status, portable channels, root/rig/clip/hex
-checks, resource deltas and known limitations will be bound here as they are
-produced. Guidance changes alone complete no asset. Current phase: direction and
-inventory captured; implementation and visual verification are pending.
+- [Actual 133-ID before/after review](actual-review.html): actual exported GLBs
+  and native captures, not generated illustrations. [Nine 3D contact sheets](contact-sheets.json)
+  cover all 118 GLBs; two UI sheets live in `evidence/sheets/ui-{1,2}.png`.
+- [Completion matrix](completion.json): per-ID refined/retained subparts and
+  reasons, current source/export/image hashes, measured resource deltas,
+  selected saved-pose bounds and explicit noncatalog decisions.
+- [Authored sources](authored.json): all 67 canonical owners, baseline gates,
+  shared-geometry correction, original-UV preservation and corrected bow/crossbow
+  wraps fitted to actual grip geometry—not attachment pivots.
+- [Render receipts](renders.json): 118 genuine before/after pairs, renderer
+  fingerprint, hashes and derived 192/96 canvases. Before bytes are the original
+  published exports, not a reconstruction or an assumption that every old source
+  preview was fresh. All 118 published thumbnails now bind current exports.
+- [Check receipts](checks.json): saved-source exports, portable embedded channels,
+  source-style/forest-grid/interface checks and focused Blender fixtures.
+- [Decals](decals-refined.json): four muted source/export PNG pairs; their 512px
+  dimensions and every alpha coverage byte are unchanged. [Original records](decals-baseline.json)
+  and tracked before images preserve that comparison.
+- [Current native qualification](../ui/worldtree-validation.json): 3,626 checks,
+  121 actual full-campaign captures, 14 native catalog images, independent
+  UI-only payload/ZIP load. The first 180-second software-rendered full campaign
+  timed out; the explicit bounded 600-second retry passed without dropping cases.
+
+Agent inspection covered every paired contact sheet and full-size building,
+unit and native UI focal images. It found/corrected inward-normal growth placement,
+shared-data copying, missing UVs on newly textured original users, and floating
+new bow/crossbow wraps. The material-volume guard has actual saved-bakery node/link
+and exclusive presentation-use evidence; unknown portable surfaces still fail closed.
+No acceptance check was waived.
+
+### Limitations and preservation
+
+This is a source-preserving iteration toward the illustration, not a claim of
+reference fidelity or commissioned artist approval. Existing architecture,
+organic caps/facets, faces, rigs/actions, functional narrow parts and flat floors
+remain where already fitting. Muted material-only rows are identified as such.
+No game process/import/release, actual game camera, GPU performance or automated
+artistic judgment is qualified. The native campaign uses software Mesa/Xvfb.
+
+Dense roof/contact growth increases mesh instances substantially: the current
+academy has 7,495 active exported mesh nodes. Mesh datablock reuse is preserved,
+but it does not promise renderer batching or game frame rate. Per-ID active
+primitive/triangle instances and mesh-definition/material/byte deltas are in the
+matrix; optimization/LOD/game budgets need renderer-specific review, not a waiver.
+
+Exact baseline `.blend`/GLB files remain locally in `.cache/whisperwood/before/`;
+tracked baseline hashes and the original checkpoint commit preserve their
+provenance. Color maps are intentionally pixel-graded copies preserving painted
+variation; existing roughness/normal maps and authored UVs are retained. Newly
+created color/finish companions sit under source-category `textures/whisperwood/`
+(or the existing category texture ownership), are packed and are embedded in GLB.
+Do not regenerate manual sources or historical assemblies from old builders.
+
+### Reproduce the mechanical evidence
+
+Run `mise run check`, `mise run style-tests`, `mise run asset-check -- --all`
+and `mise run asset-style-check -- --all`. Run the read-only forest verifier
+and `verify_painted_blender.py` through `tools.asset_pack.worker` with the
+118 canonical IDs from `baseline.json::jobs`. Focused fixtures are
+`test_woodland_blender.py` and `test_woodland_bindings_blender.py`.
+After checked exports, `python3 -m tools.asset_pack.woodland_review --stage after`
+refreshes actual neutral views; `woodland_inventory_blender.py` records selected
+subparts and `python3 -m tools.asset_pack.woodland_report` binds the ledger.
+The before-stage requires preserved original exported bytes.
+
+Implementation/check/image artifacts are complete for the canonical catalog.
+Required no-mistakes/PR delivery remains a separate firstmate-directed gate;
+these local checks are not a green pipeline or non-draft PR claim.

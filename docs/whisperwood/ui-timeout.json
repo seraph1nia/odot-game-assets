@@ -1,0 +1,10 @@
+{
+  "status": "failed-timeout, partial captures not qualified",
+  "limit_seconds": 180,
+  "log": ".cache/whisperwood/ui-validation.log",
+  "log_sha256": "8bf295fb2ec9a0fa786f633e2c0982e76b9b90b730ccc7d4dca3b3177d3df2f1",
+  "error": "subprocess.TimeoutExpired: Command '['xvfb-run', '-a', '--auth-file', '/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ui/whisperwood-all/display.auth', '-e', '/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ui/whisperwood-all/xvfb.log', '-s', '-screen 0 1920x1080x24 -nolisten tcp', '/home/bart/.local/share/mise/installs/godot-dotnet/4.7.2-stable/godot', '--path', '/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/ui/preview', '--audio-driver', 'Dummy', 'res://tests/runner.tscn', '--resolution', '1100x820', '--rendering-method', 'gl_compatibility', '--rendering-driver', 'opengl3', '--max-fps', '30', '--', '--output=/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/docs/ui/production/whisperwood-all', '--only=all']' timed out after 180 seconds",
+  "replacement": "../ui/production/whisperwood-all-bounded/results.json",
+  "retry_limit_seconds": 600,
+  "retry_result": "3626 checks/121 captures, zero failures; no cases removed"
+}

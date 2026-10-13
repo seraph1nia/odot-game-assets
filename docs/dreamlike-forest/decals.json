@@ -3,8 +3,8 @@
     "name": "rune_circle",
     "source": "sources/environment/decals/forest_decal_rune_circle.png",
     "export": "exports/environment/decals/forest_decal_rune_circle.png",
-    "sha256": "8d16aee6a1397271e5b37e25d12ac430f372a327e0b956f32b8b8720a0a86176",
-    "bytes": 29364,
+    "sha256": "90b6c63a0d69352d46f8e014d74ebfce048252d21d7129bdc9ef6735dc0dfbaf",
+    "bytes": 29372,
     "size": [
       512,
       512
@@ -15,8 +15,8 @@
     "name": "moss_wash",
     "source": "sources/environment/decals/forest_decal_moss_wash.png",
     "export": "exports/environment/decals/forest_decal_moss_wash.png",
-    "sha256": "a7c6416be09c0ea7d9a7847f622c916cec6d5a2638303f6fdd41fec3d0bccad4",
-    "bytes": 25778,
+    "sha256": "40f6a1053ee6e2768ec1b012e9960bd860270ef980e6a35d1d5449f4feb2fc63",
+    "bytes": 25780,
     "size": [
       512,
       512
@@ -27,7 +27,7 @@
     "name": "fairy_ring",
     "source": "sources/environment/decals/forest_decal_fairy_ring.png",
     "export": "exports/environment/decals/forest_decal_fairy_ring.png",
-    "sha256": "ea338339c57034a4f7bdb523fabf6d4529a11debd999aa54544ceb3ef2b18a74",
+    "sha256": "8b4e1eb7f85d82e95ffcdd4b56cea01ae21bad962795484be6ae70ce3bfcba17",
     "bytes": 22863,
     "size": [
       512,
@@ -39,8 +39,8 @@
     "name": "spore_growth",
     "source": "sources/environment/decals/forest_decal_spore_growth.png",
     "export": "exports/environment/decals/forest_decal_spore_growth.png",
-    "sha256": "b75d2718063b6109b698a9aa96d2570771aca6d1a58c2df5384055e18aad062f",
-    "bytes": 19671,
+    "sha256": "65f2c85a09b56b9ea878080b33f892aa591c0aa381e736bdc6559feba1a13497",
+    "bytes": 19675,
     "size": [
       512,
       512

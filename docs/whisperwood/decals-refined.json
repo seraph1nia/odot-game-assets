@@ -1,0 +1,26 @@
+[
+  {
+    "id": "decals/rune_circle",
+    "refined": "muted RGB only",
+    "retained": "exact 512px dimensions, byte-identical alpha coverage, straight color through transparent pixels, source/export equality",
+    "sha256_after": "90b6c63a0d69352d46f8e014d74ebfce048252d21d7129bdc9ef6735dc0dfbaf"
+  },
+  {
+    "id": "decals/moss_wash",
+    "refined": "muted RGB only",
+    "retained": "exact 512px dimensions, byte-identical alpha coverage, straight color through transparent pixels, source/export equality",
+    "sha256_after": "40f6a1053ee6e2768ec1b012e9960bd860270ef980e6a35d1d5449f4feb2fc63"
+  },
+  {
+    "id": "decals/fairy_ring",
+    "refined": "muted RGB only",
+    "retained": "exact 512px dimensions, byte-identical alpha coverage, straight color through transparent pixels, source/export equality",
+    "sha256_after": "8b4e1eb7f85d82e95ffcdd4b56cea01ae21bad962795484be6ae70ce3bfcba17"
+  },
+  {
+    "id": "decals/spore_growth",
+    "refined": "muted RGB only",
+    "retained": "exact 512px dimensions, byte-identical alpha coverage, straight color through transparent pixels, source/export equality",
+    "sha256_after": "65f2c85a09b56b9ea878080b33f892aa591c0aa381e736bdc6559feba1a13497"
+  }
+]

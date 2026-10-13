@@ -1,5 +1,14 @@
 # Living Worldtree — original modular artwork and standalone presentation
 
+## Whisperwood selective refresh
+
+Alive foliage/root bodies are muted; the original small luminous accents,
+24-node/23-edge topology, animation/state API and hit geometry are unchanged.
+[The overhaul ledger](../whisperwood/README.md) records retained/refined subparts.
+Current [full native qualification](worldtree-validation.json) has 3,626 checks
+and 121 actual software-rendered captures; the older qualification narrative
+below remains historical. No actual-game, native-GPU or artist acceptance claim.
+
 This additive component does not replace the accepted 10-node `skill_tree`, its
 allocation API/tests, or the woodland Theme. No main-game process, adapters,
 abilities, economy, authority, networking or Blender work is part of this asset.

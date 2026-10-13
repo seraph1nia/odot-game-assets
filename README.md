@@ -284,8 +284,16 @@ python3 -m unittest tools.asset_catalog.test_catalog tools.asset_catalog.test_bu
 
 ## Reference asset set
 
-Browse [the offline reference library](sources/reference/index.html) for all five
-reference sets, full-size images, and matching source/render/export links.
+Browse [the offline reference library](sources/reference/index.html) for the current
+Whisperwood direction plus five preserved historical functional reference sets,
+full-size images, and matching canonical source/render/export links.
+
+The three root overview assemblies below and their aggregate renders are
+**historical**, not synchronized Whisperwood outputs: they retain manual assembly
+edits rather than being blindly rebuilt. All 133 canonical catalog entries and
+additional dependency decisions are covered in the
+[selective refinement ledger](docs/whisperwood/completion.json); current individual
+sources, GLBs, thumbnails and authored presentation renders are refreshed.
 The eight original PNGs from `new_autobattler_assets.zip` are preserved in
 `sources/reference/autobattler/`; its manifest records archive and image checksums.
 
@@ -431,8 +439,9 @@ regenerate that comparison from the saved before renders and current previews.
 
 `sources/fantasy_village.blend` assembles four buildings and three characters
 modeled from `sources/reference/fantasy_village.png`: tree house, bakery, gold
-mine, woodcutter's hut, knight, mage, and archer. This set is independent of the
-existing game's asset mappings and animation conventions, for the upcoming rebuild.
+mine, woodcutter's hut, knight, mage, and archer. This is a preserved historical
+assembly; current individual models use the documented shared skeleton/clip and
+export contracts. No actual-game migration is part of the asset overhaul.
 
 Each model has an editable `.blend` in its source category and a matching `.glb`
 in `exports/`. Terrain bases and weapons have separate source/export files.

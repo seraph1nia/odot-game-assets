@@ -1,5 +1,12 @@
 # Generated Ledger UI catalog
 
+The current [Whisperwood refresh](../../whisperwood/README.md) includes all 15
+native catalog entries: six referenced SVG ornament palettes changed; native
+scripts/scenes/theme resource, fonts and original menu seal stayed byte-identical.
+Fresh catalog images and a full 3,626-check/121-capture standalone campaign bind
+current resources in [worldtree-validation.json](../worldtree-validation.json).
+Historical evidence below is preserved, not reassigned to the new palettes.
+
 Scope: catalog publication of the **standalone native library**, including the
 compact skill-tree and additive Living Worldtree components. Not game migration or an
 interaction/services demo in a browser.

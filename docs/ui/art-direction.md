@@ -1,6 +1,17 @@
 # Historical M0 artistic proposal — Ledger subsequently approved
 
-**Current visual direction:** [woodland Ledger](woodland.md), adapting the supplied
+**Current visual direction:** [woodland Ledger](woodland.md), with the
+[Whisperwood asset-sweep refinement](../whisperwood/README.md): mute saturated
+ornamental leaf/violet bodies and retain small amber/cyan accents. Inspect the
+complete native inventory, but refine only subparts that need it. Keep the Ledger
+structure, native text contrast, nine-slice/hit geometry, original seal identity,
+APIs and interaction behavior. Existing branch/root/foliage silhouettes already
+fit; do not add ivy over text or redesign controls. The board has no UI design,
+so this is category-appropriate adaptation, not supplied-UI reference fidelity.
+Renew standalone source-bound captures/package checks for changed artwork;
+previous native evidence is history, not certification of changed inputs.
+
+The retained baseline adapts the supplied
 [HUD reference](references/README.md). Original editable SVG/frame/icon/vignette and
 font/license provenance live in [woodland-art.json](woodland-art.json); the original
 small seal remains unchanged. Current acceptance is owned by

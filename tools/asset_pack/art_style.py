@@ -217,6 +217,43 @@ class ForestFinish:
     decal_opacity: float = .42
 
 
+@dataclass(frozen=True)
+class WoodlandStyle:
+    """Explicit saved-source overhaul; never regenerates an authored map."""
+    version: str = 'whisperwood_v1'
+    saturation: float = .38
+    value: float = .86
+    skin_saturation: float = .72
+    skin_value: float = .96
+    accent_saturation: float = .64
+    accent_value: float = .98
+    emission_factor: float = .58
+    window_emission_factor: float = .82
+    moss_color: tuple = (.30, .36, .25)
+    leaf_color: tuple = (.33, .41, .32)
+    leaf_tip: tuple = (.46, .51, .35)
+    root_color: tuple = (.31, .27, .22)
+    lichen_color: tuple = (.48, .50, .39)
+    cloth_color: tuple = (.31, .37, .40)
+    new_texture_size: int = 512
+    vine_radius: float = .026
+    root_radius: float = .095
+    leaf_length: float = .17
+    moss_radius: float = .095
+
+
+WHISPERWOOD = WoodlandStyle()
+
+
+def woodland_color(color, *, accent=False, skin=False):
+    """Grade encoded sRGB while retaining relative hues and surface variation."""
+    spec = WHISPERWOOD
+    saturation = spec.skin_saturation if skin else spec.accent_saturation if accent else spec.saturation
+    value = spec.skin_value if skin else spec.accent_value if accent else spec.value
+    luminance = sum(c * w for c, w in zip(color, (.2126, .7152, .0722), strict=True))
+    return tuple(max(0, min(1, (luminance + (c - luminance) * saturation) * value)) for c in color)
+
+
 FOREST = ForestFinish()
 # Named material roles keep their existing family/identity. This is an explicit
 # authoring profile, not a change to PAINTED_MATERIALS or PAINTED_VERSION.
