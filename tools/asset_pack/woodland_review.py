@@ -41,10 +41,11 @@ def main():
         previous = records['assets'].get(asset_id, {}).get(args.stage, {})
         tiers = [output.with_name(output.stem+f'-{size}.png') for size in (192, 96)]
         if (previous.get('export_sha256') == model_hash and previous.get('renderer_sha256') == renderer and
-                output.exists() and previous.get('image_sha256') == digest(output) and all(p.exists() for p in tiers)):
+                output.exists() and previous.get('image_sha256') == digest(output) and
+                all(p.exists() and previous.get('derived_images', {}).get(p.relative_to(ROOT).as_posix()) == digest(p)
+                    for p in tiers)):
             # The image binds exported bytes. A verified unchanged export can
             # legitimately survive unrelated edits in its shared source owner.
-            previous['derived_images'] = {p.relative_to(ROOT).as_posix(): digest(p) for p in tiers}
             previous['tier_scope'] = 'Canvas sizes; occupied geometry pixels and game views not certified'
             if args.stage == 'after':
                 source = ROOT/next(j['source'] for j in baseline['jobs'] if j['id'] == asset_id)

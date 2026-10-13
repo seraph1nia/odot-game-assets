@@ -60,6 +60,31 @@ def ownership_contract():
     print('Woodland ownership: eight saved character receipts include equipment; nested/shared equipment counted once; plain collections and root assets exclude unrelated equipment; source bytes unchanged')
 
 
+def library_ownership_contract():
+    receipts = json.loads((woodland.g.ROOT/'docs/whisperwood/authored.json').read_text())['sources']
+    subparts = json.loads((woodland.g.ROOT/'docs/whisperwood/subparts.json').read_text())
+    jobs = woodland.plan_exports(woodland.g.ROOT)
+    expected = {'sources/props/shared_village_kit.blend': 242,
+                'sources/environment/shared_forest_kit.blend': 360,
+                'sources/environment/shared_enchanted_kit.blend': 58}
+    for path, count in expected.items():
+        source = woodland.g.ROOT/path
+        before = hashlib.sha256(source.read_bytes()).hexdigest()
+        bpy.ops.wm.open_mainfile(filepath=str(source))
+        selected_jobs = [job for job in jobs if job['source'] == path]
+        assert {job['id'] for job in selected_jobs} == set(receipts[path]['ids'])
+        selected = set()
+        for job in selected_jobs:
+            objects = woodland.asset_objects(job)
+            details = [o for o in objects if o.type == 'MESH' and o.get('woodland_detail')]
+            assert len(details) == subparts[job['id']]['added_detail_objects'], job['id']
+            selected.update(objects)
+        added = [o for o in selected if o.type == 'MESH' and o.get('woodland_detail')]
+        assert len(added) == receipts[path]['added_mesh_objects'] == count, path
+        assert hashlib.sha256(source.read_bytes()).hexdigest() == before == receipts[path]['sha256_after']
+    print('Woodland library ownership: village 242, forest 360, enchanted 58 distinct canonical added meshes; subpart and authoring receipts agree; source bytes unchanged')
+
+
 def main():
     source = woodland.g.ROOT/'sources/buildings/bakery.blend'
     before = hashlib.sha256(source.read_bytes()).hexdigest()
@@ -98,6 +123,7 @@ def main():
     assert hashlib.sha256(source.read_bytes()).hexdigest() == before
     print('Woodland guard: real PRINCIPLED_VOLUME/Volume output retained unchanged; unknown surface, inactive Principled and exported volume rejected; source bytes unchanged')
     ownership_contract()
+    library_ownership_contract()
 
 
 if __name__ == '__main__':

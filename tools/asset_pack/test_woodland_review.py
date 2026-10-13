@@ -47,7 +47,8 @@ class RenderReceiptTests(unittest.TestCase):
             path.write_bytes(b'cached tier')
         self.receipt.write_text(json.dumps({'assets': {self.asset_id: {stage: {
             'export_sha256': review.digest(self.model), 'renderer_sha256': fingerprint,
-            'image_sha256': review.digest(self.output), 'source_sha256': 'old source'}}}}))
+            'image_sha256': review.digest(self.output), 'source_sha256': 'old source',
+            'derived_images': {p.relative_to(self.root).as_posix(): review.digest(p) for p in self.tiers}}}}}))
 
     def render(self, script, args, **options):
         self.assertEqual(script, 'tools/asset_pack/woodland_render.py')
@@ -89,14 +90,60 @@ class RenderReceiptTests(unittest.TestCase):
 
     def test_changed_image_or_missing_tier_rerenders(self):
         for stage in ('before', 'after'):
-            for changed in ('image', 'tier'):
+            for changed in ('image', 192, 96):
                 with self.subTest(stage=stage, changed=changed):
                     self.prepare(stage, self.renderer)
                     if changed == 'image':
                         self.output.write_bytes(b'changed image')
                     else:
-                        self.tiers[0].unlink()
+                        self.output.with_name(self.output.stem+f'-{changed}.png').unlink()
                     self.invoke(stage).assert_called_once()
+
+    def test_missing_or_mismatched_derivative_bindings_rerender(self):
+        for stage in ('before', 'after'):
+            for size in (192, 96):
+                for changed in ('image', 'binding', 'hash', 'manifest'):
+                    with self.subTest(stage=stage, size=size, changed=changed):
+                        self.prepare(stage, self.renderer)
+                        path = self.output.with_name(self.output.stem+f'-{size}.png')
+                        records = json.loads(self.receipt.read_text())
+                        previous = records['assets'][self.asset_id][stage]
+                        key = path.relative_to(self.root).as_posix()
+                        if changed == 'image':
+                            path.write_bytes(b'corrupt derivative')
+                        elif changed == 'binding':
+                            del previous['derived_images'][key]
+                        elif changed == 'hash':
+                            previous['derived_images'][key] = '0'*64
+                        else:
+                            del previous['derived_images']
+                        self.receipt.write_text(json.dumps(records))
+                        self.invoke(stage).assert_called_once()
+                        self.assertEqual(path.read_bytes(), b'fresh tier')
+
+    def test_partial_rerender_failure_does_not_certify_corrupt_derivative_on_retry(self):
+        for stage in ('before', 'after'):
+            for size in (192, 96):
+                with self.subTest(stage=stage, size=size):
+                    self.prepare(stage, self.renderer)
+                    path = self.output.with_name(self.output.stem+f'-{size}.png')
+                    path.unlink()
+                    before = self.receipt.read_bytes()
+                    full_size = self.output.read_bytes()
+
+                    def fail_render(*args, **options):
+                        self.output.write_bytes(full_size)
+                        path.write_bytes(b'partial derivative')
+                        raise RuntimeError('interrupted render')
+
+                    with patch.object(review, 'ROOT', self.root), patch('sys.argv', ['review', '--stage', stage]), \
+                            patch.object(review, 'run_blender', side_effect=fail_render) as worker, \
+                            self.assertRaisesRegex(RuntimeError, 'interrupted render'):
+                        review.main()
+                    worker.assert_called_once()
+                    self.assertEqual(self.receipt.read_bytes(), before)
+                    self.invoke(stage).assert_called_once()
+                    self.assertEqual(path.read_bytes(), b'fresh tier')
 
     def test_obsolete_hash_cannot_bypass_preserved_baseline_guard(self):
         self.prepare('before', self.inputs)
