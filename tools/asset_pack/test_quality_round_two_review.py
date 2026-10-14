@@ -1,4 +1,6 @@
 """Behavioral freshness tests for the second-round actual-image receipt consumer."""
+import json
+import struct
 import tempfile
 import unittest
 from pathlib import Path
@@ -67,6 +69,31 @@ class CachedViewTests(unittest.TestCase):
                     path.write_bytes(original)
                     self.previous['derived_images'] = bindings
                     self.assertEqual(self.consume(), {'job': 'real fixture'})
+
+
+class ExportOwnershipTests(unittest.TestCase):
+    def test_authored_glb_geometry_belongs_to_building_root(self):
+        for name in ('bakery', 'weaver', 'magic_academy', 'town_hall', 'woodcutter_hut'):
+            with self.subTest(asset=name):
+                data = (review.ROOT / 'exports/buildings' / (name + '.glb')).read_bytes()
+                length, kind = struct.unpack_from('<II', data, 12)
+                self.assertEqual(kind, 0x4E4F534A)
+                document = json.loads(data[20:20 + length])
+                nodes = document['nodes']
+                root = next(i for i, node in enumerate(nodes) if node['name'] == name + '_root')
+                descendants = set()
+                pending = [root]
+                while pending:
+                    index = pending.pop()
+                    if index not in descendants:
+                        descendants.add(index)
+                        pending.extend(nodes[index].get('children', []))
+                authored = {i for i, node in enumerate(nodes)
+                            if node.get('extras', {}).get('whisperwood_quality_round_two') and 'mesh' in node}
+                self.assertLessEqual(authored, descendants)
+                if name == 'magic_academy':
+                    self.assertEqual(len(authored), 2)
+                    self.assertEqual(document['scenes'][document.get('scene', 0)]['nodes'], [root])
 
 
 if __name__ == '__main__':

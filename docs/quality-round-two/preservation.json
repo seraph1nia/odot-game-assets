@@ -2,45 +2,55 @@
   "bakery": {
     "unchanged_original_meshes_verified": 292,
     "unchanged_embedded_kit_children_verified": 0,
+    "unchanged_growth_instances_verified": 575,
+    "new_geometry_root_ownership_verified": true,
     "intended_focal_mesh_exceptions": [
       "Woodland layered bakery porch cap"
     ],
-    "source_sha256": "cdc3df04dd56a29335c10036e4c5c79b75852f089cac103626215d211a15bb78",
-    "scope": "World transforms, mesh positions/topology, all UV layers and material slot names; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
+    "source_sha256": "24d41356e082aed7bb5e9b7318e948c462b95fdebfc0fe6b5d3f47a4bcac9b39",
+    "scope": "World transforms, mesh positions/topology, all UV layers, material slot names, surviving growth mesh datablock names and new geometry root ownership; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
   },
   "weaver": {
     "unchanged_original_meshes_verified": 510,
     "unchanged_embedded_kit_children_verified": 1863,
+    "unchanged_growth_instances_verified": 2144,
+    "new_geometry_root_ownership_verified": true,
     "intended_focal_mesh_exceptions": [
       "Woodland long draped dyed cloth"
     ],
-    "source_sha256": "597cd9cde39f633f50d8f0110c9ffd2be304910f20636b1b766c7683a5c94535",
-    "scope": "World transforms, mesh positions/topology, all UV layers and material slot names; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
+    "source_sha256": "1d71b33799147ee14f3a6aa0abdd06295909210b075a11ce071dfb435818eaa0",
+    "scope": "World transforms, mesh positions/topology, all UV layers, material slot names, surviving growth mesh datablock names and new geometry root ownership; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
   },
   "magic_academy": {
     "unchanged_original_meshes_verified": 468,
     "unchanged_embedded_kit_children_verified": 6614,
+    "unchanged_growth_instances_verified": 6912,
+    "new_geometry_root_ownership_verified": true,
     "intended_focal_mesh_exceptions": [
       "Academy glowing orb"
     ],
-    "source_sha256": "be1daeb5b766c125ca1e75b6e9cbecd06c137c13f41556ff0e760533bca74b37",
-    "scope": "World transforms, mesh positions/topology, all UV layers and material slot names; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
+    "source_sha256": "f6edf70654dcfdd4db3c635db9d6f8f5d9df937e169da1a79a29db9cc63027b5",
+    "scope": "World transforms, mesh positions/topology, all UV layers, material slot names, surviving growth mesh datablock names and new geometry root ownership; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
   },
   "town_hall": {
     "unchanged_original_meshes_verified": 1023,
     "unchanged_embedded_kit_children_verified": 5863,
+    "unchanged_growth_instances_verified": 5990,
+    "new_geometry_root_ownership_verified": true,
     "intended_focal_mesh_exceptions": [
       "Golden civic bell",
       "Bell clapper"
     ],
-    "source_sha256": "d32a91474518dc68f3fda768b765f1d7740defe4bf6fd1cdccd1d5155555fcb6",
-    "scope": "World transforms, mesh positions/topology, all UV layers and material slot names; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
+    "source_sha256": "eed3ffc56b578954758ff30084d71aee277e4c9b0388b9387dbcc84b6f6ab4c8",
+    "scope": "World transforms, mesh positions/topology, all UV layers, material slot names, surviving growth mesh datablock names and new geometry root ownership; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
   },
   "woodcutter_hut": {
     "unchanged_original_meshes_verified": 324,
     "unchanged_embedded_kit_children_verified": 0,
+    "unchanged_growth_instances_verified": 620,
+    "new_geometry_root_ownership_verified": true,
     "intended_focal_mesh_exceptions": [],
-    "source_sha256": "03cd49851c777aae0f5459d088357f2ac4139b5b68384dd5c60db09f2f0647f8",
-    "scope": "World transforms, mesh positions/topology, all UV layers and material slot names; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
+    "source_sha256": "692fe509a6110365e59e57023487e2c8c02b1b64e4813d8c3cae8c2ab883449f",
+    "scope": "World transforms, mesh positions/topology, all UV layers, material slot names, surviving growth mesh datablock names and new geometry root ownership; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
   }
 }

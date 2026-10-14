@@ -40,8 +40,9 @@ All five edits preserve original saved meshes except named focal subparts and
 explicitly thinned independent growth. The proposed log tilt was retained instead:
 its supporting ropes already read correctly and a further pose edit offered no
 reliable small-view gain. Embedded kit children remain unchanged.
-Independent static growth is consolidated by existing material/UV boundaries,
-not broadly decimated. No kit rebuild, global lighting/style defaults or new
+Surviving independent leaf/moss growth retains its source instances and shared
+mesh data; only the identified quiet lanes are thinned. Newly authored geometry
+belongs to the building hierarchy and preserves its authored world transform. No kit rebuild, global lighting/style defaults or new
 control framework. Broad source-lit planes and limited luminous cores—not darker
 preview lights—are the lighting strategy. Canonical neutral SUN renderer remains
 byte-identical; authored Area-light views are supplementary.
@@ -74,10 +75,11 @@ historical first-round evidence as if it were current second-round qualification
 
 ## Actual review and measured tradeoffs
 
-The implementation agent inspected the five full-size pairs and 96/192 canvas
-derivatives, [supplementary grayscale](grayscale.json) for bakery/academy, and the
-standalone HTML in a task-private headless Chrome session. All 20 displayed images
-loaded; desktop and 390px-wide layouts had no horizontal overflow. The earlier
+The initial implementation agent inspected the five full-size pairs and 96/192
+canvas derivatives, [supplementary grayscale](grayscale.json) for bakery/academy,
+and the standalone HTML in a task-private headless Chrome session. That historical
+inspection loaded all 20 displayed images without horizontal overflow at desktop
+and 390px-wide layouts; it has not been repeated against the refreshed page. The earlier
 shared CDP target was unavailable. Explicit follow-up approval authorized **only**
 the missing task-local browser dependency: official Chrome for Testing, unchanged
 already-installed MCP, private profile and process-local argument adapter. The
@@ -99,46 +101,50 @@ below. These are agent judgments, not commissioned artist acceptance.
 
 | Building | Active mesh nodes before → after | Active triangle instances before → after | GLB bytes before → after |
 | --- | ---: | ---: | ---: |
-| Bakery | 934 → 361 | 46,003 → 46,003 | 2,955,572 → 4,648,212 |
-| Weaver | 2,733 → 2,202 | 108,482 → 106,650 | 6,491,624 → 7,593,048 |
-| Academy | 7,495 → 6,900 | 250,918 → 248,974 | 5,246,836 → 6,460,936 |
-| Town hall | 7,143 → 6,479 | 284,099 → 281,055 | 11,314,660 → 12,681,100 |
-| Woodcutter | 980 → 364 | 44,469 → 44,821 | 3,254,260 → 4,752,744 |
+| Bakery | 934 → 934 | 46,003 → 46,003 | 2,955,572 → 3,269,268 |
+| Weaver | 2,733 → 2,674 | 108,482 → 106,650 | 6,491,624 → 6,473,480 |
+| Academy | 7,495 → 7,418 | 250,918 → 248,974 | 5,246,836 → 5,252,952 |
+| Town hall | 7,143 → 7,047 | 284,099 → 281,055 | 11,314,660 → 11,277,524 |
+| Woodcutter | 980 → 982 | 44,469 → 44,821 | 3,254,260 → 3,280,012 |
 
-Consolidation trades independent node count for baked unique mesh definitions:
-**GLB bytes increase**, even where scene triangles decrease. Kit instances still
-share canonical mesh data. This is not universal optimization, a draw-call count,
-a memory/frame-rate claim or a tested game/GPU budget. The academy still has 6,900
-mesh nodes; renderer-specific batching/LOD remains unqualified. Exact definition,
-instance, material and byte counts are in [renders.json](renders.json).
+Surviving leaves and moss retain shared mesh data rather than being joined into
+baked unique mesh definitions. Kit instances retain canonical mesh data. These
+resource counts are not draw-call counts, a memory/frame-rate claim or a tested
+game/GPU budget; renderer-specific batching/LOD remains unqualified. Exact
+definition, instance, material and byte counts are in [renders.json](renders.json).
 
 ## Validation receipts and reproduction limits
 
-[Checks](checks.json), [preservation](preservation.json) and
-[browser review](browser-review.json) bind tested current sources and outputs.
+[Checks](checks.json) and [preservation](preservation.json) bind current sources
+and outputs. [Browser review](browser-review.json) preserves the historical browser
+inspection and dependency provenance; it does not qualify the refreshed page.
 
-- `mise run check`: 99 fast tests, Ruff, Python/JS syntax and worker guardrails.
-- `mise run style-tests`: 27 real Blender fixtures, including portable maps.
-- `mise run asset-style-check -- --all`: 118 authored selections, read-only.
-- Ordinary selected `asset-check`: five exports and five round-trip verifications;
-  repeat run reports all five unchanged/current, no geometry rebuild.
+- Historical initial receipts: `mise run check` (99 fast tests, Ruff, Python/JS
+  syntax and worker guardrails), `mise run style-tests` (27 Blender fixtures),
+  and `mise run asset-style-check -- --all` (118 authored selections). These were
+  not rerun in this focused fix round and do not qualify the changed scripts.
+- Current focused verification covers the second-round Blender fixtures and
+  report freshness tests, five source preservation comparisons, five round trips,
+  five painted-channel checks, GLB hierarchy and exact current evidence bindings.
+  Saved-source exports never regenerate geometry.
 - Focused `verify_painted_blender.py`: all five sources have packed maps, UVs and
   corresponding embedded GLB material channels. Focused second-round Blender
-  fixtures test transformed growth consolidation/UV/material preservation, kit
-  exclusion, planted cloth tops, scoped orb emission and single-mesh saw teeth.
-- Preservation comparison verifies nonfocal original mesh data/transforms/UVs and
-  every embedded kit child. Shader/pixel equivalence is not claimed by that test.
-- Five saved-source presentation previews and five neutral catalog thumbnails were
-  refreshed. The multi-source preview process crashed loading its second source;
-  separate existing isolated worker invocations passed for every remaining source.
-  One bounded foreground call timed out during town-hall rendering; that source
-  was completed in an unbounded background worker with a captured completion code.
-  Thumbnail discovery initially lacked Blender on PATH; the documented explicit
-  `--blender` executable option passed. No render/check was waived.
-- Static catalog packaging passed with all 133 entries; native UI code/resources
-  were unchanged, so no new native campaign/capture qualification is asserted.
+  fixtures test retained shared leaf/moss instances across all five refinement
+  paths, selective thinning, kit exclusion, planted cloth tops, scoped orb emission,
+  preserved new-geometry world transforms and translation/rotation with the root.
+- Preservation comparison verifies nonfocal original mesh data/transforms/UVs,
+  every embedded kit child, surviving growth instances/shared mesh ownership and
+  new geometry's root ownership. Shader/pixel equivalence is not claimed.
+- Five saved-source presentation previews, five neutral catalog thumbnails and
+  five canonical neutral comparisons were refreshed through isolated workers
+  using the explicitly supplied Blender executable. Renderer bytes and derivative
+  recipes remain unchanged.
+- Static catalog packaging passed in the initial implementation, not rerun here;
+  native UI code/resources remain unchanged, so no new native campaign/capture
+  qualification is asserted.
 
 The supplementary grayscale PNGs were re-encoded as explicit RGBA PNG after an
 agent image-input decoding interruption; their receipt hashes/recipes were updated.
-Canonical neutral images and their exact 192/96 derivative bindings were untouched.
+The refreshed canonical neutral images retain the exact renderer and 192/96
+derivative recipe; hashes bind the current outputs.
 No-mistakes/forge CI delivery is a separate gate, not implied by these local checks.

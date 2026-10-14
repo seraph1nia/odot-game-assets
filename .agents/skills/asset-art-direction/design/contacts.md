@@ -22,11 +22,9 @@ Paint feathered contact darkening and local colored bounce on receiving surfaces
 not floating hard disks. Contacts make the miniature feel planted; uncontrolled
 repetition makes it busy and procedural. In a second quality pass, recover visible
 roof/stone rest planes before adding growth. Preserve abundant planted shelves,
-but keep the working cue and its approach clear. Consolidating static, independently
-authored contact clusters is appropriate when their UVs, material boundaries and
-world geometry survive; never consolidate embedded kit children independently of
-the canonical prototype. Fewer exported nodes are a measured resource change, not
-a promise of batching or faster game rendering.
+but keep the working cue and its approach clear. Retain shared source instances
+when selectively thinning independent growth; preserve embedded kit children and
+the canonical prototype.
 
 ## Scope and exceptions
 

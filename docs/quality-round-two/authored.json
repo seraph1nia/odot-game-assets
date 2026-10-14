@@ -1,21 +1,17 @@
 {
   "sources/buildings/bakery.blend": {
     "sha256_before": "c2be8989553f46cd7e2c08dd6444a951359658e906fba4421dc3189df21542a2",
-    "sha256_after": "cdc3df04dd56a29335c10036e4c5c79b75852f089cac103626215d211a15bb78",
+    "sha256_after": "24d41356e082aed7bb5e9b7318e948c462b95fdebfc0fe6b5d3f47a4bcac9b39",
     "focal_changes": [
       "curved ochre porch crown and cream underside"
     ],
     "removed_independent_growth": [],
-    "consolidated_independent_growth": {
-      "Woodland shared curved ivy leaf": 397,
-      "Woodland shared moss cushion": 178
-    },
     "root_preserved": true,
     "kit_children_untouched": true
   },
   "sources/buildings/weaver.blend": {
     "sha256_before": "d0291d7b3961e75d3415a562ea667142078e85ddad164b5a6c59dc33ee38ab43",
-    "sha256_after": "597cd9cde39f633f50d8f0110c9ffd2be304910f20636b1b766c7683a5c94535",
+    "sha256_after": "1d71b33799147ee14f3a6aa0abdd06295909210b075a11ce071dfb435818eaa0",
     "focal_changes": [
       "alternating wind-curved drapes and narrow woven selvedges"
     ],
@@ -86,16 +82,12 @@
       "Woodland shared curved ivy leaf.1424",
       "Woodland shared curved ivy leaf.1425"
     ],
-    "consolidated_independent_growth": {
-      "Woodland shared curved ivy leaf": 329,
-      "Woodland shared moss cushion": 145
-    },
     "root_preserved": true,
     "kit_children_untouched": true
   },
   "sources/buildings/magic_academy.blend": {
     "sha256_before": "3aa4f6283c48c49405d42351e10e6fa3e1f23b8f1a28a0ded2161b841efa0178",
-    "sha256_after": "be1daeb5b766c125ca1e75b6e9cbecd06c137c13f41556ff0e760533bca74b37",
+    "sha256_after": "f6edf70654dcfdd4db3c635db9d6f8f5d9df937e169da1a79a29db9cc63027b5",
     "focal_changes": [
       "shaded purple orb body with narrow brass armillary bands"
     ],
@@ -180,16 +172,12 @@
       "Woodland shared curved ivy leaf.4567",
       "Woodland shared curved ivy leaf.4568"
     ],
-    "consolidated_independent_growth": {
-      "Woodland shared curved ivy leaf": 365,
-      "Woodland shared moss cushion": 155
-    },
     "root_preserved": true,
     "kit_children_untouched": true
   },
   "sources/buildings/town_hall.blend": {
     "sha256_before": "efb7b9210502271282083390575f3ed2efd58138938bf1b0f8d41750cbbee737",
-    "sha256_after": "d32a91474518dc68f3fda768b765f1d7740defe4bf6fd1cdccd1d5155555fcb6",
+    "sha256_after": "eed3ffc56b578954758ff30084d71aee277e4c9b0388b9387dbcc84b6f6ab4c8",
     "focal_changes": [
       "forward civic bell and lightly tilted ringing silhouette"
     ],
@@ -291,24 +279,16 @@
       "Woodland shared curved ivy leaf.4008",
       "Woodland shared curved ivy leaf.4009"
     ],
-    "consolidated_independent_growth": {
-      "Woodland shared curved ivy leaf": 389,
-      "Woodland shared moss cushion": 181
-    },
     "root_preserved": true,
     "kit_children_untouched": true
   },
   "sources/buildings/woodcutter_hut.blend": {
     "sha256_before": "46453c2024d55cd78316e9cc1cb2a209b712434bb2a1822f997308a5a0529eef",
-    "sha256_after": "03cd49851c777aae0f5459d088357f2ac4139b5b68384dd5c60db09f2f0647f8",
+    "sha256_after": "692fe509a6110365e59e57023487e2c8c02b1b64e4813d8c3cae8c2ab883449f",
     "focal_changes": [
       "single-mesh saw tooth ring and functional hoist pulley"
     ],
     "removed_independent_growth": [],
-    "consolidated_independent_growth": {
-      "Woodland shared curved ivy leaf": 430,
-      "Woodland shared moss cushion": 190
-    },
     "root_preserved": true,
     "kit_children_untouched": true
   }

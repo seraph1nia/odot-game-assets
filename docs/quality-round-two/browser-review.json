@@ -40,5 +40,7 @@
     }
   ],
   "dependency_provenance": "browser-provenance.json",
-  "scope": "No shared bridge/profile/global configuration changes; receipt is not a GPU or artist qualification"
+  "scope": "No shared bridge/profile/global configuration changes; receipt is not a GPU or artist qualification",
+  "status": "Historical initial browser inspection; not rerun against the refreshed page or exports",
+  "current_page_sha256": "997eca5818e2ed8db0853e5fd664793dbe1358bb36ac8026c8fa659b00f70435"
 }

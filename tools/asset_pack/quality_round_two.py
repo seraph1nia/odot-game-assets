@@ -50,30 +50,6 @@ def quiet_lane(obj, name):
     return False
 
 
-def consolidate_growth(col):
-    """Join only independent unmodified static growth, retaining UV/material slots."""
-    counts = {}
-    for part in ('Woodland shared curved ivy leaf', 'Woodland shared moss cushion'):
-        objects = [o for o in col.all_objects if o.type == 'MESH' and
-                   o.get('woodland_part') == part and not kit_child(o)]
-        if len(objects) < 2:
-            continue
-        if any(o.modifiers or o.vertex_groups for o in objects):
-            raise ValueError('Refusing modified or weighted growth')
-        bpy.ops.object.select_all(action='DESELECT')
-        for obj in objects:
-            obj.select_set(True)
-        bpy.context.view_layer.objects.active = objects[0]
-        # Blender join keeps active object data; detach it from shared kit meshes.
-        objects[0].data = objects[0].data.copy()
-        bpy.ops.object.join()
-        obj = bpy.context.object
-        obj.name = 'Quality clustered ' + part.removeprefix('Woodland shared ')
-        obj[TAG] = True
-        counts[part] = len(objects)
-    return counts
-
-
 def edit_bakery(col):
     obj = next(o for o in col.all_objects if o.name.startswith('Woodland layered bakery porch cap'))
     obj.data = obj.data.copy()
@@ -172,6 +148,26 @@ def edit_lumber(col):
 EDITORS = dict(zip(NAMES, (edit_bakery, edit_weaver, edit_academy, edit_hall, edit_lumber), strict=True))
 
 
+def refine(col, name, root):
+    existing = set(col.all_objects)
+    removed = [o.name for o in col.all_objects if quiet_lane(o, name)]
+    for obj in list(col.all_objects):
+        if obj.name in removed:
+            bpy.data.objects.remove(obj, do_unlink=True)
+    changes = EDITORS[name](col)
+    bpy.context.view_layer.update()
+    for obj in set(col.all_objects) - existing:
+        if obj.type == 'MESH':
+            if obj.parent is None:
+                world = obj.matrix_world.copy()
+                obj.parent = root
+                obj.matrix_parent_inverse = root.matrix_world.inverted()
+                obj.matrix_world = world
+            paint.project_uv(obj)
+            obj[TAG] = True
+    return changes, removed
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--apply', action='store_true')
@@ -193,29 +189,18 @@ def main():
         col = bpy.data.collections[name]
         g.target(col)
         g.M = {style.material_name(m.name): m for m in bpy.data.materials}
-        existing = set(bpy.data.objects)
         root = bpy.data.objects[name + '_root']
         root_matrix = root.matrix_world.copy()
-        removed = [o.name for o in col.all_objects if quiet_lane(o, name)]
-        for obj in list(col.all_objects):
-            if obj.name in removed:
-                bpy.data.objects.remove(obj, do_unlink=True)
-        changes = EDITORS[name](col)
-        for obj in set(bpy.data.objects) - existing:
-            if obj.type == 'MESH':
-                paint.project_uv(obj)
-                obj[TAG] = True
-        consolidated = consolidate_growth(col)
+        changes, removed = refine(col, name, root)
         assert root.matrix_world == root_matrix
         bpy.context.scene[TAG] = True
         bpy.context.preferences.filepaths.save_version = 0
         bpy.ops.wm.save_as_mainfile(filepath=str(ROOT / path))
         records[path] = {'sha256_before': baseline[path], 'sha256_after': sha(ROOT / path),
                          'focal_changes': changes, 'removed_independent_growth': removed,
-                         'consolidated_independent_growth': consolidated,
                          'root_preserved': True, 'kit_children_untouched': True}
         (DOCS / 'authored.json').write_text(json.dumps(records, indent=2) + '\n')
-        print('Refined', name, changes, 'removed', len(removed), 'consolidated', consolidated, flush=True)
+        print('Refined', name, changes, 'removed', len(removed), flush=True)
 
 
 if __name__ == '__main__':

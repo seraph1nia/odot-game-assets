@@ -50,7 +50,7 @@
       "id": "buildings/bakery",
       "status": "refined",
       "source": "sources/buildings/bakery.blend",
-      "source_sha256": "cdc3df04dd56a29335c10036e4c5c79b75852f089cac103626215d211a15bb78",
+      "source_sha256": "24d41356e082aed7bb5e9b7318e948c462b95fdebfc0fe6b5d3f47a4bcac9b39",
       "reason": "Layered shelter recovered from flat brown oval; warm ochre/cream separates bread canopy from timber while the window, wheat and bread stay focal.",
       "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
       "baseline_image": "docs/whisperwood/evidence/after/buildings/bakery.png",
@@ -90,9 +90,9 @@
         },
         "after": {
           "image": "docs/quality-round-two/evidence/after/buildings/bakery.png",
-          "image_sha256": "cbfc9e04ef4fa112a2d628627afe21c87dd45939c0640a5595fe2b0f58bf58a8",
-          "export_sha256": "3929ec8bf7b14b432f43e9cb670639903908b8bd8cca948b719aef8b89de5a07",
-          "source_sha256": "cdc3df04dd56a29335c10036e4c5c79b75852f089cac103626215d211a15bb78",
+          "image_sha256": "40db5c47fa688c179fdec48eaf6f5c9a170fd69e4e89b5cbba0beaebad94432e",
+          "export_sha256": "ea88aa49a567f80849358d12a1d8d970973d2453bb0c7494a4ac387c993daaa5",
+          "source_sha256": "24d41356e082aed7bb5e9b7318e948c462b95fdebfc0fe6b5d3f47a4bcac9b39",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "inspection_tiers": [
             96,
@@ -102,20 +102,20 @@
           "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
           "job": {
             "job": "quality-two-bakery",
-            "seconds": 2.85,
+            "seconds": 4.73,
             "log": ".cache/asset-check/logs/quality-two-bakery.log"
           },
           "derived_images": {
-            "docs/quality-round-two/evidence/after/buildings/bakery-192.png": "ecdd789c332b54f03555e0fbcea3681279cbe84f492dd51ba803bcf4bae4baa7",
-            "docs/quality-round-two/evidence/after/buildings/bakery-96.png": "1a5cf250bdca7cc491cc45f495e98c13ac56708e38813daa6880df0dff947aa6"
+            "docs/quality-round-two/evidence/after/buildings/bakery-192.png": "f0494014b8a492d4ed2a67b18b78d25f8b465c67df6816b5f3048f5d42c1e6e4",
+            "docs/quality-round-two/evidence/after/buildings/bakery-96.png": "73adb2c8aa61af921f71c4b4bf1b4d910738a24517e30e6ebc64d651f5426d77"
           },
           "facts": {
-            "bytes": 4648212,
-            "meshes": 361,
-            "triangles": 46003,
+            "bytes": 3269268,
+            "meshes": 363,
+            "triangles": 30343,
             "materials": 22,
             "animations": [],
-            "version": "3929ec8bf7b14b432f43e9cb670639903908b8bd8cca948b719aef8b89de5a07"
+            "version": "ea88aa49a567f80849358d12a1d8d970973d2453bb0c7494a4ac387c993daaa5"
           }
         },
         "resources_before": {
@@ -126,8 +126,8 @@
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
         },
         "resources_after": {
-          "active_mesh_nodes": 361,
-          "active_primitive_instances": 363,
+          "active_mesh_nodes": 934,
+          "active_primitive_instances": 1332,
           "active_triangle_instances": 46003,
           "skin_joint_counts": [],
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
@@ -153,15 +153,11 @@
       ],
       "authored": {
         "sha256_before": "c2be8989553f46cd7e2c08dd6444a951359658e906fba4421dc3189df21542a2",
-        "sha256_after": "cdc3df04dd56a29335c10036e4c5c79b75852f089cac103626215d211a15bb78",
+        "sha256_after": "24d41356e082aed7bb5e9b7318e948c462b95fdebfc0fe6b5d3f47a4bcac9b39",
         "focal_changes": [
           "curved ochre porch crown and cream underside"
         ],
         "removed_independent_growth": [],
-        "consolidated_independent_growth": {
-          "Woodland shared curved ivy leaf": 397,
-          "Woodland shared moss cushion": 178
-        },
         "root_preserved": true,
         "kit_children_untouched": true
       }
@@ -227,7 +223,7 @@
       "id": "buildings/magic_academy",
       "status": "refined",
       "source": "sources/buildings/magic_academy.blend",
-      "source_sha256": "be1daeb5b766c125ca1e75b6e9cbecd06c137c13f41556ff0e760533bca74b37",
+      "source_sha256": "f6edf70654dcfdd4db3c635db9d6f8f5d9df937e169da1a79a29db9cc63027b5",
       "reason": "Shaded orb now has volume rather than a lilac light disk; thin armillary bands identify scholarly magic. Purple crystal and narrow window glow remain intact.",
       "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
       "baseline_image": "docs/whisperwood/evidence/after/buildings/magic_academy.png",
@@ -267,9 +263,9 @@
         },
         "after": {
           "image": "docs/quality-round-two/evidence/after/buildings/magic_academy.png",
-          "image_sha256": "3b6bef6ced7b8d6eda8be5f150c253aa8c463d0285f16596209a7635a385e362",
-          "export_sha256": "37149250ae8faa9797b1d4428fb1afe1f7a64af71cb80df6b114da15d148671a",
-          "source_sha256": "be1daeb5b766c125ca1e75b6e9cbecd06c137c13f41556ff0e760533bca74b37",
+          "image_sha256": "5007fc89faffa3d66d8c093e7ccc43748522886ab158817a70c2a1d961b21304",
+          "export_sha256": "76b31d49f074cbc73799bdfa0963fcce5bec41b04d3edd1854983e7d4272f226",
+          "source_sha256": "f6edf70654dcfdd4db3c635db9d6f8f5d9df937e169da1a79a29db9cc63027b5",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "inspection_tiers": [
             96,
@@ -279,20 +275,20 @@
           "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
           "job": {
             "job": "quality-two-magic_academy",
-            "seconds": 5.7,
+            "seconds": 11.08,
             "log": ".cache/asset-check/logs/quality-two-magic_academy.log"
           },
           "derived_images": {
-            "docs/quality-round-two/evidence/after/buildings/magic_academy-192.png": "51a2ea859c12b7838a435197dcb3bf37ca34406f5c3c81d751d04d5e1fec4bab",
-            "docs/quality-round-two/evidence/after/buildings/magic_academy-96.png": "3297ec45e926a28341a7c516468c00f4fe2aa8ae62b559b8ffca5217a0f8d371"
+            "docs/quality-round-two/evidence/after/buildings/magic_academy-192.png": "411e619458c4c30d880f3dae68ae44839b8420eaabf1d16d16081d9775714485",
+            "docs/quality-round-two/evidence/after/buildings/magic_academy-96.png": "88fdd1de1d95c7cf33264f825c99ad6856dc6f59f0d50baa066e5c59525fca1d"
           },
           "facts": {
-            "bytes": 6460936,
+            "bytes": 5252952,
             "meshes": 313,
-            "triangles": 42126,
+            "triangles": 28350,
             "materials": 42,
             "animations": [],
-            "version": "37149250ae8faa9797b1d4428fb1afe1f7a64af71cb80df6b114da15d148671a"
+            "version": "76b31d49f074cbc73799bdfa0963fcce5bec41b04d3edd1854983e7d4272f226"
           }
         },
         "resources_before": {
@@ -303,8 +299,8 @@
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
         },
         "resources_after": {
-          "active_mesh_nodes": 6900,
-          "active_primitive_instances": 11218,
+          "active_mesh_nodes": 7418,
+          "active_primitive_instances": 12100,
           "active_triangle_instances": 248974,
           "skin_joint_counts": [],
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
@@ -330,7 +326,7 @@
       ],
       "authored": {
         "sha256_before": "3aa4f6283c48c49405d42351e10e6fa3e1f23b8f1a28a0ded2161b841efa0178",
-        "sha256_after": "be1daeb5b766c125ca1e75b6e9cbecd06c137c13f41556ff0e760533bca74b37",
+        "sha256_after": "f6edf70654dcfdd4db3c635db9d6f8f5d9df937e169da1a79a29db9cc63027b5",
         "focal_changes": [
           "shaded purple orb body with narrow brass armillary bands"
         ],
@@ -415,10 +411,6 @@
           "Woodland shared curved ivy leaf.4567",
           "Woodland shared curved ivy leaf.4568"
         ],
-        "consolidated_independent_growth": {
-          "Woodland shared curved ivy leaf": 365,
-          "Woodland shared moss cushion": 155
-        },
         "root_preserved": true,
         "kit_children_untouched": true
       }
@@ -503,7 +495,7 @@
       "id": "buildings/town_hall",
       "status": "refined",
       "source": "sources/buildings/town_hall.blend",
-      "source_sha256": "d32a91474518dc68f3fda768b765f1d7740defe4bf6fd1cdccd1d5155555fcb6",
+      "source_sha256": "eed3ffc56b578954758ff30084d71aee277e4c9b0388b9387dbcc84b6f6ab4c8",
       "reason": "Civic bell brought into its opening with a slight ringing lean; independent canopy growth thinned at the front, retaining antler-like branch and emblem identity.",
       "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
       "baseline_image": "docs/whisperwood/evidence/after/buildings/town_hall.png",
@@ -543,9 +535,9 @@
         },
         "after": {
           "image": "docs/quality-round-two/evidence/after/buildings/town_hall.png",
-          "image_sha256": "68f1d0ba2b7d0de78e1dd713d08777cc2bfb3e5512f35b9d52ce84b925144f90",
-          "export_sha256": "52ec95fb0c0c003ecb2566448a1899a60d8f23c4b09c84d93d5739034a56efab",
-          "source_sha256": "d32a91474518dc68f3fda768b765f1d7740defe4bf6fd1cdccd1d5155555fcb6",
+          "image_sha256": "7c6234733af1b5f09155e1618aaea6b91f48956b75b3ca05b1e79b21a85358a6",
+          "export_sha256": "4a7583762b46cf27931213db437498595d45d8ef4ce9764ebef95734ffb2579a",
+          "source_sha256": "eed3ffc56b578954758ff30084d71aee277e4c9b0388b9387dbcc84b6f6ab4c8",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "inspection_tiers": [
             96,
@@ -555,20 +547,20 @@
           "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
           "job": {
             "job": "quality-two-town_hall",
-            "seconds": 7.31,
+            "seconds": 15.85,
             "log": ".cache/asset-check/logs/quality-two-town_hall.log"
           },
           "derived_images": {
-            "docs/quality-round-two/evidence/after/buildings/town_hall-192.png": "47fc435585b8deac28743471982c16b6aadd0d2e9f5e7134b549d183742d3105",
-            "docs/quality-round-two/evidence/after/buildings/town_hall-96.png": "db65b1857bcd52ee06454873649b355d9c442d399b508d42a1ed2953578afd5b"
+            "docs/quality-round-two/evidence/after/buildings/town_hall-192.png": "ee28b6e7b26b39275a54bd0c598f45ccd436b4bcdeefc446e6f3210205e625a7",
+            "docs/quality-round-two/evidence/after/buildings/town_hall-96.png": "07454d954e90ae20dd519fcc24c975fb5c2721cab828c10eeb44d366e13f3883"
           },
           "facts": {
-            "bytes": 12681100,
-            "meshes": 897,
-            "triangles": 106247,
+            "bytes": 11277524,
+            "meshes": 899,
+            "triangles": 90379,
             "materials": 40,
             "animations": [],
-            "version": "52ec95fb0c0c003ecb2566448a1899a60d8f23c4b09c84d93d5739034a56efab"
+            "version": "4a7583762b46cf27931213db437498595d45d8ef4ce9764ebef95734ffb2579a"
           }
         },
         "resources_before": {
@@ -579,8 +571,8 @@
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
         },
         "resources_after": {
-          "active_mesh_nodes": 6479,
-          "active_primitive_instances": 10144,
+          "active_mesh_nodes": 7047,
+          "active_primitive_instances": 11100,
           "active_triangle_instances": 281055,
           "skin_joint_counts": [],
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
@@ -606,7 +598,7 @@
       ],
       "authored": {
         "sha256_before": "efb7b9210502271282083390575f3ed2efd58138938bf1b0f8d41750cbbee737",
-        "sha256_after": "d32a91474518dc68f3fda768b765f1d7740defe4bf6fd1cdccd1d5155555fcb6",
+        "sha256_after": "eed3ffc56b578954758ff30084d71aee277e4c9b0388b9387dbcc84b6f6ab4c8",
         "focal_changes": [
           "forward civic bell and lightly tilted ringing silhouette"
         ],
@@ -708,10 +700,6 @@
           "Woodland shared curved ivy leaf.4008",
           "Woodland shared curved ivy leaf.4009"
         ],
-        "consolidated_independent_growth": {
-          "Woodland shared curved ivy leaf": 389,
-          "Woodland shared moss cushion": 181
-        },
         "root_preserved": true,
         "kit_children_untouched": true
       }
@@ -758,7 +746,7 @@
       "id": "buildings/weaver",
       "status": "refined",
       "source": "sources/buildings/weaver.blend",
-      "source_sha256": "597cd9cde39f633f50d8f0110c9ffd2be304910f20636b1b766c7683a5c94535",
+      "source_sha256": "1d71b33799147ee14f3a6aa0abdd06295909210b075a11ce071dfb435818eaa0",
       "reason": "Folds and narrow selvedges now carry weaving craft; a quiet ridge lane reduces independent competing growth without changing embedded shingles or loom.",
       "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
       "baseline_image": "docs/whisperwood/evidence/after/buildings/weaver.png",
@@ -798,9 +786,9 @@
         },
         "after": {
           "image": "docs/quality-round-two/evidence/after/buildings/weaver.png",
-          "image_sha256": "e990bb01e36a7bbc259d66080a93fef173af97f65a36dd1efbf0e1c45bb5d802",
-          "export_sha256": "1d160012038c4de826ae01c553d545ac4e572729857e552218967bfdc9b603bf",
-          "source_sha256": "597cd9cde39f633f50d8f0110c9ffd2be304910f20636b1b766c7683a5c94535",
+          "image_sha256": "467d0187cec7eb41a373de348aec04eae68313ed4836d6f60fac85b97d42daad",
+          "export_sha256": "83652b7bee2d17334eebf4ce4517254b1a6144bbe06f3598059b13556c5b72a7",
+          "source_sha256": "1d71b33799147ee14f3a6aa0abdd06295909210b075a11ce071dfb435818eaa0",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "inspection_tiers": [
             96,
@@ -810,20 +798,20 @@
           "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
           "job": {
             "job": "quality-two-weaver",
-            "seconds": 4.27,
+            "seconds": 5.95,
             "log": ".cache/asset-check/logs/quality-two-weaver.log"
           },
           "derived_images": {
-            "docs/quality-round-two/evidence/after/buildings/weaver-192.png": "8d33f1b8a1400e91de5914267be6a9e7b57e3bb1979197e39bfb6a55bde5aeb4",
-            "docs/quality-round-two/evidence/after/buildings/weaver-96.png": "4d3732107b12ac0826fe415eba3648641cc5f788f743bb7a88d5afa999a86c3d"
+            "docs/quality-round-two/evidence/after/buildings/weaver-192.png": "91465433d16b56502fa3914233f6fbe1b2fdd58739d5fa2ad6cd639589c13c93",
+            "docs/quality-round-two/evidence/after/buildings/weaver-96.png": "125b74ddcd00aa53b3b4886e86709d5ce95c83cf09afd499a0fecd740e7a7f3d"
           },
           "facts": {
-            "bytes": 7593048,
-            "meshes": 465,
-            "triangles": 53026,
+            "bytes": 6473480,
+            "meshes": 467,
+            "triangles": 40278,
             "materials": 44,
             "animations": [],
-            "version": "1d160012038c4de826ae01c553d545ac4e572729857e552218967bfdc9b603bf"
+            "version": "83652b7bee2d17334eebf4ce4517254b1a6144bbe06f3598059b13556c5b72a7"
           }
         },
         "resources_before": {
@@ -834,8 +822,8 @@
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
         },
         "resources_after": {
-          "active_mesh_nodes": 2202,
-          "active_primitive_instances": 3367,
+          "active_mesh_nodes": 2674,
+          "active_primitive_instances": 4167,
           "active_triangle_instances": 106650,
           "skin_joint_counts": [],
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
@@ -861,7 +849,7 @@
       ],
       "authored": {
         "sha256_before": "d0291d7b3961e75d3415a562ea667142078e85ddad164b5a6c59dc33ee38ab43",
-        "sha256_after": "597cd9cde39f633f50d8f0110c9ffd2be304910f20636b1b766c7683a5c94535",
+        "sha256_after": "1d71b33799147ee14f3a6aa0abdd06295909210b075a11ce071dfb435818eaa0",
         "focal_changes": [
           "alternating wind-curved drapes and narrow woven selvedges"
         ],
@@ -932,10 +920,6 @@
           "Woodland shared curved ivy leaf.1424",
           "Woodland shared curved ivy leaf.1425"
         ],
-        "consolidated_independent_growth": {
-          "Woodland shared curved ivy leaf": 329,
-          "Woodland shared moss cushion": 145
-        },
         "root_preserved": true,
         "kit_children_untouched": true
       }
@@ -944,7 +928,7 @@
       "id": "buildings/woodcutter_hut",
       "status": "refined",
       "source": "sources/buildings/woodcutter_hut.blend",
-      "source_sha256": "03cd49851c777aae0f5459d088357f2ac4139b5b68384dd5c60db09f2f0647f8",
+      "source_sha256": "692fe509a6110365e59e57023487e2c8c02b1b64e4813d8c3cae8c2ab883449f",
       "reason": "Purposeful saw-tooth silhouette and hoist pulley distinguish the working wheel from a wagon wheel without adding another growth layer. Suspended log retained: changing its supports adds complexity without a reliable small-view gain.",
       "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
       "baseline_image": "docs/whisperwood/evidence/after/buildings/woodcutter_hut.png",
@@ -984,9 +968,9 @@
         },
         "after": {
           "image": "docs/quality-round-two/evidence/after/buildings/woodcutter_hut.png",
-          "image_sha256": "0bc23b841c1f06c82612d52ddfb0d4ccd84fb1843222af5150c13219a5e32656",
-          "export_sha256": "bb9382c8f3aaaefa3558723e0c2bdbe4ef5868853e43a644dbdfd53d57995336",
-          "source_sha256": "03cd49851c777aae0f5459d088357f2ac4139b5b68384dd5c60db09f2f0647f8",
+          "image_sha256": "077e0327ac00c4a9cee5f25e617241312650d2491b45ea684ae236379135f4b8",
+          "export_sha256": "0db60a4780e6c5082c3847ea4ae6bbff021b0e1523a2f43c1d8cee10939073e0",
+          "source_sha256": "692fe509a6110365e59e57023487e2c8c02b1b64e4813d8c3cae8c2ab883449f",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "inspection_tiers": [
             96,
@@ -996,20 +980,20 @@
           "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
           "job": {
             "job": "quality-two-woodcutter_hut",
-            "seconds": 3.1,
+            "seconds": 5.38,
             "log": ".cache/asset-check/logs/quality-two-woodcutter_hut.log"
           },
           "derived_images": {
-            "docs/quality-round-two/evidence/after/buildings/woodcutter_hut-192.png": "c9611b629fc37ce830bcb97d14c86b3f439142e8296cd30dcc1303a972fe823d",
-            "docs/quality-round-two/evidence/after/buildings/woodcutter_hut-96.png": "ad9dbf79e0c8f5297c1caead9a881ee7c2c8ba1b94890b6f310b71ebc8c5b4dc"
+            "docs/quality-round-two/evidence/after/buildings/woodcutter_hut-192.png": "59bcf51c3811672db5f49d41a6630833024eb8f58a729ea7c2556e0a8bcc7fa8",
+            "docs/quality-round-two/evidence/after/buildings/woodcutter_hut-96.png": "53b35e319f7100b7e33995e71875bbf992155ceba1c98d5d97f43221f757ce35"
           },
           "facts": {
-            "bytes": 4752744,
-            "meshes": 364,
-            "triangles": 44821,
+            "bytes": 3280012,
+            "meshes": 366,
+            "triangles": 28069,
             "materials": 25,
             "animations": [],
-            "version": "bb9382c8f3aaaefa3558723e0c2bdbe4ef5868853e43a644dbdfd53d57995336"
+            "version": "0db60a4780e6c5082c3847ea4ae6bbff021b0e1523a2f43c1d8cee10939073e0"
           }
         },
         "resources_before": {
@@ -1020,8 +1004,8 @@
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
         },
         "resources_after": {
-          "active_mesh_nodes": 364,
-          "active_primitive_instances": 373,
+          "active_mesh_nodes": 982,
+          "active_primitive_instances": 1420,
           "active_triangle_instances": 44821,
           "skin_joint_counts": [],
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
@@ -1047,15 +1031,11 @@
       ],
       "authored": {
         "sha256_before": "46453c2024d55cd78316e9cc1cb2a209b712434bb2a1822f997308a5a0529eef",
-        "sha256_after": "03cd49851c777aae0f5459d088357f2ac4139b5b68384dd5c60db09f2f0647f8",
+        "sha256_after": "692fe509a6110365e59e57023487e2c8c02b1b64e4813d8c3cae8c2ab883449f",
         "focal_changes": [
           "single-mesh saw tooth ring and functional hoist pulley"
         ],
         "removed_independent_growth": [],
-        "consolidated_independent_growth": {
-          "Woodland shared curved ivy leaf": 430,
-          "Woodland shared moss cushion": 190
-        },
         "root_preserved": true,
         "kit_children_untouched": true
       }

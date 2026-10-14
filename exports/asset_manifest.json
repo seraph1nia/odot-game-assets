@@ -46,9 +46,9 @@
     },
     {
       "file": "exports/buildings/bakery.glb",
-      "bytes": 4648212,
-      "meshes": 361,
-      "triangles": 46003,
+      "bytes": 3269268,
+      "meshes": 363,
+      "triangles": 30343,
       "materials": 22,
       "animations": [],
       "skins": 0,
@@ -90,9 +90,9 @@
     },
     {
       "file": "exports/buildings/woodcutter_hut.glb",
-      "bytes": 4752744,
-      "meshes": 364,
-      "triangles": 44821,
+      "bytes": 3280012,
+      "meshes": 366,
+      "triangles": 28069,
       "materials": 25,
       "animations": [],
       "skins": 0,
@@ -223,9 +223,9 @@
     },
     {
       "file": "exports/buildings/magic_academy.glb",
-      "bytes": 6460936,
+      "bytes": 5252952,
       "meshes": 313,
-      "triangles": 42126,
+      "triangles": 28350,
       "materials": 42,
       "animations": [],
       "skins": 0,
@@ -1059,8 +1059,8 @@
     },
     {
       "file": "exports/buildings/town_hall.glb",
-      "bytes": 12681100,
-      "triangles": 106247,
+      "bytes": 11277524,
+      "triangles": 90379,
       "materials": 40,
       "animations": [],
       "source": "sources/buildings/town_hall.blend",
@@ -1074,12 +1074,12 @@
       "shared_kits": [
         "sources/props/shared_village_kit.blend"
       ],
-      "meshes": 897
+      "meshes": 899
     },
     {
       "file": "exports/buildings/weaver.glb",
-      "bytes": 7593048,
-      "triangles": 53026,
+      "bytes": 6473480,
+      "triangles": 40278,
       "materials": 44,
       "animations": [],
       "source": "sources/buildings/weaver.blend",
@@ -1092,7 +1092,7 @@
       "shared_kits": [
         "sources/props/shared_village_kit.blend"
       ],
-      "meshes": 465
+      "meshes": 467
     },
     {
       "file": "exports/environment/components/forest_boulder.glb",

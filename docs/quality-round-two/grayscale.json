@@ -6,7 +6,7 @@
       "input": "docs/quality-round-two/evidence/before/buildings/bakery.png",
       "input_sha256": "9d94c5517c05f5bdc5bc1ac0180b4c84964f65f896f2c40d3ac93cdfe3bf7e10",
       "output": "docs/quality-round-two/evidence/before/buildings/bakery-gray.png",
-      "output_sha256": "74b47c063e628c508128e98c8082c104cd16807e6085158230ea59dfd1f936e6",
+      "output_sha256": "b3e2e9871469a9c6c1b5b052de2b9797a60664aa3cb9ea47b494f8a5f5a1abf8",
       "recipe": [
         "magick",
         "docs/quality-round-two/evidence/before/buildings/bakery.png",
@@ -19,9 +19,9 @@
     },
     {
       "input": "docs/quality-round-two/evidence/after/buildings/bakery.png",
-      "input_sha256": "cbfc9e04ef4fa112a2d628627afe21c87dd45939c0640a5595fe2b0f58bf58a8",
+      "input_sha256": "40db5c47fa688c179fdec48eaf6f5c9a170fd69e4e89b5cbba0beaebad94432e",
       "output": "docs/quality-round-two/evidence/after/buildings/bakery-gray.png",
-      "output_sha256": "23f7dcdaa4d62676ca9c836344f8e8abeab3c858ada39963bf3917d767619e13",
+      "output_sha256": "984950c554642654291d6966390209eb4a74c64329f023d2acc1998a9cec435d",
       "recipe": [
         "magick",
         "docs/quality-round-two/evidence/after/buildings/bakery.png",
@@ -36,7 +36,7 @@
       "input": "docs/quality-round-two/evidence/before/buildings/magic_academy.png",
       "input_sha256": "018fa10bb453ba74200fad9dcc4d8e1e127b850d5a564b05796fb05421562003",
       "output": "docs/quality-round-two/evidence/before/buildings/magic_academy-gray.png",
-      "output_sha256": "acc63f6a5c06939f2e48a99a4623cebcd81d5fb65cc55c67260a8fe878430e39",
+      "output_sha256": "aef4f13ceba6fab18f7bc26594e582f37c02a05ccb6b7187fecb8b2bd009062d",
       "recipe": [
         "magick",
         "docs/quality-round-two/evidence/before/buildings/magic_academy.png",
@@ -49,9 +49,9 @@
     },
     {
       "input": "docs/quality-round-two/evidence/after/buildings/magic_academy.png",
-      "input_sha256": "3b6bef6ced7b8d6eda8be5f150c253aa8c463d0285f16596209a7635a385e362",
+      "input_sha256": "5007fc89faffa3d66d8c093e7ccc43748522886ab158817a70c2a1d961b21304",
       "output": "docs/quality-round-two/evidence/after/buildings/magic_academy-gray.png",
-      "output_sha256": "4151c15f39ba5eeba09a479995e394672a1adf873879afe0fc944b19ec194410",
+      "output_sha256": "66dd0113101e5d9889ed2a2930224b740cb390e8a1499a2e715afeaee6e18ccf",
       "recipe": [
         "magick",
         "docs/quality-round-two/evidence/after/buildings/magic_academy.png",
