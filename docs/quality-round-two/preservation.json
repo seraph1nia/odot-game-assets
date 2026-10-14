@@ -1,0 +1,46 @@
+{
+  "bakery": {
+    "unchanged_original_meshes_verified": 292,
+    "unchanged_embedded_kit_children_verified": 0,
+    "intended_focal_mesh_exceptions": [
+      "Woodland layered bakery porch cap"
+    ],
+    "source_sha256": "cdc3df04dd56a29335c10036e4c5c79b75852f089cac103626215d211a15bb78",
+    "scope": "World transforms, mesh positions/topology, all UV layers and material slot names; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
+  },
+  "weaver": {
+    "unchanged_original_meshes_verified": 510,
+    "unchanged_embedded_kit_children_verified": 1863,
+    "intended_focal_mesh_exceptions": [
+      "Woodland long draped dyed cloth"
+    ],
+    "source_sha256": "597cd9cde39f633f50d8f0110c9ffd2be304910f20636b1b766c7683a5c94535",
+    "scope": "World transforms, mesh positions/topology, all UV layers and material slot names; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
+  },
+  "magic_academy": {
+    "unchanged_original_meshes_verified": 468,
+    "unchanged_embedded_kit_children_verified": 6614,
+    "intended_focal_mesh_exceptions": [
+      "Academy glowing orb"
+    ],
+    "source_sha256": "be1daeb5b766c125ca1e75b6e9cbecd06c137c13f41556ff0e760533bca74b37",
+    "scope": "World transforms, mesh positions/topology, all UV layers and material slot names; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
+  },
+  "town_hall": {
+    "unchanged_original_meshes_verified": 1023,
+    "unchanged_embedded_kit_children_verified": 5863,
+    "intended_focal_mesh_exceptions": [
+      "Golden civic bell",
+      "Bell clapper"
+    ],
+    "source_sha256": "d32a91474518dc68f3fda768b765f1d7740defe4bf6fd1cdccd1d5155555fcb6",
+    "scope": "World transforms, mesh positions/topology, all UV layers and material slot names; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
+  },
+  "woodcutter_hut": {
+    "unchanged_original_meshes_verified": 324,
+    "unchanged_embedded_kit_children_verified": 0,
+    "intended_focal_mesh_exceptions": [],
+    "source_sha256": "03cd49851c777aae0f5459d088357f2ac4139b5b68384dd5c60db09f2f0647f8",
+    "scope": "World transforms, mesh positions/topology, all UV layers and material slot names; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
+  }
+}

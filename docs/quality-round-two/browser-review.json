@@ -1,0 +1,44 @@
+{
+  "mode": "Task-private headless official Chrome for Testing, named chrome-devtools-axi session odot-quality-round-two-local, private browser profile; no actual-game process",
+  "page": "docs/quality-round-two/actual-review.html",
+  "page_sha256": "1fcb20b4b1db3a31dbb5b0902c991281c5acef6e76b66303721a9b73f2d2f030",
+  "displayed_images": 20,
+  "loaded_images": 20,
+  "desktop": {
+    "viewport_width": 1905,
+    "document_width": 1905
+  },
+  "narrow": {
+    "viewport_width": 390,
+    "document_width": 390
+  },
+  "inspection": "Actual full before/after and 96px pairs for all five buildings inspected; 192 derivatives and supplementary grayscale inspected directly. Agent provisional acceptance only.",
+  "screenshots_local": [
+    {
+      "path": ".cache/quality-round-two/browser-academy.png",
+      "sha256": "d14a60db46ad511bcd8366908d0429bbdf667fae4bda09903b9f5a7d1078418a"
+    },
+    {
+      "path": ".cache/quality-round-two/browser-hall.png",
+      "sha256": "0789523491faa736505ddfa1ba3008a3a4f1cea9d0213a31cd1f07719a2fb7f7"
+    },
+    {
+      "path": ".cache/quality-round-two/browser-lumber-safe.png",
+      "sha256": "b1fb8bad59032e4b97334fce794d9657199b05839dab8c63618c6b238a20a5f5"
+    },
+    {
+      "path": ".cache/quality-round-two/browser-lumber.png",
+      "sha256": "0789523491faa736505ddfa1ba3008a3a4f1cea9d0213a31cd1f07719a2fb7f7"
+    },
+    {
+      "path": ".cache/quality-round-two/browser-top.png",
+      "sha256": "9844482d8782e1d069b8171305f11f9750f215218f7f8fa5aa77c84c4392185d"
+    },
+    {
+      "path": ".cache/quality-round-two/browser-weaver.png",
+      "sha256": "bbf804899f67082bc11d2e176892eb297277a2101fe73c0cddcae767dfd43eea"
+    }
+  ],
+  "dependency_provenance": "browser-provenance.json",
+  "scope": "No shared bridge/profile/global configuration changes; receipt is not a GPU or artist qualification"
+}

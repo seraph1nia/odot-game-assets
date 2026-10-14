@@ -68,6 +68,8 @@ jobs:
         run: python -m tools.asset_pack.worker tools/asset_pack/test_attachments_blender.py
       - name: Test shared art style with Blender fixtures and GLB texture exports
         run: python -m tools.asset_pack.worker tools/asset_pack/test_style_blender.py --label style-tests
+      - name: Test selective focal edits and independent growth preservation
+        run: python -m tools.asset_pack.worker tools/asset_pack/test_quality_round_two_blender.py --label quality-two-fixtures
       - name: Check authored sources against the shared art style
         run: python -m tools.asset_pack.worker tools/asset_pack/verify_style_blender.py --label asset-style-check --all
       - name: Verify geometry, materials, rigs, animation playback, and shared meshes

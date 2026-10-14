@@ -37,6 +37,13 @@ motifs, numeric targets or production quality work need separately scoped approv
 
 ## Revision record
 
+- 2026-10-14: authorized second quality round clarifies D05: recover quiet planes
+  and working-cue negative space within the retained abundant woodland growth;
+  consolidate only independent static contact clusters, preserving kit ownership,
+  UVs and material boundaries. Actual landed academy/weaver/town-hall previews
+  show competing roof coverage; see [second-round evidence](../../../../docs/quality-round-two/README.md).
+  No renderer/default/kit version or numeric density target changes.
+
 - 2026-10-13: authorized full asset-overhaul direction supersedes bright/clean
   baseline choices in D01/D03/D05: individual role caricature, substantially more
   planted roots/moss/vines and purposeful layers, muted bodies with restrained

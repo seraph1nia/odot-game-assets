@@ -1,0 +1,222 @@
+{
+  "runtime": "Blender 5.2.2 LTS d13f752e3b9c; CPU renders; Python 3.11",
+  "qualification": "Local headless/CPU evidence only; not forge CI, game/GPU/artist/motion acceptance",
+  "commands": [
+    {
+      "command": "mise run check",
+      "result": "passed: 99 tests, Ruff, Python/JavaScript syntax, worker safety",
+      "log": ".cache/quality-round-two/evidence-logs/01-check.log",
+      "log_sha256": "49616dbc7847191bb8cd80ea014faef5c14e0d7dbeea83b46a5b23657424ad13"
+    },
+    {
+      "command": "mise run style-tests",
+      "result": "passed: 27 Blender fixtures",
+      "log": ".cache/quality-round-two/evidence-logs/02-style-tests.log",
+      "log_sha256": "df761592f65cf0f329476c05b0b76585d60ea16385cc8000afc419d5b2d922ef"
+    },
+    {
+      "command": "mise run asset-style-check -- --all",
+      "result": "passed: 118 authored selections",
+      "log": ".cache/quality-round-two/evidence-logs/03-asset-style-check.log",
+      "log_sha256": "b0e7fcd2d5534b0dcd1e137142a2b7d9fe1bacdac0dda5526aa8c260234eb8a6"
+    },
+    {
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/test_quality_round_two_blender.py --label quality-two-fixtures",
+      "result": "passed: actual Blender geometry/ownership/material/UV fixtures",
+      "log": ".cache/quality-round-two/evidence-logs/04-quality-two-fixtures.log",
+      "log_sha256": "30de0474e09ca5a534414a9302757a321925f1fc8e670fa1cf8e9c9040dfa737"
+    },
+    {
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_quality_round_two_blender.py --label quality-two-preservation",
+      "result": "passed: five source comparisons",
+      "log": ".cache/quality-round-two/evidence-logs/05-quality-two-preservation.log",
+      "log_sha256": "76661d04f4d71234b5eef3a9aa76573a85de0359428907b52b2950fea82a3aeb"
+    },
+    {
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_painted_blender.py --label quality-two-painted buildings/bakery buildings/weaver buildings/magic_academy buildings/town_hall buildings/woodcutter_hut",
+      "result": "passed: five sources/exported channel sets",
+      "log": ".cache/quality-round-two/evidence-logs/06-quality-two-painted.log",
+      "log_sha256": "3354aa1f49a875292247712d234515befe26e0deb09f80fce18582d29ff074c0"
+    },
+    {
+      "command": "python3 -m tools.asset_catalog build",
+      "result": "passed: 133 assets packaged",
+      "log": ".cache/quality-round-two/evidence-logs/07-catalog-build.log",
+      "log_sha256": "56c8bbd635ecd34f83d06bf31546e96053a9c6d056d910fb9747a45acce7a73c"
+    }
+  ],
+  "assets": {
+    "buildings/bakery": {
+      "round_trip": {
+        "asset": "bakery",
+        "asset_id": "buildings/bakery",
+        "round_trip_max_bounds_error": 0.0,
+        "geometry_finite": true,
+        "source_sha256": "cdc3df04dd56a29335c10036e4c5c79b75852f089cac103626215d211a15bb78",
+        "glb_sha256": "3929ec8bf7b14b432f43e9cb670639903908b8bd8cca948b719aef8b89de5a07"
+      },
+      "painted": {
+        "asset_id": "buildings/bakery",
+        "textured_materials": 7,
+        "embedded_images": 14,
+        "uvs_and_material_channels_verified": true
+      },
+      "saved_source_preview": {
+        "image": "exports/previews/bakery.png",
+        "sha256": "eebbb40558dd205a491014d4d39df4c1c5028089046fa611df117fb6ada2ffb5",
+        "source_sha256": "cdc3df04dd56a29335c10036e4c5c79b75852f089cac103626215d211a15bb78",
+        "scope": "Supplementary saved Area-light presentation; not matched canonical neutral views"
+      },
+      "thumbnail": {
+        "image": "exports/thumbnails/buildings/bakery.png",
+        "sha256": "78d09928463113f507a63f45e2688c14264bb2cc1dc7c3ad439a41e73d0a361e",
+        "export_sha256": "3929ec8bf7b14b432f43e9cb670639903908b8bd8cca948b719aef8b89de5a07",
+        "renderer_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+        "scope": "Separate catalog neutral render, not the combined woodland-render derivative fingerprint"
+      }
+    },
+    "buildings/weaver": {
+      "round_trip": {
+        "asset": "weaver",
+        "asset_id": "buildings/weaver",
+        "round_trip_max_bounds_error": 0.0,
+        "geometry_finite": true,
+        "source_sha256": "597cd9cde39f633f50d8f0110c9ffd2be304910f20636b1b766c7683a5c94535",
+        "glb_sha256": "1d160012038c4de826ae01c553d545ac4e572729857e552218967bfdc9b603bf",
+        "shared_kit_instances": {
+          "lantern": 1,
+          "open_barrel": 2,
+          "roof_tile": 44,
+          "shrub": 4
+        }
+      },
+      "painted": {
+        "asset_id": "buildings/weaver",
+        "textured_materials": 33,
+        "embedded_images": 38,
+        "uvs_and_material_channels_verified": true
+      },
+      "saved_source_preview": {
+        "image": "exports/previews/weaver.png",
+        "sha256": "ba4e24857fbaf4f14c4ea569a22b7d101b2f2797ff8ddd4798c7bb0188592bea",
+        "source_sha256": "597cd9cde39f633f50d8f0110c9ffd2be304910f20636b1b766c7683a5c94535",
+        "scope": "Supplementary saved Area-light presentation; not matched canonical neutral views"
+      },
+      "thumbnail": {
+        "image": "exports/thumbnails/buildings/weaver.png",
+        "sha256": "e0977e2bcac1e3f0e17ec727a3b457de7875bb492edea34ee355b41592b2c6e6",
+        "export_sha256": "1d160012038c4de826ae01c553d545ac4e572729857e552218967bfdc9b603bf",
+        "renderer_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+        "scope": "Separate catalog neutral render, not the combined woodland-render derivative fingerprint"
+      }
+    },
+    "buildings/magic_academy": {
+      "round_trip": {
+        "asset": "magic_academy",
+        "asset_id": "buildings/magic_academy",
+        "round_trip_max_bounds_error": 0.0,
+        "geometry_finite": true,
+        "source_sha256": "be1daeb5b766c125ca1e75b6e9cbecd06c137c13f41556ff0e760533bca74b37",
+        "glb_sha256": "37149250ae8faa9797b1d4428fb1afe1f7a64af71cb80df6b114da15d148671a",
+        "shared_kit_instances": {
+          "book": 3,
+          "lantern": 1,
+          "roof_tile": 44,
+          "shrub": 4,
+          "stone_block": 132
+        }
+      },
+      "painted": {
+        "asset_id": "buildings/magic_academy",
+        "textured_materials": 9,
+        "embedded_images": 13,
+        "uvs_and_material_channels_verified": true
+      },
+      "saved_source_preview": {
+        "image": "exports/previews/magic_academy.png",
+        "sha256": "50074dc6fea2ac8bbc3c0c4f6d3b4b663cc941669d062d99ce11982c75f7be84",
+        "source_sha256": "be1daeb5b766c125ca1e75b6e9cbecd06c137c13f41556ff0e760533bca74b37",
+        "scope": "Supplementary saved Area-light presentation; not matched canonical neutral views"
+      },
+      "thumbnail": {
+        "image": "exports/thumbnails/buildings/magic_academy.png",
+        "sha256": "e373f0c26d9b87613b45a0fd9bc873cb14bddfd860f4a3e42aa6838fddea253f",
+        "export_sha256": "37149250ae8faa9797b1d4428fb1afe1f7a64af71cb80df6b114da15d148671a",
+        "renderer_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+        "scope": "Separate catalog neutral render, not the combined woodland-render derivative fingerprint"
+      }
+    },
+    "buildings/town_hall": {
+      "round_trip": {
+        "asset": "town_hall",
+        "asset_id": "buildings/town_hall",
+        "round_trip_max_bounds_error": 0.0,
+        "geometry_finite": true,
+        "source_sha256": "d32a91474518dc68f3fda768b765f1d7740defe4bf6fd1cdccd1d5155555fcb6",
+        "glb_sha256": "52ec95fb0c0c003ecb2566448a1899a60d8f23c4b09c84d93d5739034a56efab",
+        "shared_kit_instances": {
+          "bench": 1,
+          "lantern": 2,
+          "roof_tile": 128,
+          "shrub": 4,
+          "stone_block": 20
+        }
+      },
+      "painted": {
+        "asset_id": "buildings/town_hall",
+        "textured_materials": 31,
+        "embedded_images": 36,
+        "uvs_and_material_channels_verified": true
+      },
+      "saved_source_preview": {
+        "image": "exports/previews/town_hall.png",
+        "sha256": "c2ba00847c46b25ae0468932edc8ec83f7eb41509e846d9daa1d0c53f2afd1cf",
+        "source_sha256": "d32a91474518dc68f3fda768b765f1d7740defe4bf6fd1cdccd1d5155555fcb6",
+        "scope": "Supplementary saved Area-light presentation; not matched canonical neutral views"
+      },
+      "thumbnail": {
+        "image": "exports/thumbnails/buildings/town_hall.png",
+        "sha256": "a0e58e2a1abce33e94e108e8c2f1d50e8868ca1072db933bbe814325487b0b10",
+        "export_sha256": "52ec95fb0c0c003ecb2566448a1899a60d8f23c4b09c84d93d5739034a56efab",
+        "renderer_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+        "scope": "Separate catalog neutral render, not the combined woodland-render derivative fingerprint"
+      }
+    },
+    "buildings/woodcutter_hut": {
+      "round_trip": {
+        "asset": "woodcutter_hut",
+        "asset_id": "buildings/woodcutter_hut",
+        "round_trip_max_bounds_error": 0.0,
+        "geometry_finite": true,
+        "source_sha256": "03cd49851c777aae0f5459d088357f2ac4139b5b68384dd5c60db09f2f0647f8",
+        "glb_sha256": "bb9382c8f3aaaefa3558723e0c2bdbe4ef5868853e43a644dbdfd53d57995336"
+      },
+      "painted": {
+        "asset_id": "buildings/woodcutter_hut",
+        "textured_materials": 8,
+        "embedded_images": 13,
+        "uvs_and_material_channels_verified": true
+      },
+      "saved_source_preview": {
+        "image": "exports/previews/woodcutter_hut.png",
+        "sha256": "872338ac0b89b4b3845d786fbf0d53ea3ac4aa7c0e54fad17c56e60348e9cccf",
+        "source_sha256": "03cd49851c777aae0f5459d088357f2ac4139b5b68384dd5c60db09f2f0647f8",
+        "scope": "Supplementary saved Area-light presentation; not matched canonical neutral views"
+      },
+      "thumbnail": {
+        "image": "exports/thumbnails/buildings/woodcutter_hut.png",
+        "sha256": "162f2cd7bf8ff31467012d9ecc76f2978ea05eeb07d17986eee4e56564d7d970",
+        "export_sha256": "bb9382c8f3aaaefa3558723e0c2bdbe4ef5868853e43a644dbdfd53d57995336",
+        "renderer_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+        "scope": "Separate catalog neutral render, not the combined woodland-render derivative fingerprint"
+      }
+    }
+  },
+  "tool_sha256": {
+    "tools/asset_pack/quality_round_two.py": "ec88e6561d55b3641dba5a98325867d34dcbfc82689b085042b83351817a6c80",
+    "tools/asset_pack/quality_round_two_review.py": "4129a66ac677f54133ded1bab678dd4bced7d21110e326ecb5f2a5e86c6e51f5",
+    "tools/asset_pack/verify_quality_round_two_blender.py": "6613f03fbf4e5930fca08cedc5b5e1fc32f72f3b235861bae4b79b182c941d5a",
+    "tools/asset_pack/test_quality_round_two_blender.py": "93c71cbafcb59e1ee4ce9bb8bd6a680a804694c1b1938bb7767a30d20423cdc7",
+    "tools/asset_pack/test_quality_round_two_review.py": "cc9d1b3df087f16bc017cbe483cb5fdae634e36c5d4bb90ba83a592515ca7b66"
+  }
+}

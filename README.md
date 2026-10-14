@@ -11,7 +11,8 @@ invocable skills. Pi discovers project `.agents/skills/` entries on demand;
 `/skill:asset-art-direction` explicitly loads this entry. Other clients' discovery
 must be verified separately.
 
-- [Current Whisperwood analysis, full inventory and completion evidence](docs/whisperwood/README.md)
+- [Current selective quality round: full inventory, focal edits and actual evidence](docs/quality-round-two/README.md)
+- [Landed first-round Whisperwood analysis, inventory and baseline evidence](docs/whisperwood/README.md)
 - [Reference authority and supplied-image inventory](.agents/skills/asset-art-direction/references/index.md)
 - [D01–D09 visual standards](.agents/skills/asset-art-direction/design/index.md)
 - [Concrete Blender procedures](.agents/skills/asset-art-direction/blender/index.md)
@@ -292,8 +293,10 @@ The three root overview assemblies below and their aggregate renders are
 **historical**, not synchronized Whisperwood outputs: they retain manual assembly
 edits rather than being blindly rebuilt. All 133 canonical catalog entries and
 additional dependency decisions are covered in the
-[selective refinement ledger](docs/whisperwood/completion.json); current individual
-sources, GLBs, thumbnails and authored presentation renders are refreshed.
+[first-round refinement ledger](docs/whisperwood/completion.json); the
+[current second-round inventory](docs/quality-round-two/inventory.json) supersedes
+its five changed building rows without rewriting historical renderer/image bindings.
+Individual sources, GLBs, thumbnails and authored presentation renders are refreshed.
 The eight original PNGs from `new_autobattler_assets.zip` are preserved in
 `sources/reference/autobattler/`; its manifest records archive and image checksums.
 

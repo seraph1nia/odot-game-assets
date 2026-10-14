@@ -1,0 +1,395 @@
+{
+  "scope": "Actual CPU neutral GLBs; same canonical renderer and auto-fit, not fixed projection/game/GPU/artist acceptance",
+  "assets": {
+    "buildings/bakery": {
+      "before": {
+        "export_sha256": "d092210863a311eaabd49da14212128072c5daa39e62820d7a35b3fa0d084c9a",
+        "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+        "image": "docs/quality-round-two/evidence/before/buildings/bakery.png",
+        "image_sha256": "9d94c5517c05f5bdc5bc1ac0180b4c84964f65f896f2c40d3ac93cdfe3bf7e10",
+        "inspection_tiers": [
+          96,
+          192,
+          480
+        ],
+        "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+        "derived_images": {
+          "docs/quality-round-two/evidence/before/buildings/bakery-192.png": "af2b1f09ec7e6064780cd7f3bc7633ab51c48837b187800bb58a6db9f7f709bd",
+          "docs/quality-round-two/evidence/before/buildings/bakery-96.png": "2bca4f34fcd748663b125c0aef309fa3c10b03ddab36df8113269c7e54aba710"
+        },
+        "export_bytes": 2955572,
+        "facts": {
+          "bytes": 2955572,
+          "meshes": 363,
+          "triangles": 30343,
+          "materials": 20,
+          "animations": [],
+          "version": "d092210863a311eaabd49da14212128072c5daa39e62820d7a35b3fa0d084c9a"
+        },
+        "job": {
+          "job": "whisperwood-after-buildings-bakery",
+          "seconds": 4.73,
+          "log": ".cache/asset-check/logs/whisperwood-after-buildings-bakery.log"
+        },
+        "source_sha256": "c2be8989553f46cd7e2c08dd6444a951359658e906fba4421dc3189df21542a2",
+        "provenance": "Exact landed first-round after image bytes and canonical renderer/derivative binding; not re-rendered or reconstructed"
+      },
+      "after": {
+        "image": "docs/quality-round-two/evidence/after/buildings/bakery.png",
+        "image_sha256": "cbfc9e04ef4fa112a2d628627afe21c87dd45939c0640a5595fe2b0f58bf58a8",
+        "export_sha256": "3929ec8bf7b14b432f43e9cb670639903908b8bd8cca948b719aef8b89de5a07",
+        "source_sha256": "cdc3df04dd56a29335c10036e4c5c79b75852f089cac103626215d211a15bb78",
+        "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+        "inspection_tiers": [
+          96,
+          192,
+          480
+        ],
+        "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+        "job": {
+          "job": "quality-two-bakery",
+          "seconds": 2.85,
+          "log": ".cache/asset-check/logs/quality-two-bakery.log"
+        },
+        "derived_images": {
+          "docs/quality-round-two/evidence/after/buildings/bakery-192.png": "ecdd789c332b54f03555e0fbcea3681279cbe84f492dd51ba803bcf4bae4baa7",
+          "docs/quality-round-two/evidence/after/buildings/bakery-96.png": "1a5cf250bdca7cc491cc45f495e98c13ac56708e38813daa6880df0dff947aa6"
+        },
+        "facts": {
+          "bytes": 4648212,
+          "meshes": 361,
+          "triangles": 46003,
+          "materials": 22,
+          "animations": [],
+          "version": "3929ec8bf7b14b432f43e9cb670639903908b8bd8cca948b719aef8b89de5a07"
+        }
+      },
+      "resources_before": {
+        "active_mesh_nodes": 934,
+        "active_primitive_instances": 1331,
+        "active_triangle_instances": 46003,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      },
+      "resources_after": {
+        "active_mesh_nodes": 361,
+        "active_primitive_instances": 363,
+        "active_triangle_instances": 46003,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/weaver": {
+      "before": {
+        "export_sha256": "dbbd0b36ce597aaf056b55a0b806fa5c11c051772d3f45e7a77a264461f56084",
+        "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+        "image": "docs/quality-round-two/evidence/before/buildings/weaver.png",
+        "image_sha256": "6a547ef296d2b6a42b5d00402c8d5e6536a788dbe550808febda2db03fba9837",
+        "inspection_tiers": [
+          96,
+          192,
+          480
+        ],
+        "export_bytes": 6491624,
+        "facts": {
+          "bytes": 6491624,
+          "meshes": 461,
+          "triangles": 40254,
+          "materials": 44,
+          "animations": [],
+          "version": "dbbd0b36ce597aaf056b55a0b806fa5c11c051772d3f45e7a77a264461f56084"
+        },
+        "job": {
+          "job": "whisperwood-after-buildings-weaver",
+          "seconds": 4.76,
+          "log": ".cache/asset-check/logs/whisperwood-after-buildings-weaver.log"
+        },
+        "source_sha256": "d0291d7b3961e75d3415a562ea667142078e85ddad164b5a6c59dc33ee38ab43",
+        "derived_images": {
+          "docs/quality-round-two/evidence/before/buildings/weaver-192.png": "9066b2d270d1a3d720de82988827c530399bd35d5cc362a0ddfd3f0387642043",
+          "docs/quality-round-two/evidence/before/buildings/weaver-96.png": "7595c247b8d4dbe28876ddee01bda37a9a607aa7fcaee23ea6a6afa6dc8f4ca6"
+        },
+        "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+        "provenance": "Exact landed first-round after image bytes and canonical renderer/derivative binding; not re-rendered or reconstructed"
+      },
+      "after": {
+        "image": "docs/quality-round-two/evidence/after/buildings/weaver.png",
+        "image_sha256": "e990bb01e36a7bbc259d66080a93fef173af97f65a36dd1efbf0e1c45bb5d802",
+        "export_sha256": "1d160012038c4de826ae01c553d545ac4e572729857e552218967bfdc9b603bf",
+        "source_sha256": "597cd9cde39f633f50d8f0110c9ffd2be304910f20636b1b766c7683a5c94535",
+        "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+        "inspection_tiers": [
+          96,
+          192,
+          480
+        ],
+        "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+        "job": {
+          "job": "quality-two-weaver",
+          "seconds": 4.27,
+          "log": ".cache/asset-check/logs/quality-two-weaver.log"
+        },
+        "derived_images": {
+          "docs/quality-round-two/evidence/after/buildings/weaver-192.png": "8d33f1b8a1400e91de5914267be6a9e7b57e3bb1979197e39bfb6a55bde5aeb4",
+          "docs/quality-round-two/evidence/after/buildings/weaver-96.png": "4d3732107b12ac0826fe415eba3648641cc5f788f743bb7a88d5afa999a86c3d"
+        },
+        "facts": {
+          "bytes": 7593048,
+          "meshes": 465,
+          "triangles": 53026,
+          "materials": 44,
+          "animations": [],
+          "version": "1d160012038c4de826ae01c553d545ac4e572729857e552218967bfdc9b603bf"
+        }
+      },
+      "resources_before": {
+        "active_mesh_nodes": 2733,
+        "active_primitive_instances": 4270,
+        "active_triangle_instances": 108482,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      },
+      "resources_after": {
+        "active_mesh_nodes": 2202,
+        "active_primitive_instances": 3367,
+        "active_triangle_instances": 106650,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/magic_academy": {
+      "before": {
+        "export_sha256": "85de2e9a6d0cba92ac560eaa59e9bea7736386ef18255830225875f0a9e84657",
+        "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+        "image": "docs/quality-round-two/evidence/before/buildings/magic_academy.png",
+        "image_sha256": "018fa10bb453ba74200fad9dcc4d8e1e127b850d5a564b05796fb05421562003",
+        "inspection_tiers": [
+          96,
+          192,
+          480
+        ],
+        "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+        "derived_images": {
+          "docs/quality-round-two/evidence/before/buildings/magic_academy-192.png": "8a43dae2d88a11a69def7f1e461c1398a72f6cad88b9003089584d0b8ac1a258",
+          "docs/quality-round-two/evidence/before/buildings/magic_academy-96.png": "0bfbb10e426b86af6980ec35b7d8854c9824782950528318a0686f726cf66945"
+        },
+        "export_bytes": 5246836,
+        "facts": {
+          "bytes": 5246836,
+          "meshes": 311,
+          "triangles": 27774,
+          "materials": 41,
+          "animations": [],
+          "version": "85de2e9a6d0cba92ac560eaa59e9bea7736386ef18255830225875f0a9e84657"
+        },
+        "job": {
+          "job": "whisperwood-after-buildings-magic_academy",
+          "seconds": 8.11,
+          "log": ".cache/asset-check/logs/whisperwood-after-buildings-magic_academy.log"
+        },
+        "source_sha256": "3aa4f6283c48c49405d42351e10e6fa3e1f23b8f1a28a0ded2161b841efa0178",
+        "provenance": "Exact landed first-round after image bytes and canonical renderer/derivative binding; not re-rendered or reconstructed"
+      },
+      "after": {
+        "image": "docs/quality-round-two/evidence/after/buildings/magic_academy.png",
+        "image_sha256": "3b6bef6ced7b8d6eda8be5f150c253aa8c463d0285f16596209a7635a385e362",
+        "export_sha256": "37149250ae8faa9797b1d4428fb1afe1f7a64af71cb80df6b114da15d148671a",
+        "source_sha256": "be1daeb5b766c125ca1e75b6e9cbecd06c137c13f41556ff0e760533bca74b37",
+        "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+        "inspection_tiers": [
+          96,
+          192,
+          480
+        ],
+        "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+        "job": {
+          "job": "quality-two-magic_academy",
+          "seconds": 5.7,
+          "log": ".cache/asset-check/logs/quality-two-magic_academy.log"
+        },
+        "derived_images": {
+          "docs/quality-round-two/evidence/after/buildings/magic_academy-192.png": "51a2ea859c12b7838a435197dcb3bf37ca34406f5c3c81d751d04d5e1fec4bab",
+          "docs/quality-round-two/evidence/after/buildings/magic_academy-96.png": "3297ec45e926a28341a7c516468c00f4fe2aa8ae62b559b8ffca5217a0f8d371"
+        },
+        "facts": {
+          "bytes": 6460936,
+          "meshes": 313,
+          "triangles": 42126,
+          "materials": 42,
+          "animations": [],
+          "version": "37149250ae8faa9797b1d4428fb1afe1f7a64af71cb80df6b114da15d148671a"
+        }
+      },
+      "resources_before": {
+        "active_mesh_nodes": 7495,
+        "active_primitive_instances": 12227,
+        "active_triangle_instances": 250918,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      },
+      "resources_after": {
+        "active_mesh_nodes": 6900,
+        "active_primitive_instances": 11218,
+        "active_triangle_instances": 248974,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/town_hall": {
+      "before": {
+        "export_sha256": "7753e94262a1230975aa4bea7f225553bd7f2143e17a8cd86944bfdaf1ec6420",
+        "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+        "image": "docs/quality-round-two/evidence/before/buildings/town_hall.png",
+        "image_sha256": "532543df6fb793f76d72fe0d849701102fc95dddfed5aa281d2ea9a016ef8697",
+        "inspection_tiers": [
+          96,
+          192,
+          480
+        ],
+        "export_bytes": 11314660,
+        "facts": {
+          "bytes": 11314660,
+          "meshes": 899,
+          "triangles": 90379,
+          "materials": 40,
+          "animations": [],
+          "version": "7753e94262a1230975aa4bea7f225553bd7f2143e17a8cd86944bfdaf1ec6420"
+        },
+        "job": {
+          "job": "whisperwood-after-buildings-town_hall",
+          "seconds": 9.44,
+          "log": ".cache/asset-check/logs/whisperwood-after-buildings-town_hall.log"
+        },
+        "source_sha256": "efb7b9210502271282083390575f3ed2efd58138938bf1b0f8d41750cbbee737",
+        "derived_images": {
+          "docs/quality-round-two/evidence/before/buildings/town_hall-192.png": "874ff76ddeb360f600be234e5de87b95d2b19ddcefb9ebd3ae07672bc6f6d908",
+          "docs/quality-round-two/evidence/before/buildings/town_hall-96.png": "7ed557dfb2a9238bf5705acb0db777278cc9c69c67f962656a894d78bf8d9f5f"
+        },
+        "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+        "provenance": "Exact landed first-round after image bytes and canonical renderer/derivative binding; not re-rendered or reconstructed"
+      },
+      "after": {
+        "image": "docs/quality-round-two/evidence/after/buildings/town_hall.png",
+        "image_sha256": "68f1d0ba2b7d0de78e1dd713d08777cc2bfb3e5512f35b9d52ce84b925144f90",
+        "export_sha256": "52ec95fb0c0c003ecb2566448a1899a60d8f23c4b09c84d93d5739034a56efab",
+        "source_sha256": "d32a91474518dc68f3fda768b765f1d7740defe4bf6fd1cdccd1d5155555fcb6",
+        "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+        "inspection_tiers": [
+          96,
+          192,
+          480
+        ],
+        "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+        "job": {
+          "job": "quality-two-town_hall",
+          "seconds": 7.31,
+          "log": ".cache/asset-check/logs/quality-two-town_hall.log"
+        },
+        "derived_images": {
+          "docs/quality-round-two/evidence/after/buildings/town_hall-192.png": "47fc435585b8deac28743471982c16b6aadd0d2e9f5e7134b549d183742d3105",
+          "docs/quality-round-two/evidence/after/buildings/town_hall-96.png": "db65b1857bcd52ee06454873649b355d9c442d399b508d42a1ed2953578afd5b"
+        },
+        "facts": {
+          "bytes": 12681100,
+          "meshes": 897,
+          "triangles": 106247,
+          "materials": 40,
+          "animations": [],
+          "version": "52ec95fb0c0c003ecb2566448a1899a60d8f23c4b09c84d93d5739034a56efab"
+        }
+      },
+      "resources_before": {
+        "active_mesh_nodes": 7143,
+        "active_primitive_instances": 11257,
+        "active_triangle_instances": 284099,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      },
+      "resources_after": {
+        "active_mesh_nodes": 6479,
+        "active_primitive_instances": 10144,
+        "active_triangle_instances": 281055,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/woodcutter_hut": {
+      "before": {
+        "export_sha256": "439466a669468aeca0bab31b014ffe12aa5b6b0451711fa576906307d5070f94",
+        "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+        "image": "docs/quality-round-two/evidence/before/buildings/woodcutter_hut.png",
+        "image_sha256": "ad1c5679a9ab27fe87a9c777cae7126d70ffa15ada87d53c8130ef8b5d5021a6",
+        "inspection_tiers": [
+          96,
+          192,
+          480
+        ],
+        "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+        "derived_images": {
+          "docs/quality-round-two/evidence/before/buildings/woodcutter_hut-192.png": "196dd7bc9c477c2c8e1b85fabf37e2ccb63c43cde8f5444bc407dc7c3331eea2",
+          "docs/quality-round-two/evidence/before/buildings/woodcutter_hut-96.png": "a599edcbc7fdd3764a454199ec991d2b08f0a846a227939a39353c6760e7e092"
+        },
+        "export_bytes": 3254260,
+        "facts": {
+          "bytes": 3254260,
+          "meshes": 364,
+          "triangles": 27717,
+          "materials": 25,
+          "animations": [],
+          "version": "439466a669468aeca0bab31b014ffe12aa5b6b0451711fa576906307d5070f94"
+        },
+        "job": {
+          "job": "whisperwood-after-buildings-woodcutter_hut",
+          "seconds": 4.37,
+          "log": ".cache/asset-check/logs/whisperwood-after-buildings-woodcutter_hut.log"
+        },
+        "source_sha256": "46453c2024d55cd78316e9cc1cb2a209b712434bb2a1822f997308a5a0529eef",
+        "provenance": "Exact landed first-round after image bytes and canonical renderer/derivative binding; not re-rendered or reconstructed"
+      },
+      "after": {
+        "image": "docs/quality-round-two/evidence/after/buildings/woodcutter_hut.png",
+        "image_sha256": "0bc23b841c1f06c82612d52ddfb0d4ccd84fb1843222af5150c13219a5e32656",
+        "export_sha256": "bb9382c8f3aaaefa3558723e0c2bdbe4ef5868853e43a644dbdfd53d57995336",
+        "source_sha256": "03cd49851c777aae0f5459d088357f2ac4139b5b68384dd5c60db09f2f0647f8",
+        "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+        "inspection_tiers": [
+          96,
+          192,
+          480
+        ],
+        "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+        "job": {
+          "job": "quality-two-woodcutter_hut",
+          "seconds": 3.1,
+          "log": ".cache/asset-check/logs/quality-two-woodcutter_hut.log"
+        },
+        "derived_images": {
+          "docs/quality-round-two/evidence/after/buildings/woodcutter_hut-192.png": "c9611b629fc37ce830bcb97d14c86b3f439142e8296cd30dcc1303a972fe823d",
+          "docs/quality-round-two/evidence/after/buildings/woodcutter_hut-96.png": "ad9dbf79e0c8f5297c1caead9a881ee7c2c8ba1b94890b6f310b71ebc8c5b4dc"
+        },
+        "facts": {
+          "bytes": 4752744,
+          "meshes": 364,
+          "triangles": 44821,
+          "materials": 25,
+          "animations": [],
+          "version": "bb9382c8f3aaaefa3558723e0c2bdbe4ef5868853e43a644dbdfd53d57995336"
+        }
+      },
+      "resources_before": {
+        "active_mesh_nodes": 980,
+        "active_primitive_instances": 1418,
+        "active_triangle_instances": 44469,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      },
+      "resources_after": {
+        "active_mesh_nodes": 364,
+        "active_primitive_instances": 373,
+        "active_triangle_instances": 44821,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    }
+  }
+}

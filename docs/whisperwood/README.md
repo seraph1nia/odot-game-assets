@@ -1,5 +1,12 @@
 # Whisperwood overhaul — direction, inventory and evidence
 
+This is the landed **first-round** record. The
+[second selective quality round](../quality-round-two/README.md) supersedes five
+building source/export/image rows; the other 128 catalog entries are retained.
+The exact renderer/derivative bindings below remain historical first-round evidence,
+not fresh qualification of changed second-round sources. Do not rewrite this ledger
+with later exports or rerun its authoring/report scripts as a current-round refresh.
+
 ## Direction analysis (before implementation)
 
 The supplied [board](../../sources/reference/whisperwood/direction.png) is an
