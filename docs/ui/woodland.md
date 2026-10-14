@@ -1,5 +1,14 @@
 # Woodland Ledger — HUD/menu adaptation
 
+## Whisperwood selective refresh
+
+The six ornament palette refinements and unchanged native code/layout/seal are
+recorded in [the overhaul ledger](../whisperwood/README.md). See
+[Worldtree qualification](worldtree.md#whisperwood-selective-refresh) for the
+current standalone native campaign and shipping evidence. Earlier Ledger/woodland
+receipts below are historical at their original inputs, not newly rebound proof.
+No UI redesign, actual-game integration or native-GPU/artist acceptance is claimed.
+
 The supplied [hud.png](references/hud.png) is retained unchanged, with
 [source/hash provenance](references/README.md). This redo extends the **existing
 native Ledger kit** and authoring hosts. It does not introduce a second UI

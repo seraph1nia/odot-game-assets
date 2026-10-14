@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
-<!-- Original editable woodland border. 28px protected corners, no text or scene imagery. -->
+<!-- Original editable woodland border; muted Whisperwood ornamental bodies. Native 40px protected corners, no text or scene imagery. -->
 <defs>
  <radialGradient id="ink"><stop stop-color="#22222c"/><stop offset="1" stop-color="#11131c"/></radialGradient>
- <linearGradient id="bark" x2="0.4" y2="1"><stop stop-color="#986349"/><stop offset=".4" stop-color="#593c36"/><stop offset="1" stop-color="#302527"/></linearGradient>
- <linearGradient id="leaf" x2=".7" y2="1"><stop stop-color="#b2ab53"/><stop offset=".45" stop-color="#667b38"/><stop offset="1" stop-color="#304d38"/></linearGradient>
- <linearGradient id="violet" x2=".6" y2="1"><stop stop-color="#dcb3ff"/><stop offset=".4" stop-color="#9452cb"/><stop offset="1" stop-color="#403477"/></linearGradient>
+ <linearGradient id="bark" x2="0.4" y2="1"><stop stop-color="#786657"/><stop offset=".4" stop-color="#51443e"/><stop offset="1" stop-color="#302d2b"/></linearGradient>
+ <linearGradient id="leaf" x2=".7" y2="1"><stop stop-color="#8a9369"/><stop offset=".45" stop-color="#59694b"/><stop offset="1" stop-color="#34483b"/></linearGradient>
+ <linearGradient id="violet" x2=".6" y2="1"><stop stop-color="#bdb3c6"/><stop offset=".4" stop-color="#71617d"/><stop offset="1" stop-color="#454253"/></linearGradient>
 </defs>
 <rect x="7" y="7" width="146" height="146" rx="23" fill="url(#ink)" stroke="#17161c" stroke-width="8"/>
 <path d="M29 10 C51 4 68 12 80 8 S114 8 130 10 Q154 15 151 36 C145 65 157 81 149 105 S158 135 134 150 C104 154 91 147 78 152 S43 146 27 150 Q6 146 10 124 C16 101 6 87 11 73 S6 44 10 28 Q12 13 29 10Z" fill="none" stroke="#251e22" stroke-width="12"/>

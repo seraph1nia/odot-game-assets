@@ -10,6 +10,13 @@ This skill provides guidance, **not permission** to rebuild, render, export,
 change shared defaults or start a quality pilot. Preserve manual source/map edits.
 Use isolated workers for authorized operations; keep desktop Blender for review.
 
+For the current overgrown woodland direction, first read
+[W0 authority](references/index.md#whisperwood) and the applicable D01/D03/D05
+rule owners: stronger individual role caricature, muted weathered bodies and
+substantially layered planted growth. Distinguish authored adaptation from
+illustrative fidelity. [The overhaul inventory](../../../docs/whisperwood/README.md)
+tracks actual outputs; guidance installation is not completion.
+
 Resolve the selected canonical asset ID and intended picture through the
 [reference index](references/index.md). Read the relevant family and procedure
 below, then that procedure's primary design rule. Do not load every leaf.

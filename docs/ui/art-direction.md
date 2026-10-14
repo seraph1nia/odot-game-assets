@@ -1,6 +1,11 @@
 # Historical M0 artistic proposal — Ledger subsequently approved
 
-**Current visual direction:** [woodland Ledger](woodland.md), adapting the supplied
+**Current visual direction:** [woodland Ledger](woodland.md#whisperwood-selective-refresh)
+owns the selective Whisperwood adaptation and preserved UI contracts;
+[Worldtree qualification](worldtree.md#whisperwood-selective-refresh) selects
+current source-bound captures and package evidence. The proposal below is historical.
+
+The retained baseline adapts the supplied
 [HUD reference](references/README.md). Original editable SVG/frame/icon/vignette and
 font/license provenance live in [woodland-art.json](woodland-art.json); the original
 small seal remains unchanged. Current acceptance is owned by

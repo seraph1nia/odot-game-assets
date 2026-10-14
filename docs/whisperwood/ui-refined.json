@@ -1,0 +1,71 @@
+{
+  "scope": "Six selected SVG ornamental palettes; no UI redesign, runtime code, native layout or original seal change",
+  "changes": {
+    "art/woodland/branch_frame.svg": {
+      "before": "cb0aca39770e057cd90ec6fc021e80cc9a9961ea515cefeee34166684b5d91c0",
+      "after": "8551d9ce037fe931bbf482e30ea1026dad866fcdc50b49dbf6a033f0b6cd3657",
+      "refined": "saturated ornament body palette only",
+      "retained": "SVG path geometry, dimensions, alpha ownership, native state/text/behavior"
+    },
+    "art/woodland/woodland_corners.svg": {
+      "before": "bd285cb4c35641833689bbdf64364ff345ac0a9b9a8ee6715656a0c4839c6753",
+      "after": "aaaa2be06b9a920e0a2478b49a16bc52488c5a30254f32b9d55c808f52b688a1",
+      "refined": "saturated ornament body palette only",
+      "retained": "SVG path geometry, dimensions, alpha ownership, native state/text/behavior"
+    },
+    "art/woodland/parchment_button.svg": {
+      "before": "98398d1e0bc3f811bcc205a61726e30c2162d3159368e146f542203bfc674e5e",
+      "after": "bd36470e0318302584f040bcb5e57f6d0f54782535aaac9fe9370935120f6613",
+      "refined": "saturated ornament body palette only",
+      "retained": "SVG path geometry, dimensions, alpha ownership, native state/text/behavior"
+    },
+    "art/woodland/resource_icons.svg": {
+      "before": "5c6506c29d9b111f4c78633fcbf422fd28c15aea961d8aac36a578bd950138cd",
+      "after": "68dd1e8623b8144bf558f3a575872175a31a776f0bafb53b454a22fe3e2588be",
+      "refined": "saturated ornament body palette only",
+      "retained": "SVG path geometry, dimensions, alpha ownership, native state/text/behavior"
+    },
+    "art/worldtree/foliage_alive.svg": {
+      "before": "a4e5b862175483d32ed5e3c0375de6a3e552658279f616d6b139e903c9c13a5d",
+      "after": "595088562f27f3f25238125a03ca0704cff93b93ab6b660b26a6d0d7999092b9",
+      "refined": "saturated ornament body palette only",
+      "retained": "SVG path geometry, dimensions, alpha ownership, native state/text/behavior"
+    },
+    "art/worldtree/roots_alive.svg": {
+      "before": "b8aaa47b4919d5e3a85f5c7d57cc546c25f92cdc97f1a32a289677957b8752b1",
+      "after": "9888f2613d6bf33c6c613cd177ded2116387fa87eb5a235d7f8efae81963b3d4",
+      "refined": "saturated ornament body palette only",
+      "retained": "SVG path geometry, dimensions, alpha ownership, native state/text/behavior"
+    }
+  },
+  "seal_sha256": "cf3e2ceb4510be6d6a052e882597c2313216e2268a9aaa61fdf1d7e1308d2ced",
+  "retained_native_files": {
+    "ui_helpers.gd": "275d370115a6004c929908511943e44550f433bd82654fec7729e924b659a532",
+    "art/menu_seal.png": "cf3e2ceb4510be6d6a052e882597c2313216e2268a9aaa61fdf1d7e1308d2ced",
+    "components/army_roster.gd": "921f7dbdb8f7859e807fcf3655157886e9e90faed2957551aff9102a4088eeab",
+    "components/army_roster.tscn": "0e0f0675c60fe152c65ab3bc3421a26a1da1f76baf8ffb1ad93f084e6262db02",
+    "components/city_navigation.gd": "af62a4e98958567bf99e9c43bfbc67f9d749c5ece1c00b3405ffa0b770e7b024",
+    "components/city_navigation.tscn": "18ecf9ae05484ada6b8f357946ebbf853dc0d4bdedbc60cc391334e2a63eec68",
+    "components/modal.gd": "b97a2971f4b16e869dd6435cde13ff87f246d6266e0275fa1c2ab992479ddc8b",
+    "components/modal.tscn": "6a5760a99e15c2b9739e55f8da11e152a004f5b71400352cf64071b9938db699",
+    "components/resource_ledger.tscn": "68d2a237795eb6da03109f48d806a357c4a267ca0bd36ce55aea5af3ce9b5ac2",
+    "components/session_feedback.gd": "565c86855b59c72c47d901013bcc8ad79f2c947453a64816d487f9b247e0c927",
+    "components/session_feedback.tscn": "c613eeaf9cf3ab0affb0e54a60822b80328c661b16b47b8dddb6a87c95b8ca42",
+    "components/unit_inspection.gd": "037a8413120d1d3c703123220650eed4a7bf2032e26558ef9d7b0512bc4d8997",
+    "components/unit_inspection.tscn": "248c17dbe9ceab0a3610dc2cba77b7066dd6cfb9f4f2c6bba6ed3bd19d24d6b0",
+    "components/upkeep_summary.gd": "feb5832f8d06316b9a2b9e4f852b8839cba498c19c33d57d584f1b321fde1fb0",
+    "components/upkeep_summary.tscn": "4e86a0129d5a1f1132d95bd0293b7e3c79a4bc783c0b4f3f6a5ebe019e88454e",
+    "components/skill_tree.tscn": "bc052ea039eb4be323910a542e76ae78214986acb62a2499d5b5293b6a98d5e3",
+    "components/skill_tree.gd": "e979867a5260156271d44d731aefa720b76ca3b6555e09e6c5e513b33e329fc0",
+    "components/match_controls.gd": "afeca8cd9f2b44c748e2aae51eb20dc7a90d136814d4d1528df898a4bc2ea3fa",
+    "components/match_controls.tscn": "3e7fd4ae576e86d7b1a2d6ccfe9a8149337a0807cfbb701aa3c454b44b4c30d3",
+    "components/quoted_action.gd": "5045e31ab3537603a691e20bf19c982a46895e11f65bbc317035a27b5611ba3e",
+    "components/quoted_action.tscn": "a5cc1c72220fe5c3ba3ddbc704ede385b6aa5698c41c8fbc568b77fc64304214",
+    "components/resource_ledger.gd": "82b7f6578053063bdfe2a266023f893d0bd4fdb6522308dab4246914dd799e74",
+    "components/worldtree_branch.gd": "cdfd67aa07bc761cce5cad119dfb947106e09d9111a700004261e5cd9db7d0c5",
+    "components/worldtree.tscn": "f9c18f707e0aa222d23f934172caf02637b825d18c65737c17f27dd2ea0b3480",
+    "components/worldtree.gd": "a8392bf39f46d1d2e84312a50bc87665c62a1be34dc03973f7fce72ab154dcb0",
+    "theme/ledger.tres": "e5ee7852f2873c274155c363ec5b93c9d01f6ba9dcf81f69f7a0921726f46ca5",
+    "fonts/DejaVuSerif.ttf": "ae665174c5b7fdb9b457d112db098cbe651dff847bfcf8bcb711172856d0c6b1"
+  }
+}

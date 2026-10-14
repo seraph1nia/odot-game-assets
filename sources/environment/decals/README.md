@@ -38,9 +38,11 @@ new catalog export schema, dynamic light or game integration is included.
   may reuse alpha for very faint localized rune emission; never treat the full
   square as a light source or bake fog/bloom/directional lighting into these files.
 
-All four exports total 97,676 compressed bytes. Full decoded RGBA is 4 MiB for
+Compressed byte sizes are generated in [the decal receipts](../../../docs/dreamlike-forest/decals.json);
+[Whisperwood refinement evidence](../../../docs/whisperwood/decals-refined.json)
+binds the palette refresh and unchanged alpha coverage. Full decoded RGBA is 4 MiB for
 both sets separately (four images × 512² × four bytes), before consumer mips and
 compression; source/export copies need not both be loaded at runtime. This is a
 storage/format statement, not a GPU-memory or performance measurement.
-A neutral-background inspection sheet is in
+A historical, pre-Whisperwood neutral-background inspection sheet is in
 [`docs/dreamlike-forest/evidence/decals-dark.png`](../../../docs/dreamlike-forest/evidence/decals-dark.png).

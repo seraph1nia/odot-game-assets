@@ -1,5 +1,10 @@
 # Dreamlike forest art pass
 
+This report and its model source/export/render bindings describe the historical
+pre-Whisperwood pass, not the current asset bytes. For the superseding saved-source
+refinement and current per-ID evidence, see [Whisperwood](../whisperwood/README.md).
+Decal usage remains owned by [the source texture guide](../../sources/environment/decals/README.md).
+
 ## Scope and predeclared hypotheses
 
 Baseline: `102de2042734a4bffeff54642e483f249de0cd70`. The 239 original

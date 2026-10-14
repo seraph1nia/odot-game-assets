@@ -13,10 +13,13 @@ full-size viewing; [crop evidence](evidence.md) directs visual inspection.
 <a id="authority"></a>
 ## Authority and provenance
 
-The 26 existing PNGs across five supplied sets define intended visual evidence.
-They map to 32 asset views (seven board crops plus 25 individual images).
-Their originals were visually inspected during the 2026-10-07 guidance scout;
-25 archive image dimensions/hashes matched the checked-in manifests. No original
+The 27 supplied PNGs include the superseding W0 direction board and 26
+historical PNGs across five earlier sets. W0 governs the current woodland
+palette/growth/role direction; earlier images retain functional/faction context.
+The historical sets map to 32 asset views (seven board crops plus 25 individual
+images), separately from W0. Those originals were visually inspected during the
+2026-10-07 guidance scout; 25 archive image dimensions/hashes matched the
+checked-in manifests. No original
 was edited. Archive hashes are recorded declarations: the archives themselves
 were not independently reverified.
 
@@ -44,6 +47,23 @@ project decisions/history, not fresh acceptance results. Still pictures cannot
 establish rig correctness, animation timing/appeal, rights or native GPU quality.
 Dreaming forest has no explicit supplied-reference association: see
 [authored adaptation](../families/environment.md#dreaming).
+
+<a id="whisperwood"></a>
+## W0 — Whisperwood direction (2026-10-13)
+
+The unmodified [direction board](../../../../sources/reference/whisperwood/direction.png)
+was supplied for this authorized overhaul; [provenance](../../../../sources/reference/whisperwood/PROVENANCE.md)
+and [manifest](../../../../sources/reference/whisperwood/manifest.json) bind source
+and bytes without inventing a license or creator. Eight illustrated panels
+show lumbermill, farm/bakery, gold mine, stonecutter, metal mine, weaver, market
+and town hall. They are not renders of our meshes. Other buildings, characters,
+props and terrain are authored adaptations of the transferable rules, not
+fabricated supplied turnarounds. Native UI has no W0 design.
+
+Use [analysis and inventory](../../../../docs/whisperwood/README.md) before a
+rollout claim. Preserve old associations for functional reference/history; cite
+W0 separately for the new art direction. The task explicitly authorizes tracking
+this supplied original; it does not establish rights for external redistribution.
 
 ## Board views
 

@@ -1,0 +1,2753 @@
+{
+  "buildings/archery_range": {
+    "selected_mesh_objects": 4957,
+    "added_detail_objects": 4365,
+    "detail_parts": {
+      "Woodland joint-following vine": 6,
+      "Woodland rack leather binding": 1,
+      "Woodland shared curved ivy leaf": 2935,
+      "Woodland shared moss cushion": 1419,
+      "Woodland spare curved field bow": 3,
+      "Woodland worn prop binding": 1
+    },
+    "original_objects_retained": 592,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -1.9542592763900757,
+        -2.1950364112854004,
+        -0.17244867980480194
+      ],
+      "high": [
+        2.0159504413604736,
+        1.4149999618530273,
+        5.261279582977295
+      ]
+    },
+    "bone_names": []
+  },
+  "buildings/arrow_tower": {
+    "selected_mesh_objects": 3618,
+    "added_detail_objects": 3279,
+    "detail_parts": {
+      "Woodland basket braided suspension": 2,
+      "Woodland joint-following vine": 6,
+      "Woodland shared curved ivy leaf": 2205,
+      "Woodland shared moss cushion": 1064,
+      "Woodland suspended supply basket": 1,
+      "Woodland worn prop binding": 1
+    },
+    "original_objects_retained": 339,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -1.7881499528884888,
+        -2.0640976428985596,
+        -0.17550085484981537
+      ],
+      "high": [
+        1.9310683012008667,
+        1.3300999402999878,
+        5.73423433303833
+      ]
+    },
+    "bone_names": []
+  },
+  "buildings/bakery": {
+    "selected_mesh_objects": 934,
+    "added_detail_objects": 642,
+    "detail_parts": {
+      "Woodland joint-following vine": 6,
+      "Woodland layered bakery porch cap": 1,
+      "Woodland shared curved ivy leaf": 397,
+      "Woodland shared moss cushion": 178,
+      "Woodland wheat ear": 48,
+      "Woodland wheat stalk": 12
+    },
+    "original_objects_retained": 292,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.2457287311553955,
+        -2.2059688568115234,
+        -0.034495916217565536
+      ],
+      "high": [
+        1.8087999820709229,
+        1.350000023841858,
+        3.7777411937713623
+      ]
+    },
+    "bone_names": []
+  },
+  "buildings/barracks": {
+    "selected_mesh_objects": 5419,
+    "added_detail_objects": 5010,
+    "detail_parts": {
+      "Woodland bundled field spear": 3,
+      "Woodland joint-following vine": 6,
+      "Woodland rack leather binding": 1,
+      "Woodland shared curved ivy leaf": 3363,
+      "Woodland shared moss cushion": 1633,
+      "Woodland spear leaf blade": 3,
+      "Woodland worn prop binding": 1
+    },
+    "original_objects_retained": 409,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.2007999420166016,
+        -2.2978525161743164,
+        -0.14345286786556244
+      ],
+      "high": [
+        2.376699447631836,
+        1.4715999364852905,
+        3.95740008354187
+      ]
+    },
+    "bone_names": []
+  },
+  "buildings/bombarding_tower": {
+    "selected_mesh_objects": 4597,
+    "added_detail_objects": 4281,
+    "detail_parts": {
+      "Woodland ammunition cradle rail": 2,
+      "Woodland joint-following vine": 6,
+      "Woodland shared curved ivy leaf": 2877,
+      "Woodland shared moss cushion": 1392,
+      "Woodland stacked ammunition": 3,
+      "Woodland worn prop binding": 1
+    },
+    "original_objects_retained": 316,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.2007999420166016,
+        -2.2900142669677734,
+        -0.14345286786556244
+      ],
+      "high": [
+        2.376699447631836,
+        1.4998998641967773,
+        4.526645183563232
+      ]
+    },
+    "bone_names": []
+  },
+  "buildings/gold_mine": {
+    "selected_mesh_objects": 595,
+    "added_detail_objects": 456,
+    "detail_parts": {
+      "Woodland joint-following vine": 7,
+      "Woodland shared curved ivy leaf": 315,
+      "Woodland shared moss cushion": 134
+    },
+    "original_objects_retained": 139,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.331547737121582,
+        -2.060422897338867,
+        -0.24522170424461365
+      ],
+      "high": [
+        2.2275002002716064,
+        2.085441827774048,
+        3.0371286869049072
+      ]
+    },
+    "bone_names": []
+  },
+  "buildings/magic_academy": {
+    "selected_mesh_objects": 7497,
+    "added_detail_objects": 7028,
+    "detail_parts": {
+      "Lantern amber glass": 2,
+      "Lantern bottom": 2,
+      "Lantern corner": 8,
+      "Lantern hanger": 2,
+      "Lantern roof": 2,
+      "Woodland academy shelf folio": 3,
+      "Woodland joint-following vine": 12,
+      "Woodland lantern suspension": 2,
+      "Woodland shared curved ivy leaf": 4695,
+      "Woodland shared moss cushion": 2296,
+      "Woodland worn prop binding": 4
+    },
+    "original_objects_retained": 469,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -1.9256999492645264,
+        -2.1886110305786133,
+        -0.1663442999124527
+      ],
+      "high": [
+        2.171190023422241,
+        1.5199999809265137,
+        6.739772796630859
+      ]
+    },
+    "bone_names": []
+  },
+  "buildings/metal_mine": {
+    "selected_mesh_objects": 2557,
+    "added_detail_objects": 2118,
+    "detail_parts": {
+      "Woodland joint-following vine": 6,
+      "Woodland railside ore stack": 3,
+      "Woodland shared curved ivy leaf": 1435,
+      "Woodland shared moss cushion": 673,
+      "Woodland worn prop binding": 1
+    },
+    "original_objects_retained": 439,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.148979425430298,
+        -2.2684102058410645,
+        -0.1678703874349594
+      ],
+      "high": [
+        2.2751450538635254,
+        1.5280194282531738,
+        4.0898003578186035
+      ]
+    },
+    "bone_names": []
+  },
+  "buildings/research_tower": {
+    "selected_mesh_objects": 2773,
+    "added_detail_objects": 2277,
+    "detail_parts": {
+      "Woodland chart brass star marker": 5,
+      "Woodland hanging observatory star chart": 1,
+      "Woodland joint-following vine": 6,
+      "Woodland shared curved ivy leaf": 1538,
+      "Woodland shared moss cushion": 720,
+      "Woodland worn prop binding": 7
+    },
+    "original_objects_retained": 496,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.1064586639404297,
+        -2.200979471206665,
+        -0.16176600754261017
+      ],
+      "high": [
+        2.5725650787353516,
+        1.4439128637313843,
+        5.138322830200195
+      ]
+    },
+    "bone_names": []
+  },
+  "buildings/stone_cutter": {
+    "selected_mesh_objects": 2858,
+    "added_detail_objects": 2530,
+    "detail_parts": {
+      "Woodland joint-following vine": 6,
+      "Woodland shared curved ivy leaf": 1711,
+      "Woodland shared moss cushion": 810,
+      "Woodland standing dressed block": 3
+    },
+    "original_objects_retained": 328,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.7542409896850586,
+        -2.244948148727417,
+        -0.14955724775791168
+      ],
+      "high": [
+        2.164494037628174,
+        1.4432998895645142,
+        4.055301666259766
+      ]
+    },
+    "bone_names": []
+  },
+  "buildings/tavern": {
+    "selected_mesh_objects": 2741,
+    "added_detail_objects": 2355,
+    "detail_parts": {
+      "Barrel iron hoop": 4,
+      "Barrel lid": 2,
+      "Barrel staves": 2,
+      "Stave seam": 24,
+      "Woodland brew tap seal": 2,
+      "Woodland joint-following vine": 6,
+      "Woodland shared curved ivy leaf": 1573,
+      "Woodland shared moss cushion": 738,
+      "Woodland worn prop binding": 4
+    },
+    "original_objects_retained": 386,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.299377918243408,
+        -2.2771494388580322,
+        -0.14345286786556244
+      ],
+      "high": [
+        2.2918174266815186,
+        1.4574499130249023,
+        3.888737916946411
+      ]
+    },
+    "bone_names": []
+  },
+  "buildings/town_hall": {
+    "selected_mesh_objects": 7143,
+    "added_detail_objects": 6118,
+    "detail_parts": {
+      "Lantern amber glass": 2,
+      "Lantern bottom": 2,
+      "Lantern corner": 8,
+      "Lantern hanger": 2,
+      "Lantern roof": 2,
+      "Woodland joint-following vine": 12,
+      "Woodland lantern suspension": 2,
+      "Woodland shared curved ivy leaf": 4082,
+      "Woodland shared moss cushion": 2004,
+      "Woodland worn prop binding": 2
+    },
+    "original_objects_retained": 1025,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.5556979179382324,
+        -2.2088420391082764,
+        -0.1648181974887848
+      ],
+      "high": [
+        2.498037815093994,
+        1.556814432144165,
+        5.813100337982178
+      ]
+    },
+    "bone_names": []
+  },
+  "buildings/trade_market": {
+    "selected_mesh_objects": 2600,
+    "added_detail_objects": 2216,
+    "detail_parts": {
+      "Woodland high tent mast": 2,
+      "Woodland joint-following vine": 6,
+      "Woodland parcel twine": 4,
+      "Woodland peaked merchant canvas": 2,
+      "Woodland shared curved ivy leaf": 1493,
+      "Woodland shared moss cushion": 698,
+      "Woodland tied merchant parcel": 4,
+      "Woodland worn prop binding": 7
+    },
+    "original_objects_retained": 384,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.252406358718872,
+        -2.610435724258423,
+        -0.14345286786556244
+      ],
+      "high": [
+        2.561217784881592,
+        1.4998998641967773,
+        3.4163687229156494
+      ]
+    },
+    "bone_names": []
+  },
+  "buildings/tree_house": {
+    "selected_mesh_objects": 484,
+    "added_detail_objects": 344,
+    "detail_parts": {
+      "Woodland basket braided suspension": 4,
+      "Woodland joint-following vine": 6,
+      "Woodland shared curved ivy leaf": 226,
+      "Woodland shared moss cushion": 106,
+      "Woodland suspended supply basket": 2
+    },
+    "original_objects_retained": 140,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.163735866546631,
+        -2.148667097091675,
+        -0.14184758067131042
+      ],
+      "high": [
+        2.336456298828125,
+        1.6331398487091064,
+        6.0421013832092285
+      ]
+    },
+    "bone_names": []
+  },
+  "buildings/weaver": {
+    "selected_mesh_objects": 2733,
+    "added_detail_objects": 2223,
+    "detail_parts": {
+      "Woodland drapery branch lintel": 1,
+      "Woodland joint-following vine": 6,
+      "Woodland large working bobbin": 3,
+      "Woodland long draped dyed cloth": 3,
+      "Woodland shared curved ivy leaf": 1505,
+      "Woodland shared moss cushion": 704,
+      "Woodland worn prop binding": 1
+    },
+    "original_objects_retained": 510,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.043599843978882,
+        -2.199402332305908,
+        -0.14650505781173706
+      ],
+      "high": [
+        2.206934928894043,
+        1.4149999618530273,
+        3.9736742973327637
+      ]
+    },
+    "bone_names": []
+  },
+  "buildings/woodcutter_hut": {
+    "selected_mesh_objects": 980,
+    "added_detail_objects": 656,
+    "detail_parts": {
+      "Cut log end": 2,
+      "Log bark": 1,
+      "Log growth ring": 2,
+      "Log heart": 2,
+      "Woodland great lumber saw wheel": 1,
+      "Woodland joint-following vine": 13,
+      "Woodland log hoist branch": 1,
+      "Woodland log hoist rope": 2,
+      "Woodland saw axle": 1,
+      "Woodland saw iron rim": 1,
+      "Woodland saw wheel spoke": 10,
+      "Woodland shared curved ivy leaf": 430,
+      "Woodland shared moss cushion": 190
+    },
+    "original_objects_retained": 324,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.1910946369171143,
+        -2.312274694442749,
+        -0.03790760040283203
+      ],
+      "high": [
+        2.2047998905181885,
+        1.9062001705169678,
+        4.1382222175598145
+      ]
+    },
+    "bone_names": []
+  },
+  "characters/archer": {
+    "selected_mesh_objects": 75,
+    "added_detail_objects": 9,
+    "detail_parts": {
+      "Woodland equipment worn binding": 3,
+      "Woodland forager seed pouch": 3,
+      "Woodland pouch cord": 3
+    },
+    "original_objects_retained": 66,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -1.3599998950958252,
+        -0.4300000071525574,
+        0.019999999552965164
+      ],
+      "high": [
+        1.1518245935440063,
+        0.5799999833106995,
+        2.6449999809265137
+      ]
+    },
+    "bone_names": [
+      "root",
+      "pelvis",
+      "spine",
+      "neck",
+      "head",
+      "upper_arm.L",
+      "forearm.L",
+      "hand.L",
+      "weapon_socket.L",
+      "upper_arm.R",
+      "forearm.R",
+      "hand.R",
+      "weapon_socket.R",
+      "thigh.L",
+      "shin.L",
+      "foot.L",
+      "thigh.R",
+      "shin.R",
+      "foot.R"
+    ]
+  },
+  "characters/berserker": {
+    "selected_mesh_objects": 210,
+    "added_detail_objects": 16,
+    "detail_parts": {
+      "Woodland bone trophy tooth": 5,
+      "Woodland equipment worn binding": 6,
+      "Woodland shaggy traveler belt tuft": 5
+    },
+    "original_objects_retained": 194,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -1.4017953872680664,
+        -0.5373566746711731,
+        0.019999999552965164
+      ],
+      "high": [
+        1.619302749633789,
+        0.5818315148353577,
+        3.181539535522461
+      ]
+    },
+    "bone_names": [
+      "root",
+      "pelvis",
+      "spine",
+      "neck",
+      "head",
+      "upper_arm.L",
+      "forearm.L",
+      "hand.L",
+      "weapon_socket.L",
+      "upper_arm.R",
+      "forearm.R",
+      "hand.R",
+      "weapon_socket.R",
+      "thigh.L",
+      "shin.L",
+      "foot.L",
+      "thigh.R",
+      "shin.R",
+      "foot.R"
+    ]
+  },
+  "characters/evil_berserker_unit": {
+    "selected_mesh_objects": 120,
+    "added_detail_objects": 16,
+    "detail_parts": {
+      "Woodland bone trophy tooth": 5,
+      "Woodland equipment worn binding": 6,
+      "Woodland shaggy traveler belt tuft": 5
+    },
+    "original_objects_retained": 104,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -1.428762435913086,
+        -0.5299999713897705,
+        0.019999999552965164
+      ],
+      "high": [
+        1.6246778964996338,
+        0.43199998140335083,
+        3.157196044921875
+      ]
+    },
+    "bone_names": [
+      "root",
+      "pelvis",
+      "spine",
+      "neck",
+      "head",
+      "upper_arm.L",
+      "forearm.L",
+      "hand.L",
+      "weapon_socket.L",
+      "upper_arm.R",
+      "forearm.R",
+      "hand.R",
+      "weapon_socket.R",
+      "thigh.L",
+      "shin.L",
+      "foot.L",
+      "thigh.R",
+      "shin.R",
+      "foot.R"
+    ]
+  },
+  "characters/evil_mage_unit": {
+    "selected_mesh_objects": 89,
+    "added_detail_objects": 13,
+    "detail_parts": {
+      "Woodland carved talisman": 1,
+      "Woodland equipment worn binding": 3,
+      "Woodland occult field vial": 3,
+      "Woodland scholar talisman chain": 1,
+      "Woodland staff carved seed charm": 1,
+      "Woodland staff hanging charm cord": 1,
+      "Woodland vial bone stopper": 3
+    },
+    "original_objects_retained": 76,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -1.0129998922348022,
+        -0.47480878233909607,
+        0.019999999552965164
+      ],
+      "high": [
+        1.3938498497009277,
+        0.5799999833106995,
+        3.0438642501831055
+      ]
+    },
+    "bone_names": [
+      "root",
+      "pelvis",
+      "spine",
+      "neck",
+      "head",
+      "upper_arm.L",
+      "forearm.L",
+      "hand.L",
+      "weapon_socket.L",
+      "upper_arm.R",
+      "forearm.R",
+      "hand.R",
+      "weapon_socket.R",
+      "thigh.L",
+      "shin.L",
+      "foot.L",
+      "thigh.R",
+      "shin.R",
+      "foot.R"
+    ]
+  },
+  "characters/evil_melee_unit": {
+    "selected_mesh_objects": 104,
+    "added_detail_objects": 14,
+    "detail_parts": {
+      "Woodland battered sentry mantle": 5,
+      "Woodland equipment worn binding": 3,
+      "Woodland shield worn iron rivet": 6
+    },
+    "original_objects_retained": 90,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -1.3566908836364746,
+        -0.5299999713897705,
+        0.019999999552965164
+      ],
+      "high": [
+        1.3124159574508667,
+        0.43199998140335083,
+        2.9629998207092285
+      ]
+    },
+    "bone_names": [
+      "root",
+      "pelvis",
+      "spine",
+      "neck",
+      "head",
+      "upper_arm.L",
+      "forearm.L",
+      "hand.L",
+      "weapon_socket.L",
+      "upper_arm.R",
+      "forearm.R",
+      "hand.R",
+      "weapon_socket.R",
+      "thigh.L",
+      "shin.L",
+      "foot.L",
+      "thigh.R",
+      "shin.R",
+      "foot.R"
+    ]
+  },
+  "characters/evil_ranged_unit": {
+    "selected_mesh_objects": 103,
+    "added_detail_objects": 10,
+    "detail_parts": {
+      "Woodland ambusher bolt case": 3,
+      "Woodland case wire binding": 3,
+      "Woodland equipment worn binding": 3,
+      "Woodland long torn ambusher scarf": 1
+    },
+    "original_objects_retained": 93,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.8320839405059814,
+        -0.6393879055976868,
+        0.019999999552965164
+      ],
+      "high": [
+        1.3860830068588257,
+        0.5799999833106995,
+        2.8464999198913574
+      ]
+    },
+    "bone_names": [
+      "root",
+      "pelvis",
+      "spine",
+      "neck",
+      "head",
+      "upper_arm.L",
+      "forearm.L",
+      "hand.L",
+      "weapon_socket.L",
+      "upper_arm.R",
+      "forearm.R",
+      "hand.R",
+      "weapon_socket.R",
+      "thigh.L",
+      "shin.L",
+      "foot.L",
+      "thigh.R",
+      "shin.R",
+      "foot.R"
+    ]
+  },
+  "characters/knight": {
+    "selected_mesh_objects": 87,
+    "added_detail_objects": 12,
+    "detail_parts": {
+      "Woodland bedroll leather strap": 2,
+      "Woodland equipment worn binding": 3,
+      "Woodland pilgrim bedroll": 1,
+      "Woodland shield worn iron rivet": 6
+    },
+    "original_objects_retained": 75,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -1.4603182077407837,
+        -0.5074999928474426,
+        0.019999999552965164
+      ],
+      "high": [
+        1.3231709003448486,
+        0.5529999732971191,
+        3.152066230773926
+      ]
+    },
+    "bone_names": [
+      "root",
+      "pelvis",
+      "spine",
+      "neck",
+      "head",
+      "upper_arm.L",
+      "forearm.L",
+      "hand.L",
+      "weapon_socket.L",
+      "upper_arm.R",
+      "forearm.R",
+      "hand.R",
+      "weapon_socket.R",
+      "thigh.L",
+      "shin.L",
+      "foot.L",
+      "thigh.R",
+      "shin.R",
+      "foot.R"
+    ]
+  },
+  "characters/mage": {
+    "selected_mesh_objects": 71,
+    "added_detail_objects": 13,
+    "detail_parts": {
+      "Woodland carved talisman": 1,
+      "Woodland equipment worn binding": 3,
+      "Woodland scholar talisman chain": 1,
+      "Woodland scroll tie": 3,
+      "Woodland staff carved seed charm": 1,
+      "Woodland staff hanging charm cord": 1,
+      "Woodland travel scroll": 3
+    },
+    "original_objects_retained": 58,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.9281867146492004,
+        -0.7930999398231506,
+        0.019999999552965164
+      ],
+      "high": [
+        1.259139895439148,
+        0.7930999398231506,
+        3.528599739074707
+      ]
+    },
+    "bone_names": [
+      "root",
+      "pelvis",
+      "spine",
+      "neck",
+      "head",
+      "upper_arm.L",
+      "forearm.L",
+      "hand.L",
+      "weapon_socket.L",
+      "upper_arm.R",
+      "forearm.R",
+      "hand.R",
+      "weapon_socket.R",
+      "thigh.L",
+      "shin.L",
+      "foot.L",
+      "thigh.R",
+      "shin.R",
+      "foot.R"
+    ]
+  },
+  "environment/components/forest_boulder": {
+    "selected_mesh_objects": 25,
+    "added_detail_objects": 24,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 16,
+      "Woodland shared moss cushion": 8
+    },
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.5883029103279114,
+        -0.4671494662761688,
+        -0.13314898312091827
+      ],
+      "high": [
+        0.5438076853752136,
+        0.46911129355430603,
+        0.9693523049354553
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_bridge_plank": {
+    "selected_mesh_objects": 24,
+    "added_detail_objects": 18,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 12,
+      "Woodland shared moss cushion": 6
+    },
+    "original_objects_retained": 6,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.27186766266822815,
+        -0.585753858089447,
+        -0.06614677608013153
+      ],
+      "high": [
+        0.25226759910583496,
+        0.5572770833969116,
+        0.2009962797164917
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_bridge_post": {
+    "selected_mesh_objects": 43,
+    "added_detail_objects": 36,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 24,
+      "Woodland shared moss cushion": 12
+    },
+    "original_objects_retained": 7,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.2928638160228729,
+        -0.2877620458602905,
+        0.0
+      ],
+      "high": [
+        0.3118247091770172,
+        0.33710986375808716,
+        0.9644672870635986
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_bridge_rail": {
+    "selected_mesh_objects": 38,
+    "added_detail_objects": 36,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 24,
+      "Woodland shared moss cushion": 12
+    },
+    "original_objects_retained": 2,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.5629400610923767,
+        -0.26024875044822693,
+        -0.07914237678050995
+      ],
+      "high": [
+        0.6329055428504944,
+        0.24355129897594452,
+        0.3170023262500763
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_butterfly_cyan": {
+    "selected_mesh_objects": 11,
+    "added_detail_objects": 2,
+    "detail_parts": {
+      "Woodland delicate antenna fork": 2
+    },
+    "original_objects_retained": 9,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.8500000238418579,
+        -0.6700000166893005,
+        -0.027000000700354576
+      ],
+      "high": [
+        0.8500000238418579,
+        0.5400000214576721,
+        0.33149999380111694
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_butterfly_sunset": {
+    "selected_mesh_objects": 11,
+    "added_detail_objects": 2,
+    "detail_parts": {
+      "Woodland delicate antenna fork": 2
+    },
+    "original_objects_retained": 9,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.8500000238418579,
+        -0.6700000166893005,
+        -0.027000000700354576
+      ],
+      "high": [
+        0.8500000238418579,
+        0.5400000214576721,
+        0.33149999380111694
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_crystal_blue": {
+    "selected_mesh_objects": 8,
+    "added_detail_objects": 7,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 4,
+      "Woodland shared moss cushion": 3
+    },
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.3131604492664337,
+        -0.26501399278640747,
+        -0.003449123352766037
+      ],
+      "high": [
+        0.30966371297836304,
+        0.30826953053474426,
+        1.6399999856948853
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_crystal_purple": {
+    "selected_mesh_objects": 8,
+    "added_detail_objects": 7,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 4,
+      "Woodland shared moss cushion": 3
+    },
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.3139445185661316,
+        -0.26501399278640747,
+        0.0
+      ],
+      "high": [
+        0.30966371297836304,
+        0.2829786539077759,
+        1.6399999856948853
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_fern": {
+    "selected_mesh_objects": 71,
+    "added_detail_objects": 14,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 14
+    },
+    "original_objects_retained": 57,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.35228854417800903,
+        -0.2234363853931427,
+        -0.007621217053383589
+      ],
+      "high": [
+        0.352577269077301,
+        0.36993199586868286,
+        0.6064668893814087
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_foam": {
+    "selected_mesh_objects": 8,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 8,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.29249998927116394,
+        -0.1264171153306961,
+        -0.010392304509878159
+      ],
+      "high": [
+        0.30000001192092896,
+        0.1809999942779541,
+        0.026000000536441803
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_hex_meadow": {
+    "selected_mesh_objects": 9,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 9,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.553463935852051,
+        -2.212364673614502,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.553463935852051,
+        2.212364673614502,
+        0.0
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_hex_stream": {
+    "selected_mesh_objects": 12,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 12,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.549999952316284,
+        -2.208364725112915,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.549999952316284,
+        2.208364725112915,
+        0.0
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_hollow_tree": {
+    "selected_mesh_objects": 102,
+    "added_detail_objects": 16,
+    "detail_parts": {
+      "Woodland joint-following vine": 1,
+      "Woodland shared curved ivy leaf": 11,
+      "Woodland shared moss cushion": 4
+    },
+    "original_objects_retained": 86,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -1.2149999141693115,
+        -0.762348473072052,
+        0.0008623823523521423
+      ],
+      "high": [
+        1.2149999141693115,
+        0.8858950734138489,
+        3.0452017784118652
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_jackalope": {
+    "selected_mesh_objects": 25,
+    "added_detail_objects": 2,
+    "detail_parts": {
+      "Woodland delicate whisker": 2
+    },
+    "original_objects_retained": 23,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.4387856721878052,
+        -0.5740000009536743,
+        0.0
+      ],
+      "high": [
+        0.4404067397117615,
+        0.6399999856948853,
+        1.412951111793518
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_lantern_flower": {
+    "selected_mesh_objects": 12,
+    "added_detail_objects": 3,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 3
+    },
+    "original_objects_retained": 9,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.3799999952316284,
+        -0.21021130681037903,
+        -0.023456089198589325
+      ],
+      "high": [
+        0.5799999833106995,
+        0.19163204729557037,
+        0.9979931116104126
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_lantern_post": {
+    "selected_mesh_objects": 38,
+    "added_detail_objects": 24,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 16,
+      "Woodland shared moss cushion": 8
+    },
+    "original_objects_retained": 14,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.15325510501861572,
+        -0.3689426779747009,
+        0.0
+      ],
+      "high": [
+        0.6438345313072205,
+        0.29426610469818115,
+        1.7769449949264526
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_lantern_snail": {
+    "selected_mesh_objects": 15,
+    "added_detail_objects": 1,
+    "detail_parts": {
+      "Woodland snail weathered shell rim": 1
+    },
+    "original_objects_retained": 14,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.29999998211860657,
+        -0.6299999952316284,
+        0.0
+      ],
+      "high": [
+        0.30799999833106995,
+        0.5699999928474426,
+        0.949999988079071
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_leaf_clump": {
+    "selected_mesh_objects": 20,
+    "added_detail_objects": 14,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 14
+    },
+    "original_objects_retained": 6,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.41314393281936646,
+        -0.353475958108902,
+        0.03500000014901161
+      ],
+      "high": [
+        0.3955765962600708,
+        0.4000000059604645,
+        0.3373282551765442
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_moon_moth": {
+    "selected_mesh_objects": 11,
+    "added_detail_objects": 2,
+    "detail_parts": {
+      "Woodland delicate antenna fork": 2
+    },
+    "original_objects_retained": 9,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.8799999952316284,
+        -0.44999998807907104,
+        -0.027000000700354576
+      ],
+      "high": [
+        0.8799999952316284,
+        0.7699999809265137,
+        0.25519999861717224
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_moss": {
+    "selected_mesh_objects": 20,
+    "added_detail_objects": 14,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 14
+    },
+    "original_objects_retained": 6,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.3547000288963318,
+        -0.36253607273101807,
+        -0.07843229919672012
+      ],
+      "high": [
+        0.3367033302783966,
+        0.26369309425354004,
+        0.22330868244171143
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_mushroom_blue": {
+    "selected_mesh_objects": 36,
+    "added_detail_objects": 10,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 6,
+      "Woodland shared moss cushion": 4
+    },
+    "original_objects_retained": 26,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.7900000214576721,
+        -0.8700000047683716,
+        0.0
+      ],
+      "high": [
+        0.949999988079071,
+        0.8700000047683716,
+        1.8874320983886719
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_mushroom_purple": {
+    "selected_mesh_objects": 36,
+    "added_detail_objects": 10,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 6,
+      "Woodland shared moss cushion": 4
+    },
+    "original_objects_retained": 26,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.7900000214576721,
+        -0.8700000047683716,
+        0.0
+      ],
+      "high": [
+        0.949999988079071,
+        0.8700000047683716,
+        1.8874320983886719
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_mushroom_small": {
+    "selected_mesh_objects": 46,
+    "added_detail_objects": 10,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 6,
+      "Woodland shared moss cushion": 4
+    },
+    "original_objects_retained": 36,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.3380768597126007,
+        -0.39800000190734863,
+        0.0
+      ],
+      "high": [
+        0.3171190619468689,
+        0.243599995970726,
+        0.8980000019073486
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_root": {
+    "selected_mesh_objects": 25,
+    "added_detail_objects": 21,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 14,
+      "Woodland shared moss cushion": 7
+    },
+    "original_objects_retained": 4,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.07526206970214844,
+        -0.20148241519927979,
+        -0.010258713737130165
+      ],
+      "high": [
+        0.9491791725158691,
+        0.5700536966323853,
+        0.4640458822250366
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_rune_circle": {
+    "selected_mesh_objects": 16,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 16,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.5037764310836792,
+        -0.5049999952316284,
+        -0.0005884580314159393
+      ],
+      "high": [
+        0.5037764310836792,
+        0.5049999952316284,
+        0.03341268002986908
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_rune_diamond": {
+    "selected_mesh_objects": 3,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 3,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.1290000081062317,
+        -0.14800000190734863,
+        0.09000000357627869
+      ],
+      "high": [
+        0.1290000081062317,
+        -0.09099999070167542,
+        0.949999988079071
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_rune_monolith": {
+    "selected_mesh_objects": 12,
+    "added_detail_objects": 9,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 6,
+      "Woodland shared moss cushion": 3
+    },
+    "original_objects_retained": 3,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.3333584666252136,
+        -0.311908096075058,
+        0.0
+      ],
+      "high": [
+        0.368188738822937,
+        0.496293842792511,
+        1.8440254926681519
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_shrine_plinth": {
+    "selected_mesh_objects": 40,
+    "added_detail_objects": 30,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 20,
+      "Woodland shared moss cushion": 10
+    },
+    "original_objects_retained": 10,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.8541666865348816,
+        -0.845400333404541,
+        0.0
+      ],
+      "high": [
+        0.8356949687004089,
+        0.9591649174690247,
+        0.5054254531860352
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_spiral_fern": {
+    "selected_mesh_objects": 35,
+    "added_detail_objects": 14,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 14
+    },
+    "original_objects_retained": 21,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.2726650834083557,
+        -0.3648950457572937,
+        0.011744899675250053
+      ],
+      "high": [
+        0.39332151412963867,
+        0.31873705983161926,
+        0.8404489755630493
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_spiral_tree": {
+    "selected_mesh_objects": 71,
+    "added_detail_objects": 16,
+    "detail_parts": {
+      "Woodland joint-following vine": 1,
+      "Woodland shared curved ivy leaf": 11,
+      "Woodland shared moss cushion": 4
+    },
+    "original_objects_retained": 55,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -1.3200000524520874,
+        -0.762348473072052,
+        -0.02963840588927269
+      ],
+      "high": [
+        1.3200000524520874,
+        0.8858950734138489,
+        3.836946964263916
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_stone_arch_block": {
+    "selected_mesh_objects": 37,
+    "added_detail_objects": 36,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 24,
+      "Woodland shared moss cushion": 12
+    },
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.31294190883636475,
+        -0.44456344842910767,
+        0.6037910580635071
+      ],
+      "high": [
+        0.28685420751571655,
+        0.3391062915325165,
+        1.0181970596313477
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_stone_block": {
+    "selected_mesh_objects": 37,
+    "added_detail_objects": 36,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 24,
+      "Woodland shared moss cushion": 12
+    },
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.24906174838542938,
+        -0.36472615599632263,
+        0.0
+      ],
+      "high": [
+        0.3146910071372986,
+        0.268306702375412,
+        0.41542842984199524
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_tree_snag": {
+    "selected_mesh_objects": 15,
+    "added_detail_objects": 4,
+    "detail_parts": {
+      "Woodland joint-following vine": 1,
+      "Woodland shared curved ivy leaf": 3
+    },
+    "original_objects_retained": 11,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.6944308876991272,
+        -0.8077490329742432,
+        -0.1053413599729538
+      ],
+      "high": [
+        0.8444916605949402,
+        0.807129979133606,
+        1.7779597043991089
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/components/forest_waterfall": {
+    "selected_mesh_objects": 8,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 8,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.3799999952316284,
+        -0.20329797267913818,
+        -0.47999998927116394
+      ],
+      "high": [
+        0.3799999952316284,
+        0.0,
+        0.010646345093846321
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_bioluminescent_grove": {
+    "selected_mesh_objects": 1999,
+    "added_detail_objects": 1174,
+    "detail_parts": {
+      "Woodland joint-following vine": 1,
+      "Woodland shared curved ivy leaf": 1095,
+      "Woodland shared moss cushion": 78
+    },
+    "original_objects_retained": 825,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.553463935852051,
+        -2.212364673614502,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.553463935852051,
+        2.212364673614502,
+        4.08565092086792
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_butterfly_glade": {
+    "selected_mesh_objects": 1170,
+    "added_detail_objects": 505,
+    "detail_parts": {
+      "Woodland delicate antenna fork": 10,
+      "Woodland joint-following vine": 1,
+      "Woodland shared curved ivy leaf": 466,
+      "Woodland shared moss cushion": 28
+    },
+    "original_objects_retained": 665,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.553463935852051,
+        -2.212364673614502,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.553463935852051,
+        2.212364673614502,
+        3.7218384742736816
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_crystal_grove": {
+    "selected_mesh_objects": 2135,
+    "added_detail_objects": 1308,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 1230,
+      "Woodland shared moss cushion": 78
+    },
+    "original_objects_retained": 827,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.553463935852051,
+        -2.212364673614502,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.553463935852051,
+        2.212364673614502,
+        3.1487998962402344
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_crystal_shrine": {
+    "selected_mesh_objects": 1874,
+    "added_detail_objects": 1117,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 1026,
+      "Woodland shared moss cushion": 91
+    },
+    "original_objects_retained": 757,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.553463935852051,
+        -2.212364673614502,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.553463935852051,
+        2.212364673614502,
+        2.225600004196167
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_dream_menagerie": {
+    "selected_mesh_objects": 1186,
+    "added_detail_objects": 513,
+    "detail_parts": {
+      "Woodland delicate antenna fork": 4,
+      "Woodland delicate whisker": 4,
+      "Woodland shared curved ivy leaf": 473,
+      "Woodland shared moss cushion": 31,
+      "Woodland snail weathered shell rim": 1
+    },
+    "original_objects_retained": 673,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.553463935852051,
+        -2.212364673614502,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.553463935852051,
+        2.212364673614502,
+        2.3026671409606934
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_glowing_mushrooms": {
+    "selected_mesh_objects": 1847,
+    "added_detail_objects": 1072,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 998,
+      "Woodland shared moss cushion": 74
+    },
+    "original_objects_retained": 775,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.553463935852051,
+        -2.212364673614502,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.553463935852051,
+        2.212364673614502,
+        3.0198915004730225
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_ground_dirt": {
+    "selected_mesh_objects": 3,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 3,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.549999952316284,
+        -2.208364725112915,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.549999952316284,
+        2.208364725112915,
+        0.0
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_ground_grass": {
+    "selected_mesh_objects": 3,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 3,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.549999952316284,
+        -2.208364725112915,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.549999952316284,
+        2.208364725112915,
+        0.0
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_ground_leaf_litter": {
+    "selected_mesh_objects": 3,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 3,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.549999952316284,
+        -2.208364725112915,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.549999952316284,
+        2.208364725112915,
+        0.0
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_ground_moss": {
+    "selected_mesh_objects": 3,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 3,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.549999952316284,
+        -2.208364725112915,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.549999952316284,
+        2.208364725112915,
+        0.0
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_ground_pine_duff": {
+    "selected_mesh_objects": 3,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 3,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.549999952316284,
+        -2.208364725112915,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.549999952316284,
+        2.208364725112915,
+        0.0
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_hollow_watchers": {
+    "selected_mesh_objects": 1203,
+    "added_detail_objects": 511,
+    "detail_parts": {
+      "Woodland delicate antenna fork": 4,
+      "Woodland joint-following vine": 1,
+      "Woodland shared curved ivy leaf": 470,
+      "Woodland shared moss cushion": 35,
+      "Woodland snail weathered shell rim": 1
+    },
+    "original_objects_retained": 692,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.553463935852051,
+        -2.212364673614502,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.553463935852051,
+        2.212364673614502,
+        3.1974616050720215
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_lantern_bridge": {
+    "selected_mesh_objects": 5956,
+    "added_detail_objects": 5125,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 3646,
+      "Woodland shared moss cushion": 1479
+    },
+    "original_objects_retained": 831,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.549999952316284,
+        -2.208364725112915,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.549999952316284,
+        2.208364725112915,
+        1.6525589227676392
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_meadow_building": {
+    "selected_mesh_objects": 104,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 104,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.549999952316284,
+        -2.208364725112915,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.549999952316284,
+        2.208364725112915,
+        2.799999952316284
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_meadow_character": {
+    "selected_mesh_objects": 101,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 101,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -1.850000023841858,
+        -1.6098055839538574,
+        -0.36000001430511475
+      ],
+      "high": [
+        1.850000023841858,
+        1.6021469831466675,
+        0.29114675521850586
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_mystical_grove": {
+    "selected_mesh_objects": 1932,
+    "added_detail_objects": 1156,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 1072,
+      "Woodland shared moss cushion": 84
+    },
+    "original_objects_retained": 776,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.553463935852051,
+        -2.212364673614502,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.553463935852051,
+        2.212364673614502,
+        3.214400053024292
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_path_end": {
+    "selected_mesh_objects": 1,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.46000000834465027,
+        -0.45803773403167725,
+        0.006000000052154064
+      ],
+      "high": [
+        0.46000000834465027,
+        2.208364725112915,
+        0.012000000104308128
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_path_straight": {
+    "selected_mesh_objects": 1,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.46000000834465027,
+        -2.208364725112915,
+        0.006000000052154064
+      ],
+      "high": [
+        0.46000000834465027,
+        2.208364725112915,
+        0.012000000104308128
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_path_turn_120": {
+    "selected_mesh_objects": 1,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.1424999237060547,
+        -1.5025540590286255,
+        0.006000000052154064
+      ],
+      "high": [
+        0.46000000834465027,
+        2.208364725112915,
+        0.012000000104308128
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_path_turn_60": {
+    "selected_mesh_objects": 1,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.1424999237060547,
+        0.213382750749588,
+        0.006000000052154064
+      ],
+      "high": [
+        0.46000000834465027,
+        2.208364725112915,
+        0.012000000104308128
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_river_overlay_end": {
+    "selected_mesh_objects": 1,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.5600000023841858,
+        -0.5576111674308777,
+        0.006000000052154064
+      ],
+      "high": [
+        0.5600000023841858,
+        2.208364725112915,
+        0.01600000075995922
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_river_overlay_straight": {
+    "selected_mesh_objects": 1,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.5600000023841858,
+        -2.208364725112915,
+        0.006000000052154064
+      ],
+      "high": [
+        0.5600000023841858,
+        2.208364725112915,
+        0.01600000075995922
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_river_overlay_turn_120": {
+    "selected_mesh_objects": 1,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.192500114440918,
+        -1.5891566276550293,
+        0.006000000052154064
+      ],
+      "high": [
+        0.5600000023841858,
+        2.208364725112915,
+        0.01600000075995922
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_river_overlay_turn_60": {
+    "selected_mesh_objects": 1,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.192500114440918,
+        0.1133829653263092,
+        0.006000000052154064
+      ],
+      "high": [
+        0.5600000023841858,
+        2.208364725112915,
+        0.01600000075995922
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_rune_shrine": {
+    "selected_mesh_objects": 2387,
+    "added_detail_objects": 1483,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 1386,
+      "Woodland shared moss cushion": 97
+    },
+    "original_objects_retained": 904,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.553463935852051,
+        -2.212364673614502,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.553463935852051,
+        2.212364673614502,
+        3.0979626178741455
+      ]
+    },
+    "bone_names": []
+  },
+  "environment/hex_woodland_bridge": {
+    "selected_mesh_objects": 2496,
+    "added_detail_objects": 1667,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 1322,
+      "Woodland shared moss cushion": 345
+    },
+    "original_objects_retained": 829,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -2.549999952316284,
+        -2.208364725112915,
+        -0.36000001430511475
+      ],
+      "high": [
+        2.549999952316284,
+        2.208364725112915,
+        1.6525589227676392
+      ]
+    },
+    "bone_names": []
+  },
+  "props/arrow": {
+    "selected_mesh_objects": 4,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 4,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.5799999833106995,
+        -0.04500000178813934,
+        -0.07000000029802322
+      ],
+      "high": [
+        1.0700000524520874,
+        0.04500000178813934,
+        0.07000000029802322
+      ]
+    },
+    "bone_names": []
+  },
+  "props/axe": {
+    "selected_mesh_objects": 14,
+    "added_detail_objects": 3,
+    "detail_parts": {
+      "Woodland equipment worn binding": 3
+    },
+    "original_objects_retained": 11,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.09000000357627869,
+        -0.07999999821186066,
+        -0.2811838984489441
+      ],
+      "high": [
+        0.5296018719673157,
+        0.07999999821186066,
+        0.8399999737739563
+      ]
+    },
+    "bone_names": []
+  },
+  "props/axe_offhand": {
+    "selected_mesh_objects": 14,
+    "added_detail_objects": 3,
+    "detail_parts": {
+      "Woodland equipment worn binding": 3
+    },
+    "original_objects_retained": 11,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.09000000357627869,
+        -0.07999999821186066,
+        -0.2811838984489441
+      ],
+      "high": [
+        0.5296018719673157,
+        0.07999999821186066,
+        0.8399999737739563
+      ]
+    },
+    "bone_names": []
+  },
+  "props/bow": {
+    "selected_mesh_objects": 6,
+    "added_detail_objects": 3,
+    "detail_parts": {
+      "Woodland equipment worn binding": 3
+    },
+    "original_objects_retained": 3,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.20779359340667725,
+        -0.06562289595603943,
+        -0.8044119477272034
+      ],
+      "high": [
+        0.309993177652359,
+        0.06562289595603943,
+        0.8021999597549438
+      ]
+    },
+    "bone_names": []
+  },
+  "props/crossbow": {
+    "selected_mesh_objects": 15,
+    "added_detail_objects": 3,
+    "detail_parts": {
+      "Woodland equipment worn binding": 3
+    },
+    "original_objects_retained": 12,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.4949999749660492,
+        -0.10000000149011612,
+        -0.5583997964859009
+      ],
+      "high": [
+        0.9200000166893005,
+        0.10000000149011612,
+        0.5583997964859009
+      ]
+    },
+    "bone_names": []
+  },
+  "props/evil_axe": {
+    "selected_mesh_objects": 15,
+    "added_detail_objects": 3,
+    "detail_parts": {
+      "Woodland equipment worn binding": 3
+    },
+    "original_objects_retained": 12,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.09000000357627869,
+        -0.07999999821186066,
+        -0.2811838984489441
+      ],
+      "high": [
+        0.5296018719673157,
+        0.07999999821186066,
+        0.8399999737739563
+      ]
+    },
+    "bone_names": []
+  },
+  "props/evil_axe_offhand": {
+    "selected_mesh_objects": 15,
+    "added_detail_objects": 3,
+    "detail_parts": {
+      "Woodland equipment worn binding": 3
+    },
+    "original_objects_retained": 12,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.09000000357627869,
+        -0.07999999821186066,
+        -0.2811838984489441
+      ],
+      "high": [
+        0.5296018719673157,
+        0.07999999821186066,
+        0.8399999737739563
+      ]
+    },
+    "bone_names": []
+  },
+  "props/evil_hand_flame": {
+    "selected_mesh_objects": 4,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 4,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.13287104666233063,
+        -0.11117884516716003,
+        0.1237500011920929
+      ],
+      "high": [
+        0.13287104666233063,
+        0.10139250010251999,
+        0.484499990940094
+      ]
+    },
+    "bone_names": []
+  },
+  "props/evil_shield": {
+    "selected_mesh_objects": 16,
+    "added_detail_objects": 6,
+    "detail_parts": {
+      "Woodland shield worn iron rivet": 6
+    },
+    "original_objects_retained": 10,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.4984070658683777,
+        -0.15105831623077393,
+        -0.5917519330978394
+      ],
+      "high": [
+        0.4984070658683777,
+        0.23000000417232513,
+        0.5481000542640686
+      ]
+    },
+    "bone_names": []
+  },
+  "props/evil_staff": {
+    "selected_mesh_objects": 16,
+    "added_detail_objects": 5,
+    "detail_parts": {
+      "Woodland equipment worn binding": 3,
+      "Woodland staff carved seed charm": 1,
+      "Woodland staff hanging charm cord": 1
+    },
+    "original_objects_retained": 11,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.2770169675350189,
+        -0.14880861341953278,
+        -0.8310375213623047
+      ],
+      "high": [
+        0.4370169937610626,
+        0.1357099711894989,
+        1.4011000394821167
+      ]
+    },
+    "bone_names": []
+  },
+  "props/evil_sword": {
+    "selected_mesh_objects": 11,
+    "added_detail_objects": 3,
+    "detail_parts": {
+      "Woodland equipment worn binding": 3
+    },
+    "original_objects_retained": 8,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.23999999463558197,
+        -0.0729999989271164,
+        -0.2921594977378845
+      ],
+      "high": [
+        0.23999999463558197,
+        0.0729999989271164,
+        1.399999976158142
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_arrow": {
+    "selected_mesh_objects": 4,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 4,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.054999999701976776,
+        -0.054999999701976776,
+        0.0
+      ],
+      "high": [
+        0.054999999701976776,
+        0.054999999701976776,
+        0.8899999856948853
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_axe": {
+    "selected_mesh_objects": 11,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 11,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.09000000357627869,
+        -0.07999999821186066,
+        -0.2811838984489441
+      ],
+      "high": [
+        0.5296018719673157,
+        0.07999999821186066,
+        0.8399999737739563
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_barrel": {
+    "selected_mesh_objects": 37,
+    "added_detail_objects": 21,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 14,
+      "Woodland shared moss cushion": 7
+    },
+    "original_objects_retained": 16,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.32100000977516174,
+        -0.3988215923309326,
+        0.0
+      ],
+      "high": [
+        0.4037136435508728,
+        0.32100000977516174,
+        0.8754058480262756
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_bench": {
+    "selected_mesh_objects": 41,
+    "added_detail_objects": 36,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 24,
+      "Woodland shared moss cushion": 12
+    },
+    "original_objects_retained": 5,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.5249999761581421,
+        -0.3249635100364685,
+        0.0
+      ],
+      "high": [
+        0.7149428129196167,
+        0.42205220460891724,
+        0.5748643279075623
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_book": {
+    "selected_mesh_objects": 7,
+    "added_detail_objects": 1,
+    "detail_parts": {
+      "Woodland worn prop binding": 1
+    },
+    "original_objects_retained": 6,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.14100000262260437,
+        -0.17799998819828033,
+        0.0
+      ],
+      "high": [
+        0.12999999523162842,
+        0.16249999403953552,
+        0.09600000083446503
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_cannonball": {
+    "selected_mesh_objects": 1,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.11379162967205048,
+        -0.12008439749479294,
+        -0.0003557652235031128
+      ],
+      "high": [
+        0.11371973901987076,
+        0.11947320401668549,
+        0.24001747369766235
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_crate": {
+    "selected_mesh_objects": 54,
+    "added_detail_objects": 36,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 24,
+      "Woodland shared moss cushion": 12
+    },
+    "original_objects_retained": 18,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.44715428352355957,
+        -0.2800000309944153,
+        0.006000004708766937
+      ],
+      "high": [
+        0.46961989998817444,
+        0.4124232828617096,
+        0.5975459218025208
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_lantern": {
+    "selected_mesh_objects": 9,
+    "added_detail_objects": 1,
+    "detail_parts": {
+      "Woodland worn prop binding": 1
+    },
+    "original_objects_retained": 8,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.1550000011920929,
+        -0.1704999953508377,
+        -0.1599999964237213
+      ],
+      "high": [
+        0.1550000011920929,
+        0.1550000011920929,
+        0.33500000834465027
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_mug": {
+    "selected_mesh_objects": 9,
+    "added_detail_objects": 1,
+    "detail_parts": {
+      "Woodland worn prop binding": 1
+    },
+    "original_objects_retained": 8,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.0989999994635582,
+        -0.10965459793806076,
+        0.0
+      ],
+      "high": [
+        0.17599999904632568,
+        0.09415459632873535,
+        0.2021326869726181
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_open_barrel": {
+    "selected_mesh_objects": 33,
+    "added_detail_objects": 15,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 10,
+      "Woodland shared moss cushion": 5
+    },
+    "original_objects_retained": 18,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.3318464159965515,
+        -0.3837197721004486,
+        0.0
+      ],
+      "high": [
+        0.3270995020866394,
+        0.4794975221157074,
+        0.7385092973709106
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_open_crate": {
+    "selected_mesh_objects": 51,
+    "added_detail_objects": 36,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 24,
+      "Woodland shared moss cushion": 12
+    },
+    "original_objects_retained": 15,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.3515246510505676,
+        -0.42256292700767517,
+        0.005000002682209015
+      ],
+      "high": [
+        0.45226216316223145,
+        0.29473447799682617,
+        0.683732807636261
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_parcel": {
+    "selected_mesh_objects": 5,
+    "added_detail_objects": 1,
+    "detail_parts": {
+      "Woodland worn prop binding": 1
+    },
+    "original_objects_retained": 4,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.2084999978542328,
+        -0.18400000035762787,
+        0.0
+      ],
+      "high": [
+        0.2084999978542328,
+        0.16850000619888306,
+        0.3199999928474426
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_pine": {
+    "selected_mesh_objects": 12,
+    "added_detail_objects": 8,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 8
+    },
+    "original_objects_retained": 4,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.7351905703544617,
+        -0.7955411672592163,
+        0.0
+      ],
+      "high": [
+        0.8159999847412109,
+        0.7955411672592163,
+        2.4000000953674316
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_roof_tile": {
+    "selected_mesh_objects": 37,
+    "added_detail_objects": 36,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 24,
+      "Woodland shared moss cushion": 12
+    },
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.4441455006599426,
+        -0.3705149292945862,
+        -0.18618111312389374
+      ],
+      "high": [
+        0.3832913637161255,
+        0.30245596170425415,
+        0.19811943173408508
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_shrub": {
+    "selected_mesh_objects": 18,
+    "added_detail_objects": 14,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 14
+    },
+    "original_objects_retained": 4,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.30237865447998047,
+        -0.36078158020973206,
+        -0.14534233510494232
+      ],
+      "high": [
+        0.4960706830024719,
+        0.42906689643859863,
+        0.49203047156333923
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_skull": {
+    "selected_mesh_objects": 12,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 12,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.38846975564956665,
+        -0.3206218481063843,
+        0.014499999582767487
+      ],
+      "high": [
+        0.38938087224960327,
+        0.32047179341316223,
+        0.7623323798179626
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_spear": {
+    "selected_mesh_objects": 5,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 5,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.09000000357627869,
+        -0.03999999910593033,
+        0.0
+      ],
+      "high": [
+        0.09000000357627869,
+        0.03999999910593033,
+        1.649999976158142
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_spike": {
+    "selected_mesh_objects": 1,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.11999999731779099,
+        -0.11999999731779099,
+        0.0
+      ],
+      "high": [
+        0.11999999731779099,
+        0.11999999731779099,
+        0.33000001311302185
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_stone_block": {
+    "selected_mesh_objects": 37,
+    "added_detail_objects": 36,
+    "detail_parts": {
+      "Woodland shared curved ivy leaf": 24,
+      "Woodland shared moss cushion": 12
+    },
+    "original_objects_retained": 1,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.4058494567871094,
+        -0.38836121559143066,
+        0.0
+      ],
+      "high": [
+        0.37050631642341614,
+        0.20901919901371002,
+        0.4500272274017334
+      ]
+    },
+    "bone_names": []
+  },
+  "props/kit_target": {
+    "selected_mesh_objects": 8,
+    "added_detail_objects": 0,
+    "detail_parts": {},
+    "original_objects_retained": 8,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.3499999940395355,
+        -0.14800000190734863,
+        -0.004172494634985924
+      ],
+      "high": [
+        0.3499999940395355,
+        0.41255536675453186,
+        1.0699999332427979
+      ]
+    },
+    "bone_names": []
+  },
+  "props/shield": {
+    "selected_mesh_objects": 16,
+    "added_detail_objects": 6,
+    "detail_parts": {
+      "Woodland shield worn iron rivet": 6
+    },
+    "original_objects_retained": 10,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.4984070658683777,
+        -0.15105831623077393,
+        -0.5917519330978394
+      ],
+      "high": [
+        0.4984070658683777,
+        0.23000000417232513,
+        0.5481000542640686
+      ]
+    },
+    "bone_names": []
+  },
+  "props/staff": {
+    "selected_mesh_objects": 17,
+    "added_detail_objects": 5,
+    "detail_parts": {
+      "Woodland equipment worn binding": 3,
+      "Woodland staff carved seed charm": 1,
+      "Woodland staff hanging charm cord": 1
+    },
+    "original_objects_retained": 12,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.2879999876022339,
+        -0.11500000208616257,
+        -0.7707592248916626
+      ],
+      "high": [
+        0.304495245218277,
+        0.11500000208616257,
+        1.3390083312988281
+      ]
+    },
+    "bone_names": []
+  },
+  "props/sword": {
+    "selected_mesh_objects": 11,
+    "added_detail_objects": 3,
+    "detail_parts": {
+      "Woodland equipment worn binding": 3
+    },
+    "original_objects_retained": 8,
+    "source_selected_bounds_saved_pose": {
+      "low": [
+        -0.23999999463558197,
+        -0.0729999989271164,
+        -0.29479852318763733
+      ],
+      "high": [
+        0.23999999463558197,
+        0.0729999989271164,
+        1.399999976158142
+      ]
+    },
+    "bone_names": []
+  }
+}

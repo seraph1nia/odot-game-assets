@@ -13,7 +13,10 @@ def main():
     parser.add_argument('--dotnet-root')
     parser.add_argument('--label', default='production')
     parser.add_argument('--only', choices=['all', 'production', 'skill-tree', 'woodland', 'worldtree'], default='all')
+    parser.add_argument('--timeout-seconds', type=int, default=180, help='Owned native campaign limit; larger full software-rendered suites may need an explicit bound')
     args = parser.parse_args()
+    if not 1 <= args.timeout_seconds <= 900:
+        parser.error('timeout-seconds must be between 1 and 900')
     cache = ROOT / '.cache/ui' / args.label
     cache.mkdir(parents=True, exist_ok=True)
     output = ROOT / 'docs/ui/production' / args.label
@@ -38,7 +41,7 @@ def main():
     manifest = {path.relative_to(source).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
                 for path in sorted(source.rglob('*')) if path.is_file()
                 and '.godot' not in path.parts and path.suffix not in ('.uid', '.import')}
-    text = run_owned(command, env, cache / 'tests.log', timeout=180)
+    text = run_owned(command, env, cache / 'tests.log', timeout=args.timeout_seconds)
     if any(hashlib.sha256((source / name).read_bytes()).hexdigest() != digest for name, digest in manifest.items()):
         raise RuntimeError('Source changed during validation; fresh process required')
     result_path = output / 'results.json'

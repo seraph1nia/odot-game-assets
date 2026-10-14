@@ -222,7 +222,7 @@
   },
   "attribution": "Supplied README: concept boards AI-generated for the conversation; canonical diagrams/JSON and starter vectors programmatically authored for the handoff. Runtime illustrations/30 motifs originally authored in this repository from that direction; no supplied starter SVG is used as runtime art.",
   "generator": "tools/ui/build_worldtree_art.py",
-  "generator_sha256": "152b33723265b46663e8fe617d197079b6070f807f665826c5b7dba22373148d",
+  "generator_sha256": "33a9af3c7e87a62c3c19fe338d575adc283b7af7aaf12303d83c1dde8c3335b1",
   "artwork": [
     {
       "source": "sources/ui/worldtree/branches/edge_to_primary_center.svg",
@@ -365,7 +365,7 @@
     {
       "source": "sources/ui/worldtree/foliage_alive.svg",
       "output": "ui/preview/UI/art/worldtree/foliage_alive.svg",
-      "sha256": "a4e5b862175483d32ed5e3c0375de6a3e552658279f616d6b139e903c9c13a5d",
+      "sha256": "595088562f27f3f25238125a03ca0704cff93b93ab6b660b26a6d0d7999092b9",
       "bytes": 1755
     },
     {
@@ -581,7 +581,7 @@
     {
       "source": "sources/ui/worldtree/roots_alive.svg",
       "output": "ui/preview/UI/art/worldtree/roots_alive.svg",
-      "sha256": "b8aaa47b4919d5e3a85f5c7d57cc546c25f92cdc97f1a32a289677957b8752b1",
+      "sha256": "9888f2613d6bf33c6c613cd177ded2116387fa87eb5a235d7f8efae81963b3d4",
       "bytes": 3428
     },
     {
@@ -606,5 +606,13 @@
   "icons": 30,
   "wooden_connections": 23,
   "runtime_art_bytes": 112924,
-  "limitations": "Lightweight shaded/outlined original SVG adaptation; not painted raster reference fidelity or 3D. File bytes exclude Godot decoded texture caches/GPU allocations."
+  "limitations": "Lightweight shaded/outlined original SVG adaptation; not painted raster reference fidelity or 3D. File bytes exclude Godot decoded texture caches/GPU allocations.",
+  "whisperwood_refinement": "Muted selected ornament bodies; existing structure, native contrast/states, topology and original seal retained. docs/whisperwood/ui-refined.json binds before/after.",
+  "selective_refinement": {
+    "tool": "tools/ui/woodland_refinement.py",
+    "tool_sha256": "1e2c79202a4c525dbdb05af68f7e4e91be85d5de30b96c979c5cc13b3c251d35",
+    "method": "Selected SVG ornament body color substitutions only; paths/geometry and original native behavior unchanged. No wholesale artwork regeneration.",
+    "receipt": "docs/whisperwood/ui-refined.json",
+    "previous_generator_sha256": "152b33723265b46663e8fe617d197079b6070f807f665826c5b7dba22373148d"
+  }
 }

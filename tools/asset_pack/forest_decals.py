@@ -71,6 +71,9 @@ def rgba(kind, size):
     color = (style.FOREST.leaf_tip if kind == 'moss_wash' else
              style.PAINTED_ACCENTS['rune_glow'][0] if kind == 'rune_circle' else
              style.FOREST.cap_purple_tip if kind == 'fairy_ring' else style.FOREST.gill_tip)
+    # Whisperwood changes only encoded body color; authored coverage/guard band
+    # and straight-alpha filtering contracts remain byte-for-byte identical.
+    color = style.woodland_color(color, accent=kind != 'moss_wash')
     rgb = bytes(round(c * 255) for c in color)
     pixels = bytearray()
     for row in range(size):

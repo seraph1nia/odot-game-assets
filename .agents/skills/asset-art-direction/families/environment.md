@@ -12,8 +12,14 @@ or [normals](../blender/normals.md) for the actual issue. A shared edit also nee
 leaf support; F3: rune monolith/steps; F4/F6: dominant luminous mushroom with
 varied smaller caps; F5: stone arch/lantern stream; F7: curved wooden bridge;
 F8: central floating crystal/stone ring and open approach.
-Protect each focal mass/negative space, rather than making every tile a uniformly
-dense collection of glowing components. D06 cyan/violet/amber accents are not a
+Under [W0](../references/index.md#whisperwood), increase rooted undergrowth,
+layered moss and creeping leaves at rocks, tree feet and bridge/shrine supports;
+mute colored bodies and retain smaller luminous undersides/runes. Protect each
+focal mass/negative space, rather than making every tile a uniformly dense
+collection of glowing components. Static fauna receive quieter painted fur/wing
+and role-appropriate anatomy/detail, not building ornaments. Flat detailed-ground
+and path/river variants keep all occupation and edge interfaces: enrich their
+painted litter/roots/damp banks instead of adding obstructive raised growth. D06 cyan/violet/amber accents are not a
 reason to make the entire ground/cap luminous. D02 retains selective smooth
 organic normals despite visible reference cap facets; crystals stay flat.
 

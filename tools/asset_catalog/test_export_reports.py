@@ -13,7 +13,9 @@ from .index import CatalogIndex, write_json
 from .metadata import read_glb
 
 ROOT = Path(__file__).resolve().parents[2]
-CASES = [('characters/evil_ranged_unit', 90, 92), ('props/crossbow', 10, 12)]
+# Authored Whisperwood additions: ambusher cases/scarf and three local grip
+# bindings. Keep exact serialized counts as regression anchors, not stale reports.
+CASES = [('characters/evil_ranged_unit', 90, 102), ('props/crossbow', 10, 15)]
 
 
 class ExportReportTests(unittest.TestCase):
