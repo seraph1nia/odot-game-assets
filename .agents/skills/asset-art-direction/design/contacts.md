@@ -20,7 +20,11 @@ detail is required, but equal coverage everywhere is not: doors, working machine
 faces, grips, bridge apertures and river connectors must remain readable.
 Paint feathered contact darkening and local colored bounce on receiving surfaces,
 not floating hard disks. Contacts make the miniature feel planted; uncontrolled
-repetition makes it busy and procedural.
+repetition makes it busy and procedural. In a second quality pass, recover visible
+roof/stone rest planes before adding growth. Preserve abundant planted shelves,
+but keep the working cue and its approach clear. Retain shared source instances
+when selectively thinning independent growth; preserve embedded kit children and
+the canonical prototype.
 
 ## Scope and exceptions
 

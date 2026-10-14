@@ -1,0 +1,17 @@
+{
+  "sources/buildings/bakery.blend": "c2be8989553f46cd7e2c08dd6444a951359658e906fba4421dc3189df21542a2",
+  "exports/buildings/bakery.glb": "d092210863a311eaabd49da14212128072c5daa39e62820d7a35b3fa0d084c9a",
+  "exports/previews/bakery.png": "e7b835ad5f5b6a1b4377eff7b73d466417044d47357f19cdd17a832d42fc04d3",
+  "sources/buildings/weaver.blend": "d0291d7b3961e75d3415a562ea667142078e85ddad164b5a6c59dc33ee38ab43",
+  "exports/buildings/weaver.glb": "dbbd0b36ce597aaf056b55a0b806fa5c11c051772d3f45e7a77a264461f56084",
+  "exports/previews/weaver.png": "d8f2091447771362b166830041ec999d9d20ecc1da2496c2eaa0acbe35a74b54",
+  "sources/buildings/magic_academy.blend": "3aa4f6283c48c49405d42351e10e6fa3e1f23b8f1a28a0ded2161b841efa0178",
+  "exports/buildings/magic_academy.glb": "85de2e9a6d0cba92ac560eaa59e9bea7736386ef18255830225875f0a9e84657",
+  "exports/previews/magic_academy.png": "fece58a166044894fd8bd0047f0e669fb1f27e7c327e37b127f56c50b6ab86d6",
+  "sources/buildings/town_hall.blend": "efb7b9210502271282083390575f3ed2efd58138938bf1b0f8d41750cbbee737",
+  "exports/buildings/town_hall.glb": "7753e94262a1230975aa4bea7f225553bd7f2143e17a8cd86944bfdaf1ec6420",
+  "exports/previews/town_hall.png": "cb357d59f3645fcfa3f66e87c8c3cd25859e99126bf0b663495dcdbe93b54a0a",
+  "sources/buildings/woodcutter_hut.blend": "46453c2024d55cd78316e9cc1cb2a209b712434bb2a1822f997308a5a0529eef",
+  "exports/buildings/woodcutter_hut.glb": "439466a669468aeca0bab31b014ffe12aa5b6b0451711fa576906307d5070f94",
+  "exports/previews/woodcutter_hut.png": "bc864362a192fa00001690c92fab247f9f93bb10740bc06a8688593edf8f8327"
+}

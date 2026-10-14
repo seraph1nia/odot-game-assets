@@ -1,0 +1,66 @@
+{
+  "scope": "Supplementary grayscale derivations for palette/value review; not canonical 192/96 renderer derivatives or new render profiles",
+  "tool_version": "Version: ImageMagick 7.1.2-33 Q16-HDRI x86_64 4bab3bc37:20261010 https://imagemagick.org",
+  "images": [
+    {
+      "input": "docs/quality-round-two/evidence/before/buildings/bakery.png",
+      "input_sha256": "9d94c5517c05f5bdc5bc1ac0180b4c84964f65f896f2c40d3ac93cdfe3bf7e10",
+      "output": "docs/quality-round-two/evidence/before/buildings/bakery-gray.png",
+      "output_sha256": "b3e2e9871469a9c6c1b5b052de2b9797a60664aa3cb9ea47b494f8a5f5a1abf8",
+      "recipe": [
+        "magick",
+        "docs/quality-round-two/evidence/before/buildings/bakery.png",
+        "-colorspace",
+        "Gray",
+        "-colorspace",
+        "sRGB",
+        "PNG32:docs/quality-round-two/evidence/before/buildings/bakery-gray.png"
+      ]
+    },
+    {
+      "input": "docs/quality-round-two/evidence/after/buildings/bakery.png",
+      "input_sha256": "40db5c47fa688c179fdec48eaf6f5c9a170fd69e4e89b5cbba0beaebad94432e",
+      "output": "docs/quality-round-two/evidence/after/buildings/bakery-gray.png",
+      "output_sha256": "984950c554642654291d6966390209eb4a74c64329f023d2acc1998a9cec435d",
+      "recipe": [
+        "magick",
+        "docs/quality-round-two/evidence/after/buildings/bakery.png",
+        "-colorspace",
+        "Gray",
+        "-colorspace",
+        "sRGB",
+        "PNG32:docs/quality-round-two/evidence/after/buildings/bakery-gray.png"
+      ]
+    },
+    {
+      "input": "docs/quality-round-two/evidence/before/buildings/magic_academy.png",
+      "input_sha256": "018fa10bb453ba74200fad9dcc4d8e1e127b850d5a564b05796fb05421562003",
+      "output": "docs/quality-round-two/evidence/before/buildings/magic_academy-gray.png",
+      "output_sha256": "aef4f13ceba6fab18f7bc26594e582f37c02a05ccb6b7187fecb8b2bd009062d",
+      "recipe": [
+        "magick",
+        "docs/quality-round-two/evidence/before/buildings/magic_academy.png",
+        "-colorspace",
+        "Gray",
+        "-colorspace",
+        "sRGB",
+        "PNG32:docs/quality-round-two/evidence/before/buildings/magic_academy-gray.png"
+      ]
+    },
+    {
+      "input": "docs/quality-round-two/evidence/after/buildings/magic_academy.png",
+      "input_sha256": "5007fc89faffa3d66d8c093e7ccc43748522886ab158817a70c2a1d961b21304",
+      "output": "docs/quality-round-two/evidence/after/buildings/magic_academy-gray.png",
+      "output_sha256": "66dd0113101e5d9889ed2a2930224b740cb390e8a1499a2e715afeaee6e18ccf",
+      "recipe": [
+        "magick",
+        "docs/quality-round-two/evidence/after/buildings/magic_academy.png",
+        "-colorspace",
+        "Gray",
+        "-colorspace",
+        "sRGB",
+        "PNG32:docs/quality-round-two/evidence/after/buildings/magic_academy-gray.png"
+      ]
+    }
+  ]
+}

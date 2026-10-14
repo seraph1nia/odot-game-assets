@@ -1,0 +1,3028 @@
+{
+  "baseline_revision": "5cda624",
+  "baseline_evidence": "docs/whisperwood/completion.json",
+  "scope": "Five selective focal building edits, all 133 existing IDs assessed; native UI retained; historical first-round ledgers read-only",
+  "counts": {
+    "assessed": 133,
+    "refined": 5,
+    "retained": 128
+  },
+  "assets": [
+    {
+      "id": "buildings/archery_range",
+      "status": "retained",
+      "source": "sources/buildings/archery_range.blend",
+      "source_sha256": "ac3da8e68535334d5495a45303182361998380ca153241aefb4961ae48bcd079",
+      "reason": "The archery range working signature remains distinct at small size and its roof/entrance separation is sufficient; fitting source-preserved role structure needs no generic extra ornament.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/archery_range.png",
+      "baseline_image_sha256": "b89f65d7f4407a5283771d8b52a922ce7fd17a3f6b41034957fa44435e465ecc",
+      "export_sha256": "2bd606ca2953e5f329b7abf55f100d73717df17ba7262d97365792a5db1be297",
+      "retained_subparts": [
+        "existing role plan, recessed entrance, timber/masonry joints and shingle topology",
+        "manual UV layers/paint patterns and roughness/normal maps; root/orientation/export selector; embedded shared-kit data",
+        "muted weathered surface bodies, quiet luminous accents",
+        "contact-planted roof/facade/root growth",
+        "rangy open lookout, oversized target/bow and arrow fletching",
+        "purposeful bow rack details"
+      ]
+    },
+    {
+      "id": "buildings/arrow_tower",
+      "status": "retained",
+      "source": "sources/buildings/arrow_tower.blend",
+      "source_sha256": "bc6ef44447aff174d90045372e7242693e65f266f9035115758895b5ee646c48",
+      "reason": "The arrow tower working signature remains distinct at small size and its roof/entrance separation is sufficient; fitting source-preserved role structure needs no generic extra ornament.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/arrow_tower.png",
+      "baseline_image_sha256": "5a17b998539db928470806c23f67fcc362b3940791b934ccce271d0bcf85f037",
+      "export_sha256": "dfa58adc5ff7bb517506aca5873d15a9a4495c7caba644d8ac935346af988595",
+      "retained_subparts": [
+        "existing role plan, recessed entrance, timber/masonry joints and shingle topology",
+        "manual UV layers/paint patterns and roughness/normal maps; root/orientation/export selector; embedded shared-kit data",
+        "muted weathered surface bodies, quiet luminous accents",
+        "contact-planted roof/facade/root growth",
+        "needle-tall arrow watch, large fletched parapet and hanging supply basket",
+        "purposeful watch basket details"
+      ]
+    },
+    {
+      "id": "buildings/bakery",
+      "status": "refined",
+      "source": "sources/buildings/bakery.blend",
+      "source_sha256": "24d41356e082aed7bb5e9b7318e948c462b95fdebfc0fe6b5d3f47a4bcac9b39",
+      "reason": "Layered shelter recovered from flat brown oval; warm ochre/cream separates bread canopy from timber while the window, wheat and bread stay focal.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/bakery.png",
+      "baseline_image_sha256": "9d94c5517c05f5bdc5bc1ac0180b4c84964f65f896f2c40d3ac93cdfe3bf7e10",
+      "evidence": {
+        "before": {
+          "export_sha256": "d092210863a311eaabd49da14212128072c5daa39e62820d7a35b3fa0d084c9a",
+          "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+          "image": "docs/quality-round-two/evidence/before/buildings/bakery.png",
+          "image_sha256": "9d94c5517c05f5bdc5bc1ac0180b4c84964f65f896f2c40d3ac93cdfe3bf7e10",
+          "inspection_tiers": [
+            96,
+            192,
+            480
+          ],
+          "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+          "derived_images": {
+            "docs/quality-round-two/evidence/before/buildings/bakery-192.png": "af2b1f09ec7e6064780cd7f3bc7633ab51c48837b187800bb58a6db9f7f709bd",
+            "docs/quality-round-two/evidence/before/buildings/bakery-96.png": "2bca4f34fcd748663b125c0aef309fa3c10b03ddab36df8113269c7e54aba710"
+          },
+          "export_bytes": 2955572,
+          "facts": {
+            "bytes": 2955572,
+            "meshes": 363,
+            "triangles": 30343,
+            "materials": 20,
+            "animations": [],
+            "version": "d092210863a311eaabd49da14212128072c5daa39e62820d7a35b3fa0d084c9a"
+          },
+          "job": {
+            "job": "whisperwood-after-buildings-bakery",
+            "seconds": 4.73,
+            "log": ".cache/asset-check/logs/whisperwood-after-buildings-bakery.log"
+          },
+          "source_sha256": "c2be8989553f46cd7e2c08dd6444a951359658e906fba4421dc3189df21542a2",
+          "provenance": "Exact landed first-round after image bytes and canonical renderer/derivative binding; not re-rendered or reconstructed"
+        },
+        "after": {
+          "image": "docs/quality-round-two/evidence/after/buildings/bakery.png",
+          "image_sha256": "40db5c47fa688c179fdec48eaf6f5c9a170fd69e4e89b5cbba0beaebad94432e",
+          "export_sha256": "ea88aa49a567f80849358d12a1d8d970973d2453bb0c7494a4ac387c993daaa5",
+          "source_sha256": "24d41356e082aed7bb5e9b7318e948c462b95fdebfc0fe6b5d3f47a4bcac9b39",
+          "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+          "inspection_tiers": [
+            96,
+            192,
+            480
+          ],
+          "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+          "job": {
+            "job": "quality-two-bakery",
+            "seconds": 4.73,
+            "log": ".cache/asset-check/logs/quality-two-bakery.log"
+          },
+          "derived_images": {
+            "docs/quality-round-two/evidence/after/buildings/bakery-192.png": "f0494014b8a492d4ed2a67b18b78d25f8b465c67df6816b5f3048f5d42c1e6e4",
+            "docs/quality-round-two/evidence/after/buildings/bakery-96.png": "73adb2c8aa61af921f71c4b4bf1b4d910738a24517e30e6ebc64d651f5426d77"
+          },
+          "facts": {
+            "bytes": 3269268,
+            "meshes": 363,
+            "triangles": 30343,
+            "materials": 22,
+            "animations": [],
+            "version": "ea88aa49a567f80849358d12a1d8d970973d2453bb0c7494a4ac387c993daaa5"
+          }
+        },
+        "resources_before": {
+          "active_mesh_nodes": 934,
+          "active_primitive_instances": 1331,
+          "active_triangle_instances": 46003,
+          "skin_joint_counts": [],
+          "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+        },
+        "resources_after": {
+          "active_mesh_nodes": 934,
+          "active_primitive_instances": 1332,
+          "active_triangle_instances": 46003,
+          "skin_joint_counts": [],
+          "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+        }
+      },
+      "refined_subparts": [
+        "curved ochre porch crown and cream underside"
+      ],
+      "retained_subparts": [
+        "root/export selector/identity",
+        "original UV/roughness/normal maps except named newly colored porch material",
+        "embedded kit children and shared mesh data",
+        "all other structural/trade features"
+      ],
+      "rules": [
+        "D01",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D08",
+        "D09"
+      ],
+      "authored": {
+        "sha256_before": "c2be8989553f46cd7e2c08dd6444a951359658e906fba4421dc3189df21542a2",
+        "sha256_after": "24d41356e082aed7bb5e9b7318e948c462b95fdebfc0fe6b5d3f47a4bcac9b39",
+        "focal_changes": [
+          "curved ochre porch crown and cream underside"
+        ],
+        "removed_independent_growth": [],
+        "root_preserved": true,
+        "kit_children_untouched": true
+      }
+    },
+    {
+      "id": "buildings/barracks",
+      "status": "retained",
+      "source": "sources/buildings/barracks.blend",
+      "source_sha256": "dddbebfdfbf475ef4e86740f522b7e0914877930fdf6bc05238c838245726a09",
+      "reason": "The barracks working signature remains distinct at small size and its roof/entrance separation is sufficient; fitting source-preserved role structure needs no generic extra ornament.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/barracks.png",
+      "baseline_image_sha256": "65bc39c28dba8933c479d9104d1dfa7464ee74d45523042ad271b610379141fa",
+      "export_sha256": "e611ccde8dd3d372df2ab4eda4c5b170fc2bac177ebffdfab6c25eb0514b1c2c",
+      "retained_subparts": [
+        "existing role plan, recessed entrance, timber/masonry joints and shingle topology",
+        "manual UV layers/paint patterns and roughness/normal maps; root/orientation/export selector; embedded shared-kit data",
+        "muted weathered surface bodies, quiet luminous accents",
+        "contact-planted roof/facade/root growth",
+        "squat armored gate, broad sword shield and bundled spear standard",
+        "purposeful spear standard details"
+      ]
+    },
+    {
+      "id": "buildings/bombarding_tower",
+      "status": "retained",
+      "source": "sources/buildings/bombarding_tower.blend",
+      "source_sha256": "1bd9038ba4439528530a827664a0ca0535981de148369e3a216b8c9c61b4d1d9",
+      "reason": "The bombarding tower working signature remains distinct at small size and its roof/entrance separation is sufficient; fitting source-preserved role structure needs no generic extra ornament.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/bombarding_tower.png",
+      "baseline_image_sha256": "d5b4d5a709f2518239847d5444977c9ba6f07ef849d6d5cb30aa77030ed3eabb",
+      "export_sha256": "06ac8ca3b47754b86f067055294f0b99d2542d620835ee02d1895781fcc99ab2",
+      "retained_subparts": [
+        "existing role plan, recessed entrance, timber/masonry joints and shingle topology",
+        "manual UV layers/paint patterns and roughness/normal maps; root/orientation/export selector; embedded shared-kit data",
+        "muted weathered surface bodies, quiet luminous accents",
+        "contact-planted roof/facade/root growth",
+        "heavy low artillery fort, broad muzzle and hooped ammunition cradle",
+        "purposeful ammo cradle details"
+      ]
+    },
+    {
+      "id": "buildings/gold_mine",
+      "status": "retained",
+      "source": "sources/buildings/gold_mine.blend",
+      "source_sha256": "57abaa6c024e6240e8c3ffe02cc16d3259a46a2f82106948af02984f7c520153",
+      "reason": "The gold mine working signature remains distinct at small size and its roof/entrance separation is sufficient; fitting source-preserved role structure needs no generic extra ornament.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/gold_mine.png",
+      "baseline_image_sha256": "57b620562e88d0666c720efddbdd7ac9e20b490d695ce6352fe951715d5e067a",
+      "export_sha256": "6f0aac0808817e112ecef9c333a84f6d4c9185eceb4262f125d025ad4ce273d3",
+      "retained_subparts": [
+        "existing role plan, recessed entrance, timber/masonry joints and shingle topology",
+        "manual UV layers/paint patterns and roughness/normal maps; root/orientation/export selector; embedded shared-kit data",
+        "muted weathered surface bodies, quiet luminous accents",
+        "contact-planted roof/facade/root growth",
+        "wide crouching portal, prominent gold cart and thick winding root arch",
+        "purposeful portal roots details"
+      ]
+    },
+    {
+      "id": "buildings/magic_academy",
+      "status": "refined",
+      "source": "sources/buildings/magic_academy.blend",
+      "source_sha256": "f6edf70654dcfdd4db3c635db9d6f8f5d9df937e169da1a79a29db9cc63027b5",
+      "reason": "Shaded orb now has volume rather than a lilac light disk; thin armillary bands identify scholarly magic. Purple crystal and narrow window glow remain intact.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/magic_academy.png",
+      "baseline_image_sha256": "018fa10bb453ba74200fad9dcc4d8e1e127b850d5a564b05796fb05421562003",
+      "evidence": {
+        "before": {
+          "export_sha256": "85de2e9a6d0cba92ac560eaa59e9bea7736386ef18255830225875f0a9e84657",
+          "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+          "image": "docs/quality-round-two/evidence/before/buildings/magic_academy.png",
+          "image_sha256": "018fa10bb453ba74200fad9dcc4d8e1e127b850d5a564b05796fb05421562003",
+          "inspection_tiers": [
+            96,
+            192,
+            480
+          ],
+          "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+          "derived_images": {
+            "docs/quality-round-two/evidence/before/buildings/magic_academy-192.png": "8a43dae2d88a11a69def7f1e461c1398a72f6cad88b9003089584d0b8ac1a258",
+            "docs/quality-round-two/evidence/before/buildings/magic_academy-96.png": "0bfbb10e426b86af6980ec35b7d8854c9824782950528318a0686f726cf66945"
+          },
+          "export_bytes": 5246836,
+          "facts": {
+            "bytes": 5246836,
+            "meshes": 311,
+            "triangles": 27774,
+            "materials": 41,
+            "animations": [],
+            "version": "85de2e9a6d0cba92ac560eaa59e9bea7736386ef18255830225875f0a9e84657"
+          },
+          "job": {
+            "job": "whisperwood-after-buildings-magic_academy",
+            "seconds": 8.11,
+            "log": ".cache/asset-check/logs/whisperwood-after-buildings-magic_academy.log"
+          },
+          "source_sha256": "3aa4f6283c48c49405d42351e10e6fa3e1f23b8f1a28a0ded2161b841efa0178",
+          "provenance": "Exact landed first-round after image bytes and canonical renderer/derivative binding; not re-rendered or reconstructed"
+        },
+        "after": {
+          "image": "docs/quality-round-two/evidence/after/buildings/magic_academy.png",
+          "image_sha256": "5007fc89faffa3d66d8c093e7ccc43748522886ab158817a70c2a1d961b21304",
+          "export_sha256": "76b31d49f074cbc73799bdfa0963fcce5bec41b04d3edd1854983e7d4272f226",
+          "source_sha256": "f6edf70654dcfdd4db3c635db9d6f8f5d9df937e169da1a79a29db9cc63027b5",
+          "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+          "inspection_tiers": [
+            96,
+            192,
+            480
+          ],
+          "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+          "job": {
+            "job": "quality-two-magic_academy",
+            "seconds": 11.08,
+            "log": ".cache/asset-check/logs/quality-two-magic_academy.log"
+          },
+          "derived_images": {
+            "docs/quality-round-two/evidence/after/buildings/magic_academy-192.png": "411e619458c4c30d880f3dae68ae44839b8420eaabf1d16d16081d9775714485",
+            "docs/quality-round-two/evidence/after/buildings/magic_academy-96.png": "88fdd1de1d95c7cf33264f825c99ad6856dc6f59f0d50baa066e5c59525fca1d"
+          },
+          "facts": {
+            "bytes": 5252952,
+            "meshes": 313,
+            "triangles": 28350,
+            "materials": 42,
+            "animations": [],
+            "version": "76b31d49f074cbc73799bdfa0963fcce5bec41b04d3edd1854983e7d4272f226"
+          }
+        },
+        "resources_before": {
+          "active_mesh_nodes": 7495,
+          "active_primitive_instances": 12227,
+          "active_triangle_instances": 250918,
+          "skin_joint_counts": [],
+          "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+        },
+        "resources_after": {
+          "active_mesh_nodes": 7418,
+          "active_primitive_instances": 12100,
+          "active_triangle_instances": 248974,
+          "skin_joint_counts": [],
+          "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+        }
+      },
+      "refined_subparts": [
+        "shaded purple orb body with narrow brass armillary bands"
+      ],
+      "retained_subparts": [
+        "root/export selector/identity",
+        "original UV/roughness/normal maps except named newly colored porch material",
+        "embedded kit children and shared mesh data",
+        "all other structural/trade features"
+      ],
+      "rules": [
+        "D01",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D08",
+        "D09"
+      ],
+      "authored": {
+        "sha256_before": "3aa4f6283c48c49405d42351e10e6fa3e1f23b8f1a28a0ded2161b841efa0178",
+        "sha256_after": "f6edf70654dcfdd4db3c635db9d6f8f5d9df937e169da1a79a29db9cc63027b5",
+        "focal_changes": [
+          "shaded purple orb body with narrow brass armillary bands"
+        ],
+        "removed_independent_growth": [
+          "Woodland shared moss cushion.052",
+          "Woodland shared curved ivy leaf.029",
+          "Woodland shared curved ivy leaf.030",
+          "Woodland shared moss cushion.053",
+          "Woodland shared curved ivy leaf.031",
+          "Woodland shared curved ivy leaf.032",
+          "Woodland shared moss cushion.068",
+          "Woodland shared curved ivy leaf.134",
+          "Woodland shared moss cushion.069",
+          "Woodland shared curved ivy leaf.136",
+          "Woodland shared curved ivy leaf.137",
+          "Woodland shared moss cushion.2143",
+          "Woodland shared curved ivy leaf.158",
+          "Woodland shared curved ivy leaf.159",
+          "Woodland shared moss cushion.2144",
+          "Woodland shared curved ivy leaf.161",
+          "Woodland shared curved ivy leaf.166",
+          "Woodland shared moss cushion.2148",
+          "Woodland shared curved ivy leaf.4367",
+          "Woodland shared moss cushion.2155",
+          "Woodland shared curved ivy leaf.4381",
+          "Woodland shared curved ivy leaf.4382",
+          "Woodland shared moss cushion.2156",
+          "Woodland shared curved ivy leaf.4383",
+          "Woodland shared curved ivy leaf.4384",
+          "Woodland shared moss cushion.2161",
+          "Woodland shared moss cushion.2173",
+          "Woodland shared curved ivy leaf.4417",
+          "Woodland shared curved ivy leaf.4418",
+          "Woodland shared moss cushion.2174",
+          "Woodland shared curved ivy leaf.4419",
+          "Woodland shared curved ivy leaf.4420",
+          "Woodland shared moss cushion.2181",
+          "Woodland shared curved ivy leaf.4433",
+          "Woodland shared moss cushion.2182",
+          "Woodland shared moss cushion.2183",
+          "Woodland shared curved ivy leaf.4437",
+          "Woodland shared curved ivy leaf.4438",
+          "Woodland shared moss cushion.2184",
+          "Woodland shared curved ivy leaf.4439",
+          "Woodland shared curved ivy leaf.4440",
+          "Woodland shared moss cushion.2193",
+          "Woodland shared curved ivy leaf.4459",
+          "Woodland shared curved ivy leaf.4460",
+          "Woodland shared moss cushion.2199",
+          "Woodland shared curved ivy leaf.4469",
+          "Woodland shared curved ivy leaf.4470",
+          "Woodland shared moss cushion.2200",
+          "Woodland shared curved ivy leaf.4471",
+          "Woodland shared curved ivy leaf.4472",
+          "Woodland shared moss cushion.2203",
+          "Woodland shared curved ivy leaf.4477",
+          "Woodland shared curved ivy leaf.4478",
+          "Woodland shared moss cushion.2204",
+          "Woodland shared curved ivy leaf.4479",
+          "Woodland shared curved ivy leaf.4480",
+          "Woodland shared moss cushion.2215",
+          "Woodland shared curved ivy leaf.4501",
+          "Woodland shared curved ivy leaf.4502",
+          "Woodland shared moss cushion.2216",
+          "Woodland shared curved ivy leaf.4503",
+          "Woodland shared curved ivy leaf.4504",
+          "Woodland shared curved ivy leaf.4517",
+          "Woodland shared curved ivy leaf.4518",
+          "Woodland shared moss cushion.2227",
+          "Woodland shared curved ivy leaf.4525",
+          "Woodland shared curved ivy leaf.4526",
+          "Woodland shared moss cushion.2228",
+          "Woodland shared curved ivy leaf.4527",
+          "Woodland shared curved ivy leaf.4528",
+          "Woodland shared moss cushion.2231",
+          "Woodland shared moss cushion.2243",
+          "Woodland shared curved ivy leaf.4560",
+          "Woodland shared moss cushion.2247",
+          "Woodland shared curved ivy leaf.4565",
+          "Woodland shared curved ivy leaf.4566",
+          "Woodland shared moss cushion.2248",
+          "Woodland shared curved ivy leaf.4567",
+          "Woodland shared curved ivy leaf.4568"
+        ],
+        "root_preserved": true,
+        "kit_children_untouched": true
+      }
+    },
+    {
+      "id": "buildings/metal_mine",
+      "status": "retained",
+      "source": "sources/buildings/metal_mine.blend",
+      "source_sha256": "26e69175e26a781dd67ef11510180b25219a7ef6f7027ee6109f2e7bee632e83",
+      "reason": "The metal mine working signature remains distinct at small size and its roof/entrance separation is sufficient; fitting source-preserved role structure needs no generic extra ornament.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/metal_mine.png",
+      "baseline_image_sha256": "6cf0e203fd9e8955d51e3535fca9df1fac377bc4f471555e1a4800b65452beba",
+      "export_sha256": "404a25e42a4d71acc55a2211887264c1824a876561b678dbb2a314cab9778bab",
+      "retained_subparts": [
+        "existing role plan, recessed entrance, timber/masonry joints and shingle topology",
+        "manual UV layers/paint patterns and roughness/normal maps; root/orientation/export selector; embedded shared-kit data",
+        "muted weathered surface bodies, quiet luminous accents",
+        "contact-planted roof/facade/root growth",
+        "tall dark ore escarpment, angular rail/cart and hoist framing",
+        "purposeful ore stack details"
+      ]
+    },
+    {
+      "id": "buildings/research_tower",
+      "status": "retained",
+      "source": "sources/buildings/research_tower.blend",
+      "source_sha256": "5a3ce3f08d38479b63089ee0b07fbc63656ed5d3f01ff6c163d23fa5f401329c",
+      "reason": "The research tower working signature remains distinct at small size and its roof/entrance separation is sufficient; fitting source-preserved role structure needs no generic extra ornament.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/research_tower.png",
+      "baseline_image_sha256": "b07d9e4ac216e4079e92602848753e6f70a58686396e6bc10b7f68acab59eec4",
+      "export_sha256": "019364121d0b250d7b261ff19d1c289405d5c0d9529239d2b86efbd9f3bf356d",
+      "retained_subparts": [
+        "existing role plan, recessed entrance, timber/masonry joints and shingle topology",
+        "manual UV layers/paint patterns and roughness/normal maps; root/orientation/export selector; embedded shared-kit data",
+        "muted weathered surface bodies, quiet luminous accents",
+        "contact-planted roof/facade/root growth",
+        "round scholarly observatory, enlarged telescope and dangling star chart",
+        "purposeful star chart details"
+      ]
+    },
+    {
+      "id": "buildings/stone_cutter",
+      "status": "retained",
+      "source": "sources/buildings/stone_cutter.blend",
+      "source_sha256": "fdf1994ce7b9d0915988da3e0570bc1680775461320ea793a570e6358d763d21",
+      "reason": "The stone cutter working signature remains distinct at small size and its roof/entrance separation is sufficient; fitting source-preserved role structure needs no generic extra ornament.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/stone_cutter.png",
+      "baseline_image_sha256": "6b75aa05786c9d5dd0a7409086a2e018afebb5937a6f6f4b825228d0e2e8c78f",
+      "export_sha256": "7530d59ea8b401683d5d89c09373645d38d84967abe6d595d6c317f2eb83143e",
+      "retained_subparts": [
+        "existing role plan, recessed entrance, timber/masonry joints and shingle topology",
+        "manual UV layers/paint patterns and roughness/normal maps; root/orientation/export selector; embedded shared-kit data",
+        "muted weathered surface bodies, quiet luminous accents",
+        "contact-planted roof/facade/root growth",
+        "working stone crane and monumental standing-cut blocks, open wheel",
+        "purposeful standing blocks details"
+      ]
+    },
+    {
+      "id": "buildings/tavern",
+      "status": "retained",
+      "source": "sources/buildings/tavern.blend",
+      "source_sha256": "6b2074c0fcc479211bff96e1250e88f8ac0f213899b909f2c9dbadba751f7f59",
+      "reason": "The tavern working signature remains distinct at small size and its roof/entrance separation is sufficient; fitting source-preserved role structure needs no generic extra ornament.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/tavern.png",
+      "baseline_image_sha256": "bd8b14faf0551ec2cf67fff3fee523540fdacd4d39f2bac466b30455a3465db4",
+      "export_sha256": "b6ad4251c49517642f8c586334765a227b77fae3b5eace019fb7b80c088fd370",
+      "retained_subparts": [
+        "existing role plan, recessed entrance, timber/masonry joints and shingle topology",
+        "manual UV layers/paint patterns and roughness/normal maps; root/orientation/export selector; embedded shared-kit data",
+        "muted weathered surface bodies, quiet luminous accents",
+        "contact-planted roof/facade/root growth",
+        "wide cozy inn, oversized foamy mug and stacked hooped brewing casks",
+        "purposeful brewing casks details"
+      ]
+    },
+    {
+      "id": "buildings/town_hall",
+      "status": "refined",
+      "source": "sources/buildings/town_hall.blend",
+      "source_sha256": "eed3ffc56b578954758ff30084d71aee277e4c9b0388b9387dbcc84b6f6ab4c8",
+      "reason": "Civic bell brought into its opening with a slight ringing lean; independent canopy growth thinned at the front, retaining antler-like branch and emblem identity.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/town_hall.png",
+      "baseline_image_sha256": "532543df6fb793f76d72fe0d849701102fc95dddfed5aa281d2ea9a016ef8697",
+      "evidence": {
+        "before": {
+          "export_sha256": "7753e94262a1230975aa4bea7f225553bd7f2143e17a8cd86944bfdaf1ec6420",
+          "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+          "image": "docs/quality-round-two/evidence/before/buildings/town_hall.png",
+          "image_sha256": "532543df6fb793f76d72fe0d849701102fc95dddfed5aa281d2ea9a016ef8697",
+          "inspection_tiers": [
+            96,
+            192,
+            480
+          ],
+          "export_bytes": 11314660,
+          "facts": {
+            "bytes": 11314660,
+            "meshes": 899,
+            "triangles": 90379,
+            "materials": 40,
+            "animations": [],
+            "version": "7753e94262a1230975aa4bea7f225553bd7f2143e17a8cd86944bfdaf1ec6420"
+          },
+          "job": {
+            "job": "whisperwood-after-buildings-town_hall",
+            "seconds": 9.44,
+            "log": ".cache/asset-check/logs/whisperwood-after-buildings-town_hall.log"
+          },
+          "source_sha256": "efb7b9210502271282083390575f3ed2efd58138938bf1b0f8d41750cbbee737",
+          "derived_images": {
+            "docs/quality-round-two/evidence/before/buildings/town_hall-192.png": "874ff76ddeb360f600be234e5de87b95d2b19ddcefb9ebd3ae07672bc6f6d908",
+            "docs/quality-round-two/evidence/before/buildings/town_hall-96.png": "7ed557dfb2a9238bf5705acb0db777278cc9c69c67f962656a894d78bf8d9f5f"
+          },
+          "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+          "provenance": "Exact landed first-round after image bytes and canonical renderer/derivative binding; not re-rendered or reconstructed"
+        },
+        "after": {
+          "image": "docs/quality-round-two/evidence/after/buildings/town_hall.png",
+          "image_sha256": "7c6234733af1b5f09155e1618aaea6b91f48956b75b3ca05b1e79b21a85358a6",
+          "export_sha256": "4a7583762b46cf27931213db437498595d45d8ef4ce9764ebef95734ffb2579a",
+          "source_sha256": "eed3ffc56b578954758ff30084d71aee277e4c9b0388b9387dbcc84b6f6ab4c8",
+          "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+          "inspection_tiers": [
+            96,
+            192,
+            480
+          ],
+          "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+          "job": {
+            "job": "quality-two-town_hall",
+            "seconds": 15.85,
+            "log": ".cache/asset-check/logs/quality-two-town_hall.log"
+          },
+          "derived_images": {
+            "docs/quality-round-two/evidence/after/buildings/town_hall-192.png": "ee28b6e7b26b39275a54bd0c598f45ccd436b4bcdeefc446e6f3210205e625a7",
+            "docs/quality-round-two/evidence/after/buildings/town_hall-96.png": "07454d954e90ae20dd519fcc24c975fb5c2721cab828c10eeb44d366e13f3883"
+          },
+          "facts": {
+            "bytes": 11277524,
+            "meshes": 899,
+            "triangles": 90379,
+            "materials": 40,
+            "animations": [],
+            "version": "4a7583762b46cf27931213db437498595d45d8ef4ce9764ebef95734ffb2579a"
+          }
+        },
+        "resources_before": {
+          "active_mesh_nodes": 7143,
+          "active_primitive_instances": 11257,
+          "active_triangle_instances": 284099,
+          "skin_joint_counts": [],
+          "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+        },
+        "resources_after": {
+          "active_mesh_nodes": 7047,
+          "active_primitive_instances": 11100,
+          "active_triangle_instances": 281055,
+          "skin_joint_counts": [],
+          "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+        }
+      },
+      "refined_subparts": [
+        "forward civic bell and lightly tilted ringing silhouette"
+      ],
+      "retained_subparts": [
+        "root/export selector/identity",
+        "original UV/roughness/normal maps except named newly colored porch material",
+        "embedded kit children and shared mesh data",
+        "all other structural/trade features"
+      ],
+      "rules": [
+        "D01",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D08",
+        "D09"
+      ],
+      "authored": {
+        "sha256_before": "efb7b9210502271282083390575f3ed2efd58138938bf1b0f8d41750cbbee737",
+        "sha256_after": "eed3ffc56b578954758ff30084d71aee277e4c9b0388b9387dbcc84b6f6ab4c8",
+        "focal_changes": [
+          "forward civic bell and lightly tilted ringing silhouette"
+        ],
+        "removed_independent_growth": [
+          "Woodland shared moss cushion.001",
+          "Woodland shared curved ivy leaf.033",
+          "Woodland shared curved ivy leaf.034",
+          "Woodland shared moss cushion.002",
+          "Woodland shared curved ivy leaf.045",
+          "Woodland shared moss cushion.014",
+          "Woodland shared moss cushion.015",
+          "Woodland shared curved ivy leaf.071",
+          "Woodland shared curved ivy leaf.072",
+          "Woodland shared moss cushion.016",
+          "Woodland shared moss cushion.019",
+          "Woodland shared curved ivy leaf.075",
+          "Woodland shared curved ivy leaf.076",
+          "Woodland shared moss cushion.020",
+          "Woodland shared moss cushion.021",
+          "Woodland shared curved ivy leaf.077",
+          "Woodland shared curved ivy leaf.078",
+          "Woodland shared moss cushion.022",
+          "Woodland shared moss cushion.027",
+          "Woodland shared curved ivy leaf.083",
+          "Woodland shared curved ivy leaf.084",
+          "Woodland shared moss cushion.028",
+          "Woodland shared moss cushion.078",
+          "Woodland shared curved ivy leaf.198",
+          "Woodland shared curved ivy leaf.199",
+          "Woodland shared moss cushion.079",
+          "Woodland shared curved ivy leaf.200",
+          "Woodland shared curved ivy leaf.201",
+          "Woodland shared moss cushion.086",
+          "Woodland shared curved ivy leaf.214",
+          "Woodland shared curved ivy leaf.215",
+          "Woodland shared moss cushion.087",
+          "Woodland shared curved ivy leaf.216",
+          "Woodland shared curved ivy leaf.217",
+          "Woodland shared moss cushion.092",
+          "Woodland shared curved ivy leaf.226",
+          "Woodland shared curved ivy leaf.227",
+          "Woodland shared moss cushion.093",
+          "Woodland shared curved ivy leaf.228",
+          "Woodland shared curved ivy leaf.229",
+          "Woodland shared curved ivy leaf.242",
+          "Woodland shared moss cushion.1892",
+          "Woodland shared curved ivy leaf.3826",
+          "Woodland shared curved ivy leaf.3827",
+          "Woodland shared moss cushion.1893",
+          "Woodland shared curved ivy leaf.3828",
+          "Woodland shared curved ivy leaf.3829",
+          "Woodland shared moss cushion.1900",
+          "Woodland shared curved ivy leaf.3842",
+          "Woodland shared curved ivy leaf.3843",
+          "Woodland shared moss cushion.1901",
+          "Woodland shared curved ivy leaf.3844",
+          "Woodland shared curved ivy leaf.3845",
+          "Woodland shared moss cushion.1910",
+          "Woodland shared curved ivy leaf.3862",
+          "Woodland shared curved ivy leaf.3863",
+          "Woodland shared moss cushion.1911",
+          "Woodland shared curved ivy leaf.3864",
+          "Woodland shared curved ivy leaf.3865",
+          "Woodland shared moss cushion.1926",
+          "Woodland shared curved ivy leaf.3894",
+          "Woodland shared curved ivy leaf.3895",
+          "Woodland shared moss cushion.1927",
+          "Woodland shared curved ivy leaf.3896",
+          "Woodland shared curved ivy leaf.3897",
+          "Woodland shared curved ivy leaf.3904",
+          "Woodland shared moss cushion.1946",
+          "Woodland shared curved ivy leaf.3934",
+          "Woodland shared curved ivy leaf.3935",
+          "Woodland shared moss cushion.1947",
+          "Woodland shared curved ivy leaf.3936",
+          "Woodland shared curved ivy leaf.3937",
+          "Woodland shared moss cushion.1948",
+          "Woodland shared curved ivy leaf.3938",
+          "Woodland shared curved ivy leaf.3939",
+          "Woodland shared moss cushion.1949",
+          "Woodland shared curved ivy leaf.3940",
+          "Woodland shared curved ivy leaf.3941",
+          "Woodland shared moss cushion.1952",
+          "Woodland shared curved ivy leaf.3946",
+          "Woodland shared curved ivy leaf.3947",
+          "Woodland shared moss cushion.1953",
+          "Woodland shared curved ivy leaf.3948",
+          "Woodland shared curved ivy leaf.3949",
+          "Woodland shared moss cushion.1960",
+          "Woodland shared curved ivy leaf.3962",
+          "Woodland shared curved ivy leaf.3963",
+          "Woodland shared moss cushion.1961",
+          "Woodland shared curved ivy leaf.3964",
+          "Woodland shared curved ivy leaf.3965",
+          "Woodland shared moss cushion.1982",
+          "Woodland shared curved ivy leaf.4006",
+          "Woodland shared curved ivy leaf.4007",
+          "Woodland shared moss cushion.1983",
+          "Woodland shared curved ivy leaf.4008",
+          "Woodland shared curved ivy leaf.4009"
+        ],
+        "root_preserved": true,
+        "kit_children_untouched": true
+      }
+    },
+    {
+      "id": "buildings/trade_market",
+      "status": "retained",
+      "source": "sources/buildings/trade_market.blend",
+      "source_sha256": "57075c594533e03e1e1b98292782008e9ee998762c0f54efcb55fef783d2a4e7",
+      "reason": "The trade market working signature remains distinct at small size and its roof/entrance separation is sufficient; fitting source-preserved role structure needs no generic extra ornament.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/trade_market.png",
+      "baseline_image_sha256": "723d94d7c21a1e3b8d3d9d69590143168c50fd056fb6a651b85b4ad3812bac5f",
+      "export_sha256": "777f16c0e7e7f972a9f35a43acdb215f5da0a0ebf5f5f4ff4fcfd76d02412a05",
+      "retained_subparts": [
+        "existing role plan, recessed entrance, timber/masonry joints and shingle topology",
+        "manual UV layers/paint patterns and roughness/normal maps; root/orientation/export selector; embedded shared-kit data",
+        "muted weathered surface bodies, quiet luminous accents",
+        "contact-planted roof/facade/root growth",
+        "spreading peaked canvas stalls, large balanced scales and tied parcels",
+        "purposeful market tents details"
+      ]
+    },
+    {
+      "id": "buildings/tree_house",
+      "status": "retained",
+      "source": "sources/buildings/tree_house.blend",
+      "source_sha256": "ea746e7ea998da1f542ba477d37acc4a380001a7f536fa0c0647833518ac45b7",
+      "reason": "The tree house working signature remains distinct at small size and its roof/entrance separation is sufficient; fitting source-preserved role structure needs no generic extra ornament.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/tree_house.png",
+      "baseline_image_sha256": "8e2dcf76476803755153191c8a6fc5e84691e0e247ad678c70dcc2ed25deaa5e",
+      "export_sha256": "d39032fc8f6db4d993252dcc69ee6e5ce53620eebfb4833c5edd349df901ff2c",
+      "retained_subparts": [
+        "existing role plan, recessed entrance, timber/masonry joints and shingle topology",
+        "manual UV layers/paint patterns and roughness/normal maps; root/orientation/export selector; embedded shared-kit data",
+        "muted weathered surface bodies, quiet luminous accents",
+        "contact-planted roof/facade/root growth",
+        "tall asymmetric living trunk, layered canopy, suspended seed baskets",
+        "purposeful tree baskets details"
+      ]
+    },
+    {
+      "id": "buildings/weaver",
+      "status": "refined",
+      "source": "sources/buildings/weaver.blend",
+      "source_sha256": "1d71b33799147ee14f3a6aa0abdd06295909210b075a11ce071dfb435818eaa0",
+      "reason": "Folds and narrow selvedges now carry weaving craft; a quiet ridge lane reduces independent competing growth without changing embedded shingles or loom.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/weaver.png",
+      "baseline_image_sha256": "6a547ef296d2b6a42b5d00402c8d5e6536a788dbe550808febda2db03fba9837",
+      "evidence": {
+        "before": {
+          "export_sha256": "dbbd0b36ce597aaf056b55a0b806fa5c11c051772d3f45e7a77a264461f56084",
+          "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+          "image": "docs/quality-round-two/evidence/before/buildings/weaver.png",
+          "image_sha256": "6a547ef296d2b6a42b5d00402c8d5e6536a788dbe550808febda2db03fba9837",
+          "inspection_tiers": [
+            96,
+            192,
+            480
+          ],
+          "export_bytes": 6491624,
+          "facts": {
+            "bytes": 6491624,
+            "meshes": 461,
+            "triangles": 40254,
+            "materials": 44,
+            "animations": [],
+            "version": "dbbd0b36ce597aaf056b55a0b806fa5c11c051772d3f45e7a77a264461f56084"
+          },
+          "job": {
+            "job": "whisperwood-after-buildings-weaver",
+            "seconds": 4.76,
+            "log": ".cache/asset-check/logs/whisperwood-after-buildings-weaver.log"
+          },
+          "source_sha256": "d0291d7b3961e75d3415a562ea667142078e85ddad164b5a6c59dc33ee38ab43",
+          "derived_images": {
+            "docs/quality-round-two/evidence/before/buildings/weaver-192.png": "9066b2d270d1a3d720de82988827c530399bd35d5cc362a0ddfd3f0387642043",
+            "docs/quality-round-two/evidence/before/buildings/weaver-96.png": "7595c247b8d4dbe28876ddee01bda37a9a607aa7fcaee23ea6a6afa6dc8f4ca6"
+          },
+          "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+          "provenance": "Exact landed first-round after image bytes and canonical renderer/derivative binding; not re-rendered or reconstructed"
+        },
+        "after": {
+          "image": "docs/quality-round-two/evidence/after/buildings/weaver.png",
+          "image_sha256": "467d0187cec7eb41a373de348aec04eae68313ed4836d6f60fac85b97d42daad",
+          "export_sha256": "83652b7bee2d17334eebf4ce4517254b1a6144bbe06f3598059b13556c5b72a7",
+          "source_sha256": "1d71b33799147ee14f3a6aa0abdd06295909210b075a11ce071dfb435818eaa0",
+          "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+          "inspection_tiers": [
+            96,
+            192,
+            480
+          ],
+          "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+          "job": {
+            "job": "quality-two-weaver",
+            "seconds": 5.95,
+            "log": ".cache/asset-check/logs/quality-two-weaver.log"
+          },
+          "derived_images": {
+            "docs/quality-round-two/evidence/after/buildings/weaver-192.png": "91465433d16b56502fa3914233f6fbe1b2fdd58739d5fa2ad6cd639589c13c93",
+            "docs/quality-round-two/evidence/after/buildings/weaver-96.png": "125b74ddcd00aa53b3b4886e86709d5ce95c83cf09afd499a0fecd740e7a7f3d"
+          },
+          "facts": {
+            "bytes": 6473480,
+            "meshes": 467,
+            "triangles": 40278,
+            "materials": 44,
+            "animations": [],
+            "version": "83652b7bee2d17334eebf4ce4517254b1a6144bbe06f3598059b13556c5b72a7"
+          }
+        },
+        "resources_before": {
+          "active_mesh_nodes": 2733,
+          "active_primitive_instances": 4270,
+          "active_triangle_instances": 108482,
+          "skin_joint_counts": [],
+          "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+        },
+        "resources_after": {
+          "active_mesh_nodes": 2674,
+          "active_primitive_instances": 4167,
+          "active_triangle_instances": 106650,
+          "skin_joint_counts": [],
+          "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+        }
+      },
+      "refined_subparts": [
+        "alternating wind-curved drapes and narrow woven selvedges"
+      ],
+      "retained_subparts": [
+        "root/export selector/identity",
+        "original UV/roughness/normal maps except named newly colored porch material",
+        "embedded kit children and shared mesh data",
+        "all other structural/trade features"
+      ],
+      "rules": [
+        "D01",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D08",
+        "D09"
+      ],
+      "authored": {
+        "sha256_before": "d0291d7b3961e75d3415a562ea667142078e85ddad164b5a6c59dc33ee38ab43",
+        "sha256_after": "1d71b33799147ee14f3a6aa0abdd06295909210b075a11ce071dfb435818eaa0",
+        "focal_changes": [
+          "alternating wind-curved drapes and narrow woven selvedges"
+        ],
+        "removed_independent_growth": [
+          "Woodland shared moss cushion.058",
+          "Woodland shared curved ivy leaf.154",
+          "Woodland shared curved ivy leaf.155",
+          "Woodland shared moss cushion.059",
+          "Woodland shared curved ivy leaf.156",
+          "Woodland shared curved ivy leaf.157",
+          "Woodland shared moss cushion.596",
+          "Woodland shared curved ivy leaf.1258",
+          "Woodland shared moss cushion.597",
+          "Woodland shared curved ivy leaf.1260",
+          "Woodland shared curved ivy leaf.1261",
+          "Woodland shared moss cushion.614",
+          "Woodland shared curved ivy leaf.1294",
+          "Woodland shared curved ivy leaf.1295",
+          "Woodland shared moss cushion.615",
+          "Woodland shared curved ivy leaf.1296",
+          "Woodland shared curved ivy leaf.1297",
+          "Woodland shared moss cushion.622",
+          "Woodland shared curved ivy leaf.1310",
+          "Woodland shared curved ivy leaf.1311",
+          "Woodland shared moss cushion.623",
+          "Woodland shared curved ivy leaf.1312",
+          "Woodland shared curved ivy leaf.1313",
+          "Woodland shared moss cushion.626",
+          "Woodland shared curved ivy leaf.1318",
+          "Woodland shared curved ivy leaf.1319",
+          "Woodland shared moss cushion.627",
+          "Woodland shared curved ivy leaf.1320",
+          "Woodland shared curved ivy leaf.1321",
+          "Woodland shared curved ivy leaf.1330",
+          "Woodland shared curved ivy leaf.1331",
+          "Woodland shared curved ivy leaf.1332",
+          "Woodland shared curved ivy leaf.1333",
+          "Woodland shared moss cushion.650",
+          "Woodland shared curved ivy leaf.1366",
+          "Woodland shared curved ivy leaf.1367",
+          "Woodland shared moss cushion.651",
+          "Woodland shared curved ivy leaf.1368",
+          "Woodland shared curved ivy leaf.1369",
+          "Woodland shared moss cushion.652",
+          "Woodland shared curved ivy leaf.1370",
+          "Woodland shared curved ivy leaf.1371",
+          "Woodland shared moss cushion.653",
+          "Woodland shared curved ivy leaf.1372",
+          "Woodland shared curved ivy leaf.1373",
+          "Woodland shared moss cushion.658",
+          "Woodland shared curved ivy leaf.1382",
+          "Woodland shared curved ivy leaf.1383",
+          "Woodland shared moss cushion.659",
+          "Woodland shared curved ivy leaf.1384",
+          "Woodland shared curved ivy leaf.1385",
+          "Woodland shared moss cushion.662",
+          "Woodland shared curved ivy leaf.1393",
+          "Woodland shared moss cushion.666",
+          "Woodland shared curved ivy leaf.1398",
+          "Woodland shared curved ivy leaf.1399",
+          "Woodland shared moss cushion.667",
+          "Woodland shared curved ivy leaf.1400",
+          "Woodland shared curved ivy leaf.1401",
+          "Woodland shared moss cushion.678",
+          "Woodland shared curved ivy leaf.1422",
+          "Woodland shared curved ivy leaf.1423",
+          "Woodland shared moss cushion.679",
+          "Woodland shared curved ivy leaf.1424",
+          "Woodland shared curved ivy leaf.1425"
+        ],
+        "root_preserved": true,
+        "kit_children_untouched": true
+      }
+    },
+    {
+      "id": "buildings/woodcutter_hut",
+      "status": "refined",
+      "source": "sources/buildings/woodcutter_hut.blend",
+      "source_sha256": "692fe509a6110365e59e57023487e2c8c02b1b64e4813d8c3cae8c2ab883449f",
+      "reason": "Purposeful saw-tooth silhouette and hoist pulley distinguish the working wheel from a wagon wheel without adding another growth layer. Suspended log retained: changing its supports adds complexity without a reliable small-view gain.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/buildings/woodcutter_hut.png",
+      "baseline_image_sha256": "ad1c5679a9ab27fe87a9c777cae7126d70ffa15ada87d53c8130ef8b5d5021a6",
+      "evidence": {
+        "before": {
+          "export_sha256": "439466a669468aeca0bab31b014ffe12aa5b6b0451711fa576906307d5070f94",
+          "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+          "image": "docs/quality-round-two/evidence/before/buildings/woodcutter_hut.png",
+          "image_sha256": "ad1c5679a9ab27fe87a9c777cae7126d70ffa15ada87d53c8130ef8b5d5021a6",
+          "inspection_tiers": [
+            96,
+            192,
+            480
+          ],
+          "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+          "derived_images": {
+            "docs/quality-round-two/evidence/before/buildings/woodcutter_hut-192.png": "196dd7bc9c477c2c8e1b85fabf37e2ccb63c43cde8f5444bc407dc7c3331eea2",
+            "docs/quality-round-two/evidence/before/buildings/woodcutter_hut-96.png": "a599edcbc7fdd3764a454199ec991d2b08f0a846a227939a39353c6760e7e092"
+          },
+          "export_bytes": 3254260,
+          "facts": {
+            "bytes": 3254260,
+            "meshes": 364,
+            "triangles": 27717,
+            "materials": 25,
+            "animations": [],
+            "version": "439466a669468aeca0bab31b014ffe12aa5b6b0451711fa576906307d5070f94"
+          },
+          "job": {
+            "job": "whisperwood-after-buildings-woodcutter_hut",
+            "seconds": 4.37,
+            "log": ".cache/asset-check/logs/whisperwood-after-buildings-woodcutter_hut.log"
+          },
+          "source_sha256": "46453c2024d55cd78316e9cc1cb2a209b712434bb2a1822f997308a5a0529eef",
+          "provenance": "Exact landed first-round after image bytes and canonical renderer/derivative binding; not re-rendered or reconstructed"
+        },
+        "after": {
+          "image": "docs/quality-round-two/evidence/after/buildings/woodcutter_hut.png",
+          "image_sha256": "077e0327ac00c4a9cee5f25e617241312650d2491b45ea684ae236379135f4b8",
+          "export_sha256": "0db60a4780e6c5082c3847ea4ae6bbff021b0e1523a2f43c1d8cee10939073e0",
+          "source_sha256": "692fe509a6110365e59e57023487e2c8c02b1b64e4813d8c3cae8c2ab883449f",
+          "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
+          "inspection_tiers": [
+            96,
+            192,
+            480
+          ],
+          "tier_scope": "Canvas sizes; occupied geometry pixels and game views not certified",
+          "job": {
+            "job": "quality-two-woodcutter_hut",
+            "seconds": 5.38,
+            "log": ".cache/asset-check/logs/quality-two-woodcutter_hut.log"
+          },
+          "derived_images": {
+            "docs/quality-round-two/evidence/after/buildings/woodcutter_hut-192.png": "59bcf51c3811672db5f49d41a6630833024eb8f58a729ea7c2556e0a8bcc7fa8",
+            "docs/quality-round-two/evidence/after/buildings/woodcutter_hut-96.png": "53b35e319f7100b7e33995e71875bbf992155ceba1c98d5d97f43221f757ce35"
+          },
+          "facts": {
+            "bytes": 3280012,
+            "meshes": 366,
+            "triangles": 28069,
+            "materials": 25,
+            "animations": [],
+            "version": "0db60a4780e6c5082c3847ea4ae6bbff021b0e1523a2f43c1d8cee10939073e0"
+          }
+        },
+        "resources_before": {
+          "active_mesh_nodes": 980,
+          "active_primitive_instances": 1418,
+          "active_triangle_instances": 44469,
+          "skin_joint_counts": [],
+          "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+        },
+        "resources_after": {
+          "active_mesh_nodes": 982,
+          "active_primitive_instances": 1420,
+          "active_triangle_instances": 44821,
+          "skin_joint_counts": [],
+          "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+        }
+      },
+      "refined_subparts": [
+        "single-mesh saw tooth ring and functional hoist pulley"
+      ],
+      "retained_subparts": [
+        "root/export selector/identity",
+        "original UV/roughness/normal maps except named newly colored porch material",
+        "embedded kit children and shared mesh data",
+        "all other structural/trade features"
+      ],
+      "rules": [
+        "D01",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D08",
+        "D09"
+      ],
+      "authored": {
+        "sha256_before": "46453c2024d55cd78316e9cc1cb2a209b712434bb2a1822f997308a5a0529eef",
+        "sha256_after": "692fe509a6110365e59e57023487e2c8c02b1b64e4813d8c3cae8c2ab883449f",
+        "focal_changes": [
+          "single-mesh saw tooth ring and functional hoist pulley"
+        ],
+        "removed_independent_growth": [],
+        "root_preserved": true,
+        "kit_children_untouched": true
+      }
+    },
+    {
+      "id": "characters/archer",
+      "status": "retained",
+      "source": "sources/characters/archer.blend",
+      "source_sha256": "ad170326e4fac653c8c99d7ab863fcca98273ac568fc61c4dd1683167d002eec",
+      "reason": "Clear archer face, weapon negative space and faction/role silhouette already survive the small neutral view; traveling detail fits. Retain rig, sockets, six clips and pose rather than invent motion evidence from stills.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/characters/archer.png",
+      "baseline_image_sha256": "8116e5ed771eb34691fb2ca15c1ae59a2063007c683b25ce93bd7e5ca2c38f8a",
+      "export_sha256": "a8e7d56d139bfd5e8c10a5ed85e2548092cd158df53496c52509b1399669f406",
+      "retained_subparts": [
+        "readable face/hands, sharp armor facets and original weapons",
+        "19-bone skeleton/weights, socket/grip transforms, 24FPS six clips and armature modifiers",
+        "muted faction surfaces and localized glow",
+        "rangy hood/quiver, field arrows and forager seed pouches",
+        "weighted traveling equipment and removable gear bindings"
+      ]
+    },
+    {
+      "id": "characters/berserker",
+      "status": "retained",
+      "source": "sources/characters/berserker.blend",
+      "source_sha256": "e09ec28bb2fcebe20b1f69d8874e3faec1f1592a133301689dd77fc646baf9e4",
+      "reason": "Clear berserker face, weapon negative space and faction/role silhouette already survive the small neutral view; traveling detail fits. Retain rig, sockets, six clips and pose rather than invent motion evidence from stills.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/characters/berserker.png",
+      "baseline_image_sha256": "6968242d601393a3634958ab383a971138ddd72a2f150f43fff27492a5ca34a0",
+      "export_sha256": "68067fea0e52f0311bfd553302ab36c3f91298ffeae1715fbc0efedf41d7fb1f",
+      "retained_subparts": [
+        "readable face/hands, sharp armor facets and original weapons",
+        "19-bone skeleton/weights, socket/grip transforms, 24FPS six clips and armature modifiers",
+        "muted faction surfaces and localized glow",
+        "broad shaggy fur, sweeping beard, bone-and-wood trophy necklace",
+        "weighted traveling equipment and removable gear bindings"
+      ]
+    },
+    {
+      "id": "characters/evil_berserker_unit",
+      "status": "retained",
+      "source": "sources/characters/evil_berserker_unit.blend",
+      "source_sha256": "b6fbdd7fda0ea99775ddafc06e27d1d35ab5f583446b8128651bc18a613268ca",
+      "reason": "Clear evil berserker unit face, weapon negative space and faction/role silhouette already survive the small neutral view; traveling detail fits. Retain rig, sockets, six clips and pose rather than invent motion evidence from stills.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/characters/evil_berserker_unit.png",
+      "baseline_image_sha256": "6ac83994661572017c36d352513361b8711721086246068dca206169b08b6d57",
+      "export_sha256": "4a9490d4bfe7938af27116aafdc2bcc7c04ae7cb27af7d31b106d3129145ec7a",
+      "retained_subparts": [
+        "readable face/hands, sharp armor facets and original weapons",
+        "19-bone skeleton/weights, socket/grip transforms, 24FPS six clips and armature modifiers",
+        "muted faction surfaces and localized glow",
+        "massive horned raider, broad exposed chest, jawbone trophies and fur belt",
+        "weighted traveling equipment and removable gear bindings"
+      ]
+    },
+    {
+      "id": "characters/evil_mage_unit",
+      "status": "retained",
+      "source": "sources/characters/evil_mage_unit.blend",
+      "source_sha256": "657ed7fb4ea09fe8393c1ed8f8407b55c45b3c6c3afc4ba264c4811bfdf1101a",
+      "reason": "Clear evil mage unit face, weapon negative space and faction/role silhouette already survive the small neutral view; traveling detail fits. Retain rig, sockets, six clips and pose rather than invent motion evidence from stills.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/characters/evil_mage_unit.png",
+      "baseline_image_sha256": "dc9b24b13c0d8d294ad2e17a3be42961ef7c66c765806ca75d20380f29122748",
+      "export_sha256": "b094590223928e03194015cd7b618d760c9f8f79a132db9f8a36e500a6be221e",
+      "retained_subparts": [
+        "readable face/hands, sharp armor facets and original weapons",
+        "19-bone skeleton/weights, socket/grip transforms, 24FPS six clips and armature modifiers",
+        "muted faction surfaces and localized glow",
+        "lean horned occultist, narrow ember flame, talisman chain and vial girdle",
+        "weighted traveling equipment and removable gear bindings"
+      ]
+    },
+    {
+      "id": "characters/evil_melee_unit",
+      "status": "retained",
+      "source": "sources/characters/evil_melee_unit.blend",
+      "source_sha256": "7e100ce72ef86acce517963c8324312f61c092731d55272cf232700a9b59b529",
+      "reason": "Clear evil melee unit face, weapon negative space and faction/role silhouette already survive the small neutral view; traveling detail fits. Retain rig, sockets, six clips and pose rather than invent motion evidence from stills.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/characters/evil_melee_unit.png",
+      "baseline_image_sha256": "9f096aecc2a7af9900f01cdd024ac6cbf1a9e3838850893d277d4cc96644223a",
+      "export_sha256": "614fbd65d1db32267eff152090463c02bff763758d22d7cccc13ae2f365da947",
+      "retained_subparts": [
+        "readable face/hands, sharp armor facets and original weapons",
+        "19-bone skeleton/weights, socket/grip transforms, 24FPS six clips and armature modifiers",
+        "muted faction surfaces and localized glow",
+        "bone-faced sentry, high angular shield, battered layered war mantle",
+        "weighted traveling equipment and removable gear bindings"
+      ]
+    },
+    {
+      "id": "characters/evil_ranged_unit",
+      "status": "retained",
+      "source": "sources/characters/evil_ranged_unit.blend",
+      "source_sha256": "44f96a2e72c097f44a497558002cdfbfb21f390c70022f765163ee8a9de9a817",
+      "reason": "Clear evil ranged unit face, weapon negative space and faction/role silhouette already survive the small neutral view; traveling detail fits. Retain rig, sockets, six clips and pose rather than invent motion evidence from stills.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/characters/evil_ranged_unit.png",
+      "baseline_image_sha256": "3cbdef057ff521eab03235dabefb672c1b6b71f8f3af3da4a83daeb5157a35bd",
+      "export_sha256": "8133a6fb8c990963b559bbc6d893493b036af32a15f23825b49c1665cf99c8a4",
+      "retained_subparts": [
+        "readable face/hands, sharp armor facets and original weapons",
+        "19-bone skeleton/weights, socket/grip transforms, 24FPS six clips and armature modifiers",
+        "muted faction surfaces and localized glow",
+        "deep skull hood, long ragged ambusher scarf, bolt case and wire bindings",
+        "weighted traveling equipment and removable gear bindings"
+      ]
+    },
+    {
+      "id": "characters/knight",
+      "status": "retained",
+      "source": "sources/characters/knight.blend",
+      "source_sha256": "c9e2483ab8a4b5a5f3a691816ad3aa64a78de0207af533e4b38c5906b4e13879",
+      "reason": "Clear knight face, weapon negative space and faction/role silhouette already survive the small neutral view; traveling detail fits. Retain rig, sockets, six clips and pose rather than invent motion evidence from stills.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/characters/knight.png",
+      "baseline_image_sha256": "b4c09a22e8f3a591507f7650a0773d5bbdf96bcb69f9f740fbf0e4990e40967c",
+      "export_sha256": "b43341999b3ab8e3cf72bfad3a60a96fb0be1db309bfe378b1a4b6389ed1c904",
+      "retained_subparts": [
+        "readable face/hands, sharp armor facets and original weapons",
+        "19-bone skeleton/weights, socket/grip transforms, 24FPS six clips and armature modifiers",
+        "muted faction surfaces and localized glow",
+        "proud swept plume, wide defensive shield, layered pilgrim bedroll",
+        "weighted traveling equipment and removable gear bindings"
+      ]
+    },
+    {
+      "id": "characters/mage",
+      "status": "retained",
+      "source": "sources/characters/mage.blend",
+      "source_sha256": "b50615c1c495baedb5d1258d5690fe550d7d2ac058177d353f8b91fab411a35e",
+      "reason": "Clear mage face, weapon negative space and faction/role silhouette already survive the small neutral view; traveling detail fits. Retain rig, sockets, six clips and pose rather than invent motion evidence from stills.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/characters/mage.png",
+      "baseline_image_sha256": "cbdb32d58f77b23349a7892ffe47b8787bc080e44b267be005f6b97d506ff6e1",
+      "export_sha256": "1e96ee0f8f6dd0bcc0c7f929a5b318257c1796cba05b7fc80bb793252126f8f5",
+      "retained_subparts": [
+        "readable face/hands, sharp armor facets and original weapons",
+        "19-bone skeleton/weights, socket/grip transforms, 24FPS six clips and armature modifiers",
+        "muted faction surfaces and localized glow",
+        "crooked scholarly hat, low scroll satchel, brass-bound spell folio",
+        "weighted traveling equipment and removable gear bindings"
+      ]
+    },
+    {
+      "id": "environment/components/forest_boulder",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The boulder prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_boulder.png",
+      "baseline_image_sha256": "f06229d3f0478426627d41d01c78cf646e551988d5a0d733ecabc68f27dc854b",
+      "export_sha256": "4305229422a42fd688eb452c2bcb0f157dddc8e29eda8ffa95da88d0d485c8b5",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_bridge_plank",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The bridge plank prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_bridge_plank.png",
+      "baseline_image_sha256": "1534c9cc865a6d0148e4b3b216aaee03152111514b4fa8c6a74dc44d65d56a97",
+      "export_sha256": "7d5e1acd2ef0be5ea496c5ef9814df7ea19e1000887474a82a586a9d1c1ad711",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_bridge_post",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The bridge post prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_bridge_post.png",
+      "baseline_image_sha256": "ce052ff3c18535758edb7dc750d5f96cb974f234a39110a7273d808affeb0598",
+      "export_sha256": "095ab8f20c52fcdec493985b0d88c942e6e810a32a544c4176676aad3c3515c5",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_bridge_rail",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The bridge rail prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_bridge_rail.png",
+      "baseline_image_sha256": "d271f1ef3eed9cbb2a99f5d776d5ebf01c310663dcdb5ff917fbe82cce68ba90",
+      "export_sha256": "a3ca41eb2c5edbadd090db450f24d9789d1ab152cf29ed246a99a0a1bfe6b966",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_butterfly_cyan",
+      "status": "retained",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "source_sha256": "e9dbdd69ffd7b01ea65b2759cf1cdf1098c0ec1c652ba31fa04ef523dc7a4cdd",
+      "reason": "The butterfly cyan prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_butterfly_cyan.png",
+      "baseline_image_sha256": "811b1601f86df3f1666e526ef3f78d4eaf04554d30efc10d25101eab1be25c20",
+      "export_sha256": "a1696eb2c37b6ef296f3b4cc3daa1ea97e813c09982ceb213432843867fff2e5",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland delicate antenna fork"
+      ]
+    },
+    {
+      "id": "environment/components/forest_butterfly_sunset",
+      "status": "retained",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "source_sha256": "e9dbdd69ffd7b01ea65b2759cf1cdf1098c0ec1c652ba31fa04ef523dc7a4cdd",
+      "reason": "The butterfly sunset prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_butterfly_sunset.png",
+      "baseline_image_sha256": "83adda796b72033240e7c126700c8378ff06e7e1863ac376b4f670ef5ed4496c",
+      "export_sha256": "91e8e6c55e1de43c9fed4758e183daba7ad92601d4bf6c8e5178ac2619b4dcf6",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland delicate antenna fork"
+      ]
+    },
+    {
+      "id": "environment/components/forest_crystal_blue",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The crystal blue prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_crystal_blue.png",
+      "baseline_image_sha256": "8cd77412616086bb15ccf6f4f994fd9ee9a2523751bd9dd3d31c51d48936e13a",
+      "export_sha256": "35ada80006733cb5904a248e8fd1222501619dcf28f71d862fd61baff186059d",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_crystal_purple",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The crystal purple prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_crystal_purple.png",
+      "baseline_image_sha256": "378c6382dd5d29ba6f7b4f58b923975737c757b084fef2333a250e7b9df37849",
+      "export_sha256": "f2db0a6f0de1a339140dbabe44cc2e9c7364cbaf308045af42585dda4c14ec10",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_fern",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The fern prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_fern.png",
+      "baseline_image_sha256": "45746b3a926f97fd3b33846b0f64514ce68f449f06a66b18ce94ff0eb010a154",
+      "export_sha256": "ff82e579deb0602754234925a7370d61a5caeacc124a65f72a2b5da6e1fd4629",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf"
+      ]
+    },
+    {
+      "id": "environment/components/forest_foam",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The foam prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_foam.png",
+      "baseline_image_sha256": "fdf49b4a63f00b4d36c104675d552156c8274fae4198bd45956f9f6708281557",
+      "export_sha256": "f5b45ba28c528b655d295ed0c541c01e48401aaef33076918819ad648aba88a8",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/components/forest_hex_meadow",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The hex meadow prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_hex_meadow.png",
+      "baseline_image_sha256": "8df625ad4e33ceeb37e50011e33fd8ecf33c3109f80f429ac0a7358d91649eb6",
+      "export_sha256": "b9b8690b744c28e788ebabdc301b591b96e6d269aeca6610b9abff0572dee7b2",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/components/forest_hex_stream",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The hex stream prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_hex_stream.png",
+      "baseline_image_sha256": "04e70ac47eece557e53b7d2d1338cb76d535115ceb7ca33d24d84a2df097d7c7",
+      "export_sha256": "e67bfd7628cce90f4e1112c48cf0aae4437da35d2161c2fd8876b85f4352b37e",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/components/forest_hollow_tree",
+      "status": "retained",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "source_sha256": "e9dbdd69ffd7b01ea65b2759cf1cdf1098c0ec1c652ba31fa04ef523dc7a4cdd",
+      "reason": "The hollow tree prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_hollow_tree.png",
+      "baseline_image_sha256": "10f58d9708426c5b25e3dcf89a24e945dff4d1000d25ed884030231f90c1aaab",
+      "export_sha256": "64c11102ba155c3cf7709c4e908d89d53759f623a346a691be6d27ce1358b429",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland joint-following vine",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_jackalope",
+      "status": "retained",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "source_sha256": "e9dbdd69ffd7b01ea65b2759cf1cdf1098c0ec1c652ba31fa04ef523dc7a4cdd",
+      "reason": "The jackalope prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_jackalope.png",
+      "baseline_image_sha256": "dd6ee5abc52f52738477094bf6716dec9a5b41cd4a360cc13ccf94f2be2803b9",
+      "export_sha256": "2f5367b5bc5964cf7b65bf79cffbfc3e7226e3ce1b5ce5afb0e7379b14d74087",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland delicate whisker"
+      ]
+    },
+    {
+      "id": "environment/components/forest_lantern_flower",
+      "status": "retained",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "source_sha256": "e9dbdd69ffd7b01ea65b2759cf1cdf1098c0ec1c652ba31fa04ef523dc7a4cdd",
+      "reason": "The lantern flower prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_lantern_flower.png",
+      "baseline_image_sha256": "831e6de4a5b34f9e80066482968d7abba90f3f808c409c2b71a64c9757cb72e7",
+      "export_sha256": "899332dab78a214633a3b9ade840383255bd1a8cf45e94bb3ce2dd5b5ca18688",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf"
+      ]
+    },
+    {
+      "id": "environment/components/forest_lantern_post",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The lantern post prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_lantern_post.png",
+      "baseline_image_sha256": "aa24708a49b900bea04dbdd0ffba077dbe6bcb22c1765eca19f092c60634ae6d",
+      "export_sha256": "ed86fddc41e8d75c577a2e8788e4360dc1ae6ac418f7a57d104d88b9dee48cb7",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_lantern_snail",
+      "status": "retained",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "source_sha256": "e9dbdd69ffd7b01ea65b2759cf1cdf1098c0ec1c652ba31fa04ef523dc7a4cdd",
+      "reason": "The lantern snail prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_lantern_snail.png",
+      "baseline_image_sha256": "95e315e79cc8bfdd4b98e2eb74b0122655e96aeb4d8e11b9855ebd48840097ce",
+      "export_sha256": "84aeb7b7b4f1135a1a1610ec4c86241bad240da2d88a52ddfe3b634fa8b23d1f",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland snail weathered shell rim"
+      ]
+    },
+    {
+      "id": "environment/components/forest_leaf_clump",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The leaf clump prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_leaf_clump.png",
+      "baseline_image_sha256": "321045d31a11764633cfdd47b98869b80c3983a8389a0b74532e49db206a9e7e",
+      "export_sha256": "bd6ed2bacebe8ebb83e4e1feee834be066d51db63c025fc44fc9d6191809c66e",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf"
+      ]
+    },
+    {
+      "id": "environment/components/forest_moon_moth",
+      "status": "retained",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "source_sha256": "e9dbdd69ffd7b01ea65b2759cf1cdf1098c0ec1c652ba31fa04ef523dc7a4cdd",
+      "reason": "The moon moth prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_moon_moth.png",
+      "baseline_image_sha256": "29f606cd7c07aebfbfa36fb1ad2ce6e3383d77787d2eadd5ab1ac57c944cfdb4",
+      "export_sha256": "f2636f8001b6d51c20d715a634d6e534c820cc2630b980eb50e64bc07291699a",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland delicate antenna fork"
+      ]
+    },
+    {
+      "id": "environment/components/forest_moss",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The moss prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_moss.png",
+      "baseline_image_sha256": "53d28d2379fc889866ebbbe047ba52d9d1f655452a5946754059dd1b825a20e5",
+      "export_sha256": "7b09f2de7ac9204f3ad7dfcfe8f97425374b7096c8b157a635b19f92ed0e48a8",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf"
+      ]
+    },
+    {
+      "id": "environment/components/forest_mushroom_blue",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The mushroom blue prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_mushroom_blue.png",
+      "baseline_image_sha256": "43a5ff86316ece8867dcf24653450172a99ff792d137434d23e995371a1ce5cb",
+      "export_sha256": "3cdd89ef877aaa1ddc7bf2c1c09b6979720926d2d2ab31b9617f5e3e8a49a02c",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_mushroom_purple",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The mushroom purple prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_mushroom_purple.png",
+      "baseline_image_sha256": "3fc887fe27eb5f6345a0947f318f7199fdad5e2d75a161db79afb8384f0371bc",
+      "export_sha256": "f16e9845fca2a464b8358babe84326f34c33f28e861a527be96a1d86f7e54bd1",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_mushroom_small",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The mushroom small prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_mushroom_small.png",
+      "baseline_image_sha256": "021bac8c7b23c3e2b599454f8eb299bd715fd021c4df051812639bee99c968c7",
+      "export_sha256": "f4eeec12819646a28b06436e1dff2d0824f05b7a67f91f85fe6d745ddb9bb79e",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_root",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The root prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_root.png",
+      "baseline_image_sha256": "82c9afdbd1fc42250dade50f146f9615f9bc8fae120c1b30b90457f6487f2c09",
+      "export_sha256": "5ff4b9411c1cea77be4f9bf1d9b172c02f07017d3ae00ee941b0dae3dfca6a34",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_rune_circle",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The rune circle prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_rune_circle.png",
+      "baseline_image_sha256": "7a34b85e5a55d5d129319365c9d391519a58c99bb457b70be5527a5f071680c7",
+      "export_sha256": "7bee675345fa2220fea31212462ca473a3f97515803008bf38899983ee05883f",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/components/forest_rune_diamond",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The rune diamond prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_rune_diamond.png",
+      "baseline_image_sha256": "a10711af8e99d0d2ddda2e81eddce91968bbee4d4bfdf23289af1e06aa858af8",
+      "export_sha256": "46212f5d63fffa3d5493fc449e257088ad270e010b74c4ccea3c8b9542fcea79",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/components/forest_rune_monolith",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The rune monolith prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_rune_monolith.png",
+      "baseline_image_sha256": "a9639237029064817a26821bb9d3af700add2aba468c325f037e26670a427b13",
+      "export_sha256": "a3874c018c3eba546d94621bea6a51a321412eb3aee74a8ef110dff2f9104539",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_shrine_plinth",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The shrine plinth prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_shrine_plinth.png",
+      "baseline_image_sha256": "733e8a44566dc2ad12b8f985b67d4fe7959d314f8230f3f2ee53e9130962f5d1",
+      "export_sha256": "212412375d381bd72aab0b8d1658c50d72ffb45170ecb059d7c82402115c9173",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_spiral_fern",
+      "status": "retained",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "source_sha256": "e9dbdd69ffd7b01ea65b2759cf1cdf1098c0ec1c652ba31fa04ef523dc7a4cdd",
+      "reason": "The spiral fern prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_spiral_fern.png",
+      "baseline_image_sha256": "2fee922cc292921b0bfa0a7fc3cf3e5f9840f2a5c8c8016d3a47211ac8293b78",
+      "export_sha256": "6f0e641774cafcae4808992caada44daca3d04d20b83e236b2af3db5152902dd",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf"
+      ]
+    },
+    {
+      "id": "environment/components/forest_spiral_tree",
+      "status": "retained",
+      "source": "sources/environment/shared_enchanted_kit.blend",
+      "source_sha256": "e9dbdd69ffd7b01ea65b2759cf1cdf1098c0ec1c652ba31fa04ef523dc7a4cdd",
+      "reason": "The spiral tree prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_spiral_tree.png",
+      "baseline_image_sha256": "f19082f256600ff40a130fa2252ea561dd84862ddca029e2907520e50a10e4b4",
+      "export_sha256": "2486eee192772b156dbaa9df481ee748054fdf86eae08fa087fd2b421ef606cf",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland joint-following vine",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_stone_arch_block",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The stone arch block prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_stone_arch_block.png",
+      "baseline_image_sha256": "7f2d00da37e06ddef8fc8dbabc97bc7bf89b7df67505d24d4ae00bb09789dadc",
+      "export_sha256": "e7220197e8e3203cde9fd3a5eda2869523ebe759f4aea4ecc776895e10e7b1f8",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_stone_block",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The stone block prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_stone_block.png",
+      "baseline_image_sha256": "a3391b58f577d29787753808251afb10ca5120a216045ff5b5d5c391c1723c8d",
+      "export_sha256": "a4f8a8584f411de468d767ab319fb9353022cf0752bf19c8368b0a841d91c16d",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/components/forest_tree_snag",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The tree snag prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_tree_snag.png",
+      "baseline_image_sha256": "b965e165999b9e2e8e96007d347196e5199ab55f72bc15fedd5defcf875f6a68",
+      "export_sha256": "a4db2302139ae98961a36ee4aa8407b03de4cb519f3414776fbfb17af78096b6",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland joint-following vine",
+        "Woodland shared curved ivy leaf"
+      ]
+    },
+    {
+      "id": "environment/components/forest_waterfall",
+      "status": "retained",
+      "source": "sources/environment/shared_forest_kit.blend",
+      "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+      "reason": "The waterfall prototype has readable facet/organic/structural silhouette and appropriate contact detail. Preserve canonical geometry/reuse; no speculative independent kit variation.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/components/forest_waterfall.png",
+      "baseline_image_sha256": "de49b15c91e4a60663db15265797bb82495070e6c3722a542e10dd150db3971c",
+      "export_sha256": "c0828f3f66a0046a0586d841fbb57494f102f3bfa7df2e054ca48c73a6865927",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_bioluminescent_grove",
+      "status": "retained",
+      "source": "sources/environment/hex_bioluminescent_grove.blend",
+      "source_sha256": "0a173853d6aa6b8b6a72d0a290491581077173c3d76abfb6b51ddce3055b21e6",
+      "reason": "The bioluminescent grove composition keeps focal crystal/cap/tree, quiet ground and planted contacts; retain footprint, layered heights and water interfaces. No evidence of a beneficial additional layer.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_bioluminescent_grove.png",
+      "baseline_image_sha256": "d1c8764d0fe28426e57434328a1099b2377db48370f0265350ddc50f4b1448ad",
+      "export_sha256": "46ea4cd42fe76351c049510e1b6a5e3d64619f6a809253e35acbc703d2c37ba9",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland joint-following vine",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/hex_butterfly_glade",
+      "status": "retained",
+      "source": "sources/environment/hex_butterfly_glade.blend",
+      "source_sha256": "4deffc529ffdf281ab50977c8f255adeee25749ccf8356d0a56298b36fb8e844",
+      "reason": "The butterfly glade composition keeps focal crystal/cap/tree, quiet ground and planted contacts; retain footprint, layered heights and water interfaces. No evidence of a beneficial additional layer.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_butterfly_glade.png",
+      "baseline_image_sha256": "7e9bce6375d5540b5d5b3bc335bc9c4384ea2ff5de0ef3db92d18666b03c5294",
+      "export_sha256": "62a19963960b8a4d4e038dd88beab1f1d4a14b652f0cb16834cb1ee0ac6fcbef",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland delicate antenna fork",
+        "Woodland joint-following vine",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/hex_crystal_grove",
+      "status": "retained",
+      "source": "sources/environment/hex_crystal_grove.blend",
+      "source_sha256": "d674d09d27b894adafbe89a7a46fadd41b4754cddd4569ef796e2cd7d2742576",
+      "reason": "The crystal grove composition keeps focal crystal/cap/tree, quiet ground and planted contacts; retain footprint, layered heights and water interfaces. No evidence of a beneficial additional layer.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_crystal_grove.png",
+      "baseline_image_sha256": "b67db52ce3967fc1f04de456c4ac9a8ad2fd88b0c6d8349791f476a15372cd9f",
+      "export_sha256": "2dc0b400af6687edab5fd8c00c1141c896496fbf9367883d0bba65cfd6129ede",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/hex_crystal_shrine",
+      "status": "retained",
+      "source": "sources/environment/hex_crystal_shrine.blend",
+      "source_sha256": "2a1753a92b7fc24d69c0b2469cea8a1ec9069e01478ec837b781cb030887f506",
+      "reason": "The crystal shrine composition keeps focal crystal/cap/tree, quiet ground and planted contacts; retain footprint, layered heights and water interfaces. No evidence of a beneficial additional layer.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_crystal_shrine.png",
+      "baseline_image_sha256": "ee6fa423a087e15267fa7352beaa3be660098770e05837158d62c95f5201f94e",
+      "export_sha256": "385f613373831b1e26c6a2db6b9395cd5bd5ff60b87b333a6ba8802f5f1a2940",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/hex_dream_menagerie",
+      "status": "retained",
+      "source": "sources/environment/hex_dream_menagerie.blend",
+      "source_sha256": "6c6d0e916371ffdedcfaab38e7dfb2ebf4f89b38915a440959add5fb7b9fd468",
+      "reason": "The dream menagerie composition keeps focal crystal/cap/tree, quiet ground and planted contacts; retain footprint, layered heights and water interfaces. No evidence of a beneficial additional layer.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_dream_menagerie.png",
+      "baseline_image_sha256": "21877d9d4deb68eb7e780e0da87eb8faa4d5df176ad530854ee896cbb65fe794",
+      "export_sha256": "d764a40eae23119042fe934df873ec105a4e5f6cc37765803964067057dbb7c7",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland delicate antenna fork",
+        "Woodland delicate whisker",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion",
+        "Woodland snail weathered shell rim"
+      ]
+    },
+    {
+      "id": "environment/hex_glowing_mushrooms",
+      "status": "retained",
+      "source": "sources/environment/hex_glowing_mushrooms.blend",
+      "source_sha256": "46dc4a9d08c6b04c2e0a8c42a30fbd7e1ae33a5632fd5958590cf5a7aa20af0b",
+      "reason": "The glowing mushrooms composition keeps focal crystal/cap/tree, quiet ground and planted contacts; retain footprint, layered heights and water interfaces. No evidence of a beneficial additional layer.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_glowing_mushrooms.png",
+      "baseline_image_sha256": "31abaf45a61cb50cece3bf5db865936fa60d4dc01cbed34a383fbfc54630232c",
+      "export_sha256": "4faf72aedaba3724ffb5a1daf4fe35848726f5f4ad274f7f1a0d1b1581e01825",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/hex_ground_dirt",
+      "status": "retained",
+      "source": "sources/environment/hex_ground_dirt.blend",
+      "source_sha256": "dfa300ec9edff699b7b7375257f1ed662756975c562f00888e190ffe1c0021bf",
+      "reason": "Flat painted ground dirt has legible rest area and must retain occupation/connector contracts; additional raised detail would obstruct composability.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_ground_dirt.png",
+      "baseline_image_sha256": "5fb49645bee660e1025dcf6a03413ad8113b81f45f7bab9db9a3ecd6f838f6e9",
+      "export_sha256": "1d9c5d29cfbd69f89d3b1db295a71859d3e42931e4ed0eabed26b4094b329c57",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_ground_grass",
+      "status": "retained",
+      "source": "sources/environment/hex_ground_grass.blend",
+      "source_sha256": "82b78d078ae2080ea4e59598790f79e949e8667a87ec6afea5dc80e33421cce5",
+      "reason": "Flat painted ground grass has legible rest area and must retain occupation/connector contracts; additional raised detail would obstruct composability.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_ground_grass.png",
+      "baseline_image_sha256": "16d170c9ab73b957a3a156de03f83e9980e16c18e22a6fc1f23cf3cf0a761d44",
+      "export_sha256": "840886824d8a5005a5e2ed71ca75b7a08314818ab82fc7f87d20ab74a8cde664",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_ground_leaf_litter",
+      "status": "retained",
+      "source": "sources/environment/hex_ground_leaf_litter.blend",
+      "source_sha256": "993a1d9a0f27c4bc01c0d4fe69a102e268bd76c8b86fc977055715085ff79f18",
+      "reason": "Flat painted ground leaf litter has legible rest area and must retain occupation/connector contracts; additional raised detail would obstruct composability.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_ground_leaf_litter.png",
+      "baseline_image_sha256": "2f278c1eb521312137b08491afca46ee7737e042e07d2dc87ddcc691c1c3be55",
+      "export_sha256": "0e3d3be0627bb599b20674f6284a7db54811749c4472e67c1f1295f24d455b97",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_ground_moss",
+      "status": "retained",
+      "source": "sources/environment/hex_ground_moss.blend",
+      "source_sha256": "051896cdc3bf380bec2b120f53ed9499a9e8eb314b6bef486fe216ee09dfe247",
+      "reason": "Flat painted ground moss has legible rest area and must retain occupation/connector contracts; additional raised detail would obstruct composability.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_ground_moss.png",
+      "baseline_image_sha256": "2a1f50cc4216d17b9edb2aa6b064d7d815e705d60e513e54b2b4b29873bda15f",
+      "export_sha256": "4041d1c2b18ce757d35a9e8de4e5a58645a57fb784a65bb285b425171515f88b",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_ground_pine_duff",
+      "status": "retained",
+      "source": "sources/environment/hex_ground_pine_duff.blend",
+      "source_sha256": "0acd2febfc2f5965f9c9f7a0a1dd2f0bc7d8bf1653054c572c2971ba9a08ed0f",
+      "reason": "Flat painted ground pine duff has legible rest area and must retain occupation/connector contracts; additional raised detail would obstruct composability.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_ground_pine_duff.png",
+      "baseline_image_sha256": "284ce66b2949e0561235b32a6d1933c99559bdc85c7d27f4b776cf1cce807a7d",
+      "export_sha256": "f80567df8b266fc513112d9161c9f2eb440386121bc486d3913a1deed6024529",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_hollow_watchers",
+      "status": "retained",
+      "source": "sources/environment/hex_hollow_watchers.blend",
+      "source_sha256": "7ac209c44c797b7937d4817f294a641814b07ba9c330ccb99924983d7dde774d",
+      "reason": "The hollow watchers composition keeps focal crystal/cap/tree, quiet ground and planted contacts; retain footprint, layered heights and water interfaces. No evidence of a beneficial additional layer.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_hollow_watchers.png",
+      "baseline_image_sha256": "209a90c3081b8424fe26ed188f07f1d042125e35cc882ab99aa55f88a3691bd1",
+      "export_sha256": "bcded3c657dd850835a0da8e3a0d8858d7b3c25209dea292ae1f06e0ab9f06c1",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland delicate antenna fork",
+        "Woodland joint-following vine",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion",
+        "Woodland snail weathered shell rim"
+      ]
+    },
+    {
+      "id": "environment/hex_lantern_bridge",
+      "status": "retained",
+      "source": "sources/environment/hex_lantern_bridge.blend",
+      "source_sha256": "1b72d7a6e7a516f9fc23732d5d75962564f0b089ef50bffa4d9a1afd9f377dc6",
+      "reason": "The lantern bridge composition keeps focal crystal/cap/tree, quiet ground and planted contacts; retain footprint, layered heights and water interfaces. No evidence of a beneficial additional layer.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_lantern_bridge.png",
+      "baseline_image_sha256": "7d8224d3c1e01cdd1224a68aea44054c0f61143f8293bb82dcd0e414dd85a4b7",
+      "export_sha256": "e44c604dbc68aff65581a9cc76aba386fd6e5e980bddd5378599ddab34e5dfdc",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/hex_meadow_building",
+      "status": "retained",
+      "source": "sources/environment/hex_meadow_building.blend",
+      "source_sha256": "ac85f9f60d5a6dc9bc0d959a26b6060296b903c447abde7dcb9d1d7994bc9183",
+      "reason": "The meadow building composition keeps focal crystal/cap/tree, quiet ground and planted contacts; retain footprint, layered heights and water interfaces. No evidence of a beneficial additional layer.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_meadow_building.png",
+      "baseline_image_sha256": "b64eb6b7254bb1d62c1c8b81edcf0ee37b90e01e3fc57afaf23c0d433f6ebeb0",
+      "export_sha256": "10c436eac63d6d7e109ef538325fba195f6db965dc86e36a0fe4175f624abf36",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_meadow_character",
+      "status": "retained",
+      "source": "sources/environment/hex_meadow_character.blend",
+      "source_sha256": "c79127d7b8a095e4051df3a9dc8ad26f0ae4e0ec2c8581ef47d5ae23b12a0b0b",
+      "reason": "The meadow character composition keeps focal crystal/cap/tree, quiet ground and planted contacts; retain footprint, layered heights and water interfaces. No evidence of a beneficial additional layer.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_meadow_character.png",
+      "baseline_image_sha256": "a660881348e70e621181b3f278dff3fab7bf4a0976e1a87703abcff6f263acfd",
+      "export_sha256": "98318c4272a7c3050326c7d3501d7727f1e03cbff76c9319bce922b9ab64941e",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_mystical_grove",
+      "status": "retained",
+      "source": "sources/environment/hex_mystical_grove.blend",
+      "source_sha256": "176195e0df6274e4e15a4b35204897d48bdb7fc1f9b5ec4185b80c839852c2f6",
+      "reason": "The mystical grove composition keeps focal crystal/cap/tree, quiet ground and planted contacts; retain footprint, layered heights and water interfaces. No evidence of a beneficial additional layer.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_mystical_grove.png",
+      "baseline_image_sha256": "c0b081a4a76ae6766ee4963cfe36537a37518ee033ce2b1c280de65b6ed143db",
+      "export_sha256": "6382f91f0a8e6e1c70ae640246a9b9c5de5bf93808fe27f109cc222d7459f41a",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/hex_path_end",
+      "status": "retained",
+      "source": "sources/environment/hex_path_end.blend",
+      "source_sha256": "ecd916e9c2f3d76223289d25da0efd0bfee131b00cbbb8ae5a5b1b1fe9cbd3af",
+      "reason": "Flat painted path end has legible rest area and must retain occupation/connector contracts; additional raised detail would obstruct composability.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_path_end.png",
+      "baseline_image_sha256": "3988f1719fdf879e09f204ef06ff757c2c6ff02693cc4db5d935607795d3a018",
+      "export_sha256": "86c618664efb9afe611119679046b9f7dee176135be98c3235bb0f79c5368f81",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_path_straight",
+      "status": "retained",
+      "source": "sources/environment/hex_path_straight.blend",
+      "source_sha256": "6d9e9a00d56f16eea8fed13a96434a9ec16cb1e7c8c14f70fcc0ab0d1deb19e4",
+      "reason": "Flat painted path straight has legible rest area and must retain occupation/connector contracts; additional raised detail would obstruct composability.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_path_straight.png",
+      "baseline_image_sha256": "f210c7441426217574bae14e9426a62734558c23531c7f12ec6042f632019c00",
+      "export_sha256": "ab7da9f5fb125be2120ddad826e360cad9b328b3482369cd17803c2630626035",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_path_turn_120",
+      "status": "retained",
+      "source": "sources/environment/hex_path_turn_120.blend",
+      "source_sha256": "1168ae81359f7af8a7cf4ae3fec0f736c6224ddd969716ca65d35043e87488ac",
+      "reason": "Flat painted path turn 120 has legible rest area and must retain occupation/connector contracts; additional raised detail would obstruct composability.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_path_turn_120.png",
+      "baseline_image_sha256": "08918ce9e5062a368a874cd23eb667a715c859c4e311774fb78627cc0572a6e8",
+      "export_sha256": "4adbc13ca20d0faeab71859a72f7097ba5fb6985d080b8bb7c4232dbc516438e",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_path_turn_60",
+      "status": "retained",
+      "source": "sources/environment/hex_path_turn_60.blend",
+      "source_sha256": "c76c027ddce6f42f0eb4bff830e6494ab819e98d89cf802420605339f8061829",
+      "reason": "Flat painted path turn 60 has legible rest area and must retain occupation/connector contracts; additional raised detail would obstruct composability.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_path_turn_60.png",
+      "baseline_image_sha256": "6236b3a2ace23fd1088ebf6e6a24c638bbe696c5adacd8606dc3135e22064558",
+      "export_sha256": "92ee748e70b3b029876e34e121d527681690cd1a1d1d453194dfdd18727e4d55",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_river_overlay_end",
+      "status": "retained",
+      "source": "sources/environment/hex_river_overlay_end.blend",
+      "source_sha256": "f60dcb4516b20535273f271ebd9d5c01d86e52738e3a209eef461aa02ded3f4a",
+      "reason": "Flat painted river overlay end has legible rest area and must retain occupation/connector contracts; additional raised detail would obstruct composability.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_river_overlay_end.png",
+      "baseline_image_sha256": "72b8a8ab64e4c455f3140dcaf462dabdcda0e0b226f09b6b7f073cf83f5216df",
+      "export_sha256": "85222728bf1dcd5f36d3bfada70dd0e3fcbb8a8866b3d3443d833a9570d1e01e",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_river_overlay_straight",
+      "status": "retained",
+      "source": "sources/environment/hex_river_overlay_straight.blend",
+      "source_sha256": "b30c1b3f9235fd7755a532c907198616b563023a39135b30c5745f36700291c2",
+      "reason": "Flat painted river overlay straight has legible rest area and must retain occupation/connector contracts; additional raised detail would obstruct composability.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_river_overlay_straight.png",
+      "baseline_image_sha256": "7a4f37d309ff92bb4f8197d6c27ced58e58df47d72030df3031bc73899778769",
+      "export_sha256": "bf1a2dc96ed3df2e866179e324db7cb38b98f370714216cbba89c61874463cce",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_river_overlay_turn_120",
+      "status": "retained",
+      "source": "sources/environment/hex_river_overlay_turn_120.blend",
+      "source_sha256": "e72b612b1592b2938cafd117ac2a4684ed23ff7f5007927b041e8d3ea891763a",
+      "reason": "Flat painted river overlay turn 120 has legible rest area and must retain occupation/connector contracts; additional raised detail would obstruct composability.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_river_overlay_turn_120.png",
+      "baseline_image_sha256": "d6f918bdfda4fdc91634600fd03ac5e283b6241b5d84dcb8bf9df59f93d0f17c",
+      "export_sha256": "b1ce2c5aff84fdedf26b4260b0d2a36e99bfafc34d25440ed0c6d03275463eb7",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_river_overlay_turn_60",
+      "status": "retained",
+      "source": "sources/environment/hex_river_overlay_turn_60.blend",
+      "source_sha256": "a7c28e233353db4e9db9a6af839a287882e28d6f70447424bd12f616f838ef49",
+      "reason": "Flat painted river overlay turn 60 has legible rest area and must retain occupation/connector contracts; additional raised detail would obstruct composability.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_river_overlay_turn_60.png",
+      "baseline_image_sha256": "d0337344394a2cb4d679766d6dc87d64d09e84e4dbf5caf48d09ca87af4e1f30",
+      "export_sha256": "f8e33b50aa34bcad8409bd5e2d048544764858428b6b50a89437cfd02e8d3730",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "environment/hex_rune_shrine",
+      "status": "retained",
+      "source": "sources/environment/hex_rune_shrine.blend",
+      "source_sha256": "d8cb9a0a1c848c1b93ba563a5c6ab1f1d124ee8a9e89107fa6199b0057245c78",
+      "reason": "The rune shrine composition keeps focal crystal/cap/tree, quiet ground and planted contacts; retain footprint, layered heights and water interfaces. No evidence of a beneficial additional layer.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_rune_shrine.png",
+      "baseline_image_sha256": "202cc2a8503c88e0cc5250e41a8899abed73fb984f7412647ac308364665e6ef",
+      "export_sha256": "61022bc5097ee5ebeeb755aae5a9e5a85fac197f49778097a1ed99e803b2de11",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "environment/hex_woodland_bridge",
+      "status": "retained",
+      "source": "sources/environment/hex_woodland_bridge.blend",
+      "source_sha256": "c5307c71c46beb9941d9b7fee7ce9c70458baec62d50b60b5dc76d4da02f7acd",
+      "reason": "The woodland bridge composition keeps focal crystal/cap/tree, quiet ground and planted contacts; retain footprint, layered heights and water interfaces. No evidence of a beneficial additional layer.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/environment/hex_woodland_bridge.png",
+      "baseline_image_sha256": "b298aed7a66e66b502516bcaa3e14477b3316335363b8848146f78f3deb8360e",
+      "export_sha256": "686d27486090192bd4d5a0f205051a7c0801a77bf7dfbb17386ba20ebf3b4789",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "props/arrow",
+      "status": "retained",
+      "source": "sources/props/arrow.blend",
+      "source_sha256": "c022791381f689c08171520c2b70678ba94651dfe89692361e4ded7bdf74bea1",
+      "reason": "The arrow functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/arrow.png",
+      "baseline_image_sha256": "5c17b5a43fcd104bff2d6565d821f5ff331e4902f88fcee50581de2550f3e794",
+      "export_sha256": "f8fcb790b9d90fc1c38c675329366435d70960e2ea8a783b1deb222a44c91633",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "props/axe",
+      "status": "retained",
+      "source": "sources/props/axe.blend",
+      "source_sha256": "82e1be1d99730aa67983d9c970bf7c24bbc08df3299563d0f6be5cc801678362",
+      "reason": "The axe functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/axe.png",
+      "baseline_image_sha256": "b7000530c107892c0125f13951bae0fdefc2fe4bf15705dea91187a9c6c7fca7",
+      "export_sha256": "d96f679bdec208d7a53cc3d8ec24e2d40b59cf8b50e723963cc41a0368932ddc",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland equipment worn binding"
+      ]
+    },
+    {
+      "id": "props/axe_offhand",
+      "status": "retained",
+      "source": "sources/props/axe_offhand.blend",
+      "source_sha256": "05abc3ff528c448d72965a73a05731fb7ec314060f6831c05fbd8daba876a54c",
+      "reason": "The axe offhand functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/axe_offhand.png",
+      "baseline_image_sha256": "8e100786fb3eb505780c16ef2e4c5fe75408142542da27db605884f47f924460",
+      "export_sha256": "03df8ae12966bf4523424bdafdc93e46ee9d0360ec525406d74fbc937e07f6a8",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland equipment worn binding"
+      ]
+    },
+    {
+      "id": "props/bow",
+      "status": "retained",
+      "source": "sources/props/bow.blend",
+      "source_sha256": "44b340cab10ad941d6cdfa490f560f4bdcbb1fc34844c8f303d1da568e2aee03",
+      "reason": "The bow functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/bow.png",
+      "baseline_image_sha256": "61d8febdf905cd611ea70926c33ae4e94bd185f520efb56f7c565eab3ad5a0af",
+      "export_sha256": "8346589e7d3208c21407c427af776f90e39acf6d78cce9ad8595b3108dc6d60a",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland equipment worn binding"
+      ]
+    },
+    {
+      "id": "props/crossbow",
+      "status": "retained",
+      "source": "sources/props/crossbow.blend",
+      "source_sha256": "602270557eea9749c056670bc86d8791b4341cf1b57931c2932b5e904805c536",
+      "reason": "The crossbow functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/crossbow.png",
+      "baseline_image_sha256": "38522107d6afa1914573f2d9be7eef0a1b85176d1dd1daa490aff33b09faa41a",
+      "export_sha256": "012028c6b79fab9a3888c284d44209017e00a5f51d736f15e56bcd4f0e125031",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland equipment worn binding"
+      ]
+    },
+    {
+      "id": "props/evil_axe",
+      "status": "retained",
+      "source": "sources/props/evil_axe.blend",
+      "source_sha256": "325b9876da3d9d864b0468ed17e72f0ee78ae6ed06542bdaa60b84449ef5b67f",
+      "reason": "The evil axe functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/evil_axe.png",
+      "baseline_image_sha256": "e02e251102418d9cab085cb363e0db64e1eb851827f36af0d45e15e233e838c6",
+      "export_sha256": "84ef4c8b1d9798380057e05565d7343c7791c2cd74493529b4f648f89e9ac869",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland equipment worn binding"
+      ]
+    },
+    {
+      "id": "props/evil_axe_offhand",
+      "status": "retained",
+      "source": "sources/props/evil_axe_offhand.blend",
+      "source_sha256": "d11a6945f6e5b2fab6613334360ebad200ae50fce6fa3a658f3d85650535fca3",
+      "reason": "The evil axe offhand functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/evil_axe_offhand.png",
+      "baseline_image_sha256": "e12eed6647e4d8c3eb9a8d5cfe155060ee61d0753f37691426a46b568efd20b3",
+      "export_sha256": "4d22605c686e4751a8beb4854806cd7eefdac9be8281a21d1014a4013389d596",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland equipment worn binding"
+      ]
+    },
+    {
+      "id": "props/evil_hand_flame",
+      "status": "retained",
+      "source": "sources/props/evil_hand_flame.blend",
+      "source_sha256": "875e9b2b418f15e046e0677680d15c5cd5dbd9f41c935aca45bf1809a0afcf07",
+      "reason": "The evil hand flame functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/evil_hand_flame.png",
+      "baseline_image_sha256": "4f723a89f2ea3c4cfcc1efd765e1e260a4d3c7423792807bbe941e15a7fd15b2",
+      "export_sha256": "367f2eeafc55517fff9cb6039d96cce39c114a76eb8f27962c5d193a59db548e",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "props/evil_shield",
+      "status": "retained",
+      "source": "sources/props/evil_shield.blend",
+      "source_sha256": "d6dc81540ff96f56339eddd535f08b2611515bd89230b591a080e2da81553963",
+      "reason": "The evil shield functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/evil_shield.png",
+      "baseline_image_sha256": "fa7aa8f1c6d433da5e848f67928ec88f2f1d308f78b8a1703218a530ce820eee",
+      "export_sha256": "077eaf77464683aa99ca38f5974188fe1bf23776b3c9e8597f7997bee2fd6c5b",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shield worn iron rivet"
+      ]
+    },
+    {
+      "id": "props/evil_staff",
+      "status": "retained",
+      "source": "sources/props/evil_staff.blend",
+      "source_sha256": "f368f7a3129f16046e143cb8c7209497555272a2025fd849dea5d65e7959cdf2",
+      "reason": "The evil staff functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/evil_staff.png",
+      "baseline_image_sha256": "0fe2a009076556ab769ba95b5cf13d1e8062e97c984c4c55876c4bf46fadcff8",
+      "export_sha256": "4f4bcf58b405a3c98055d12c32b1ba5426b9f84b778fb0fad04c80ce3e68ad19",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland equipment worn binding",
+        "Woodland staff carved seed charm",
+        "Woodland staff hanging charm cord"
+      ]
+    },
+    {
+      "id": "props/evil_sword",
+      "status": "retained",
+      "source": "sources/props/evil_sword.blend",
+      "source_sha256": "a76cb8677f1a6b5512e0ea53e8fc3395c833d8720c9691f543bb345b98264abd",
+      "reason": "The evil sword functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/evil_sword.png",
+      "baseline_image_sha256": "2ad7bb424fe6802942aa1e300a11e8ea4684494903b5ecae5abd5649bee5ffc8",
+      "export_sha256": "78f9f42b1645648ae61c25c4f260b5d722ec64b634bae41baba71749a01d14bd",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland equipment worn binding"
+      ]
+    },
+    {
+      "id": "props/kit_arrow",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The arrow functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_arrow.png",
+      "baseline_image_sha256": "4901abd7d14b14e2a5e9f80f4ea35d7e947306d9f7a512af28a971c1924d9c2a",
+      "export_sha256": "ae58da50e44d8841f5fc8f3a98ca48e6329517d2bd84f7256e8975fe1f6cb801",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "props/kit_axe",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The axe functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_axe.png",
+      "baseline_image_sha256": "87590e1cdc484a6e6ede67b795551c4f6959cd77df3d7fd8d606335b20de06c1",
+      "export_sha256": "92f8a85c1895710a9a629fe0f9aafaf3ec2a2b21ca23b81a1922fa8dbc01153e",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "props/kit_barrel",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The barrel functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_barrel.png",
+      "baseline_image_sha256": "fca9111dd97695cd009cc587900c0e6e2bc94e3d5b46ccbd37e87f98b9ccce81",
+      "export_sha256": "753ca9021f10e310efe91e401d214b380d446b0124326d847929b186db65bd09",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "props/kit_bench",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The bench functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_bench.png",
+      "baseline_image_sha256": "b97d57cd873f92bb95abb3a604dff1ecf453d2c087aa2e3479afc9c5232c31b1",
+      "export_sha256": "a25ce06c9c7ecd6276f8405f0d06047fb4cc3474b646c07be080bfde9b025674",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "props/kit_book",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The book functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_book.png",
+      "baseline_image_sha256": "c2cbf611e5e7c98dbdb724c33aec89da8b80954e542025f7b9135314d80a9e4e",
+      "export_sha256": "4d84b6d649c5c4565fd48498cc80b1d9ead5e42cc83fac456aa2719c17408948",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland worn prop binding"
+      ]
+    },
+    {
+      "id": "props/kit_cannonball",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The cannonball functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_cannonball.png",
+      "baseline_image_sha256": "f483b89c048d563d8acf82b65006631e275997c660300b694a19eabe5d6e7b78",
+      "export_sha256": "6e9257c18069187b004547fa86a9de3d5106a45317b3c44c9513936904a0dd43",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "props/kit_crate",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The crate functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_crate.png",
+      "baseline_image_sha256": "75bf8097b65557548039ea201a283f34c3689cbac77b1a1a4d6eff0d3c9ade32",
+      "export_sha256": "8eae7dc430f511966781b7673eb5c9e2a5554647038c3f6d6d4e71a4d058bb1d",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "props/kit_lantern",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The lantern functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_lantern.png",
+      "baseline_image_sha256": "b12728136c9782b500ee019d50297a4886d112f77f1277642df2158e9ab6cfa5",
+      "export_sha256": "e88a25b8cbe9b4d0fb2f32a44f549793615504b7ad95fc3b17718ac3aee26659",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland worn prop binding"
+      ]
+    },
+    {
+      "id": "props/kit_mug",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The mug functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_mug.png",
+      "baseline_image_sha256": "63f8a18abad8458150c476b626cf01c019fa59e522757d9007e50a43b74bf088",
+      "export_sha256": "c5ff32e22d3751131a1a9ba56ada416a6dfa74827519410add12262e16f0562b",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland worn prop binding"
+      ]
+    },
+    {
+      "id": "props/kit_open_barrel",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The open barrel functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_open_barrel.png",
+      "baseline_image_sha256": "08a1c2d55561a0a9a30dbe3e0a661e78de99d00c7cc6585153f81e14cfdb61e5",
+      "export_sha256": "8fcd151a11b1fa0b2af65ceb72ea590455097b9cb1679126579321bbdf038875",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "props/kit_open_crate",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The open crate functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_open_crate.png",
+      "baseline_image_sha256": "deef5a263c891db7f0ad7c4b4b797062861a7c74b317d4469aa21ffc7f2499fa",
+      "export_sha256": "b5745efbe8c16efcb7eac047c65c962c6ff00225ac87747acda4b313042e9304",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "props/kit_parcel",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The parcel functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_parcel.png",
+      "baseline_image_sha256": "c2cc7f8301543a2c14529ae2a2ebc8b6057e7f620e0d7fe8221e3a6f92f57439",
+      "export_sha256": "b76ac1fdad693664227a4f7c4377a7151f3b6ee24cf56dfc65fdc611d4c84e85",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland worn prop binding"
+      ]
+    },
+    {
+      "id": "props/kit_pine",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The pine functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_pine.png",
+      "baseline_image_sha256": "31e32f222452fcf01f656c35c3181d77915ae804f7e6235e1da52d0b9b1b0dd8",
+      "export_sha256": "1c494b68639674b970228eae803a5d5bec78931b2c5624cb74df3efb004b8dca",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf"
+      ]
+    },
+    {
+      "id": "props/kit_roof_tile",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The roof tile functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_roof_tile.png",
+      "baseline_image_sha256": "65a622d31efa7f35d090c53bf289f7abc9c58a14a3f0074e7c6b3dea73c327ba",
+      "export_sha256": "1cc46d02e080564a2d731119affc739a68e1d0eb145283cf0ad93900d656452e",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "props/kit_shrub",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The shrub functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_shrub.png",
+      "baseline_image_sha256": "0f3df19c6265203db89d9ccc56b3ad314881dc257e2c4339674e3a835d9dbe77",
+      "export_sha256": "4dda4aada9a4977b314dee726a721886132f5b456b2630b63b7f7d4ce6cb8c2f",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf"
+      ]
+    },
+    {
+      "id": "props/kit_skull",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The skull functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_skull.png",
+      "baseline_image_sha256": "6cc4f9c0cf782052951c025f8e377cee8b2f6c67acadfe5e68cdd876d9328210",
+      "export_sha256": "b288abc1ce9b2c8d9ef59d7f5a40bb6c7f1d033af68900b427ce5db610679381",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "props/kit_spear",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The spear functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_spear.png",
+      "baseline_image_sha256": "62ac7d3c9dc0e1ec8c11d4b9137befd945fcccb1fac9f1cbc810144cb8bad7ca",
+      "export_sha256": "53c865c675f93f4ec3209eabc963eb716f3ccb0f8ada009b6ca0f407f3c67fba",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "props/kit_spike",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The spike functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_spike.png",
+      "baseline_image_sha256": "ccec6427bcadaea1226ae8454cdff3236f6303020a1e9c7b700f27e738774398",
+      "export_sha256": "6ad751376f391da5c74d97ec599f2fa7beb0feaf29e821be7b91faf7f24cb50a",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "props/kit_stone_block",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The stone block functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_stone_block.png",
+      "baseline_image_sha256": "e67f2bba4d1606d3065276612b4b354a6b74ab4874f17af84e104e248196de89",
+      "export_sha256": "58093fbd37f61e30aecd0fb8ebd6d5725daf4c58bf54d64815e68a21323cc34f",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shared curved ivy leaf",
+        "Woodland shared moss cushion"
+      ]
+    },
+    {
+      "id": "props/kit_target",
+      "status": "retained",
+      "source": "sources/props/shared_village_kit.blend",
+      "source_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+      "reason": "The target functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/kit_target.png",
+      "baseline_image_sha256": "7bcf932afd891d91fb84b23ee97fccfeb40dd4e81696a45f896643fc52768c95",
+      "export_sha256": "ce4742d454dd822365b433dd062500959a2046fdf2fbae6f1021b6cc45084247",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents"
+      ]
+    },
+    {
+      "id": "props/shield",
+      "status": "retained",
+      "source": "sources/props/shield.blend",
+      "source_sha256": "917ed225ca08caa0abd06f6483189e77320efba128ed45ca4cc19739e5caf422",
+      "reason": "The shield functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/shield.png",
+      "baseline_image_sha256": "6d889e24c695b01f0c692fa6de2a89936eb021c0bdffee3d4960f470734e2667",
+      "export_sha256": "c9cf66b6930bc97bf57ef5358d96047fc43dbbe62ad27752f07696f8e8db7cf9",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland shield worn iron rivet"
+      ]
+    },
+    {
+      "id": "props/staff",
+      "status": "retained",
+      "source": "sources/props/staff.blend",
+      "source_sha256": "9f393a65458cd173bebc5bd4002c07f6795adb7d38d69f5859453824595350dc",
+      "reason": "The staff functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/staff.png",
+      "baseline_image_sha256": "e4a0c6fe8f8e0b863aa18e80b123b6acdafa6d56db4d0f56aa748330134c4011",
+      "export_sha256": "fa5343e4f84cc15b99216416af771e5ef671886b3ee653ad0d6eda5bcc20a653",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland equipment worn binding",
+        "Woodland staff carved seed charm",
+        "Woodland staff hanging charm cord"
+      ]
+    },
+    {
+      "id": "props/sword",
+      "status": "retained",
+      "source": "sources/props/sword.blend",
+      "source_sha256": "b35e43467224bb13a9a20cd29db7634170e003aa159964aa6967094077f6467a",
+      "reason": "The sword functional silhouette, wrap/joint/facet detail and muted material separation fit. More dressing would blur grip/use or repeat growth.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/props/sword.png",
+      "baseline_image_sha256": "dc24341ac06028c24adc487fae5b4aa1114ebaff5c60517af3887e37885ab077",
+      "export_sha256": "791d19181cfb7cdf9f17a73a7d0fcd11476c51cd006f60ac732485fc1884ae8f",
+      "retained_subparts": [
+        "original useful silhouette, topology/UVs, painted variation and roughness/normal data maps",
+        "origin/attachment scale; hex footprint, flat floor or water interfaces where applicable",
+        "muted related surface shades; restrained luminous accents",
+        "Woodland equipment worn binding"
+      ]
+    },
+    {
+      "id": "ui/theme",
+      "status": "retained",
+      "source": "ui/preview/UI/theme/ledger.tres",
+      "source_sha256": "e5ee7852f2873c274155c363ec5b93c9d01f6ba9dcf81f69f7a0921726f46ca5",
+      "reason": "Native Ledger hierarchy, restrained woodland ornament and existing contrast already fit; no interface, interaction, layout, artwork or qualification change needed.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/ui/theme.png",
+      "baseline_image_sha256": "4db379c2b307df9d62ce58dda7a03ef2c2cb328b9e1597aa856ffa80edacaad5",
+      "retained_subparts": [
+        "byte-identical native scripts/scenes/Theme resource, fonts, seal identity, layout/hit geometry, API and interactions",
+        "small amber/cyan functional accents and readable Ledger hierarchy",
+        "referenced woodland leaf/violet ornament bodies; alive Worldtree foliage/roots where used"
+      ]
+    },
+    {
+      "id": "ui/menu-seal",
+      "status": "retained",
+      "source": "ui/preview/UI/art/menu_seal.png",
+      "source_sha256": "cf3e2ceb4510be6d6a052e882597c2313216e2268a9aaa61fdf1d7e1308d2ced",
+      "reason": "Original seal identity and relief already fit; original pixels/resources remain unchanged.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/ui/menu-seal.png",
+      "baseline_image_sha256": "cf3e2ceb4510be6d6a052e882597c2313216e2268a9aaa61fdf1d7e1308d2ced",
+      "retained_subparts": [
+        "byte-identical native scripts/scenes/Theme resource, fonts, seal identity, layout/hit geometry, API and interactions",
+        "small amber/cyan functional accents and readable Ledger hierarchy"
+      ]
+    },
+    {
+      "id": "ui/resource-table",
+      "status": "retained",
+      "source": "ui/preview/UI/components/resource_ledger.tscn",
+      "source_sha256": "68d2a237795eb6da03109f48d806a357c4a267ca0bd36ce55aea5af3ce9b5ac2",
+      "reason": "Native Ledger hierarchy, restrained woodland ornament and existing contrast already fit; no interface, interaction, layout, artwork or qualification change needed.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/ui/resource-table.png",
+      "baseline_image_sha256": "db0fd4781199d893ef9798e87b65b0f881f442da37f12651299d71d90aa46272",
+      "retained_subparts": [
+        "byte-identical native scripts/scenes/Theme resource, fonts, seal identity, layout/hit geometry, API and interactions",
+        "small amber/cyan functional accents and readable Ledger hierarchy",
+        "referenced woodland leaf/violet ornament bodies; alive Worldtree foliage/roots where used"
+      ]
+    },
+    {
+      "id": "ui/upkeep",
+      "status": "retained",
+      "source": "ui/preview/UI/components/upkeep_summary.tscn",
+      "source_sha256": "4e86a0129d5a1f1132d95bd0293b7e3c79a4bc783c0b4f3f6a5ebe019e88454e",
+      "reason": "Native Ledger hierarchy, restrained woodland ornament and existing contrast already fit; no interface, interaction, layout, artwork or qualification change needed.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/ui/upkeep.png",
+      "baseline_image_sha256": "1d7c6e566b577fea88916b4c5a4e28aaad8a34d7871f7d7b15af74d1b0c45d70",
+      "retained_subparts": [
+        "byte-identical native scripts/scenes/Theme resource, fonts, seal identity, layout/hit geometry, API and interactions",
+        "small amber/cyan functional accents and readable Ledger hierarchy",
+        "referenced woodland leaf/violet ornament bodies; alive Worldtree foliage/roots where used"
+      ]
+    },
+    {
+      "id": "ui/action-quote",
+      "status": "retained",
+      "source": "ui/preview/UI/components/quoted_action.tscn",
+      "source_sha256": "a5cc1c72220fe5c3ba3ddbc704ede385b6aa5698c41c8fbc568b77fc64304214",
+      "reason": "Native Ledger hierarchy, restrained woodland ornament and existing contrast already fit; no interface, interaction, layout, artwork or qualification change needed.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/ui/action-quote.png",
+      "baseline_image_sha256": "e6b01cedfe2032ed42ca531cb13d059f0474e41fb4cbcbecc9bbde5387a99125",
+      "retained_subparts": [
+        "byte-identical native scripts/scenes/Theme resource, fonts, seal identity, layout/hit geometry, API and interactions",
+        "small amber/cyan functional accents and readable Ledger hierarchy",
+        "referenced woodland leaf/violet ornament bodies; alive Worldtree foliage/roots where used"
+      ]
+    },
+    {
+      "id": "ui/city-navigation",
+      "status": "retained",
+      "source": "ui/preview/UI/components/city_navigation.tscn",
+      "source_sha256": "18ecf9ae05484ada6b8f357946ebbf853dc0d4bdedbc60cc391334e2a63eec68",
+      "reason": "Native Ledger hierarchy, restrained woodland ornament and existing contrast already fit; no interface, interaction, layout, artwork or qualification change needed.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/ui/city-navigation.png",
+      "baseline_image_sha256": "eb302b23eac0b677d316150d233a179f13a7673b645781fb88b187b9cd424bf8",
+      "retained_subparts": [
+        "byte-identical native scripts/scenes/Theme resource, fonts, seal identity, layout/hit geometry, API and interactions",
+        "small amber/cyan functional accents and readable Ledger hierarchy"
+      ]
+    },
+    {
+      "id": "ui/match-controls",
+      "status": "retained",
+      "source": "ui/preview/UI/components/match_controls.tscn",
+      "source_sha256": "3e7fd4ae576e86d7b1a2d6ccfe9a8149337a0807cfbb701aa3c454b44b4c30d3",
+      "reason": "Native Ledger hierarchy, restrained woodland ornament and existing contrast already fit; no interface, interaction, layout, artwork or qualification change needed.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/ui/match-controls.png",
+      "baseline_image_sha256": "d85ecc7e76e3ba380e193497857604e5133b4ca166b04229acf6436422f68a61",
+      "retained_subparts": [
+        "byte-identical native scripts/scenes/Theme resource, fonts, seal identity, layout/hit geometry, API and interactions",
+        "small amber/cyan functional accents and readable Ledger hierarchy"
+      ]
+    },
+    {
+      "id": "ui/session-feedback",
+      "status": "retained",
+      "source": "ui/preview/UI/components/session_feedback.tscn",
+      "source_sha256": "c613eeaf9cf3ab0affb0e54a60822b80328c661b16b47b8dddb6a87c95b8ca42",
+      "reason": "Native Ledger hierarchy, restrained woodland ornament and existing contrast already fit; no interface, interaction, layout, artwork or qualification change needed.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/ui/session-feedback.png",
+      "baseline_image_sha256": "ad63e814d7aef70cfcf87d1c2d11cad357a57589d66d41d9740be30ea3802ecc",
+      "retained_subparts": [
+        "byte-identical native scripts/scenes/Theme resource, fonts, seal identity, layout/hit geometry, API and interactions",
+        "small amber/cyan functional accents and readable Ledger hierarchy"
+      ]
+    },
+    {
+      "id": "ui/dialog-shell",
+      "status": "retained",
+      "source": "ui/preview/UI/components/modal.tscn",
+      "source_sha256": "6a5760a99e15c2b9739e55f8da11e152a004f5b71400352cf64071b9938db699",
+      "reason": "Native Ledger hierarchy, restrained woodland ornament and existing contrast already fit; no interface, interaction, layout, artwork or qualification change needed.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/ui/dialog-shell.png",
+      "baseline_image_sha256": "5f9d5c5c4301ebd61a85732529e81951450a6fd049427e867bfa0760b0c9ab66",
+      "retained_subparts": [
+        "byte-identical native scripts/scenes/Theme resource, fonts, seal identity, layout/hit geometry, API and interactions",
+        "small amber/cyan functional accents and readable Ledger hierarchy",
+        "referenced woodland leaf/violet ornament bodies; alive Worldtree foliage/roots where used"
+      ]
+    },
+    {
+      "id": "ui/unit-inspection",
+      "status": "retained",
+      "source": "ui/preview/UI/components/unit_inspection.tscn",
+      "source_sha256": "248c17dbe9ceab0a3610dc2cba77b7066dd6cfb9f4f2c6bba6ed3bd19d24d6b0",
+      "reason": "Native Ledger hierarchy, restrained woodland ornament and existing contrast already fit; no interface, interaction, layout, artwork or qualification change needed.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/ui/unit-inspection.png",
+      "baseline_image_sha256": "6a69effb450d0d15b9a5ad90111d19ddb08232401d2f8e4a79e20fbfeeb45934",
+      "retained_subparts": [
+        "byte-identical native scripts/scenes/Theme resource, fonts, seal identity, layout/hit geometry, API and interactions",
+        "small amber/cyan functional accents and readable Ledger hierarchy",
+        "referenced woodland leaf/violet ornament bodies; alive Worldtree foliage/roots where used"
+      ]
+    },
+    {
+      "id": "ui/roster",
+      "status": "retained",
+      "source": "ui/preview/UI/components/army_roster.tscn",
+      "source_sha256": "0e0f0675c60fe152c65ab3bc3421a26a1da1f76baf8ffb1ad93f084e6262db02",
+      "reason": "Native Ledger hierarchy, restrained woodland ornament and existing contrast already fit; no interface, interaction, layout, artwork or qualification change needed.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/ui/roster.png",
+      "baseline_image_sha256": "cce516567a460807c1167f7434ee712eda213d39911a7ea42b766c048c367ebc",
+      "retained_subparts": [
+        "byte-identical native scripts/scenes/Theme resource, fonts, seal identity, layout/hit geometry, API and interactions",
+        "small amber/cyan functional accents and readable Ledger hierarchy"
+      ]
+    },
+    {
+      "id": "ui/worldtree",
+      "status": "retained",
+      "source": "ui/preview/UI/components/worldtree.tscn",
+      "source_sha256": "f9c18f707e0aa222d23f934172caf02637b825d18c65737c17f27dd2ea0b3480",
+      "reason": "Native Ledger hierarchy, restrained woodland ornament and existing contrast already fit; no interface, interaction, layout, artwork or qualification change needed.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/ui/worldtree.png",
+      "baseline_image_sha256": "290df42e46a47ee6378acb7d62fe351320c1585fd439b5d82b4c29dd479bdebc",
+      "retained_subparts": [
+        "byte-identical native scripts/scenes/Theme resource, fonts, seal identity, layout/hit geometry, API and interactions",
+        "small amber/cyan functional accents and readable Ledger hierarchy",
+        "referenced woodland leaf/violet ornament bodies; alive Worldtree foliage/roots where used"
+      ]
+    },
+    {
+      "id": "ui/skill-tree",
+      "status": "retained",
+      "source": "ui/preview/UI/components/skill_tree.tscn",
+      "source_sha256": "bc052ea039eb4be323910a542e76ae78214986acb62a2499d5b5293b6a98d5e3",
+      "reason": "Native Ledger hierarchy, restrained woodland ornament and existing contrast already fit; no interface, interaction, layout, artwork or qualification change needed.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/ui/skill-tree.png",
+      "baseline_image_sha256": "6110e0b8eb4569f855c5734606e56c05fb6895e0be09fc503681c6bb5d013e2d",
+      "retained_subparts": [
+        "byte-identical native scripts/scenes/Theme resource, fonts, seal identity, layout/hit geometry, API and interactions",
+        "small amber/cyan functional accents and readable Ledger hierarchy",
+        "referenced woodland leaf/violet ornament bodies; alive Worldtree foliage/roots where used"
+      ]
+    },
+    {
+      "id": "ui/hud",
+      "status": "retained",
+      "source": "ui/preview/prototypes/showcase.tscn",
+      "source_sha256": "61fa7e7503c1551e52fdd6c0737c9c5cd763cb9c8e90d4ab8be849e46e48af23",
+      "reason": "Native Ledger hierarchy, restrained woodland ornament and existing contrast already fit; no interface, interaction, layout, artwork or qualification change needed.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/ui/hud.png",
+      "baseline_image_sha256": "c8f4059fb2e7c4d62e4fdcfdd57189ad684147667d69dd8fd3c7928514823b2e",
+      "retained_subparts": [
+        "byte-identical native scripts/scenes/Theme resource, fonts, seal identity, layout/hit geometry, API and interactions",
+        "small amber/cyan functional accents and readable Ledger hierarchy",
+        "referenced woodland leaf/violet ornament bodies; alive Worldtree foliage/roots where used"
+      ]
+    },
+    {
+      "id": "ui/start-menu",
+      "status": "retained",
+      "source": "ui/preview/prototypes/menu.tscn",
+      "source_sha256": "1b6d3bc8e9a9f70a7dc8caabd9b404200c0ad7283339c01f8d9b86aea6745dde",
+      "reason": "Native Ledger hierarchy, restrained woodland ornament and existing contrast already fit; no interface, interaction, layout, artwork or qualification change needed.",
+      "reviewer": "implementation agent; actual image inspection, not commissioned artist acceptance",
+      "baseline_image": "docs/whisperwood/evidence/after/ui/start-menu.png",
+      "baseline_image_sha256": "ba4f25e4176ca0531520b2e276428558780b518174c846d51f5e0cd2ee4e6754",
+      "retained_subparts": [
+        "byte-identical native scripts/scenes/Theme resource, fonts, seal identity, layout/hit geometry, API and interactions",
+        "small amber/cyan functional accents and readable Ledger hierarchy",
+        "referenced woodland leaf/violet ornament bodies; alive Worldtree foliage/roots where used"
+      ]
+    }
+  ],
+  "limits": "Headless checks/CPU images only; game camera, native GPU timing/draw calls, artist acceptance and animation appeal untested"
+}

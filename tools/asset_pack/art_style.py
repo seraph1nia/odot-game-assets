@@ -7,6 +7,13 @@ from types import MappingProxyType
 STYLE_ID = 'soft_painted_fantasy_v1'
 PAINTED_VERSION = 'painted_softness_v1'
 
+# Explicit second-round focal building edits; no global palette/preview migration.
+QUALITY_ROUND_TWO = MappingProxyType({
+    'porch_ochre': (.48, .29, .16),
+    'porch_rim': (.66, .55, .36),
+    'orb_body_emission': .16,
+})
+
 
 @dataclass(frozen=True)
 class MaterialStyle:

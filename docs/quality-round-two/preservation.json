@@ -1,0 +1,56 @@
+{
+  "bakery": {
+    "unchanged_original_meshes_verified": 292,
+    "unchanged_embedded_kit_children_verified": 0,
+    "unchanged_growth_instances_verified": 575,
+    "new_geometry_root_ownership_verified": true,
+    "intended_focal_mesh_exceptions": [
+      "Woodland layered bakery porch cap"
+    ],
+    "source_sha256": "24d41356e082aed7bb5e9b7318e948c462b95fdebfc0fe6b5d3f47a4bcac9b39",
+    "scope": "World transforms, mesh positions/topology, all UV layers, material slot names, surviving growth mesh datablock names and new geometry root ownership; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
+  },
+  "weaver": {
+    "unchanged_original_meshes_verified": 510,
+    "unchanged_embedded_kit_children_verified": 1863,
+    "unchanged_growth_instances_verified": 2144,
+    "new_geometry_root_ownership_verified": true,
+    "intended_focal_mesh_exceptions": [
+      "Woodland long draped dyed cloth"
+    ],
+    "source_sha256": "1d71b33799147ee14f3a6aa0abdd06295909210b075a11ce071dfb435818eaa0",
+    "scope": "World transforms, mesh positions/topology, all UV layers, material slot names, surviving growth mesh datablock names and new geometry root ownership; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
+  },
+  "magic_academy": {
+    "unchanged_original_meshes_verified": 468,
+    "unchanged_embedded_kit_children_verified": 6614,
+    "unchanged_growth_instances_verified": 6912,
+    "new_geometry_root_ownership_verified": true,
+    "intended_focal_mesh_exceptions": [
+      "Academy glowing orb"
+    ],
+    "source_sha256": "f6edf70654dcfdd4db3c635db9d6f8f5d9df937e169da1a79a29db9cc63027b5",
+    "scope": "World transforms, mesh positions/topology, all UV layers, material slot names, surviving growth mesh datablock names and new geometry root ownership; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
+  },
+  "town_hall": {
+    "unchanged_original_meshes_verified": 1023,
+    "unchanged_embedded_kit_children_verified": 5863,
+    "unchanged_growth_instances_verified": 5990,
+    "new_geometry_root_ownership_verified": true,
+    "intended_focal_mesh_exceptions": [
+      "Golden civic bell",
+      "Bell clapper"
+    ],
+    "source_sha256": "eed3ffc56b578954758ff30084d71aee277e4c9b0388b9387dbcc84b6f6ab4c8",
+    "scope": "World transforms, mesh positions/topology, all UV layers, material slot names, surviving growth mesh datablock names and new geometry root ownership; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
+  },
+  "woodcutter_hut": {
+    "unchanged_original_meshes_verified": 324,
+    "unchanged_embedded_kit_children_verified": 0,
+    "unchanged_growth_instances_verified": 620,
+    "new_geometry_root_ownership_verified": true,
+    "intended_focal_mesh_exceptions": [],
+    "source_sha256": "692fe509a6110365e59e57023487e2c8c02b1b64e4813d8c3cae8c2ab883449f",
+    "scope": "World transforms, mesh positions/topology, all UV layers, material slot names, surviving growth mesh datablock names and new geometry root ownership; 1e-6 coordinate rounding, no shader/pixel/performance judgment"
+  }
+}

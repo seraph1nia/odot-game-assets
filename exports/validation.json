@@ -12,8 +12,8 @@
     "asset_id": "buildings/bakery",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "c2be8989553f46cd7e2c08dd6444a951359658e906fba4421dc3189df21542a2",
-    "glb_sha256": "d092210863a311eaabd49da14212128072c5daa39e62820d7a35b3fa0d084c9a"
+    "source_sha256": "24d41356e082aed7bb5e9b7318e948c462b95fdebfc0fe6b5d3f47a4bcac9b39",
+    "glb_sha256": "ea88aa49a567f80849358d12a1d8d970973d2453bb0c7494a4ac387c993daaa5"
   },
   {
     "asset": "gold_mine",
@@ -28,8 +28,8 @@
     "asset_id": "buildings/woodcutter_hut",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "46453c2024d55cd78316e9cc1cb2a209b712434bb2a1822f997308a5a0529eef",
-    "glb_sha256": "439466a669468aeca0bab31b014ffe12aa5b6b0451711fa576906307d5070f94"
+    "source_sha256": "692fe509a6110365e59e57023487e2c8c02b1b64e4813d8c3cae8c2ab883449f",
+    "glb_sha256": "0db60a4780e6c5082c3847ea4ae6bbff021b0e1523a2f43c1d8cee10939073e0"
   },
   {
     "asset": "arrow_tower",
@@ -86,8 +86,8 @@
     "asset_id": "buildings/magic_academy",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "3aa4f6283c48c49405d42351e10e6fa3e1f23b8f1a28a0ded2161b841efa0178",
-    "glb_sha256": "85de2e9a6d0cba92ac560eaa59e9bea7736386ef18255830225875f0a9e84657",
+    "source_sha256": "f6edf70654dcfdd4db3c635db9d6f8f5d9df937e169da1a79a29db9cc63027b5",
+    "glb_sha256": "76b31d49f074cbc73799bdfa0963fcce5bec41b04d3edd1854983e7d4272f226",
     "shared_kit_instances": {
       "book": 3,
       "lantern": 1,
@@ -341,8 +341,8 @@
     "asset_id": "buildings/town_hall",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "efb7b9210502271282083390575f3ed2efd58138938bf1b0f8d41750cbbee737",
-    "glb_sha256": "7753e94262a1230975aa4bea7f225553bd7f2143e17a8cd86944bfdaf1ec6420",
+    "source_sha256": "eed3ffc56b578954758ff30084d71aee277e4c9b0388b9387dbcc84b6f6ab4c8",
+    "glb_sha256": "4a7583762b46cf27931213db437498595d45d8ef4ce9764ebef95734ffb2579a",
     "shared_kit_instances": {
       "bench": 1,
       "lantern": 2,
@@ -356,8 +356,8 @@
     "asset_id": "buildings/weaver",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "d0291d7b3961e75d3415a562ea667142078e85ddad164b5a6c59dc33ee38ab43",
-    "glb_sha256": "dbbd0b36ce597aaf056b55a0b806fa5c11c051772d3f45e7a77a264461f56084",
+    "source_sha256": "1d71b33799147ee14f3a6aa0abdd06295909210b075a11ce071dfb435818eaa0",
+    "glb_sha256": "83652b7bee2d17334eebf4ce4517254b1a6144bbe06f3598059b13556c5b72a7",
     "shared_kit_instances": {
       "lantern": 1,
       "open_barrel": 2,
