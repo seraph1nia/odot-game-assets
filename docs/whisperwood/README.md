@@ -97,7 +97,7 @@ unchanged along with the original seal identity.
   and native captures, not generated illustrations. [Nine 3D contact sheets](contact-sheets.json)
   cover all 118 GLBs; two UI sheets live in `evidence/sheets/ui-{1,2}.png`.
 - [Completion matrix](completion.json): per-ID refined/retained subparts and
-  reasons, current source/export/image hashes, measured resource deltas,
+  reasons, first-round source/export/image hashes, measured resource deltas,
   selected saved-pose bounds and explicit noncatalog decisions.
 - [Authored sources](authored.json): all 67 canonical owners, baseline gates,
   shared-geometry correction, original-UV preservation and corrected bow/crossbow
@@ -105,7 +105,9 @@ unchanged along with the original seal identity.
 - [Render receipts](renders.json): 118 genuine before/after pairs, renderer
   fingerprint, hashes and derived 192/96 canvases. Before bytes are the original
   published exports, not a reconstruction or an assumption that every old source
-  preview was fresh. All 118 published thumbnails now bind current exports.
+  preview was fresh. The first-round receipts bind all 118 thumbnails to the
+  exports at that checkpoint; changed second-round bindings belong to the linked
+  second-round record.
 - [Check receipts](checks.json): saved-source exports, portable embedded channels,
   source-style/forest-grid/interface checks and focused Blender fixtures.
 - [Decals](decals-refined.json): four muted source/export PNG pairs; their 512px
@@ -132,11 +134,12 @@ remain where already fitting. Muted material-only rows are identified as such.
 No game process/import/release, actual game camera, GPU performance or automated
 artistic judgment is qualified. The native campaign uses software Mesa/Xvfb.
 
-Dense roof/contact growth increases mesh instances substantially: the current
-academy has 7,495 active exported mesh nodes. Mesh datablock reuse is preserved,
-but it does not promise renderer batching or game frame rate. Per-ID active
-primitive/triangle instances and mesh-definition/material/byte deltas are in the
-matrix; optimization/LOD/game budgets need renderer-specific review, not a waiver.
+Dense first-round roof/contact growth increased mesh instances substantially.
+Mesh datablock reuse does not promise renderer batching or game frame rate.
+First-round per-ID active primitive/triangle instances and mesh-definition/material/byte
+deltas belong to the [completion matrix](completion.json); current changed-building
+counts belong to the [second-round render receipt](../quality-round-two/renders.json).
+Optimization/LOD/game budgets need renderer-specific review, not a waiver.
 
 Exact baseline `.blend`/GLB files remain locally in `.cache/whisperwood/before/`;
 tracked baseline hashes and the original checkpoint commit preserve their
@@ -146,17 +149,21 @@ created color/finish companions sit under source-category `textures/whisperwood/
 (or the existing category texture ownership), are packed and are embedded in GLB.
 Do not regenerate manual sources or historical assemblies from old builders.
 
-### Reproduce the mechanical evidence
+### First-round mechanical evidence procedure (historical)
 
-Run `mise run check`, `mise run style-tests`, `mise run asset-check -- --all`
-and `mise run asset-style-check -- --all`. Run the read-only forest verifier
+The following records the original procedure, not a refresh command for the current
+checkout. Use the [second-round reproduction guidance](../quality-round-two/README.md#evidence-and-limits)
+for the changed buildings.
+
+The first round ran `mise run check`, `mise run style-tests`, `mise run asset-check -- --all`
+and `mise run asset-style-check -- --all`. It ran the read-only forest verifier
 and `verify_painted_blender.py` through `tools.asset_pack.worker` with the
-118 canonical IDs from `baseline.json::jobs`. Focused fixtures are
+118 canonical IDs from `baseline.json::jobs`. Focused fixtures were
 `test_woodland_blender.py` and `test_woodland_bindings_blender.py`.
 After checked exports, `python3 -m tools.asset_pack.woodland_review --stage after`
-refreshes actual neutral views; `woodland_inventory_blender.py` records selected
-subparts and `python3 -m tools.asset_pack.woodland_report` binds the ledger.
-The before-stage requires preserved original exported bytes.
+refreshed actual neutral views; `woodland_inventory_blender.py` recorded selected
+subparts and `python3 -m tools.asset_pack.woodland_report` bound the ledger.
+The before-stage required preserved original exported bytes.
 
 Implementation/check/image artifacts are complete for the canonical catalog.
 Required no-mistakes/PR delivery remains a separate firstmate-directed gate;

@@ -37,15 +37,16 @@ campaign: their existing quiet ornament, readable states and original seal need
 no additional decoration. Per-ID reasons belong to `inventory.json`.
 
 All five edits preserve original saved meshes except named focal subparts and
-explicitly thinned independent growth. The proposed log tilt was retained instead:
-its supporting ropes already read correctly and a further pose edit offered no
-reliable small-view gain. Embedded kit children remain unchanged.
+explicitly thinned independent growth. The suspended log's original pose was
+retained instead of the proposed tilt: its supporting ropes already read correctly
+and a further pose edit offered no reliable small-view gain. Embedded kit children remain unchanged.
 Surviving independent leaf/moss growth retains its source instances and shared
 mesh data; only the identified quiet lanes are thinned. Newly authored geometry
-belongs to the building hierarchy and preserves its authored world transform. No kit rebuild, global lighting/style defaults or new
-control framework. Broad source-lit planes and limited luminous cores—not darker
-preview lights—are the lighting strategy. Canonical neutral SUN renderer remains
-byte-identical; authored Area-light views are supplementary.
+belongs to the building hierarchy and preserves its authored world transform.
+No kit rebuild, global lighting/style defaults or new control framework. Broad
+source-lit planes and limited luminous cores—not darker preview lights—are the
+lighting strategy. Canonical neutral SUN renderer remains byte-identical;
+authored Area-light views are supplementary.
 
 ## Evidence and limits
 
@@ -56,8 +57,8 @@ provisional, not measured game occupied pixels; auto-fit is not a frozen camera.
 Headless source/export/texture checks and CPU actual renders do not qualify game
 integration, native GPU timing/draw calls, animation appeal or artist acceptance.
 No game process, import, purchase, release or global tool/config change is authorized
-or performed. First-round 7,495 academy mesh nodes are instance counts, not measured
-GPU performance. Resource changes are recorded with their counting convention.
+or performed. Active mesh nodes are instance counts, not measured GPU performance.
+Resource changes are recorded with their counting convention in [renders.json](renders.json).
 
 Reproduce focused authoring only from preserved landed baseline hashes:
 `python3 -m tools.asset_pack.worker tools/asset_pack/quality_round_two.py --label quality-two-author --apply`.
@@ -99,13 +100,10 @@ D02/D07 remain unchanged fitting family treatment. D08 uses the identical neutra
 renderer/auto-fit procedure (not a fixed projection); D09 requires the cost caveat
 below. These are agent judgments, not commissioned artist acceptance.
 
-| Building | Active mesh nodes before → after | Active triangle instances before → after | GLB bytes before → after |
-| --- | ---: | ---: | ---: |
-| Bakery | 934 → 934 | 46,003 → 46,003 | 2,955,572 → 3,269,268 |
-| Weaver | 2,733 → 2,674 | 108,482 → 106,650 | 6,491,624 → 6,473,480 |
-| Academy | 7,495 → 7,418 | 250,918 → 248,974 | 5,246,836 → 5,252,952 |
-| Town hall | 7,143 → 7,047 | 284,099 → 281,055 | 11,314,660 → 11,277,524 |
-| Woodcutter | 980 → 982 | 44,469 → 44,821 | 3,254,260 → 3,280,012 |
+The generated [render receipt](renders.json) owns per-building before/after resource
+counts; [the generated review page](actual-review.html) displays node and triangle
+instance deltas. Both are produced by `tools.asset_pack.quality_round_two_review`
+from the preserved baseline and current GLBs, rather than a hand-maintained table.
 
 Surviving leaves and moss retain shared mesh data rather than being joined into
 baked unique mesh definitions. Kit instances retain canonical mesh data. These
