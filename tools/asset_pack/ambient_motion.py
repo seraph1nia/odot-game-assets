@@ -1,7 +1,9 @@
 """Explicit localized object actions on existing sources; never rebuild a library.
 
-Run in an isolated Blender worker. Originals are checkpointed, then each source
-is scratch-saved, reloaded and independently audited before atomic replacement.
+Run in an isolated Blender worker. Always author all 16 buildings and nine water
+entries. Originals are checkpointed, then each complete source is scratch-saved,
+reloaded and independently audited before atomic replacement. Completed sources
+are retained on resume; partial asset selection is not supported.
 """
 import argparse
 import json
@@ -166,13 +168,13 @@ def water(job, action):
             'pivot': None, 'channels': channels, 'added_geometry': None}
 
 
-def main(selected=None):
+def main():
     from tools.asset_pack.verify_ambient_blender import capture, compare
     DOCS.mkdir(parents=True, exist_ok=True)
     path = DOCS / 'authored.json'
     receipts = json.loads(path.read_text()) if path.exists() else {}
     groups = {}
-    for job in plan_exports(ROOT, selected or ASSETS):
+    for job in plan_exports(ROOT, ASSETS):
         groups.setdefault(job['source'], []).append(job)
     for source, jobs in groups.items():
         live = ROOT / source
@@ -216,6 +218,5 @@ def main(selected=None):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('assets', nargs='*', choices=ASSETS)
-    args = parser.parse_args(sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else [])
-    main(args.assets)
+    parser.parse_args(sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else [])
+    main()

@@ -211,8 +211,34 @@ reconstruct the palette-stage source files from `ac41b74` into
 `authored.json`; reconstruct the original landed baseline as described in the
 [vivid recovery procedure](../vivid-palette/README.md). Never rebuild source
 geometry to recreate a comparison. `ambient_motion.py` is explicit authoring,
-not a check; a repeat invocation keeps already bound sources and refuses to
-silently overwrite subsequent manual edits.
+not a check. It always plans the complete `ASSETS` inventory: all 16 buildings
+and nine water entries. Neither its Python entry point nor its CLI accepts an
+asset selector. Source-level completion is recorded only after all selected
+collections in that source have been authored and audited together; in particular,
+`shared_forest_kit.blend` covers the stream, foam and waterfall in one operation.
+A repeat invocation keeps already bound sources and refuses to silently overwrite
+subsequent manual edits. An interrupted run resumes unfinished sources using the
+same complete inventory, not a partial-asset mode.
+
+For authorized authoring only (not verification), use the isolated worker without
+asset arguments; `--help` describes its complete-inventory contract:
+
+```sh
+python3 -m tools.asset_pack.worker tools/asset_pack/ambient_motion.py \
+  --label ambient-author --blender "$BLENDER"
+```
+
+The fast orchestration regressions run without Blender:
+
+```sh
+python3 -m unittest tools.asset_pack.test_ambient_motion
+```
+
+They exercise real catalog job planning, shared-source feature coverage, persisted
+source receipts, complete-run and interrupted-run resume, manual-edit refusal,
+and CLI argument handling with Blender authoring/auditing replaced by test doubles.
+The Blender fixtures and independent playback audit above remain the geometry,
+material-preservation and exported-motion checks.
 
 The catalog's hash-only “shared kit changed” advisories are expected after
 library source edits. They are not permission to regenerate planted compositions.
