@@ -13,6 +13,7 @@ must be verified separately.
 
 - [Color recovery: current direction, inventory and actual comparisons](docs/vivid-palette/README.md)
 - [Localized building/water loops: 25 actual exported clips, coverage and playback](docs/ambient-motion/README.md)
+- [Runtime exports: consolidated building scenes, matched renders, all25 fidelity/loops and headless costs](docs/runtime-optimization/README.md)
 - [Landed selective quality round: focal edits and historical evidence](docs/quality-round-two/README.md)
 - [Landed first-round Whisperwood analysis, inventory and baseline evidence](docs/whisperwood/README.md)
 - [Reference authority and supplied-image inventory](.agents/skills/asset-art-direction/references/index.md)
@@ -152,7 +153,12 @@ asset collection or root object matching the asset ID's final segment; descendan
 and a character's optional `EQUIPMENT` collection are exported, while presentation
 collections are omitted. Explicit source mappings support shared component libraries.
 This command writes the requested GLBs, updates their manifest records, and
-refreshes the index. Exports are replaced atomically. The original
+refreshes the index. The 16 animated buildings and two dense bridge tiles receive
+[export-only runtime detail/consolidation](docs/runtime-optimization/README.md);
+the seven already-small water selections retain their efficient layout. Editable
+sources stay detailed and byte-identical. Static mesh names/material indices are
+not consumer attachment APIs; placement roots and animation targets are retained.
+Exports are replaced atomically. The original
 `tools/asset_pack/export_pack.py` workflow also refreshes the index when it finishes;
 that older pack workflow can regenerate standalone component sources. Keep using
 the selected-source command for manual refinements. Exports from other tools are
@@ -302,8 +308,10 @@ additional dependency decisions are covered in the
 [historical first-round refinement ledger](docs/whisperwood/completion.json) and
 [second-round inventory](docs/quality-round-two/inventory.json). See the
 [current color-recovery record](docs/vivid-palette/README.md) for current inventory,
-export evidence and the limits of the palette-checkpoint presentation renders;
-[localized motion](docs/ambient-motion/README.md) owns final clip coverage and playback.
+landed export evidence and the limits of the palette-checkpoint presentation renders;
+[localized motion](docs/ambient-motion/README.md) owns clip coverage and playback.
+[Runtime optimization](docs/runtime-optimization/README.md) owns current optimized
+export evidence and consumer handoff.
 The eight original PNGs from `new_autobattler_assets.zip` are preserved in
 `sources/reference/autobattler/`; its manifest records archive and image checksums.
 
@@ -311,8 +319,8 @@ The eight original PNGs from `new_autobattler_assets.zip` are preserved in
 barracks, magic academy, stone cutter, tavern, trade market, and berserker.
 Each has an individual source, GLB export, and preview alongside the original set.
 The berserker uses the shared 19-bone skeleton and six starter animation clips,
-with a dual-axe attack. The building details and berserker modeling pass are ready
-for art review before optimization.
+with a dual-axe attack. The building details and berserker modeling pass remain available
+for art review; building runtime exports follow the optimization record linked above.
 
 `sources/evil_autobattler.blend` assembles initial models of four evil units:
 the skeleton melee fighter, horned mage, hooded crossbowman, and horned berserker.

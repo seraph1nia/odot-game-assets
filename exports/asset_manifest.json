@@ -24,9 +24,9 @@
   "assets": [
     {
       "file": "exports/buildings/tree_house.glb",
-      "bytes": 1963044,
-      "meshes": 154,
-      "triangles": 13273,
+      "bytes": 2368296,
+      "meshes": 21,
+      "triangles": 18077,
       "materials": 20,
       "animations": [
         "ambient"
@@ -44,13 +44,19 @@
         ]
       },
       "preview": "exports/previews/tree_house.png",
-      "modeling_stage": "upgraded_reference_pass"
+      "modeling_stage": "upgraded_reference_pass",
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 4,
+        "moss_instances": 106,
+        "moss_mesh_variants": 1
+      }
     },
     {
       "file": "exports/buildings/bakery.glb",
-      "bytes": 3471496,
-      "meshes": 363,
-      "triangles": 30343,
+      "bytes": 4238172,
+      "meshes": 26,
+      "triangles": 38627,
       "materials": 22,
       "animations": [
         "ambient"
@@ -68,13 +74,19 @@
         ]
       },
       "preview": "exports/previews/bakery.png",
-      "modeling_stage": "upgraded_reference_pass"
+      "modeling_stage": "upgraded_reference_pass",
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 4,
+        "moss_instances": 178,
+        "moss_mesh_variants": 2
+      }
     },
     {
       "file": "exports/buildings/gold_mine.glb",
-      "bytes": 1804216,
-      "meshes": 148,
-      "triangles": 13266,
+      "bytes": 2313808,
+      "meshes": 22,
+      "triangles": 19034,
       "materials": 19,
       "animations": [
         "ambient"
@@ -92,13 +104,19 @@
         ]
       },
       "preview": "exports/previews/gold_mine.png",
-      "modeling_stage": "upgraded_reference_pass"
+      "modeling_stage": "upgraded_reference_pass",
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 12,
+        "moss_instances": 134,
+        "moss_mesh_variants": 1
+      }
     },
     {
       "file": "exports/buildings/woodcutter_hut.glb",
-      "bytes": 3535952,
-      "meshes": 366,
-      "triangles": 28069,
+      "bytes": 4330596,
+      "meshes": 30,
+      "triangles": 37221,
       "materials": 25,
       "animations": [
         "ambient"
@@ -116,7 +134,13 @@
         ]
       },
       "preview": "exports/previews/woodcutter_hut.png",
-      "modeling_stage": "upgraded_reference_pass"
+      "modeling_stage": "upgraded_reference_pass",
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 0,
+        "moss_instances": 190,
+        "moss_mesh_variants": 2
+      }
     },
     {
       "file": "exports/environment/hex_meadow_building.glb",
@@ -130,10 +154,10 @@
     },
     {
       "file": "exports/buildings/arrow_tower.glb",
-      "bytes": 3544476,
-      "meshes": 250,
-      "triangles": 22237,
-      "materials": 44,
+      "bytes": 8355696,
+      "meshes": 32,
+      "triangles": 81285,
+      "materials": 30,
       "animations": [
         "ambient"
       ],
@@ -162,14 +186,20 @@
       },
       "shared_kits": [
         "sources/props/shared_village_kit.blend"
-      ]
+      ],
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 4,
+        "moss_instances": 1064,
+        "moss_mesh_variants": 3
+      }
     },
     {
       "file": "exports/buildings/barracks.glb",
-      "bytes": 4438192,
-      "meshes": 289,
-      "triangles": 26643,
-      "materials": 45,
+      "bytes": 12216796,
+      "meshes": 35,
+      "triangles": 121567,
+      "materials": 34,
       "animations": [
         "ambient"
       ],
@@ -198,14 +228,20 @@
       },
       "shared_kits": [
         "sources/props/shared_village_kit.blend"
-      ]
+      ],
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 2,
+        "moss_instances": 1573,
+        "moss_mesh_variants": 3
+      }
     },
     {
       "file": "exports/buildings/bombarding_tower.glb",
-      "bytes": 3707636,
-      "meshes": 210,
-      "triangles": 19445,
-      "materials": 37,
+      "bytes": 10055956,
+      "meshes": 30,
+      "triangles": 97737,
+      "materials": 26,
       "animations": [
         "ambient"
       ],
@@ -233,14 +269,20 @@
       },
       "shared_kits": [
         "sources/props/shared_village_kit.blend"
-      ]
+      ],
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 6,
+        "moss_instances": 1392,
+        "moss_mesh_variants": 3
+      }
     },
     {
       "file": "exports/buildings/magic_academy.glb",
-      "bytes": 5402740,
-      "meshes": 313,
-      "triangles": 28350,
-      "materials": 42,
+      "bytes": 16186332,
+      "meshes": 40,
+      "triangles": 160886,
+      "materials": 36,
       "animations": [
         "ambient"
       ],
@@ -267,14 +309,20 @@
       },
       "shared_kits": [
         "sources/props/shared_village_kit.blend"
-      ]
+      ],
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 12,
+        "moss_instances": 2183,
+        "moss_mesh_variants": 2
+      }
     },
     {
       "file": "exports/buildings/stone_cutter.glb",
-      "bytes": 3350668,
-      "meshes": 275,
-      "triangles": 23245,
-      "materials": 34,
+      "bytes": 7338200,
+      "meshes": 30,
+      "triangles": 70917,
+      "materials": 29,
       "animations": [
         "ambient"
       ],
@@ -300,14 +348,20 @@
       },
       "shared_kits": [
         "sources/props/shared_village_kit.blend"
-      ]
+      ],
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 1,
+        "moss_instances": 745,
+        "moss_mesh_variants": 3
+      }
     },
     {
       "file": "exports/buildings/tavern.glb",
-      "bytes": 3867640,
-      "meshes": 342,
-      "triangles": 29764,
-      "materials": 43,
+      "bytes": 7806452,
+      "meshes": 39,
+      "triangles": 76832,
+      "materials": 32,
       "animations": [
         "ambient"
       ],
@@ -335,14 +389,20 @@
       },
       "shared_kits": [
         "sources/props/shared_village_kit.blend"
-      ]
+      ],
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 0,
+        "moss_instances": 654,
+        "moss_mesh_variants": 3
+      }
     },
     {
       "file": "exports/buildings/trade_market.glb",
-      "bytes": 3467968,
-      "meshes": 289,
-      "triangles": 23814,
-      "materials": 39,
+      "bytes": 7308496,
+      "meshes": 35,
+      "triangles": 71222,
+      "materials": 30,
       "animations": [
         "ambient"
       ],
@@ -370,7 +430,13 @@
       },
       "shared_kits": [
         "sources/props/shared_village_kit.blend"
-      ]
+      ],
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 6,
+        "moss_instances": 638,
+        "moss_mesh_variants": 3
+      }
     },
     {
       "file": "exports/characters/knight.glb",
@@ -1022,9 +1088,9 @@
     },
     {
       "file": "exports/buildings/archery_range.glb",
-      "bytes": 7979912,
-      "triangles": 41996,
-      "materials": 46,
+      "bytes": 14875208,
+      "triangles": 122408,
+      "materials": 42,
       "animations": [
         "ambient"
       ],
@@ -1041,13 +1107,19 @@
       "shared_kits": [
         "sources/props/shared_village_kit.blend"
       ],
-      "meshes": 453
+      "meshes": 45,
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 51,
+        "moss_instances": 1335,
+        "moss_mesh_variants": 3
+      }
     },
     {
       "file": "exports/buildings/metal_mine.glb",
-      "bytes": 7102128,
-      "triangles": 37138,
-      "materials": 43,
+      "bytes": 10074036,
+      "triangles": 70702,
+      "materials": 42,
       "animations": [
         "ambient"
       ],
@@ -1062,13 +1134,19 @@
       "shared_kits": [
         "sources/props/shared_village_kit.blend"
       ],
-      "meshes": 387
+      "meshes": 43,
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 91,
+        "moss_instances": 673,
+        "moss_mesh_variants": 2
+      }
     },
     {
       "file": "exports/buildings/research_tower.glb",
-      "bytes": 7521640,
-      "triangles": 42766,
-      "materials": 44,
+      "bytes": 10853324,
+      "triangles": 80730,
+      "materials": 40,
       "animations": [
         "ambient"
       ],
@@ -1083,13 +1161,19 @@
       "shared_kits": [
         "sources/props/shared_village_kit.blend"
       ],
-      "meshes": 432
+      "meshes": 41,
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 86,
+        "moss_instances": 720,
+        "moss_mesh_variants": 2
+      }
     },
     {
       "file": "exports/buildings/town_hall.glb",
-      "bytes": 12036144,
-      "triangles": 90379,
-      "materials": 40,
+      "bytes": 20811552,
+      "triangles": 189303,
+      "materials": 39,
       "animations": [
         "ambient"
       ],
@@ -1104,13 +1188,19 @@
       "shared_kits": [
         "sources/props/shared_village_kit.blend"
       ],
-      "meshes": 899
+      "meshes": 52,
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 228,
+        "moss_instances": 1929,
+        "moss_mesh_variants": 3
+      }
     },
     {
       "file": "exports/buildings/weaver.glb",
-      "bytes": 7345348,
-      "triangles": 40278,
-      "materials": 44,
+      "bytes": 10724148,
+      "triangles": 78658,
+      "materials": 42,
       "animations": [
         "ambient"
       ],
@@ -1124,7 +1214,13 @@
       "shared_kits": [
         "sources/props/shared_village_kit.blend"
       ],
-      "meshes": 467
+      "meshes": 47,
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 53,
+        "moss_instances": 615,
+        "moss_mesh_variants": 4
+      }
     },
     {
       "file": "exports/environment/components/forest_boulder.glb",
@@ -1460,9 +1556,9 @@
     },
     {
       "file": "exports/environment/hex_lantern_bridge.glb",
-      "bytes": 11045528,
-      "triangles": 10078,
-      "materials": 52,
+      "bytes": 19848216,
+      "triangles": 117470,
+      "materials": 46,
       "animations": [
         "ambient"
       ],
@@ -1486,7 +1582,13 @@
       "shared_kits": [
         "sources/environment/shared_forest_kit.blend"
       ],
-      "meshes": 229
+      "meshes": 78,
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 0,
+        "moss_instances": 1447,
+        "moss_mesh_variants": 2
+      }
     },
     {
       "file": "exports/environment/hex_mystical_grove.glb",
@@ -1540,9 +1642,9 @@
     },
     {
       "file": "exports/environment/hex_woodland_bridge.glb",
-      "bytes": 9963684,
-      "triangles": 11050,
-      "materials": 60,
+      "bytes": 13563028,
+      "triangles": 56438,
+      "materials": 53,
       "animations": [
         "ambient"
       ],
@@ -1567,7 +1669,13 @@
       "shared_kits": [
         "sources/environment/shared_forest_kit.blend"
       ],
-      "meshes": 244
+      "meshes": 85,
+      "runtime_optimization": "stationary_material_batches_v1",
+      "runtime_detail": {
+        "tiny_bevels": 0,
+        "moss_instances": 345,
+        "moss_mesh_variants": 2
+      }
     },
     {
       "file": "exports/environment/components/forest_butterfly_cyan.glb",

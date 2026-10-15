@@ -7,6 +7,18 @@ from types import MappingProxyType
 STYLE_ID = 'soft_painted_fantasy_v1'
 PAINTED_VERSION = 'painted_softness_v1'
 
+
+@dataclass(frozen=True)
+class RuntimeStyle:
+    # At 192px over a ~5m building, 5mm is ~0.19px. Keep broad bevels and
+    # every authored object; only this subordinate second bevel segment changes.
+    tiny_bevel_width: float = .005
+    moss_triangle_ratio: float = .5
+    moss_max_world_diameter: float = .4
+
+
+RUNTIME = RuntimeStyle()
+
 # Explicit second-round focal building edits; no global palette/preview migration.
 QUALITY_ROUND_TWO = MappingProxyType({
     'porch_ochre': (.48, .29, .16),

@@ -1,0 +1,43 @@
+{
+  "asset": "environment/hex_river_overlay_turn_60",
+  "before_glb_sha256": "fe554f74f112b9588409ef7daf65a3e3ee65f71ff735307598c05b8c71a2f58e",
+  "after_glb_sha256": "fe554f74f112b9588409ef7daf65a3e3ee65f71ff735307598c05b8c71a2f58e",
+  "blender": "5.2.2 LTS",
+  "blender_build": "d13f752e3b9c",
+  "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+  "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+  "camera": {
+    "position": [
+      2.617185592651367,
+      -3.9892797470092773,
+      3.1010921001434326
+    ],
+    "rotation": [
+      1.1077649593353271,
+      -8.863381695256578e-10,
+      0.5880028009414673
+    ],
+    "ortho_scale": 4.064431190490723,
+    "resolution": [
+      480,
+      480
+    ],
+    "frame": 1,
+    "engine": "CYCLES",
+    "samples": 24,
+    "view_transform": "AgX",
+    "look": "None",
+    "exposure": 0.0,
+    "glow": false,
+    "lights": "Same three neutral SUN lights and world, untouched between imports",
+    "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+  },
+  "images": {
+    "docs/runtime-optimization/evidence/environment/hex_river_overlay_turn_60/before.png": "53ef3f271d52ba754db88d34274d0bddeb810b617ff1f202d487b15bbc41e94e",
+    "docs/runtime-optimization/evidence/environment/hex_river_overlay_turn_60/before-192.png": "cfedcdfb58b7159cbdd0e6992e3adfa913ed16435a570b38d2c8c089959791d6",
+    "docs/runtime-optimization/evidence/environment/hex_river_overlay_turn_60/before-96.png": "f7555904fa96d560a7e634aa04d1d09646632827e129000887dab8e664f10d5a",
+    "docs/runtime-optimization/evidence/environment/hex_river_overlay_turn_60/after.png": "74ff94a1800cf3c11b2ce3f2724946bfe7ccadc171ec44fc717c4ff37988aed3",
+    "docs/runtime-optimization/evidence/environment/hex_river_overlay_turn_60/after-192.png": "4a15b89bc6c37f0991483fb36757a47fb3f2e4d1144147a6b913809bbeeaf7d5",
+    "docs/runtime-optimization/evidence/environment/hex_river_overlay_turn_60/after-96.png": "a0fc8d3650efa5e04bc89a4b935a094097de5db8432a7ddde6d29b6753197a26"
+  }
+}

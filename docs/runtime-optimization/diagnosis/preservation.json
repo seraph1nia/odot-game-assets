@@ -1,0 +1,37 @@
+{
+  "scope": "Preserved task-local diagnostic inputs and failures; never shipped as production models. Actual current GLBs bind separate validation/metrics.",
+  "files": {
+    ".cache/runtime-optimization/diagnosis/magic_academy-optimized.glb": {
+      "sha256": "cb979a1471cdfcc16a07d6a3f8af13722b01a449776cffd05db10bd048e953ef",
+      "bytes": 16185056
+    },
+    ".cache/runtime-optimization/diagnosis/magic_academy-unmodified-export.glb": {
+      "sha256": "814775f901070c20012999374770863368e2270e130baf49f997edbe32befb74",
+      "bytes": 5402740
+    },
+    ".cache/runtime-optimization/diagnosis/magic_academy-runtime-profile-unbatched.glb": {
+      "sha256": "35fabe6ed79a996be2db6fe88dcedb6204fe486c71f19d393a5038e7301a2ce6",
+      "bytes": 5359348
+    },
+    ".cache/runtime-optimization/diagnosis/archery_range-unmodified-normal-counterfactual.glb": {
+      "sha256": "1913875bde77c9ea2313a8daa3f3a92af35bc7ecb65d9bd918974e01f36e95c3",
+      "bytes": 7979912
+    },
+    ".cache/runtime-optimization/diagnosis/magic_academy-unmodified-normal-counterfactual.glb": {
+      "sha256": "814775f901070c20012999374770863368e2270e130baf49f997edbe32befb74",
+      "bytes": 5402740
+    },
+    ".cache/runtime-optimization/diagnosis/failed-fidelity-pilot.log": {
+      "sha256": "afd809d5793b40fff731c9f0f2c49cc055af05b095d337cd45b8a3a8bdbd0801",
+      "bytes": 5872
+    },
+    ".cache/runtime-optimization/diagnosis/failed-preserved-corner-normals.log": {
+      "sha256": "8437cbb7fe246b76d537eabc31b1e330ec26eb4c44dede738e87fbb6a7405851",
+      "bytes": 4447
+    },
+    ".cache/runtime-optimization/diagnosis/archery-all-corner-failure.log": {
+      "sha256": "51529f193134480e608f7694ab8b6548fae23903a59b8c37faa614ff3ad4cfc5",
+      "bytes": 1883
+    }
+  }
+}

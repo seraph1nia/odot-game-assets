@@ -1,0 +1,43 @@
+{
+  "asset": "environment/hex_lantern_bridge",
+  "before_glb_sha256": "c8b19401f6e47abe587248a181890dfeb7bf7f9656f96f5fc16373d2efe2abb3",
+  "after_glb_sha256": "dfc46c307610d5f13ec1480754580337cf347f49b8b028ac92418365f68f824a",
+  "blender": "5.2.2 LTS",
+  "blender_build": "d13f752e3b9c",
+  "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+  "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+  "camera": {
+    "position": [
+      6.9882307052612305,
+      -10.482346534729004,
+      6.9356865882873535
+    ],
+    "rotation": [
+      1.1077649593353271,
+      -1.9397884187810632e-08,
+      0.5880026817321777
+    ],
+    "ortho_scale": 8.2725248336792,
+    "resolution": [
+      480,
+      480
+    ],
+    "frame": 1,
+    "engine": "CYCLES",
+    "samples": 24,
+    "view_transform": "AgX",
+    "look": "None",
+    "exposure": 0.0,
+    "glow": false,
+    "lights": "Same three neutral SUN lights and world, untouched between imports",
+    "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+  },
+  "images": {
+    "docs/runtime-optimization/evidence/environment/hex_lantern_bridge/before.png": "505d80dd7777bfa011afbbe6593afb6f06ebf7b53fd1f68f80951e39f43cc705",
+    "docs/runtime-optimization/evidence/environment/hex_lantern_bridge/before-192.png": "8c4f3d8a682392aea231b7f32723cd179d2602316bfed52e893e03b100017948",
+    "docs/runtime-optimization/evidence/environment/hex_lantern_bridge/before-96.png": "427f277fafc397393685bc39679056392bc14174769f0d653e0fc446251e8b34",
+    "docs/runtime-optimization/evidence/environment/hex_lantern_bridge/after.png": "f21e566ec621494bf3b8f3f0208b990b2b907735091c835429c4efedebdba753",
+    "docs/runtime-optimization/evidence/environment/hex_lantern_bridge/after-192.png": "925827a39ada8aaa8ef081b5b08bd09ef6785400afc7b0788b003b0ae604cf0b",
+    "docs/runtime-optimization/evidence/environment/hex_lantern_bridge/after-96.png": "b6ae9df5da03345a9193f4f945c05c29d88b3160db3e6a8da222570973466769"
+  }
+}

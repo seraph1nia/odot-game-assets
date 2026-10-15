@@ -13,7 +13,9 @@ from tools.asset_pack.worker import resolve_blender, run_blender
 EXPORT_CODE = ('tools/asset_catalog/export_blender.py',
                'tools/asset_catalog/blender_selection.py',
                'tools/asset_catalog/export_sources.py', 'tools/asset_catalog/index.py',
-               'tools/asset_catalog/metadata.py')
+               'tools/asset_catalog/metadata.py', 'tools/asset_catalog/runtime_glb.py',
+               'tools/asset_pack/runtime_detail.py', 'tools/asset_pack/ambient_contract.py',
+               'tools/asset_pack/art_style.py')
 VERIFY_CODE = ('tools/asset_pack/verify_pack.py', 'tools/asset_pack/export_pack.py',
                'tools/asset_pack/art_style.py',
                'tools/asset_pack/geometry.py', 'tools/asset_pack/catalog.py',

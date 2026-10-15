@@ -91,9 +91,14 @@ class ExportOwnershipTests(unittest.TestCase):
                 authored = {i for i, node in enumerate(nodes)
                             if node.get('extras', {}).get('whisperwood_quality_round_two') and 'mesh' in node}
                 self.assertLessEqual(authored, descendants)
-                if name == 'magic_academy':
+                if document['asset'].get('extras', {}).get('runtime_optimization'):
+                    # Export batching deliberately replaces source mesh names/tags.
+                    # Every actual runtime mesh, not only tagged focal additions,
+                    # must remain under the exact authored placement root.
+                    self.assertLessEqual({i for i,n in enumerate(nodes) if 'mesh' in n}, descendants)
+                elif name == 'magic_academy':
                     self.assertEqual(len(authored), 2)
-                    self.assertEqual(document['scenes'][document.get('scene', 0)]['nodes'], [root])
+                self.assertEqual(document['scenes'][document.get('scene', 0)]['nodes'], [root])
 
 
 if __name__ == '__main__':

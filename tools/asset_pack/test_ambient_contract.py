@@ -9,6 +9,7 @@ from pathlib import Path
 
 from tools.asset_pack import art_style as style
 from tools.asset_pack.encoded_images import png_proof
+from tools.asset_pack.runtime_contract import export_chain
 from tools.asset_pack.ambient_contract import ASSETS, BUILDINGS, WATER, expected_resource_delta, receipts, sha, source_chain
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -74,7 +75,7 @@ class AmbientContracts(unittest.TestCase):
                 for channel in feature['channels']:
                     self.assertEqual(channel['keys_per_channel'], 5)
         for aid, result in validation['assets'].items():
-            self.assertEqual(result['glb_sha256'], sha(ROOT / 'exports' / (aid + '.glb')))
+            export_chain(ROOT, aid, result['glb_sha256'])
             self.assertTrue(result['source_and_export_meshes_move'])
             self.assertTrue(result['source_and_export_endpoints_equal'])
             self.assertTrue(result['fixed_objects_world_matrices_equal_throughout'])
@@ -87,7 +88,8 @@ class AmbientContracts(unittest.TestCase):
             + json.dumps(asdict(style.AMBIENT), sort_keys=True)).encode()).hexdigest()
         self.assertEqual(set(renders), set(ASSETS))
         for aid, record in renders.items():
-            self.assertEqual(record['export_sha256'], sha(ROOT / 'exports' / (aid + '.glb')))
+            # These are retained landed-detail renders, not relabeled runtime views.
+            export_chain(ROOT, aid, record['export_sha256'])
             self.assertEqual(record['renderer_sha256'], renderer)
             self.assertEqual(len(record['files']), 8)
             for path, digest in record['files'].items():

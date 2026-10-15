@@ -1,0 +1,43 @@
+{
+  "asset": "buildings/town_hall",
+  "before_glb_sha256": "6b10ca5a42080e686e41717cef4283cf05c63299061d1728b441dbb5b435cf07",
+  "after_glb_sha256": "8d801728b4c863c51819a698775b1c0b187f6f0c467a4445216375f3a98b108f",
+  "blender": "5.2.2 LTS",
+  "blender_build": "d13f752e3b9c",
+  "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+  "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+  "camera": {
+    "position": [
+      7.788900852203369,
+      -12.052610397338867,
+      9.860098838806152
+    ],
+    "rotation": [
+      1.1077648401260376,
+      9.982223048154992e-09,
+      0.5880026817321777
+    ],
+    "ortho_scale": 9.254470825195312,
+    "resolution": [
+      480,
+      480
+    ],
+    "frame": 1,
+    "engine": "CYCLES",
+    "samples": 24,
+    "view_transform": "AgX",
+    "look": "None",
+    "exposure": 0.0,
+    "glow": false,
+    "lights": "Same three neutral SUN lights and world, untouched between imports",
+    "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+  },
+  "images": {
+    "docs/runtime-optimization/evidence/buildings/town_hall/before.png": "c8b05dd5b0183a16df56b6dfeeb34946493b46845f24f9ec7943823ff4338895",
+    "docs/runtime-optimization/evidence/buildings/town_hall/before-192.png": "ddbeca5220e31763726998af5bb9363808c6e8429a58217d3bb96f4a9e2974f0",
+    "docs/runtime-optimization/evidence/buildings/town_hall/before-96.png": "692c5cbadd843a9baa20c35c8443f8fd32646d45830bc918900bf1b603a4a5ff",
+    "docs/runtime-optimization/evidence/buildings/town_hall/after.png": "77ea16431ee457a9df40345eb965d8221c7bfe192396753730d593c49f9cb0d0",
+    "docs/runtime-optimization/evidence/buildings/town_hall/after-192.png": "c688f1aca190801129fca93be7204bd93bc974b6944b828c73961f93152c4676",
+    "docs/runtime-optimization/evidence/buildings/town_hall/after-96.png": "9a1a374c540146d3d0c76e363850ef68c04246f189d7e08fbceb1f1e5e28edca"
+  }
+}

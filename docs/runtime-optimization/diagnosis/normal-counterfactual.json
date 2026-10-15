@@ -1,0 +1,4537 @@
+{
+  "source_vs_baseline_buffers": {
+    "triangle_counts_equal": true,
+    "zero_counts_equal": true,
+    "materials": [
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.9774019122123718, 0.8275708556175232, 0.4919050335884094, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.7697296142578125e-05,
+        "p99": 5.313754081726074e-05,
+        "corners": 1572,
+        "worst": [
+          5.7697296142578125e-05,
+          0.0,
+          [
+            -0.9861947894096375,
+            -1.070216417312622,
+            0.9894266128540039
+          ],
+          [
+            -0.4187685549259186,
+            -0.8941574096679688,
+            -0.15847842395305634
+          ],
+          [
+            -0.418710857629776,
+            -0.8941903114318848,
+            -0.15844492614269257
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [0.04381414792357052, 0.008140173968519848, 0.10212530861514857], \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.27383843064308167, 0.05087608844041824, 0.6382831931114197, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.793571472167969e-05,
+        "p99": 5.793571472167969e-05,
+        "corners": 240,
+        "worst": [
+          5.793571472167969e-05,
+          0.0,
+          [
+            1.2526947259902954,
+            -1.02315354347229,
+            0.7765194773674011
+          ],
+          [
+            -0.5303066968917847,
+            0.374814510345459,
+            -0.7604529857635498
+          ],
+          [
+            -0.530248761177063,
+            0.37485599517822266,
+            -0.7604730725288391
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.295699805021286, 0.07323895394802094, 0.5704815983772278, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 3.981590270996094e-05,
+        "p99": 3.981590270996094e-05,
+        "corners": 30,
+        "worst": [
+          3.981590270996094e-05,
+          2.9802322387695312e-08,
+          [
+            0.4204782545566559,
+            0.7586749792098999,
+            6.080322265625
+          ],
+          [
+            -0.6937657594680786,
+            0.40707385540008545,
+            -0.5941212177276611
+          ],
+          [
+            -0.6937259435653687,
+            0.4071125090122223,
+            -0.5941411852836609
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [0.7105664610862732, 0.0300741046667099, 1], \"extensions\": {\"KHR_materials_emissive_strength\": {\"emissiveStrength\": 1.4500000476837158}}, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.7105664610862732, 0.0300741046667099, 1, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 3.9696693420410156e-05,
+        "p99": 3.9696693420410156e-05,
+        "corners": 6,
+        "worst": [
+          3.9696693420410156e-05,
+          1.1920928955078125e-07,
+          [
+            0.7387822866439819,
+            0.7586749792098999,
+            5.708632469177246
+          ],
+          [
+            0.6937656402587891,
+            -0.4070740044116974,
+            -0.5941211581230164
+          ],
+          [
+            0.6937259435653687,
+            -0.4071125090122223,
+            -0.5941411852836609
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.3931231200695038, 0.38005632162094116, 0.3069993257522583, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.318969488143921e-05,
+        "p99": 5.318969488143921e-05,
+        "corners": 252,
+        "worst": [
+          5.318969488143921e-05,
+          0.0,
+          [
+            -0.0315643809735775,
+            -1.9224129915237427,
+            0.009151511825621128
+          ],
+          [
+            -0.11675384640693665,
+            -0.12940888106822968,
+            -0.9846937656402588
+          ],
+          [
+            -0.1167006567120552,
+            -0.12936913967132568,
+            -0.98470538854599
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.36724647879600525, 0.12259718775749207, 0.0300741046667099, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.996227264404297e-05,
+        "p99": 5.4270029067993164e-05,
+        "corners": 10335,
+        "worst": [
+          5.996227264404297e-05,
+          0.0,
+          [
+            0.12974445521831512,
+            -0.8526076078414917,
+            3.403407573699951
+          ],
+          [
+            -0.3536776900291443,
+            -0.346613347530365,
+            -0.8687757849693298
+          ],
+          [
+            -0.35361772775650024,
+            -0.346652090549469,
+            -0.8687847256660461
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [1, 0.36724647879600525, 0.006571403704583645], \"extensions\": {\"KHR_materials_emissive_strength\": {\"emissiveStrength\": 1.2300000190734863}}, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [1, 0.36724647879600525, 0.006571403704583645, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 4.693865776062012e-05,
+        "p99": 4.693865776062012e-05,
+        "corners": 319,
+        "worst": [
+          4.693865776062012e-05,
+          0.0,
+          [
+            -0.1867944896221161,
+            -1.0950000286102295,
+            1.5249028205871582
+          ],
+          [
+            0.4305967092514038,
+            0.34455186128616333,
+            -0.8341885805130005
+          ],
+          [
+            0.43058884143829346,
+            0.34459879994392395,
+            -0.8341732621192932
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.7874122858047485, 0.6920710802078247, 0.47699978947639465, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.398558616638184e-05,
+        "p99": 4.531652666628361e-05,
+        "corners": 38864,
+        "worst": [
+          6.398558616638184e-05,
+          0.0,
+          [
+            -0.24926336109638214,
+            -1.1380000114440918,
+            2.0213375091552734
+          ],
+          [
+            -0.3434467613697052,
+            -0.36959075927734375,
+            0.86339271068573
+          ],
+          [
+            -0.3435107469558716,
+            -0.3695693016052246,
+            0.8633763790130615
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.4919050335884094, 0.1873166710138321, 0.05290079116821289, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.0170888900756836e-05,
+        "p99": 5.879998207092285e-05,
+        "corners": 6216,
+        "worst": [
+          6.0170888900756836e-05,
+          0.0,
+          [
+            0.11270000785589218,
+            1.0850000381469727,
+            3.4389500617980957
+          ],
+          [
+            -0.353677898645401,
+            0.34661248326301575,
+            0.8687760233879089
+          ],
+          [
+            -0.35361772775650024,
+            0.346652090549469,
+            0.8687847256660461
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.00854038167744875, 0.03310476616024971, 0.19599418342113495, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 3.3468008041381836e-05,
+        "p99": 3.285706043243408e-05,
+        "corners": 1296,
+        "worst": [
+          3.3468008041381836e-05,
+          1.1920928955078125e-07,
+          [
+            -1.3387342691421509,
+            -1.2700222730636597,
+            0.10272448509931564
+          ],
+          [
+            0.3932480812072754,
+            0.3024469017982483,
+            -0.8682636618614197
+          ],
+          [
+            0.3932815492153168,
+            0.30247095227241516,
+            -0.8682401776313782
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.15487249195575714, 0.04889732599258423, 0.012510408647358418, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 2.944469451904297e-05,
+        "p99": 2.944469451904297e-05,
+        "corners": 414,
+        "worst": [
+          2.944469451904297e-05,
+          8.429369557916289e-08,
+          [
+            0.30694371461868286,
+            -0.531792163848877,
+            3.549903631210327
+          ],
+          [
+            0.35368362069129944,
+            0.3466137945652008,
+            -0.8687731027603149
+          ],
+          [
+            0.3537130653858185,
+            0.34663864970207214,
+            -0.8687512278556824
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.01960664801299572, 0.09462962299585342, 0.5225215554237366, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.9485435485839844e-05,
+        "p99": 5.3316354751586914e-05,
+        "corners": 1338,
+        "worst": [
+          5.9485435485839844e-05,
+          0.0,
+          [
+            1.0485999584197998,
+            -0.8629288673400879,
+            0.5036574602127075
+          ],
+          [
+            -0.35368064045906067,
+            -0.3466043770313263,
+            -0.8687780499458313
+          ],
+          [
+            -0.35372602939605713,
+            -0.34654489159584045,
+            -0.8687833547592163
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.01960664801299572, 0.09462962299585342, 0.2529500722885132, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.800000011920929}}",
+        "max_normal_error": 4.7326087951660156e-05,
+        "p99": 4.023313522338867e-05,
+        "corners": 4788,
+        "worst": [
+          4.7326087951660156e-05,
+          1.2287812012345967e-07,
+          [
+            0.8945563435554504,
+            -0.29631102085113525,
+            3.946225881576538
+          ],
+          [
+            -0.19401492178440094,
+            0.22430069744586945,
+            -0.955011785030365
+          ],
+          [
+            -0.19402945041656494,
+            0.22425337135791779,
+            -0.9550198912620544
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.043233636766672134, 0.15487249195575714, 0.36724647879600525, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.800000011920929}}",
+        "max_normal_error": 4.67151403427124e-05,
+        "p99": 4.0590763092041016e-05,
+        "corners": 1956,
+        "worst": [
+          4.67151403427124e-05,
+          1.4057727071303816e-07,
+          [
+            0.9354845285415649,
+            -0.1504991203546524,
+            3.938416004180908
+          ],
+          [
+            -0.19401557743549347,
+            -0.22430001199245453,
+            -0.955011785030365
+          ],
+          [
+            -0.1940295249223709,
+            -0.22425329685211182,
+            -0.9550198912620544
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.05290079116821289, 0.018478473648428917, 0.007850573398172855, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.942583084106445e-05,
+        "p99": 5.176663398742676e-05,
+        "corners": 4979,
+        "worst": [
+          5.942583084106445e-05,
+          0.0,
+          [
+            1.0534998178482056,
+            -1.017677664756775,
+            2.4499692916870117
+          ],
+          [
+            -0.3536875247955322,
+            0.3466043174266815,
+            -0.8687752485275269
+          ],
+          [
+            -0.35372602939605713,
+            0.34654489159584045,
+            -0.8687833547592163
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.13286831974983215, 0.027211781591176987, 0.34239163994789124, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 4.583783447742462e-05,
+        "p99": 4.583783447742462e-05,
+        "corners": 42,
+        "worst": [
+          4.583783447742462e-05,
+          0.0,
+          [
+            2.0620381832122803,
+            -0.25498807430267334,
+            2.1997811794281006
+          ],
+          [
+            -0.019944578409194946,
+            -0.9997388124465942,
+            0.011166858486831188
+          ],
+          [
+            -0.01989874057471752,
+            -0.9997393488883972,
+            0.011193099431693554
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.6209158897399902, 0.5382355451583862, 0.34239163994789124, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.638599395751953e-05,
+        "p99": 4.9851834774017334e-05,
+        "corners": 7728,
+        "worst": [
+          5.638599395751953e-05,
+          0.0,
+          [
+            -0.5122759938240051,
+            -0.7937286496162415,
+            1.772635817527771
+          ],
+          [
+            0.33375445008277893,
+            0.8936185240745544,
+            0.30009010434150696
+          ],
+          [
+            0.3336980640888214,
+            0.8936312794685364,
+            0.3001144826412201
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.911407470703125, 0.38005632162094116, 0.01960664801299572, 1], \"metallicFactor\": 0.10000000149011612, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.145238876342773e-05,
+        "p99": 5.367398262023926e-05,
+        "corners": 3986,
+        "worst": [
+          6.145238876342773e-05,
+          0.0,
+          [
+            0.0024118542205542326,
+            -0.9300000071525574,
+            0.8223320841789246
+          ],
+          [
+            0.26369738578796387,
+            -0.31035083532333374,
+            0.9133159518241882
+          ],
+          [
+            0.26363593339920044,
+            -0.3103581368923187,
+            0.913331151008606
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.010816383175551891, 0.006571403704583645, 0.005981059744954109, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.0,
+        "p99": 0.0,
+        "corners": 13,
+        "worst": [
+          0.0,
+          0.0,
+          [
+            -0.40105152130126953,
+            -0.6800000071525574,
+            1.771813154220581
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.04696420207619667, 0.011645430698990822, 0.1259673833847046, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.4901161193847656e-05,
+        "p99": 1.4901161193847656e-05,
+        "corners": 216,
+        "worst": [
+          1.4901161193847656e-05,
+          0.0,
+          [
+            1.646399974822998,
+            -0.30000001192092896,
+            2.7043991088867188
+          ],
+          [
+            -0.28561362624168396,
+            0.0,
+            0.9583448767662048
+          ],
+          [
+            -0.2855987250804901,
+            0.0,
+            0.9583492279052734
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [1, 1, 1], \"emissiveTexture\": {\"index\": 8}, \"extensions\": {\"KHR_materials_emissive_strength\": {\"emissiveStrength\": 1.2300000190734863}}, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"window\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 9}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 10}}}",
+        "max_normal_error": 5.1856040954589844e-05,
+        "p99": 5.1856040954589844e-05,
+        "corners": 648,
+        "worst": [
+          5.1856040954589844e-05,
+          0.0,
+          [
+            0.6165569424629211,
+            0.3887397050857544,
+            3.6675665378570557
+          ],
+          [
+            0.3337651193141937,
+            0.8936204314231873,
+            0.30007204413414
+          ],
+          [
+            0.3337986171245575,
+            0.8936254382133484,
+            0.3000201880931854
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"wood\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 11}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 12}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 13}}}",
+        "max_normal_error": 6.505846977233887e-05,
+        "p99": 6.213784217834473e-05,
+        "corners": 4100,
+        "worst": [
+          6.505846977233887e-05,
+          0.0,
+          [
+            -0.7282183170318604,
+            0.3630516231060028,
+            3.642313003540039
+          ],
+          [
+            -0.3537862300872803,
+            0.34660086035728455,
+            0.8687365055084229
+          ],
+          [
+            -0.3538512885570526,
+            0.3465610444545746,
+            0.8687260150909424
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.03310476616024971, 0.043233636766672134, 0.05497173219919205, 1], \"metallicFactor\": 0.44999998807907104, \"roughnessFactor\": 0.7599999904632568}}",
+        "max_normal_error": 1.2814998626708984e-05,
+        "p99": 1.2814998626708984e-05,
+        "corners": 36,
+        "worst": [
+          1.2814998626708984e-05,
+          0.0,
+          [
+            -0.8271200060844421,
+            -1.0800000429153442,
+            2.1582000255584717
+          ],
+          [
+            -0.8703453540802002,
+            -0.4924418330192566,
+            0.0
+          ],
+          [
+            -0.8703380823135376,
+            -0.4924546480178833,
+            0.0
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.2846466898918152, 0.47699978947639465, 0.027211781591176987, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.175041198730469e-05,
+        "p99": 5.799531936645508e-05,
+        "corners": 1452,
+        "worst": [
+          6.175041198730469e-05,
+          1.1920928955078125e-07,
+          [
+            1.3446743488311768,
+            0.648277997970581,
+            0.4173942804336548
+          ],
+          [
+            -0.3878048062324524,
+            -0.7340050339698792,
+            0.5575340390205383
+          ],
+          [
+            -0.3877430558204651,
+            -0.7340215444564819,
+            0.5575550198554993
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.06372379511594772, 0.16264718770980835, 0.010816383175551891, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.638599395751953e-05,
+        "p99": 5.404651165008545e-05,
+        "corners": 1272,
+        "worst": [
+          5.638599395751953e-05,
+          5.963374150042e-08,
+          [
+            -0.8215085864067078,
+            -1.979137659072876,
+            -0.01666858419775963
+          ],
+          [
+            -0.3325403928756714,
+            0.40332451462745667,
+            -0.8524940609931946
+          ],
+          [
+            -0.3325967788696289,
+            0.4033074378967285,
+            -0.8524802327156067
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.13286831974983215, 0.31854677200317383, 0.017389101907610893, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.109476089477539e-05,
+        "p99": 6.097555160522461e-05,
+        "corners": 1116,
+        "worst": [
+          6.109476089477539e-05,
+          1.1920928955078125e-07,
+          [
+            1.8056443929672241,
+            1.0283514261245728,
+            0.3940918743610382
+          ],
+          [
+            0.35777801275253296,
+            0.7367417812347412,
+            0.573765218257904
+          ],
+          [
+            0.3578098714351654,
+            0.7367737293243408,
+            0.5737041234970093
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.13286831974983215, 0.17064493894577026, 0.21404114365577698, 1], \"metallicFactor\": 0.3499999940395355, \"roughnessFactor\": 0.41999998688697815}}",
+        "max_normal_error": 2.7507543563842773e-05,
+        "p99": 2.7507543563842773e-05,
+        "corners": 528,
+        "worst": [
+          2.7507543563842773e-05,
+          0.0,
+          [
+            0.9503791332244873,
+            -1.0260000228881836,
+            2.3050172328948975
+          ],
+          [
+            -0.9598800539970398,
+            0.0,
+            0.280411034822464
+          ],
+          [
+            -0.9598881006240845,
+            0.0,
+            0.28038352727890015
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.011645430698990822, 0.059253521263599396, 0.15487249195575714, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.800000011920929}}",
+        "max_normal_error": 4.7326087951660156e-05,
+        "p99": 4.023313522338867e-05,
+        "corners": 3312,
+        "worst": [
+          4.7326087951660156e-05,
+          2.980232238769531e-07,
+          [
+            0.8945563435554504,
+            -0.5088109970092773,
+            3.726182222366333
+          ],
+          [
+            -0.19401492178440094,
+            0.22430069744586945,
+            -0.955011785030365
+          ],
+          [
+            -0.19402945041656494,
+            0.22425337135791779,
+            -0.9550198912620544
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"wood\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 14}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 15}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 16}}}",
+        "max_normal_error": 6.097555160522461e-05,
+        "p99": 5.663931369781494e-05,
+        "corners": 1708,
+        "worst": [
+          6.097555160522461e-05,
+          0.0,
+          [
+            0.94862300157547,
+            -1.0328043699264526,
+            0.9055151343345642
+          ],
+          [
+            0.6702935695648193,
+            -0.4156129062175751,
+            0.6147946715354919
+          ],
+          [
+            0.6703299283981323,
+            -0.41564440727233887,
+            0.6147336959838867
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 0}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 1}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 2}}}",
+        "max_normal_error": 0.00011882558465003967,
+        "p99": 0.0001073889434337616,
+        "corners": 25680,
+        "worst": [
+          0.00011882558465003967,
+          2.384185791015625e-07,
+          [
+            1.2962793111801147,
+            0.9392087459564209,
+            2.0646634101867676
+          ],
+          [
+            -0.05353999510407448,
+            0.19494198262691498,
+            -0.9793524146080017
+          ],
+          [
+            -0.05342116951942444,
+            0.19495518505573273,
+            -0.9793562293052673
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 3}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 4}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 5}}}",
+        "max_normal_error": 0.0001411736011505127,
+        "p99": 0.00012409687042236328,
+        "corners": 25680,
+        "worst": [
+          0.0001411736011505127,
+          3.3717478231665154e-07,
+          [
+            1.2962793111801147,
+            0.9392087459564209,
+            1.3779633045196533
+          ],
+          [
+            -0.33793801069259644,
+            -0.10065504908561707,
+            -0.9357705116271973
+          ],
+          [
+            -0.3377968370914459,
+            -0.10064840316772461,
+            -0.9358221888542175
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 17}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 18}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 19}}}",
+        "max_normal_error": 4.67151403427124e-05,
+        "p99": 4.4912099838256836e-05,
+        "corners": 2190,
+        "worst": [
+          4.67151403427124e-05,
+          2.3888378564151935e-07,
+          [
+            -0.21062202751636505,
+            0.2938694357872009,
+            3.4199249744415283
+          ],
+          [
+            0.5042734742164612,
+            -0.11322275549173355,
+            -0.8560893535614014
+          ],
+          [
+            0.5042802095413208,
+            -0.11317604035139084,
+            -0.8560915589332581
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 20}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 21}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 22}}}",
+        "max_normal_error": 6.595253944396973e-05,
+        "p99": 6.571412086486816e-05,
+        "corners": 2190,
+        "worst": [
+          6.595253944396973e-05,
+          1.1920928955078125e-07,
+          [
+            -0.7699085474014282,
+            -0.8586587905883789,
+            0.1352209448814392
+          ],
+          [
+            -0.2690887153148651,
+            0.08142165094614029,
+            -0.9596676230430603
+          ],
+          [
+            -0.2691546678543091,
+            0.08142200857400894,
+            -0.9596489667892456
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"moss\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 6}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 7}}}",
+        "max_normal_error": 0.0001376122236251831,
+        "p99": 0.00010183453559875488,
+        "corners": 506880,
+        "worst": [
+          0.0001376122236251831,
+          3.3717478231665154e-07,
+          [
+            1.2654781341552734,
+            0.463030070066452,
+            1.4425013065338135
+          ],
+          [
+            0.1430533230304718,
+            -0.014533556066453457,
+            0.9896082878112793
+          ],
+          [
+            0.14319093525409698,
+            -0.014533346518874168,
+            0.9895883798599243
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"moss\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 23}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 24}}}",
+        "max_normal_error": 7.377564907073975e-05,
+        "p99": 6.23166561126709e-05,
+        "corners": 37200,
+        "worst": [
+          7.377564907073975e-05,
+          2.4575624024691933e-07,
+          [
+            -0.5149495005607605,
+            0.7422001957893372,
+            3.207930326461792
+          ],
+          [
+            -0.05503522977232933,
+            0.0735054463148117,
+            -0.9957751631736755
+          ],
+          [
+            -0.05496145412325859,
+            0.07350938767194748,
+            -0.9957789182662964
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.04405977576971054, 0.029528655111789703, 0.021669797599315643, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.474184614380647e-07,
+        "p99": 1.474184614380647e-07,
+        "corners": 96,
+        "worst": [
+          1.474184614380647e-07,
+          1.1920928955078125e-07,
+          [
+            -0.6766899824142456,
+            -1.218150019645691,
+            1.9665236473083496
+          ],
+          [
+            1.474184614380647e-07,
+            0.0,
+            -1.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        ]
+      }
+    ],
+    "max_normal_error": 0.0001411736011505127
+  },
+  "profile_source_vs_raw_buffers": {
+    "triangle_counts_equal": true,
+    "zero_counts_equal": true,
+    "materials": [
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.9774019122123718, 0.8275708556175232, 0.4919050335884094, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.7697296142578125e-05,
+        "p99": 5.313754081726074e-05,
+        "corners": 1572,
+        "worst": [
+          5.7697296142578125e-05,
+          0.0,
+          [
+            -0.9861947894096375,
+            -1.070216417312622,
+            0.9894266128540039
+          ],
+          [
+            -0.4187685549259186,
+            -0.8941574096679688,
+            -0.15847842395305634
+          ],
+          [
+            -0.418710857629776,
+            -0.8941903114318848,
+            -0.15844492614269257
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [0.04381414792357052, 0.008140173968519848, 0.10212530861514857], \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.27383843064308167, 0.05087608844041824, 0.6382831931114197, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.793571472167969e-05,
+        "p99": 5.793571472167969e-05,
+        "corners": 240,
+        "worst": [
+          5.793571472167969e-05,
+          0.0,
+          [
+            1.2526947259902954,
+            -1.02315354347229,
+            0.7765194773674011
+          ],
+          [
+            -0.5303066968917847,
+            0.374814510345459,
+            -0.7604529857635498
+          ],
+          [
+            -0.530248761177063,
+            0.37485599517822266,
+            -0.7604730725288391
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.295699805021286, 0.07323895394802094, 0.5704815983772278, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 3.981590270996094e-05,
+        "p99": 3.981590270996094e-05,
+        "corners": 30,
+        "worst": [
+          3.981590270996094e-05,
+          2.9802322387695312e-08,
+          [
+            0.4204782545566559,
+            0.7586749792098999,
+            6.080322265625
+          ],
+          [
+            -0.6937657594680786,
+            0.40707385540008545,
+            -0.5941212177276611
+          ],
+          [
+            -0.6937259435653687,
+            0.4071125090122223,
+            -0.5941411852836609
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [0.7105664610862732, 0.0300741046667099, 1], \"extensions\": {\"KHR_materials_emissive_strength\": {\"emissiveStrength\": 1.4500000476837158}}, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.7105664610862732, 0.0300741046667099, 1, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 3.9696693420410156e-05,
+        "p99": 3.9696693420410156e-05,
+        "corners": 6,
+        "worst": [
+          3.9696693420410156e-05,
+          1.1920928955078125e-07,
+          [
+            0.7387822866439819,
+            0.7586749792098999,
+            5.708632469177246
+          ],
+          [
+            0.6937656402587891,
+            -0.4070740044116974,
+            -0.5941211581230164
+          ],
+          [
+            0.6937259435653687,
+            -0.4071125090122223,
+            -0.5941411852836609
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.3931231200695038, 0.38005632162094116, 0.3069993257522583, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.318969488143921e-05,
+        "p99": 5.318969488143921e-05,
+        "corners": 252,
+        "worst": [
+          5.318969488143921e-05,
+          0.0,
+          [
+            -0.0315643809735775,
+            -1.9224129915237427,
+            0.009151511825621128
+          ],
+          [
+            -0.11675384640693665,
+            -0.12940888106822968,
+            -0.9846937656402588
+          ],
+          [
+            -0.1167006567120552,
+            -0.12936913967132568,
+            -0.98470538854599
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.36724647879600525, 0.12259718775749207, 0.0300741046667099, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.996227264404297e-05,
+        "p99": 5.4270029067993164e-05,
+        "corners": 10335,
+        "worst": [
+          5.996227264404297e-05,
+          0.0,
+          [
+            0.12974445521831512,
+            -0.8526076078414917,
+            3.403407573699951
+          ],
+          [
+            -0.3536776900291443,
+            -0.346613347530365,
+            -0.8687757849693298
+          ],
+          [
+            -0.35361772775650024,
+            -0.346652090549469,
+            -0.8687847256660461
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [1, 0.36724647879600525, 0.006571403704583645], \"extensions\": {\"KHR_materials_emissive_strength\": {\"emissiveStrength\": 1.2300000190734863}}, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [1, 0.36724647879600525, 0.006571403704583645, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 4.693865776062012e-05,
+        "p99": 4.693865776062012e-05,
+        "corners": 319,
+        "worst": [
+          4.693865776062012e-05,
+          0.0,
+          [
+            -0.1867944896221161,
+            -1.0950000286102295,
+            1.5249028205871582
+          ],
+          [
+            0.4305967092514038,
+            0.34455186128616333,
+            -0.8341885805130005
+          ],
+          [
+            0.43058884143829346,
+            0.34459879994392395,
+            -0.8341732621192932
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.7874122858047485, 0.6920710802078247, 0.47699978947639465, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.398558616638184e-05,
+        "p99": 4.531652666628361e-05,
+        "corners": 38864,
+        "worst": [
+          6.398558616638184e-05,
+          0.0,
+          [
+            -0.24926336109638214,
+            -1.1380000114440918,
+            2.0213375091552734
+          ],
+          [
+            -0.3434467613697052,
+            -0.36959075927734375,
+            0.86339271068573
+          ],
+          [
+            -0.3435107469558716,
+            -0.3695693016052246,
+            0.8633763790130615
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.4919050335884094, 0.1873166710138321, 0.05290079116821289, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.0170888900756836e-05,
+        "p99": 5.879998207092285e-05,
+        "corners": 6216,
+        "worst": [
+          6.0170888900756836e-05,
+          0.0,
+          [
+            0.11270000785589218,
+            1.0850000381469727,
+            3.4389500617980957
+          ],
+          [
+            -0.353677898645401,
+            0.34661248326301575,
+            0.8687760233879089
+          ],
+          [
+            -0.35361772775650024,
+            0.346652090549469,
+            0.8687847256660461
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.00854038167744875, 0.03310476616024971, 0.19599418342113495, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 3.3468008041381836e-05,
+        "p99": 3.285706043243408e-05,
+        "corners": 1296,
+        "worst": [
+          3.3468008041381836e-05,
+          1.1920928955078125e-07,
+          [
+            -1.3387342691421509,
+            -1.2700222730636597,
+            0.10272448509931564
+          ],
+          [
+            0.3932480812072754,
+            0.3024469017982483,
+            -0.8682636618614197
+          ],
+          [
+            0.3932815492153168,
+            0.30247095227241516,
+            -0.8682401776313782
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.15487249195575714, 0.04889732599258423, 0.012510408647358418, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 2.944469451904297e-05,
+        "p99": 2.944469451904297e-05,
+        "corners": 414,
+        "worst": [
+          2.944469451904297e-05,
+          8.429369557916289e-08,
+          [
+            0.30694371461868286,
+            -0.531792163848877,
+            3.549903631210327
+          ],
+          [
+            0.35368362069129944,
+            0.3466137945652008,
+            -0.8687731027603149
+          ],
+          [
+            0.3537130653858185,
+            0.34663864970207214,
+            -0.8687512278556824
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.01960664801299572, 0.09462962299585342, 0.5225215554237366, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.9485435485839844e-05,
+        "p99": 5.3316354751586914e-05,
+        "corners": 1338,
+        "worst": [
+          5.9485435485839844e-05,
+          0.0,
+          [
+            1.0485999584197998,
+            -0.8629288673400879,
+            0.5036574602127075
+          ],
+          [
+            -0.35368064045906067,
+            -0.3466043770313263,
+            -0.8687780499458313
+          ],
+          [
+            -0.35372602939605713,
+            -0.34654489159584045,
+            -0.8687833547592163
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.01960664801299572, 0.09462962299585342, 0.2529500722885132, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.800000011920929}}",
+        "max_normal_error": 4.7326087951660156e-05,
+        "p99": 4.023313522338867e-05,
+        "corners": 4788,
+        "worst": [
+          4.7326087951660156e-05,
+          1.2287812012345967e-07,
+          [
+            0.8945563435554504,
+            -0.29631102085113525,
+            3.946225881576538
+          ],
+          [
+            -0.19401492178440094,
+            0.22430069744586945,
+            -0.955011785030365
+          ],
+          [
+            -0.19402945041656494,
+            0.22425337135791779,
+            -0.9550198912620544
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.043233636766672134, 0.15487249195575714, 0.36724647879600525, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.800000011920929}}",
+        "max_normal_error": 4.67151403427124e-05,
+        "p99": 4.0590763092041016e-05,
+        "corners": 1956,
+        "worst": [
+          4.67151403427124e-05,
+          1.4057727071303816e-07,
+          [
+            0.9354845285415649,
+            -0.1504991203546524,
+            3.938416004180908
+          ],
+          [
+            -0.19401557743549347,
+            -0.22430001199245453,
+            -0.955011785030365
+          ],
+          [
+            -0.1940295249223709,
+            -0.22425329685211182,
+            -0.9550198912620544
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.05290079116821289, 0.018478473648428917, 0.007850573398172855, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.942583084106445e-05,
+        "p99": 5.176663398742676e-05,
+        "corners": 4979,
+        "worst": [
+          5.942583084106445e-05,
+          0.0,
+          [
+            1.0534998178482056,
+            -1.017677664756775,
+            2.4499692916870117
+          ],
+          [
+            -0.3536875247955322,
+            0.3466043174266815,
+            -0.8687752485275269
+          ],
+          [
+            -0.35372602939605713,
+            0.34654489159584045,
+            -0.8687833547592163
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.13286831974983215, 0.027211781591176987, 0.34239163994789124, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 4.583783447742462e-05,
+        "p99": 4.583783447742462e-05,
+        "corners": 42,
+        "worst": [
+          4.583783447742462e-05,
+          0.0,
+          [
+            2.0620381832122803,
+            -0.25498807430267334,
+            2.1997811794281006
+          ],
+          [
+            -0.019944578409194946,
+            -0.9997388124465942,
+            0.011166858486831188
+          ],
+          [
+            -0.01989874057471752,
+            -0.9997393488883972,
+            0.011193099431693554
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.6209158897399902, 0.5382355451583862, 0.34239163994789124, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.638599395751953e-05,
+        "p99": 4.9851834774017334e-05,
+        "corners": 7728,
+        "worst": [
+          5.638599395751953e-05,
+          0.0,
+          [
+            -0.5122759938240051,
+            -0.7937286496162415,
+            1.772635817527771
+          ],
+          [
+            0.33375445008277893,
+            0.8936185240745544,
+            0.30009010434150696
+          ],
+          [
+            0.3336980640888214,
+            0.8936312794685364,
+            0.3001144826412201
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.911407470703125, 0.38005632162094116, 0.01960664801299572, 1], \"metallicFactor\": 0.10000000149011612, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.145238876342773e-05,
+        "p99": 5.067884922027588e-05,
+        "corners": 3506,
+        "worst": [
+          6.145238876342773e-05,
+          0.0,
+          [
+            0.0024118542205542326,
+            -0.9300000071525574,
+            0.8223320841789246
+          ],
+          [
+            0.26369738578796387,
+            -0.31035083532333374,
+            0.9133159518241882
+          ],
+          [
+            0.26363593339920044,
+            -0.3103581368923187,
+            0.913331151008606
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.010816383175551891, 0.006571403704583645, 0.005981059744954109, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.0,
+        "p99": 0.0,
+        "corners": 13,
+        "worst": [
+          0.0,
+          0.0,
+          [
+            -0.40105152130126953,
+            -0.6800000071525574,
+            1.771813154220581
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.04696420207619667, 0.011645430698990822, 0.1259673833847046, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.4901161193847656e-05,
+        "p99": 1.4901161193847656e-05,
+        "corners": 216,
+        "worst": [
+          1.4901161193847656e-05,
+          0.0,
+          [
+            1.646399974822998,
+            -0.30000001192092896,
+            2.7043991088867188
+          ],
+          [
+            -0.28561362624168396,
+            0.0,
+            0.9583448767662048
+          ],
+          [
+            -0.2855987250804901,
+            0.0,
+            0.9583492279052734
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [1, 1, 1], \"emissiveTexture\": {\"index\": 8}, \"extensions\": {\"KHR_materials_emissive_strength\": {\"emissiveStrength\": 1.2300000190734863}}, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"window\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 9}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 10}}}",
+        "max_normal_error": 5.1856040954589844e-05,
+        "p99": 5.1856040954589844e-05,
+        "corners": 648,
+        "worst": [
+          5.1856040954589844e-05,
+          0.0,
+          [
+            0.6165569424629211,
+            0.3887397050857544,
+            3.6675665378570557
+          ],
+          [
+            0.3337651193141937,
+            0.8936204314231873,
+            0.30007204413414
+          ],
+          [
+            0.3337986171245575,
+            0.8936254382133484,
+            0.3000201880931854
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"wood\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 11}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 12}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 13}}}",
+        "max_normal_error": 5.5670738220214844e-05,
+        "p99": 5.513429641723633e-05,
+        "corners": 3140,
+        "worst": [
+          5.5670738220214844e-05,
+          0.0,
+          [
+            -0.6881793737411499,
+            0.4399999976158142,
+            3.9490702152252197
+          ],
+          [
+            0.644748330116272,
+            0.4983014166355133,
+            0.5796509385108948
+          ],
+          [
+            0.6447566747665405,
+            0.4982457458972931,
+            0.5796895027160645
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.03310476616024971, 0.043233636766672134, 0.05497173219919205, 1], \"metallicFactor\": 0.44999998807907104, \"roughnessFactor\": 0.7599999904632568}}",
+        "max_normal_error": 1.2814998626708984e-05,
+        "p99": 1.2814998626708984e-05,
+        "corners": 36,
+        "worst": [
+          1.2814998626708984e-05,
+          0.0,
+          [
+            -0.8271200060844421,
+            -1.0800000429153442,
+            2.1582000255584717
+          ],
+          [
+            -0.8703453540802002,
+            -0.4924418330192566,
+            0.0
+          ],
+          [
+            -0.8703380823135376,
+            -0.4924546480178833,
+            0.0
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.2846466898918152, 0.47699978947639465, 0.027211781591176987, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.175041198730469e-05,
+        "p99": 5.799531936645508e-05,
+        "corners": 1452,
+        "worst": [
+          6.175041198730469e-05,
+          1.1920928955078125e-07,
+          [
+            1.3446743488311768,
+            0.648277997970581,
+            0.4173942804336548
+          ],
+          [
+            -0.3878048062324524,
+            -0.7340050339698792,
+            0.5575340390205383
+          ],
+          [
+            -0.3877430558204651,
+            -0.7340215444564819,
+            0.5575550198554993
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.06372379511594772, 0.16264718770980835, 0.010816383175551891, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.638599395751953e-05,
+        "p99": 5.404651165008545e-05,
+        "corners": 1272,
+        "worst": [
+          5.638599395751953e-05,
+          5.963374150042e-08,
+          [
+            -0.8215085864067078,
+            -1.979137659072876,
+            -0.01666858419775963
+          ],
+          [
+            -0.3325403928756714,
+            0.40332451462745667,
+            -0.8524940609931946
+          ],
+          [
+            -0.3325967788696289,
+            0.4033074378967285,
+            -0.8524802327156067
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.13286831974983215, 0.31854677200317383, 0.017389101907610893, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.109476089477539e-05,
+        "p99": 6.097555160522461e-05,
+        "corners": 1116,
+        "worst": [
+          6.109476089477539e-05,
+          1.1920928955078125e-07,
+          [
+            1.8056443929672241,
+            1.0283514261245728,
+            0.3940918743610382
+          ],
+          [
+            0.35777801275253296,
+            0.7367417812347412,
+            0.573765218257904
+          ],
+          [
+            0.3578098714351654,
+            0.7367737293243408,
+            0.5737041234970093
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.13286831974983215, 0.17064493894577026, 0.21404114365577698, 1], \"metallicFactor\": 0.3499999940395355, \"roughnessFactor\": 0.41999998688697815}}",
+        "max_normal_error": 2.7507543563842773e-05,
+        "p99": 2.7507543563842773e-05,
+        "corners": 528,
+        "worst": [
+          2.7507543563842773e-05,
+          0.0,
+          [
+            0.9503791332244873,
+            -1.0260000228881836,
+            2.3050172328948975
+          ],
+          [
+            -0.9598800539970398,
+            0.0,
+            0.280411034822464
+          ],
+          [
+            -0.9598881006240845,
+            0.0,
+            0.28038352727890015
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.011645430698990822, 0.059253521263599396, 0.15487249195575714, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.800000011920929}}",
+        "max_normal_error": 4.7326087951660156e-05,
+        "p99": 4.023313522338867e-05,
+        "corners": 3312,
+        "worst": [
+          4.7326087951660156e-05,
+          2.980232238769531e-07,
+          [
+            0.8945563435554504,
+            -0.5088109970092773,
+            3.726182222366333
+          ],
+          [
+            -0.19401492178440094,
+            0.22430069744586945,
+            -0.955011785030365
+          ],
+          [
+            -0.19402945041656494,
+            0.22425337135791779,
+            -0.9550198912620544
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"wood\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 14}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 15}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 16}}}",
+        "max_normal_error": 6.097555160522461e-05,
+        "p99": 5.663931369781494e-05,
+        "corners": 1708,
+        "worst": [
+          6.097555160522461e-05,
+          0.0,
+          [
+            0.94862300157547,
+            -1.0328043699264526,
+            0.9055151343345642
+          ],
+          [
+            0.6702935695648193,
+            -0.4156129062175751,
+            0.6147946715354919
+          ],
+          [
+            0.6703299283981323,
+            -0.41564440727233887,
+            0.6147336959838867
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 0}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 1}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 2}}}",
+        "max_normal_error": 0.00011882558465003967,
+        "p99": 0.0001073889434337616,
+        "corners": 25680,
+        "worst": [
+          0.00011882558465003967,
+          2.384185791015625e-07,
+          [
+            1.2962793111801147,
+            0.9392087459564209,
+            2.0646634101867676
+          ],
+          [
+            -0.05353999510407448,
+            0.19494198262691498,
+            -0.9793524146080017
+          ],
+          [
+            -0.05342116951942444,
+            0.19495518505573273,
+            -0.9793562293052673
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 3}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 4}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 5}}}",
+        "max_normal_error": 0.0001411736011505127,
+        "p99": 0.00012409687042236328,
+        "corners": 25680,
+        "worst": [
+          0.0001411736011505127,
+          3.3717478231665154e-07,
+          [
+            1.2962793111801147,
+            0.9392087459564209,
+            1.3779633045196533
+          ],
+          [
+            -0.33793801069259644,
+            -0.10065504908561707,
+            -0.9357705116271973
+          ],
+          [
+            -0.3377968370914459,
+            -0.10064840316772461,
+            -0.9358221888542175
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 17}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 18}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 19}}}",
+        "max_normal_error": 4.67151403427124e-05,
+        "p99": 4.4912099838256836e-05,
+        "corners": 2190,
+        "worst": [
+          4.67151403427124e-05,
+          2.3888378564151935e-07,
+          [
+            -0.21062202751636505,
+            0.2938694357872009,
+            3.4199249744415283
+          ],
+          [
+            0.5042734742164612,
+            -0.11322275549173355,
+            -0.8560893535614014
+          ],
+          [
+            0.5042802095413208,
+            -0.11317604035139084,
+            -0.8560915589332581
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 20}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 21}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 22}}}",
+        "max_normal_error": 6.595253944396973e-05,
+        "p99": 6.571412086486816e-05,
+        "corners": 2190,
+        "worst": [
+          6.595253944396973e-05,
+          1.1920928955078125e-07,
+          [
+            -0.7699085474014282,
+            -0.8586587905883789,
+            0.1352209448814392
+          ],
+          [
+            -0.2690887153148651,
+            0.08142165094614029,
+            -0.9596676230430603
+          ],
+          [
+            -0.2691546678543091,
+            0.08142200857400894,
+            -0.9596489667892456
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"moss\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 6}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 7}}}",
+        "max_normal_error": 0.00012926757335662842,
+        "p99": 0.00010072439908981323,
+        "corners": 263520,
+        "worst": [
+          0.00012926757335662842,
+          3.769728778024728e-07,
+          [
+            1.2042884826660156,
+            0.9059622287750244,
+            1.4137874841690063
+          ],
+          [
+            0.17875874042510986,
+            0.06988564878702164,
+            0.981407880783081
+          ],
+          [
+            0.1788880079984665,
+            0.06987205147743225,
+            0.9813852310180664
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"moss\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 23}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 24}}}",
+        "max_normal_error": 6.142444908618927e-05,
+        "p99": 5.538761615753174e-05,
+        "corners": 18600,
+        "worst": [
+          6.142444908618927e-05,
+          0.0,
+          [
+            0.16409826278686523,
+            0.8537238836288452,
+            4.11793851852417
+          ],
+          [
+            -0.024698900058865547,
+            0.7078510522842407,
+            0.7059297561645508
+          ],
+          [
+            -0.024760324507951736,
+            0.7078449726104736,
+            0.7059337496757507
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.04405977576971054, 0.029528655111789703, 0.021669797599315643, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.474184614380647e-07,
+        "p99": 1.474184614380647e-07,
+        "corners": 96,
+        "worst": [
+          1.474184614380647e-07,
+          1.1920928955078125e-07,
+          [
+            -0.6766899824142456,
+            -1.218150019645691,
+            1.9665236473083496
+          ],
+          [
+            1.474184614380647e-07,
+            0.0,
+            -1.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        ]
+      }
+    ],
+    "max_normal_error": 0.0001411736011505127
+  },
+  "baseline_import": {
+    "triangle_counts_equal": true,
+    "zero_counts_equal": true,
+    "materials": [
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.9774019122123718, 0.8275708556175232, 0.4919050335884094, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 7.87973403930664e-05,
+        "p99": 6.246566772460938e-05,
+        "corners": 1572,
+        "worst": [
+          7.87973403930664e-05,
+          0.0,
+          [
+            -1.2625081539154053,
+            -1.077096939086914,
+            1.0372287034988403
+          ],
+          [
+            0.21089337766170502,
+            -0.10328736156225204,
+            -0.9720369577407837
+          ],
+          [
+            0.21094727516174316,
+            -0.10320856422185898,
+            -0.9720335602760315
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [0.04381414792357052, 0.008140173968519848, 0.10212530861514857], \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.27383843064308167, 0.05087608844041824, 0.6382831931114197, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.0,
+        "p99": 0.0,
+        "corners": 240,
+        "worst": [
+          0.0,
+          0.0,
+          [
+            1.2114758491516113,
+            -0.8983386754989624,
+            1.402637243270874
+          ],
+          [
+            -0.47869426012039185,
+            0.6085274815559387,
+            0.632887065410614
+          ],
+          [
+            -0.47869426012039185,
+            0.6085274815559387,
+            0.632887065410614
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.295699805021286, 0.07323895394802094, 0.5704815983772278, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.1920928955078125e-07,
+        "p99": 1.1920928955078125e-07,
+        "corners": 30,
+        "worst": [
+          1.1920928955078125e-07,
+          1.1920928955078125e-07,
+          [
+            0.8979342579841614,
+            1.029914140701294,
+            6.080322265625
+          ],
+          [
+            0.0,
+            0.9248256087303162,
+            0.3803914487361908
+          ],
+          [
+            0.0,
+            0.9248254895210266,
+            0.3803914189338684
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [0.7105664610862732, 0.0300741046667099, 1], \"extensions\": {\"KHR_materials_emissive_strength\": {\"emissiveStrength\": 1.4500000476837158}}, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.7105664610862732, 0.0300741046667099, 1, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.1920928955078125e-07,
+        "p99": 1.1920928955078125e-07,
+        "corners": 6,
+        "worst": [
+          1.1920928955078125e-07,
+          1.1920928955078125e-07,
+          [
+            1.0570863485336304,
+            0.7586749792098999,
+            6.080322265625
+          ],
+          [
+            0.796245813369751,
+            -0.4672052562236786,
+            0.3843328654766083
+          ],
+          [
+            0.7962459325790405,
+            -0.4672051966190338,
+            0.3843328356742859
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.3931231200695038, 0.38005632162094116, 0.3069993257522583, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.543239578604698e-06,
+        "p99": 2.980232238769531e-07,
+        "corners": 252,
+        "worst": [
+          6.543239578604698e-06,
+          0.0,
+          [
+            1.3132001161575317,
+            0.6800000071525574,
+            3.7932002544403076
+          ],
+          [
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          [
+            -6.543239578604698e-06,
+            0.0,
+            0.9999999403953552
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.36724647879600525, 0.12259718775749207, 0.0300741046667099, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.0003434121608734131,
+        "p99": 7.101893424987793e-05,
+        "corners": 10335,
+        "worst": [
+          0.0003434121608734131,
+          2.0267771105864085e-07,
+          [
+            -1.1172000169754028,
+            0.22940729558467865,
+            1.666576862335205
+          ],
+          [
+            0.8689947128295898,
+            0.491229772567749,
+            0.059511248022317886
+          ],
+          [
+            0.8688098788261414,
+            0.49157318472862244,
+            0.05937325581908226
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [1, 0.36724647879600525, 0.006571403704583645], \"extensions\": {\"KHR_materials_emissive_strength\": {\"emissiveStrength\": 1.2300000190734863}}, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [1, 0.36724647879600525, 0.006571403704583645, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.155801773071289e-05,
+        "p99": 5.0067901611328125e-05,
+        "corners": 319,
+        "worst": [
+          5.155801773071289e-05,
+          0.0,
+          [
+            -0.03343097120523453,
+            -1.0493932962417603,
+            1.3543249368667603
+          ],
+          [
+            -0.8730325102806091,
+            -0.3242082893848419,
+            0.36428460478782654
+          ],
+          [
+            -0.8730176091194153,
+            -0.32425984740257263,
+            0.3642742931842804
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.7874122858047485, 0.6920710802078247, 0.47699978947639465, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.00013172626495361328,
+        "p99": 4.8547983169555664e-05,
+        "corners": 38864,
+        "worst": [
+          0.00013172626495361328,
+          0.0,
+          [
+            0.02720421552658081,
+            -0.9020000100135803,
+            1.768432855606079
+          ],
+          [
+            -0.9287848472595215,
+            0.31298261880874634,
+            0.1984955072402954
+          ],
+          [
+            -0.9287294745445251,
+            0.31311434507369995,
+            0.19854694604873657
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.4919050335884094, 0.1873166710138321, 0.05290079116821289, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 8.788704872131348e-05,
+        "p99": 7.045269012451172e-05,
+        "corners": 6216,
+        "worst": [
+          8.788704872131348e-05,
+          0.0,
+          [
+            1.1461101770401,
+            -0.16232231259346008,
+            3.1580810546875
+          ],
+          [
+            0.35367369651794434,
+            -0.34660977125167847,
+            0.8687788248062134
+          ],
+          [
+            0.353585809469223,
+            -0.3466789722442627,
+            0.8687868714332581
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.00854038167744875, 0.03310476616024971, 0.19599418342113495, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.008148193359375e-05,
+        "p99": 5.772709846496582e-05,
+        "corners": 1296,
+        "worst": [
+          6.008148193359375e-05,
+          1.1920928955078125e-07,
+          [
+            -1.051967978477478,
+            -0.9857655167579651,
+            0.09810001403093338
+          ],
+          [
+            -0.9309490919113159,
+            -0.21445739269256592,
+            -0.2955365478992462
+          ],
+          [
+            -0.9309351444244385,
+            -0.2145174741744995,
+            -0.29553690552711487
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.15487249195575714, 0.04889732599258423, 0.012510408647358418, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.739927291870117e-05,
+        "p99": 3.17692756652832e-05,
+        "corners": 414,
+        "worst": [
+          5.739927291870117e-05,
+          6.664001972467304e-08,
+          [
+            0.30296990275382996,
+            -0.5137499570846558,
+            3.554323434829712
+          ],
+          [
+            0.35368362069129944,
+            0.3466137945652008,
+            -0.8687731027603149
+          ],
+          [
+            0.35374101996421814,
+            0.3466084599494934,
+            -0.8687518239021301
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.01960664801299572, 0.09462962299585342, 0.5225215554237366, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 8.276104927062988e-05,
+        "p99": 5.8144330978393555e-05,
+        "corners": 1338,
+        "worst": [
+          8.276104927062988e-05,
+          0.0,
+          [
+            1.0555295944213867,
+            -0.8699999451637268,
+            0.5036574602127075
+          ],
+          [
+            -0.35368064045906067,
+            -0.3466043770313263,
+            -0.8687780499458313
+          ],
+          [
+            -0.3537479639053345,
+            -0.34652161598205566,
+            -0.8687837719917297
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.01960664801299572, 0.09462962299585342, 0.2529500722885132, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.800000011920929}}",
+        "max_normal_error": 4.86224889755249e-05,
+        "p99": 4.079937934875488e-05,
+        "corners": 4788,
+        "worst": [
+          4.86224889755249e-05,
+          2.5023305738614e-07,
+          [
+            0.2405155897140503,
+            0.19799911975860596,
+            3.475627899169922
+          ],
+          [
+            0.19401557743549347,
+            0.22429996728897095,
+            0.955011785030365
+          ],
+          [
+            0.19402803480625153,
+            0.22425134479999542,
+            0.9550207257270813
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.043233636766672134, 0.15487249195575714, 0.36724647879600525, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.800000011920929}}",
+        "max_normal_error": 4.86224889755249e-05,
+        "p99": 4.079937934875488e-05,
+        "corners": 1956,
+        "worst": [
+          4.86224889755249e-05,
+          2.2429217594321926e-08,
+          [
+            0.2405155897140503,
+            -0.014500866644084454,
+            3.695671558380127
+          ],
+          [
+            0.19401557743549347,
+            0.22429996728897095,
+            0.955011785030365
+          ],
+          [
+            0.19402803480625153,
+            0.22425134479999542,
+            0.9550207257270813
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.05290079116821289, 0.018478473648428917, 0.007850573398172855, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.01134786894544959,
+        "p99": 0.00010326504707336426,
+        "corners": 4979,
+        "worst": [
+          0.01134786894544959,
+          0.0,
+          [
+            1.0252760648727417,
+            -1.0160000324249268,
+            1.25350022315979
+          ],
+          [
+            0.3888910114765167,
+            -0.9212741851806641,
+            -0.004212592262774706
+          ],
+          [
+            0.38902702927589417,
+            -0.9211986660957336,
+            0.007135276682674885
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.13286831974983215, 0.027211781591176987, 0.34239163994789124, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 9.322166442871094e-05,
+        "p99": 9.322166442871094e-05,
+        "corners": 42,
+        "worst": [
+          9.322166442871094e-05,
+          0.0,
+          [
+            1.645538091659546,
+            -0.21498806774616241,
+            2.176237106323242
+          ],
+          [
+            -0.019944578409194946,
+            -0.9997388124465942,
+            0.011166858486831188
+          ],
+          [
+            -0.019851356744766235,
+            -0.9997405409812927,
+            0.011170076206326485
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.6209158897399902, 0.5382355451583862, 0.34239163994789124, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.00018426775932312012,
+        "p99": 5.602836608886719e-05,
+        "corners": 7728,
+        "worst": [
+          0.00018426775932312012,
+          0.0,
+          [
+            -0.5586000084877014,
+            -0.8174999952316284,
+            1.427899956703186
+          ],
+          [
+            0.9362344145774841,
+            -0.351375937461853,
+            3.5244493119535036e-06
+          ],
+          [
+            0.9363036155700684,
+            -0.3511916697025299,
+            -7.66009478070373e-09
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.911407470703125, 0.38005632162094116, 0.01960664801299572, 1], \"metallicFactor\": 0.10000000149011612, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.00025084614753723145,
+        "p99": 7.635354995727539e-05,
+        "corners": 3986,
+        "worst": [
+          0.00025084614753723145,
+          0.0,
+          [
+            1.2710601091384888,
+            -0.21988169848918915,
+            2.2386932373046875
+          ],
+          [
+            0.9265639185905457,
+            -0.37599247694015503,
+            0.010439472272992134
+          ],
+          [
+            0.9266650080680847,
+            -0.3757416307926178,
+            0.010499050840735435
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.010816383175551891, 0.006571403704583645, 0.005981059744954109, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 2.971381036331877e-06,
+        "p99": 2.971381036331877e-06,
+        "corners": 13,
+        "worst": [
+          2.971381036331877e-06,
+          0.0,
+          [
+            -0.05829370394349098,
+            -0.6800000071525574,
+            1.832194209098816
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            2.971381036331877e-06
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.04696420207619667, 0.011645430698990822, 0.1259673833847046, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.822793856831595e-05,
+        "p99": 9.214582320282716e-06,
+        "corners": 216,
+        "worst": [
+          1.822793856831595e-05,
+          0.0,
+          [
+            -0.20246800780296326,
+            -1.1799999475479126,
+            1.3122808933258057
+          ],
+          [
+            0.0,
+            -1.0,
+            -2.0126063304815034e-07
+          ],
+          [
+            0.0,
+            -1.0,
+            1.80266779352678e-05
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [1, 1, 1], \"emissiveTexture\": {\"index\": 8}, \"extensions\": {\"KHR_materials_emissive_strength\": {\"emissiveStrength\": 1.2300000190734863}}, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"window\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 9}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 10}}}",
+        "max_normal_error": 7.829070091247559e-05,
+        "p99": 6.783008575439453e-05,
+        "corners": 648,
+        "worst": [
+          7.829070091247559e-05,
+          0.0,
+          [
+            0.7189344763755798,
+            0.49320662021636963,
+            3.824810028076172
+          ],
+          [
+            -0.3337673544883728,
+            -0.8936195969581604,
+            -0.30007198452949524
+          ],
+          [
+            -0.33382561802864075,
+            -0.8936241269111633,
+            -0.29999369382858276
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"wood\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 11}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 12}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 13}}}",
+        "max_normal_error": 0.00019064545631408691,
+        "p99": 7.241964340209961e-05,
+        "corners": 4100,
+        "worst": [
+          0.00019064545631408691,
+          0.0,
+          [
+            0.7282183766365051,
+            0.5026800036430359,
+            3.8607802391052246
+          ],
+          [
+            0.41844770312309265,
+            0.0,
+            -0.9082408547401428
+          ],
+          [
+            0.41825705766677856,
+            0.0,
+            -0.9083285927772522
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.03310476616024971, 0.043233636766672134, 0.05497173219919205, 1], \"metallicFactor\": 0.44999998807907104, \"roughnessFactor\": 0.7599999904632568}}",
+        "max_normal_error": 3.248453140258789e-06,
+        "p99": 3.248453140258789e-06,
+        "corners": 36,
+        "worst": [
+          3.248453140258789e-06,
+          0.0,
+          [
+            -0.8065399527549744,
+            -1.0678757429122925,
+            2.1582000255584717
+          ],
+          [
+            0.8703437447547913,
+            0.4924446642398834,
+            0.0
+          ],
+          [
+            0.8703455328941345,
+            0.49244141578674316,
+            0.0
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.2846466898918152, 0.47699978947639465, 0.027211781591176987, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.7881393432617188e-07,
+        "p99": 1.1920928955078125e-07,
+        "corners": 1452,
+        "worst": [
+          1.7881393432617188e-07,
+          5.972094641037984e-08,
+          [
+            -0.6007320284843445,
+            -1.8390456438064575,
+            0.03417331352829933
+          ],
+          [
+            0.03341570496559143,
+            0.5667246580123901,
+            -0.8232294321060181
+          ],
+          [
+            0.03341570496559143,
+            0.5667244791984558,
+            -0.8232294321060181
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.06372379511594772, 0.16264718770980835, 0.010816383175551891, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.1920928955078125e-07,
+        "p99": 1.1920928955078125e-07,
+        "corners": 1272,
+        "worst": [
+          1.1920928955078125e-07,
+          1.4901161193847656e-08,
+          [
+            -0.5987948179244995,
+            -2.071103811264038,
+            0.19392886757850647
+          ],
+          [
+            -0.11881627887487411,
+            -0.6789253354072571,
+            0.7245296239852905
+          ],
+          [
+            -0.11881629377603531,
+            -0.6789252161979675,
+            0.7245296835899353
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.13286831974983215, 0.31854677200317383, 0.017389101907610893, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.7881393432617188e-07,
+        "p99": 1.1920928955078125e-07,
+        "corners": 1116,
+        "worst": [
+          1.7881393432617188e-07,
+          6.143906006172983e-08,
+          [
+            -0.6633265018463135,
+            -1.9333314895629883,
+            0.14188727736473083
+          ],
+          [
+            0.38699060678482056,
+            0.6745907068252563,
+            0.6286221742630005
+          ],
+          [
+            0.38699060678482056,
+            0.674590528011322,
+            0.6286221146583557
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.13286831974983215, 0.17064493894577026, 0.21404114365577698, 1], \"metallicFactor\": 0.3499999940395355, \"roughnessFactor\": 0.41999998688697815}}",
+        "max_normal_error": 1.5437602996826172e-05,
+        "p99": 1.5437602996826172e-05,
+        "corners": 528,
+        "worst": [
+          1.5437602996826172e-05,
+          0.0,
+          [
+            0.9626291394233704,
+            0.722000002861023,
+            2.3149161338806152
+          ],
+          [
+            -0.6285204291343689,
+            0.0,
+            0.7777931690216064
+          ],
+          [
+            -0.6285049915313721,
+            0.0,
+            0.777805507183075
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.011645430698990822, 0.059253521263599396, 0.15487249195575714, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.800000011920929}}",
+        "max_normal_error": 4.86224889755249e-05,
+        "p99": 4.079937934875488e-05,
+        "corners": 3312,
+        "worst": [
+          4.86224889755249e-05,
+          2.980232238769531e-07,
+          [
+            0.9354845285415649,
+            -0.6379991173744202,
+            3.475627899169922
+          ],
+          [
+            -0.19401557743549347,
+            -0.22429996728897095,
+            0.955011785030365
+          ],
+          [
+            -0.19402803480625153,
+            -0.22425134479999542,
+            0.9550207257270813
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"wood\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 14}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 15}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 16}}}",
+        "max_normal_error": 0.003228425979614258,
+        "p99": 0.00014519691467285156,
+        "corners": 1708,
+        "worst": [
+          0.003228425979614258,
+          0.0,
+          [
+            -0.8213583827018738,
+            -1.0516270399093628,
+            0.2725469470024109
+          ],
+          [
+            0.5895276069641113,
+            -0.7830361127853394,
+            0.19827142357826233
+          ],
+          [
+            0.5881978869438171,
+            -0.7848448157310486,
+            0.19504299759864807
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 0}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 1}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 2}}}",
+        "max_normal_error": 4.470348358154297e-07,
+        "p99": 3.2782554626464844e-07,
+        "corners": 25680,
+        "worst": [
+          4.470348358154297e-07,
+          3.3848931479951716e-07,
+          [
+            1.218583583831787,
+            0.4460998475551605,
+            2.783564567565918
+          ],
+          [
+            0.21035131812095642,
+            0.8326520323753357,
+            -0.5122918486595154
+          ],
+          [
+            0.21035176515579224,
+            0.8326519727706909,
+            -0.5122918486595154
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 3}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 4}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 5}}}",
+        "max_normal_error": 3.8743019104003906e-07,
+        "p99": 2.682209014892578e-07,
+        "corners": 25680,
+        "worst": [
+          3.8743019104003906e-07,
+          5.339525159797631e-07,
+          [
+            1.2231359481811523,
+            0.4870193600654602,
+            3.517129898071289
+          ],
+          [
+            0.3742462694644928,
+            0.6802184581756592,
+            -0.6302717924118042
+          ],
+          [
+            0.37424665689468384,
+            0.6802182793617249,
+            -0.6302717328071594
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 17}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 18}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 19}}}",
+        "max_normal_error": 2.682209014892578e-07,
+        "p99": 1.8207356333732605e-07,
+        "corners": 2190,
+        "worst": [
+          2.682209014892578e-07,
+          5.960464477539063e-08,
+          [
+            0.5775474309921265,
+            0.8908834457397461,
+            4.6702680587768555
+          ],
+          [
+            0.272946834564209,
+            -0.7253112196922302,
+            -0.631999671459198
+          ],
+          [
+            0.2729471027851105,
+            -0.7253112196922302,
+            -0.6319996118545532
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 20}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 21}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 22}}}",
+        "max_normal_error": 2.384185791015625e-07,
+        "p99": 1.7881393432617188e-07,
+        "corners": 2190,
+        "worst": [
+          2.384185791015625e-07,
+          4.917383193969727e-07,
+          [
+            1.2485848665237427,
+            0.06277145445346832,
+            3.916792631149292
+          ],
+          [
+            -0.745801568031311,
+            0.3820968270301819,
+            -0.54569411277771
+          ],
+          [
+            -0.7458015084266663,
+            0.38209670782089233,
+            -0.5456943511962891
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"moss\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 6}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 7}}}",
+        "max_normal_error": 5.662441253662109e-07,
+        "p99": 2.980232238769531e-07,
+        "corners": 506880,
+        "worst": [
+          5.662441253662109e-07,
+          2.4755667027420714e-07,
+          [
+            0.6048939228057861,
+            0.13356634974479675,
+            3.786508798599243
+          ],
+          [
+            -0.9668615460395813,
+            -0.23797127604484558,
+            -0.09245836734771729
+          ],
+          [
+            -0.9668616652488708,
+            -0.23797070980072021,
+            -0.09245835244655609
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"moss\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 23}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 24}}}",
+        "max_normal_error": 3.2782554626464844e-07,
+        "p99": 2.384185791015625e-07,
+        "corners": 37200,
+        "worst": [
+          3.2782554626464844e-07,
+          2.4575624024691933e-07,
+          [
+            0.7993240356445312,
+            -0.5141615867614746,
+            3.7877163887023926
+          ],
+          [
+            -0.47790810465812683,
+            -0.33616402745246887,
+            0.8115403056144714
+          ],
+          [
+            -0.47790804505348206,
+            -0.33616435527801514,
+            0.8115401864051819
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.04405977576971054, 0.029528655111789703, 0.021669797599315643, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.960464477539063e-08,
+        "p99": 5.960464477539063e-08,
+        "corners": 96,
+        "worst": [
+          5.960464477539063e-08,
+          1.1920928955078125e-07,
+          [
+            -1.3516745567321777,
+            -1.2729628086090088,
+            0.05885998159646988
+          ],
+          [
+            1.3951738253581425e-07,
+            -1.6486454867958855e-08,
+            -1.0
+          ],
+          [
+            1.395172546381218e-07,
+            -1.648644065710414e-08,
+            -0.9999999403953552
+          ]
+        ]
+      }
+    ],
+    "max_normal_error": 0.01134786894544959
+  },
+  "profile_unbatched_import": {
+    "triangle_counts_equal": true,
+    "zero_counts_equal": true,
+    "materials": [
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.9774019122123718, 0.8275708556175232, 0.4919050335884094, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 7.87973403930664e-05,
+        "p99": 6.246566772460938e-05,
+        "corners": 1572,
+        "worst": [
+          7.87973403930664e-05,
+          0.0,
+          [
+            -1.2625081539154053,
+            -1.077096939086914,
+            1.0372287034988403
+          ],
+          [
+            0.21089337766170502,
+            -0.10328736156225204,
+            -0.9720369577407837
+          ],
+          [
+            0.21094727516174316,
+            -0.10320856422185898,
+            -0.9720335602760315
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [0.04381414792357052, 0.008140173968519848, 0.10212530861514857], \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.27383843064308167, 0.05087608844041824, 0.6382831931114197, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.0,
+        "p99": 0.0,
+        "corners": 240,
+        "worst": [
+          0.0,
+          0.0,
+          [
+            1.2114758491516113,
+            -0.8983386754989624,
+            1.402637243270874
+          ],
+          [
+            -0.47869426012039185,
+            0.6085274815559387,
+            0.632887065410614
+          ],
+          [
+            -0.47869426012039185,
+            0.6085274815559387,
+            0.632887065410614
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.295699805021286, 0.07323895394802094, 0.5704815983772278, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.1920928955078125e-07,
+        "p99": 1.1920928955078125e-07,
+        "corners": 30,
+        "worst": [
+          1.1920928955078125e-07,
+          1.1920928955078125e-07,
+          [
+            0.8979342579841614,
+            1.029914140701294,
+            6.080322265625
+          ],
+          [
+            0.0,
+            0.9248256087303162,
+            0.3803914487361908
+          ],
+          [
+            0.0,
+            0.9248254895210266,
+            0.3803914189338684
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [0.7105664610862732, 0.0300741046667099, 1], \"extensions\": {\"KHR_materials_emissive_strength\": {\"emissiveStrength\": 1.4500000476837158}}, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.7105664610862732, 0.0300741046667099, 1, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.1920928955078125e-07,
+        "p99": 1.1920928955078125e-07,
+        "corners": 6,
+        "worst": [
+          1.1920928955078125e-07,
+          1.1920928955078125e-07,
+          [
+            1.0570863485336304,
+            0.7586749792098999,
+            6.080322265625
+          ],
+          [
+            0.796245813369751,
+            -0.4672052562236786,
+            0.3843328654766083
+          ],
+          [
+            0.7962459325790405,
+            -0.4672051966190338,
+            0.3843328356742859
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.3931231200695038, 0.38005632162094116, 0.3069993257522583, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.543239578604698e-06,
+        "p99": 2.980232238769531e-07,
+        "corners": 252,
+        "worst": [
+          6.543239578604698e-06,
+          0.0,
+          [
+            1.3132001161575317,
+            0.6800000071525574,
+            3.7932002544403076
+          ],
+          [
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          [
+            -6.543239578604698e-06,
+            0.0,
+            0.9999999403953552
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.36724647879600525, 0.12259718775749207, 0.0300741046667099, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.0003434121608734131,
+        "p99": 7.101893424987793e-05,
+        "corners": 10335,
+        "worst": [
+          0.0003434121608734131,
+          2.0267771105864085e-07,
+          [
+            -1.1172000169754028,
+            0.22940729558467865,
+            1.666576862335205
+          ],
+          [
+            0.8689947128295898,
+            0.491229772567749,
+            0.059511248022317886
+          ],
+          [
+            0.8688098788261414,
+            0.49157318472862244,
+            0.05937325581908226
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [1, 0.36724647879600525, 0.006571403704583645], \"extensions\": {\"KHR_materials_emissive_strength\": {\"emissiveStrength\": 1.2300000190734863}}, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [1, 0.36724647879600525, 0.006571403704583645, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.155801773071289e-05,
+        "p99": 5.0067901611328125e-05,
+        "corners": 319,
+        "worst": [
+          5.155801773071289e-05,
+          0.0,
+          [
+            -0.03343097120523453,
+            -1.0493932962417603,
+            1.3543249368667603
+          ],
+          [
+            -0.8730325102806091,
+            -0.3242082893848419,
+            0.36428460478782654
+          ],
+          [
+            -0.8730176091194153,
+            -0.32425984740257263,
+            0.3642742931842804
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.7874122858047485, 0.6920710802078247, 0.47699978947639465, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.00013172626495361328,
+        "p99": 4.8547983169555664e-05,
+        "corners": 38864,
+        "worst": [
+          0.00013172626495361328,
+          0.0,
+          [
+            0.02720421552658081,
+            -0.9020000100135803,
+            1.768432855606079
+          ],
+          [
+            -0.9287848472595215,
+            0.31298261880874634,
+            0.1984955072402954
+          ],
+          [
+            -0.9287294745445251,
+            0.31311434507369995,
+            0.19854694604873657
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.4919050335884094, 0.1873166710138321, 0.05290079116821289, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 8.788704872131348e-05,
+        "p99": 7.045269012451172e-05,
+        "corners": 6216,
+        "worst": [
+          8.788704872131348e-05,
+          0.0,
+          [
+            1.1461101770401,
+            -0.16232231259346008,
+            3.1580810546875
+          ],
+          [
+            0.35367369651794434,
+            -0.34660977125167847,
+            0.8687788248062134
+          ],
+          [
+            0.353585809469223,
+            -0.3466789722442627,
+            0.8687868714332581
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.00854038167744875, 0.03310476616024971, 0.19599418342113495, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.008148193359375e-05,
+        "p99": 5.772709846496582e-05,
+        "corners": 1296,
+        "worst": [
+          6.008148193359375e-05,
+          1.1920928955078125e-07,
+          [
+            -1.051967978477478,
+            -0.9857655167579651,
+            0.09810001403093338
+          ],
+          [
+            -0.9309490919113159,
+            -0.21445739269256592,
+            -0.2955365478992462
+          ],
+          [
+            -0.9309351444244385,
+            -0.2145174741744995,
+            -0.29553690552711487
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.15487249195575714, 0.04889732599258423, 0.012510408647358418, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.739927291870117e-05,
+        "p99": 3.17692756652832e-05,
+        "corners": 414,
+        "worst": [
+          5.739927291870117e-05,
+          6.664001972467304e-08,
+          [
+            0.30296990275382996,
+            -0.5137499570846558,
+            3.554323434829712
+          ],
+          [
+            0.35368362069129944,
+            0.3466137945652008,
+            -0.8687731027603149
+          ],
+          [
+            0.35374101996421814,
+            0.3466084599494934,
+            -0.8687518239021301
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.01960664801299572, 0.09462962299585342, 0.5225215554237366, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 8.276104927062988e-05,
+        "p99": 5.8144330978393555e-05,
+        "corners": 1338,
+        "worst": [
+          8.276104927062988e-05,
+          0.0,
+          [
+            1.0555295944213867,
+            -0.8699999451637268,
+            0.5036574602127075
+          ],
+          [
+            -0.35368064045906067,
+            -0.3466043770313263,
+            -0.8687780499458313
+          ],
+          [
+            -0.3537479639053345,
+            -0.34652161598205566,
+            -0.8687837719917297
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.01960664801299572, 0.09462962299585342, 0.2529500722885132, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.800000011920929}}",
+        "max_normal_error": 4.86224889755249e-05,
+        "p99": 4.079937934875488e-05,
+        "corners": 4788,
+        "worst": [
+          4.86224889755249e-05,
+          2.5023305738614e-07,
+          [
+            0.2405155897140503,
+            0.19799911975860596,
+            3.475627899169922
+          ],
+          [
+            0.19401557743549347,
+            0.22429996728897095,
+            0.955011785030365
+          ],
+          [
+            0.19402803480625153,
+            0.22425134479999542,
+            0.9550207257270813
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.043233636766672134, 0.15487249195575714, 0.36724647879600525, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.800000011920929}}",
+        "max_normal_error": 4.86224889755249e-05,
+        "p99": 4.079937934875488e-05,
+        "corners": 1956,
+        "worst": [
+          4.86224889755249e-05,
+          2.2429217594321926e-08,
+          [
+            0.2405155897140503,
+            -0.014500866644084454,
+            3.695671558380127
+          ],
+          [
+            0.19401557743549347,
+            0.22429996728897095,
+            0.955011785030365
+          ],
+          [
+            0.19402803480625153,
+            0.22425134479999542,
+            0.9550207257270813
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.05290079116821289, 0.018478473648428917, 0.007850573398172855, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.01134786894544959,
+        "p99": 0.00010326504707336426,
+        "corners": 4979,
+        "worst": [
+          0.01134786894544959,
+          0.0,
+          [
+            1.0252760648727417,
+            -1.0160000324249268,
+            1.25350022315979
+          ],
+          [
+            0.3888910114765167,
+            -0.9212741851806641,
+            -0.004212592262774706
+          ],
+          [
+            0.38902702927589417,
+            -0.9211986660957336,
+            0.007135276682674885
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.13286831974983215, 0.027211781591176987, 0.34239163994789124, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 9.322166442871094e-05,
+        "p99": 9.322166442871094e-05,
+        "corners": 42,
+        "worst": [
+          9.322166442871094e-05,
+          0.0,
+          [
+            1.645538091659546,
+            -0.21498806774616241,
+            2.176237106323242
+          ],
+          [
+            -0.019944578409194946,
+            -0.9997388124465942,
+            0.011166858486831188
+          ],
+          [
+            -0.019851356744766235,
+            -0.9997405409812927,
+            0.011170076206326485
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.6209158897399902, 0.5382355451583862, 0.34239163994789124, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.00018426775932312012,
+        "p99": 5.602836608886719e-05,
+        "corners": 7728,
+        "worst": [
+          0.00018426775932312012,
+          0.0,
+          [
+            -0.5586000084877014,
+            -0.8174999952316284,
+            1.427899956703186
+          ],
+          [
+            0.9362344145774841,
+            -0.351375937461853,
+            3.5244493119535036e-06
+          ],
+          [
+            0.9363036155700684,
+            -0.3511916697025299,
+            -7.66009478070373e-09
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.911407470703125, 0.38005632162094116, 0.01960664801299572, 1], \"metallicFactor\": 0.10000000149011612, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.0001942962408065796,
+        "p99": 5.650520324707031e-05,
+        "corners": 3506,
+        "worst": [
+          0.0001942962408065796,
+          0.0,
+          [
+            1.2495001554489136,
+            -1.4900000095367432,
+            1.111799955368042
+          ],
+          [
+            -0.8773822784423828,
+            -0.4722546637058258,
+            -0.08471056818962097
+          ],
+          [
+            -0.8772765398025513,
+            -0.4724162518978119,
+            -0.08490486443042755
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.010816383175551891, 0.006571403704583645, 0.005981059744954109, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 2.971381036331877e-06,
+        "p99": 2.971381036331877e-06,
+        "corners": 13,
+        "worst": [
+          2.971381036331877e-06,
+          0.0,
+          [
+            -0.05829370394349098,
+            -0.6800000071525574,
+            1.832194209098816
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            2.971381036331877e-06
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.04696420207619667, 0.011645430698990822, 0.1259673833847046, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.822793856831595e-05,
+        "p99": 9.214582320282716e-06,
+        "corners": 216,
+        "worst": [
+          1.822793856831595e-05,
+          0.0,
+          [
+            -0.20246800780296326,
+            -1.1799999475479126,
+            1.3122808933258057
+          ],
+          [
+            0.0,
+            -1.0,
+            -2.0126063304815034e-07
+          ],
+          [
+            0.0,
+            -1.0,
+            1.80266779352678e-05
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [1, 1, 1], \"emissiveTexture\": {\"index\": 8}, \"extensions\": {\"KHR_materials_emissive_strength\": {\"emissiveStrength\": 1.2300000190734863}}, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"window\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 9}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 10}}}",
+        "max_normal_error": 7.829070091247559e-05,
+        "p99": 6.783008575439453e-05,
+        "corners": 648,
+        "worst": [
+          7.829070091247559e-05,
+          0.0,
+          [
+            0.7189344763755798,
+            0.49320662021636963,
+            3.824810028076172
+          ],
+          [
+            -0.3337673544883728,
+            -0.8936195969581604,
+            -0.30007198452949524
+          ],
+          [
+            -0.33382561802864075,
+            -0.8936241269111633,
+            -0.29999369382858276
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"wood\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 11}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 12}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 13}}}",
+        "max_normal_error": 7.167458534240723e-05,
+        "p99": 5.874037742614746e-05,
+        "corners": 3140,
+        "worst": [
+          7.167458534240723e-05,
+          0.0,
+          [
+            0.7456397414207458,
+            0.514799952507019,
+            3.6278939247131348
+          ],
+          [
+            -0.35368362069129944,
+            -0.34659525752067566,
+            0.8687805533409119
+          ],
+          [
+            -0.35374680161476135,
+            -0.34652358293533325,
+            0.8687833547592163
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.03310476616024971, 0.043233636766672134, 0.05497173219919205, 1], \"metallicFactor\": 0.44999998807907104, \"roughnessFactor\": 0.7599999904632568}}",
+        "max_normal_error": 3.248453140258789e-06,
+        "p99": 3.248453140258789e-06,
+        "corners": 36,
+        "worst": [
+          3.248453140258789e-06,
+          0.0,
+          [
+            -0.8065399527549744,
+            -1.0678757429122925,
+            2.1582000255584717
+          ],
+          [
+            0.8703437447547913,
+            0.4924446642398834,
+            0.0
+          ],
+          [
+            0.8703455328941345,
+            0.49244141578674316,
+            0.0
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.2846466898918152, 0.47699978947639465, 0.027211781591176987, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.7881393432617188e-07,
+        "p99": 1.1920928955078125e-07,
+        "corners": 1452,
+        "worst": [
+          1.7881393432617188e-07,
+          5.972094641037984e-08,
+          [
+            -0.6007320284843445,
+            -1.8390456438064575,
+            0.03417331352829933
+          ],
+          [
+            0.03341570496559143,
+            0.5667246580123901,
+            -0.8232294321060181
+          ],
+          [
+            0.03341570496559143,
+            0.5667244791984558,
+            -0.8232294321060181
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.06372379511594772, 0.16264718770980835, 0.010816383175551891, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.1920928955078125e-07,
+        "p99": 1.1920928955078125e-07,
+        "corners": 1272,
+        "worst": [
+          1.1920928955078125e-07,
+          1.4901161193847656e-08,
+          [
+            -0.5987948179244995,
+            -2.071103811264038,
+            0.19392886757850647
+          ],
+          [
+            -0.11881627887487411,
+            -0.6789253354072571,
+            0.7245296239852905
+          ],
+          [
+            -0.11881629377603531,
+            -0.6789252161979675,
+            0.7245296835899353
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.13286831974983215, 0.31854677200317383, 0.017389101907610893, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.7881393432617188e-07,
+        "p99": 1.1920928955078125e-07,
+        "corners": 1116,
+        "worst": [
+          1.7881393432617188e-07,
+          6.143906006172983e-08,
+          [
+            -0.6633265018463135,
+            -1.9333314895629883,
+            0.14188727736473083
+          ],
+          [
+            0.38699060678482056,
+            0.6745907068252563,
+            0.6286221742630005
+          ],
+          [
+            0.38699060678482056,
+            0.674590528011322,
+            0.6286221146583557
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.13286831974983215, 0.17064493894577026, 0.21404114365577698, 1], \"metallicFactor\": 0.3499999940395355, \"roughnessFactor\": 0.41999998688697815}}",
+        "max_normal_error": 1.5437602996826172e-05,
+        "p99": 1.5437602996826172e-05,
+        "corners": 528,
+        "worst": [
+          1.5437602996826172e-05,
+          0.0,
+          [
+            0.9626291394233704,
+            0.722000002861023,
+            2.3149161338806152
+          ],
+          [
+            -0.6285204291343689,
+            0.0,
+            0.7777931690216064
+          ],
+          [
+            -0.6285049915313721,
+            0.0,
+            0.777805507183075
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.011645430698990822, 0.059253521263599396, 0.15487249195575714, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.800000011920929}}",
+        "max_normal_error": 4.86224889755249e-05,
+        "p99": 4.079937934875488e-05,
+        "corners": 3312,
+        "worst": [
+          4.86224889755249e-05,
+          2.980232238769531e-07,
+          [
+            0.9354845285415649,
+            -0.6379991173744202,
+            3.475627899169922
+          ],
+          [
+            -0.19401557743549347,
+            -0.22429996728897095,
+            0.955011785030365
+          ],
+          [
+            -0.19402803480625153,
+            -0.22425134479999542,
+            0.9550207257270813
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"wood\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 14}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 15}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 16}}}",
+        "max_normal_error": 0.003228425979614258,
+        "p99": 0.00014519691467285156,
+        "corners": 1708,
+        "worst": [
+          0.003228425979614258,
+          0.0,
+          [
+            -0.8213583827018738,
+            -1.0516270399093628,
+            0.2725469470024109
+          ],
+          [
+            0.5895276069641113,
+            -0.7830361127853394,
+            0.19827142357826233
+          ],
+          [
+            0.5881978869438171,
+            -0.7848448157310486,
+            0.19504299759864807
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 0}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 1}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 2}}}",
+        "max_normal_error": 4.470348358154297e-07,
+        "p99": 3.2782554626464844e-07,
+        "corners": 25680,
+        "worst": [
+          4.470348358154297e-07,
+          3.3848931479951716e-07,
+          [
+            1.218583583831787,
+            0.4460998475551605,
+            2.783564567565918
+          ],
+          [
+            0.21035131812095642,
+            0.8326520323753357,
+            -0.5122918486595154
+          ],
+          [
+            0.21035176515579224,
+            0.8326519727706909,
+            -0.5122918486595154
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 3}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 4}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 5}}}",
+        "max_normal_error": 3.8743019104003906e-07,
+        "p99": 2.682209014892578e-07,
+        "corners": 25680,
+        "worst": [
+          3.8743019104003906e-07,
+          5.339525159797631e-07,
+          [
+            1.2231359481811523,
+            0.4870193600654602,
+            3.517129898071289
+          ],
+          [
+            0.3742462694644928,
+            0.6802184581756592,
+            -0.6302717924118042
+          ],
+          [
+            0.37424665689468384,
+            0.6802182793617249,
+            -0.6302717328071594
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 17}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 18}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 19}}}",
+        "max_normal_error": 2.682209014892578e-07,
+        "p99": 1.8207356333732605e-07,
+        "corners": 2190,
+        "worst": [
+          2.682209014892578e-07,
+          5.960464477539063e-08,
+          [
+            0.5775474309921265,
+            0.8908834457397461,
+            4.6702680587768555
+          ],
+          [
+            0.272946834564209,
+            -0.7253112196922302,
+            -0.631999671459198
+          ],
+          [
+            0.2729471027851105,
+            -0.7253112196922302,
+            -0.6319996118545532
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 20}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 21}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 22}}}",
+        "max_normal_error": 2.384185791015625e-07,
+        "p99": 1.7881393432617188e-07,
+        "corners": 2190,
+        "worst": [
+          2.384185791015625e-07,
+          4.917383193969727e-07,
+          [
+            1.2485848665237427,
+            0.06277145445346832,
+            3.916792631149292
+          ],
+          [
+            -0.745801568031311,
+            0.3820968270301819,
+            -0.54569411277771
+          ],
+          [
+            -0.7458015084266663,
+            0.38209670782089233,
+            -0.5456943511962891
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"moss\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 6}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 7}}}",
+        "max_normal_error": 5.066394805908203e-07,
+        "p99": 2.980232238769531e-07,
+        "corners": 263520,
+        "worst": [
+          5.066394805908203e-07,
+          5.960464477539063e-08,
+          [
+            0.31818971037864685,
+            0.44898098707199097,
+            0.7455783486366272
+          ],
+          [
+            -0.4391692280769348,
+            0.8921409845352173,
+            0.1059001013636589
+          ],
+          [
+            -0.4391697347164154,
+            0.8921407461166382,
+            0.1059001088142395
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"moss\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 23}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 24}}}",
+        "max_normal_error": 2.980232238769531e-07,
+        "p99": 2.384185791015625e-07,
+        "corners": 18600,
+        "worst": [
+          2.980232238769531e-07,
+          1.1920928955078125e-07,
+          [
+            -1.0184297561645508,
+            -0.4692029058933258,
+            2.765838146209717
+          ],
+          [
+            0.4144298732280731,
+            -0.8289635181427002,
+            -0.37558919191360474
+          ],
+          [
+            0.414430171251297,
+            -0.8289635181427002,
+            -0.37558919191360474
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.04405977576971054, 0.029528655111789703, 0.021669797599315643, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.960464477539063e-08,
+        "p99": 5.960464477539063e-08,
+        "corners": 96,
+        "worst": [
+          5.960464477539063e-08,
+          1.1920928955078125e-07,
+          [
+            -1.3516745567321777,
+            -1.2729628086090088,
+            0.05885998159646988
+          ],
+          [
+            1.3951738253581425e-07,
+            -1.6486454867958855e-08,
+            -1.0
+          ],
+          [
+            1.395172546381218e-07,
+            -1.648644065710414e-08,
+            -0.9999999403953552
+          ]
+        ]
+      }
+    ],
+    "max_normal_error": 0.01134786894544959
+  },
+  "optimized_import": {
+    "triangle_counts_equal": true,
+    "zero_counts_equal": true,
+    "materials": [
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.9774019122123718, 0.8275708556175232, 0.4919050335884094, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 7.87973403930664e-05,
+        "p99": 6.246566772460938e-05,
+        "corners": 1572,
+        "worst": [
+          7.87973403930664e-05,
+          0.0,
+          [
+            -1.2625081539154053,
+            -1.077096939086914,
+            1.0372287034988403
+          ],
+          [
+            0.21089337766170502,
+            -0.10328736156225204,
+            -0.9720369577407837
+          ],
+          [
+            0.21094727516174316,
+            -0.10320856422185898,
+            -0.9720335602760315
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [0.04381414792357052, 0.008140173968519848, 0.10212530861514857], \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.27383843064308167, 0.05087608844041824, 0.6382831931114197, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.0,
+        "p99": 0.0,
+        "corners": 240,
+        "worst": [
+          0.0,
+          0.0,
+          [
+            1.2114758491516113,
+            -0.8983386754989624,
+            1.402637243270874
+          ],
+          [
+            -0.47869426012039185,
+            0.6085274815559387,
+            0.632887065410614
+          ],
+          [
+            -0.47869426012039185,
+            0.6085274815559387,
+            0.632887065410614
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.295699805021286, 0.07323895394802094, 0.5704815983772278, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 8.046627044677734e-07,
+        "p99": 8.046627044677734e-07,
+        "corners": 30,
+        "worst": [
+          8.046627044677734e-07,
+          4.915124804938387e-07,
+          [
+            1.0570863485336304,
+            0.7586749792098999,
+            6.080322265625
+          ],
+          [
+            0.7962453961372375,
+            0.467205673456192,
+            0.38433337211608887
+          ],
+          [
+            0.7962460517883301,
+            0.46720486879348755,
+            0.3843329846858978
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [0.7105664610862732, 0.0300741046667099, 1], \"extensions\": {\"KHR_materials_emissive_strength\": {\"emissiveStrength\": 1.4500000476837158}}, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.7105664610862732, 0.0300741046667099, 1, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 4.76837158203125e-07,
+        "p99": 4.76837158203125e-07,
+        "corners": 6,
+        "worst": [
+          4.76837158203125e-07,
+          5.960464477539063e-08,
+          [
+            0.7387822866439819,
+            0.7586749792098999,
+            5.708632469177246
+          ],
+          [
+            0.6937656402587891,
+            -0.4070740044116974,
+            -0.5941211581230164
+          ],
+          [
+            0.6937661170959473,
+            -0.4070736765861511,
+            -0.5941209197044373
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.3931231200695038, 0.38005632162094116, 0.3069993257522583, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.543239578604698e-06,
+        "p99": 2.980232238769531e-07,
+        "corners": 252,
+        "worst": [
+          6.543239578604698e-06,
+          0.0,
+          [
+            1.3132001161575317,
+            0.6800000071525574,
+            3.7932002544403076
+          ],
+          [
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          [
+            -6.543239578604698e-06,
+            0.0,
+            0.9999999403953552
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.36724647879600525, 0.12259718775749207, 0.0300741046667099, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.0003466308116912842,
+        "p99": 6.899237632751465e-05,
+        "corners": 10335,
+        "worst": [
+          0.0003466308116912842,
+          1.4901161193847656e-07,
+          [
+            -1.1172000169754028,
+            0.2374999076128006,
+            1.5995749235153198
+          ],
+          [
+            0.8689891695976257,
+            -0.4912846088409424,
+            -0.05913587659597397
+          ],
+          [
+            0.8691742420196533,
+            -0.4909379780292511,
+            -0.05929616838693619
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [1, 0.36724647879600525, 0.006571403704583645], \"extensions\": {\"KHR_materials_emissive_strength\": {\"emissiveStrength\": 1.2300000190734863}}, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [1, 0.36724647879600525, 0.006571403704583645, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.155801773071289e-05,
+        "p99": 5.0067901611328125e-05,
+        "corners": 319,
+        "worst": [
+          5.155801773071289e-05,
+          0.0,
+          [
+            -0.03343097120523453,
+            -1.0493932962417603,
+            1.3543249368667603
+          ],
+          [
+            -0.8730325102806091,
+            -0.3242082893848419,
+            0.36428460478782654
+          ],
+          [
+            -0.8730176091194153,
+            -0.32425984740257263,
+            0.3642742931842804
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.7874122858047485, 0.6920710802078247, 0.47699978947639465, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.00013172626495361328,
+        "p99": 6.279349327087402e-05,
+        "corners": 38864,
+        "worst": [
+          0.00013172626495361328,
+          0.0,
+          [
+            0.02720421552658081,
+            -0.9020000100135803,
+            1.768432855606079
+          ],
+          [
+            -0.9287848472595215,
+            0.31298261880874634,
+            0.1984955072402954
+          ],
+          [
+            -0.9287294745445251,
+            0.31311434507369995,
+            0.19854694604873657
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.4919050335884094, 0.1873166710138321, 0.05290079116821289, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 8.788704872131348e-05,
+        "p99": 7.045269012451172e-05,
+        "corners": 6216,
+        "worst": [
+          8.788704872131348e-05,
+          0.0,
+          [
+            1.1461101770401,
+            -0.16232231259346008,
+            3.1580810546875
+          ],
+          [
+            0.35367369651794434,
+            -0.34660977125167847,
+            0.8687788248062134
+          ],
+          [
+            0.353585809469223,
+            -0.3466789722442627,
+            0.8687868714332581
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.00854038167744875, 0.03310476616024971, 0.19599418342113495, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 6.0677528381347656e-05,
+        "p99": 5.504488945007324e-05,
+        "corners": 1296,
+        "worst": [
+          6.0677528381347656e-05,
+          1.2013700256829907e-07,
+          [
+            -1.052465796470642,
+            -1.2700222730636597,
+            0.21991552412509918
+          ],
+          [
+            -0.39325088262557983,
+            0.3024478852748871,
+            0.8682621121406555
+          ],
+          [
+            -0.3933115601539612,
+            0.3024419844150543,
+            0.8682365417480469
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.15487249195575714, 0.04889732599258423, 0.012510408647358418, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.6684017181396484e-05,
+        "p99": 5.033612251281738e-05,
+        "corners": 414,
+        "worst": [
+          5.6684017181396484e-05,
+          1.7881393432617188e-07,
+          [
+            0.8730301856994629,
+            -0.5137500166893005,
+            2.81127667427063
+          ],
+          [
+            -0.3536857068538666,
+            0.34661227464675903,
+            0.8687728643417358
+          ],
+          [
+            -0.353742390871048,
+            0.3466174602508545,
+            0.8687477707862854
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.01960664801299572, 0.09462962299585342, 0.5225215554237366, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 8.276104927062988e-05,
+        "p99": 5.9217214584350586e-05,
+        "corners": 1338,
+        "worst": [
+          8.276104927062988e-05,
+          0.0,
+          [
+            1.0555295944213867,
+            -0.8699999451637268,
+            0.5036574602127075
+          ],
+          [
+            -0.35368064045906067,
+            -0.3466043770313263,
+            -0.8687780499458313
+          ],
+          [
+            -0.3537479639053345,
+            -0.34652161598205566,
+            -0.8687837719917297
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.01960664801299572, 0.09462962299585342, 0.2529500722885132, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.800000011920929}}",
+        "max_normal_error": 8.04513692855835e-05,
+        "p99": 5.6743621826171875e-05,
+        "corners": 4788,
+        "worst": [
+          8.04513692855835e-05,
+          6.664001972467304e-08,
+          [
+            0.2814438045024872,
+            -0.2791220247745514,
+            3.9491682052612305
+          ],
+          [
+            0.19401557743549347,
+            0.22430001199245453,
+            -0.955011785030365
+          ],
+          [
+            0.19401562213897705,
+            0.22421956062316895,
+            -0.9550306797027588
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.043233636766672134, 0.15487249195575714, 0.36724647879600525, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.800000011920929}}",
+        "max_normal_error": 7.91400671005249e-05,
+        "p99": 5.665421485900879e-05,
+        "corners": 1956,
+        "worst": [
+          7.91400671005249e-05,
+          8.429369557916289e-08,
+          [
+            0.8945562839508057,
+            -0.160877987742424,
+            3.9491682052612305
+          ],
+          [
+            -0.19401557743549347,
+            -0.22430001199245453,
+            -0.955011785030365
+          ],
+          [
+            -0.19401606917381287,
+            -0.224220871925354,
+            -0.9550302624702454
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.05290079116821289, 0.018478473648428917, 0.007850573398172855, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.01134786894544959,
+        "p99": 0.00010326504707336426,
+        "corners": 4979,
+        "worst": [
+          0.01134786894544959,
+          0.0,
+          [
+            1.0252760648727417,
+            -1.0160000324249268,
+            1.25350022315979
+          ],
+          [
+            0.3888910114765167,
+            -0.9212741851806641,
+            -0.004212592262774706
+          ],
+          [
+            0.38902702927589417,
+            -0.9211986660957336,
+            0.007135276682674885
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.13286831974983215, 0.027211781591176987, 0.34239163994789124, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 9.322166442871094e-05,
+        "p99": 9.322166442871094e-05,
+        "corners": 42,
+        "worst": [
+          9.322166442871094e-05,
+          0.0,
+          [
+            1.645538091659546,
+            -0.21498806774616241,
+            2.176237106323242
+          ],
+          [
+            -0.019944578409194946,
+            -0.9997388124465942,
+            0.011166858486831188
+          ],
+          [
+            -0.019851356744766235,
+            -0.9997405409812927,
+            0.011170076206326485
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.6209158897399902, 0.5382355451583862, 0.34239163994789124, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.00018426775932312012,
+        "p99": 5.647540092468262e-05,
+        "corners": 7728,
+        "worst": [
+          0.00018426775932312012,
+          0.0,
+          [
+            -0.5586000084877014,
+            -0.8174999952316284,
+            1.427899956703186
+          ],
+          [
+            0.9362344145774841,
+            -0.351375937461853,
+            3.5244493119535036e-06
+          ],
+          [
+            0.9363036155700684,
+            -0.3511916697025299,
+            -7.66009478070373e-09
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.911407470703125, 0.38005632162094116, 0.01960664801299572, 1], \"metallicFactor\": 0.10000000149011612, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 0.0001942962408065796,
+        "p99": 6.726384162902832e-05,
+        "corners": 3506,
+        "worst": [
+          0.0001942962408065796,
+          0.0,
+          [
+            1.2495001554489136,
+            -1.4900000095367432,
+            1.111799955368042
+          ],
+          [
+            -0.8773822784423828,
+            -0.4722546637058258,
+            -0.08471056818962097
+          ],
+          [
+            -0.8772765398025513,
+            -0.4724162518978119,
+            -0.08490486443042755
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.010816383175551891, 0.006571403704583645, 0.005981059744954109, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 2.971381036331877e-06,
+        "p99": 2.971381036331877e-06,
+        "corners": 13,
+        "worst": [
+          2.971381036331877e-06,
+          0.0,
+          [
+            -0.05829370394349098,
+            -0.6800000071525574,
+            1.832194209098816
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            2.971381036331877e-06
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.04696420207619667, 0.011645430698990822, 0.1259673833847046, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 1.822793856831595e-05,
+        "p99": 9.214582320282716e-06,
+        "corners": 216,
+        "worst": [
+          1.822793856831595e-05,
+          0.0,
+          [
+            -0.20246800780296326,
+            -1.1799999475479126,
+            1.3122808933258057
+          ],
+          [
+            0.0,
+            -1.0,
+            -2.0126063304815034e-07
+          ],
+          [
+            0.0,
+            -1.0,
+            1.80266779352678e-05
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"emissiveFactor\": [1, 1, 1], \"emissiveTexture\": {\"index\": 8}, \"extensions\": {\"KHR_materials_emissive_strength\": {\"emissiveStrength\": 1.2300000190734863}}, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"window\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 9}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 10}}}",
+        "max_normal_error": 7.829070091247559e-05,
+        "p99": 6.783008575439453e-05,
+        "corners": 648,
+        "worst": [
+          7.829070091247559e-05,
+          0.0,
+          [
+            0.7189344763755798,
+            0.49320662021636963,
+            3.824810028076172
+          ],
+          [
+            -0.3337673544883728,
+            -0.8936195969581604,
+            -0.30007198452949524
+          ],
+          [
+            -0.33382561802864075,
+            -0.8936241269111633,
+            -0.29999369382858276
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"wood\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 11}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 12}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 13}}}",
+        "max_normal_error": 0.00013813376426696777,
+        "p99": 6.03795051574707e-05,
+        "corners": 3140,
+        "worst": [
+          0.00013813376426696777,
+          2.6656007889869215e-07,
+          [
+            -0.7404836416244507,
+            -1.1569499969482422,
+            2.010990858078003
+          ],
+          [
+            0.41843381524086,
+            0.0,
+            -0.9082472324371338
+          ],
+          [
+            0.41857194900512695,
+            0.0,
+            -0.9081836342811584
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.03310476616024971, 0.043233636766672134, 0.05497173219919205, 1], \"metallicFactor\": 0.44999998807907104, \"roughnessFactor\": 0.7599999904632568}}",
+        "max_normal_error": 3.248453140258789e-06,
+        "p99": 3.248453140258789e-06,
+        "corners": 36,
+        "worst": [
+          3.248453140258789e-06,
+          0.0,
+          [
+            -0.8065399527549744,
+            -1.0678757429122925,
+            2.1582000255584717
+          ],
+          [
+            0.8703437447547913,
+            0.4924446642398834,
+            0.0
+          ],
+          [
+            0.8703455328941345,
+            0.49244141578674316,
+            0.0
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.2846466898918152, 0.47699978947639465, 0.027211781591176987, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.8300793170928955e-06,
+        "p99": 4.366040229797363e-06,
+        "corners": 1452,
+        "worst": [
+          5.8300793170928955e-06,
+          1.1944189282075968e-07,
+          [
+            -0.7440446019172668,
+            -2.065355062484741,
+            0.12079642713069916
+          ],
+          [
+            -0.11843668669462204,
+            -0.9914661645889282,
+            -0.05447530373930931
+          ],
+          [
+            -0.11843748390674591,
+            -0.9914664030075073,
+            -0.05446947365999222
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.06372379511594772, 0.16264718770980835, 0.010816383175551891, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.066394805908203e-06,
+        "p99": 3.844499588012695e-06,
+        "corners": 1272,
+        "worst": [
+          5.066394805908203e-06,
+          5.972094641037984e-08,
+          [
+            -0.7793706655502319,
+            -2.0824172496795654,
+            0.04968418553471565
+          ],
+          [
+            -0.3596443235874176,
+            -0.8887577652931213,
+            -0.28419286012649536
+          ],
+          [
+            -0.3596450090408325,
+            -0.8887558579444885,
+            -0.28419792652130127
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.13286831974983215, 0.31854677200317383, 0.017389101907610893, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 5.8710575103759766e-06,
+        "p99": 3.6507844924926758e-06,
+        "corners": 1116,
+        "worst": [
+          5.8710575103759766e-06,
+          6.143906006172983e-08,
+          [
+            -0.7812235355377197,
+            -2.087141275405884,
+            0.19580994546413422
+          ],
+          [
+            -0.6018369197845459,
+            -0.7354490160942078,
+            0.311299204826355
+          ],
+          [
+            -0.6018365621566772,
+            -0.7354468107223511,
+            0.31130507588386536
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.13286831974983215, 0.17064493894577026, 0.21404114365577698, 1], \"metallicFactor\": 0.3499999940395355, \"roughnessFactor\": 0.41999998688697815}}",
+        "max_normal_error": 1.5437602996826172e-05,
+        "p99": 1.5437602996826172e-05,
+        "corners": 528,
+        "worst": [
+          1.5437602996826172e-05,
+          0.0,
+          [
+            0.9626291394233704,
+            0.722000002861023,
+            2.3149161338806152
+          ],
+          [
+            -0.6285204291343689,
+            0.0,
+            0.7777931690216064
+          ],
+          [
+            -0.6285049915313721,
+            0.0,
+            0.777805507183075
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.011645430698990822, 0.059253521263599396, 0.15487249195575714, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.800000011920929}}",
+        "max_normal_error": 7.124245166778564e-05,
+        "p99": 5.626678466796875e-05,
+        "corners": 3312,
+        "worst": [
+          7.124245166778564e-05,
+          2.874031963528978e-07,
+          [
+            0.2814438045024872,
+            -0.695038378238678,
+            3.5183868408203125
+          ],
+          [
+            0.1801840364933014,
+            0.9549275636672974,
+            -0.23589636385440826
+          ],
+          [
+            0.18018147349357605,
+            0.9549455642700195,
+            -0.23582512140274048
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"wood\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 14}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 15}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 16}}}",
+        "max_normal_error": 0.003228425979614258,
+        "p99": 0.00014519691467285156,
+        "corners": 1708,
+        "worst": [
+          0.003228425979614258,
+          0.0,
+          [
+            -0.8213583827018738,
+            -1.0516270399093628,
+            0.2725469470024109
+          ],
+          [
+            0.5895276069641113,
+            -0.7830361127853394,
+            0.19827142357826233
+          ],
+          [
+            0.5881978869438171,
+            -0.7848448157310486,
+            0.19504299759864807
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 0}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 1}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 2}}}",
+        "max_normal_error": 0.0005145333707332611,
+        "p99": 1.0848045349121094e-05,
+        "corners": 25680,
+        "worst": [
+          0.0005145333707332611,
+          4.76837158203125e-07,
+          [
+            0.24066627025604248,
+            0.5135182738304138,
+            3.4189796447753906
+          ],
+          [
+            0.05353991687297821,
+            -0.194941908121109,
+            -0.9793524146080017
+          ],
+          [
+            0.05302538350224495,
+            -0.19499416649341583,
+            -0.9793699979782104
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 3}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 4}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 5}}}",
+        "max_normal_error": 0.0004971399903297424,
+        "p99": 0.00028705596923828125,
+        "corners": 25680,
+        "worst": [
+          0.0004971399903297424,
+          4.214684778958144e-08,
+          [
+            0.4161929190158844,
+            0.21575842797756195,
+            0.7459767460823059
+          ],
+          [
+            -0.58648282289505,
+            -0.1150709018111229,
+            -0.8017460107803345
+          ],
+          [
+            -0.5864962935447693,
+            -0.11556804180145264,
+            -0.8016645908355713
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 17}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 18}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 19}}}",
+        "max_normal_error": 1.438334584236145e-05,
+        "p99": 8.58306884765625e-06,
+        "corners": 2190,
+        "worst": [
+          1.438334584236145e-05,
+          4.915124804938387e-07,
+          [
+            0.7910163402557373,
+            0.845946192741394,
+            4.986649513244629
+          ],
+          [
+            -0.05469842255115509,
+            -0.7052193284034729,
+            -0.7068761587142944
+          ],
+          [
+            -0.05468403920531273,
+            -0.7052215933799744,
+            -0.7068749070167542
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"leaf\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"normalTexture\": {\"index\": 20}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 21}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 22}}}",
+        "max_normal_error": 1.17570161819458e-05,
+        "p99": 8.910894393920898e-06,
+        "corners": 2190,
+        "worst": [
+          1.17570161819458e-05,
+          2.4439722778879513e-07,
+          [
+            0.22249208390712738,
+            0.30463695526123047,
+            3.984788179397583
+          ],
+          [
+            0.06732106953859329,
+            -0.26837190985679626,
+            -0.9609601497650146
+          ],
+          [
+            0.06730931252241135,
+            -0.26837393641471863,
+            -0.9609604477882385
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"moss\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 6}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 7}}}",
+        "max_normal_error": 0.0005217501893639565,
+        "p99": 1.7195940017700195e-05,
+        "corners": 263520,
+        "worst": [
+          0.0005217501893639565,
+          2.731428025981586e-07,
+          [
+            0.8795504570007324,
+            1.2247705459594727,
+            3.0562679767608643
+          ],
+          [
+            -0.2230881005525589,
+            -0.0005928422324359417,
+            -0.9747982025146484
+          ],
+          [
+            -0.22308766841888428,
+            -0.0011145924217998981,
+            -0.9747977256774902
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"moss\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 23}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 24}}}",
+        "max_normal_error": 6.797909736633301e-05,
+        "p99": 2.41696834564209e-05,
+        "corners": 18600,
+        "worst": [
+          6.797909736633301e-05,
+          4.76837158203125e-07,
+          [
+            1.0622650384902954,
+            0.5690236687660217,
+            4.636821269989014
+          ],
+          [
+            0.35822179913520813,
+            -0.0007114609470590949,
+            -0.9336362481117249
+          ],
+          [
+            0.35828977823257446,
+            -0.0007137414067983627,
+            -0.933610200881958
+          ]
+        ]
+      },
+      {
+        "material": "{\"doubleSided\": true, \"extras\": {\"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorFactor\": [0.04405977576971054, 0.029528655111789703, 0.021669797599315643, 1], \"metallicFactor\": 0, \"roughnessFactor\": 0.7799999713897705}}",
+        "max_normal_error": 9.991228580474854e-06,
+        "p99": 9.991228580474854e-06,
+        "corners": 96,
+        "worst": [
+          9.991228580474854e-06,
+          1.1920928955078125e-07,
+          [
+            -1.311903715133667,
+            -1.3235993385314941,
+            0.27685999870300293
+          ],
+          [
+            0.9930905103683472,
+            0.11735127121210098,
+            0.0
+          ],
+          [
+            0.9930917024612427,
+            0.11734127998352051,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "max_normal_error": 0.01134786894544959
+  }
+}

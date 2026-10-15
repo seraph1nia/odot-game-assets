@@ -1,0 +1,350 @@
+{
+  "materials": [
+    {
+      "material": "purple_light",
+      "stages": {
+        "detailed_source": {
+          "triangles": 20,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 10,
+          "min_nonzero_area": 0.07265907057003881
+        },
+        "runtime_profile_source": {
+          "triangles": 20,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 10,
+          "min_nonzero_area": 0.07265907057003881
+        },
+        "baseline_landed_buffers": {
+          "triangles": 20,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 10,
+          "min_nonzero_area": 0.07265906111150483
+        },
+        "baseline_landed_reimport": {
+          "triangles": 20,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 10,
+          "min_nonzero_area": 0.07265906111150483
+        },
+        "optimized_buffers": {
+          "triangles": 20,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 10,
+          "min_nonzero_area": 0.07265901011224636
+        },
+        "optimized_reimport": {
+          "triangles": 10,
+          "exact_zero_area": 0,
+          "nonzero_triangles": 10,
+          "min_nonzero_area": 0.07265901011224636
+        },
+        "unmodified_counterfactual_buffers": {
+          "triangles": 20,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 10,
+          "min_nonzero_area": 0.07265906111150483
+        },
+        "unmodified_counterfactual_reimport": {
+          "triangles": 20,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 10,
+          "min_nonzero_area": 0.07265906111150483
+        },
+        "runtime_profile_unbatched_buffers": {
+          "triangles": 20,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 10,
+          "min_nonzero_area": 0.07265906111150483
+        },
+        "runtime_profile_unbatched_reimport": {
+          "triangles": 20,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 10,
+          "min_nonzero_area": 0.07265906111150483
+        }
+      },
+      "source_objects": [
+        "Academy purple crystal"
+      ]
+    },
+    {
+      "material": "magic",
+      "stages": {
+        "detailed_source": {
+          "triangles": 12,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 2,
+          "min_nonzero_area": 0.07265908639568355
+        },
+        "runtime_profile_source": {
+          "triangles": 12,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 2,
+          "min_nonzero_area": 0.07265908639568355
+        },
+        "baseline_landed_buffers": {
+          "triangles": 12,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 2,
+          "min_nonzero_area": 0.07265908639568355
+        },
+        "baseline_landed_reimport": {
+          "triangles": 12,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 2,
+          "min_nonzero_area": 0.07265908639568355
+        },
+        "optimized_buffers": {
+          "triangles": 12,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 2,
+          "min_nonzero_area": 0.07265901677271605
+        },
+        "optimized_reimport": {
+          "triangles": 2,
+          "exact_zero_area": 0,
+          "nonzero_triangles": 2,
+          "min_nonzero_area": 0.07265901677271605
+        },
+        "unmodified_counterfactual_buffers": {
+          "triangles": 12,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 2,
+          "min_nonzero_area": 0.07265908639568355
+        },
+        "unmodified_counterfactual_reimport": {
+          "triangles": 12,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 2,
+          "min_nonzero_area": 0.07265908639568355
+        },
+        "runtime_profile_unbatched_buffers": {
+          "triangles": 12,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 2,
+          "min_nonzero_area": 0.07265908639568355
+        },
+        "runtime_profile_unbatched_reimport": {
+          "triangles": 12,
+          "exact_zero_area": 10,
+          "nonzero_triangles": 2,
+          "min_nonzero_area": 0.07265908639568355
+        }
+      },
+      "source_objects": [
+        "Academy purple crystal"
+      ]
+    },
+    {
+      "material": "window",
+      "stages": {
+        "detailed_source": {
+          "triangles": 185,
+          "exact_zero_area": 14,
+          "nonzero_triangles": 171,
+          "min_nonzero_area": 5.195144211807098e-05
+        },
+        "runtime_profile_source": {
+          "triangles": 185,
+          "exact_zero_area": 14,
+          "nonzero_triangles": 171,
+          "min_nonzero_area": 5.195144211807098e-05
+        },
+        "baseline_landed_buffers": {
+          "triangles": 185,
+          "exact_zero_area": 14,
+          "nonzero_triangles": 171,
+          "min_nonzero_area": 5.195144211807098e-05
+        },
+        "baseline_landed_reimport": {
+          "triangles": 185,
+          "exact_zero_area": 14,
+          "nonzero_triangles": 171,
+          "min_nonzero_area": 5.195144211807098e-05
+        },
+        "optimized_buffers": {
+          "triangles": 185,
+          "exact_zero_area": 14,
+          "nonzero_triangles": 171,
+          "min_nonzero_area": 5.195144211807098e-05
+        },
+        "optimized_reimport": {
+          "triangles": 171,
+          "exact_zero_area": 0,
+          "nonzero_triangles": 171,
+          "min_nonzero_area": 5.195144211807098e-05
+        },
+        "unmodified_counterfactual_buffers": {
+          "triangles": 185,
+          "exact_zero_area": 14,
+          "nonzero_triangles": 171,
+          "min_nonzero_area": 5.195144211807098e-05
+        },
+        "unmodified_counterfactual_reimport": {
+          "triangles": 185,
+          "exact_zero_area": 14,
+          "nonzero_triangles": 171,
+          "min_nonzero_area": 5.195144211807098e-05
+        },
+        "runtime_profile_unbatched_buffers": {
+          "triangles": 185,
+          "exact_zero_area": 14,
+          "nonzero_triangles": 171,
+          "min_nonzero_area": 5.195144211807098e-05
+        },
+        "runtime_profile_unbatched_reimport": {
+          "triangles": 185,
+          "exact_zero_area": 14,
+          "nonzero_triangles": 171,
+          "min_nonzero_area": 5.195144211807098e-05
+        }
+      },
+      "source_objects": [
+        "Candle flame"
+      ]
+    },
+    {
+      "material": "wood_edge",
+      "stages": {
+        "detailed_source": {
+          "triangles": 3132,
+          "exact_zero_area": 24,
+          "nonzero_triangles": 3108,
+          "min_nonzero_area": 5.329070518200751e-15
+        },
+        "runtime_profile_source": {
+          "triangles": 3132,
+          "exact_zero_area": 24,
+          "nonzero_triangles": 3108,
+          "min_nonzero_area": 5.329070518200751e-15
+        },
+        "baseline_landed_buffers": {
+          "triangles": 3132,
+          "exact_zero_area": 24,
+          "nonzero_triangles": 3108,
+          "min_nonzero_area": 5.329070518200751e-15
+        },
+        "baseline_landed_reimport": {
+          "triangles": 3132,
+          "exact_zero_area": 24,
+          "nonzero_triangles": 3108,
+          "min_nonzero_area": 5.329070518200751e-15
+        },
+        "optimized_buffers": {
+          "triangles": 3132,
+          "exact_zero_area": 24,
+          "nonzero_triangles": 3108,
+          "min_nonzero_area": 5.329070518200751e-15
+        },
+        "optimized_reimport": {
+          "triangles": 3108,
+          "exact_zero_area": 0,
+          "nonzero_triangles": 3108,
+          "min_nonzero_area": 5.329070518200751e-15
+        },
+        "unmodified_counterfactual_buffers": {
+          "triangles": 3132,
+          "exact_zero_area": 24,
+          "nonzero_triangles": 3108,
+          "min_nonzero_area": 5.329070518200751e-15
+        },
+        "unmodified_counterfactual_reimport": {
+          "triangles": 3132,
+          "exact_zero_area": 24,
+          "nonzero_triangles": 3108,
+          "min_nonzero_area": 5.329070518200751e-15
+        },
+        "runtime_profile_unbatched_buffers": {
+          "triangles": 3132,
+          "exact_zero_area": 24,
+          "nonzero_triangles": 3108,
+          "min_nonzero_area": 5.329070518200751e-15
+        },
+        "runtime_profile_unbatched_reimport": {
+          "triangles": 3132,
+          "exact_zero_area": 24,
+          "nonzero_triangles": 3108,
+          "min_nonzero_area": 5.329070518200751e-15
+        }
+      },
+      "source_objects": [
+        "Banner hanging rod"
+      ]
+    },
+    {
+      "material": "wall",
+      "stages": {
+        "detailed_source": {
+          "triangles": 3892,
+          "exact_zero_area": 4,
+          "nonzero_triangles": 3888,
+          "min_nonzero_area": 6.936515304732612e-10
+        },
+        "runtime_profile_source": {
+          "triangles": 3892,
+          "exact_zero_area": 4,
+          "nonzero_triangles": 3888,
+          "min_nonzero_area": 6.936515304732612e-10
+        },
+        "baseline_landed_buffers": {
+          "triangles": 3892,
+          "exact_zero_area": 4,
+          "nonzero_triangles": 3888,
+          "min_nonzero_area": 6.936515304732612e-10
+        },
+        "baseline_landed_reimport": {
+          "triangles": 3892,
+          "exact_zero_area": 4,
+          "nonzero_triangles": 3888,
+          "min_nonzero_area": 6.936515304732612e-10
+        },
+        "optimized_buffers": {
+          "triangles": 3892,
+          "exact_zero_area": 4,
+          "nonzero_triangles": 3888,
+          "min_nonzero_area": 6.936515304732612e-10
+        },
+        "optimized_reimport": {
+          "triangles": 3888,
+          "exact_zero_area": 0,
+          "nonzero_triangles": 3888,
+          "min_nonzero_area": 6.936515304732612e-10
+        },
+        "unmodified_counterfactual_buffers": {
+          "triangles": 3892,
+          "exact_zero_area": 4,
+          "nonzero_triangles": 3888,
+          "min_nonzero_area": 6.936515304732612e-10
+        },
+        "unmodified_counterfactual_reimport": {
+          "triangles": 3892,
+          "exact_zero_area": 4,
+          "nonzero_triangles": 3888,
+          "min_nonzero_area": 6.936515304732612e-10
+        },
+        "runtime_profile_unbatched_buffers": {
+          "triangles": 3892,
+          "exact_zero_area": 4,
+          "nonzero_triangles": 3888,
+          "min_nonzero_area": 6.936515304732612e-10
+        },
+        "runtime_profile_unbatched_reimport": {
+          "triangles": 3892,
+          "exact_zero_area": 4,
+          "nonzero_triangles": 3888,
+          "min_nonzero_area": 6.936515304732612e-10
+        }
+      },
+      "source_objects": [
+        "Front limestone block.012"
+      ]
+    }
+  ],
+  "source_sha256": "3cd5d8cbde136e5ca725d375754ac3dc22dfadf4ba9254c67276c24f731e0930",
+  "runtime_detail": {
+    "tiny_bevels": 12,
+    "moss_instances": 2183,
+    "moss_mesh_variants": 2
+  }
+}

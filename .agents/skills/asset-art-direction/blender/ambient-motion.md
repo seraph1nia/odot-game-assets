@@ -20,8 +20,9 @@ rebuild. First read the applicable [building](../families/buildings.md) or
 - Export existing sources via the official catalog tools; set `ambient: true`
   under each affected association's `animation_policy`. A metadata entry alone
   is not a playable animation.
-- Run the independent `verify_ambient_blender.py` worker and fast ambient receipt
-  tests. Check actual exported mesh motion, closed endpoints, unchanged fixed
-  transforms, source/export poses and narrow geometry costs. Review matched
+- For current exports, follow the [runtime successor verification procedure](../../../../docs/runtime-optimization/README.md#repeatable-commands)
+  and run the fast ambient receipt tests. Check actual exported mesh motion,
+  closed endpoints, unchanged fixed transforms, source/export poses and narrow
+  geometry costs. Review matched
   exported frames/GIFs for restrained movement and attachments. Renderer/browser
   evidence is not game-engine, GPU or artist acceptance.

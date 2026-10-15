@@ -1,0 +1,26 @@
+{
+  "landed_vs_unmodified_counterfactual": {
+    "serialized_triangle_count": 248974,
+    "one_to_one_transformed_triangle_attributes_equal": true,
+    "zero_area_triangles_not_filtered": true,
+    "exact_zero_area_before": 62,
+    "exact_zero_area_after": 62,
+    "max_attribute_component_error": 5.960464477539063e-08
+  },
+  "profile_raw_vs_failed_optimized": {
+    "serialized_triangle_count": 160886,
+    "one_to_one_transformed_triangle_attributes_equal": true,
+    "zero_area_triangles_not_filtered": true,
+    "exact_zero_area_before": 62,
+    "exact_zero_area_after": 62,
+    "max_attribute_component_error": 4.76837158203125e-07
+  },
+  "profile_raw_vs_corrected_optimized": {
+    "serialized_triangle_count": 160886,
+    "one_to_one_transformed_triangle_attributes_equal": true,
+    "zero_area_triangles_not_filtered": true,
+    "exact_zero_area_before": 62,
+    "exact_zero_area_after": 62,
+    "max_attribute_component_error": 4.76837158203125e-07
+  }
+}

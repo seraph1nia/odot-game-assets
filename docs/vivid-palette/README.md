@@ -7,8 +7,11 @@ records; their hashes are not current acceptance bindings.
 
 The additional authorized [localized-motion delivery](../ambient-motion/README.md)
 adds actual `ambient` clips to all 16 buildings and nine water entries. The color
-checkpoint is `ac41b74`; final neutral pairs below are refreshed from the final
-exports. Motion has separate strict preservation, playback and evidence receipts.
+checkpoint is `ac41b74`; neutral pairs below record the detailed exports landed at
+`9a69b514`. Motion has separate strict preservation, playback and evidence receipts.
+Those render/count ledgers are now immutable historical snapshots, not current
+optimized-export bindings; see the [runtime successor record](../runtime-optimization/README.md)
+for current comparisons and verification.
 
 ## Reference-led observations and implementation
 
@@ -119,8 +122,8 @@ separate mechanical results from visual judgments.
 - `verify_forest_blender.py`: all eleven tile compositions retain footprint,
   river interfaces, shared component geometry and library freshness.
 - `verify_vivid_blender.py`: independent comparison of 67 saved sources against
-  their palette checkpoint (or unchanged final source), composed with the fresh
-  independent motion audit for the 23 later edited owners. Original structure,
+  their palette checkpoint (or unchanged final source), composed with the hash-bound
+  landed motion audit for the 23 later edited owners. Original structure,
   IDs, Non-Color pixels, texture alpha and physical defaults/emission strengths
   survive; declared ambient pivots/new shimmer geometry are not disguised as old.
   [Exact packed/encoded PNG proofs](../ambient-motion/README.md#exact-image-preservation-not-normalized-float-hashes)
@@ -133,20 +136,21 @@ separate mechanical results from visual judgments.
   catalog thumbnails. The 35 saved-source presentation previews are explicitly
   **palette-checkpoint views**, without source saves; `presentation.json` retains
   their original source/image bindings, not falsely rebound final hashes. They
-  are not motion evidence. Final neutral/motion GLB renders qualify the current
-  output. Neutral renderer bytes are unchanged; auto-fit is not a game camera.
+  are not motion evidence. Final neutral/motion GLB renders qualify the landed
+  detailed output. Neutral renderer bytes are unchanged; auto-fit is not a game camera.
 - Standalone task-private Chrome reviewed the portable Lavish export at desktop
   and narrow widths; all 63 displayed images loaded with no horizontal overflow.
   Project reference-library tokens/serif hierarchy supplied the page design.
 
 Run authoring/check scripts only in isolated workers. For the painted audit,
 pass canonical IDs from `baseline.json::jobs`; no-ID behavior is not a substitute
-for the explicit full selection. Recompile current evidence with
-`python3 -m tools.asset_pack.vivid_review --blender /path/to/blender`; `--render`
-explicitly refreshes stale actual exports. Export/check **before** final rendering:
-separate export processes can reorder GLB bytes, so old image hashes must not be
-rebound to a later export without rerendering. Current freshness tests fail closed
-on changed export, image, derivative or renderer hashes.
+for the explicit full selection. Do not rerun `vivid_review` against optimized
+exports: it enforces the historical detailed-geometry counts and can partially
+rewrite the landed receipts before failing. Use the runtime successor procedure
+linked above for current export comparisons. Separate export processes can reorder
+GLB bytes, so old image hashes must not be rebound to a later export without
+rerendering. Freshness tests retain image, derivative and renderer hash checks;
+changed exports require the separately hash-bound runtime successor audit.
 
 Root overview assemblies and two seal-authoring Blender sources remain historical
 assemblies, unchanged; they are not silently rebuilt or advertised as synchronized

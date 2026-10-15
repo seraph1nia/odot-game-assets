@@ -1,0 +1,43 @@
+{
+  "asset": "buildings/arrow_tower",
+  "before_glb_sha256": "7734a3dcd5deb492d9eb6537707507b9cd3600afed0d185dae22522f1a3f9c82",
+  "after_glb_sha256": "e5dd348375fe2e74a2ff4b0eacccd52de81194a8348909efc2d6297513f80f35",
+  "blender": "5.2.2 LTS",
+  "blender_build": "d13f752e3b9c",
+  "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+  "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+  "camera": {
+    "position": [
+      7.474255084991455,
+      -11.471193313598633,
+      9.441883087158203
+    ],
+    "rotation": [
+      1.107764720916748,
+      -3.27883000750262e-08,
+      0.5880025625228882
+    ],
+    "ortho_scale": 8.76327896118164,
+    "resolution": [
+      480,
+      480
+    ],
+    "frame": 1,
+    "engine": "CYCLES",
+    "samples": 24,
+    "view_transform": "AgX",
+    "look": "None",
+    "exposure": 0.0,
+    "glow": false,
+    "lights": "Same three neutral SUN lights and world, untouched between imports",
+    "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+  },
+  "images": {
+    "docs/runtime-optimization/evidence/buildings/arrow_tower/before.png": "7124a93afc034c021d4f969212671bd6dd4760fef68e460fd43a4eab95000bc2",
+    "docs/runtime-optimization/evidence/buildings/arrow_tower/before-192.png": "53d41ab80fbf0acfe98243424863c68f0950281e537eb49d9bdd70d5f6155c82",
+    "docs/runtime-optimization/evidence/buildings/arrow_tower/before-96.png": "23a6ab493f1e46ed9e77df39846b5b3bbef72d8ea42ca8a63538d1c950280722",
+    "docs/runtime-optimization/evidence/buildings/arrow_tower/after.png": "47a2c3a0737eec825d4a309b0c8a982a021a4376f9389cd987775b7eade2016b",
+    "docs/runtime-optimization/evidence/buildings/arrow_tower/after-192.png": "297f9c372e6929d32b2db7677a24c76bcf45e04bc5902bc72dec86aa4c839997",
+    "docs/runtime-optimization/evidence/buildings/arrow_tower/after-96.png": "9d5f3fa0f5237bc45df67ac9d1ce762700e61f8d8eab67901221f5a34d36f064"
+  }
+}

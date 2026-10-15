@@ -6,6 +6,7 @@ The asset collection or root object must match its ID stem; equipment is include
 import argparse
 from contextlib import contextmanager
 import sys
+import shutil
 import tempfile
 from pathlib import Path
 
@@ -17,6 +18,8 @@ from tools.asset_catalog.index import CatalogIndex, write_json
 from tools.asset_catalog.metadata import read_glb
 from tools.asset_catalog.export_sources import plan_exports
 from tools.asset_catalog.blender_selection import load_asset
+from tools.asset_catalog.runtime_glb import optimize, VERSION
+from tools.asset_pack.runtime_detail import export_detail
 
 
 @contextmanager
@@ -75,10 +78,13 @@ def main():
     parser.add_argument('assets', nargs='*')
     parser.add_argument('--all', action='store_true')
     parser.add_argument('--root', type=Path, default=ROOT)
+    parser.add_argument('--audit-dir', type=Path, help='Optional task-local .cache directory for pre-batch GLBs')
     args = parser.parse_args(sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else [])
     if not args.assets and not args.all:
         parser.error('Supply asset IDs or --all')
     repo_root = args.root.resolve()
+    if args.audit_dir and not args.audit_dir.resolve().is_relative_to(repo_root / '.cache'):
+        parser.error('--audit-dir must be under this repository .cache')
     jobs = plan_exports(repo_root, None if args.all else args.assets)
     index = CatalogIndex(repo_root)
     manifest = index.read_json('exports/asset_manifest.json', [])
@@ -100,7 +106,7 @@ def main():
         temporary = Path(workspace.name) / target.name
         animated = any(obj.type == 'ARMATURE' or obj.animation_data for obj in objects)
         try:
-            with _export_material_bindings(objects):
+            with _export_material_bindings(objects), export_detail(objects, asset_id) as simplified:
                 result = bpy.ops.export_scene.gltf(
                     filepath=str(temporary), use_selection=True, export_animations=animated,
                     export_apply=True, export_extras=True, export_cameras=False,
@@ -108,6 +114,11 @@ def main():
                     export_animation_mode='ACTIONS')
             if 'FINISHED' not in result:
                 raise RuntimeError(f'Export failed: {asset_id}')
+            if args.audit_dir:
+                audit = args.audit_dir.resolve() / (asset_id + '.glb')
+                audit.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(temporary, audit)
+            optimized = optimize(temporary, asset_id)
             facts = read_glb(temporary)
             temporary.replace(target)
         finally:
@@ -117,6 +128,15 @@ def main():
                        'meshes': facts['meshes'], 'triangles': facts['triangles'], 'materials': facts['materials'],
                        'animations': [clip['name'] for clip in facts['animations']],
                        'source': job['source']}
+        if optimized:
+            reports[key]['runtime_optimization'] = VERSION
+        else:
+            reports[key].pop('runtime_optimization', None)
+        if any(simplified.values()):
+            reports[key]['runtime_detail'] = simplified
+        else:
+            reports[key].pop('runtime_detail', None)
+        reports[key].pop('simplified_tiny_bevels', None)
         instances = [obj for obj in objects if obj.get('kit_asset')]
         if instances:
             usage = {}
