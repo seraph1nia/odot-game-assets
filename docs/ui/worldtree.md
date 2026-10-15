@@ -2,16 +2,18 @@
 
 ## Whisperwood selective refresh
 
-Alive foliage/root bodies are muted; the original small luminous accents,
+Current [vivid color recovery](../vivid-palette/README.md) supersedes the greyed
+ornament bodies: alive foliage/root greens and selected parchment/violet trim
+recover their original colorful hues. Small luminous accents, SVG geometry/alpha,
 24-node/23-edge topology, animation/state API and hit geometry are unchanged.
-[The overhaul ledger](../whisperwood/README.md) records retained/refined subparts.
+The [first overhaul ledger](../whisperwood/README.md) remains historical.
 [worldtree-validation.json](worldtree-validation.json) owns the current full
 standalone campaign selection, measured counts, capture hashes, payload and
 package bindings. Its package receipt records a direct independent native load;
 no historical archive continuity or static distribution-copy equality is claimed.
-Current captures have no newly recorded Worldtree stage/size/gallery/transition
-visual judgment in that binding; historical image reviews do not transfer to
-changed pixels. The older qualification narrative below remains historical.
+Current catalog HUD/Worldtree captures were inspected for color recovery and
+retained readability. Full stage/size/gallery/transition artistic judgment is
+not claimed; historical image reviews do not transfer to changed pixels. The older qualification narrative below remains historical.
 No actual-game, native-GPU or artist acceptance claim.
 
 This additive component does not replace the accepted 10-node `skill_tree`, its

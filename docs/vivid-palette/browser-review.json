@@ -1,0 +1,53 @@
+{
+  "scope": "Task-private standalone asset report and portable Lavish export; not game/GPU/artist acceptance",
+  "design_source": "Project reference-library CSS tokens and serif hierarchy (existing subject design, not a CDN/new design system)",
+  "page": "docs/vivid-palette/actual-review.html",
+  "page_sha256": "8397557d8a42307ec512f261a072c17ff11135809b3c8402706562789fc0e220",
+  "portable_export_sha256": "cb6d9d10b925510fd5d9dadfdb565043666c88a7376a646a59a17cfa6ef5aa16",
+  "portable_export_unresolved_local_assets": 0,
+  "lavish_session": "http://desktop.tail449e9e.ts.net:4387/session/6aafd1f03ff4b28e",
+  "handoff": "lavish-axi reply accepted; no untracked background poll or discretionary aesthetic approval gate",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "displayed_images": 63,
+      "loaded": 63,
+      "horizontal_overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "displayed_images": 63,
+      "loaded": 63,
+      "horizontal_overflow": false
+    }
+  ],
+  "screenshots": {
+    "desktop": {
+      "path": "docs/vivid-palette/evidence/browser/desktop.png",
+      "sha256": "8943cc7cf69dccfd3a95bb506cb8d79083f31f48651d401a3a2a4d9c0cda252b"
+    },
+    "mobile": {
+      "path": "docs/vivid-palette/evidence/browser/mobile.png",
+      "sha256": "c533ba126f72016856f12628721362c98ffc9330f9649af7cc80207ec34c9cda"
+    }
+  },
+  "browser": {
+    "path": ".cache/quality-round-two/browser/chrome-linux64/chrome",
+    "version": "Google Chrome for Testing 155.0.8059.79",
+    "sha256": "58957d0e74a9073626131018aabf17d97318227cca9b5dbdf5dee16345f2d211",
+    "provisioning": "Previously approved official distribution, retained unchanged; docs/quality-round-two/browser-provenance.json",
+    "previous_provenance_sha256": "8c62f7ec446416e16ba7b9c87742a4449d3b4a9b41b5080e60523d75533f833b"
+  },
+  "mcp": {
+    "path": "/home/bart/.npm/_npx/15c61037b1978c83/node_modules/chrome-devtools-mcp/build/src/bin/chrome-devtools-mcp.js",
+    "sha256": "9f380d06e1ac05b257e27e708c0cc4b4ba190e285ed6eb6c8aa50978d98a12c5",
+    "mode": "Existing installed MCP via task-local executablePath adapter/private profile/named axi session; no dependency installation"
+  },
+  "limits": [
+    "Lavish sandbox iframe disallows top-level DOM inspection; untokened direct artifact route expired. Those diagnostics are not acceptance. Official portable export was directly reviewed instead.",
+    "All eleven full-catalog sheets and focal actual images inspected by implementation agent; not commissioned artist approval.",
+    "No game repository/process, global configuration, purchase or new dependency."
+  ]
+}

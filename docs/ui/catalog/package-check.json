@@ -1,15 +1,15 @@
 {
-  "package_sha256": "4df648aeaa39b3f7b7b6743a01e932b4f43fb3d97ae61717a07193cb5a9e351b",
+  "package_sha256": "840b69d7c91d743608ea01c8a9e10bdfb82c8050abda1bf93d798b171b2bc2a9",
   "files": {
     "UI/art/menu_seal.png": "cf3e2ceb4510be6d6a052e882597c2313216e2268a9aaa61fdf1d7e1308d2ced",
     "UI/art/menu_seal.png.import": "8f06dede6295eba269e542a904e5ae91904db6eafd43f5ed225f15713d584529",
-    "UI/art/woodland/branch_frame.svg": "8551d9ce037fe931bbf482e30ea1026dad866fcdc50b49dbf6a033f0b6cd3657",
+    "UI/art/woodland/branch_frame.svg": "09b1f374d4cda303d2e73cf4d34e03830dd0060f92cd3fe3339200dc3c3beada",
     "UI/art/woodland/branch_frame.svg.import": "126b5d8f1f7650f5033d4476275ab50a3bb78d961b83855db3a942c30624ca08",
-    "UI/art/woodland/parchment_button.svg": "bd36470e0318302584f040bcb5e57f6d0f54782535aaac9fe9370935120f6613",
+    "UI/art/woodland/parchment_button.svg": "98398d1e0bc3f811bcc205a61726e30c2162d3159368e146f542203bfc674e5e",
     "UI/art/woodland/parchment_button.svg.import": "c2fa5a08c8cc78c8c9369b69b405cfa478460c3eef5e030795129ddbd847f1d4",
-    "UI/art/woodland/resource_icons.svg": "68dd1e8623b8144bf558f3a575872175a31a776f0bafb53b454a22fe3e2588be",
+    "UI/art/woodland/resource_icons.svg": "5c6506c29d9b111f4c78633fcbf422fd28c15aea961d8aac36a578bd950138cd",
     "UI/art/woodland/resource_icons.svg.import": "813b796cc0ca5fd7265a3afe75321a13b954bf5124652fde9e515d72b2bf22ce",
-    "UI/art/woodland/woodland_corners.svg": "aaaa2be06b9a920e0a2478b49a16bc52488c5a30254f32b9d55c808f52b688a1",
+    "UI/art/woodland/woodland_corners.svg": "fb0368d3baaecddd2ddde184042e86429f38170d27ed9a3b03e7e01a64f2b253",
     "UI/art/woodland/woodland_corners.svg.import": "f1ff9919500fafab82f1a39f283546af9112cf7f92209554f5111c84f6ca6a30",
     "UI/art/worldtree/branches/edge_to_primary_center.svg": "386f73ced25f6aa6cce4fbee0003691ed5302531186a5fceb30080b026971742",
     "UI/art/worldtree/branches/edge_to_primary_center.svg.import": "00da4f28532ca834ed66d4bdd5478e704c3ebf466b1120022a378abe40492bd5",
@@ -57,7 +57,7 @@
     "UI/art/worldtree/branches/edge_to_trunk_1.svg.import": "05c5a3ecc262e69d6d173a9516b5e6db5d9c9ff12b4f061ae71ddd13b3d0cddc",
     "UI/art/worldtree/branches/edge_to_trunk_2.svg": "10043d61eedff55fa7300c7ddf194532ee2960423cdfefe1ace48623199e1d9a",
     "UI/art/worldtree/branches/edge_to_trunk_2.svg.import": "0dae53007869117c37f573886307e94462ea19d8f2155b532b43e3a7b30f10af",
-    "UI/art/worldtree/foliage_alive.svg": "595088562f27f3f25238125a03ca0704cff93b93ab6b660b26a6d0d7999092b9",
+    "UI/art/worldtree/foliage_alive.svg": "a4e5b862175483d32ed5e3c0375de6a3e552658279f616d6b139e903c9c13a5d",
     "UI/art/worldtree/foliage_alive.svg.import": "99a45b40ce895c6c13460b6e17a34d5b06450eda504f98533b77f697f1274b3a",
     "UI/art/worldtree/foliage_dead.svg": "13de01be67aba7208734cde082c2004df25f175994a3ef534922058b147301b7",
     "UI/art/worldtree/foliage_dead.svg.import": "518c5a2282a0b343d20ff14f3eb44d114eaf358f8af65b486f974f72c0fd46c8",
@@ -128,7 +128,7 @@
     "UI/art/worldtree/modules.json": "5f70024956d82817508687508f7601dd16e19518d8676f26a9495bb2289f7da6",
     "UI/art/worldtree/roots.svg": "c295fa8b08fb16e068d8ab8c9eacab0b4a4652a97309c127621933f8c02b2ea4",
     "UI/art/worldtree/roots.svg.import": "c316a5ed3315fed930ceb764930b4d04d5b4eb1bd43fcf435840e628503ead3f",
-    "UI/art/worldtree/roots_alive.svg": "9888f2613d6bf33c6c613cd177ded2116387fa87eb5a235d7f8efae81963b3d4",
+    "UI/art/worldtree/roots_alive.svg": "b8aaa47b4919d5e3a85f5c7d57cc546c25f92cdc97f1a32a289677957b8752b1",
     "UI/art/worldtree/roots_alive.svg.import": "cb88f11beb42f566baec6f3a6a4243b5fd26bf9371cba2f99b462e161dfa1767",
     "UI/art/worldtree/socket.svg": "5c389735c9d3327115dd580d967fab8f00be2381533e2389e917a9bee7f6850b",
     "UI/art/worldtree/socket.svg.import": "b5d0de11a8d9876f98465fc947a553d80071ceb3410f366cda9371b51b2b7ce3",
@@ -180,8 +180,8 @@
   "checks": "All eleven scenes instantiated/ready, skill purchase guards exercised, Worldtree 24-node/23-edge/30-icon, intent-only snapshots and real headless independent child animation exercised, woodland Theme/SVG decorations/serif font and original seal loaded in independent project; no prototypes/game/tools/cache history copied",
   "engine": "4.7.2.stable.mono.official.ed1daf0bf",
   "logs": [
-    ".cache/ui-catalog-package/whisperwood-final/import.log",
-    ".cache/ui-catalog-package/whisperwood-final/load.log",
-    ".cache/ui-catalog-package/whisperwood-final/version.log"
+    ".cache/ui-catalog-package/vivid-palette-current-package/import.log",
+    ".cache/ui-catalog-package/vivid-palette-current-package/load.log",
+    ".cache/ui-catalog-package/vivid-palette-current-package/version.log"
   ]
 }

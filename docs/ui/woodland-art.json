@@ -13,25 +13,25 @@
     {
       "source": "sources/ui/woodland/branch_frame.svg",
       "output": "ui/preview/UI/art/woodland/branch_frame.svg",
-      "sha256": "8551d9ce037fe931bbf482e30ea1026dad866fcdc50b49dbf6a033f0b6cd3657",
+      "sha256": "09b1f374d4cda303d2e73cf4d34e03830dd0060f92cd3fe3339200dc3c3beada",
       "role": "Original editable branch/leaf/mushroom/crystal frame; native 40px protected corners and 16px content margins"
     },
     {
       "source": "sources/ui/woodland/parchment_button.svg",
       "output": "ui/preview/UI/art/woodland/parchment_button.svg",
-      "sha256": "bd36470e0318302584f040bcb5e57f6d0f54782535aaac9fe9370935120f6613",
+      "sha256": "98398d1e0bc3f811bcc205a61726e30c2162d3159368e146f542203bfc674e5e",
       "role": "Original editable parchment/amber gradient; native 24px horizontal and 16px vertical corners"
     },
     {
       "source": "sources/ui/woodland/resource_icons.svg",
       "output": "ui/preview/UI/art/woodland/resource_icons.svg",
-      "sha256": "68dd1e8623b8144bf558f3a575872175a31a776f0bafb53b454a22fe3e2588be",
+      "sha256": "5c6506c29d9b111f4c78633fcbf422fd28c15aea961d8aac36a578bd950138cd",
       "role": "Original transparent six-cell atlas: gold/food/wood/stone/metal/cloth, always paired with native names"
     },
     {
       "source": "sources/ui/woodland/woodland_corners.svg",
       "output": "ui/preview/UI/art/woodland/woodland_corners.svg",
-      "sha256": "aaaa2be06b9a920e0a2478b49a16bc52488c5a30254f32b9d55c808f52b688a1",
+      "sha256": "fb0368d3baaecddd2ddde184042e86429f38170d27ed9a3b03e7e01a64f2b253",
       "role": "Original transparent owl/branch/leaf/fungi/crystal/lantern vignette; fixed aspect, no input ownership or slice/stretch"
     }
   ],
@@ -52,5 +52,6 @@
     "tool_sha256": "1e2c79202a4c525dbdb05af68f7e4e91be85d5de30b96c979c5cc13b3c251d35",
     "method": "Selected SVG ornament body color substitutions only; paths/geometry and original native behavior unchanged. No wholesale artwork regeneration.",
     "receipt": "docs/whisperwood/ui-refined.json"
-  }
+  },
+  "vivid_refinement": "Restored six original colorful ornamental palettes only; all SVG geometry/alpha/native controls and original seal retained. docs/vivid-palette/ui-refined.json"
 }

@@ -1,0 +1,25 @@
+{
+  "counting": "Per-export definition/instance sums, not globally deduplicated resources, draw calls or GPU performance. Source sum counts each canonical owner once.",
+  "models": 118,
+  "sources": 67,
+  "counts": {
+    "assessed": 133,
+    "refined": 128,
+    "retained": 5
+  },
+  "geometry_delta": {
+    "active_mesh_nodes": 0,
+    "active_primitive_instances": 0,
+    "active_triangle_instances": 0
+  },
+  "source_bytes": {
+    "before": 188368109,
+    "after": 318100540
+  },
+  "export_bytes": {
+    "before": 220437552,
+    "after": 252270736
+  },
+  "orphan_ids_protected": 779,
+  "limits": "Source size includes retained orphan authoring data and packed historical/current maps; no runtime/GPU memory claim."
+}

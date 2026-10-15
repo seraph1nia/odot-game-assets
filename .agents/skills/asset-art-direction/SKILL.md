@@ -12,9 +12,11 @@ Use isolated workers for authorized operations; keep desktop Blender for review.
 
 For the current overgrown woodland direction, first read
 [W0 authority](references/index.md#whisperwood) and the applicable D01/D03/D05
-rule owners: stronger individual role caricature, muted weathered bodies and
-substantially layered planted growth. Distinguish authored adaptation from
-illustrative fidelity. [The overhaul inventory](../../../docs/whisperwood/README.md)
+rule owners: stronger individual role caricature, vivid coherent material hues,
+soft related surface variation and substantially layered planted growth. The
+rejected muted/grey palette is historical, not an authoring target. Use original
+village/unit/forest images for color inspiration and actual matched renders for
+acceptance evidence. Distinguish authored adaptation from illustrative fidelity. [The overhaul inventory](../../../docs/whisperwood/README.md)
 tracks actual outputs; guidance installation is not completion.
 
 Resolve the selected canonical asset ID and intended picture through the

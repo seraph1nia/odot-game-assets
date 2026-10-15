@@ -6,17 +6,21 @@
 [IDs](../references/index.md) V0/A2/B4 combine warm timber, muted pale masonry,
 cool roof/cloth and small amber/gold accents. V2 has a red roof. E1–E4 use dark
 armor/cloth, bone and red signals. F1–F8 place cyan/violet magic against natural
-green/gray/brown support. The superseding [W0 woodland board](../references/index.md#whisperwood)
-uses cool slate, gray-green growth and aged brown timber with small amber and
-cyan/violet lights. Older bright yellow-green reference ground is historical
-context, not the target for the authorized Whisperwood overhaul.
+green/gray/brown support. Original supplied village/unit/forest pictures again
+inform color: blue and terracotta roofs, warm timber, living greens and distinct
+cyan/violet bodies. [W0](../references/index.md#whisperwood) informs growth and
+role identity, not its rejected grey/desaturated treatment. Reference lighting
+is not albedo; compare actual source materials and neutral exported renders.
 
 ## Standard and rationale
 
-Assign support/body/role/accent color roles. Use substantially lower-saturation support and body colors, retaining related
-variation within surfaces and material/focal separation in grayscale as well as
-color. Gloom comes from weathered materials and cool support values, not crushed
-blacks or merely dimming preview lights. Warm windows remain small readable accents.
+Assign support/body/role/accent color roles. Use rich coherent body colors with
+related shades within surfaces; separate warm timber/plaster from colored roofs,
+cloth, foliage and magic. Keep stone and metal materially recognizable, not a
+uniform grey wash across every family. Fine grain, leaf-root/tip shifts, cloth
+fold shades and restrained patina add lifelike softness without noisy saturation.
+Preserve material/focal separation in grayscale as well as color. Warm windows
+remain small readable accents; do not grade previews to disguise unchanged maps.
 Preserve existing unit/faction identity. Coherence is relational, not exact
 screen-pixel matching under unknown reference lights.
 
@@ -24,8 +28,8 @@ screen-pixel matching under unknown reference lights.
 
 All families. Bakery red roof/tree-house greens, dark enemy/red flame and
 luminous forest cyan/violet are named exceptions to a simplified blue-roof,
-warm-window village palette. Mute magic bodies as well as natural supports; concentrate chroma and emission
-on narrow highlights, runes, eyes and lantern/window centers. Preserve different
+warm-window village palette. Keep colored shaded magic bodies; concentrate
+emission (not all chroma) on narrow highlights, runes, eyes and window centers. Preserve different
 hero/enemy hues rather than painting enemy equipment in hero colors. Family leaves link these exceptions
 without creating independent swatch tables.
 

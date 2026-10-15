@@ -24,7 +24,7 @@
   "assets": [
     {
       "file": "exports/buildings/tree_house.glb",
-      "bytes": 1813844,
+      "bytes": 1959760,
       "meshes": 154,
       "triangles": 13273,
       "materials": 20,
@@ -46,7 +46,7 @@
     },
     {
       "file": "exports/buildings/bakery.glb",
-      "bytes": 3269268,
+      "bytes": 3467876,
       "meshes": 363,
       "triangles": 30343,
       "materials": 22,
@@ -68,7 +68,7 @@
     },
     {
       "file": "exports/buildings/gold_mine.glb",
-      "bytes": 1693840,
+      "bytes": 1800432,
       "meshes": 148,
       "triangles": 13266,
       "materials": 19,
@@ -90,7 +90,7 @@
     },
     {
       "file": "exports/buildings/woodcutter_hut.glb",
-      "bytes": 3280012,
+      "bytes": 3532724,
       "meshes": 366,
       "triangles": 28069,
       "materials": 25,
@@ -112,7 +112,7 @@
     },
     {
       "file": "exports/environment/hex_meadow_building.glb",
-      "bytes": 229324,
+      "bytes": 229804,
       "meshes": 104,
       "triangles": 1972,
       "materials": 14,
@@ -122,7 +122,7 @@
     },
     {
       "file": "exports/buildings/arrow_tower.glb",
-      "bytes": 3394192,
+      "bytes": 3540860,
       "meshes": 250,
       "triangles": 22237,
       "materials": 44,
@@ -156,7 +156,7 @@
     },
     {
       "file": "exports/buildings/barracks.glb",
-      "bytes": 4288508,
+      "bytes": 4435264,
       "meshes": 289,
       "triangles": 26643,
       "materials": 45,
@@ -190,7 +190,7 @@
     },
     {
       "file": "exports/buildings/bombarding_tower.glb",
-      "bytes": 3565320,
+      "bytes": 3704000,
       "meshes": 210,
       "triangles": 19445,
       "materials": 37,
@@ -223,7 +223,7 @@
     },
     {
       "file": "exports/buildings/magic_academy.glb",
-      "bytes": 5252952,
+      "bytes": 5399820,
       "meshes": 313,
       "triangles": 28350,
       "materials": 42,
@@ -255,7 +255,7 @@
     },
     {
       "file": "exports/buildings/stone_cutter.glb",
-      "bytes": 3203204,
+      "bytes": 3347716,
       "meshes": 275,
       "triangles": 23245,
       "materials": 34,
@@ -286,7 +286,7 @@
     },
     {
       "file": "exports/buildings/tavern.glb",
-      "bytes": 3643376,
+      "bytes": 3864084,
       "meshes": 342,
       "triangles": 29764,
       "materials": 43,
@@ -319,7 +319,7 @@
     },
     {
       "file": "exports/buildings/trade_market.glb",
-      "bytes": 3244708,
+      "bytes": 3464136,
       "meshes": 289,
       "triangles": 23814,
       "materials": 39,
@@ -352,7 +352,7 @@
     },
     {
       "file": "exports/characters/knight.glb",
-      "bytes": 984440,
+      "bytes": 1026276,
       "meshes": 87,
       "triangles": 7798,
       "materials": 14,
@@ -382,7 +382,7 @@
     },
     {
       "file": "exports/environment/hex_meadow_character.glb",
-      "bytes": 210828,
+      "bytes": 211204,
       "meshes": 101,
       "triangles": 1724,
       "materials": 11,
@@ -392,7 +392,7 @@
     },
     {
       "file": "exports/props/sword.glb",
-      "bytes": 63520,
+      "bytes": 63656,
       "meshes": 11,
       "triangles": 1078,
       "materials": 4,
@@ -402,7 +402,7 @@
     },
     {
       "file": "exports/props/shield.glb",
-      "bytes": 82332,
+      "bytes": 82484,
       "meshes": 16,
       "triangles": 1184,
       "materials": 5,
@@ -412,7 +412,7 @@
     },
     {
       "file": "exports/characters/mage.glb",
-      "bytes": 803356,
+      "bytes": 841308,
       "meshes": 71,
       "triangles": 6182,
       "materials": 14,
@@ -442,7 +442,7 @@
     },
     {
       "file": "exports/props/staff.glb",
-      "bytes": 297356,
+      "bytes": 335084,
       "meshes": 17,
       "triangles": 1518,
       "materials": 7,
@@ -452,7 +452,7 @@
     },
     {
       "file": "exports/characters/archer.glb",
-      "bytes": 801620,
+      "bytes": 841352,
       "meshes": 75,
       "triangles": 5118,
       "materials": 14,
@@ -482,7 +482,7 @@
     },
     {
       "file": "exports/props/bow.glb",
-      "bytes": 40444,
+      "bytes": 40548,
       "meshes": 6,
       "triangles": 608,
       "materials": 3,
@@ -492,7 +492,7 @@
     },
     {
       "file": "exports/props/arrow.glb",
-      "bytes": 5188,
+      "bytes": 5292,
       "meshes": 4,
       "triangles": 30,
       "materials": 3,
@@ -502,7 +502,7 @@
     },
     {
       "file": "exports/characters/berserker.glb",
-      "bytes": 1163220,
+      "bytes": 1163800,
       "meshes": 199,
       "triangles": 10275,
       "materials": 18,
@@ -538,7 +538,7 @@
     },
     {
       "file": "exports/props/axe.glb",
-      "bytes": 87032,
+      "bytes": 87240,
       "meshes": 14,
       "triangles": 1562,
       "materials": 6,
@@ -554,7 +554,7 @@
     },
     {
       "file": "exports/props/axe_offhand.glb",
-      "bytes": 87048,
+      "bytes": 87256,
       "meshes": 14,
       "triangles": 1562,
       "materials": 6,
@@ -570,7 +570,7 @@
     },
     {
       "file": "exports/characters/evil_melee_unit.glb",
-      "bytes": 848972,
+      "bytes": 849504,
       "meshes": 100,
       "triangles": 9135,
       "materials": 14,
@@ -607,7 +607,7 @@
     },
     {
       "file": "exports/props/evil_sword.glb",
-      "bytes": 63528,
+      "bytes": 63664,
       "meshes": 11,
       "triangles": 1078,
       "materials": 4,
@@ -617,7 +617,7 @@
     },
     {
       "file": "exports/props/evil_shield.glb",
-      "bytes": 82332,
+      "bytes": 82468,
       "meshes": 16,
       "triangles": 1184,
       "materials": 5,
@@ -627,7 +627,7 @@
     },
     {
       "file": "exports/characters/evil_mage_unit.glb",
-      "bytes": 1029508,
+      "bytes": 1067444,
       "meshes": 89,
       "triangles": 7625,
       "materials": 17,
@@ -663,7 +663,7 @@
     },
     {
       "file": "exports/props/evil_staff.glb",
-      "bytes": 267536,
+      "bytes": 305200,
       "meshes": 16,
       "triangles": 1158,
       "materials": 7,
@@ -673,7 +673,7 @@
     },
     {
       "file": "exports/props/evil_hand_flame.glb",
-      "bytes": 11724,
+      "bytes": 11836,
       "meshes": 4,
       "triangles": 154,
       "materials": 2,
@@ -683,7 +683,7 @@
     },
     {
       "file": "exports/characters/evil_ranged_unit.glb",
-      "bytes": 991916,
+      "bytes": 1024176,
       "meshes": 102,
       "triangles": 7919,
       "materials": 25,
@@ -720,7 +720,7 @@
     },
     {
       "file": "exports/props/crossbow.glb",
-      "bytes": 75312,
+      "bytes": 75584,
       "meshes": 15,
       "triangles": 1198,
       "materials": 9,
@@ -730,7 +730,7 @@
     },
     {
       "file": "exports/characters/evil_berserker_unit.glb",
-      "bytes": 800264,
+      "bytes": 800884,
       "meshes": 97,
       "triangles": 8761,
       "materials": 15,
@@ -768,7 +768,7 @@
     },
     {
       "file": "exports/props/evil_axe_offhand.glb",
-      "bytes": 88164,
+      "bytes": 88404,
       "meshes": 15,
       "triangles": 1567,
       "materials": 7,
@@ -784,7 +784,7 @@
     },
     {
       "file": "exports/props/evil_axe.glb",
-      "bytes": 88156,
+      "bytes": 88396,
       "meshes": 15,
       "triangles": 1567,
       "materials": 7,
@@ -800,7 +800,7 @@
     },
     {
       "file": "exports/props/kit_arrow.glb",
-      "bytes": 5056,
+      "bytes": 5156,
       "meshes": 4,
       "triangles": 28,
       "materials": 3,
@@ -810,7 +810,7 @@
     },
     {
       "file": "exports/props/kit_axe.glb",
-      "bytes": 65188,
+      "bytes": 65396,
       "meshes": 11,
       "triangles": 1202,
       "materials": 6,
@@ -820,7 +820,7 @@
     },
     {
       "file": "exports/props/kit_barrel.glb",
-      "bytes": 490056,
+      "bytes": 566480,
       "meshes": 18,
       "triangles": 772,
       "materials": 7,
@@ -830,7 +830,7 @@
     },
     {
       "file": "exports/props/kit_bench.glb",
-      "bytes": 483192,
+      "bytes": 559580,
       "meshes": 7,
       "triangles": 624,
       "materials": 6,
@@ -840,7 +840,7 @@
     },
     {
       "file": "exports/props/kit_book.glb",
-      "bytes": 38516,
+      "bytes": 38680,
       "meshes": 7,
       "triangles": 660,
       "materials": 5,
@@ -850,7 +850,7 @@
     },
     {
       "file": "exports/props/kit_cannonball.glb",
-      "bytes": 7540,
+      "bytes": 7576,
       "meshes": 1,
       "triangles": 80,
       "materials": 1,
@@ -860,7 +860,7 @@
     },
     {
       "file": "exports/props/kit_crate.glb",
-      "bytes": 558412,
+      "bytes": 634800,
       "meshes": 20,
       "triangles": 2028,
       "materials": 6,
@@ -870,7 +870,7 @@
     },
     {
       "file": "exports/props/kit_lantern.glb",
-      "bytes": 46996,
+      "bytes": 47240,
       "meshes": 9,
       "triangles": 816,
       "materials": 4,
@@ -880,7 +880,7 @@
     },
     {
       "file": "exports/props/kit_mug.glb",
-      "bytes": 47920,
+      "bytes": 48092,
       "meshes": 9,
       "triangles": 716,
       "materials": 5,
@@ -890,7 +890,7 @@
     },
     {
       "file": "exports/props/kit_open_barrel.glb",
-      "bytes": 497044,
+      "bytes": 573468,
       "meshes": 20,
       "triangles": 920,
       "materials": 7,
@@ -900,7 +900,7 @@
     },
     {
       "file": "exports/props/kit_open_crate.glb",
-      "bytes": 542248,
+      "bytes": 618636,
       "meshes": 17,
       "triangles": 1704,
       "materials": 6,
@@ -910,7 +910,7 @@
     },
     {
       "file": "exports/props/kit_parcel.glb",
-      "bytes": 26456,
+      "bytes": 26556,
       "meshes": 5,
       "triangles": 444,
       "materials": 3,
@@ -920,7 +920,7 @@
     },
     {
       "file": "exports/props/kit_pine.glb",
-      "bytes": 348284,
+      "bytes": 398988,
       "meshes": 5,
       "triangles": 146,
       "materials": 5,
@@ -930,7 +930,7 @@
     },
     {
       "file": "exports/props/kit_roof_tile.glb",
-      "bytes": 459244,
+      "bytes": 535564,
       "meshes": 3,
       "triangles": 192,
       "materials": 4,
@@ -940,7 +940,7 @@
     },
     {
       "file": "exports/props/kit_shrub.glb",
-      "bytes": 371600,
+      "bytes": 422308,
       "meshes": 5,
       "triangles": 324,
       "materials": 5,
@@ -950,7 +950,7 @@
     },
     {
       "file": "exports/props/kit_skull.glb",
-      "bytes": 126368,
+      "bytes": 126432,
       "meshes": 12,
       "triangles": 1913,
       "materials": 2,
@@ -960,7 +960,7 @@
     },
     {
       "file": "exports/props/kit_spear.glb",
-      "bytes": 18720,
+      "bytes": 18824,
       "meshes": 5,
       "triangles": 322,
       "materials": 3,
@@ -970,7 +970,7 @@
     },
     {
       "file": "exports/props/kit_spike.glb",
-      "bytes": 2360,
+      "bytes": 2396,
       "meshes": 1,
       "triangles": 20,
       "materials": 1,
@@ -980,7 +980,7 @@
     },
     {
       "file": "exports/props/kit_stone_block.glb",
-      "bytes": 459360,
+      "bytes": 535680,
       "meshes": 3,
       "triangles": 192,
       "materials": 4,
@@ -990,7 +990,7 @@
     },
     {
       "file": "exports/props/kit_target.glb",
-      "bytes": 41536,
+      "bytes": 41672,
       "meshes": 8,
       "triangles": 784,
       "materials": 4,
@@ -1000,7 +1000,7 @@
     },
     {
       "file": "exports/buildings/archery_range.glb",
-      "bytes": 7220376,
+      "bytes": 7976180,
       "triangles": 41996,
       "materials": 46,
       "animations": [],
@@ -1021,7 +1021,7 @@
     },
     {
       "file": "exports/buildings/metal_mine.glb",
-      "bytes": 6229252,
+      "bytes": 7098484,
       "triangles": 37138,
       "materials": 43,
       "animations": [],
@@ -1040,7 +1040,7 @@
     },
     {
       "file": "exports/buildings/research_tower.glb",
-      "bytes": 6649200,
+      "bytes": 7518420,
       "triangles": 42766,
       "materials": 44,
       "animations": [],
@@ -1059,7 +1059,7 @@
     },
     {
       "file": "exports/buildings/town_hall.glb",
-      "bytes": 11277524,
+      "bytes": 12033036,
       "triangles": 90379,
       "materials": 40,
       "animations": [],
@@ -1078,7 +1078,7 @@
     },
     {
       "file": "exports/buildings/weaver.glb",
-      "bytes": 6473480,
+      "bytes": 7342764,
       "triangles": 40278,
       "materials": 44,
       "animations": [],
@@ -1096,7 +1096,7 @@
     },
     {
       "file": "exports/environment/components/forest_boulder.glb",
-      "bytes": 903180,
+      "bytes": 1148948,
       "triangles": 574,
       "materials": 6,
       "animations": [],
@@ -1105,7 +1105,7 @@
     },
     {
       "file": "exports/environment/components/forest_bridge_plank.glb",
-      "bytes": 771468,
+      "bytes": 942092,
       "triangles": 464,
       "materials": 6,
       "animations": [],
@@ -1114,7 +1114,7 @@
     },
     {
       "file": "exports/environment/components/forest_bridge_post.glb",
-      "bytes": 907280,
+      "bytes": 1135548,
       "triangles": 608,
       "materials": 7,
       "animations": [],
@@ -1123,7 +1123,7 @@
     },
     {
       "file": "exports/environment/components/forest_bridge_rail.glb",
-      "bytes": 774524,
+      "bytes": 945024,
       "triangles": 300,
       "materials": 5,
       "animations": [],
@@ -1132,7 +1132,7 @@
     },
     {
       "file": "exports/environment/components/forest_crystal_blue.glb",
-      "bytes": 3642764,
+      "bytes": 4194432,
       "triangles": 122,
       "materials": 6,
       "animations": [],
@@ -1141,7 +1141,7 @@
     },
     {
       "file": "exports/environment/components/forest_crystal_purple.glb",
-      "bytes": 1450888,
+      "bytes": 1765252,
       "triangles": 122,
       "materials": 5,
       "animations": [],
@@ -1150,7 +1150,7 @@
     },
     {
       "file": "exports/environment/components/forest_fern.glb",
-      "bytes": 640196,
+      "bytes": 778164,
       "triangles": 580,
       "materials": 4,
       "animations": [],
@@ -1159,7 +1159,7 @@
     },
     {
       "file": "exports/environment/components/forest_foam.glb",
-      "bytes": 1321652,
+      "bytes": 1520636,
       "triangles": 704,
       "materials": 2,
       "animations": [],
@@ -1168,7 +1168,7 @@
     },
     {
       "file": "exports/environment/components/forest_hex_meadow.glb",
-      "bytes": 329932,
+      "bytes": 423596,
       "triangles": 132,
       "materials": 4,
       "animations": [],
@@ -1177,7 +1177,7 @@
     },
     {
       "file": "exports/environment/components/forest_hex_stream.glb",
-      "bytes": 478096,
+      "bytes": 598892,
       "triangles": 216,
       "materials": 5,
       "animations": [],
@@ -1186,7 +1186,7 @@
     },
     {
       "file": "exports/environment/components/forest_lantern_post.glb",
-      "bytes": 1185900,
+      "bytes": 1458228,
       "triangles": 1280,
       "materials": 9,
       "animations": [],
@@ -1195,7 +1195,7 @@
     },
     {
       "file": "exports/environment/components/forest_leaf_clump.glb",
-      "bytes": 559968,
+      "bytes": 697932,
       "triangles": 52,
       "materials": 4,
       "animations": [],
@@ -1204,7 +1204,7 @@
     },
     {
       "file": "exports/environment/components/forest_moss.glb",
-      "bytes": 672188,
+      "bytes": 817404,
       "triangles": 304,
       "materials": 4,
       "animations": [],
@@ -1213,7 +1213,7 @@
     },
     {
       "file": "exports/environment/components/forest_mushroom_blue.glb",
-      "bytes": 1961164,
+      "bytes": 2314372,
       "triangles": 1864,
       "materials": 8,
       "animations": [],
@@ -1222,7 +1222,7 @@
     },
     {
       "file": "exports/environment/components/forest_mushroom_purple.glb",
-      "bytes": 1965904,
+      "bytes": 2325304,
       "triangles": 1864,
       "materials": 8,
       "animations": [],
@@ -1231,7 +1231,7 @@
     },
     {
       "file": "exports/environment/components/forest_mushroom_small.glb",
-      "bytes": 1978244,
+      "bytes": 2331456,
       "triangles": 1984,
       "materials": 8,
       "animations": [],
@@ -1240,7 +1240,7 @@
     },
     {
       "file": "exports/environment/components/forest_root.glb",
-      "bytes": 819012,
+      "bytes": 1026972,
       "triangles": 224,
       "materials": 6,
       "animations": [],
@@ -1249,7 +1249,7 @@
     },
     {
       "file": "exports/environment/components/forest_rune_circle.glb",
-      "bytes": 122776,
+      "bytes": 122880,
       "triangles": 1408,
       "materials": 2,
       "animations": [],
@@ -1258,7 +1258,7 @@
     },
     {
       "file": "exports/environment/components/forest_rune_diamond.glb",
-      "bytes": 16804,
+      "bytes": 16908,
       "triangles": 156,
       "materials": 2,
       "animations": [],
@@ -1267,7 +1267,7 @@
     },
     {
       "file": "exports/environment/components/forest_rune_monolith.glb",
-      "bytes": 782940,
+      "bytes": 972772,
       "triangles": 452,
       "materials": 6,
       "animations": [],
@@ -1276,7 +1276,7 @@
     },
     {
       "file": "exports/environment/components/forest_shrine_plinth.glb",
-      "bytes": 842192,
+      "bytes": 1030408,
       "triangles": 1388,
       "materials": 6,
       "animations": [],
@@ -1285,7 +1285,7 @@
     },
     {
       "file": "exports/environment/components/forest_stone_arch_block.glb",
-      "bytes": 657324,
+      "bytes": 789444,
       "triangles": 192,
       "materials": 4,
       "animations": [],
@@ -1294,7 +1294,7 @@
     },
     {
       "file": "exports/environment/components/forest_stone_block.glb",
-      "bytes": 657472,
+      "bytes": 789588,
       "triangles": 192,
       "materials": 4,
       "animations": [],
@@ -1303,7 +1303,7 @@
     },
     {
       "file": "exports/environment/components/forest_tree_snag.glb",
-      "bytes": 851016,
+      "bytes": 1062992,
       "triangles": 466,
       "materials": 6,
       "animations": [],
@@ -1312,7 +1312,7 @@
     },
     {
       "file": "exports/environment/components/forest_waterfall.glb",
-      "bytes": 1276012,
+      "bytes": 1475008,
       "triangles": 168,
       "materials": 3,
       "animations": [],
@@ -1321,7 +1321,7 @@
     },
     {
       "file": "exports/environment/hex_bioluminescent_grove.glb",
-      "bytes": 7441312,
+      "bytes": 8862472,
       "triangles": 8288,
       "materials": 45,
       "animations": [],
@@ -1346,7 +1346,7 @@
     },
     {
       "file": "exports/environment/hex_crystal_grove.glb",
-      "bytes": 8002328,
+      "bytes": 9512784,
       "triangles": 8092,
       "materials": 43,
       "animations": [],
@@ -1371,7 +1371,7 @@
     },
     {
       "file": "exports/environment/hex_crystal_shrine.glb",
-      "bytes": 8135504,
+      "bytes": 9653488,
       "triangles": 10592,
       "materials": 47,
       "animations": [],
@@ -1398,7 +1398,7 @@
     },
     {
       "file": "exports/environment/hex_glowing_mushrooms.glb",
-      "bytes": 7851328,
+      "bytes": 9356576,
       "triangles": 7724,
       "materials": 40,
       "animations": [],
@@ -1422,7 +1422,7 @@
     },
     {
       "file": "exports/environment/hex_lantern_bridge.glb",
-      "bytes": 9515456,
+      "bytes": 11035700,
       "triangles": 10078,
       "materials": 52,
       "animations": [],
@@ -1450,7 +1450,7 @@
     },
     {
       "file": "exports/environment/hex_mystical_grove.glb",
-      "bytes": 7920032,
+      "bytes": 9434308,
       "triangles": 7724,
       "materials": 40,
       "animations": [],
@@ -1474,7 +1474,7 @@
     },
     {
       "file": "exports/environment/hex_rune_shrine.glb",
-      "bytes": 7763164,
+      "bytes": 9134708,
       "triangles": 10266,
       "materials": 47,
       "animations": [],
@@ -1500,7 +1500,7 @@
     },
     {
       "file": "exports/environment/hex_woodland_bridge.glb",
-      "bytes": 8387452,
+      "bytes": 9953824,
       "triangles": 11050,
       "materials": 60,
       "animations": [],
@@ -1529,7 +1529,7 @@
     },
     {
       "file": "exports/environment/components/forest_butterfly_cyan.glb",
-      "bytes": 694496,
+      "bytes": 836952,
       "triangles": 1228,
       "materials": 5,
       "animations": [],
@@ -1538,7 +1538,7 @@
     },
     {
       "file": "exports/environment/components/forest_butterfly_sunset.glb",
-      "bytes": 694028,
+      "bytes": 837404,
       "triangles": 1228,
       "materials": 5,
       "animations": [],
@@ -1547,7 +1547,7 @@
     },
     {
       "file": "exports/environment/components/forest_hollow_tree.glb",
-      "bytes": 2714820,
+      "bytes": 3213228,
       "triangles": 6424,
       "materials": 10,
       "animations": [],
@@ -1556,7 +1556,7 @@
     },
     {
       "file": "exports/environment/components/forest_jackalope.glb",
-      "bytes": 740636,
+      "bytes": 918144,
       "triangles": 6256,
       "materials": 6,
       "animations": [],
@@ -1565,7 +1565,7 @@
     },
     {
       "file": "exports/environment/components/forest_lantern_flower.glb",
-      "bytes": 708012,
+      "bytes": 878056,
       "triangles": 428,
       "materials": 5,
       "animations": [],
@@ -1574,7 +1574,7 @@
     },
     {
       "file": "exports/environment/components/forest_lantern_snail.glb",
-      "bytes": 1057368,
+      "bytes": 1244204,
       "triangles": 3138,
       "materials": 7,
       "animations": [],
@@ -1583,7 +1583,7 @@
     },
     {
       "file": "exports/environment/components/forest_moon_moth.glb",
-      "bytes": 608064,
+      "bytes": 711436,
       "triangles": 1172,
       "materials": 4,
       "animations": [],
@@ -1592,7 +1592,7 @@
     },
     {
       "file": "exports/environment/components/forest_spiral_fern.glb",
-      "bytes": 648168,
+      "bytes": 794444,
       "triangles": 1156,
       "materials": 4,
       "animations": [],
@@ -1601,7 +1601,7 @@
     },
     {
       "file": "exports/environment/components/forest_spiral_tree.glb",
-      "bytes": 1398764,
+      "bytes": 1731092,
       "triangles": 3934,
       "materials": 9,
       "animations": [],
@@ -1610,7 +1610,7 @@
     },
     {
       "file": "exports/environment/hex_butterfly_glade.glb",
-      "bytes": 6385848,
+      "bytes": 7819196,
       "triangles": 14490,
       "materials": 53,
       "animations": [],
@@ -1638,7 +1638,7 @@
     },
     {
       "file": "exports/environment/hex_dream_menagerie.glb",
-      "bytes": 7595208,
+      "bytes": 9254136,
       "triangles": 20600,
       "materials": 64,
       "animations": [],
@@ -1668,7 +1668,7 @@
     },
     {
       "file": "exports/environment/hex_hollow_watchers.glb",
-      "bytes": 7640144,
+      "bytes": 9257440,
       "triangles": 19480,
       "materials": 60,
       "animations": [],
@@ -1697,7 +1697,7 @@
     },
     {
       "file": "exports/environment/hex_ground_dirt.glb",
-      "bytes": 1532208,
+      "bytes": 1762544,
       "meshes": 3,
       "triangles": 22,
       "materials": 2,
@@ -1706,7 +1706,7 @@
     },
     {
       "file": "exports/environment/hex_ground_grass.glb",
-      "bytes": 2024576,
+      "bytes": 2229484,
       "meshes": 3,
       "triangles": 22,
       "materials": 2,
@@ -1715,7 +1715,7 @@
     },
     {
       "file": "exports/environment/hex_ground_leaf_litter.glb",
-      "bytes": 1982904,
+      "bytes": 2225992,
       "meshes": 3,
       "triangles": 22,
       "materials": 2,
@@ -1724,7 +1724,7 @@
     },
     {
       "file": "exports/environment/hex_ground_moss.glb",
-      "bytes": 1960788,
+      "bytes": 2175404,
       "meshes": 3,
       "triangles": 22,
       "materials": 2,
@@ -1733,7 +1733,7 @@
     },
     {
       "file": "exports/environment/hex_ground_pine_duff.glb",
-      "bytes": 1690544,
+      "bytes": 1911940,
       "meshes": 3,
       "triangles": 22,
       "materials": 2,
@@ -1742,7 +1742,7 @@
     },
     {
       "file": "exports/environment/hex_path_end.glb",
-      "bytes": 254092,
+      "bytes": 286904,
       "meshes": 1,
       "triangles": 307,
       "materials": 1,
@@ -1751,7 +1751,7 @@
     },
     {
       "file": "exports/environment/hex_path_straight.glb",
-      "bytes": 249988,
+      "bytes": 282800,
       "meshes": 1,
       "triangles": 256,
       "materials": 1,
@@ -1760,7 +1760,7 @@
     },
     {
       "file": "exports/environment/hex_path_turn_120.glb",
-      "bytes": 259052,
+      "bytes": 291864,
       "meshes": 1,
       "triangles": 272,
       "materials": 1,
@@ -1769,7 +1769,7 @@
     },
     {
       "file": "exports/environment/hex_path_turn_60.glb",
-      "bytes": 259048,
+      "bytes": 291860,
       "meshes": 1,
       "triangles": 272,
       "materials": 1,
@@ -1778,7 +1778,7 @@
     },
     {
       "file": "exports/environment/hex_river_overlay_end.glb",
-      "bytes": 103160,
+      "bytes": 113436,
       "meshes": 1,
       "triangles": 469,
       "materials": 1,
@@ -1787,7 +1787,7 @@
     },
     {
       "file": "exports/environment/hex_river_overlay_straight.glb",
-      "bytes": 97764,
+      "bytes": 108040,
       "meshes": 1,
       "triangles": 384,
       "materials": 1,
@@ -1796,7 +1796,7 @@
     },
     {
       "file": "exports/environment/hex_river_overlay_turn_120.glb",
-      "bytes": 107064,
+      "bytes": 117340,
       "meshes": 1,
       "triangles": 408,
       "materials": 1,
@@ -1805,7 +1805,7 @@
     },
     {
       "file": "exports/environment/hex_river_overlay_turn_60.glb",
-      "bytes": 107064,
+      "bytes": 117340,
       "meshes": 1,
       "triangles": 408,
       "materials": 1,

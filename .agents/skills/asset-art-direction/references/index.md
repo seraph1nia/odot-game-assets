@@ -13,9 +13,10 @@ full-size viewing; [crop evidence](evidence.md) directs visual inspection.
 <a id="authority"></a>
 ## Authority and provenance
 
-The 27 supplied PNGs include the superseding W0 direction board and 26
-historical PNGs across five earlier sets. W0 governs the current woodland
-palette/growth/role direction; earlier images retain functional/faction context.
+The 27 supplied PNGs include W0 and 26 originals across five earlier sets.
+Original village/unit/forest images inform the current vivid color recovery.
+W0 retains authority for planted growth and distinct roles, NOT the rejected
+grey/desaturated palette. None is a rendered acceptance result.
 The historical sets map to 32 asset views (seven board crops plus 25 individual
 images), separately from W0. Those originals were visually inspected during the
 2026-10-07 guidance scout; 25 archive image dimensions/hashes matched the
@@ -52,7 +53,8 @@ Dreaming forest has no explicit supplied-reference association: see
 ## W0 — Whisperwood direction (2026-10-13)
 
 The unmodified [direction board](../../../../sources/reference/whisperwood/direction.png)
-was supplied for this authorized overhaul; [provenance](../../../../sources/reference/whisperwood/PROVENANCE.md)
+was supplied for the earlier overgrowth overhaul and remains growth/role
+inspiration, not a grey-palette mandate; [provenance](../../../../sources/reference/whisperwood/PROVENANCE.md)
 and [manifest](../../../../sources/reference/whisperwood/manifest.json) bind source
 and bytes without inventing a license or creator. Eight illustrated panels
 show lumbermill, farm/bakery, gold mine, stonecutter, metal mine, weaver, market
@@ -62,7 +64,9 @@ fabricated supplied turnarounds. Native UI has no W0 design.
 
 Use [analysis and inventory](../../../../docs/whisperwood/README.md) before a
 rollout claim. Preserve old associations for functional reference/history; cite
-W0 separately for the new art direction. The task explicitly authorizes tracking
+W0 separately for retained growth/role inspiration, and V/A/E/B/F for color
+recovery. Use newly rendered matched actual comparisons for acceptance, not the
+illustration or historical grey outputs. The task explicitly authorizes tracking
 this supplied original; it does not establish rights for external redistribution.
 
 ## Board views

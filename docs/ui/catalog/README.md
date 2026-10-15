@@ -1,7 +1,8 @@
 # Generated Ledger UI catalog
 
-The current [Whisperwood refresh](../../whisperwood/README.md) includes all 15
-native catalog entries: six referenced SVG ornament palettes changed; native
+The current [vivid color recovery](../../vivid-palette/README.md) accounts for all
+15 native catalog entries: only six greyed SVG ornament palettes recover their
+original colors; native
 scripts/scenes/theme resource, fonts and original menu seal stayed byte-identical.
 Current catalog capture and full standalone campaign bindings are selected by
 [Worldtree qualification](../worldtree.md#whisperwood-selective-refresh).
@@ -79,7 +80,7 @@ dependencies, generator, identities, image bytes or measured dimensions.
 resource/host/generator bindings and image hashes; per-run manifests preserve
 previous selections. [`package-check.json`](package-check.json) owns the selected
 ZIP's measured member hashes and direct native-load qualification. Earlier docs-only
-continuity receipts remain historical; they do not qualify the changed Whisperwood artwork.
+continuity receipts remain historical; they do not qualify the current recovered palettes.
 [Worldtree qualification](../worldtree.md#whisperwood-selective-refresh) owns
 current native campaign, shipping-refresh and visual-review scope; exact bindings
 are in [worldtree-validation.json](../worldtree-validation.json).

@@ -1,0 +1,13 @@
+{
+  "docs/vivid-palette/authored.json": "e283461917c1cb9947037d5fc529a1ee1b7e1f5f00a01850d239901ddab77443",
+  "tools/asset_pack/vivid_refinement.py": "cc3027fa87c7bf4fd48276c38501df202080f42e61a4914aa383ec1ed970b04a",
+  "sources/buildings/woodcutter_hut.blend": "7178837a78d6c20dec47987ace6c42769298e2e07d146653931b393d592e7ead",
+  "sources/buildings/archery_range.blend": "8cf66bf7b741be0c928cee54621cd4329e7e683a10366ffec971198a8cd8d0d7",
+  "sources/buildings/arrow_tower.blend": "8194ed92427f1e6e2d824ea14dc942a7d729c10f2aaec79ee3df324864602e9f",
+  "sources/buildings/bakery.blend": "53d29c7b6ea3b887a778d3eba5cb98aa90506fc4b5eeccf55f77f707439da7ea",
+  "sources/buildings/barracks.blend": "9d526360b99f428eabd50df57558b5e82a3a9f3373d1e04ea1b154afd918e776",
+  "sources/buildings/bombarding_tower.blend": "526d555234deb75b90fac771a02edd062a9af853714c5f1abead044d2a625049",
+  "sources/buildings/gold_mine.blend": "4175ec25b026316cbd453c739e0a50bdcb9e42e7a1ed1712e80476b85cc9db23",
+  "sources/characters/knight.blend": "e20d4374d27362cbe97ae003be599e336490db5a52e85ff2059591bfda3bbcea",
+  "sources/environment/hex_glowing_mushrooms.blend": "a33019e5d9c2a50270462311cd45731f21caef64cdc1601407848c1c02c182f6"
+}

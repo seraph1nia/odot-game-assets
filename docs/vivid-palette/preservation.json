@@ -1,0 +1,1275 @@
+{
+  "sources/buildings/woodcutter_hut.blend": {
+    "source_sha256": "ab5ba1d12edf065dec47d76ec5701a5e811459bac13ba520c36d5d285a93990e",
+    "baseline_sha256": "692fe509a6110365e59e57023487e2c8c02b1b64e4813d8c3cae8c2ab883449f",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 1099,
+      "meshes": 477,
+      "materials": 33,
+      "images": 15,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 4
+    }
+  },
+  "sources/environment/hex_glowing_mushrooms.blend": {
+    "source_sha256": "961895137c84ed31325962987d60d4feb06c62ac2725b26c27b0c8bfbe744a6e",
+    "baseline_sha256": "46dc4a9d08c6b04c2e0a8c42a30fbd7e1ae33a5632fd5958590cf5a7aa20af0b",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 2119,
+      "meshes": 214,
+      "materials": 66,
+      "images": 103,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 12
+    }
+  },
+  "sources/characters/knight.blend": {
+    "source_sha256": "dfb12f30ce7a13682587a8f835a4c29a671d15fc7ce1eeef0e9f53a5ba06794b",
+    "baseline_sha256": "c9e2483ab8a4b5a5f3a691816ad3aa64a78de0207af533e4b38c5906b4e13879",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 197,
+      "meshes": 189,
+      "materials": 24,
+      "images": 5,
+      "actions": 6,
+      "armatures": 1,
+      "curves": 0,
+      "collections": 4
+    }
+  },
+  "sources/buildings/archery_range.blend": {
+    "source_sha256": "62cc698cd49eea2ce903752e1793f74d64a23e5c51fc1897aeddd95b54c8dfb5",
+    "baseline_sha256": "ac3da8e68535334d5495a45303182361998380ca153241aefb4961ae48bcd079",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 5250,
+      "meshes": 573,
+      "materials": 64,
+      "images": 51,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 10
+    }
+  },
+  "sources/buildings/arrow_tower.blend": {
+    "source_sha256": "4870f3cdc91ebcb031b98064d568e15f0870b5ba079c060ce74fead21679494e",
+    "baseline_sha256": "bc6ef44447aff174d90045372e7242693e65f266f9035115758895b5ee646c48",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 3873,
+      "meshes": 351,
+      "materials": 56,
+      "images": 13,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 10
+    }
+  },
+  "sources/buildings/bakery.blend": {
+    "source_sha256": "a25400d130ee25eb8e57e53c194a4a29596a53e429725684081404a3e085f137",
+    "baseline_sha256": "24d41356e082aed7bb5e9b7318e948c462b95fdebfc0fe6b5d3f47a4bcac9b39",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 1054,
+      "meshes": 477,
+      "materials": 34,
+      "images": 16,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 4
+    }
+  },
+  "sources/buildings/barracks.blend": {
+    "source_sha256": "eaa16a0e380b8fdf7b0dc0c3e25811ec5161a7dadb087f1881bb4afb66a03bb2",
+    "baseline_sha256": "dddbebfdfbf475ef4e86740f522b7e0914877930fdf6bc05238c838245726a09",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 5728,
+      "meshes": 396,
+      "materials": 58,
+      "images": 13,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 11
+    }
+  },
+  "sources/buildings/bombarding_tower.blend": {
+    "source_sha256": "c5d6240bbd757b4fa6b00a800c72d7f1ec4bf3352f397f662b78cdb6689e490d",
+    "baseline_sha256": "1bd9038ba4439528530a827664a0ca0535981de148369e3a216b8c9c61b4d1d9",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 4871,
+      "meshes": 318,
+      "materials": 47,
+      "images": 13,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 9
+    }
+  },
+  "sources/buildings/gold_mine.blend": {
+    "source_sha256": "14d7a53b35a3aade1d615421d71b94032080f96a9ebd1058e202440c435c23e5",
+    "baseline_sha256": "57abaa6c024e6240e8c3ffe02cc16d3259a46a2f82106948af02984f7c520153",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 724,
+      "meshes": 269,
+      "materials": 27,
+      "images": 11,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 3
+    }
+  },
+  "sources/buildings/magic_academy.blend": {
+    "source_sha256": "95333ce349033e7332315bc2c59006a33ed10108a6e7f7c2b5b37f561f052133",
+    "baseline_sha256": "f6edf70654dcfdd4db3c635db9d6f8f5d9df937e169da1a79a29db9cc63027b5",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 7769,
+      "meshes": 423,
+      "materials": 55,
+      "images": 16,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 9
+    }
+  },
+  "sources/buildings/metal_mine.blend": {
+    "source_sha256": "9cb9e36524b5f218f23757afc163d222197c0a0501e05255c47790f639ac4e3c",
+    "baseline_sha256": "26e69175e26a781dd67ef11510180b25219a7ef6f7027ee6109f2e7bee632e83",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 2757,
+      "meshes": 481,
+      "materials": 65,
+      "images": 50,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 8
+    }
+  },
+  "sources/buildings/research_tower.blend": {
+    "source_sha256": "f58fc18649467ce7c206315df8f028309d261935ac4b42eee6d61f2a7756f457",
+    "baseline_sha256": "5a3ce3f08d38479b63089ee0b07fbc63656ed5d3f01ff6c163d23fa5f401329c",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 2994,
+      "meshes": 547,
+      "materials": 69,
+      "images": 50,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 8
+    }
+  },
+  "sources/buildings/stone_cutter.blend": {
+    "source_sha256": "fa476ef1677085eeb00f0312548bf7ace708945948581efac4f687633c6be123",
+    "baseline_sha256": "fdf1994ce7b9d0915988da3e0570bc1680775461320ea793a570e6358d763d21",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 3097,
+      "meshes": 394,
+      "materials": 46,
+      "images": 15,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 8
+    }
+  },
+  "sources/buildings/tavern.blend": {
+    "source_sha256": "64a8656f3f92cb305a7e20bbdd2fdc88b08fd006cf36ec6c7c800c4fdc59fb34",
+    "baseline_sha256": "6b2074c0fcc479211bff96e1250e88f8ac0f213899b909f2c9dbadba751f7f59",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 2974,
+      "meshes": 455,
+      "materials": 56,
+      "images": 15,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 11
+    }
+  },
+  "sources/buildings/town_hall.blend": {
+    "source_sha256": "7fdc1e85eed0adc557e0c80c1b7fa5341084b448826634d6b7efcbfca9ec599b",
+    "baseline_sha256": "eed3ffc56b578954758ff30084d71aee277e4c9b0388b9387dbcc84b6f6ab4c8",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 7339,
+      "meshes": 999,
+      "materials": 54,
+      "images": 55,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 8
+    }
+  },
+  "sources/buildings/trade_market.blend": {
+    "source_sha256": "8fca66c865a507847b8af4d7f9c6b15bacbe9c42d6a35d301e755fdf0e045b2a",
+    "baseline_sha256": "57075c594533e03e1e1b98292782008e9ee998762c0f54efcb55fef783d2a4e7",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 2819,
+      "meshes": 390,
+      "materials": 50,
+      "images": 15,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 9
+    }
+  },
+  "sources/buildings/tree_house.blend": {
+    "source_sha256": "9c3147ba4501e263c451472d9184f262dbd5a28cb59955b465d1c42e3a926a7b",
+    "baseline_sha256": "ea746e7ea998da1f542ba477d37acc4a380001a7f536fa0c0647833518ac45b7",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 590,
+      "meshes": 254,
+      "materials": 27,
+      "images": 12,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 3
+    }
+  },
+  "sources/buildings/weaver.blend": {
+    "source_sha256": "4f074f37a8648f10efed49f2c01da8b5272b7547b6c07087733c365fe87ffe0c",
+    "baseline_sha256": "1d71b33799147ee14f3a6aa0abdd06295909210b075a11ce071dfb435818eaa0",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 2870,
+      "meshes": 570,
+      "materials": 57,
+      "images": 56,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 7
+    }
+  },
+  "sources/characters/archer.blend": {
+    "source_sha256": "d0deb9b5ba581f260e3b683fcf23e74eaf201896bd89a379a6f3f741b64bc438",
+    "baseline_sha256": "ad170326e4fac653c8c99d7ab863fcca98273ac568fc61c4dd1683167d002eec",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 179,
+      "meshes": 171,
+      "materials": 24,
+      "images": 5,
+      "actions": 6,
+      "armatures": 1,
+      "curves": 0,
+      "collections": 4
+    }
+  },
+  "sources/characters/berserker.blend": {
+    "source_sha256": "3e8e3521be37232a32d6a8d73ba08655211f4b2cfec1a113b09ff088cfa22d19",
+    "baseline_sha256": "e09ec28bb2fcebe20b1f69d8874e3faec1f1592a133301689dd77fc646baf9e4",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 322,
+      "meshes": 292,
+      "materials": 35,
+      "images": 3,
+      "actions": 6,
+      "armatures": 1,
+      "curves": 0,
+      "collections": 5
+    }
+  },
+  "sources/characters/evil_berserker_unit.blend": {
+    "source_sha256": "9476a9b985b31aa39d3e31e1ed340009bd339d186156c4b9aada90a1cdbc6510",
+    "baseline_sha256": "b6fbdd7fda0ea99775ddafc06e27d1d35ab5f583446b8128651bc18a613268ca",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 270,
+      "meshes": 199,
+      "materials": 40,
+      "images": 3,
+      "actions": 6,
+      "armatures": 1,
+      "curves": 0,
+      "collections": 7
+    }
+  },
+  "sources/characters/evil_mage_unit.blend": {
+    "source_sha256": "9ef3b90580c104bf226f558b14431ebed21c770ce7b535ebcb927c026cbf5efe",
+    "baseline_sha256": "657ed7fb4ea09fe8393c1ed8f8407b55c45b3c6c3afc4ba264c4811bfdf1101a",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 219,
+      "meshes": 185,
+      "materials": 29,
+      "images": 7,
+      "actions": 6,
+      "armatures": 1,
+      "curves": 0,
+      "collections": 5
+    }
+  },
+  "sources/characters/evil_melee_unit.blend": {
+    "source_sha256": "104b8c1685eb42a5d6a03fb5f84579aa9419dcb62caf3c75c1ff52d433084dd5",
+    "baseline_sha256": "7e100ce72ef86acce517963c8324312f61c092731d55272cf232700a9b59b529",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 224,
+      "meshes": 193,
+      "materials": 30,
+      "images": 3,
+      "actions": 6,
+      "armatures": 1,
+      "curves": 0,
+      "collections": 6
+    }
+  },
+  "sources/characters/evil_ranged_unit.blend": {
+    "source_sha256": "bc6823ffe4f76a63c6353496c00890932c02f4bef3a89a48bed0cd46da48493b",
+    "baseline_sha256": "44f96a2e72c097f44a497558002cdfbfb21f390c70022f765163ee8a9de9a817",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 234,
+      "meshes": 210,
+      "materials": 37,
+      "images": 6,
+      "actions": 6,
+      "armatures": 1,
+      "curves": 0,
+      "collections": 6
+    }
+  },
+  "sources/characters/mage.blend": {
+    "source_sha256": "b02f293f4ff9af844c7a3ee81c85493c328855cad9637fdc297adbb22e528f50",
+    "baseline_sha256": "b50615c1c495baedb5d1258d5690fe550d7d2ac058177d353f8b91fab411a35e",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 185,
+      "meshes": 178,
+      "materials": 24,
+      "images": 5,
+      "actions": 6,
+      "armatures": 1,
+      "curves": 0,
+      "collections": 4
+    }
+  },
+  "sources/environment/hex_bioluminescent_grove.blend": {
+    "source_sha256": "2332b5f91f7070a419d26e39278cc77c5d6e2f8ffc8f7cecf58c53bea8d247d2",
+    "baseline_sha256": "0a173853d6aa6b8b6a72d0a290491581077173c3d76abfb6b51ddce3055b21e6",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 2292,
+      "meshes": 229,
+      "materials": 69,
+      "images": 71,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 13
+    }
+  },
+  "sources/environment/hex_butterfly_glade.blend": {
+    "source_sha256": "dd73ed3061d5340902dc0b25d860008a5bbe955294c124176fd77a9bf936e677",
+    "baseline_sha256": "4deffc529ffdf281ab50977c8f255adeee25749ccf8356d0a56298b36fb8e844",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 1483,
+      "meshes": 276,
+      "materials": 85,
+      "images": 97,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 15
+    }
+  },
+  "sources/environment/hex_crystal_grove.blend": {
+    "source_sha256": "a3f841bcc3b7fab3a74eaa814ef2eec845b5e81bad779fe7ab6625a8e8f0e3a6",
+    "baseline_sha256": "d674d09d27b894adafbe89a7a46fadd41b4754cddd4569ef796e2cd7d2742576",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 2428,
+      "meshes": 217,
+      "materials": 66,
+      "images": 64,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 13
+    }
+  },
+  "sources/environment/hex_crystal_shrine.blend": {
+    "source_sha256": "5a92dff03cf2babfeee015faab4a3ba2b8dc4f5ec7da0138ae60a6209b3b9ab2",
+    "baseline_sha256": "2a1753a92b7fc24d69c0b2469cea8a1ec9069e01478ec837b781cb030887f506",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 2181,
+      "meshes": 243,
+      "materials": 71,
+      "images": 66,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 15
+    }
+  },
+  "sources/environment/hex_dream_menagerie.blend": {
+    "source_sha256": "a855b675e38c2d91c214b6d2c3c1ffe8920c9bb7f42d424a2d5fcaf2320e1e83",
+    "baseline_sha256": "6c6d0e916371ffdedcfaab38e7dfb2ebf4f89b38915a440959add5fb7b9fd468",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 1509,
+      "meshes": 285,
+      "materials": 98,
+      "images": 98,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 17
+    }
+  },
+  "sources/environment/hex_ground_dirt.blend": {
+    "source_sha256": "e58ec4f12651a09d6d5e7b6d287b0c8e16fcdb23df09ae71136fd2d0e10cfed6",
+    "baseline_sha256": "dfa300ec9edff699b7b7375257f1ed662756975c562f00888e190ffe1c0021bf",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 9,
+      "meshes": 4,
+      "materials": 3,
+      "images": 8,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 2
+    }
+  },
+  "sources/environment/hex_ground_grass.blend": {
+    "source_sha256": "f06ba20e2ef318b5e7ad5f818e99e5f551d7ef08edb1015622378d92c42539e1",
+    "baseline_sha256": "82b78d078ae2080ea4e59598790f79e949e8667a87ec6afea5dc80e33421cce5",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 9,
+      "meshes": 4,
+      "materials": 3,
+      "images": 8,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 2
+    }
+  },
+  "sources/environment/hex_ground_leaf_litter.blend": {
+    "source_sha256": "e1fdfc3811ae8e44c006ec5f75a8560657cc01fa4b56b8bfdae8b7eb5c1ca0b7",
+    "baseline_sha256": "993a1d9a0f27c4bc01c0d4fe69a102e268bd76c8b86fc977055715085ff79f18",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 9,
+      "meshes": 4,
+      "materials": 3,
+      "images": 8,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 2
+    }
+  },
+  "sources/environment/hex_ground_moss.blend": {
+    "source_sha256": "ff24c6bfa63c460294b37f979ebc5ab5af83a06518b6019c4f5bbd4a536f713e",
+    "baseline_sha256": "051896cdc3bf380bec2b120f53ed9499a9e8eb314b6bef486fe216ee09dfe247",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 9,
+      "meshes": 4,
+      "materials": 3,
+      "images": 8,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 2
+    }
+  },
+  "sources/environment/hex_ground_pine_duff.blend": {
+    "source_sha256": "2ab9df3da6e77b57e1944d122675bbffe7a705700d37713206f64a462c49a002",
+    "baseline_sha256": "0acd2febfc2f5965f9c9f7a0a1dd2f0bc7d8bf1653054c572c2971ba9a08ed0f",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 9,
+      "meshes": 4,
+      "materials": 3,
+      "images": 8,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 2
+    }
+  },
+  "sources/environment/hex_hollow_watchers.blend": {
+    "source_sha256": "7b734f3653634bbd359602e0a5ffdfad773fa93f7926002be9647879081a4fdd",
+    "baseline_sha256": "7ac209c44c797b7937d4817f294a641814b07ba9c330ccb99924983d7dde774d",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 1578,
+      "meshes": 337,
+      "materials": 96,
+      "images": 105,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 16
+    }
+  },
+  "sources/environment/hex_lantern_bridge.blend": {
+    "source_sha256": "fedd1991e0e027f71aaf0f4181a2450c99d148759a2698a3c210f2c04f97b6b2",
+    "baseline_sha256": "1b72d7a6e7a516f9fc23732d5d75962564f0b089ef50bffa4d9a1afd9f377dc6",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 6371,
+      "meshes": 250,
+      "materials": 80,
+      "images": 88,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 16
+    }
+  },
+  "sources/environment/hex_meadow_building.blend": {
+    "source_sha256": "ff53f6970ac083e5ec423260b0b47bbeed4c3c1bfa15c4d06c10c10f5897c5dd",
+    "baseline_sha256": "ac85f9f60d5a6dc9bc0d959a26b6060296b903c447abde7dcb9d1d7994bc9183",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 104,
+      "meshes": 104,
+      "materials": 14,
+      "images": 2,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 4
+    }
+  },
+  "sources/environment/hex_meadow_character.blend": {
+    "source_sha256": "b0ac99e60f2dc2fdda2848728d939ab150e9815991e221f103567bb0fa0c2d48",
+    "baseline_sha256": "c79127d7b8a095e4051df3a9dc8ad26f0ae4e0ec2c8581ef47d5ae23b12a0b0b",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 101,
+      "meshes": 101,
+      "materials": 11,
+      "images": 2,
+      "actions": 6,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 4
+    }
+  },
+  "sources/environment/hex_mystical_grove.blend": {
+    "source_sha256": "54560815be65e73dd0cc47b39455ec6b475f599691ad2975ccc167d6f655044c",
+    "baseline_sha256": "176195e0df6274e4e15a4b35204897d48bdb7fc1f9b5ec4185b80c839852c2f6",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 2210,
+      "meshes": 214,
+      "materials": 63,
+      "images": 64,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 12
+    }
+  },
+  "sources/environment/hex_path_end.blend": {
+    "source_sha256": "39924aaf68249b8f99c8f1447d63dd5740470e44657bf87c761dab407793414f",
+    "baseline_sha256": "ecd916e9c2f3d76223289d25da0efd0bfee131b00cbbb8ae5a5b1b1fe9cbd3af",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 7,
+      "meshes": 2,
+      "materials": 2,
+      "images": 5,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 2
+    }
+  },
+  "sources/environment/hex_path_straight.blend": {
+    "source_sha256": "2a4547e352d6d3ced2c0304ec632955715114f961a7648fd2970bd1b3a0825cf",
+    "baseline_sha256": "6d9e9a00d56f16eea8fed13a96434a9ec16cb1e7c8c14f70fcc0ab0d1deb19e4",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 7,
+      "meshes": 2,
+      "materials": 2,
+      "images": 5,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 2
+    }
+  },
+  "sources/environment/hex_path_turn_120.blend": {
+    "source_sha256": "c8a93365afe6941eaf48be4fc208c1f0fbfdc8b45f06bc925e1769febcc8dec3",
+    "baseline_sha256": "1168ae81359f7af8a7cf4ae3fec0f736c6224ddd969716ca65d35043e87488ac",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 7,
+      "meshes": 2,
+      "materials": 2,
+      "images": 5,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 2
+    }
+  },
+  "sources/environment/hex_path_turn_60.blend": {
+    "source_sha256": "c4805679698823f56f1f5fe71b549924da4ace6a53fceb8af0f37f3a9ad588d9",
+    "baseline_sha256": "c76c027ddce6f42f0eb4bff830e6494ab819e98d89cf802420605339f8061829",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 7,
+      "meshes": 2,
+      "materials": 2,
+      "images": 5,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 2
+    }
+  },
+  "sources/environment/hex_river_overlay_end.blend": {
+    "source_sha256": "d9a16df454a5025dd398fec95519d6864a56871c46b253a0b75127917bc61d12",
+    "baseline_sha256": "f60dcb4516b20535273f271ebd9d5c01d86e52738e3a209eef461aa02ded3f4a",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 7,
+      "meshes": 2,
+      "materials": 2,
+      "images": 5,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 2
+    }
+  },
+  "sources/environment/hex_river_overlay_straight.blend": {
+    "source_sha256": "eefa8018f32426a9f85b1ff4962251140ac1d952da7e977efcc0e0d05836f5e4",
+    "baseline_sha256": "b30c1b3f9235fd7755a532c907198616b563023a39135b30c5745f36700291c2",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 7,
+      "meshes": 2,
+      "materials": 2,
+      "images": 5,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 2
+    }
+  },
+  "sources/environment/hex_river_overlay_turn_120.blend": {
+    "source_sha256": "8d016c1d31d32756401157bdf0c589521d8bb5ac8e4735eb47f9d2f36f25454f",
+    "baseline_sha256": "e72b612b1592b2938cafd117ac2a4684ed23ff7f5007927b041e8d3ea891763a",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 7,
+      "meshes": 2,
+      "materials": 2,
+      "images": 5,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 2
+    }
+  },
+  "sources/environment/hex_river_overlay_turn_60.blend": {
+    "source_sha256": "223ea012c744d9f72e099ade453a295b225bb8bc691e5c03a7918a787c323fb5",
+    "baseline_sha256": "a7c28e233353db4e9db9a6af839a287882e28d6f70447424bd12f616f838ef49",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 7,
+      "meshes": 2,
+      "materials": 2,
+      "images": 5,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 2
+    }
+  },
+  "sources/environment/hex_rune_shrine.blend": {
+    "source_sha256": "ec95a57611c8acdc58a885c0937d4e428cdb1db73605e2936c1183b8afdcaa82",
+    "baseline_sha256": "d8cb9a0a1c848c1b93ba563a5c6ab1f1d124ee8a9e89107fa6199b0057245c78",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 2693,
+      "meshes": 222,
+      "materials": 74,
+      "images": 73,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 14
+    }
+  },
+  "sources/environment/hex_woodland_bridge.blend": {
+    "source_sha256": "6cafde58a0de06606c020183c25878f921c31af094d839e85396a45ca2a7bb0c",
+    "baseline_sha256": "c5307c71c46beb9941d9b7fee7ce9c70458baec62d50b60b5dc76d4da02f7acd",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 2833,
+      "meshes": 265,
+      "materials": 89,
+      "images": 93,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 17
+    }
+  },
+  "sources/environment/shared_enchanted_kit.blend": {
+    "source_sha256": "8f72cb76a42cb43847f352da123d103bf97959e8a870e6b3302c33fcd8174774",
+    "baseline_sha256": "e9dbdd69ffd7b01ea65b2759cf1cdf1098c0ec1c652ba31fa04ef523dc7a4cdd",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 307,
+      "meshes": 249,
+      "materials": 30,
+      "images": 45,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 10
+    }
+  },
+  "sources/environment/shared_forest_kit.blend": {
+    "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+    "baseline_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 667,
+      "meshes": 281,
+      "materials": 37,
+      "images": 59,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 26
+    }
+  },
+  "sources/props/arrow.blend": {
+    "source_sha256": "5c8195e7de520f38df02ca7a25edd92412615883ad7f03fc14dbe8573c5de250",
+    "baseline_sha256": "c022791381f689c08171520c2b70678ba94651dfe89692361e4ded7bdf74bea1",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 5,
+      "meshes": 4,
+      "materials": 3,
+      "images": 2,
+      "actions": 6,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 4
+    }
+  },
+  "sources/props/axe.blend": {
+    "source_sha256": "c1e1909b6fc69fcffde2ee50e3d8b59453dbc553ad0b650cccf907b67c095685",
+    "baseline_sha256": "82e1be1d99730aa67983d9c970bf7c24bbc08df3299563d0f6be5cc801678362",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 15,
+      "meshes": 14,
+      "materials": 12,
+      "images": 2,
+      "actions": 6,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 5
+    }
+  },
+  "sources/props/axe_offhand.blend": {
+    "source_sha256": "38adcf52c9191d856c16ebdc177bede7e3739a3fbc74baf545c76d5d1316c4bb",
+    "baseline_sha256": "05abc3ff528c448d72965a73a05731fb7ec314060f6831c05fbd8daba876a54c",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 15,
+      "meshes": 14,
+      "materials": 12,
+      "images": 2,
+      "actions": 6,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 5
+    }
+  },
+  "sources/props/bow.blend": {
+    "source_sha256": "ca87fc3d9d9f6533b1d4644ffda5d5c19042481a63f44c3e0b18823690976d63",
+    "baseline_sha256": "44b340cab10ad941d6cdfa490f560f4bdcbb1fc34844c8f303d1da568e2aee03",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 7,
+      "meshes": 6,
+      "materials": 3,
+      "images": 2,
+      "actions": 6,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 4
+    }
+  },
+  "sources/props/crossbow.blend": {
+    "source_sha256": "6e2e3019a97661e206aec456f78136ed222f040a066e670dd88ede47f2638bbb",
+    "baseline_sha256": "602270557eea9749c056670bc86d8791b4341cf1b57931c2932b5e904805c536",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 16,
+      "meshes": 15,
+      "materials": 9,
+      "images": 2,
+      "actions": 6,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 6
+    }
+  },
+  "sources/props/evil_axe.blend": {
+    "source_sha256": "932a889929618a283f2a1eb4e85a19d6cf9a5b7d6870616492c0548971e43e9c",
+    "baseline_sha256": "325b9876da3d9d864b0468ed17e72f0ee78ae6ed06542bdaa60b84449ef5b67f",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 16,
+      "meshes": 15,
+      "materials": 17,
+      "images": 2,
+      "actions": 6,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 7
+    }
+  },
+  "sources/props/evil_axe_offhand.blend": {
+    "source_sha256": "6ee805035ee857d8f91168ba3da508684c9d63a89e18102ba1fd18294c5fe84b",
+    "baseline_sha256": "d11a6945f6e5b2fab6613334360ebad200ae50fce6fa3a658f3d85650535fca3",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 16,
+      "meshes": 15,
+      "materials": 17,
+      "images": 2,
+      "actions": 6,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 7
+    }
+  },
+  "sources/props/evil_hand_flame.blend": {
+    "source_sha256": "d9a0f2cd6d489eb94e576ce94befab791309f4c06159f6f21ff6f77f969e2d21",
+    "baseline_sha256": "875e9b2b418f15e046e0677680d15c5cd5dbd9f41c935aca45bf1809a0afcf07",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 5,
+      "meshes": 4,
+      "materials": 2,
+      "images": 2,
+      "actions": 6,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 5
+    }
+  },
+  "sources/props/evil_shield.blend": {
+    "source_sha256": "4585838fde30c61b191d49efc206b741b4a54bd1033c8276b20fd733b27821c2",
+    "baseline_sha256": "d6dc81540ff96f56339eddd535f08b2611515bd89230b591a080e2da81553963",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 17,
+      "meshes": 16,
+      "materials": 8,
+      "images": 2,
+      "actions": 6,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 6
+    }
+  },
+  "sources/props/evil_staff.blend": {
+    "source_sha256": "06c22be56ccc5f289a1bf8f115ca2dd4f2e78ef7881e0789fca6bcad854fab13",
+    "baseline_sha256": "f368f7a3129f16046e143cb8c7209497555272a2025fd849dea5d65e7959cdf2",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 17,
+      "meshes": 16,
+      "materials": 7,
+      "images": 5,
+      "actions": 6,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 5
+    }
+  },
+  "sources/props/evil_sword.blend": {
+    "source_sha256": "e563d761b1bf5e6bc0ea5c5c552db777307c0b0fe94bd0e326c7e73fce247e46",
+    "baseline_sha256": "a76cb8677f1a6b5512e0ea53e8fc3395c833d8720c9691f543bb345b98264abd",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 12,
+      "meshes": 11,
+      "materials": 6,
+      "images": 2,
+      "actions": 6,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 6
+    }
+  },
+  "sources/props/shared_village_kit.blend": {
+    "source_sha256": "f0d5ddc7f958ba968f70b2dadffcb9fc345b263cb775c3b4cfaf320c1857e5e7",
+    "baseline_sha256": "345c524f8c399a9d9d2b4de61d95200f3952cb5e6dd7fbef3d33d87b9ecc66d6",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 419,
+      "meshes": 159,
+      "materials": 32,
+      "images": 8,
+      "actions": 0,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 21
+    }
+  },
+  "sources/props/shield.blend": {
+    "source_sha256": "7cea51ab7595933eec3a3d8664e5db8026f88c5617a5a9b9710d03bd19a8f8c7",
+    "baseline_sha256": "917ed225ca08caa0abd06f6483189e77320efba128ed45ca4cc19739e5caf422",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 17,
+      "meshes": 16,
+      "materials": 5,
+      "images": 2,
+      "actions": 6,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 4
+    }
+  },
+  "sources/props/staff.blend": {
+    "source_sha256": "460afd0dd31719b66ce5fd81caec1a33ac9850b61e5657015a9d96401fc3395c",
+    "baseline_sha256": "9f393a65458cd173bebc5bd4002c07f6795adb7d38d69f5859453824595350dc",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 18,
+      "meshes": 17,
+      "materials": 7,
+      "images": 5,
+      "actions": 6,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 4
+    }
+  },
+  "sources/props/sword.blend": {
+    "source_sha256": "a7b175b23960721acc235120492430b34d6e5f154951899b0e291d90b9e01e1e",
+    "baseline_sha256": "b35e43467224bb13a9a20cd29db7634170e003aa159964aa6967094077f6467a",
+    "all_object_structure_equal": true,
+    "all_material_noncolor_pixels_equal": true,
+    "all_texture_alpha_equal": true,
+    "physical_defaults_and_emission_strength_equal": true,
+    "all_original_ids_retained": true,
+    "original_id_counts": {
+      "objects": 12,
+      "meshes": 11,
+      "materials": 4,
+      "images": 2,
+      "actions": 6,
+      "armatures": 0,
+      "curves": 0,
+      "collections": 4
+    }
+  }
+}
