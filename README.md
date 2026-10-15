@@ -308,8 +308,10 @@ additional dependency decisions are covered in the
 [historical first-round refinement ledger](docs/whisperwood/completion.json) and
 [second-round inventory](docs/quality-round-two/inventory.json). See the
 [current color-recovery record](docs/vivid-palette/README.md) for current inventory,
-export evidence and the limits of the palette-checkpoint presentation renders;
-[localized motion](docs/ambient-motion/README.md) owns final clip coverage and playback.
+landed export evidence and the limits of the palette-checkpoint presentation renders;
+[localized motion](docs/ambient-motion/README.md) owns clip coverage and playback.
+[Runtime optimization](docs/runtime-optimization/README.md) owns current optimized
+export evidence and consumer handoff.
 The eight original PNGs from `new_autobattler_assets.zip` are preserved in
 `sources/reference/autobattler/`; its manifest records archive and image checksums.
 
@@ -317,8 +319,8 @@ The eight original PNGs from `new_autobattler_assets.zip` are preserved in
 barracks, magic academy, stone cutter, tavern, trade market, and berserker.
 Each has an individual source, GLB export, and preview alongside the original set.
 The berserker uses the shared 19-bone skeleton and six starter animation clips,
-with a dual-axe attack. The building details and berserker modeling pass are ready
-for art review before optimization.
+with a dual-axe attack. The building details and berserker modeling pass remain available
+for art review; building runtime exports follow the optimization record linked above.
 
 `sources/evil_autobattler.blend` assembles initial models of four evil units:
 the skeleton melee fighter, horned mage, hooded crossbowman, and horned berserker.

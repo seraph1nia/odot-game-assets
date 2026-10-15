@@ -7,11 +7,13 @@ material colors/maps, original orphan IDs, roots, character rigs/sockets and all
 six character clips survive. Sixteen buildings each receive **one connected
 animated spot**; nine water entries cover every existing water representation.
 
-Open [the complete motion review](review.html) for fixed-camera, actual-GLB
+Open [the landed motion review](review.html) for fixed-camera, actual-GLB
 key poses and deliberately stepped GIFs. The GIFs illustrate selected poses;
-they are **not** evidence of runtime frame rate or smooth game playback. The
-[neutral full-catalog comparisons](../vivid-palette/actual-review.html) bind the
-final exported assets, not an obsolete palette-only export.
+they are **not** evidence of runtime frame rate or smooth game playback. These
+and the [neutral full-catalog comparisons](../vivid-palette/actual-review.html)
+are immutable snapshots of the detailed exports at `9a69b514`, not current optimized
+render bindings. See the [runtime successor record](../runtime-optimization/README.md)
+for current export evidence and verification.
 
 ## Clip and playback contract
 
@@ -101,12 +103,12 @@ are not copied or made real.
    binds are allowed. All original world rest matrix entries are independently
    checked within `2e-6` (translation entries in meters) before normalization of
    floating-point bind noise for the structural fingerprint.
-4. The audit imports **each of the 25 actual published GLBs**, evaluates mesh
+4. The landed audit imports **each of the 25 detailed published GLBs**, evaluates mesh
    vertices at all five authored key times, checks movement and closed endpoints,
    confirms every fixed source object's world transform stays fixed, and compares
    source/export point clouds with a symmetric nearest-point bound of 0.1 mm.
    It does not treat a clip name or screenshot as proof of playback.
-5. [Render receipts](renders.json) bind the current exports, renderer recipe,
+5. [Render receipts](renders.json) bind the landed detailed exports, renderer recipe,
    fixed crop camera and every PNG/GIF derivative. [The final color audit](../vivid-palette/preservation.json)
    composes checkpoint preservation with the independently verified motion stage;
    it does not falsely claim that the newly inserted pivots existed before.
@@ -174,7 +176,12 @@ in `renders.json` to a successful worker. There was no shutdown-crash waiver.
 
 ## Reproduce checks and review
 
-Use the already-installed Blender explicitly if it is not on PATH:
+For current export fidelity and playback, follow the
+[runtime successor procedure](../runtime-optimization/README.md#repeatable-commands)
+after any commands below that re-export GLBs. That procedure owns the required
+baseline and unbatched-audit preparation. The checks below do not regenerate
+historical render receipts. Use the already-installed Blender explicitly if it
+is not on PATH:
 
 ```sh
 BLENDER=/home/bart/.local/opt/blender-5.2.2-linux-x64/blender
@@ -182,8 +189,6 @@ UV_OFFLINE=1 mise run check
 python3 -m tools.asset_pack.worker tools/asset_pack/test_ambient_blender.py \
   --label ambient-fixtures-corrected --blender "$BLENDER"
 python3 -m tools.asset_pack.check --all --blender "$BLENDER"
-python3 -m tools.asset_pack.worker tools/asset_pack/verify_runtime_blender.py \
-  --label runtime-preservation-playback --blender "$BLENDER"
 python3 -m tools.asset_pack.worker tools/asset_pack/verify_vivid_blender.py \
   --label ambient-vivid-chain --blender "$BLENDER"
 python3 -m tools.asset_pack.worker tools/asset_pack/verify_style_blender.py --all \
@@ -200,18 +205,8 @@ run_blender('tools/asset_pack/verify_painted_blender.py',
 PY
 python3 -m tools.asset_pack.worker tools/asset_pack/verify_forest_blender.py \
   --label ambient-forest --blender "$BLENDER"
-python3 -m tools.asset_pack.vivid_review --render --blender "$BLENDER"
-python3 -m tools.asset_pack.ambient_review --render --blender "$BLENDER"
 python3 -m tools.asset_catalog build
 ```
-
-Current optimized exports use the [runtime successor verification procedure](../runtime-optimization/README.md#repeatable-commands),
-including reconstruction of its baseline GLBs and fresh unbatched audit exports
-before running `verify_runtime_blender.py`. The old `verify_ambient_blender.py`
-entry point delegates to that same runtime-aware audit. Both publish only the
-runtime successor ledger; the historical ambient `validation.json`, authored
-preservation receipts and render receipts remain immutable records of the detailed
-landed assets. The fixed 0.1mm pose tolerance is unchanged.
 
 Historical preservation verification uses byte-bound, task-local checkpoints. On a fresh checkout,
 reconstruct the palette-stage source files from `ac41b74` into
@@ -254,7 +249,7 @@ The independent forest checks assess actual shared mesh/material/grid consistenc
 at rest. Non-water component exports remain static; a shared source's ambient
 slots do not justify leaking clips into unrelated collection selections.
 
-[Checks and final resource accounting](checks.json) bind completed commands and
-current artifact hashes. All review here is standalone CPU asset/browser
+[Checks and final resource accounting](checks.json) bind the motion-stage commands
+and landed artifact hashes. All review here is standalone CPU asset/browser
 inspection. **Game import, actual-game camera/playback, GPU cost and artist
 acceptance remain separate queued work**, not acceptance claimed by these checks.
