@@ -1,0 +1,43 @@
+{
+  "asset": "buildings/magic_academy",
+  "before_glb_sha256": "7fee44b3b088347689553accc8027cb03e5a441d0dfdfc8201365564b9bb62ca",
+  "after_glb_sha256": "3d4eea8b41984a020321d9064cb9c9f0d8ec0c499f2a8b3f25acb527ea1b72e9",
+  "blender": "5.2.2 LTS",
+  "blender_build": "d13f752e3b9c",
+  "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+  "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+  "camera": {
+    "position": [
+      8.518440246582031,
+      -12.927849769592285,
+      10.842839241027832
+    ],
+    "rotation": [
+      1.1077648401260376,
+      9.708006842856776e-08,
+      0.5880025625228882
+    ],
+    "ortho_scale": 9.938653945922852,
+    "resolution": [
+      480,
+      480
+    ],
+    "frame": 1,
+    "engine": "CYCLES",
+    "samples": 24,
+    "view_transform": "AgX",
+    "look": "None",
+    "exposure": 0.0,
+    "glow": false,
+    "lights": "Same three neutral SUN lights and world, untouched between imports",
+    "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+  },
+  "images": {
+    "docs/runtime-optimization/evidence/buildings/magic_academy/before.png": "ebb613ca3c81470320a9fa2dba5da5d964da71f5882b1fd20e006707a9086c61",
+    "docs/runtime-optimization/evidence/buildings/magic_academy/before-192.png": "51e47eec444a676ece4416750263ca9df2366670d9960cbf0640231e51ec1bf2",
+    "docs/runtime-optimization/evidence/buildings/magic_academy/before-96.png": "73f16d35a3c98ef69e74a965691f5d48f0b8c9387e1bcd68c40fc6457b6070fa",
+    "docs/runtime-optimization/evidence/buildings/magic_academy/after.png": "6f69be0ec31718efab6d2b49715fe3c1b97da3a969248388c0673b8a56f6d8d4",
+    "docs/runtime-optimization/evidence/buildings/magic_academy/after-192.png": "06d452a8e97bded785aeb165689063c86213d41289a1b8213e5f184f2468fbb2",
+    "docs/runtime-optimization/evidence/buildings/magic_academy/after-96.png": "8d44ee6f9acab7b1c4aff3395f576c5e1f14a4f4b523885731bc3c3bd945b4ff"
+  }
+}

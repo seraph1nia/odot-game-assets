@@ -1,0 +1,227 @@
+{
+  "buildings/archery_range": {
+    "object": "Woodland shared curved ivy leaf.1401",
+    "condition": 4.440738992728455,
+    "singular_values": [
+      1.07317316532135,
+      0.388527448604175,
+      0.24166544511592133
+    ]
+  },
+  "buildings/arrow_tower": {
+    "object": "Woodland shared curved ivy leaf.1036",
+    "condition": 32.77651285145561,
+    "singular_values": [
+      1.9345586299896285,
+      0.7259250507282354,
+      0.05902271052314568
+    ]
+  },
+  "buildings/bakery": {
+    "object": "Woodland shared curved ivy leaf.011",
+    "condition": 1.2307693489712788,
+    "singular_values": [
+      1.3059932789252136,
+      1.166065376699375,
+      1.0611194372177124
+    ]
+  },
+  "buildings/barracks": {
+    "object": "Woodland shared curved ivy leaf.1449",
+    "condition": 5.387528738003771,
+    "singular_values": [
+      1.025823712348938,
+      0.5306716235858665,
+      0.19040709799146877
+    ]
+  },
+  "buildings/bombarding_tower": {
+    "object": "Woodland shared curved ivy leaf.1178",
+    "condition": 23.13098610792099,
+    "singular_values": [
+      1.5395411252975553,
+      0.8934462688218311,
+      0.06655752236911136
+    ]
+  },
+  "buildings/gold_mine": {
+    "object": "Woodland shared moss cushion.018",
+    "condition": 1.2222225296346632,
+    "singular_values": [
+      1.447788417235312,
+      1.3161712666186731,
+      1.184553861618042
+    ]
+  },
+  "buildings/magic_academy": {
+    "object": "Woodland shared curved ivy leaf.1208",
+    "condition": 2.780612776261222,
+    "singular_values": [
+      1.4046008586883543,
+      0.871355501466947,
+      0.5051407627411406
+    ]
+  },
+  "buildings/metal_mine": {
+    "object": "Woodland shared moss cushion.321",
+    "condition": 1.2866998658801818,
+    "singular_values": [
+      1.844373205576207,
+      1.4737052355532472,
+      1.4334136922556857
+    ]
+  },
+  "buildings/research_tower": {
+    "object": "Woodland shared curved ivy leaf.1118",
+    "condition": 2.9558594414089185,
+    "singular_values": [
+      1.893204280526639,
+      1.0744730342259283,
+      0.6404919848368155
+    ]
+  },
+  "buildings/stone_cutter": {
+    "object": "Woodland shared curved ivy leaf.056",
+    "condition": 1.2274852357024386,
+    "singular_values": [
+      1.7920094012760746,
+      1.4864294048815696,
+      1.4599030189154025
+    ]
+  },
+  "buildings/tavern": {
+    "object": "Woodland shared curved ivy leaf.1200",
+    "condition": 3.2080762805141982,
+    "singular_values": [
+      2.5205384344070314,
+      1.3150144632060412,
+      0.7856853185557774
+    ]
+  },
+  "buildings/town_hall": {
+    "object": "Woodland shared curved ivy leaf.3616",
+    "condition": 4.011606846591359,
+    "singular_values": [
+      1.6983062028884888,
+      0.7549620836591562,
+      0.42334811656120547
+    ]
+  },
+  "buildings/trade_market": {
+    "object": "Woodland shared moss cushion.330",
+    "condition": 1.2665823560368357,
+    "singular_values": [
+      2.3461709766804817,
+      1.9575533737208985,
+      1.8523635399609566
+    ]
+  },
+  "buildings/tree_house": {
+    "object": "Woodland shared moss cushion.091",
+    "condition": 1.1100002319715188,
+    "singular_values": [
+      1.2750523090362549,
+      1.2061302569636387,
+      1.148695533848295
+    ]
+  },
+  "buildings/weaver": {
+    "object": "Woodland shared curved ivy leaf.1143",
+    "condition": 3.095414911124561,
+    "singular_values": [
+      3.207627815248745,
+      1.726563052851336,
+      1.0362513289319968
+    ]
+  },
+  "buildings/woodcutter_hut": {
+    "object": "Woodland shared curved ivy leaf.008",
+    "condition": 1.080000165537205,
+    "singular_values": [
+      1.141168702515972,
+      1.098903035795648,
+      1.0566375255584717
+    ]
+  },
+  "environment/components/forest_foam": {
+    "object": "Foam bead",
+    "condition": 1.0,
+    "singular_values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "environment/components/forest_hex_stream": {
+    "object": "Continuous river water",
+    "condition": 1.0,
+    "singular_values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "environment/components/forest_waterfall": {
+    "object": "Opaque stylized waterfall",
+    "condition": 1.0,
+    "singular_values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "environment/hex_lantern_bridge": {
+    "object": "Woodland shared curved ivy leaf.1786",
+    "condition": 2.16279090467592,
+    "singular_values": [
+      1.2607230198239772,
+      0.7998134610096175,
+      0.5829148888587952
+    ]
+  },
+  "environment/hex_river_overlay_end": {
+    "object": "Ambient interior water shimmer",
+    "condition": 1.0000000000000038,
+    "singular_values": [
+      1.0000000000000038,
+      1.0000000000000038,
+      1.0
+    ]
+  },
+  "environment/hex_river_overlay_straight": {
+    "object": "Ambient interior water shimmer",
+    "condition": 1.0000000000000038,
+    "singular_values": [
+      1.0000000000000038,
+      1.0000000000000038,
+      1.0
+    ]
+  },
+  "environment/hex_river_overlay_turn_120": {
+    "object": "Ambient interior water shimmer",
+    "condition": 1.0000000163411507,
+    "singular_values": [
+      1.0000000163411507,
+      1.0000000163411504,
+      1.0
+    ]
+  },
+  "environment/hex_river_overlay_turn_60": {
+    "object": "Ambient interior water shimmer",
+    "condition": 1.0000000163411507,
+    "singular_values": [
+      1.0000000163411507,
+      1.0000000163411504,
+      1.0
+    ]
+  },
+  "environment/hex_woodland_bridge": {
+    "object": "Opaque stylized waterfall.001",
+    "condition": 1.612903213401739,
+    "singular_values": [
+      1.0,
+      0.9200000166893005,
+      0.6200000047683716
+    ]
+  }
+}

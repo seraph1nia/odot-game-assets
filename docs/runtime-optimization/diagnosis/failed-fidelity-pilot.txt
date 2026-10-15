@@ -1,0 +1,62 @@
+00:01.607  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/sources/buildings/magic_academy.blend"
+18:21:21 | INFO: Data are loaded, start creating Blender stuff
+18:21:21 | INFO: Blender create Mesh node Runtime surface 008
+18:21:21 | INFO: Blender create Mesh node Runtime surface 009
+18:21:21 | INFO: Blender create Mesh node Runtime surface 001
+18:21:21 | INFO: Blender create Mesh node Runtime surface 002
+18:21:21 | INFO: Blender create Mesh node Runtime surface 003
+18:21:21 | INFO: Blender create Mesh node Runtime surface 004
+18:21:21 | INFO: Blender create Mesh node Runtime surface 005
+18:21:21 | INFO: Blender create Mesh node Runtime surface 006
+18:21:21 | INFO: Blender create Mesh node Runtime surface 007
+18:21:21 | INFO: Blender create Mesh node Runtime surface 010
+18:21:21 | INFO: Blender create Mesh node Runtime surface 011
+18:21:21 | INFO: Blender create Mesh node Runtime surface 012
+18:21:21 | INFO: Blender create Mesh node Runtime surface 013
+18:21:21 | INFO: Blender create Mesh node Runtime surface 014
+18:21:21 | INFO: Blender create Mesh node Runtime surface 015
+18:21:21 | INFO: Blender create Mesh node Runtime surface 016
+18:21:21 | INFO: Blender create Mesh node Runtime surface 017
+18:21:21 | INFO: Blender create Mesh node Runtime surface 018
+18:21:21 | INFO: Blender create Mesh node Runtime surface 019
+18:21:21 | INFO: Blender create Mesh node Runtime surface 020
+18:21:21 | INFO: Blender create Mesh node Runtime surface 021
+18:21:21 | INFO: Blender create Mesh node Runtime surface 022
+18:21:21 | INFO: Blender create Mesh node Runtime surface 023
+18:21:21 | INFO: Blender create Mesh node Runtime surface 024
+18:21:22 | INFO: Blender create Mesh node Runtime surface 025
+18:21:22 | INFO: Blender create Mesh node Runtime surface 026
+18:21:22 | INFO: Blender create Mesh node Runtime surface 027
+18:21:22 | INFO: Blender create Mesh node Runtime surface 028
+18:21:22 | INFO: Blender create Mesh node Runtime surface 029
+18:21:22 | INFO: Blender create Mesh node Runtime surface 030
+18:21:22 | INFO: Blender create Mesh node Runtime surface 031
+18:21:22 | INFO: Blender create Mesh node Runtime surface 032
+18:21:22 | INFO: Blender create Mesh node Runtime surface 033
+18:21:22 | INFO: Blender create Mesh node Runtime surface 034
+18:21:22 | INFO: Blender create Mesh node Runtime surface 035
+18:21:22 | INFO: Blender create Mesh node Runtime surface 036
+18:21:22 | INFO: Blender create Mesh node Runtime surface 037
+18:21:22 | INFO: Blender create Mesh node Runtime surface 038
+18:21:22 | INFO: Blender create Mesh node Runtime surface 039
+18:21:22 | INFO: Blender create Mesh node Runtime surface 000
+18:21:22 | INFO: glTF import finished in 0.79s
+Traceback (most recent call last):
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_runtime_blender.py", line 153, in <module>
+    if __name__ == '__main__': main()
+                               ~~~~^^
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_runtime_blender.py", line 146, in main
+    **portable_contract(before,after), **fidelity(job,before,after)}
+                                         ~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_runtime_blender.py", line 131, in fidelity
+    return {'runtime_detail': count, **compare_samples(source, imported)}
+                                       ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_runtime_blender.py", line 90, in compare_samples
+    assert counts_a == counts_b, ('per-material triangle multiplicity',
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('per-material triangle multiplicity', {('{"doubleSided": true, "emissiveFactor": [1, 0.36724647879600525, 0.006571403704583645], "extensions": {"KHR_materials_emissive_strength": {"emissiveStrength": 1.2300000190734863}}, "extras": {"vivid_finish": "vivid_painted_v1", "woodland_finish": "whisperwood_v1"}, "pbrMetallicRoughness": {"baseColorFactor": [1, 0.36724647879600525, 0.006571403704583645, 1], "metallicFactor": 0, "roughnessFactor": 0.7799999713897705}}', False): (185, 171), ('{"doubleSided": true, "emissiveFactor": [0.7105664610862732, 0.0300741046667099, 1], "extensions": {"KHR_materials_emissive_strength": {"emissiveStrength": 1.4500000476837158}}, "extras": {"vivid_finish": "vivid_painted_v1", "woodland_finish": "whisperwood_v1"}, "pbrMetallicRoughness": {"baseColorFactor": [0.7105664610862732, 0.0300741046667099, 1, 1], "metallicFactor": 0, "roughnessFactor": 0.7799999713897705}}', False): (12, 2), ('{"doubleSided": true, "extras": {"vivid_finish": "vivid_painted_v1", "woodland_finish": "whisperwood_v1"}, "pbrMetallicRoughness": {"baseColorFactor": [0.6209158897399902, 0.5382355451583862, 0.34239163994789124, 1], "metallicFactor": 0, "roughnessFactor": 0.7799999713897705}}', False): (3892, 3888), ('{"doubleSided": true, "extras": {"vivid_finish": "vivid_painted_v1", "woodland_finish": "whisperwood_v1"}, "pbrMetallicRoughness": {"baseColorFactor": [0.4919050335884094, 0.1873166710138321, 0.05290079116821289, 1], "metallicFactor": 0, "roughnessFactor": 0.7799999713897705}}', False): (3132, 3108), ('{"doubleSided": true, "extras": {"vivid_finish": "vivid_painted_v1", "woodland_finish": "whisperwood_v1"}, "pbrMetallicRoughness": {"baseColorFactor": [0.295699805021286, 0.07323895394802094, 0.5704815983772278, 1], "metallicFactor": 0, "roughnessFactor": 0.7799999713897705}}', False): (20, 10)})
+
+Error: script failed, file: '/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_runtime_blender.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

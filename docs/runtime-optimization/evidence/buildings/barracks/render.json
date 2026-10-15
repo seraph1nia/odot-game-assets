@@ -1,0 +1,43 @@
+{
+  "asset": "buildings/barracks",
+  "before_glb_sha256": "8755cd7db358bb0f4518b05dc3de7f4781d0d4aa5212beca710e40009c6f27c7",
+  "after_glb_sha256": "4965440253350354f49be062b61f2945c7c2924663c2496bc1bfbeba90b19d0a",
+  "blender": "5.2.2 LTS",
+  "blender_build": "d13f752e3b9c",
+  "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+  "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+  "camera": {
+    "position": [
+      7.031440258026123,
+      -10.828361511230469,
+      8.15611457824707
+    ],
+    "rotation": [
+      1.1077649593353271,
+      5.912646372507879e-08,
+      0.5880026817321777
+    ],
+    "ortho_scale": 8.219562530517578,
+    "resolution": [
+      480,
+      480
+    ],
+    "frame": 1,
+    "engine": "CYCLES",
+    "samples": 24,
+    "view_transform": "AgX",
+    "look": "None",
+    "exposure": 0.0,
+    "glow": false,
+    "lights": "Same three neutral SUN lights and world, untouched between imports",
+    "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+  },
+  "images": {
+    "docs/runtime-optimization/evidence/buildings/barracks/before.png": "57ecf3634cce950b8bd5abe7f2e8711229d64afeced8dd24fbce441f77a2c401",
+    "docs/runtime-optimization/evidence/buildings/barracks/before-192.png": "2479d013a1feef72e65b596b901c02dd791feeaa344b7ee7eaeb768517641fb8",
+    "docs/runtime-optimization/evidence/buildings/barracks/before-96.png": "31fabb20fba4e10c5017515bbab0fa7120ce46bfa448db8e33219a41d3614262",
+    "docs/runtime-optimization/evidence/buildings/barracks/after.png": "0e274c4c9a889346a3ec24ea70343aa13f7b2335908c3bbe74187ac034946bbf",
+    "docs/runtime-optimization/evidence/buildings/barracks/after-192.png": "808fb729e316231df4a1ecaecbf931af4aaf856d023885c930b79bc7d894a0b1",
+    "docs/runtime-optimization/evidence/buildings/barracks/after-96.png": "cfff16dc9a8bd7581298fe796cd0793676ef21629ac9278dbc3052b7c70d936c"
+  }
+}

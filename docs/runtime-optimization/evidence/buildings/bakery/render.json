@@ -1,0 +1,43 @@
+{
+  "asset": "buildings/bakery",
+  "before_glb_sha256": "cc49074b879a1b03ab9b52135d8d93e467a0f07c355466ea4ee02890b7638e66",
+  "after_glb_sha256": "ed10e186da56609154c4f0d01b96df394d802d0ca33d5bd23a4b366d25d2eb82",
+  "blender": "5.2.2 LTS",
+  "blender_build": "d13f752e3b9c",
+  "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+  "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+  "camera": {
+    "position": [
+      6.162692070007324,
+      -9.999719619750977,
+      7.614663600921631
+    ],
+    "rotation": [
+      1.1077649593353271,
+      -1.9397884187810632e-08,
+      0.5880026817321777
+    ],
+    "ortho_scale": 7.553883075714111,
+    "resolution": [
+      480,
+      480
+    ],
+    "frame": 1,
+    "engine": "CYCLES",
+    "samples": 24,
+    "view_transform": "AgX",
+    "look": "None",
+    "exposure": 0.0,
+    "glow": false,
+    "lights": "Same three neutral SUN lights and world, untouched between imports",
+    "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+  },
+  "images": {
+    "docs/runtime-optimization/evidence/buildings/bakery/before.png": "f67d582096912a07ad2f175bd442766351363dc46c684bfef982fd868e3f0abc",
+    "docs/runtime-optimization/evidence/buildings/bakery/before-192.png": "b322ffd8e951fec43fa02fea812c7d4ce9e33bffb72ffdd91f28b7faa1d167b2",
+    "docs/runtime-optimization/evidence/buildings/bakery/before-96.png": "25cd31790b86c140b2c56eb8afd6714f5ca67feb27b58359a326f07f36401421",
+    "docs/runtime-optimization/evidence/buildings/bakery/after.png": "db9710084525fef891d952330c17ff120917273268bed2c5c5d5220c4f88078c",
+    "docs/runtime-optimization/evidence/buildings/bakery/after-192.png": "cdbe02a5a33951d61c0ba70a59c5f28c4cc16f4e277596ad6f5d77f1be9faffd",
+    "docs/runtime-optimization/evidence/buildings/bakery/after-96.png": "9b53daf36d8ec5db6de3bf3690d9e098ca83cf9bba601901f546dc0fdad13546"
+  }
+}

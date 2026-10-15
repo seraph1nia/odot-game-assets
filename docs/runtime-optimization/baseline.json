@@ -1,0 +1,755 @@
+{
+  "revision": "9a69b514e9fd7b101bf75d358e202da822bbe2c0",
+  "assets": {
+    "buildings/archery_range": {
+      "job": {
+        "id": "buildings/archery_range",
+        "source": "sources/buildings/archery_range.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 7979912,
+        "meshes": 453,
+        "triangles": 41996,
+        "materials": 46,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "851fad1ec3b310163d40c090b1b51b17eea539e041af299ccd30611e04af3106"
+      },
+      "resources": {
+        "active_mesh_nodes": 4957,
+        "active_primitive_instances": 7924,
+        "active_triangle_instances": 179072,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/arrow_tower": {
+      "job": {
+        "id": "buildings/arrow_tower",
+        "source": "sources/buildings/arrow_tower.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 3544476,
+        "meshes": 250,
+        "triangles": 22237,
+        "materials": 44,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "7734a3dcd5deb492d9eb6537707507b9cd3600afed0d185dae22522f1a3f9c82"
+      },
+      "resources": {
+        "active_mesh_nodes": 3618,
+        "active_primitive_instances": 5855,
+        "active_triangle_instances": 124101,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/bakery": {
+      "job": {
+        "id": "buildings/bakery",
+        "source": "sources/buildings/bakery.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 3471496,
+        "meshes": 363,
+        "triangles": 30343,
+        "materials": 22,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "cc49074b879a1b03ab9b52135d8d93e467a0f07c355466ea4ee02890b7638e66"
+      },
+      "resources": {
+        "active_mesh_nodes": 934,
+        "active_primitive_instances": 1332,
+        "active_triangle_instances": 46003,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/barracks": {
+      "job": {
+        "id": "buildings/barracks",
+        "source": "sources/buildings/barracks.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 4438192,
+        "meshes": 289,
+        "triangles": 26643,
+        "materials": 45,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "8755cd7db358bb0f4518b05dc3de7f4781d0d4aa5212beca710e40009c6f27c7"
+      },
+      "resources": {
+        "active_mesh_nodes": 5417,
+        "active_primitive_instances": 8812,
+        "active_triangle_instances": 184615,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/bombarding_tower": {
+      "job": {
+        "id": "buildings/bombarding_tower",
+        "source": "sources/buildings/bombarding_tower.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 3707636,
+        "meshes": 210,
+        "triangles": 19445,
+        "materials": 37,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "68e4c0df67ed7d54d0ee904e129073e8252e8393b1b90a38df6ebcb32c99555d"
+      },
+      "resources": {
+        "active_mesh_nodes": 4596,
+        "active_primitive_instances": 7505,
+        "active_triangle_instances": 153801,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/gold_mine": {
+      "job": {
+        "id": "buildings/gold_mine",
+        "source": "sources/buildings/gold_mine.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 1804216,
+        "meshes": 148,
+        "triangles": 13266,
+        "materials": 19,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "5efe302a4a62d23c301c787410d58a3fe7013c54931362664aa997f441233d3b"
+      },
+      "resources": {
+        "active_mesh_nodes": 595,
+        "active_primitive_instances": 958,
+        "active_triangle_instances": 25162,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/magic_academy": {
+      "job": {
+        "id": "buildings/magic_academy",
+        "source": "sources/buildings/magic_academy.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 5402740,
+        "meshes": 313,
+        "triangles": 28350,
+        "materials": 42,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "7fee44b3b088347689553accc8027cb03e5a441d0dfdfc8201365564b9bb62ca"
+      },
+      "resources": {
+        "active_mesh_nodes": 7418,
+        "active_primitive_instances": 12100,
+        "active_triangle_instances": 248974,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/metal_mine": {
+      "job": {
+        "id": "buildings/metal_mine",
+        "source": "sources/buildings/metal_mine.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 7102128,
+        "meshes": 387,
+        "triangles": 37138,
+        "materials": 43,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "ce0ccecf59d0fa2a8ab326f7eeca29495c643999e8e6bdaf133b5eb99bb7f198"
+      },
+      "resources": {
+        "active_mesh_nodes": 2557,
+        "active_primitive_instances": 4032,
+        "active_triangle_instances": 103446,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/research_tower": {
+      "job": {
+        "id": "buildings/research_tower",
+        "source": "sources/buildings/research_tower.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 7521640,
+        "meshes": 432,
+        "triangles": 42766,
+        "materials": 44,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "b38a8ed0e9d0cea91e8548811159e3f432d1e2377b6ff63db923513e1536af80"
+      },
+      "resources": {
+        "active_mesh_nodes": 2773,
+        "active_primitive_instances": 4343,
+        "active_triangle_instances": 115034,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/stone_cutter": {
+      "job": {
+        "id": "buildings/stone_cutter",
+        "source": "sources/buildings/stone_cutter.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 3350668,
+        "meshes": 275,
+        "triangles": 23245,
+        "materials": 34,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "3d6fd9d045843fb19f6b60da624dbd8dd182e43e6c9e2c9f69ebaa6e09084515"
+      },
+      "resources": {
+        "active_mesh_nodes": 2850,
+        "active_primitive_instances": 4593,
+        "active_triangle_instances": 100781,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/tavern": {
+      "job": {
+        "id": "buildings/tavern",
+        "source": "sources/buildings/tavern.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 3867640,
+        "meshes": 342,
+        "triangles": 29764,
+        "materials": 43,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "d08fd692fa5bf1fbc541948bb30dc749505bfd7dd00dc0fd2494755696bf77b4"
+      },
+      "resources": {
+        "active_mesh_nodes": 2739,
+        "active_primitive_instances": 4344,
+        "active_triangle_instances": 102992,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/town_hall": {
+      "job": {
+        "id": "buildings/town_hall",
+        "source": "sources/buildings/town_hall.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 12036144,
+        "meshes": 899,
+        "triangles": 90379,
+        "materials": 40,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "6b10ca5a42080e686e41717cef4283cf05c63299061d1728b441dbb5b435cf07"
+      },
+      "resources": {
+        "active_mesh_nodes": 7047,
+        "active_primitive_instances": 11100,
+        "active_triangle_instances": 281055,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/trade_market": {
+      "job": {
+        "id": "buildings/trade_market",
+        "source": "sources/buildings/trade_market.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 3467968,
+        "meshes": 289,
+        "triangles": 23814,
+        "materials": 39,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "d6ecffd6ff4312f494c0e72a6365cf35e7a9230f69ca3a34527051ab46aaae11"
+      },
+      "resources": {
+        "active_mesh_nodes": 2600,
+        "active_primitive_instances": 4125,
+        "active_triangle_instances": 97126,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/tree_house": {
+      "job": {
+        "id": "buildings/tree_house",
+        "source": "sources/buildings/tree_house.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 1963044,
+        "meshes": 154,
+        "triangles": 13273,
+        "materials": 20,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "273dd115d53250ffa3f2cb14dab55392655d2a8212ed3e1c5b36cc81a8117267"
+      },
+      "resources": {
+        "active_mesh_nodes": 484,
+        "active_primitive_instances": 746,
+        "active_triangle_instances": 22573,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/weaver": {
+      "job": {
+        "id": "buildings/weaver",
+        "source": "sources/buildings/weaver.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 7345348,
+        "meshes": 467,
+        "triangles": 40278,
+        "materials": 44,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "373a6349226cf3ab7878b7f17404f8e262c03b39aa2981a226e841a2cb69812a"
+      },
+      "resources": {
+        "active_mesh_nodes": 2674,
+        "active_primitive_instances": 4167,
+        "active_triangle_instances": 106650,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "buildings/woodcutter_hut": {
+      "job": {
+        "id": "buildings/woodcutter_hut",
+        "source": "sources/buildings/woodcutter_hut.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 3535952,
+        "meshes": 366,
+        "triangles": 28069,
+        "materials": 25,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "6bf55306adc772d9ed09232da5fe40f06fb0bda7e1dc2a58807cc3ed3e74c9bd"
+      },
+      "resources": {
+        "active_mesh_nodes": 982,
+        "active_primitive_instances": 1420,
+        "active_triangle_instances": 44821,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "environment/components/forest_foam": {
+      "job": {
+        "id": "environment/components/forest_foam",
+        "source": "sources/environment/shared_forest_kit.blend",
+        "collection": "forest_foam",
+        "object": null
+      },
+      "facts": {
+        "bytes": 1523504,
+        "meshes": 8,
+        "triangles": 704,
+        "materials": 2,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "ba79ef146d10df22a626f77b4710132c918f3a66df2e63169c1870e46de0771b"
+      },
+      "resources": {
+        "active_mesh_nodes": 8,
+        "active_primitive_instances": 8,
+        "active_triangle_instances": 704,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "environment/components/forest_hex_stream": {
+      "job": {
+        "id": "environment/components/forest_hex_stream",
+        "source": "sources/environment/shared_forest_kit.blend",
+        "collection": "forest_hex_stream",
+        "object": null
+      },
+      "facts": {
+        "bytes": 601444,
+        "meshes": 12,
+        "triangles": 216,
+        "materials": 5,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "513d8445201c5300366f9dcc1727b8265efbd452ff79f1170c5575c2285db2b3"
+      },
+      "resources": {
+        "active_mesh_nodes": 12,
+        "active_primitive_instances": 12,
+        "active_triangle_instances": 216,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "environment/components/forest_waterfall": {
+      "job": {
+        "id": "environment/components/forest_waterfall",
+        "source": "sources/environment/shared_forest_kit.blend",
+        "collection": "forest_waterfall",
+        "object": null
+      },
+      "facts": {
+        "bytes": 1477772,
+        "meshes": 8,
+        "triangles": 168,
+        "materials": 3,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "d55bc6540ba4a7d8114f333e740fc02cce6f87b4e62dab4bb32e9a781d105fb6"
+      },
+      "resources": {
+        "active_mesh_nodes": 8,
+        "active_primitive_instances": 8,
+        "active_triangle_instances": 168,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "environment/hex_lantern_bridge": {
+      "job": {
+        "id": "environment/hex_lantern_bridge",
+        "source": "sources/environment/hex_lantern_bridge.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 11045528,
+        "meshes": 229,
+        "triangles": 10078,
+        "materials": 52,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "c8b19401f6e47abe587248a181890dfeb7bf7f9656f96f5fc16373d2efe2abb3"
+      },
+      "resources": {
+        "active_mesh_nodes": 5956,
+        "active_primitive_instances": 9622,
+        "active_triangle_instances": 175350,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "environment/hex_river_overlay_end": {
+      "job": {
+        "id": "environment/hex_river_overlay_end",
+        "source": "sources/environment/hex_river_overlay_end.blend",
+        "collection": "hex_river_overlay_end",
+        "object": null
+      },
+      "facts": {
+        "bytes": 194784,
+        "meshes": 2,
+        "triangles": 477,
+        "materials": 2,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "533c50274c29a6febd01530dfa8a7bfcc60e923fbcb9458e2e6f27f851957731"
+      },
+      "resources": {
+        "active_mesh_nodes": 2,
+        "active_primitive_instances": 2,
+        "active_triangle_instances": 477,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "environment/hex_river_overlay_straight": {
+      "job": {
+        "id": "environment/hex_river_overlay_straight",
+        "source": "sources/environment/hex_river_overlay_straight.blend",
+        "collection": "hex_river_overlay_straight",
+        "object": null
+      },
+      "facts": {
+        "bytes": 189368,
+        "meshes": 2,
+        "triangles": 392,
+        "materials": 2,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "9b5da586b925c1f5b69b8634ecd21facbe41b710142e6cbd60449ccf1b2c6e42"
+      },
+      "resources": {
+        "active_mesh_nodes": 2,
+        "active_primitive_instances": 2,
+        "active_triangle_instances": 392,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "environment/hex_river_overlay_turn_120": {
+      "job": {
+        "id": "environment/hex_river_overlay_turn_120",
+        "source": "sources/environment/hex_river_overlay_turn_120.blend",
+        "collection": "hex_river_overlay_turn_120",
+        "object": null
+      },
+      "facts": {
+        "bytes": 198720,
+        "meshes": 2,
+        "triangles": 416,
+        "materials": 2,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "fbaf4cf17e18a49cf7143c24668da7069b9b6b150e14cd38f15a6424f95f0e40"
+      },
+      "resources": {
+        "active_mesh_nodes": 2,
+        "active_primitive_instances": 2,
+        "active_triangle_instances": 416,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "environment/hex_river_overlay_turn_60": {
+      "job": {
+        "id": "environment/hex_river_overlay_turn_60",
+        "source": "sources/environment/hex_river_overlay_turn_60.blend",
+        "collection": "hex_river_overlay_turn_60",
+        "object": null
+      },
+      "facts": {
+        "bytes": 198720,
+        "meshes": 2,
+        "triangles": 416,
+        "materials": 2,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "fe554f74f112b9588409ef7daf65a3e3ee65f71ff735307598c05b8c71a2f58e"
+      },
+      "resources": {
+        "active_mesh_nodes": 2,
+        "active_primitive_instances": 2,
+        "active_triangle_instances": 416,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    },
+    "environment/hex_woodland_bridge": {
+      "job": {
+        "id": "environment/hex_woodland_bridge",
+        "source": "sources/environment/hex_woodland_bridge.blend",
+        "collection": null,
+        "object": null
+      },
+      "facts": {
+        "bytes": 9963684,
+        "meshes": 244,
+        "triangles": 11050,
+        "materials": 60,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "d5cfc873b80093cf746038e403ca2223fc8301b966d3d0a052fbe250e2440f3e"
+      },
+      "resources": {
+        "active_mesh_nodes": 2496,
+        "active_primitive_instances": 3838,
+        "active_triangle_instances": 70238,
+        "skin_joint_counts": [],
+        "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
+      }
+    }
+  },
+  "sources": {
+    "sources/buildings/archery_range.blend": "816c124d57621a7f635548abbc2168e9c5950789bb20cc9a27e176b41a11341b",
+    "sources/buildings/arrow_tower.blend": "362adaf78ebf4d19aa23b7e50c1aa4bc0597a2a7b8d3421584aefc214ab8a642",
+    "sources/buildings/bakery.blend": "b2830d71c9d608a863371e503115789b2fd42b95ee15ee046d4b6d56488ca51d",
+    "sources/buildings/barracks.blend": "f9c684de835843fb26c18c8de7e6c471e2251ac954225f8774d1ea4e506ad788",
+    "sources/buildings/bombarding_tower.blend": "90cd17ebb43fa0d182146b7707e26534366667bfeb5408f78a22ad4853d99a1a",
+    "sources/buildings/gold_mine.blend": "f00b0aad15664205e0e304fbaebe8a7ca24b21cf3caf4311da470ebb5d7aa9fd",
+    "sources/buildings/magic_academy.blend": "3cd5d8cbde136e5ca725d375754ac3dc22dfadf4ba9254c67276c24f731e0930",
+    "sources/buildings/metal_mine.blend": "24feea0c264f3d84fa972c4e972b7374d861bba990afabab86a2ad423f582ee7",
+    "sources/buildings/research_tower.blend": "fabdc01a6fd1172ba8904d76de69275deada64fcfe260e47eade38e69e6a995b",
+    "sources/buildings/stone_cutter.blend": "5b495c5d0ce4b5751276448d2ec153389a57df5801a3ed9ec6469a6d4dab0d59",
+    "sources/buildings/tavern.blend": "8a40e32440ab9848e9cd8952e9ed5653257dee68465950c3014035cc2ffbb19f",
+    "sources/buildings/town_hall.blend": "edc63e99ba51dd1ef90cb11bf4466ce524379fb241be8227a214de226fb348aa",
+    "sources/buildings/trade_market.blend": "aa5b2ac702c91bcd6b91e15d8349febc41385f1fb860c786d1fd63597efc31eb",
+    "sources/buildings/tree_house.blend": "6abd5547aa9674f002e472fdbde16156e718cfe33ba1c120ae4dafe1547c70a2",
+    "sources/buildings/weaver.blend": "9be2fc7dda0b83040858dbc8f4094d98a0079a1ee44ecebf50da000062aa5fae",
+    "sources/buildings/woodcutter_hut.blend": "d60e0bb23aa4bb4fc8ea0501eab13a0c801d6e91379701ba95fdca63ddf59065",
+    "sources/environment/shared_forest_kit.blend": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
+    "sources/environment/hex_lantern_bridge.blend": "59fe27e96459d5b6e80638c2bdb21a8b0172f836efd8af455757d307bad08cd0",
+    "sources/environment/hex_river_overlay_end.blend": "1244857e5c62435025e240a41b9a2749652cc328c0d63c1e056c54a5ca5d4294",
+    "sources/environment/hex_river_overlay_straight.blend": "db305a40e335cecf5a7cacc57f86b876f4b654815d5d0c25da429688a3e97749",
+    "sources/environment/hex_river_overlay_turn_120.blend": "fb8cb2f0df5b2c95820a0c0786c25ee6f7fb87a7a3b2d204eb01b380221ae0aa",
+    "sources/environment/hex_river_overlay_turn_60.blend": "e276306f31f5bbe4cfa049d0847bac0a6f1b1c59803d787eb12dc9ee4c2aab88",
+    "sources/environment/hex_woodland_bridge.blend": "09effba907416f47529e5ecb959313d2342d495f97ffe3fa40da31d411f4a414"
+  }
+}

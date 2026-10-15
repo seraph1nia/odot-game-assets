@@ -1,0 +1,2901 @@
+{
+  "scope": "Actual scene-reachable GLB nodes/surfaces/triangles, including zero-area triangles; unique definitions reported separately. Headless PackedScene measurements are not FPS/GPU qualification.",
+  "assets": {
+    "buildings/archery_range": {
+      "before": {
+        "sha256": "851fad1ec3b310163d40c090b1b51b17eea539e041af299ccd30611e04af3106",
+        "bytes": 7979912,
+        "nodes": 5089,
+        "mesh_nodes": 4957,
+        "mesh_definitions": 453,
+        "material_definitions": 46,
+        "surface_instances": 7924,
+        "triangle_instances": 179072,
+        "vertex_instances": 483808,
+        "unique_primitive_triangles": 41996,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "c6bedd11449586116abbdc74405f742f668be7fa249a4bb95116ffb55288595c",
+        "bytes": 14875208,
+        "nodes": 48,
+        "mesh_nodes": 45,
+        "mesh_definitions": 45,
+        "material_definitions": 42,
+        "surface_instances": 45,
+        "triangle_instances": 122408,
+        "vertex_instances": 317488,
+        "unique_primitive_triangles": 122408,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 4950,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          9008,
+          9018,
+          9052,
+          9069,
+          9153,
+          9166,
+          9209,
+          9237,
+          9306,
+          9536,
+          9548
+        ],
+        "load_us": 111761,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 9548,
+        "median_instantiate_us": 9166,
+        "mesh_nodes": 4957,
+        "min_instantiate_us": 9008,
+        "moving_meshes": 7,
+        "nodes": 5091,
+        "path": "res://before/buildings/archery_range.glb",
+        "surfaces": 7924,
+        "triangles": 179072
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 42,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          56,
+          56,
+          56,
+          57,
+          57,
+          58,
+          60,
+          60,
+          60,
+          62,
+          92
+        ],
+        "load_us": 85557,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 92,
+        "median_instantiate_us": 58,
+        "mesh_nodes": 45,
+        "min_instantiate_us": 56,
+        "moving_meshes": 3,
+        "nodes": 50,
+        "path": "res://after/buildings/archery_range.glb",
+        "surfaces": 45,
+        "triangles": 122408
+      }
+    },
+    "buildings/arrow_tower": {
+      "before": {
+        "sha256": "7734a3dcd5deb492d9eb6537707507b9cd3600afed0d185dae22522f1a3f9c82",
+        "bytes": 3544476,
+        "nodes": 3715,
+        "mesh_nodes": 3618,
+        "mesh_definitions": 250,
+        "material_definitions": 44,
+        "surface_instances": 5855,
+        "triangle_instances": 124101,
+        "vertex_instances": 342851,
+        "unique_primitive_triangles": 22237,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "e5dd348375fe2e74a2ff4b0eacccd52de81194a8348909efc2d6297513f80f35",
+        "bytes": 8355696,
+        "nodes": 36,
+        "mesh_nodes": 32,
+        "mesh_definitions": 32,
+        "material_definitions": 30,
+        "surface_instances": 32,
+        "triangle_instances": 81285,
+        "vertex_instances": 214691,
+        "unique_primitive_triangles": 81285,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 3610,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          6116,
+          6118,
+          6207,
+          6216,
+          6233,
+          6348,
+          6550,
+          6623,
+          6761,
+          6924,
+          7262
+        ],
+        "load_us": 32647,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 7262,
+        "median_instantiate_us": 6348,
+        "mesh_nodes": 3618,
+        "min_instantiate_us": 6116,
+        "moving_meshes": 8,
+        "nodes": 3717,
+        "path": "res://before/buildings/arrow_tower.glb",
+        "surfaces": 5855,
+        "triangles": 124101
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 29,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          41,
+          42,
+          42,
+          42,
+          42,
+          42,
+          43,
+          45,
+          45,
+          50,
+          62
+        ],
+        "load_us": 27884,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 62,
+        "median_instantiate_us": 42,
+        "mesh_nodes": 32,
+        "min_instantiate_us": 41,
+        "moving_meshes": 3,
+        "nodes": 38,
+        "path": "res://after/buildings/arrow_tower.glb",
+        "surfaces": 32,
+        "triangles": 81285
+      }
+    },
+    "buildings/bakery": {
+      "before": {
+        "sha256": "cc49074b879a1b03ab9b52135d8d93e467a0f07c355466ea4ee02890b7638e66",
+        "bytes": 3471496,
+        "nodes": 937,
+        "mesh_nodes": 934,
+        "mesh_definitions": 363,
+        "material_definitions": 22,
+        "surface_instances": 1332,
+        "triangle_instances": 46003,
+        "vertex_instances": 109711,
+        "unique_primitive_triangles": 30343,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "ed10e186da56609154c4f0d01b96df394d802d0ca33d5bd23a4b366d25d2eb82",
+        "bytes": 4238172,
+        "nodes": 29,
+        "mesh_nodes": 26,
+        "mesh_definitions": 26,
+        "material_definitions": 22,
+        "surface_instances": 26,
+        "triangle_instances": 38627,
+        "vertex_instances": 87871,
+        "unique_primitive_triangles": 38627,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 926,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          1460,
+          1461,
+          1463,
+          1464,
+          1465,
+          1468,
+          1469,
+          1470,
+          1474,
+          1482,
+          1498
+        ],
+        "load_us": 42571,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 1498,
+        "median_instantiate_us": 1468,
+        "mesh_nodes": 934,
+        "min_instantiate_us": 1460,
+        "moving_meshes": 8,
+        "nodes": 939,
+        "path": "res://before/buildings/bakery.glb",
+        "surfaces": 1332,
+        "triangles": 46003
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 23,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          33,
+          33,
+          34,
+          34,
+          34,
+          34,
+          34,
+          35,
+          36,
+          39,
+          43
+        ],
+        "load_us": 32265,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 43,
+        "median_instantiate_us": 34,
+        "mesh_nodes": 26,
+        "min_instantiate_us": 33,
+        "moving_meshes": 3,
+        "nodes": 31,
+        "path": "res://after/buildings/bakery.glb",
+        "surfaces": 26,
+        "triangles": 38627
+      }
+    },
+    "buildings/barracks": {
+      "before": {
+        "sha256": "8755cd7db358bb0f4518b05dc3de7f4781d0d4aa5212beca710e40009c6f27c7",
+        "bytes": 4438192,
+        "nodes": 5552,
+        "mesh_nodes": 5417,
+        "mesh_definitions": 289,
+        "material_definitions": 45,
+        "surface_instances": 8812,
+        "triangle_instances": 184615,
+        "vertex_instances": 513995,
+        "unique_primitive_triangles": 26643,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "4965440253350354f49be062b61f2945c7c2924663c2496bc1bfbeba90b19d0a",
+        "bytes": 12216796,
+        "nodes": 38,
+        "mesh_nodes": 35,
+        "mesh_definitions": 35,
+        "material_definitions": 34,
+        "surface_instances": 35,
+        "triangle_instances": 121567,
+        "vertex_instances": 324995,
+        "unique_primitive_triangles": 121567,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 5416,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          9735,
+          9779,
+          9869,
+          9876,
+          9966,
+          9979,
+          10002,
+          10120,
+          10123,
+          10291,
+          10846
+        ],
+        "load_us": 33742,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 10846,
+        "median_instantiate_us": 9979,
+        "mesh_nodes": 5417,
+        "min_instantiate_us": 9735,
+        "moving_meshes": 1,
+        "nodes": 5554,
+        "path": "res://before/buildings/barracks.glb",
+        "surfaces": 8812,
+        "triangles": 184615
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 34,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          43,
+          44,
+          44,
+          44,
+          44,
+          44,
+          45,
+          46,
+          47,
+          49,
+          62
+        ],
+        "load_us": 31889,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 62,
+        "median_instantiate_us": 44,
+        "mesh_nodes": 35,
+        "min_instantiate_us": 43,
+        "moving_meshes": 1,
+        "nodes": 40,
+        "path": "res://after/buildings/barracks.glb",
+        "surfaces": 35,
+        "triangles": 121567
+      }
+    },
+    "buildings/bombarding_tower": {
+      "before": {
+        "sha256": "68e4c0df67ed7d54d0ee904e129073e8252e8393b1b90a38df6ebcb32c99555d",
+        "bytes": 3707636,
+        "nodes": 4717,
+        "mesh_nodes": 4596,
+        "mesh_definitions": 210,
+        "material_definitions": 37,
+        "surface_instances": 7505,
+        "triangle_instances": 153801,
+        "vertex_instances": 431701,
+        "unique_primitive_triangles": 19445,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "0e744fe969141821f426ac3b007ec9f23724bd367df02fa28b806c75148fb371",
+        "bytes": 10055956,
+        "nodes": 34,
+        "mesh_nodes": 30,
+        "mesh_definitions": 30,
+        "material_definitions": 26,
+        "surface_instances": 30,
+        "triangle_instances": 97737,
+        "vertex_instances": 263941,
+        "unique_primitive_triangles": 97737,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 4588,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          8122,
+          8218,
+          8251,
+          8341,
+          8504,
+          8527,
+          8538,
+          8697,
+          8705,
+          9044,
+          9346
+        ],
+        "load_us": 30742,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 9346,
+        "median_instantiate_us": 8527,
+        "mesh_nodes": 4596,
+        "min_instantiate_us": 8122,
+        "moving_meshes": 8,
+        "nodes": 4719,
+        "path": "res://before/buildings/bombarding_tower.glb",
+        "surfaces": 7505,
+        "triangles": 153801
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 27,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          39,
+          39,
+          39,
+          39,
+          40,
+          40,
+          40,
+          40,
+          42,
+          45,
+          87
+        ],
+        "load_us": 27868,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 87,
+        "median_instantiate_us": 40,
+        "mesh_nodes": 30,
+        "min_instantiate_us": 39,
+        "moving_meshes": 3,
+        "nodes": 36,
+        "path": "res://after/buildings/bombarding_tower.glb",
+        "surfaces": 30,
+        "triangles": 97737
+      }
+    },
+    "buildings/gold_mine": {
+      "before": {
+        "sha256": "5efe302a4a62d23c301c787410d58a3fe7013c54931362664aa997f441233d3b",
+        "bytes": 1804216,
+        "nodes": 598,
+        "mesh_nodes": 595,
+        "mesh_definitions": 148,
+        "material_definitions": 19,
+        "surface_instances": 958,
+        "triangle_instances": 25162,
+        "vertex_instances": 64254,
+        "unique_primitive_triangles": 13266,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "40d7ed138c0610ea488f7561790c93cf31af932d01a815dd6f27feb9abdafb95",
+        "bytes": 2313808,
+        "nodes": 25,
+        "mesh_nodes": 22,
+        "mesh_definitions": 22,
+        "material_definitions": 19,
+        "surface_instances": 22,
+        "triangle_instances": 19034,
+        "vertex_instances": 46734,
+        "unique_primitive_triangles": 19034,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 587,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          940,
+          940,
+          941,
+          942,
+          942,
+          943,
+          943,
+          944,
+          945,
+          951,
+          964
+        ],
+        "load_us": 24414,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 964,
+        "median_instantiate_us": 943,
+        "mesh_nodes": 595,
+        "min_instantiate_us": 940,
+        "moving_meshes": 8,
+        "nodes": 600,
+        "path": "res://before/buildings/gold_mine.glb",
+        "surfaces": 958,
+        "triangles": 25162
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 19,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          28,
+          28,
+          28,
+          28,
+          29,
+          29,
+          29,
+          29,
+          30,
+          31,
+          38
+        ],
+        "load_us": 19150,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 38,
+        "median_instantiate_us": 29,
+        "mesh_nodes": 22,
+        "min_instantiate_us": 28,
+        "moving_meshes": 3,
+        "nodes": 27,
+        "path": "res://after/buildings/gold_mine.glb",
+        "surfaces": 22,
+        "triangles": 19034
+      }
+    },
+    "buildings/magic_academy": {
+      "before": {
+        "sha256": "7fee44b3b088347689553accc8027cb03e5a441d0dfdfc8201365564b9bb62ca",
+        "bytes": 5402740,
+        "nodes": 7610,
+        "mesh_nodes": 7418,
+        "mesh_definitions": 313,
+        "material_definitions": 42,
+        "surface_instances": 12100,
+        "triangle_instances": 248974,
+        "vertex_instances": 698494,
+        "unique_primitive_triangles": 28350,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "3d4eea8b41984a020321d9064cb9c9f0d8ec0c499f2a8b3f25acb527ea1b72e9",
+        "bytes": 16186332,
+        "nodes": 43,
+        "mesh_nodes": 40,
+        "mesh_definitions": 40,
+        "material_definitions": 36,
+        "surface_instances": 40,
+        "triangle_instances": 160886,
+        "vertex_instances": 435094,
+        "unique_primitive_triangles": 160886,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 7417,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          13762,
+          13819,
+          13943,
+          13985,
+          13995,
+          14051,
+          14133,
+          14156,
+          14354,
+          14410,
+          14602
+        ],
+        "load_us": 38791,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 14602,
+        "median_instantiate_us": 14051,
+        "mesh_nodes": 7418,
+        "min_instantiate_us": 13762,
+        "moving_meshes": 1,
+        "nodes": 7612,
+        "path": "res://before/buildings/magic_academy.glb",
+        "surfaces": 12100,
+        "triangles": 248974
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 38,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          49,
+          49,
+          50,
+          50,
+          50,
+          50,
+          50,
+          51,
+          52,
+          55,
+          87
+        ],
+        "load_us": 37732,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 87,
+        "median_instantiate_us": 50,
+        "mesh_nodes": 40,
+        "min_instantiate_us": 49,
+        "moving_meshes": 2,
+        "nodes": 45,
+        "path": "res://after/buildings/magic_academy.glb",
+        "surfaces": 40,
+        "triangles": 160886
+      }
+    },
+    "buildings/metal_mine": {
+      "before": {
+        "sha256": "ce0ccecf59d0fa2a8ab326f7eeca29495c643999e8e6bdaf133b5eb99bb7f198",
+        "bytes": 7102128,
+        "nodes": 2610,
+        "mesh_nodes": 2557,
+        "mesh_definitions": 387,
+        "material_definitions": 43,
+        "surface_instances": 4032,
+        "triangle_instances": 103446,
+        "vertex_instances": 268184,
+        "unique_primitive_triangles": 37138,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "170d08f9cde4f62d95a0051be7bb4baa4b8c3915cf10f57f0b07ae15984017cc",
+        "bytes": 10074036,
+        "nodes": 47,
+        "mesh_nodes": 43,
+        "mesh_definitions": 43,
+        "material_definitions": 42,
+        "surface_instances": 43,
+        "triangle_instances": 70702,
+        "vertex_instances": 176504,
+        "unique_primitive_triangles": 70702,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 2549,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          4241,
+          4264,
+          4301,
+          4305,
+          4323,
+          4331,
+          4382,
+          4477,
+          4595,
+          4759,
+          4999
+        ],
+        "load_us": 107466,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 4999,
+        "median_instantiate_us": 4331,
+        "mesh_nodes": 2557,
+        "min_instantiate_us": 4241,
+        "moving_meshes": 8,
+        "nodes": 2612,
+        "path": "res://before/buildings/metal_mine.glb",
+        "surfaces": 4032,
+        "triangles": 103446
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 40,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          54,
+          54,
+          54,
+          55,
+          55,
+          55,
+          55,
+          57,
+          58,
+          59,
+          77
+        ],
+        "load_us": 91865,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 77,
+        "median_instantiate_us": 55,
+        "mesh_nodes": 43,
+        "min_instantiate_us": 54,
+        "moving_meshes": 3,
+        "nodes": 49,
+        "path": "res://after/buildings/metal_mine.glb",
+        "surfaces": 43,
+        "triangles": 70702
+      }
+    },
+    "buildings/research_tower": {
+      "before": {
+        "sha256": "b38a8ed0e9d0cea91e8548811159e3f432d1e2377b6ff63db923513e1536af80",
+        "bytes": 7521640,
+        "nodes": 2835,
+        "mesh_nodes": 2773,
+        "mesh_definitions": 432,
+        "material_definitions": 44,
+        "surface_instances": 4343,
+        "triangle_instances": 115034,
+        "vertex_instances": 293904,
+        "unique_primitive_triangles": 42766,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "6d7dee79f6ddc45c965cd509a3166aa9870ef9ba1198c717952732af3e4d6bb0",
+        "bytes": 10853324,
+        "nodes": 44,
+        "mesh_nodes": 41,
+        "mesh_definitions": 41,
+        "material_definitions": 40,
+        "surface_instances": 41,
+        "triangle_instances": 80730,
+        "vertex_instances": 197184,
+        "unique_primitive_triangles": 80730,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 2771,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          4580,
+          4589,
+          4611,
+          4630,
+          4773,
+          4848,
+          4878,
+          4917,
+          4959,
+          5008,
+          5037
+        ],
+        "load_us": 109051,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 5037,
+        "median_instantiate_us": 4848,
+        "mesh_nodes": 2773,
+        "min_instantiate_us": 4580,
+        "moving_meshes": 2,
+        "nodes": 2837,
+        "path": "res://before/buildings/research_tower.glb",
+        "surfaces": 4343,
+        "triangles": 115034
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 40,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          51,
+          51,
+          51,
+          51,
+          52,
+          52,
+          52,
+          52,
+          53,
+          55,
+          72
+        ],
+        "load_us": 92840,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 72,
+        "median_instantiate_us": 52,
+        "mesh_nodes": 41,
+        "min_instantiate_us": 51,
+        "moving_meshes": 1,
+        "nodes": 46,
+        "path": "res://after/buildings/research_tower.glb",
+        "surfaces": 41,
+        "triangles": 80730
+      }
+    },
+    "buildings/stone_cutter": {
+      "before": {
+        "sha256": "3d6fd9d045843fb19f6b60da624dbd8dd182e43e6c9e2c9f69ebaa6e09084515",
+        "bytes": 3350668,
+        "nodes": 2919,
+        "mesh_nodes": 2850,
+        "mesh_definitions": 275,
+        "material_definitions": 34,
+        "surface_instances": 4593,
+        "triangle_instances": 100781,
+        "vertex_instances": 274039,
+        "unique_primitive_triangles": 23245,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "1593d697b353734de60c884c07bf1b2a8c192556e92c0524b6249678ffc5c5c1",
+        "bytes": 7338200,
+        "nodes": 33,
+        "mesh_nodes": 30,
+        "mesh_definitions": 30,
+        "material_definitions": 29,
+        "surface_instances": 30,
+        "triangle_instances": 70917,
+        "vertex_instances": 184519,
+        "unique_primitive_triangles": 70917,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 2849,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          4840,
+          4878,
+          5040,
+          5070,
+          5139,
+          5140,
+          5153,
+          5180,
+          5255,
+          5396,
+          5483
+        ],
+        "load_us": 33333,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 5483,
+        "median_instantiate_us": 5140,
+        "mesh_nodes": 2850,
+        "min_instantiate_us": 4840,
+        "moving_meshes": 1,
+        "nodes": 2921,
+        "path": "res://before/buildings/stone_cutter.glb",
+        "surfaces": 4593,
+        "triangles": 100781
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 29,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          37,
+          38,
+          38,
+          38,
+          39,
+          39,
+          39,
+          39,
+          40,
+          41,
+          54
+        ],
+        "load_us": 28384,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 54,
+        "median_instantiate_us": 39,
+        "mesh_nodes": 30,
+        "min_instantiate_us": 37,
+        "moving_meshes": 1,
+        "nodes": 35,
+        "path": "res://after/buildings/stone_cutter.glb",
+        "surfaces": 30,
+        "triangles": 70917
+      }
+    },
+    "buildings/tavern": {
+      "before": {
+        "sha256": "d08fd692fa5bf1fbc541948bb30dc749505bfd7dd00dc0fd2494755696bf77b4",
+        "bytes": 3867640,
+        "nodes": 2803,
+        "mesh_nodes": 2739,
+        "mesh_definitions": 342,
+        "material_definitions": 43,
+        "surface_instances": 4344,
+        "triangle_instances": 102992,
+        "vertex_instances": 271944,
+        "unique_primitive_triangles": 29764,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "8fe95ede1aa7e67eb1cd58a1ded0f6737149bf8205ef06943a520089bcd5aa4c",
+        "bytes": 7806452,
+        "nodes": 43,
+        "mesh_nodes": 39,
+        "mesh_definitions": 39,
+        "material_definitions": 32,
+        "surface_instances": 39,
+        "triangle_instances": 76832,
+        "vertex_instances": 193464,
+        "unique_primitive_triangles": 76832,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 2733,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          4625,
+          4629,
+          4658,
+          4670,
+          4679,
+          4685,
+          4692,
+          4700,
+          4767,
+          4983,
+          5077
+        ],
+        "load_us": 36463,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 5077,
+        "median_instantiate_us": 4685,
+        "mesh_nodes": 2739,
+        "min_instantiate_us": 4625,
+        "moving_meshes": 6,
+        "nodes": 2805,
+        "path": "res://before/buildings/tavern.glb",
+        "surfaces": 4344,
+        "triangles": 102992
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 36,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          48,
+          48,
+          49,
+          49,
+          49,
+          49,
+          50,
+          51,
+          51,
+          53,
+          61
+        ],
+        "load_us": 33195,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 61,
+        "median_instantiate_us": 49,
+        "mesh_nodes": 39,
+        "min_instantiate_us": 48,
+        "moving_meshes": 3,
+        "nodes": 45,
+        "path": "res://after/buildings/tavern.glb",
+        "surfaces": 39,
+        "triangles": 76832
+      }
+    },
+    "buildings/town_hall": {
+      "before": {
+        "sha256": "6b10ca5a42080e686e41717cef4283cf05c63299061d1728b441dbb5b435cf07",
+        "bytes": 12036144,
+        "nodes": 7215,
+        "mesh_nodes": 7047,
+        "mesh_definitions": 899,
+        "material_definitions": 40,
+        "surface_instances": 11100,
+        "triangle_instances": 281055,
+        "vertex_instances": 736600,
+        "unique_primitive_triangles": 90379,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "8d801728b4c863c51819a698775b1c0b187f6f0c467a4445216375f3a98b108f",
+        "bytes": 20811552,
+        "nodes": 56,
+        "mesh_nodes": 52,
+        "mesh_definitions": 52,
+        "material_definitions": 39,
+        "surface_instances": 52,
+        "triangle_instances": 189303,
+        "vertex_instances": 477760,
+        "unique_primitive_triangles": 189303,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 7045,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          13357,
+          13454,
+          13512,
+          13608,
+          13883,
+          13946,
+          14101,
+          14105,
+          14203,
+          14503,
+          14656
+        ],
+        "load_us": 104618,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 14656,
+        "median_instantiate_us": 13946,
+        "mesh_nodes": 7047,
+        "min_instantiate_us": 13357,
+        "moving_meshes": 2,
+        "nodes": 7217,
+        "path": "res://before/buildings/town_hall.glb",
+        "surfaces": 11100,
+        "triangles": 281055
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 50,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          64,
+          64,
+          65,
+          65,
+          65,
+          65,
+          66,
+          67,
+          69,
+          70,
+          93
+        ],
+        "load_us": 91407,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 93,
+        "median_instantiate_us": 65,
+        "mesh_nodes": 52,
+        "min_instantiate_us": 64,
+        "moving_meshes": 2,
+        "nodes": 58,
+        "path": "res://after/buildings/town_hall.glb",
+        "surfaces": 52,
+        "triangles": 189303
+      }
+    },
+    "buildings/trade_market": {
+      "before": {
+        "sha256": "d6ecffd6ff4312f494c0e72a6365cf35e7a9230f69ca3a34527051ab46aaae11",
+        "bytes": 3467968,
+        "nodes": 2662,
+        "mesh_nodes": 2600,
+        "mesh_definitions": 289,
+        "material_definitions": 39,
+        "surface_instances": 4125,
+        "triangle_instances": 97126,
+        "vertex_instances": 256282,
+        "unique_primitive_triangles": 23814,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "f7a8ddf71f791b1a379eb8ae92b1a491fe9ea87ef0dfed0fe538be4e18f7ece2",
+        "bytes": 7308496,
+        "nodes": 39,
+        "mesh_nodes": 35,
+        "mesh_definitions": 35,
+        "material_definitions": 30,
+        "surface_instances": 35,
+        "triangle_instances": 71222,
+        "vertex_instances": 179002,
+        "unique_primitive_triangles": 71222,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 2593,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          4227,
+          4232,
+          4291,
+          4350,
+          4449,
+          4520,
+          4568,
+          4581,
+          4667,
+          4833,
+          4851
+        ],
+        "load_us": 35205,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 4851,
+        "median_instantiate_us": 4520,
+        "mesh_nodes": 2600,
+        "min_instantiate_us": 4227,
+        "moving_meshes": 7,
+        "nodes": 2664,
+        "path": "res://before/buildings/trade_market.glb",
+        "surfaces": 4125,
+        "triangles": 97126
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 33,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          44,
+          44,
+          44,
+          45,
+          45,
+          45,
+          45,
+          46,
+          47,
+          47,
+          62
+        ],
+        "load_us": 32449,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 62,
+        "median_instantiate_us": 45,
+        "mesh_nodes": 35,
+        "min_instantiate_us": 44,
+        "moving_meshes": 2,
+        "nodes": 41,
+        "path": "res://after/buildings/trade_market.glb",
+        "surfaces": 35,
+        "triangles": 71222
+      }
+    },
+    "buildings/tree_house": {
+      "before": {
+        "sha256": "273dd115d53250ffa3f2cb14dab55392655d2a8212ed3e1c5b36cc81a8117267",
+        "bytes": 1963044,
+        "nodes": 487,
+        "mesh_nodes": 484,
+        "mesh_definitions": 154,
+        "material_definitions": 20,
+        "surface_instances": 746,
+        "triangle_instances": 22573,
+        "vertex_instances": 55745,
+        "unique_primitive_triangles": 13273,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "737ff1fda84fd0ca738343f82f74656dc997f29ddc66c0b955b89f82a0acb9a8",
+        "bytes": 2368296,
+        "nodes": 24,
+        "mesh_nodes": 21,
+        "mesh_definitions": 21,
+        "material_definitions": 20,
+        "surface_instances": 21,
+        "triangle_instances": 18077,
+        "vertex_instances": 42545,
+        "unique_primitive_triangles": 18077,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 480,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          752,
+          754,
+          754,
+          755,
+          757,
+          757,
+          758,
+          759,
+          762,
+          768,
+          774
+        ],
+        "load_us": 25164,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 774,
+        "median_instantiate_us": 757,
+        "mesh_nodes": 484,
+        "min_instantiate_us": 752,
+        "moving_meshes": 4,
+        "nodes": 489,
+        "path": "res://before/buildings/tree_house.glb",
+        "surfaces": 746,
+        "triangles": 22573
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 19,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          27,
+          27,
+          27,
+          28,
+          28,
+          28,
+          28,
+          29,
+          30,
+          31,
+          38
+        ],
+        "load_us": 22371,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 38,
+        "median_instantiate_us": 28,
+        "mesh_nodes": 21,
+        "min_instantiate_us": 27,
+        "moving_meshes": 2,
+        "nodes": 26,
+        "path": "res://after/buildings/tree_house.glb",
+        "surfaces": 21,
+        "triangles": 18077
+      }
+    },
+    "buildings/weaver": {
+      "before": {
+        "sha256": "373a6349226cf3ab7878b7f17404f8e262c03b39aa2981a226e841a2cb69812a",
+        "bytes": 7345348,
+        "nodes": 2731,
+        "mesh_nodes": 2674,
+        "mesh_definitions": 467,
+        "material_definitions": 44,
+        "surface_instances": 4167,
+        "triangle_instances": 106650,
+        "vertex_instances": 273916,
+        "unique_primitive_triangles": 40278,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "20d91874be2faa0faa487ec40960d0efecdff6fb8b3fb24497d2bd4c6e7d0d82",
+        "bytes": 10724148,
+        "nodes": 51,
+        "mesh_nodes": 47,
+        "mesh_definitions": 47,
+        "material_definitions": 42,
+        "surface_instances": 47,
+        "triangle_instances": 78658,
+        "vertex_instances": 193756,
+        "unique_primitive_triangles": 78658,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 2673,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          4322,
+          4336,
+          4358,
+          4414,
+          4418,
+          4420,
+          4451,
+          4581,
+          4779,
+          4825,
+          4927
+        ],
+        "load_us": 94282,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 4927,
+        "median_instantiate_us": 4420,
+        "mesh_nodes": 2674,
+        "min_instantiate_us": 4322,
+        "moving_meshes": 1,
+        "nodes": 2733,
+        "path": "res://before/buildings/weaver.glb",
+        "surfaces": 4167,
+        "triangles": 106650
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 46,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          58,
+          59,
+          59,
+          59,
+          59,
+          59,
+          59,
+          60,
+          63,
+          63,
+          77
+        ],
+        "load_us": 87992,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 77,
+        "median_instantiate_us": 59,
+        "mesh_nodes": 47,
+        "min_instantiate_us": 58,
+        "moving_meshes": 1,
+        "nodes": 53,
+        "path": "res://after/buildings/weaver.glb",
+        "surfaces": 47,
+        "triangles": 78658
+      }
+    },
+    "buildings/woodcutter_hut": {
+      "before": {
+        "sha256": "6bf55306adc772d9ed09232da5fe40f06fb0bda7e1dc2a58807cc3ed3e74c9bd",
+        "bytes": 3535952,
+        "nodes": 985,
+        "mesh_nodes": 982,
+        "mesh_definitions": 366,
+        "material_definitions": 25,
+        "surface_instances": 1420,
+        "triangle_instances": 44821,
+        "vertex_instances": 105057,
+        "unique_primitive_triangles": 28069,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "42e904f52d670ecaf7752b7da7753dade466f721ba3ccb3b443e42fa19b06da0",
+        "bytes": 4330596,
+        "nodes": 33,
+        "mesh_nodes": 30,
+        "mesh_definitions": 30,
+        "material_definitions": 25,
+        "surface_instances": 30,
+        "triangle_instances": 37221,
+        "vertex_instances": 82257,
+        "unique_primitive_triangles": 37221,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 979,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          1505,
+          1508,
+          1508,
+          1509,
+          1509,
+          1510,
+          1512,
+          1516,
+          1518,
+          1524,
+          1535
+        ],
+        "load_us": 38514,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 1535,
+        "median_instantiate_us": 1510,
+        "mesh_nodes": 982,
+        "min_instantiate_us": 1505,
+        "moving_meshes": 3,
+        "nodes": 987,
+        "path": "res://before/buildings/woodcutter_hut.glb",
+        "surfaces": 1420,
+        "triangles": 44821
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 27,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          37,
+          38,
+          38,
+          38,
+          38,
+          38,
+          39,
+          39,
+          40,
+          41,
+          53
+        ],
+        "load_us": 32865,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 53,
+        "median_instantiate_us": 38,
+        "mesh_nodes": 30,
+        "min_instantiate_us": 37,
+        "moving_meshes": 3,
+        "nodes": 35,
+        "path": "res://after/buildings/woodcutter_hut.glb",
+        "surfaces": 30,
+        "triangles": 37221
+      }
+    },
+    "environment/components/forest_hex_stream": {
+      "before": {
+        "sha256": "513d8445201c5300366f9dcc1727b8265efbd452ff79f1170c5575c2285db2b3",
+        "bytes": 601444,
+        "nodes": 12,
+        "mesh_nodes": 12,
+        "mesh_definitions": 12,
+        "material_definitions": 5,
+        "surface_instances": 12,
+        "triangle_instances": 216,
+        "vertex_instances": 416,
+        "unique_primitive_triangles": 216,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "513d8445201c5300366f9dcc1727b8265efbd452ff79f1170c5575c2285db2b3",
+        "bytes": 601444,
+        "nodes": 12,
+        "mesh_nodes": 12,
+        "mesh_definitions": 12,
+        "material_definitions": 5,
+        "surface_instances": 12,
+        "triangle_instances": 216,
+        "vertex_instances": 416,
+        "unique_primitive_triangles": 216,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 5,
+        "fixed_meshes": 7,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          14,
+          14,
+          14,
+          15,
+          15,
+          15,
+          15,
+          15,
+          16,
+          16,
+          20
+        ],
+        "load_us": 11574,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 20,
+        "median_instantiate_us": 15,
+        "mesh_nodes": 12,
+        "min_instantiate_us": 14,
+        "moving_meshes": 5,
+        "nodes": 14,
+        "path": "res://before/environment/components/forest_hex_stream.glb",
+        "surfaces": 12,
+        "triangles": 216
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 5,
+        "fixed_meshes": 7,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          14,
+          14,
+          15,
+          15,
+          15,
+          15,
+          16,
+          16,
+          16,
+          16,
+          19
+        ],
+        "load_us": 11325,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 19,
+        "median_instantiate_us": 15,
+        "mesh_nodes": 12,
+        "min_instantiate_us": 14,
+        "moving_meshes": 5,
+        "nodes": 14,
+        "path": "res://after/environment/components/forest_hex_stream.glb",
+        "surfaces": 12,
+        "triangles": 216
+      }
+    },
+    "environment/components/forest_foam": {
+      "before": {
+        "sha256": "ba79ef146d10df22a626f77b4710132c918f3a66df2e63169c1870e46de0771b",
+        "bytes": 1523504,
+        "nodes": 8,
+        "mesh_nodes": 8,
+        "mesh_definitions": 8,
+        "material_definitions": 2,
+        "surface_instances": 8,
+        "triangle_instances": 704,
+        "vertex_instances": 1716,
+        "unique_primitive_triangles": 704,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "ba79ef146d10df22a626f77b4710132c918f3a66df2e63169c1870e46de0771b",
+        "bytes": 1523504,
+        "nodes": 8,
+        "mesh_nodes": 8,
+        "mesh_definitions": 8,
+        "material_definitions": 2,
+        "surface_instances": 8,
+        "triangle_instances": 704,
+        "vertex_instances": 1716,
+        "unique_primitive_triangles": 704,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 8,
+        "fixed_meshes": 0,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          11,
+          11,
+          15,
+          16
+        ],
+        "load_us": 30974,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 16,
+        "median_instantiate_us": 10,
+        "mesh_nodes": 8,
+        "min_instantiate_us": 10,
+        "moving_meshes": 8,
+        "nodes": 10,
+        "path": "res://before/environment/components/forest_foam.glb",
+        "surfaces": 8,
+        "triangles": 704
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 8,
+        "fixed_meshes": 0,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          10,
+          10,
+          10,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          12,
+          16
+        ],
+        "load_us": 31653,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 16,
+        "median_instantiate_us": 11,
+        "mesh_nodes": 8,
+        "min_instantiate_us": 10,
+        "moving_meshes": 8,
+        "nodes": 10,
+        "path": "res://after/environment/components/forest_foam.glb",
+        "surfaces": 8,
+        "triangles": 704
+      }
+    },
+    "environment/components/forest_waterfall": {
+      "before": {
+        "sha256": "d55bc6540ba4a7d8114f333e740fc02cce6f87b4e62dab4bb32e9a781d105fb6",
+        "bytes": 1477772,
+        "nodes": 8,
+        "mesh_nodes": 8,
+        "mesh_definitions": 8,
+        "material_definitions": 3,
+        "surface_instances": 8,
+        "triangle_instances": 168,
+        "vertex_instances": 320,
+        "unique_primitive_triangles": 168,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "d55bc6540ba4a7d8114f333e740fc02cce6f87b4e62dab4bb32e9a781d105fb6",
+        "bytes": 1477772,
+        "nodes": 8,
+        "mesh_nodes": 8,
+        "mesh_definitions": 8,
+        "material_definitions": 3,
+        "surface_instances": 8,
+        "triangle_instances": 168,
+        "vertex_instances": 320,
+        "unique_primitive_triangles": 168,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 7,
+        "fixed_meshes": 1,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          11,
+          12,
+          15
+        ],
+        "load_us": 31083,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 15,
+        "median_instantiate_us": 10,
+        "mesh_nodes": 8,
+        "min_instantiate_us": 10,
+        "moving_meshes": 7,
+        "nodes": 10,
+        "path": "res://before/environment/components/forest_waterfall.glb",
+        "surfaces": 8,
+        "triangles": 168
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 7,
+        "fixed_meshes": 1,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          11,
+          11,
+          12,
+          15
+        ],
+        "load_us": 31333,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 15,
+        "median_instantiate_us": 10,
+        "mesh_nodes": 8,
+        "min_instantiate_us": 10,
+        "moving_meshes": 7,
+        "nodes": 10,
+        "path": "res://after/environment/components/forest_waterfall.glb",
+        "surfaces": 8,
+        "triangles": 168
+      }
+    },
+    "environment/hex_woodland_bridge": {
+      "before": {
+        "sha256": "d5cfc873b80093cf746038e403ca2223fc8301b966d3d0a052fbe250e2440f3e",
+        "bytes": 9963684,
+        "nodes": 2592,
+        "mesh_nodes": 2496,
+        "mesh_definitions": 244,
+        "material_definitions": 60,
+        "surface_instances": 3838,
+        "triangle_instances": 70238,
+        "vertex_instances": 182859,
+        "unique_primitive_triangles": 11050,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "e4fc60abb81b8d91dd1f9224e4a1967e16343b7682e6d2c6c1e4c206fa9cc00c",
+        "bytes": 13563028,
+        "nodes": 127,
+        "mesh_nodes": 85,
+        "mesh_definitions": 85,
+        "material_definitions": 53,
+        "surface_instances": 85,
+        "triangle_instances": 56438,
+        "vertex_instances": 141459,
+        "unique_primitive_triangles": 56438,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 36,
+        "fixed_meshes": 2460,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          3795,
+          3796,
+          3796,
+          3832,
+          3838,
+          3838,
+          3841,
+          3844,
+          3888,
+          4037,
+          4076
+        ],
+        "load_us": 197122,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 4076,
+        "median_instantiate_us": 3838,
+        "mesh_nodes": 2496,
+        "min_instantiate_us": 3795,
+        "moving_meshes": 36,
+        "nodes": 2594,
+        "path": "res://before/environment/hex_woodland_bridge.glb",
+        "surfaces": 3838,
+        "triangles": 70238
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 36,
+        "fixed_meshes": 49,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          117,
+          117,
+          117,
+          117,
+          118,
+          118,
+          118,
+          118,
+          120,
+          121,
+          133
+        ],
+        "load_us": 203059,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 133,
+        "median_instantiate_us": 118,
+        "mesh_nodes": 85,
+        "min_instantiate_us": 117,
+        "moving_meshes": 36,
+        "nodes": 129,
+        "path": "res://after/environment/hex_woodland_bridge.glb",
+        "surfaces": 85,
+        "triangles": 56438
+      }
+    },
+    "environment/hex_lantern_bridge": {
+      "before": {
+        "sha256": "c8b19401f6e47abe587248a181890dfeb7bf7f9656f96f5fc16373d2efe2abb3",
+        "bytes": 11045528,
+        "nodes": 6143,
+        "mesh_nodes": 5956,
+        "mesh_definitions": 229,
+        "material_definitions": 52,
+        "surface_instances": 9622,
+        "triangle_instances": 175350,
+        "vertex_instances": 493075,
+        "unique_primitive_triangles": 10078,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "dfc46c307610d5f13ec1480754580337cf347f49b8b028ac92418365f68f824a",
+        "bytes": 19848216,
+        "nodes": 120,
+        "mesh_nodes": 78,
+        "mesh_definitions": 78,
+        "material_definitions": 46,
+        "surface_instances": 78,
+        "triangle_instances": 117470,
+        "vertex_instances": 319435,
+        "unique_primitive_triangles": 117470,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 36,
+        "fixed_meshes": 5920,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          10583,
+          10679,
+          10682,
+          10695,
+          10873,
+          10980,
+          10992,
+          11084,
+          11238,
+          11323,
+          11324
+        ],
+        "load_us": 200528,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 11324,
+        "median_instantiate_us": 10980,
+        "mesh_nodes": 5956,
+        "min_instantiate_us": 10583,
+        "moving_meshes": 36,
+        "nodes": 6145,
+        "path": "res://before/environment/hex_lantern_bridge.glb",
+        "surfaces": 9622,
+        "triangles": 175350
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 36,
+        "fixed_meshes": 42,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          109,
+          110,
+          110,
+          111,
+          111,
+          111,
+          111,
+          113,
+          115,
+          118,
+          150
+        ],
+        "load_us": 205419,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 150,
+        "median_instantiate_us": 111,
+        "mesh_nodes": 78,
+        "min_instantiate_us": 109,
+        "moving_meshes": 36,
+        "nodes": 122,
+        "path": "res://after/environment/hex_lantern_bridge.glb",
+        "surfaces": 78,
+        "triangles": 117470
+      }
+    },
+    "environment/hex_river_overlay_straight": {
+      "before": {
+        "sha256": "9b5da586b925c1f5b69b8634ecd21facbe41b710142e6cbd60449ccf1b2c6e42",
+        "bytes": 189368,
+        "nodes": 3,
+        "mesh_nodes": 2,
+        "mesh_definitions": 2,
+        "material_definitions": 2,
+        "surface_instances": 2,
+        "triangle_instances": 392,
+        "vertex_instances": 373,
+        "unique_primitive_triangles": 392,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "9b5da586b925c1f5b69b8634ecd21facbe41b710142e6cbd60449ccf1b2c6e42",
+        "bytes": 189368,
+        "nodes": 3,
+        "mesh_nodes": 2,
+        "mesh_definitions": 2,
+        "material_definitions": 2,
+        "surface_instances": 2,
+        "triangle_instances": 392,
+        "vertex_instances": 373,
+        "unique_primitive_triangles": 392,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 1,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          5,
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          7,
+          11
+        ],
+        "load_us": 5108,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 11,
+        "median_instantiate_us": 6,
+        "mesh_nodes": 2,
+        "min_instantiate_us": 5,
+        "moving_meshes": 1,
+        "nodes": 5,
+        "path": "res://before/environment/hex_river_overlay_straight.glb",
+        "surfaces": 2,
+        "triangles": 392
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 1,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          7,
+          7,
+          11
+        ],
+        "load_us": 4802,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 11,
+        "median_instantiate_us": 6,
+        "mesh_nodes": 2,
+        "min_instantiate_us": 5,
+        "moving_meshes": 1,
+        "nodes": 5,
+        "path": "res://after/environment/hex_river_overlay_straight.glb",
+        "surfaces": 2,
+        "triangles": 392
+      }
+    },
+    "environment/hex_river_overlay_turn_60": {
+      "before": {
+        "sha256": "fe554f74f112b9588409ef7daf65a3e3ee65f71ff735307598c05b8c71a2f58e",
+        "bytes": 198720,
+        "nodes": 3,
+        "mesh_nodes": 2,
+        "mesh_definitions": 2,
+        "material_definitions": 2,
+        "surface_instances": 2,
+        "triangle_instances": 416,
+        "vertex_instances": 659,
+        "unique_primitive_triangles": 416,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "fe554f74f112b9588409ef7daf65a3e3ee65f71ff735307598c05b8c71a2f58e",
+        "bytes": 198720,
+        "nodes": 3,
+        "mesh_nodes": 2,
+        "mesh_definitions": 2,
+        "material_definitions": 2,
+        "surface_instances": 2,
+        "triangle_instances": 416,
+        "vertex_instances": 659,
+        "unique_primitive_triangles": 416,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 1,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          7,
+          10
+        ],
+        "load_us": 4756,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 10,
+        "median_instantiate_us": 6,
+        "mesh_nodes": 2,
+        "min_instantiate_us": 6,
+        "moving_meshes": 1,
+        "nodes": 5,
+        "path": "res://before/environment/hex_river_overlay_turn_60.glb",
+        "surfaces": 2,
+        "triangles": 416
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 1,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          5,
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          7,
+          11
+        ],
+        "load_us": 4736,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 11,
+        "median_instantiate_us": 6,
+        "mesh_nodes": 2,
+        "min_instantiate_us": 5,
+        "moving_meshes": 1,
+        "nodes": 5,
+        "path": "res://after/environment/hex_river_overlay_turn_60.glb",
+        "surfaces": 2,
+        "triangles": 416
+      }
+    },
+    "environment/hex_river_overlay_turn_120": {
+      "before": {
+        "sha256": "fbaf4cf17e18a49cf7143c24668da7069b9b6b150e14cd38f15a6424f95f0e40",
+        "bytes": 198720,
+        "nodes": 3,
+        "mesh_nodes": 2,
+        "mesh_definitions": 2,
+        "material_definitions": 2,
+        "surface_instances": 2,
+        "triangle_instances": 416,
+        "vertex_instances": 659,
+        "unique_primitive_triangles": 416,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "fbaf4cf17e18a49cf7143c24668da7069b9b6b150e14cd38f15a6424f95f0e40",
+        "bytes": 198720,
+        "nodes": 3,
+        "mesh_nodes": 2,
+        "mesh_definitions": 2,
+        "material_definitions": 2,
+        "surface_instances": 2,
+        "triangle_instances": 416,
+        "vertex_instances": 659,
+        "unique_primitive_triangles": 416,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 1,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          10
+        ],
+        "load_us": 4734,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 10,
+        "median_instantiate_us": 6,
+        "mesh_nodes": 2,
+        "min_instantiate_us": 5,
+        "moving_meshes": 1,
+        "nodes": 5,
+        "path": "res://before/environment/hex_river_overlay_turn_120.glb",
+        "surfaces": 2,
+        "triangles": 416
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 1,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          5,
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          7,
+          13
+        ],
+        "load_us": 4954,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 13,
+        "median_instantiate_us": 6,
+        "mesh_nodes": 2,
+        "min_instantiate_us": 5,
+        "moving_meshes": 1,
+        "nodes": 5,
+        "path": "res://after/environment/hex_river_overlay_turn_120.glb",
+        "surfaces": 2,
+        "triangles": 416
+      }
+    },
+    "environment/hex_river_overlay_end": {
+      "before": {
+        "sha256": "533c50274c29a6febd01530dfa8a7bfcc60e923fbcb9458e2e6f27f851957731",
+        "bytes": 194784,
+        "nodes": 3,
+        "mesh_nodes": 2,
+        "mesh_definitions": 2,
+        "material_definitions": 2,
+        "surface_instances": 2,
+        "triangle_instances": 477,
+        "vertex_instances": 526,
+        "unique_primitive_triangles": 477,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "after": {
+        "sha256": "533c50274c29a6febd01530dfa8a7bfcc60e923fbcb9458e2e6f27f851957731",
+        "bytes": 194784,
+        "nodes": 3,
+        "mesh_nodes": 2,
+        "mesh_definitions": 2,
+        "material_definitions": 2,
+        "surface_instances": 2,
+        "triangle_instances": 477,
+        "vertex_instances": 526,
+        "unique_primitive_triangles": 477,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ]
+      },
+      "godot_before": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 1,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          5,
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          7,
+          7,
+          11
+        ],
+        "load_us": 4957,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 11,
+        "median_instantiate_us": 6,
+        "mesh_nodes": 2,
+        "min_instantiate_us": 5,
+        "moving_meshes": 1,
+        "nodes": 5,
+        "path": "res://before/environment/hex_river_overlay_end.glb",
+        "surfaces": 2,
+        "triangles": 477
+      },
+      "godot_after": {
+        "all_track_targets_resolve": true,
+        "ambient_length": 4.04166650772095,
+        "ambient_tracks": 1,
+        "fixed_meshes": 1,
+        "imported_loop_mode": 0,
+        "instantiate_us": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          7,
+          11
+        ],
+        "load_us": 4856,
+        "loop_endpoints_equal": true,
+        "max_instantiate_us": 11,
+        "median_instantiate_us": 6,
+        "mesh_nodes": 2,
+        "min_instantiate_us": 6,
+        "moving_meshes": 1,
+        "nodes": 5,
+        "path": "res://after/environment/hex_river_overlay_end.glb",
+        "surfaces": 2,
+        "triangles": 477
+      }
+    }
+  },
+  "renders": {
+    "buildings/magic_academy": {
+      "asset": "buildings/magic_academy",
+      "before_glb_sha256": "7fee44b3b088347689553accc8027cb03e5a441d0dfdfc8201365564b9bb62ca",
+      "after_glb_sha256": "3d4eea8b41984a020321d9064cb9c9f0d8ec0c499f2a8b3f25acb527ea1b72e9",
+      "blender": "5.2.2 LTS",
+      "blender_build": "d13f752e3b9c",
+      "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+      "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+      "camera": {
+        "position": [
+          8.518440246582031,
+          -12.927849769592285,
+          10.842839241027832
+        ],
+        "rotation": [
+          1.1077648401260376,
+          9.708006842856776e-08,
+          0.5880025625228882
+        ],
+        "ortho_scale": 9.938653945922852,
+        "resolution": [
+          480,
+          480
+        ],
+        "frame": 1,
+        "engine": "CYCLES",
+        "samples": 24,
+        "view_transform": "AgX",
+        "look": "None",
+        "exposure": 0.0,
+        "glow": false,
+        "lights": "Same three neutral SUN lights and world, untouched between imports",
+        "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+      },
+      "images": {
+        "docs/runtime-optimization/evidence/buildings/magic_academy/before.png": "ebb613ca3c81470320a9fa2dba5da5d964da71f5882b1fd20e006707a9086c61",
+        "docs/runtime-optimization/evidence/buildings/magic_academy/before-192.png": "51e47eec444a676ece4416750263ca9df2366670d9960cbf0640231e51ec1bf2",
+        "docs/runtime-optimization/evidence/buildings/magic_academy/before-96.png": "73f16d35a3c98ef69e74a965691f5d48f0b8c9387e1bcd68c40fc6457b6070fa",
+        "docs/runtime-optimization/evidence/buildings/magic_academy/after.png": "6f69be0ec31718efab6d2b49715fe3c1b97da3a969248388c0673b8a56f6d8d4",
+        "docs/runtime-optimization/evidence/buildings/magic_academy/after-192.png": "06d452a8e97bded785aeb165689063c86213d41289a1b8213e5f184f2468fbb2",
+        "docs/runtime-optimization/evidence/buildings/magic_academy/after-96.png": "8d44ee6f9acab7b1c4aff3395f576c5e1f14a4f4b523885731bc3c3bd945b4ff"
+      }
+    },
+    "buildings/barracks": {
+      "asset": "buildings/barracks",
+      "before_glb_sha256": "8755cd7db358bb0f4518b05dc3de7f4781d0d4aa5212beca710e40009c6f27c7",
+      "after_glb_sha256": "4965440253350354f49be062b61f2945c7c2924663c2496bc1bfbeba90b19d0a",
+      "blender": "5.2.2 LTS",
+      "blender_build": "d13f752e3b9c",
+      "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+      "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+      "camera": {
+        "position": [
+          7.031440258026123,
+          -10.828361511230469,
+          8.15611457824707
+        ],
+        "rotation": [
+          1.1077649593353271,
+          5.912646372507879e-08,
+          0.5880026817321777
+        ],
+        "ortho_scale": 8.219562530517578,
+        "resolution": [
+          480,
+          480
+        ],
+        "frame": 1,
+        "engine": "CYCLES",
+        "samples": 24,
+        "view_transform": "AgX",
+        "look": "None",
+        "exposure": 0.0,
+        "glow": false,
+        "lights": "Same three neutral SUN lights and world, untouched between imports",
+        "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+      },
+      "images": {
+        "docs/runtime-optimization/evidence/buildings/barracks/before.png": "57ecf3634cce950b8bd5abe7f2e8711229d64afeced8dd24fbce441f77a2c401",
+        "docs/runtime-optimization/evidence/buildings/barracks/before-192.png": "2479d013a1feef72e65b596b901c02dd791feeaa344b7ee7eaeb768517641fb8",
+        "docs/runtime-optimization/evidence/buildings/barracks/before-96.png": "31fabb20fba4e10c5017515bbab0fa7120ce46bfa448db8e33219a41d3614262",
+        "docs/runtime-optimization/evidence/buildings/barracks/after.png": "0e274c4c9a889346a3ec24ea70343aa13f7b2335908c3bbe74187ac034946bbf",
+        "docs/runtime-optimization/evidence/buildings/barracks/after-192.png": "808fb729e316231df4a1ecaecbf931af4aaf856d023885c930b79bc7d894a0b1",
+        "docs/runtime-optimization/evidence/buildings/barracks/after-96.png": "cfff16dc9a8bd7581298fe796cd0793676ef21629ac9278dbc3052b7c70d936c"
+      }
+    },
+    "buildings/town_hall": {
+      "asset": "buildings/town_hall",
+      "before_glb_sha256": "6b10ca5a42080e686e41717cef4283cf05c63299061d1728b441dbb5b435cf07",
+      "after_glb_sha256": "8d801728b4c863c51819a698775b1c0b187f6f0c467a4445216375f3a98b108f",
+      "blender": "5.2.2 LTS",
+      "blender_build": "d13f752e3b9c",
+      "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+      "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+      "camera": {
+        "position": [
+          7.788900852203369,
+          -12.052610397338867,
+          9.860098838806152
+        ],
+        "rotation": [
+          1.1077648401260376,
+          9.982223048154992e-09,
+          0.5880026817321777
+        ],
+        "ortho_scale": 9.254470825195312,
+        "resolution": [
+          480,
+          480
+        ],
+        "frame": 1,
+        "engine": "CYCLES",
+        "samples": 24,
+        "view_transform": "AgX",
+        "look": "None",
+        "exposure": 0.0,
+        "glow": false,
+        "lights": "Same three neutral SUN lights and world, untouched between imports",
+        "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+      },
+      "images": {
+        "docs/runtime-optimization/evidence/buildings/town_hall/before.png": "c8b05dd5b0183a16df56b6dfeeb34946493b46845f24f9ec7943823ff4338895",
+        "docs/runtime-optimization/evidence/buildings/town_hall/before-192.png": "ddbeca5220e31763726998af5bb9363808c6e8429a58217d3bb96f4a9e2974f0",
+        "docs/runtime-optimization/evidence/buildings/town_hall/before-96.png": "692c5cbadd843a9baa20c35c8443f8fd32646d45830bc918900bf1b603a4a5ff",
+        "docs/runtime-optimization/evidence/buildings/town_hall/after.png": "77ea16431ee457a9df40345eb965d8221c7bfe192396753730d593c49f9cb0d0",
+        "docs/runtime-optimization/evidence/buildings/town_hall/after-192.png": "c688f1aca190801129fca93be7204bd93bc974b6944b828c73961f93152c4676",
+        "docs/runtime-optimization/evidence/buildings/town_hall/after-96.png": "9a1a374c540146d3d0c76e363850ef68c04246f189d7e08fbceb1f1e5e28edca"
+      }
+    },
+    "buildings/arrow_tower": {
+      "asset": "buildings/arrow_tower",
+      "before_glb_sha256": "7734a3dcd5deb492d9eb6537707507b9cd3600afed0d185dae22522f1a3f9c82",
+      "after_glb_sha256": "e5dd348375fe2e74a2ff4b0eacccd52de81194a8348909efc2d6297513f80f35",
+      "blender": "5.2.2 LTS",
+      "blender_build": "d13f752e3b9c",
+      "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+      "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+      "camera": {
+        "position": [
+          7.474255084991455,
+          -11.471193313598633,
+          9.441883087158203
+        ],
+        "rotation": [
+          1.107764720916748,
+          -3.27883000750262e-08,
+          0.5880025625228882
+        ],
+        "ortho_scale": 8.76327896118164,
+        "resolution": [
+          480,
+          480
+        ],
+        "frame": 1,
+        "engine": "CYCLES",
+        "samples": 24,
+        "view_transform": "AgX",
+        "look": "None",
+        "exposure": 0.0,
+        "glow": false,
+        "lights": "Same three neutral SUN lights and world, untouched between imports",
+        "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+      },
+      "images": {
+        "docs/runtime-optimization/evidence/buildings/arrow_tower/before.png": "7124a93afc034c021d4f969212671bd6dd4760fef68e460fd43a4eab95000bc2",
+        "docs/runtime-optimization/evidence/buildings/arrow_tower/before-192.png": "53d41ab80fbf0acfe98243424863c68f0950281e537eb49d9bdd70d5f6155c82",
+        "docs/runtime-optimization/evidence/buildings/arrow_tower/before-96.png": "23a6ab493f1e46ed9e77df39846b5b3bbef72d8ea42ca8a63538d1c950280722",
+        "docs/runtime-optimization/evidence/buildings/arrow_tower/after.png": "47a2c3a0737eec825d4a309b0c8a982a021a4376f9389cd987775b7eade2016b",
+        "docs/runtime-optimization/evidence/buildings/arrow_tower/after-192.png": "297f9c372e6929d32b2db7677a24c76bcf45e04bc5902bc72dec86aa4c839997",
+        "docs/runtime-optimization/evidence/buildings/arrow_tower/after-96.png": "9d5f3fa0f5237bc45df67ac9d1ce762700e61f8d8eab67901221f5a34d36f064"
+      }
+    },
+    "buildings/bakery": {
+      "asset": "buildings/bakery",
+      "before_glb_sha256": "cc49074b879a1b03ab9b52135d8d93e467a0f07c355466ea4ee02890b7638e66",
+      "after_glb_sha256": "ed10e186da56609154c4f0d01b96df394d802d0ca33d5bd23a4b366d25d2eb82",
+      "blender": "5.2.2 LTS",
+      "blender_build": "d13f752e3b9c",
+      "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+      "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+      "camera": {
+        "position": [
+          6.162692070007324,
+          -9.999719619750977,
+          7.614663600921631
+        ],
+        "rotation": [
+          1.1077649593353271,
+          -1.9397884187810632e-08,
+          0.5880026817321777
+        ],
+        "ortho_scale": 7.553883075714111,
+        "resolution": [
+          480,
+          480
+        ],
+        "frame": 1,
+        "engine": "CYCLES",
+        "samples": 24,
+        "view_transform": "AgX",
+        "look": "None",
+        "exposure": 0.0,
+        "glow": false,
+        "lights": "Same three neutral SUN lights and world, untouched between imports",
+        "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+      },
+      "images": {
+        "docs/runtime-optimization/evidence/buildings/bakery/before.png": "f67d582096912a07ad2f175bd442766351363dc46c684bfef982fd868e3f0abc",
+        "docs/runtime-optimization/evidence/buildings/bakery/before-192.png": "b322ffd8e951fec43fa02fea812c7d4ce9e33bffb72ffdd91f28b7faa1d167b2",
+        "docs/runtime-optimization/evidence/buildings/bakery/before-96.png": "25cd31790b86c140b2c56eb8afd6714f5ca67feb27b58359a326f07f36401421",
+        "docs/runtime-optimization/evidence/buildings/bakery/after.png": "db9710084525fef891d952330c17ff120917273268bed2c5c5d5220c4f88078c",
+        "docs/runtime-optimization/evidence/buildings/bakery/after-192.png": "cdbe02a5a33951d61c0ba70a59c5f28c4cc16f4e277596ad6f5d77f1be9faffd",
+        "docs/runtime-optimization/evidence/buildings/bakery/after-96.png": "9b53daf36d8ec5db6de3bf3690d9e098ca83cf9bba601901f546dc0fdad13546"
+      }
+    },
+    "buildings/weaver": {
+      "asset": "buildings/weaver",
+      "before_glb_sha256": "373a6349226cf3ab7878b7f17404f8e262c03b39aa2981a226e841a2cb69812a",
+      "after_glb_sha256": "20d91874be2faa0faa487ec40960d0efecdff6fb8b3fb24497d2bd4c6e7d0d82",
+      "blender": "5.2.2 LTS",
+      "blender_build": "d13f752e3b9c",
+      "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+      "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+      "camera": {
+        "position": [
+          6.74586296081543,
+          -10.389374732971191,
+          7.911360740661621
+        ],
+        "rotation": [
+          1.1077648401260376,
+          3.998862041498796e-08,
+          0.588002622127533
+        ],
+        "ortho_scale": 7.888938903808594,
+        "resolution": [
+          480,
+          480
+        ],
+        "frame": 1,
+        "engine": "CYCLES",
+        "samples": 24,
+        "view_transform": "AgX",
+        "look": "None",
+        "exposure": 0.0,
+        "glow": false,
+        "lights": "Same three neutral SUN lights and world, untouched between imports",
+        "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+      },
+      "images": {
+        "docs/runtime-optimization/evidence/buildings/weaver/before.png": "b52d166a43385ad9c2d093983f6212aaa948fe65079183620bb4fea836a897f2",
+        "docs/runtime-optimization/evidence/buildings/weaver/before-192.png": "d3e9cd92d16b712adf807acdca2d8175d3515da878ea6dbe700295c574216918",
+        "docs/runtime-optimization/evidence/buildings/weaver/before-96.png": "4e3896bcf3e62a7be75658620774898e07137ec974d45476c9933556a52f200d",
+        "docs/runtime-optimization/evidence/buildings/weaver/after.png": "c0f71e478b7dca4495b359ab2ec5aff5bd850296f7bfa7cbad6d9a7b6c7a46c9",
+        "docs/runtime-optimization/evidence/buildings/weaver/after-192.png": "8fafcda3a7fcad1708e4a46b64a73355faab68a1136284187e0fa26ba1448508",
+        "docs/runtime-optimization/evidence/buildings/weaver/after-96.png": "9980cb8182de716259b30a33a888d3050815c9ca41ef1e86df7224a925ba203a"
+      }
+    },
+    "environment/hex_lantern_bridge": {
+      "asset": "environment/hex_lantern_bridge",
+      "before_glb_sha256": "c8b19401f6e47abe587248a181890dfeb7bf7f9656f96f5fc16373d2efe2abb3",
+      "after_glb_sha256": "dfc46c307610d5f13ec1480754580337cf347f49b8b028ac92418365f68f824a",
+      "blender": "5.2.2 LTS",
+      "blender_build": "d13f752e3b9c",
+      "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+      "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+      "camera": {
+        "position": [
+          6.9882307052612305,
+          -10.482346534729004,
+          6.9356865882873535
+        ],
+        "rotation": [
+          1.1077649593353271,
+          -1.9397884187810632e-08,
+          0.5880026817321777
+        ],
+        "ortho_scale": 8.2725248336792,
+        "resolution": [
+          480,
+          480
+        ],
+        "frame": 1,
+        "engine": "CYCLES",
+        "samples": 24,
+        "view_transform": "AgX",
+        "look": "None",
+        "exposure": 0.0,
+        "glow": false,
+        "lights": "Same three neutral SUN lights and world, untouched between imports",
+        "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+      },
+      "images": {
+        "docs/runtime-optimization/evidence/environment/hex_lantern_bridge/before.png": "505d80dd7777bfa011afbbe6593afb6f06ebf7b53fd1f68f80951e39f43cc705",
+        "docs/runtime-optimization/evidence/environment/hex_lantern_bridge/before-192.png": "8c4f3d8a682392aea231b7f32723cd179d2602316bfed52e893e03b100017948",
+        "docs/runtime-optimization/evidence/environment/hex_lantern_bridge/before-96.png": "427f277fafc397393685bc39679056392bc14174769f0d653e0fc446251e8b34",
+        "docs/runtime-optimization/evidence/environment/hex_lantern_bridge/after.png": "f21e566ec621494bf3b8f3f0208b990b2b907735091c835429c4efedebdba753",
+        "docs/runtime-optimization/evidence/environment/hex_lantern_bridge/after-192.png": "925827a39ada8aaa8ef081b5b08bd09ef6785400afc7b0788b003b0ae604cf0b",
+        "docs/runtime-optimization/evidence/environment/hex_lantern_bridge/after-96.png": "b6ae9df5da03345a9193f4f945c05c29d88b3160db3e6a8da222570973466769"
+      }
+    },
+    "environment/hex_river_overlay_turn_60": {
+      "asset": "environment/hex_river_overlay_turn_60",
+      "before_glb_sha256": "fe554f74f112b9588409ef7daf65a3e3ee65f71ff735307598c05b8c71a2f58e",
+      "after_glb_sha256": "fe554f74f112b9588409ef7daf65a3e3ee65f71ff735307598c05b8c71a2f58e",
+      "blender": "5.2.2 LTS",
+      "blender_build": "d13f752e3b9c",
+      "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+      "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+      "camera": {
+        "position": [
+          2.617185592651367,
+          -3.9892797470092773,
+          3.1010921001434326
+        ],
+        "rotation": [
+          1.1077649593353271,
+          -8.863381695256578e-10,
+          0.5880028009414673
+        ],
+        "ortho_scale": 4.064431190490723,
+        "resolution": [
+          480,
+          480
+        ],
+        "frame": 1,
+        "engine": "CYCLES",
+        "samples": 24,
+        "view_transform": "AgX",
+        "look": "None",
+        "exposure": 0.0,
+        "glow": false,
+        "lights": "Same three neutral SUN lights and world, untouched between imports",
+        "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+      },
+      "images": {
+        "docs/runtime-optimization/evidence/environment/hex_river_overlay_turn_60/before.png": "53ef3f271d52ba754db88d34274d0bddeb810b617ff1f202d487b15bbc41e94e",
+        "docs/runtime-optimization/evidence/environment/hex_river_overlay_turn_60/before-192.png": "cfedcdfb58b7159cbdd0e6992e3adfa913ed16435a570b38d2c8c089959791d6",
+        "docs/runtime-optimization/evidence/environment/hex_river_overlay_turn_60/before-96.png": "f7555904fa96d560a7e634aa04d1d09646632827e129000887dab8e664f10d5a",
+        "docs/runtime-optimization/evidence/environment/hex_river_overlay_turn_60/after.png": "74ff94a1800cf3c11b2ce3f2724946bfe7ccadc171ec44fc717c4ff37988aed3",
+        "docs/runtime-optimization/evidence/environment/hex_river_overlay_turn_60/after-192.png": "4a15b89bc6c37f0991483fb36757a47fb3f2e4d1144147a6b913809bbeeaf7d5",
+        "docs/runtime-optimization/evidence/environment/hex_river_overlay_turn_60/after-96.png": "a0fc8d3650efa5e04bc89a4b935a094097de5db8432a7ddde6d29b6753197a26"
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "source_position": [
+    1.2955131530761719,
+    0.4382917582988739,
+    0.9277405738830566
+  ],
+  "source_normal": [
+    0.10984714329242706,
+    0.2628978490829468,
+    0.9585500955581665
+  ],
+  "source_uv": [
+    0.5076004862785339,
+    0.5016731023788452
+  ],
+  "raw_candidates": [
+    {
+      "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"moss\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 39}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 40}}}",
+      "position": [
+        1.2955130338668823,
+        0.4382918179035187,
+        0.9277405738830566
+      ],
+      "normal": [
+        -0.009068497456610203,
+        0.9640026688575745,
+        0.26573801040649414
+      ],
+      "uv": [
+        0.5076004862785339,
+        0.5016731023788452
+      ],
+      "position_error_m": 1.3328003749250113e-07,
+      "uv_error": 0.0,
+      "normal_component_error": 0.7011048197746277
+    },
+    {
+      "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"moss\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 39}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 40}}}",
+      "position": [
+        1.2955130338668823,
+        0.4382918179035187,
+        0.9277405738830566
+      ],
+      "normal": [
+        0.2333124577999115,
+        0.8890443444252014,
+        0.39391061663627625
+      ],
+      "uv": [
+        0.5076004862785339,
+        0.5016731023788452
+      ],
+      "position_error_m": 1.3328003749250113e-07,
+      "uv_error": 0.0,
+      "normal_component_error": 0.6261464953422546
+    },
+    {
+      "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"moss\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 39}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 40}}}",
+      "position": [
+        1.2955130338668823,
+        0.4382918179035187,
+        0.9277405738830566
+      ],
+      "normal": [
+        -0.49235764145851135,
+        0.6083456873893738,
+        0.6224944591522217
+      ],
+      "uv": [
+        0.5076004862785339,
+        0.5016731023788452
+      ],
+      "position_error_m": 1.3328003749250113e-07,
+      "uv_error": 0.0,
+      "normal_component_error": 0.6022047847509384
+    },
+    {
+      "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"moss\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 39}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 40}}}",
+      "position": [
+        1.2955130338668823,
+        0.4382918179035187,
+        0.9277405738830566
+      ],
+      "normal": [
+        0.10984200239181519,
+        0.2626911401748657,
+        0.9586074352264404
+      ],
+      "uv": [
+        0.5076004862785339,
+        0.5016731023788452
+      ],
+      "position_error_m": 1.3328003749250113e-07,
+      "uv_error": 0.0,
+      "normal_component_error": 0.0002067089080810547
+    },
+    {
+      "material": "{\"doubleSided\": true, \"extras\": {\"painted_finish\": \"painted_softness_v1\", \"texture_family\": \"moss\", \"vivid_finish\": \"vivid_painted_v1\", \"woodland_finish\": \"whisperwood_v1\"}, \"pbrMetallicRoughness\": {\"baseColorTexture\": {\"index\": 39}, \"metallicFactor\": 0, \"metallicRoughnessTexture\": {\"index\": 40}}}",
+      "position": [
+        1.2955130338668823,
+        0.4382918179035187,
+        0.9277405738830566
+      ],
+      "normal": [
+        -0.31490471959114075,
+        0.8979819416999817,
+        0.30734914541244507
+      ],
+      "uv": [
+        0.5076004862785339,
+        0.5016731023788452
+      ],
+      "position_error_m": 1.3328003749250113e-07,
+      "uv_error": 0.0,
+      "normal_component_error": 0.6512009501457214
+    }
+  ]
+}

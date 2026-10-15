@@ -1,0 +1,43 @@
+{
+  "asset": "buildings/weaver",
+  "before_glb_sha256": "373a6349226cf3ab7878b7f17404f8e262c03b39aa2981a226e841a2cb69812a",
+  "after_glb_sha256": "20d91874be2faa0faa487ec40960d0efecdff6fb8b3fb24497d2bd4c6e7d0d82",
+  "blender": "5.2.2 LTS",
+  "blender_build": "d13f752e3b9c",
+  "renderer_sha256": "de1cc707654cc694270da47e2e30f311f4f7c130b895a17722b5394585961f8e",
+  "neutral_setup_sha256": "9ddc946f7e3b2dab2eec5b0e012a5e4bf9ba3226e88e56217820c2dc4d83d61d",
+  "camera": {
+    "position": [
+      6.74586296081543,
+      -10.389374732971191,
+      7.911360740661621
+    ],
+    "rotation": [
+      1.1077648401260376,
+      3.998862041498796e-08,
+      0.588002622127533
+    ],
+    "ortho_scale": 7.888938903808594,
+    "resolution": [
+      480,
+      480
+    ],
+    "frame": 1,
+    "engine": "CYCLES",
+    "samples": 24,
+    "view_transform": "AgX",
+    "look": "None",
+    "exposure": 0.0,
+    "glow": false,
+    "lights": "Same three neutral SUN lights and world, untouched between imports",
+    "scope": "Standalone neutral CPU GLBs at identical projection; 192/96 canvas diagnostics, not measured game occupied pixels/FPS"
+  },
+  "images": {
+    "docs/runtime-optimization/evidence/buildings/weaver/before.png": "b52d166a43385ad9c2d093983f6212aaa948fe65079183620bb4fea836a897f2",
+    "docs/runtime-optimization/evidence/buildings/weaver/before-192.png": "d3e9cd92d16b712adf807acdca2d8175d3515da878ea6dbe700295c574216918",
+    "docs/runtime-optimization/evidence/buildings/weaver/before-96.png": "4e3896bcf3e62a7be75658620774898e07137ec974d45476c9933556a52f200d",
+    "docs/runtime-optimization/evidence/buildings/weaver/after.png": "c0f71e478b7dca4495b359ab2ec5aff5bd850296f7bfa7cbad6d9a7b6c7a46c9",
+    "docs/runtime-optimization/evidence/buildings/weaver/after-192.png": "8fafcda3a7fcad1708e4a46b64a73355faab68a1136284187e0fa26ba1448508",
+    "docs/runtime-optimization/evidence/buildings/weaver/after-96.png": "9980cb8182de716259b30a33a888d3050815c9ca41ef1e86df7224a925ba203a"
+  }
+}

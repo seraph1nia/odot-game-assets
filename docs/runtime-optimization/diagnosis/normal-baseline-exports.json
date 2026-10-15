@@ -1,0 +1,76 @@
+{
+  "buildings/archery_range": {
+    "source_sha256": "816c124d57621a7f635548abbc2168e9c5950789bb20cc9a27e176b41a11341b",
+    "source_to_landed_buffers": {
+      "all_triangle_corners_checked_bidirectionally": true,
+      "exact_zero_area_source_triangles": 158,
+      "exact_zero_area_imported_triangles": 150,
+      "per_material_triangle_multiplicity_equal": true,
+      "normals_asserted": true,
+      "max_position_error_m": 9.610960205463925e-07,
+      "max_normal_component_error": 6.575137376785278e-07,
+      "max_uv_error": 1.1920928955078125e-07
+    },
+    "conversion": {
+      "max_transform_condition": 4.440738992728455,
+      "max_analytic_angular_bound_degrees": 0.044296796929625445,
+      "max_local_rounding_world_component_delta": 0.00022781283862569057,
+      "max_local_rounding_world_angle_degrees": 0.013648672575795736
+    },
+    "source_to_unmodified_export_buffers": {
+      "all_triangle_corners_checked_bidirectionally": true,
+      "exact_zero_area_source_triangles": 158,
+      "exact_zero_area_imported_triangles": 150,
+      "per_material_triangle_multiplicity_equal": true,
+      "normals_asserted": true,
+      "max_position_error_m": 9.610960205463925e-07,
+      "max_normal_component_error": 6.575137376785278e-07,
+      "max_uv_error": 1.1920928955078125e-07
+    },
+    "landed_to_unmodified_export": {
+      "serialized_triangle_count": 179072,
+      "one_to_one_transformed_triangle_attributes_equal": true,
+      "zero_area_triangles_not_filtered": true,
+      "exact_zero_area_before": 150,
+      "exact_zero_area_after": 150,
+      "max_attribute_component_error": 4.76837158203125e-06
+    }
+  },
+  "buildings/magic_academy": {
+    "source_sha256": "3cd5d8cbde136e5ca725d375754ac3dc22dfadf4ba9254c67276c24f731e0930",
+    "source_to_landed_buffers": {
+      "all_triangle_corners_checked_bidirectionally": true,
+      "exact_zero_area_source_triangles": 62,
+      "exact_zero_area_imported_triangles": 62,
+      "per_material_triangle_multiplicity_equal": true,
+      "normals_asserted": true,
+      "max_position_error_m": 9.670842473497032e-07,
+      "max_normal_component_error": 5.960464477539062e-07,
+      "max_uv_error": 5.960464477539063e-08
+    },
+    "conversion": {
+      "max_transform_condition": 2.780612776261222,
+      "max_analytic_angular_bound_degrees": 0.027732870692242364,
+      "max_local_rounding_world_component_delta": 0.00014127850380996065,
+      "max_local_rounding_world_angle_degrees": 0.008628860817748265
+    },
+    "source_to_unmodified_export_buffers": {
+      "all_triangle_corners_checked_bidirectionally": true,
+      "exact_zero_area_source_triangles": 62,
+      "exact_zero_area_imported_triangles": 62,
+      "per_material_triangle_multiplicity_equal": true,
+      "normals_asserted": true,
+      "max_position_error_m": 9.670842473497032e-07,
+      "max_normal_component_error": 5.960464477539062e-07,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    "landed_to_unmodified_export": {
+      "serialized_triangle_count": 248974,
+      "one_to_one_transformed_triangle_attributes_equal": true,
+      "zero_area_triangles_not_filtered": true,
+      "exact_zero_area_before": 62,
+      "exact_zero_area_after": 62,
+      "max_attribute_component_error": 5.960464477539063e-08
+    }
+  }
+}

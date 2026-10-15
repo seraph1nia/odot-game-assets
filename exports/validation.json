@@ -5,7 +5,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "6abd5547aa9674f002e472fdbde16156e718cfe33ba1c120ae4dafe1547c70a2",
-    "glb_sha256": "273dd115d53250ffa3f2cb14dab55392655d2a8212ed3e1c5b36cc81a8117267"
+    "glb_sha256": "737ff1fda84fd0ca738343f82f74656dc997f29ddc66c0b955b89f82a0acb9a8"
   },
   {
     "asset": "bakery",
@@ -13,7 +13,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "b2830d71c9d608a863371e503115789b2fd42b95ee15ee046d4b6d56488ca51d",
-    "glb_sha256": "cc49074b879a1b03ab9b52135d8d93e467a0f07c355466ea4ee02890b7638e66"
+    "glb_sha256": "ed10e186da56609154c4f0d01b96df394d802d0ca33d5bd23a4b366d25d2eb82"
   },
   {
     "asset": "gold_mine",
@@ -21,7 +21,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "f00b0aad15664205e0e304fbaebe8a7ca24b21cf3caf4311da470ebb5d7aa9fd",
-    "glb_sha256": "5efe302a4a62d23c301c787410d58a3fe7013c54931362664aa997f441233d3b"
+    "glb_sha256": "40d7ed138c0610ea488f7561790c93cf31af932d01a815dd6f27feb9abdafb95"
   },
   {
     "asset": "woodcutter_hut",
@@ -29,7 +29,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "d60e0bb23aa4bb4fc8ea0501eab13a0c801d6e91379701ba95fdca63ddf59065",
-    "glb_sha256": "6bf55306adc772d9ed09232da5fe40f06fb0bda7e1dc2a58807cc3ed3e74c9bd"
+    "glb_sha256": "42e904f52d670ecaf7752b7da7753dade466f721ba3ccb3b443e42fa19b06da0"
   },
   {
     "asset": "arrow_tower",
@@ -37,7 +37,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "362adaf78ebf4d19aa23b7e50c1aa4bc0597a2a7b8d3421584aefc214ab8a642",
-    "glb_sha256": "7734a3dcd5deb492d9eb6537707507b9cd3600afed0d185dae22522f1a3f9c82",
+    "glb_sha256": "e5dd348375fe2e74a2ff4b0eacccd52de81194a8348909efc2d6297513f80f35",
     "shared_kit_instances": {
       "arrow": 8,
       "lantern": 1,
@@ -54,7 +54,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "f9c684de835843fb26c18c8de7e6c471e2251ac954225f8774d1ea4e506ad788",
-    "glb_sha256": "8755cd7db358bb0f4518b05dc3de7f4781d0d4aa5212beca710e40009c6f27c7",
+    "glb_sha256": "4965440253350354f49be062b61f2945c7c2924663c2496bc1bfbeba90b19d0a",
     "shared_kit_instances": {
       "barrel": 1,
       "crate": 1,
@@ -71,7 +71,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "90cd17ebb43fa0d182146b7707e26534366667bfeb5408f78a22ad4853d99a1a",
-    "glb_sha256": "68e4c0df67ed7d54d0ee904e129073e8252e8393b1b90a38df6ebcb32c99555d",
+    "glb_sha256": "0e744fe969141821f426ac3b007ec9f23724bd367df02fa28b806c75148fb371",
     "shared_kit_instances": {
       "barrel": 2,
       "cannonball": 7,
@@ -87,7 +87,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "3cd5d8cbde136e5ca725d375754ac3dc22dfadf4ba9254c67276c24f731e0930",
-    "glb_sha256": "7fee44b3b088347689553accc8027cb03e5a441d0dfdfc8201365564b9bb62ca",
+    "glb_sha256": "3d4eea8b41984a020321d9064cb9c9f0d8ec0c499f2a8b3f25acb527ea1b72e9",
     "shared_kit_instances": {
       "book": 3,
       "lantern": 1,
@@ -102,7 +102,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "5b495c5d0ce4b5751276448d2ec153389a57df5801a3ed9ec6469a6d4dab0d59",
-    "glb_sha256": "3d6fd9d045843fb19f6b60da624dbd8dd182e43e6c9e2c9f69ebaa6e09084515",
+    "glb_sha256": "1593d697b353734de60c884c07bf1b2a8c192556e92c0524b6249678ffc5c5c1",
     "shared_kit_instances": {
       "open_barrel": 1,
       "roof_tile": 40,
@@ -116,7 +116,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "8a40e32440ab9848e9cd8952e9ed5653257dee68465950c3014035cc2ffbb19f",
-    "glb_sha256": "d08fd692fa5bf1fbc541948bb30dc749505bfd7dd00dc0fd2494755696bf77b4",
+    "glb_sha256": "8fe95ede1aa7e67eb1cd58a1ded0f6737149bf8205ef06943a520089bcd5aa4c",
     "shared_kit_instances": {
       "barrel": 2,
       "bench": 2,
@@ -132,7 +132,7 @@
     "round_trip_max_bounds_error": 1e-06,
     "geometry_finite": true,
     "source_sha256": "aa5b2ac702c91bcd6b91e15d8349febc41385f1fb860c786d1fd63597efc31eb",
-    "glb_sha256": "d6ecffd6ff4312f494c0e72a6365cf35e7a9230f69ca3a34527051ab46aaae11",
+    "glb_sha256": "f7a8ddf71f791b1a379eb8ae92b1a491fe9ea87ef0dfed0fe538be4e18f7ece2",
     "shared_kit_instances": {
       "barrel": 2,
       "crate": 3,
@@ -295,7 +295,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "816c124d57621a7f635548abbc2168e9c5950789bb20cc9a27e176b41a11341b",
-    "glb_sha256": "851fad1ec3b310163d40c090b1b51b17eea539e041af299ccd30611e04af3106",
+    "glb_sha256": "c6bedd11449586116abbdc74405f742f668be7fa249a4bb95116ffb55288595c",
     "shared_kit_instances": {
       "arrow": 12,
       "lantern": 1,
@@ -312,7 +312,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "24feea0c264f3d84fa972c4e972b7374d861bba990afabab86a2ad423f582ee7",
-    "glb_sha256": "ce0ccecf59d0fa2a8ab326f7eeca29495c643999e8e6bdaf133b5eb99bb7f198",
+    "glb_sha256": "170d08f9cde4f62d95a0051be7bb4baa4b8c3915cf10f57f0b07ae15984017cc",
     "shared_kit_instances": {
       "crate": 2,
       "lantern": 1,
@@ -327,7 +327,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "fabdc01a6fd1172ba8904d76de69275deada64fcfe260e47eade38e69e6a995b",
-    "glb_sha256": "b38a8ed0e9d0cea91e8548811159e3f432d1e2377b6ff63db923513e1536af80",
+    "glb_sha256": "6d7dee79f6ddc45c965cd509a3166aa9870ef9ba1198c717952732af3e4d6bb0",
     "shared_kit_instances": {
       "book": 6,
       "crate": 1,
@@ -342,7 +342,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "edc63e99ba51dd1ef90cb11bf4466ce524379fb241be8227a214de226fb348aa",
-    "glb_sha256": "6b10ca5a42080e686e41717cef4283cf05c63299061d1728b441dbb5b435cf07",
+    "glb_sha256": "8d801728b4c863c51819a698775b1c0b187f6f0c467a4445216375f3a98b108f",
     "shared_kit_instances": {
       "bench": 1,
       "lantern": 2,
@@ -357,7 +357,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "9be2fc7dda0b83040858dbc8f4094d98a0079a1ee44ecebf50da000062aa5fae",
-    "glb_sha256": "373a6349226cf3ab7878b7f17404f8e262c03b39aa2981a226e841a2cb69812a",
+    "glb_sha256": "20d91874be2faa0faa487ec40960d0efecdff6fb8b3fb24497d2bd4c6e7d0d82",
     "shared_kit_instances": {
       "lantern": 1,
       "open_barrel": 2,
@@ -656,7 +656,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "59fe27e96459d5b6e80638c2bdb21a8b0172f836efd8af455757d307bad08cd0",
-    "glb_sha256": "c8b19401f6e47abe587248a181890dfeb7bf7f9656f96f5fc16373d2efe2abb3",
+    "glb_sha256": "dfc46c307610d5f13ec1480754580337cf347f49b8b028ac92418365f68f824a",
     "shared_kit_instances": {
       "forest_boulder": 9,
       "forest_crystal_blue": 1,
@@ -722,7 +722,7 @@
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
     "source_sha256": "09effba907416f47529e5ecb959313d2342d495f97ffe3fa40da31d411f4a414",
-    "glb_sha256": "d5cfc873b80093cf746038e403ca2223fc8301b966d3d0a052fbe250e2440f3e",
+    "glb_sha256": "e4fc60abb81b8d91dd1f9224e4a1967e16343b7682e6d2c6c1e4c206fa9cc00c",
     "shared_kit_instances": {
       "forest_boulder": 9,
       "forest_bridge_plank": 15,

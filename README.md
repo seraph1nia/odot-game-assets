@@ -13,6 +13,7 @@ must be verified separately.
 
 - [Color recovery: current direction, inventory and actual comparisons](docs/vivid-palette/README.md)
 - [Localized building/water loops: 25 actual exported clips, coverage and playback](docs/ambient-motion/README.md)
+- [Runtime exports: consolidated building scenes, matched renders, all25 fidelity/loops and headless costs](docs/runtime-optimization/README.md)
 - [Landed selective quality round: focal edits and historical evidence](docs/quality-round-two/README.md)
 - [Landed first-round Whisperwood analysis, inventory and baseline evidence](docs/whisperwood/README.md)
 - [Reference authority and supplied-image inventory](.agents/skills/asset-art-direction/references/index.md)
@@ -152,7 +153,12 @@ asset collection or root object matching the asset ID's final segment; descendan
 and a character's optional `EQUIPMENT` collection are exported, while presentation
 collections are omitted. Explicit source mappings support shared component libraries.
 This command writes the requested GLBs, updates their manifest records, and
-refreshes the index. Exports are replaced atomically. The original
+refreshes the index. The 16 animated buildings and two dense bridge tiles receive
+[export-only runtime detail/consolidation](docs/runtime-optimization/README.md);
+the seven already-small water selections retain their efficient layout. Editable
+sources stay detailed and byte-identical. Static mesh names/material indices are
+not consumer attachment APIs; placement roots and animation targets are retained.
+Exports are replaced atomically. The original
 `tools/asset_pack/export_pack.py` workflow also refreshes the index when it finishes;
 that older pack workflow can regenerate standalone component sources. Keep using
 the selected-source command for manual refinements. Exports from other tools are

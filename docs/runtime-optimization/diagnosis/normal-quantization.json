@@ -1,0 +1,190 @@
+{
+  "local_rounding_digits": 4,
+  "local_vector_error_bound": 8.701549347091615e-05,
+  "normal_encoding": "FLOAT 5126, normalized false",
+  "unchanged_exporter_counterfactual": [
+    {
+      "object": "Independent normal probe 0",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "condition": 1.0000000539281375,
+      "local_source_corner_normal": [
+        0.4124141335487366,
+        0.6790258288383484,
+        0.6073207855224609
+      ],
+      "predicted_export_world_normal": [
+        0.9060029983520508,
+        0.2786453068256378,
+        0.31861478090286255
+      ],
+      "actual_export_world_normal": [
+        0.9060029983520508,
+        0.2786453068256378,
+        0.31861481070518494
+      ],
+      "canonical_max_component_error": 2.9802322387695312e-08,
+      "unconverted_max_component_error": 1.7881393432617188e-06,
+      "rounding_chord": 1.8850999594770038e-06,
+      "rounding_angle_degrees": 0.00010812968233595,
+      "analytic_chord_bound": 0.0001740461410386652,
+      "analytic_angular_bound_degrees": 0.00997210933464068
+    },
+    {
+      "object": "Independent normal probe 1",
+      "scale": [
+        1.0,
+        0.25,
+        2.0
+      ],
+      "condition": 8.00000008954884,
+      "local_source_corner_normal": [
+        0.4328538775444031,
+        0.6532071828842163,
+        0.621255099773407
+      ],
+      "predicted_export_world_normal": [
+        0.5707929134368896,
+        0.7960913181304932,
+        0.2010819911956787
+      ],
+      "actual_export_world_normal": [
+        0.5707929134368896,
+        0.7960913181304932,
+        0.2010819911956787
+      ],
+      "canonical_max_component_error": 0.0,
+      "unconverted_max_component_error": 1.6927719116210938e-05,
+      "rounding_chord": 2.100305323145631e-05,
+      "rounding_angle_degrees": 0.0012026884308504243,
+      "analytic_chord_bound": 0.0013932177633793306,
+      "analytic_angular_bound_degrees": 0.07982550424036576
+    },
+    {
+      "object": "Independent normal probe 2",
+      "scale": [
+        1.0,
+        0.10000000149011612,
+        3.200000047683716
+      ],
+      "condition": 32.00000082841421,
+      "local_source_corner_normal": [
+        0.4530305564403534,
+        0.6261523962020874,
+        0.6345837712287903
+      ],
+      "predicted_export_world_normal": [
+        0.46443700790405273,
+        0.8618648648262024,
+        0.20368428528308868
+      ],
+      "actual_export_world_normal": [
+        0.46443697810173035,
+        0.8618647456169128,
+        0.20368430018424988
+      ],
+      "canonical_max_component_error": 1.1920928955078125e-07,
+      "unconverted_max_component_error": 8.106231689453125e-06,
+      "rounding_chord": 1.042063250340194e-05,
+      "rounding_angle_degrees": 0.0005971188959525503,
+      "analytic_chord_bound": 0.0055845418600152,
+      "analytic_angular_bound_degrees": 0.31997109488447073
+    },
+    {
+      "object": "Independent normal probe 3",
+      "scale": [
+        -1.0,
+        0.5,
+        2.0
+      ],
+      "condition": 4.000000044774416,
+      "local_source_corner_normal": [
+        0.47284653782844543,
+        0.597926914691925,
+        0.6472245454788208
+      ],
+      "predicted_export_world_normal": [
+        0.228636234998703,
+        0.7532823085784912,
+        0.6166775226593018
+      ],
+      "actual_export_world_normal": [
+        0.228636234998703,
+        0.7532823085784912,
+        0.6166775226593018
+      ],
+      "canonical_max_component_error": 0.0,
+      "unconverted_max_component_error": 1.6391277313232422e-05,
+      "rounding_chord": 1.8033631288337884e-05,
+      "rounding_angle_degrees": 0.0010338130585944183,
+      "analytic_chord_bound": 0.000696366334203007,
+      "analytic_angular_bound_degrees": 0.03989885275099533
+    },
+    {
+      "object": "Independent normal probe 4",
+      "scale": [
+        1.0,
+        0.125,
+        8.0
+      ],
+      "condition": 64.0000007163907,
+      "local_source_corner_normal": [
+        0.49220508337020874,
+        0.5686131119728088,
+        0.6591004729270935
+      ],
+      "predicted_export_world_normal": [
+        0.4818970859050751,
+        0.8595895171165466,
+        0.1699444055557251
+      ],
+      "actual_export_world_normal": [
+        0.4818970859050751,
+        0.8595895171165466,
+        0.16994443535804749
+      ],
+      "canonical_max_component_error": 2.9802322387695312e-08,
+      "unconverted_max_component_error": 1.1026859283447266e-06,
+      "rounding_chord": 1.361561752738041e-06,
+      "rounding_angle_degrees": 7.804560547624357e-05,
+      "analytic_chord_bound": 0.011200357989007368,
+      "analytic_angular_bound_degrees": 0.6417365961932617
+    },
+    {
+      "object": "Independent normal probe 5",
+      "scale": [
+        1.0,
+        0.03125,
+        1.0
+      ],
+      "condition": 32.000000699422976,
+      "local_source_corner_normal": [
+        4.900000203633681e-05,
+        4.900000203633681e-05,
+        1.0
+      ],
+      "predicted_export_world_normal": [
+        0.5505661368370056,
+        -0.4292600750923157,
+        0.7159698605537415
+      ],
+      "actual_export_world_normal": [
+        0.5505661368370056,
+        -0.4292600750923157,
+        0.7159698605537415
+      ],
+      "canonical_max_component_error": 0.0,
+      "unconverted_max_component_error": 0.0013875961303710938,
+      "rounding_chord": 0.001568774629748474,
+      "rounding_angle_degrees": 0.08988433840886795,
+      "analytic_chord_bound": 0.0055845418374411895,
+      "analytic_angular_bound_degrees": 0.3199710935910702
+    }
+  ],
+  "perturbed_normal_control_rejected": true,
+  "condition_1e6_control_rejected": true,
+  "fixed_serialized_comparison_tolerance": 2e-05
+}

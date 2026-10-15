@@ -1,0 +1,19 @@
+00:07.238  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/sources/buildings/archery_range.blend"
+Traceback (most recent call last):
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_runtime_blender.py", line 199, in <module>
+    if __name__ == '__main__': main()
+                               ~~~~^^
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_runtime_blender.py", line 192, in main
+    **portable_contract(before,after), **fidelity(job,before,after,raw)}
+                                         ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_runtime_blender.py", line 161, in fidelity
+    raw_check=compare_samples(source,serialized_samples(raw))
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_runtime_blender.py", line 117, in compare_samples
+    assert valid, ('geometry/UV/normal corner mismatch', key, pos, normal, uv)
+           ^^^^^
+AssertionError: ('geometry/UV/normal corner mismatch', ('{"doubleSided": true, "extras": {"painted_finish": "painted_softness_v1", "texture_family": "moss", "vivid_finish": "vivid_painted_v1", "woodland_finish": "whisperwood_v1"}, "pbrMetallicRoughness": {"baseColorTexture": {"index": 39}, "metallicFactor": 0, "metallicRoughnessTexture": {"index": 40}}}', True), (1.2955131530761719, 0.4382917582988739, 0.9277405738830566), (0.10984714329242706, 0.2628978490829468, 0.9585500955581665), (0.5076004862785339, 0.5016731023788452))
+
+Error: script failed, file: '/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_runtime_blender.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

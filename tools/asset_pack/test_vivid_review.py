@@ -6,6 +6,7 @@ from pathlib import Path
 
 from tools.asset_pack import art_style as style
 from tools.asset_pack.ambient_contract import expected_resource_delta, source_chain
+from tools.asset_pack.runtime_contract import export_chain
 from tools.ui.vivid_refinement import recover_colors
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -34,7 +35,8 @@ class VividContracts(unittest.TestCase):
             for p in ('tools/asset_catalog/render_blender.py', 'tools/asset_pack/woodland_render.py'))).encode()).hexdigest()
         for aid, record in renders.items():
             with self.subTest(asset=aid):
-                self.assertEqual(record['after']['export_sha256'], hashlib.sha256((ROOT / 'exports' / (aid + '.glb')).read_bytes()).hexdigest())
+                # Immutable landed art views chain to separately verified runtime bytes.
+                export_chain(ROOT, aid, record['after']['export_sha256'])
                 for stage in ('before', 'after'):
                     view = record[stage]
                     self.assertEqual(view['renderer_sha256'], renderer)

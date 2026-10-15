@@ -1,5 +1,6 @@
 """Independent saved-source and actual GLB ambient playback/preservation audit."""
 import json
+from contextlib import nullcontext
 import sys
 from pathlib import Path
 
@@ -169,7 +170,7 @@ def points(objects):
     return result
 
 
-def playback(job, feature):
+def playback(job, feature, *, runtime_profile=False):
     """Evaluate real source and GLB-imported mesh points, not just clip names."""
     bpy.ops.wm.open_mainfile(filepath=str(ROOT / job['source']))
     objects = asset_objects(job)
@@ -179,10 +180,13 @@ def playback(job, feature):
     fixed = [o for o in objects if o not in moving]
     moving_objects = sorted(o.name for o in moving)
     source_samples, fixed_samples = [], []
-    for frame in SPEC.frames:
-        bpy.context.scene.frame_set(frame)
-        source_samples.append(points(objects))
-        fixed_samples.append(matrices(fixed))
+    from tools.asset_pack.runtime_detail import export_detail
+    profile = export_detail(objects, job['id']) if runtime_profile else nullcontext()
+    with profile:
+        for frame in SPEC.frames:
+            bpy.context.scene.frame_set(frame)
+            source_samples.append(points(objects))
+            fixed_samples.append(matrices(fixed))
     assert max(difference(fixed_samples[0], s) for s in fixed_samples) < 1e-7, (job['id'], 'static structure moved')
     assert source_samples[0] == source_samples[-1], (job['id'], 'source loop seam')
     assert any(source_samples[0] != sample for sample in source_samples[1:-1]), (job['id'], 'no actual source motion')
@@ -216,6 +220,7 @@ def playback(job, feature):
     return {'source_sha256': sha(ROOT / job['source']), 'glb_sha256': sha(ROOT / 'exports' / (job['id'] + '.glb')),
             'frames': list(SPEC.frames), 'seconds': (SPEC.frames[-1] - 1) / SPEC.fps,
             'source_and_export_meshes_move': True, 'source_and_export_endpoints_equal': True,
+            'source_geometry_profile': 'export-only tiny bevels' if runtime_profile else 'detailed authored source',
             'fixed_objects_world_matrices_equal_throughout': True, 'evaluated_pose_point_cloud_max_error_m': max(errors),
             'moving_objects': moving_objects, 'fixed_object_count': len(fixed)}
 
