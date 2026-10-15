@@ -182,8 +182,8 @@ UV_OFFLINE=1 mise run check
 python3 -m tools.asset_pack.worker tools/asset_pack/test_ambient_blender.py \
   --label ambient-fixtures-corrected --blender "$BLENDER"
 python3 -m tools.asset_pack.check --all --blender "$BLENDER"
-python3 -m tools.asset_pack.worker tools/asset_pack/verify_ambient_blender.py \
-  --label ambient-preservation-playback --blender "$BLENDER"
+python3 -m tools.asset_pack.worker tools/asset_pack/verify_runtime_blender.py \
+  --label runtime-preservation-playback --blender "$BLENDER"
 python3 -m tools.asset_pack.worker tools/asset_pack/verify_vivid_blender.py \
   --label ambient-vivid-chain --blender "$BLENDER"
 python3 -m tools.asset_pack.worker tools/asset_pack/verify_style_blender.py --all \
@@ -205,7 +205,15 @@ python3 -m tools.asset_pack.ambient_review --render --blender "$BLENDER"
 python3 -m tools.asset_catalog build
 ```
 
-Verification uses byte-bound, task-local checkpoints. On a fresh checkout,
+Current optimized exports use the [runtime successor verification procedure](../runtime-optimization/README.md#repeatable-commands),
+including reconstruction of its baseline GLBs and fresh unbatched audit exports
+before running `verify_runtime_blender.py`. The old `verify_ambient_blender.py`
+entry point delegates to that same runtime-aware audit. Both publish only the
+runtime successor ledger; the historical ambient `validation.json`, authored
+preservation receipts and render receipts remain immutable records of the detailed
+landed assets. The fixed 0.1mm pose tolerance is unchanged.
+
+Historical preservation verification uses byte-bound, task-local checkpoints. On a fresh checkout,
 reconstruct the palette-stage source files from `ac41b74` into
 `.cache/ambient-motion/before/<source-path>` using the paths and hashes in
 `authored.json`; reconstruct the original landed baseline as described in the

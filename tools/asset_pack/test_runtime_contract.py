@@ -22,14 +22,17 @@ class RuntimeContracts(unittest.TestCase):
                 export_chain(ROOT,aid,original['facts']['version'])
                 self.assertEqual(record['glb_sha256'],sha(ROOT/'exports'/(aid+'.glb')))
                 self.assertEqual(record['source_sha256'],sha(ROOT/original['job']['source']))
-                for key in ('source_to_raw_buffers','source_to_exported_buffers'):
+                for key in ('source_to_raw_buffers','source_to_exported_buffers','reimport'):
                     check=record[key]
-                    self.assertTrue(check['normals_asserted'])
+                    self.assertEqual(check['normals_asserted'],key != 'reimport')
+                    self.assertTrue(check['one_to_one_source_triangle_connectivity_winding_equal'])
+                    self.assertEqual(check['source_triangle_count'],record['serialized_surfaces']['serialized_triangle_count'])
                     self.assertTrue(check['all_triangle_corners_checked_bidirectionally'])
                     self.assertTrue(check['per_material_triangle_multiplicity_equal'])
                     self.assertLess(check['max_position_error_m'],.00002)
                     self.assertLess(check['max_uv_error'],.00002)
-                    self.assertLess(check['max_normal_component_error'],.00002)
+                    if check['normals_asserted']:
+                        self.assertLess(check['max_normal_component_error'],.00002)
                 self.assertTrue(record['serialized_surfaces']['one_to_one_transformed_triangle_attributes_equal'])
                 self.assertTrue(record['serialized_surfaces']['zero_area_triangles_not_filtered'])
                 self.assertTrue(record['playback']['fixed_objects_world_matrices_equal_throughout'])

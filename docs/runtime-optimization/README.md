@@ -67,8 +67,11 @@ for every asset. Representative actual results (warm headless instantiate median
 Across all25 selections: **60,729 → 767 mesh nodes (−98.74%)**,
 **96,852 → 767 surface instances (−99.21%)**, and
 **2,184,583 → 1,511,903 triangle instances (−30.79%)**. GLBs grow from
-**105.93MB → 187.65MB (+77.14%)**; that memory/download tradeoff is explicit,
-not hidden behind the node count. The primary Godot run began with an empty
+**105.93MB → 187.65MB (+77.14%)**. The Captain explicitly accepted this measured
+GLB-size tradeoff for the reported scene-complexity/instantiation savings:
+“Thats a tradeoff I'm willing to make definitly.” This accepts only these measured
+bytes, not arbitrary future growth, fidelity waivers, or universal memory/rendered
+performance claims. The primary Godot run began with an empty
 project/import cache, spent **68.13s** importing all50 before/after scenes, and
 then measured a fresh headless process with no other task-owned asset workers. **Scene-reachable mesh nodes, material/surface instances and
 triangle instances** are measured from actual glTF buffers/hierarchies. Unique
@@ -83,6 +86,17 @@ for each building placement. The retained material palette, alpha, images and
 silhouettes are not traded away to obtain the node reduction. The measured headless
 instantiation reduction, rather than a claim about Blender mesh sharing, supports
 this representation.
+
+Actual consumer import/load costs are separate from instantiation. The committed
+fresh-project run imported all50 scenes together in 68.13s; it does not isolate a
+before/after import-time improvement. First resource loads in the subsequent
+process totaled 1,389.60ms before versus 1,277.85ms after (OS cache not flushed),
+but woodland bridge grew from 197.122ms to 203.059ms and lantern bridge from
+200.528ms to 205.419ms. These single loads are evidence, not stable latency
+promises. The consumer must download/import larger GLBs and store larger unique
+geometry buffers per asset; sharing a PackedScene across placements does not
+remove that per-asset cost. Peak import memory, resident memory, GPU cost and
+rendered FPS were not measured and cannot be inferred from node reductions.
 
 ### Tactics assessed
 
@@ -105,8 +119,12 @@ this representation.
 - Every **serialized transformed triangle**, all declared vertex attributes and
   material/layout ownership **one-to-one**, with full multiplicity. No zero-area,
   near-zero or legitimate coincident face is filtered or deduplicated.
-- Source → unbatched and source → actual optimized GLB positions, UVs and normals.
-  The reference correctly models the installed exporter's local four-decimal
+- Source → unbatched, source → actual optimized GLB and source → reimport
+  triangles match one-to-one, allowing cyclic corner rotations but never reversed
+  winding or changed connectivity. Full triangle/corner multiplicity survives at
+  the source boundary, not just the independent raw → runtime boundary. Serialized
+  positions, UVs and normals retain their fixed tolerances; reimport normals remain
+  diagnostic only. The reference correctly models the installed exporter's local four-decimal
   corner-normal rounding/normalization before inverse-transpose; it does not
   enlarge a tolerance to fit a measured failure. Actual serialized normal checks
   use a fixed `0.00002` component tolerance, ten times tighter than the initial
@@ -194,12 +212,21 @@ authoring rebuild, run the official selected-source exporter again: legacy
 `export_pack.py` remains an authoring/component-generation path, not the bounded
 runtime serialization hook. Full logs are under
 `.cache/asset-check/logs/`; generated reports bind current source/export hashes.
+The verifier accumulates the entire requested audit before atomically publishing
+`validation.json`; selected runs preserve unselected hash-bound records and failed
+or interrupted audits leave the previous ledger untouched. A selected run does
+not revalidate those preserved records; consumers still require current hashes.
+The standalone ambient verifier delegates to this successor audit and never
+rewrites historical ambient validation receipts.
 
 ## Verification completed for this implementation
 
 - `python3 -m tools.checks`: **130 tests**, lint and both inline JavaScript checks pass.
-- Runtime Blender fixtures: **7 tests** pass, including real export/reimport,
-  actual normal-quantization counterfactuals and exception-safe source restoration.
+- Runtime Blender fixtures cover real export/reimport, actual normal-quantization
+  counterfactuals and exception-safe source restoration. Successor regression
+  controls also reject same-count connectivity/winding/corner-multiplicity changes
+  and changed animation poses, exercise runtime-aware standalone dispatch, and
+  preserve ledger bytes on selected/failing/interrupted/unpublishable audits.
 - Shared Blender style fixtures pass.
 - **25/25** existing-source bounds/root and **25/25** full fidelity/five-pose loop checks pass.
 - **50/50** actual headless Godot imports/track resolution/motion/loop endpoints pass.

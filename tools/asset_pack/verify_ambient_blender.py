@@ -1,6 +1,4 @@
 """Independent saved-source and actual GLB ambient playback/preservation audit."""
-import json
-from contextlib import nullcontext
 import sys
 from pathlib import Path
 
@@ -10,12 +8,10 @@ import bpy
 from vivid_refinement import data_binding, sha_bytes, structure
 from tools.asset_pack.encoded_images import image_proof, UnsupportedImage
 import art_style as style
-from tools.asset_catalog.export_sources import plan_exports
 from tools.asset_catalog.blender_selection import asset_objects
-from tools.asset_pack.ambient_contract import ASSETS, receipts, sha
+from tools.asset_pack.ambient_contract import sha
 
 ROOT = Path(__file__).resolve().parents[2]
-DOCS = ROOT / 'docs/ambient-motion'
 SPEC = style.AMBIENT
 
 
@@ -170,7 +166,7 @@ def points(objects):
     return result
 
 
-def playback(job, feature, *, runtime_profile=False):
+def playback(job, feature):
     """Evaluate real source and GLB-imported mesh points, not just clip names."""
     bpy.ops.wm.open_mainfile(filepath=str(ROOT / job['source']))
     objects = asset_objects(job)
@@ -181,8 +177,7 @@ def playback(job, feature, *, runtime_profile=False):
     moving_objects = sorted(o.name for o in moving)
     source_samples, fixed_samples = [], []
     from tools.asset_pack.runtime_detail import export_detail
-    profile = export_detail(objects, job['id']) if runtime_profile else nullcontext()
-    with profile:
+    with export_detail(objects, job['id']):
         for frame in SPEC.frames:
             bpy.context.scene.frame_set(frame)
             source_samples.append(points(objects))
@@ -220,7 +215,7 @@ def playback(job, feature, *, runtime_profile=False):
     return {'source_sha256': sha(ROOT / job['source']), 'glb_sha256': sha(ROOT / 'exports' / (job['id'] + '.glb')),
             'frames': list(SPEC.frames), 'seconds': (SPEC.frames[-1] - 1) / SPEC.fps,
             'source_and_export_meshes_move': True, 'source_and_export_endpoints_equal': True,
-            'source_geometry_profile': 'export-only tiny bevels' if runtime_profile else 'detailed authored source',
+            'source_geometry_profile': 'export-only tiny bevels and shared small moss',
             'fixed_objects_world_matrices_equal_throughout': True, 'evaluated_pose_point_cloud_max_error_m': max(errors),
             'moving_objects': moving_objects, 'fixed_object_count': len(fixed)}
 
@@ -232,22 +227,8 @@ def ancestors(obj):
 
 
 def main():
-    authored = receipts(ROOT); report = {'sources': {}, 'assets': {}}
-    for path, record in authored.items():
-        backup = ROOT / '.cache/ambient-motion/before' / path
-        assert sha(backup) == record['sha256_before'] and sha(ROOT / path) == record['sha256_after'], path
-        bpy.ops.wm.open_mainfile(filepath=str(backup)); before = capture()
-        bpy.ops.wm.open_mainfile(filepath=str(ROOT / path)); result = compare(before, record)
-        report['sources'][path] = {'sha256_before': sha(backup), 'sha256_after': sha(ROOT / path), **result}
-        print('Strict motion preservation:', path, flush=True)
-    jobs = {j['id']: j for j in plan_exports(ROOT, ASSETS)}
-    features = {f['asset']: f for r in authored.values() for f in r['features']}
-    assert set(features) == set(ASSETS)
-    for aid, feature in features.items():
-        report['assets'][aid] = playback(jobs[aid], feature)
-        print('Actual exported motion:', aid, flush=True)
-    (DOCS / 'validation.json').write_text(json.dumps(report, indent=2) + '\n')
-    print('Ambient validation passed:', len(report['sources']), 'sources;', len(report['assets']), 'actual GLB loops')
+    from tools.asset_pack.verify_runtime_blender import main as verify_runtime
+    verify_runtime()
 
 
 if __name__ == '__main__':

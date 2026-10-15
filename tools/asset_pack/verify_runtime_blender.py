@@ -5,6 +5,7 @@ is explicit; strict UV/normal/material comparisons remain independent of poses.
 """
 import json
 import sys
+import tempfile
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -65,7 +66,7 @@ def portable_contract(before, after):
 def samples(objects, keys, *, canonicalize=True):
     """Independent Blender evaluation of every triangle corner, not optimizer data."""
     bpy.context.view_layer.update(); dg = bpy.context.evaluated_depsgraph_get()
-    records, triangles, exact_zero = defaultdict(set), Counter(), Counter()
+    records, triangles, exact_zero = defaultdict(list), Counter(), Counter()
     conversion={'max_transform_condition':0,'max_analytic_angular_bound_degrees':0,
                 'max_local_rounding_world_component_delta':0,'max_local_rounding_world_angle_degrees':0}
     for obj in objects:
@@ -110,12 +111,15 @@ def samples(objects, keys, *, canonicalize=True):
                 # strict source-to-buffer check, including degenerate faces.
                 exact_zero[key] += 1
             triangles[key] += 1
+            corners = []
             for li in tri.loops:
                 pos = transform @ mesh.vertices[mesh.loops[li].vertex_index].co
                 n = (normal @ Vector(encoded_normals[li])).normalized()
-                # UVs on untextured materials are intentionally not exported.
                 coord = tuple(uv.data[li].uv) if uv and key[1] else None
-                records[key].add((tuple(pos), tuple(n), coord))
+                corners.append((tuple(pos), tuple(n), coord))
+            if transform.to_3x3().determinant() < 0:
+                corners[1], corners[2] = corners[2], corners[1]
+            records[key].append(tuple(corners))
         evaluated.to_mesh_clear()
     return records, triangles, exact_zero, conversion
 
@@ -124,26 +128,48 @@ def compare_samples(before, after, *, normals=True):
     a, counts_a = before[:2]; b, counts_b = after[:2]
     assert counts_a == counts_b, ('per-material triangle multiplicity',
         {k: (counts_a.get(k,0), counts_b.get(k,0)) for k in counts_a.keys() | counts_b.keys() if counts_a.get(k,0) != counts_b.get(k,0)})
+    assert set(a) == set(b) == set(counts_a), 'source material ownership differs'
     max_position, max_normal, max_uv = 0, 0, 0
-    for key in a:
-        for left, right in ((a[key], b[key]), (b[key], a[key])):
-            right = list(right)
-            tree = KDTree(len(right))
-            for i, (pos, _, _) in enumerate(right): tree.insert(pos, i)
-            tree.balance()
-            for pos, normal, uv in left:
-                candidates = tree.find_range(pos, 2e-5)
-                valid = []
-                for _, i, distance in candidates:
-                    _, n, u = right[i]
-                    ne = max(abs(x-y) for x,y in zip(normal,n,strict=True))
-                    ue = max((abs(x-y) for x,y in zip(uv,u,strict=True)),default=0) if uv is not None and u is not None else (0 if uv == u else 1)
-                    if (not normals or ne < .00002) and ue < .00002:
-                        valid.append((ne,distance,ue))
-                assert valid, ('geometry/UV/normal corner mismatch', key, pos, normal, uv)
-                ne, distance, ue = min(valid)
-                max_position = max(max_position,distance); max_normal = max(max_normal,ne); max_uv = max(max_uv,ue)
+    def center(triangle):
+        return tuple(sum(c[0][axis] for c in triangle)/3 for axis in range(3))
+    for key, left in a.items():
+        right = b[key]
+        assert len(left) == len(right) == counts_a[key], ('source triangle records', key)
+        tree = KDTree(len(right))
+        for i, triangle in enumerate(right): tree.insert(center(triangle), i)
+        tree.balance()
+        available = set(range(len(right)))
+        for triangle in left:
+            assert len(triangle) == 3, 'incomplete source triangle'
+            found = None
+            for _, i, _ in tree.find_range(center(triangle), 3e-5):
+                if i not in available:
+                    continue
+                candidate = right[i]
+                assert len(candidate) == 3, 'incomplete target triangle'
+                for rotation in range(3):
+                    errors = []
+                    for corner, (pos, normal, uv) in enumerate(triangle):
+                        p, n, u = candidate[(corner+rotation)%3]
+                        pe = (Vector(pos)-Vector(p)).length
+                        ne = max(abs(x-y) for x,y in zip(normal,n,strict=True))
+                        ue = max((abs(x-y) for x,y in zip(uv,u,strict=True)),default=0) if uv is not None and u is not None else (0 if uv == u else 1)
+                        if pe >= 2e-5 or (normals and ne >= .00002) or ue >= .00002:
+                            break
+                        errors.append((pe, ne, ue))
+                    if len(errors) == 3:
+                        found = (i, errors)
+                        break
+                if found is not None:
+                    break
+            assert found is not None, ('source triangle connectivity/winding/attribute mismatch', key, triangle)
+            available.remove(found[0])
+            for pe, ne, ue in found[1]:
+                max_position = max(max_position,pe); max_normal = max(max_normal,ne); max_uv = max(max_uv,ue)
+        assert not available, 'unexpected target triangles'
     return {'all_triangle_corners_checked_bidirectionally': True,
+            'one_to_one_source_triangle_connectivity_winding_equal': True,
+            'source_triangle_count': sum(counts_a.values()),
             'exact_zero_area_source_triangles': sum(before[2].values()) if len(before) >= 3 else 0,
             'exact_zero_area_imported_triangles': sum(after[2].values()) if len(after) >= 3 else 0,
             'per_material_triangle_multiplicity_equal': True,
@@ -161,7 +187,7 @@ def material_keys(doc):
 
 def serialized_samples(path):
     from tools.asset_pack.runtime_surfaces_blender import triangles
-    records,counts,exact_zero=defaultdict(set),Counter(),Counter()
+    records,counts,exact_zero=defaultdict(list),Counter(),Counter()
     for (material,names),faces in triangles(path).items():
         key=(material,textured(json.loads(material)))
         pi,ni=names.index('POSITION'),names.index('NORMAL')
@@ -172,9 +198,11 @@ def serialized_samples(path):
             cross=(ab[1]*ac[2]-ab[2]*ac[1],ab[2]*ac[0]-ab[0]*ac[2],ab[0]*ac[1]-ab[1]*ac[0])
             if cross==(0,0,0):exact_zero[key]+=1
             counts[key]+=1
+            corners=[]
             for corner in face:
                 uv=(corner[ui][0],1-corner[ui][1]) if ui is not None and key[1] else None
-                records[key].add((corner[pi],corner[ni],uv))
+                corners.append((corner[pi],corner[ni],uv))
+            records[key].append(tuple(corners))
     return records,counts,exact_zero
 
 
@@ -200,27 +228,40 @@ def fidelity(job, baseline, exported, raw):
             'reimport':compare_samples(source,imported,normals=False)}
 
 
+def audit_asset(aid, baseline, features):
+    item = baseline['assets'][aid]; job = item['job']
+    assert sha(ROOT/job['source']) == baseline['sources'][job['source']], 'editable source bytes changed'
+    before = ROOT/'.cache/runtime-optimization/before/exports'/(aid+'.glb')
+    assert sha(before) == item['facts']['version'], 'stale baseline export'
+    after = ROOT/'exports'/(aid+'.glb')
+    from tools.asset_pack.runtime_surfaces_blender import triangles, compare as compare_serialized
+    raw = ROOT/'.cache/runtime-optimization/unbatched'/(aid+'.glb')
+    serialized = compare_serialized(triangles(raw),triangles(after))
+    result = {'source_sha256':sha(ROOT/job['source']),'glb_sha256':sha(after),
+              'unbatched_runtime_profile_sha256':sha(raw), 'serialized_surfaces':serialized,
+              **portable_contract(before,after), **fidelity(job,before,after,raw)}
+    result['playback'] = playback(job,features[aid])
+    return result
+
+
 def main():
     baseline = json.loads((DOCS/'baseline.json').read_text())
     features = {f['asset']:f for r in receipts(ROOT).values() for f in r['features']}
-    report = {'assets':{}, 'scope':'Every serialized transformed triangle and vertex attribute (including exact zero-area faces); strict source-to-GLB position/UV/normal floats on every corner without area filtering; Blender reimport geometry/UVs and diagnostic normals; all25 source/export loops; exact landed materials/images/clip samples. No game-renderer/FPS qualification.'}
+    target = DOCS/'validation.json'
+    report = json.loads(target.read_text()) if target.exists() else {'assets':{}}
+    report['scope'] = 'Every source and serialized transformed triangle matched one-to-one with connectivity, winding, multiplicity and corner attributes (including exact zero-area faces); strict source-to-GLB position/UV/normal floats without area filtering; Blender reimport geometry/UVs and diagnostic normals; all25 source/export loops; exact landed materials/images/clip samples. No game-renderer/FPS qualification.'
     selected = (sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []) or ASSETS
     for aid in selected:
-        item = baseline['assets'][aid]; job = item['job']
-        assert sha(ROOT/job['source']) == baseline['sources'][job['source']], 'editable source bytes changed'
-        before = ROOT/'.cache/runtime-optimization/before/exports'/(aid+'.glb')
-        assert sha(before) == item['facts']['version'], 'stale baseline export'
-        after = ROOT/'exports'/(aid+'.glb')
-        from tools.asset_pack.runtime_surfaces_blender import triangles, compare as compare_serialized
-        raw = ROOT/'.cache/runtime-optimization/unbatched'/(aid+'.glb')
-        serialized = compare_serialized(triangles(raw),triangles(after))
-        result = {'source_sha256':sha(ROOT/job['source']),'glb_sha256':sha(after),
-                  'unbatched_runtime_profile_sha256':sha(raw), 'serialized_surfaces':serialized,
-                  **portable_contract(before,after), **fidelity(job,before,after,raw)}
-        result['playback'] = playback(job,features[aid],runtime_profile=True)
-        report['assets'][aid] = result
-        (DOCS/'validation.json').write_text(json.dumps(report,indent=2)+'\n')
+        report['assets'][aid] = audit_asset(aid, baseline, features)
         print('Runtime fidelity and loop verified:',aid,flush=True)
+    with tempfile.NamedTemporaryFile(mode='w', dir=DOCS, prefix='.validation-', suffix='.json', delete=False) as stream:
+        temporary = Path(stream.name)
+        try:
+            stream.write(json.dumps(report,indent=2)+'\n')
+            stream.close()
+            temporary.replace(target)
+        finally:
+            temporary.unlink(missing_ok=True)
 
 
 if __name__ == '__main__': main()

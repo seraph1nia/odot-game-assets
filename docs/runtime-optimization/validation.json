@@ -3,7 +3,7 @@
     "buildings/archery_range": {
       "source_sha256": "816c124d57621a7f635548abbc2168e9c5950789bb20cc9a27e176b41a11341b",
       "glb_sha256": "c6bedd11449586116abbdc74405f742f668be7fa249a4bb95116ffb55288595c",
-      "unbatched_runtime_profile_sha256": "a817c228f9eb1b52484f22e0d8e4713746fcab3c8841abba96cdfc11e0019421",
+      "unbatched_runtime_profile_sha256": "281398ec92195fd14d864eb4829a43ae72a2a28b46b622b9f07b82d2c9e03280",
       "serialized_surfaces": {
         "serialized_triangle_count": 122408,
         "one_to_one_transformed_triangle_attributes_equal": true,
@@ -605,33 +605,39 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 122408,
         "exact_zero_area_source_triangles": 158,
         "exact_zero_area_imported_triangles": 150,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 9.61097839535796e-07,
+        "max_position_error_m": 9.610978232911998e-07,
         "max_normal_component_error": 6.705522537231445e-07,
-        "max_uv_error": 1.1920928955078125e-07
+        "max_uv_error": 4.76837158203125e-06
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 122408,
         "exact_zero_area_source_triangles": 158,
         "exact_zero_area_imported_triangles": 158,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 9.62942522164667e-07,
+        "max_position_error_m": 9.629425061585611e-07,
         "max_normal_component_error": 6.109476089477539e-07,
-        "max_uv_error": 1.1920928955078125e-07
+        "max_uv_error": 4.76837158203125e-06
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 122408,
         "exact_zero_area_source_triangles": 158,
         "exact_zero_area_imported_triangles": 158,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 9.62942522164667e-07,
+        "max_position_error_m": 9.629425061585611e-07,
         "max_normal_component_error": 1.0,
-        "max_uv_error": 4.857778549194336e-06
+        "max_uv_error": 4.76837158203125e-06
       },
       "playback": {
         "source_sha256": "816c124d57621a7f635548abbc2168e9c5950789bb20cc9a27e176b41a11341b",
@@ -646,7 +652,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 9.62942522164667e-07,
         "moving_objects": [
@@ -851,32 +857,38 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 81285,
         "exact_zero_area_source_triangles": 20,
         "exact_zero_area_imported_triangles": 20,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 9.546051842335146e-07,
+        "max_position_error_m": 9.546051846770623e-07,
         "max_normal_component_error": 3.337860107421875e-06,
         "max_uv_error": 2.9802322387695312e-08
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 81285,
         "exact_zero_area_source_triangles": 20,
         "exact_zero_area_imported_triangles": 20,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 9.55651330514229e-07,
+        "max_position_error_m": 9.55651327659128e-07,
         "max_normal_component_error": 2.9206275939941406e-06,
         "max_uv_error": 2.9802322387695312e-08
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 81285,
         "exact_zero_area_source_triangles": 20,
         "exact_zero_area_imported_triangles": 20,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 1.1309185765639995e-06,
-        "max_normal_component_error": 0.900749921798706,
+        "max_position_error_m": 9.55651327659128e-07,
+        "max_normal_component_error": 1.0201468467712402,
         "max_uv_error": 2.9802322387695312e-08
       },
       "playback": {
@@ -892,7 +904,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 9.55651330514229e-07,
         "moving_objects": [
@@ -912,7 +924,7 @@
     "buildings/bakery": {
       "source_sha256": "b2830d71c9d608a863371e503115789b2fd42b95ee15ee046d4b6d56488ca51d",
       "glb_sha256": "ed10e186da56609154c4f0d01b96df394d802d0ca33d5bd23a4b366d25d2eb82",
-      "unbatched_runtime_profile_sha256": "634350b42fd6404453fbe03f23bd3fded34886173ed6e65c0ec747d38753a3d8",
+      "unbatched_runtime_profile_sha256": "5547e186d1fd7f08c17264f7cb099ed07422eadc8311731106aa5d248667020a",
       "serialized_surfaces": {
         "serialized_triangle_count": 38627,
         "one_to_one_transformed_triangle_attributes_equal": true,
@@ -1162,32 +1174,38 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 38627,
         "exact_zero_area_source_triangles": 212,
         "exact_zero_area_imported_triangles": 212,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 4.915124804938387e-07,
+        "max_position_error_m": 4.915124923727108e-07,
         "max_normal_component_error": 5.066394805908203e-07,
         "max_uv_error": 5.960464477539063e-08
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 38627,
         "exact_zero_area_source_triangles": 212,
         "exact_zero_area_imported_triangles": 212,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 4.915133899885404e-07,
+        "max_position_error_m": 4.915133747113826e-07,
         "max_normal_component_error": 4.3585896492004395e-07,
         "max_uv_error": 5.960464477539063e-08
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 38627,
         "exact_zero_area_source_triangles": 212,
         "exact_zero_area_imported_triangles": 212,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 4.915133899885404e-07,
-        "max_normal_component_error": 0.9933491349220276,
+        "max_position_error_m": 4.915133747113826e-07,
+        "max_normal_component_error": 1.0,
         "max_uv_error": 5.960464477539063e-08
       },
       "playback": {
@@ -1203,7 +1221,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 4.915133899885404e-07,
         "moving_objects": [
@@ -1409,32 +1427,38 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 121567,
         "exact_zero_area_source_triangles": 50,
         "exact_zero_area_imported_triangles": 50,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 6.078504952711228e-07,
+        "max_position_error_m": 6.07850493620966e-07,
         "max_normal_component_error": 5.960464477539062e-07,
         "max_uv_error": 2.9802322387695312e-08
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 121567,
         "exact_zero_area_source_triangles": 50,
         "exact_zero_area_imported_triangles": 50,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 6.769786295990343e-07,
+        "max_position_error_m": 6.76978629326853e-07,
         "max_normal_component_error": 5.960464477539062e-07,
         "max_uv_error": 2.9802322387695312e-08
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 121567,
         "exact_zero_area_source_triangles": 50,
         "exact_zero_area_imported_triangles": 50,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 6.769786295990343e-07,
-        "max_normal_component_error": 0.9738566279411316,
+        "max_position_error_m": 6.76978629326853e-07,
+        "max_normal_component_error": 1.0,
         "max_uv_error": 2.9802322387695312e-08
       },
       "playback": {
@@ -1450,7 +1474,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 6.769786295990343e-07,
         "moving_objects": [
@@ -1463,7 +1487,7 @@
     "buildings/bombarding_tower": {
       "source_sha256": "90cd17ebb43fa0d182146b7707e26534366667bfeb5408f78a22ad4853d99a1a",
       "glb_sha256": "0e744fe969141821f426ac3b007ec9f23724bd367df02fa28b806c75148fb371",
-      "unbatched_runtime_profile_sha256": "29ef12cc32f956f24f21693d89cd4467c0ce913178ea6981bc66e11fec3f4e57",
+      "unbatched_runtime_profile_sha256": "0bf008fe625bba5b759c562acb3c6c2b276fa7092265fe2415c632d18b98c16c",
       "serialized_surfaces": {
         "serialized_triangle_count": 97737,
         "one_to_one_transformed_triangle_attributes_equal": true,
@@ -1649,16 +1673,20 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 97737,
         "exact_zero_area_source_triangles": 22,
         "exact_zero_area_imported_triangles": 22,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 5.339525159797631e-07,
+        "max_position_error_m": 5.339525004377638e-07,
         "max_normal_component_error": 2.2426247596740723e-06,
         "max_uv_error": 5.960464477539063e-08
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 97737,
         "exact_zero_area_source_triangles": 22,
         "exact_zero_area_imported_triangles": 22,
         "per_material_triangle_multiplicity_equal": true,
@@ -1669,12 +1697,14 @@
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 97737,
         "exact_zero_area_source_triangles": 22,
         "exact_zero_area_imported_triangles": 22,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
         "max_position_error_m": 5.364418029785156e-07,
-        "max_normal_component_error": 0.8639212846755981,
+        "max_normal_component_error": 1.0,
         "max_uv_error": 5.960464477539063e-08
       },
       "playback": {
@@ -1690,7 +1720,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 5.364418029785156e-07,
         "moving_objects": [
@@ -1880,6 +1910,8 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 19034,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -1890,21 +1922,25 @@
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 19034,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 2.731428025981586e-07,
+        "max_position_error_m": 2.7314279645418166e-07,
         "max_normal_component_error": 4.172325134277344e-07,
         "max_uv_error": 2.9802322387695312e-08
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 19034,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 2.731428025981586e-07,
+        "max_position_error_m": 2.7314279645418166e-07,
         "max_normal_component_error": 0.006340652704238892,
         "max_uv_error": 2.9802322387695312e-08
       },
@@ -1921,7 +1957,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 2.731428025981586e-07,
         "moving_objects": [
@@ -1941,7 +1977,7 @@
     "buildings/magic_academy": {
       "source_sha256": "3cd5d8cbde136e5ca725d375754ac3dc22dfadf4ba9254c67276c24f731e0930",
       "glb_sha256": "3d4eea8b41984a020321d9064cb9c9f0d8ec0c499f2a8b3f25acb527ea1b72e9",
-      "unbatched_runtime_profile_sha256": "c01e3d3c0e483ff74efba734bfeebf9c8d64ce9ff7ba452ee7b55f0110b56232",
+      "unbatched_runtime_profile_sha256": "57dc825ac9b2929fc5432fb457e1111f507660c40189091aa665aed3744c581e",
       "serialized_surfaces": {
         "serialized_triangle_count": 160886,
         "one_to_one_transformed_triangle_attributes_equal": true,
@@ -2175,32 +2211,38 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 160886,
         "exact_zero_area_source_triangles": 62,
         "exact_zero_area_imported_triangles": 62,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 9.694920208858093e-07,
+        "max_position_error_m": 9.694920384653283e-07,
         "max_normal_component_error": 5.662441253662109e-07,
         "max_uv_error": 5.960464477539063e-08
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 160886,
         "exact_zero_area_source_triangles": 62,
         "exact_zero_area_imported_triangles": 62,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 9.830249609876773e-07,
+        "max_position_error_m": 9.830249847454215e-07,
         "max_normal_component_error": 4.76837158203125e-07,
         "max_uv_error": 5.960464477539063e-08
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 160886,
         "exact_zero_area_source_triangles": 62,
         "exact_zero_area_imported_triangles": 62,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 9.830249609876773e-07,
-        "max_normal_component_error": 0.8991091251373291,
+        "max_position_error_m": 9.830249847454215e-07,
+        "max_normal_component_error": 1.0,
         "max_uv_error": 5.960464477539063e-08
       },
       "playback": {
@@ -2216,7 +2258,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 9.830249609876773e-07,
         "moving_objects": [
@@ -2229,7 +2271,7 @@
     "buildings/metal_mine": {
       "source_sha256": "24feea0c264f3d84fa972c4e972b7374d861bba990afabab86a2ad423f582ee7",
       "glb_sha256": "170d08f9cde4f62d95a0051be7bb4baa4b8c3915cf10f57f0b07ae15984017cc",
-      "unbatched_runtime_profile_sha256": "a36a303a540993c3233b19fa3b2d26f87b37118809e7d4721ebb01417428a1c6",
+      "unbatched_runtime_profile_sha256": "ebdb32d2b7972c42dcef31aa6a267b17e381ed33e53ef05ba56d9fe885f69be0",
       "serialized_surfaces": {
         "serialized_triangle_count": 70702,
         "one_to_one_transformed_triangle_attributes_equal": true,
@@ -2863,33 +2905,39 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 70702,
         "exact_zero_area_source_triangles": 94,
         "exact_zero_area_imported_triangles": 94,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 5.99204554418975e-07,
+        "max_position_error_m": 5.992045778895348e-07,
         "max_normal_component_error": 3.5762786865234375e-07,
-        "max_uv_error": 1.1920928955078125e-07
+        "max_uv_error": 5.960464477539063e-08
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 70702,
         "exact_zero_area_source_triangles": 94,
         "exact_zero_area_imported_triangles": 94,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 7.152709144975233e-07,
+        "max_position_error_m": 7.152708953890979e-07,
         "max_normal_component_error": 3.5762786865234375e-07,
         "max_uv_error": 1.1920928955078125e-07
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 70702,
         "exact_zero_area_source_triangles": 94,
         "exact_zero_area_imported_triangles": 94,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 7.152709144975233e-07,
+        "max_position_error_m": 7.152708953890979e-07,
         "max_normal_component_error": 1.0,
-        "max_uv_error": 9.5367431640625e-06
+        "max_uv_error": 1.1920928955078125e-07
       },
       "playback": {
         "source_sha256": "24feea0c264f3d84fa972c4e972b7374d861bba990afabab86a2ad423f582ee7",
@@ -2904,7 +2952,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 7.152709144975233e-07,
         "moving_objects": [
@@ -2924,7 +2972,7 @@
     "buildings/research_tower": {
       "source_sha256": "fabdc01a6fd1172ba8904d76de69275deada64fcfe260e47eade38e69e6a995b",
       "glb_sha256": "6d7dee79f6ddc45c965cd509a3166aa9870ef9ba1198c717952732af3e4d6bb0",
-      "unbatched_runtime_profile_sha256": "ed0835bc4b3db16d50a165a6efd80e2f492fa84836bed7f51cd61f1e037577f0",
+      "unbatched_runtime_profile_sha256": "a9730e6c2c3a1ac250eccd264d613b4e77b25f6b3e47e184a7048acee558205f",
       "serialized_surfaces": {
         "serialized_triangle_count": 80730,
         "one_to_one_transformed_triangle_attributes_equal": true,
@@ -3558,33 +3606,39 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 80730,
         "exact_zero_area_source_triangles": 216,
         "exact_zero_area_imported_triangles": 200,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 9.555351425660774e-07,
+        "max_position_error_m": 9.555351461101412e-07,
         "max_normal_component_error": 4.172325134277344e-07,
-        "max_uv_error": 6.556510925292969e-07
+        "max_uv_error": 1.1920928955078125e-07
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 80730,
         "exact_zero_area_source_triangles": 216,
         "exact_zero_area_imported_triangles": 222,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 9.615579301680555e-07,
+        "max_position_error_m": 9.615579727233456e-07,
         "max_normal_component_error": 3.5762786865234375e-07,
-        "max_uv_error": 6.556510925292969e-07
+        "max_uv_error": 1.1920928955078125e-07
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 80730,
         "exact_zero_area_source_triangles": 216,
         "exact_zero_area_imported_triangles": 222,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 9.615579301680555e-07,
+        "max_position_error_m": 9.615579727233456e-07,
         "max_normal_component_error": 1.0,
-        "max_uv_error": 4.827976226806641e-06
+        "max_uv_error": 1.1920928955078125e-07
       },
       "playback": {
         "source_sha256": "fabdc01a6fd1172ba8904d76de69275deada64fcfe260e47eade38e69e6a995b",
@@ -3599,7 +3653,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 9.615579301680555e-07,
         "moving_objects": [
@@ -3613,7 +3667,7 @@
     "buildings/stone_cutter": {
       "source_sha256": "5b495c5d0ce4b5751276448d2ec153389a57df5801a3ed9ec6469a6d4dab0d59",
       "glb_sha256": "1593d697b353734de60c884c07bf1b2a8c192556e92c0524b6249678ffc5c5c1",
-      "unbatched_runtime_profile_sha256": "9d9fac4e0208bc47c9302887a2a873cb12a250dd85eeedd0b11028f63a25c3e5",
+      "unbatched_runtime_profile_sha256": "6e0173f59e5192f9186371763fcfe73e65bd8bae0e18c92c56542c3e112064bb",
       "serialized_surfaces": {
         "serialized_triangle_count": 70917,
         "one_to_one_transformed_triangle_attributes_equal": true,
@@ -3831,16 +3885,20 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 70917,
         "exact_zero_area_source_triangles": 4,
         "exact_zero_area_imported_triangles": 4,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 7.251218221426825e-07,
+        "max_position_error_m": 7.251217997429632e-07,
         "max_normal_component_error": 3.725290298461914e-07,
-        "max_uv_error": 5.960464477539063e-08
+        "max_uv_error": 2.9802322387695312e-08
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 70917,
         "exact_zero_area_source_triangles": 4,
         "exact_zero_area_imported_triangles": 4,
         "per_material_triangle_multiplicity_equal": true,
@@ -3851,12 +3909,14 @@
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 70917,
         "exact_zero_area_source_triangles": 4,
         "exact_zero_area_imported_triangles": 4,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
         "max_position_error_m": 5.960464477539062e-07,
-        "max_normal_component_error": 0.8842310905456543,
+        "max_normal_component_error": 1.0,
         "max_uv_error": 5.960464477539063e-08
       },
       "playback": {
@@ -3872,7 +3932,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 5.960464477539062e-07,
         "moving_objects": [
@@ -4103,32 +4163,38 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 76832,
         "exact_zero_area_source_triangles": 8,
         "exact_zero_area_imported_triangles": 8,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 1.0115243185282452e-06,
+        "max_position_error_m": 1.0115243642614567e-06,
         "max_normal_component_error": 5.066394805908203e-07,
         "max_uv_error": 2.9802322387695312e-08
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 76832,
         "exact_zero_area_source_triangles": 8,
         "exact_zero_area_imported_triangles": 8,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 1.0254771041218191e-06,
+        "max_position_error_m": 1.0254770835688861e-06,
         "max_normal_component_error": 4.917383193969727e-07,
         "max_uv_error": 2.9802322387695312e-08
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 76832,
         "exact_zero_area_source_triangles": 8,
         "exact_zero_area_imported_triangles": 8,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 1.0254771041218191e-06,
-        "max_normal_component_error": 0.5922397673130035,
+        "max_position_error_m": 1.0254770835688861e-06,
+        "max_normal_component_error": 0.5990495383739471,
         "max_uv_error": 2.9802322387695312e-08
       },
       "playback": {
@@ -4144,7 +4210,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 1.0254771041218191e-06,
         "moving_objects": [
@@ -4162,7 +4228,7 @@
     "buildings/town_hall": {
       "source_sha256": "edc63e99ba51dd1ef90cb11bf4466ce524379fb241be8227a214de226fb348aa",
       "glb_sha256": "8d801728b4c863c51819a698775b1c0b187f6f0c467a4445216375f3a98b108f",
-      "unbatched_runtime_profile_sha256": "446728801852bc618070b708f00fe1349a11344e187a5877259129c4432c8267",
+      "unbatched_runtime_profile_sha256": "7408ece79ffe7c2c16cfee9f374b20ad674c98230320f9d332c38892b31b6e36",
       "serialized_surfaces": {
         "serialized_triangle_count": 189303,
         "one_to_one_transformed_triangle_attributes_equal": true,
@@ -4764,33 +4830,39 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 189303,
         "exact_zero_area_source_triangles": 500,
         "exact_zero_area_imported_triangles": 520,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 1.0189605745836161e-06,
+        "max_position_error_m": 1.018960535364077e-06,
         "max_normal_component_error": 4.76837158203125e-07,
-        "max_uv_error": 3.5762786865234375e-07
+        "max_uv_error": 1.1920928955078125e-07
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 189303,
         "exact_zero_area_source_triangles": 500,
         "exact_zero_area_imported_triangles": 536,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 9.615579301680555e-07,
+        "max_position_error_m": 9.615579727233456e-07,
         "max_normal_component_error": 4.470348358154297e-07,
-        "max_uv_error": 3.5762786865234375e-07
+        "max_uv_error": 1.1920928955078125e-07
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 189303,
         "exact_zero_area_source_triangles": 500,
         "exact_zero_area_imported_triangles": 536,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 9.615579301680555e-07,
+        "max_position_error_m": 9.615579727233456e-07,
         "max_normal_component_error": 1.0,
-        "max_uv_error": 9.5367431640625e-06
+        "max_uv_error": 1.1920928955078125e-07
       },
       "playback": {
         "source_sha256": "edc63e99ba51dd1ef90cb11bf4466ce524379fb241be8227a214de226fb348aa",
@@ -4805,7 +4877,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 9.615579301680555e-07,
         "moving_objects": [
@@ -5037,31 +5109,37 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 71222,
         "exact_zero_area_source_triangles": 78,
         "exact_zero_area_imported_triangles": 78,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 9.555351425660774e-07,
+        "max_position_error_m": 9.555351461101412e-07,
         "max_normal_component_error": 4.172325134277344e-07,
         "max_uv_error": 2.9802322387695312e-08
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 71222,
         "exact_zero_area_source_triangles": 78,
         "exact_zero_area_imported_triangles": 76,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 9.555351425660774e-07,
+        "max_position_error_m": 9.555351461101412e-07,
         "max_normal_component_error": 3.725290298461914e-07,
         "max_uv_error": 2.9802322387695312e-08
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 71222,
         "exact_zero_area_source_triangles": 78,
         "exact_zero_area_imported_triangles": 76,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 9.555351425660774e-07,
+        "max_position_error_m": 9.555351461101412e-07,
         "max_normal_component_error": 1.0,
         "max_uv_error": 2.9802322387695312e-08
       },
@@ -5078,7 +5156,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 9.848303079706966e-07,
         "moving_objects": [
@@ -5097,7 +5175,7 @@
     "buildings/tree_house": {
       "source_sha256": "6abd5547aa9674f002e472fdbde16156e718cfe33ba1c120ae4dafe1547c70a2",
       "glb_sha256": "737ff1fda84fd0ca738343f82f74656dc997f29ddc66c0b955b89f82a0acb9a8",
-      "unbatched_runtime_profile_sha256": "6d8c37c579aa3439c4e5e6b3fa785963159b67c854422f56d082c181d11d46d5",
+      "unbatched_runtime_profile_sha256": "e12260a24a1654cbe9af7046866cddfa8a3bb6cbb5e62459c715ce46e5e67493",
       "serialized_surfaces": {
         "serialized_triangle_count": 18077,
         "one_to_one_transformed_triangle_attributes_equal": true,
@@ -5283,31 +5361,37 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 18077,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 4.777675712830387e-07,
+        "max_position_error_m": 4.777675730550706e-07,
         "max_normal_component_error": 3.948807716369629e-07,
         "max_uv_error": 5.960464477539063e-08
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 18077,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 4.805480102731963e-07,
+        "max_position_error_m": 4.805480091749757e-07,
         "max_normal_component_error": 3.3527612686157227e-07,
         "max_uv_error": 5.960464477539063e-08
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 18077,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 4.805480102731963e-07,
+        "max_position_error_m": 4.805480091749757e-07,
         "max_normal_component_error": 0.0026462972164154053,
         "max_uv_error": 5.960464477539063e-08
       },
@@ -5324,7 +5408,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 4.805480102731963e-07,
         "moving_objects": [
@@ -5340,7 +5424,7 @@
     "buildings/weaver": {
       "source_sha256": "9be2fc7dda0b83040858dbc8f4094d98a0079a1ee44ecebf50da000062aa5fae",
       "glb_sha256": "20d91874be2faa0faa487ec40960d0efecdff6fb8b3fb24497d2bd4c6e7d0d82",
-      "unbatched_runtime_profile_sha256": "4f4f424526c75bff62ea9325724d4d6cc16925d935f8ee650244a808407c9f97",
+      "unbatched_runtime_profile_sha256": "e55cbfa7a8ad1574deabd77cf651d1fa1768a2746f301490f989fee2054d0ef0",
       "serialized_surfaces": {
         "serialized_triangle_count": 78658,
         "one_to_one_transformed_triangle_attributes_equal": true,
@@ -5974,33 +6058,39 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 78658,
         "exact_zero_area_source_triangles": 94,
         "exact_zero_area_imported_triangles": 94,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 1.259126065633609e-06,
+        "max_position_error_m": 1.259126077549315e-06,
         "max_normal_component_error": 4.172325134277344e-07,
-        "max_uv_error": 5.960464477539063e-08
+        "max_uv_error": 1.1920928955078125e-07
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 78658,
         "exact_zero_area_source_triangles": 94,
         "exact_zero_area_imported_triangles": 94,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 1.2201676327094901e-06,
+        "max_position_error_m": 1.220167642589466e-06,
         "max_normal_component_error": 4.172325134277344e-07,
-        "max_uv_error": 5.960464477539063e-08
+        "max_uv_error": 1.1920928955078125e-07
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 78658,
         "exact_zero_area_source_triangles": 94,
         "exact_zero_area_imported_triangles": 94,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 1.2201676327094901e-06,
+        "max_position_error_m": 1.220167642589466e-06,
         "max_normal_component_error": 1.0,
-        "max_uv_error": 9.566545486450195e-06
+        "max_uv_error": 1.1920928955078125e-07
       },
       "playback": {
         "source_sha256": "9be2fc7dda0b83040858dbc8f4094d98a0079a1ee44ecebf50da000062aa5fae",
@@ -6015,7 +6105,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 1.2201676327094901e-06,
         "moving_objects": [
@@ -6028,7 +6118,7 @@
     "buildings/woodcutter_hut": {
       "source_sha256": "d60e0bb23aa4bb4fc8ea0501eab13a0c801d6e91379701ba95fdca63ddf59065",
       "glb_sha256": "42e904f52d670ecaf7752b7da7753dade466f721ba3ccb3b443e42fa19b06da0",
-      "unbatched_runtime_profile_sha256": "659322599690581fcdf1019cbc8642e19002dfc4c6baaab786539c675ee050e5",
+      "unbatched_runtime_profile_sha256": "c088f86aab3471aebc5ec5960043661a814b38f71b8c33e44a214f6dd7b38d96",
       "serialized_surfaces": {
         "serialized_triangle_count": 37221,
         "one_to_one_transformed_triangle_attributes_equal": true,
@@ -6262,33 +6352,39 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 37221,
         "exact_zero_area_source_triangles": 4,
         "exact_zero_area_imported_triangles": 4,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 3.3717478231665154e-07,
+        "max_position_error_m": 3.371747880871523e-07,
         "max_normal_component_error": 4.023313522338867e-07,
-        "max_uv_error": 1.1920928955078125e-07
+        "max_uv_error": 5.960464477539063e-08
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 37221,
         "exact_zero_area_source_triangles": 4,
         "exact_zero_area_imported_triangles": 4,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 3.3717478231665154e-07,
+        "max_position_error_m": 3.371747880871523e-07,
         "max_normal_component_error": 3.5762786865234375e-07,
-        "max_uv_error": 1.1920928955078125e-07
+        "max_uv_error": 5.960464477539063e-08
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 37221,
         "exact_zero_area_source_triangles": 4,
         "exact_zero_area_imported_triangles": 4,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 3.3717478231665154e-07,
+        "max_position_error_m": 3.371747880871523e-07,
         "max_normal_component_error": 0.7277402281761169,
-        "max_uv_error": 1.1920928955078125e-07
+        "max_uv_error": 5.960464477539063e-08
       },
       "playback": {
         "source_sha256": "d60e0bb23aa4bb4fc8ea0501eab13a0c801d6e91379701ba95fdca63ddf59065",
@@ -6303,7 +6399,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 4.915124804938387e-07,
         "moving_objects": [
@@ -6456,6 +6552,8 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 216,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -6466,6 +6564,8 @@
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 216,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -6476,6 +6576,8 @@
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 216,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -6497,7 +6599,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 0.0,
         "moving_objects": [
@@ -6635,6 +6737,8 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 704,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -6645,6 +6749,8 @@
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 704,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -6655,6 +6761,8 @@
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 704,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -6676,7 +6784,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 0.0,
         "moving_objects": [
@@ -6817,6 +6925,8 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 168,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -6827,6 +6937,8 @@
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 168,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -6837,6 +6949,8 @@
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 168,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -6858,7 +6972,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 0.0,
         "moving_objects": [
@@ -7766,33 +7880,39 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 56438,
         "exact_zero_area_source_triangles": 354,
         "exact_zero_area_imported_triangles": 354,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 3.6256091107134125e-07,
+        "max_position_error_m": 3.625608998714816e-07,
         "max_normal_component_error": 3.8743019104003906e-07,
         "max_uv_error": 2.9802322387695312e-08
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 56438,
         "exact_zero_area_source_triangles": 354,
         "exact_zero_area_imported_triangles": 356,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 2.731428025981586e-07,
+        "max_position_error_m": 2.7314279645418166e-07,
         "max_normal_component_error": 3.8743019104003906e-07,
-        "max_uv_error": 6.556510925292969e-07
+        "max_uv_error": 2.9802322387695312e-08
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 56438,
         "exact_zero_area_source_triangles": 354,
         "exact_zero_area_imported_triangles": 356,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 2.731428025981586e-07,
+        "max_position_error_m": 2.7314279645418166e-07,
         "max_normal_component_error": 1.0,
-        "max_uv_error": 6.556510925292969e-07
+        "max_uv_error": 2.9802322387695312e-08
       },
       "playback": {
         "source_sha256": "09effba907416f47529e5ecb959313d2342d495f97ffe3fa40da31d411f4a414",
@@ -7807,7 +7927,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 2.731428025981586e-07,
         "moving_objects": [
@@ -8728,33 +8848,39 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 117470,
         "exact_zero_area_source_triangles": 354,
         "exact_zero_area_imported_triangles": 354,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 3.6256091107134125e-07,
+        "max_position_error_m": 3.625608998714816e-07,
         "max_normal_component_error": 4.0605664253234863e-07,
         "max_uv_error": 2.9802322387695312e-08
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 117470,
         "exact_zero_area_source_triangles": 354,
         "exact_zero_area_imported_triangles": 356,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 2.874031963528978e-07,
+        "max_position_error_m": 2.874031889734553e-07,
         "max_normal_component_error": 4.0605664253234863e-07,
-        "max_uv_error": 6.556510925292969e-07
+        "max_uv_error": 2.9802322387695312e-08
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 117470,
         "exact_zero_area_source_triangles": 354,
         "exact_zero_area_imported_triangles": 356,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 2.874031963528978e-07,
+        "max_position_error_m": 2.874031889734553e-07,
         "max_normal_component_error": 1.0,
-        "max_uv_error": 6.556510925292969e-07
+        "max_uv_error": 2.9802322387695312e-08
       },
       "playback": {
         "source_sha256": "59fe27e96459d5b6e80638c2bdb21a8b0172f836efd8af455757d307bad08cd0",
@@ -8769,7 +8895,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 2.874031963528978e-07,
         "moving_objects": [
@@ -8922,6 +9048,8 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 392,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -8932,6 +9060,8 @@
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 392,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -8942,6 +9072,8 @@
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 392,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -8963,7 +9095,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 0.0,
         "moving_objects": [
@@ -9081,31 +9213,37 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 416,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 8.429369557916289e-08,
+        "max_position_error_m": 8.429369702178807e-08,
         "max_normal_component_error": 0,
         "max_uv_error": 2.9802322387695312e-08
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 416,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": true,
-        "max_position_error_m": 8.429369557916289e-08,
+        "max_position_error_m": 8.429369702178807e-08,
         "max_normal_component_error": 0,
         "max_uv_error": 2.9802322387695312e-08
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 416,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
         "normals_asserted": false,
-        "max_position_error_m": 8.429369557916289e-08,
+        "max_position_error_m": 8.429369702178807e-08,
         "max_normal_component_error": 5.367398262023926e-05,
         "max_uv_error": 2.9802322387695312e-08
       },
@@ -9122,7 +9260,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 8.429369557916289e-08,
         "moving_objects": [
@@ -9240,6 +9378,8 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 416,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -9250,6 +9390,8 @@
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 416,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -9260,6 +9402,8 @@
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 416,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -9281,7 +9425,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 1.4901161193847656e-08,
         "moving_objects": [
@@ -9399,6 +9543,8 @@
       },
       "source_to_raw_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 477,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -9409,6 +9555,8 @@
       },
       "source_to_exported_buffers": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 477,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -9419,6 +9567,8 @@
       },
       "reimport": {
         "all_triangle_corners_checked_bidirectionally": true,
+        "one_to_one_source_triangle_connectivity_winding_equal": true,
+        "source_triangle_count": 477,
         "exact_zero_area_source_triangles": 0,
         "exact_zero_area_imported_triangles": 0,
         "per_material_triangle_multiplicity_equal": true,
@@ -9440,7 +9590,7 @@
         "seconds": 4.0,
         "source_and_export_meshes_move": true,
         "source_and_export_endpoints_equal": true,
-        "source_geometry_profile": "export-only tiny bevels",
+        "source_geometry_profile": "export-only tiny bevels and shared small moss",
         "fixed_objects_world_matrices_equal_throughout": true,
         "evaluated_pose_point_cloud_max_error_m": 0.0,
         "moving_objects": [
@@ -9450,5 +9600,5 @@
       }
     }
   },
-  "scope": "Every serialized transformed triangle and vertex attribute (including exact zero-area faces); strict source-to-GLB position/UV/normal floats on every corner without area filtering; Blender reimport geometry/UVs and diagnostic normals; all25 source/export loops; exact landed materials/images/clip samples. No game-renderer/FPS qualification."
+  "scope": "Every source and serialized transformed triangle matched one-to-one with connectivity, winding, multiplicity and corner attributes (including exact zero-area faces); strict source-to-GLB position/UV/normal floats without area filtering; Blender reimport geometry/UVs and diagnostic normals; all25 source/export loops; exact landed materials/images/clip samples. No game-renderer/FPS qualification."
 }
