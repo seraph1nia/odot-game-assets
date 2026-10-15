@@ -5,6 +5,7 @@ import unittest
 from pathlib import Path
 
 from tools.asset_pack import art_style as style
+from tools.asset_pack.ambient_contract import expected_resource_delta, source_chain
 from tools.ui.vivid_refinement import recover_colors
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -41,7 +42,9 @@ class VividContracts(unittest.TestCase):
                     self.assertEqual(len(view['derived_images']), 2)
                     for path, digest in view['derived_images'].items():
                         self.assertEqual(digest, hashlib.sha256((ROOT / path).read_bytes()).hexdigest())
-                self.assertEqual(record['resources_before'], record['resources_after'])
+                delta = expected_resource_delta(aid)
+                for key, before in record['resources_before'].items():
+                    self.assertEqual(before + delta[key] if key in delta else before, record['resources_after'][key])
         inventory = json.loads((ROOT / 'docs/vivid-palette/inventory.json').read_text())
         self.assertEqual(len(inventory['assets']), 133)
         self.assertEqual(len({r['id'] for r in inventory['assets']}), 133)
@@ -54,7 +57,7 @@ class VividContracts(unittest.TestCase):
         for path, record in authored.items():
             with self.subTest(source=path):
                 self.assertEqual(record['sha256_before'], baseline['files'][path])
-                self.assertEqual(record['sha256_after'], hashlib.sha256((ROOT / path).read_bytes()).hexdigest())
+                source_chain(ROOT, path, record['sha256_after'])
                 self.assertTrue(record['geometry_uv_hierarchy_reuse_rigs_actions_preserved'])
                 self.assertTrue(record['roughness_normal_pixels_preserved'])
                 self.assertIn('protected_orphan_ids', record)

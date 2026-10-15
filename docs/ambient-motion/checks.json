@@ -1,0 +1,252 @@
+{
+  "scope": "Completed local cohesive asset checks. no-mistakes/forge CI is a separate required delivery gate; no game/GPU/artist acceptance.",
+  "results": {
+    "fast": {
+      "status": "passed",
+      "result": "113 fast tests; Ruff/Python/JS/worker safety",
+      "log": ".cache/ambient-motion/precommit-check.log",
+      "log_sha256": "cef4e29f08db3ed4c3abfab315abfe917b6468e8fc1e2b4a844fc0c379008ffc",
+      "tail": [
+        "",
+        "OK",
+        "Unchanged: props/example",
+        "0 thumbnails rendered",
+        "Fast checks passed; 113 tests and 2 inline JavaScript programs"
+      ]
+    },
+    "export_roundtrip": {
+      "status": "passed",
+      "result": "118 selected current exports, geometry/material/rig verification; no source regeneration",
+      "log": ".cache/ambient-motion/validate-encoded.log",
+      "log_sha256": "46568c0b76de4b670791cd131a85719d364d1808650bdf5357a82ce2fcde9f0a",
+      "tail": [
+        "",
+        "Error: script failed, file: '/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_ambient_blender.py', exiting.",
+        "Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)",
+        "",
+        "Blender quit"
+      ]
+    },
+    "ambient_preservation_and_playback": {
+      "status": "passed",
+      "result": "23 saved-source exact full-map/structure audits; 25 actual exported moving/closed loops",
+      "log": ".cache/ambient-motion/encoded-ambient-final-current.log",
+      "log_sha256": "616d1d8c3e72a796134cd764b5c217e941524bce0dc249ee680d07606736a0dc",
+      "tail": [
+        "encoded-ambient-final-current: running (log: .cache/asset-check/logs/encoded-ambient-final-current.log)",
+        "encoded-ambient-final-current: passed in 218.08s"
+      ]
+    },
+    "palette_preservation": {
+      "status": "passed",
+      "result": "67 original/palette source owners; complete per-map exact encoded data/alpha/binding audit composed with final motion",
+      "log": ".cache/ambient-motion/final-rest.log",
+      "log_sha256": "6411513068b6f0f97e8a30dfe49dd60d2c1fe78b9178ce5a6a4e2b5d378b475f",
+      "tail": [
+        "encoded-vivid-final-controls: running (log: .cache/asset-check/logs/encoded-vivid-final-controls.log)",
+        "encoded-vivid-final-controls: passed in 0.60s",
+        "[style-tests] $ python3 -m tools.asset_pack.worker tools/asset_pack/test_style_blender.py --label style-tests",
+        "style-tests: running (log: .cache/asset-check/logs/style-tests.log)",
+        "style-tests: passed in 1.79s"
+      ]
+    },
+    "real_source_encoded_controls": {
+      "status": "passed",
+      "result": "Six separate-process baseline/palette/final positive comparisons; both real one-sample mutations, color-space and binding negatives",
+      "log": ".cache/ambient-motion/encoded-controls.log",
+      "log_sha256": "a052823fd1b3616cb637c88edddf65f481b138d6ef22823021a5680b64e4bb33",
+      "tail": [
+        "encoded-control-hex_crystal_shrine-palette: running (log: .cache/asset-check/logs/encoded-control-hex_crystal_shrine-palette.log)",
+        "encoded-control-hex_crystal_shrine-palette: passed in 1.84s",
+        "encoded-control-hex_crystal_shrine-final: running (log: .cache/asset-check/logs/encoded-control-hex_crystal_shrine-final.log)",
+        "encoded-control-hex_crystal_shrine-final: passed in 0.92s",
+        "All six fresh-process positive comparisons and both real-source mutation controls passed"
+      ]
+    },
+    "ambient_fixtures": {
+      "status": "passed",
+      "result": "Five Blender fixtures, including strict rejection of generated buffer texture bindings",
+      "log": ".cache/asset-check/logs/encoded-ambient-final-controls.log",
+      "log_sha256": "8e3c7d6fae331033838ca360aa6eee5dd2fde80d684e212975a170ed8080a381",
+      "tail": [
+        "----------------------------------------------------------------------",
+        "Ran 5 tests in 4.199s",
+        "",
+        "OK",
+        "Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)"
+      ]
+    },
+    "vivid_fixtures": {
+      "status": "passed",
+      "result": "Four Blender fixtures, including packed content/color-space/binding/mapping/routing/mute negatives",
+      "log": ".cache/asset-check/logs/encoded-vivid-final-controls.log",
+      "log_sha256": "3de9d48ae967421c92c333521d924040fc1b0b1f7976f227e2df6cc5d3e007bf",
+      "tail": [
+        "OK",
+        "Info: Saved as \"protected.blend\"",
+        "Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)",
+        "",
+        "Blender quit"
+      ]
+    },
+    "shared_fixtures": {
+      "status": "passed",
+      "result": "27 shared style fixtures",
+      "log": ".cache/asset-check/logs/style-tests.log",
+      "log_sha256": "dae311cd601fbbc0176be177f7ca631c46da49d142990784107313d4c4c68922",
+      "tail": [
+        "",
+        "Exported props/fixture; source unchanged",
+        "Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)",
+        "",
+        "Blender quit"
+      ]
+    },
+    "style": {
+      "status": "passed",
+      "result": "118 authored selections",
+      "log": ".cache/asset-check/logs/encoded-style-final.log",
+      "log_sha256": "236cc7145f87594906406a03f4d045d03cc7a709c9715221709e14949887a329",
+      "tail": [
+        "Verified art style: props/sword",
+        "Art style checks passed: 118 authored assets",
+        "Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)",
+        "",
+        "Blender quit"
+      ]
+    },
+    "painted": {
+      "status": "passed",
+      "result": "118 source/GLB packed texture-channel and UV audits",
+      "log": ".cache/asset-check/logs/encoded-painted-final.log",
+      "log_sha256": "9b9b2914e4c27bd63b980194504957a7655102409d20eac73e668d9795ca9293",
+      "tail": [
+        "Verified portable painted finish: props/sword",
+        "Verified painted UVs, packed images and exported channels: 118",
+        "Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)",
+        "",
+        "Blender quit"
+      ]
+    },
+    "forest": {
+      "status": "passed",
+      "result": "11 tile/library/grid/river contracts",
+      "log": ".cache/asset-check/logs/encoded-forest-final.log",
+      "log_sha256": "e0daee34efbae4b8e00d80ea0a96fcde32f3e80b1e7da8a95a2119a7777e4169",
+      "tail": [
+        "Verified grid fit and fresh library geometry: hex_dream_menagerie",
+        "Verified forest tiles: 11",
+        "Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)",
+        "",
+        "Blender quit"
+      ]
+    },
+    "metal_render_retry": {
+      "status": "passed",
+      "result": "Clean render exited successfully; original shutdown failure retained",
+      "log": ".cache/ambient-motion/metal-mine-clean-retry.log",
+      "log_sha256": "d279049d1ae75bd17430bc2631cab8a636dea46dc63f1328f0afe253a0f0d5e1",
+      "tail": [
+        "ambient-metal-mine-clean-retry: running (log: .cache/asset-check/logs/ambient-metal-mine-clean-retry.log)",
+        "ambient-metal-mine-clean-retry: passed in 19.24s"
+      ]
+    },
+    "final_motion_renders": {
+      "status": "passed",
+      "result": "25 actual fixed-camera pose/camera/GIF/strip receipts; current successful workers",
+      "log": ".cache/ambient-motion/review-final.log",
+      "log_sha256": "8cfc57f0c4a920634bf2bb1a85e5746d36f6a38c2af6db829a8ccf6a0618552c",
+      "tail": [
+        "ambient-render-environment-hex_river_overlay_turn_60: passed in 12.35s",
+        "ambient-render-environment-hex_river_overlay_end: running (log: .cache/asset-check/logs/ambient-render-environment-hex_river_overlay_end.log)",
+        "ambient-render-environment-hex_river_overlay_turn_120: passed in 12.51s",
+        "ambient-render-environment-hex_river_overlay_end: passed in 10.09s",
+        "Bound fixed-camera exported motion crops for 25 assets"
+      ]
+    }
+  },
+  "artifacts": {
+    "docs/ambient-motion/authored.json": "64f85a2fe2fc5cbce626ee172292dbbef6109c27e2e2cf1fdeaeb68a24a3506b",
+    "docs/ambient-motion/validation.json": "9ae391540902cb2f38bac53445fc34b6c6640a8fca9f30ca2e2b41fcd0ae4abe",
+    "docs/ambient-motion/renders.json": "90a0b8e8d8b55b6b99fd8c02f871d0d74709341a4ca4f94a7d1e86469033ce1b",
+    "docs/ambient-motion/encoded-map-controls.json": "7eb004134216718f9bdc320c561411429ae5e21874ef28b630a57c62bc89a107",
+    "docs/ambient-motion/pixel-api-probe.json": "d33cc15e8dc9180b94a05f1519616dc53849618e96f3494aac2ae99a99cbd1e2",
+    "docs/ambient-motion/browser-review.json": "bd58ca34f4d84784cbd4f626058b0f00924185f086300ce0914c9501d9656472",
+    "docs/vivid-palette/authored.json": "2e4ca8400808900d3aff29e52950920d90f48e847a4636f2b2e41ae794e00c74",
+    "docs/vivid-palette/preservation.json": "a3b8d45ab38a2227a85453157ee2ecd8fd86728770a10d357be1fc994cde7150",
+    "docs/vivid-palette/renders.json": "f73fc9d4c15fea6f153e82cddc7a0856a8e5fc26f0bd0b8458b02a3b950180d4",
+    "docs/vivid-palette/inventory.json": "fa9b8680cb064adad41a1615a044d7ab74bbc953b6cf55a997be1115f1d6a89d",
+    "docs/vivid-palette/summary.json": "4d9d612ce619bb5b2f17f3475c27ff427f64d5454fce830ef3b96cc4b1ba353b",
+    "exports/validation.json": "96d47c14ca1ff6efc0820c8f930fc63ede6d8ab9a2576c148921caaa610ff0f2",
+    "docs/ui/worldtree-validation.json": "72d7dcaf46f54a81330208c279fde28ff10d67ff3af0d1f5a93f891ca285a8ad"
+  },
+  "summary": {
+    "counting": "Per-export definition/instance sums, not globally deduplicated resources, draw calls or GPU performance. Each canonical source owner is counted once.",
+    "models": 118,
+    "sources": 67,
+    "counts": {
+      "assessed": 133,
+      "refined": 128,
+      "retained": 5
+    },
+    "geometry_delta": {
+      "active_mesh_nodes": 4,
+      "active_primitive_instances": 4,
+      "active_triangle_instances": 32
+    },
+    "definition_delta": {
+      "meshes": 4,
+      "triangles": 32,
+      "materials": 4
+    },
+    "animation_definition_delta": 25,
+    "source_bytes": {
+      "before": 188368109,
+      "after": 318481990
+    },
+    "export_bytes": {
+      "before": 220437552,
+      "after": 252677688
+    },
+    "orphan_ids_protected": 779,
+    "motion": {
+      "buildings": 16,
+      "water_entries": 9,
+      "source_owners": 23,
+      "keys_per_channel": 5,
+      "new_pivots": 16,
+      "new_water_strip_vertices": 40,
+      "new_water_strip_triangles": 32,
+      "exported_animation_samples_per_sampler": 97
+    },
+    "preservation": {
+      "method": "Exact packed PNG bytes and independently decoded 8-bit samples/alpha, metadata and binding/mapping/use-state; unsupported maps fail closed",
+      "protected_source_channel_references": 1587,
+      "unsupported_maps": 0,
+      "max_original_rest_matrix_error": 4.76837158203125e-07,
+      "max_source_export_pose_error_m": 1.259126065633609e-06
+    },
+    "limits": [
+      "Standalone CPU/browser/native-UI checks only; game import/camera/playback, GPU cost and artist acceptance remain separate.",
+      "Palette-only presentation previews retain ac41b74 source bindings, not final-motion bindings.",
+      "Blender normalized-float instability mechanism remains unproven; raw observations and failures retained; no epsilon or mismatch waiver."
+    ]
+  },
+  "prior_palette_checks": {
+    "revision": "ac41b74",
+    "path": "docs/vivid-palette/checks.json",
+    "note": "Historical palette-stage checks at this commit; final composed checks are here."
+  },
+  "native_ui": {
+    "checks": 3626,
+    "captures": 121,
+    "fresh_campaign_rerun_for_motion": false,
+    "reason": "UI payload unchanged since directly qualified palette campaign; final rebuilt ZIP hash is identical.",
+    "zip_sha256": "840b69d7c91d743608ea01c8a9e10bdfb82c8050abda1bf93d798b171b2bc2a9"
+  },
+  "limitations": [
+    "Standalone CPU/browser/native-UI checks only; game import/camera/playback, GPU cost and artist acceptance remain separate.",
+    "Palette-only presentation previews retain ac41b74 source bindings, not final-motion bindings.",
+    "Blender normalized-float instability mechanism remains unproven; raw observations and failures retained; no epsilon or mismatch waiver."
+  ]
+}

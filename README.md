@@ -12,6 +12,7 @@ invocable skills. Pi discovers project `.agents/skills/` entries on demand;
 must be verified separately.
 
 - [Color recovery: current direction, inventory and actual comparisons](docs/vivid-palette/README.md)
+- [Localized building/water loops: 25 actual exported clips, coverage and playback](docs/ambient-motion/README.md)
 - [Landed selective quality round: focal edits and historical evidence](docs/quality-round-two/README.md)
 - [Landed first-round Whisperwood analysis, inventory and baseline evidence](docs/whisperwood/README.md)
 - [Reference authority and supplied-image inventory](.agents/skills/asset-art-direction/references/index.md)

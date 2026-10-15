@@ -1,0 +1,48 @@
+/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/geometry.py:27: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_ambient_blender.py:40: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if mat.use_nodes:
+/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_ambient_blender.py:46: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  for l in mat.node_tree.links) if mat.use_nodes else []
+EE/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/painted_finish.py:132: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not kind or not mat.use_nodes:
+.
+======================================================================
+ERROR: test_motion_allowance_does_not_hide_geometry_color_or_parent_regressions (__main__.AmbientFixtures.test_motion_allowance_does_not_hide_geometry_color_or_parent_regressions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/test_ambient_blender.py", line 54, in test_motion_allowance_does_not_hide_geometry_color_or_parent_regressions
+    before, record = self.author()
+                     ~~~~~~~~~~~^^
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/test_ambient_blender.py", line 38, in author
+    feature = building({'id': 'buildings/weaver', 'source': 'sources/buildings/weaver.blend', 'collection': 'weaver'}, action)
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/ambient_motion.py", line 59, in building
+    objects = [o for o in asset_objects(job) if o.type == 'MESH']
+                          ~~~~~~~~~~~~~^^^^^
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_catalog/blender_selection.py", line 10, in asset_objects
+    collection = None if job['object'] else bpy.data.collections.get(job['collection'] or name)
+                         ~~~^^^^^^^^^^
+KeyError: 'object'
+
+======================================================================
+ERROR: test_one_local_spot_moves_and_rests_without_unsharing_meshes (__main__.AmbientFixtures.test_one_local_spot_moves_and_rests_without_unsharing_meshes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/test_ambient_blender.py", line 42, in test_one_local_spot_moves_and_rests_without_unsharing_meshes
+    before, record = self.author()
+                     ~~~~~~~~~~~^^
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/test_ambient_blender.py", line 38, in author
+    feature = building({'id': 'buildings/weaver', 'source': 'sources/buildings/weaver.blend', 'collection': 'weaver'}, action)
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/ambient_motion.py", line 59, in building
+    objects = [o for o in asset_objects(job) if o.type == 'MESH']
+                          ~~~~~~~~~~~~~^^^^^
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_catalog/blender_selection.py", line 10, in asset_objects
+    collection = None if job['object'] else bpy.data.collections.get(job['collection'] or name)
+                         ~~~^^^^^^^^^^
+KeyError: 'object'
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.167s
+
+FAILED (errors=2)
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)

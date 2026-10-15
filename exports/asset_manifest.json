@@ -24,11 +24,13 @@
   "assets": [
     {
       "file": "exports/buildings/tree_house.glb",
-      "bytes": 1959760,
+      "bytes": 1963044,
       "meshes": 154,
       "triangles": 13273,
       "materials": 20,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "skins": 0,
       "title": "Tree House",
       "source": "sources/buildings/tree_house.blend",
@@ -46,11 +48,13 @@
     },
     {
       "file": "exports/buildings/bakery.glb",
-      "bytes": 3467876,
+      "bytes": 3471496,
       "meshes": 363,
       "triangles": 30343,
       "materials": 22,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "skins": 0,
       "title": "Bakery",
       "source": "sources/buildings/bakery.blend",
@@ -68,11 +72,13 @@
     },
     {
       "file": "exports/buildings/gold_mine.glb",
-      "bytes": 1800432,
+      "bytes": 1804216,
       "meshes": 148,
       "triangles": 13266,
       "materials": 19,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "skins": 0,
       "title": "Gold Mine",
       "source": "sources/buildings/gold_mine.blend",
@@ -90,11 +96,13 @@
     },
     {
       "file": "exports/buildings/woodcutter_hut.glb",
-      "bytes": 3532724,
+      "bytes": 3535952,
       "meshes": 366,
       "triangles": 28069,
       "materials": 25,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "skins": 0,
       "title": "Woodcutter’s Hut",
       "source": "sources/buildings/woodcutter_hut.blend",
@@ -122,11 +130,13 @@
     },
     {
       "file": "exports/buildings/arrow_tower.glb",
-      "bytes": 3540860,
+      "bytes": 3544476,
       "meshes": 250,
       "triangles": 22237,
       "materials": 44,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "skins": 0,
       "title": "Arrow Tower",
       "source": "sources/buildings/arrow_tower.blend",
@@ -156,11 +166,13 @@
     },
     {
       "file": "exports/buildings/barracks.glb",
-      "bytes": 4435264,
+      "bytes": 4438192,
       "meshes": 289,
       "triangles": 26643,
       "materials": 45,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "skins": 0,
       "title": "Barracks",
       "source": "sources/buildings/barracks.blend",
@@ -190,11 +202,13 @@
     },
     {
       "file": "exports/buildings/bombarding_tower.glb",
-      "bytes": 3704000,
+      "bytes": 3707636,
       "meshes": 210,
       "triangles": 19445,
       "materials": 37,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "skins": 0,
       "title": "Bombarding Tower",
       "source": "sources/buildings/bombarding_tower.blend",
@@ -223,11 +237,13 @@
     },
     {
       "file": "exports/buildings/magic_academy.glb",
-      "bytes": 5399820,
+      "bytes": 5402740,
       "meshes": 313,
       "triangles": 28350,
       "materials": 42,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "skins": 0,
       "title": "Magic Academy",
       "source": "sources/buildings/magic_academy.blend",
@@ -255,11 +271,13 @@
     },
     {
       "file": "exports/buildings/stone_cutter.glb",
-      "bytes": 3347716,
+      "bytes": 3350668,
       "meshes": 275,
       "triangles": 23245,
       "materials": 34,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "skins": 0,
       "title": "Stone Cutter",
       "source": "sources/buildings/stone_cutter.blend",
@@ -286,11 +304,13 @@
     },
     {
       "file": "exports/buildings/tavern.glb",
-      "bytes": 3864084,
+      "bytes": 3867640,
       "meshes": 342,
       "triangles": 29764,
       "materials": 43,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "skins": 0,
       "title": "Tavern",
       "source": "sources/buildings/tavern.blend",
@@ -319,11 +339,13 @@
     },
     {
       "file": "exports/buildings/trade_market.glb",
-      "bytes": 3464136,
+      "bytes": 3467968,
       "meshes": 289,
       "triangles": 23814,
       "materials": 39,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "skins": 0,
       "title": "Trade Market",
       "source": "sources/buildings/trade_market.blend",
@@ -1000,10 +1022,12 @@
     },
     {
       "file": "exports/buildings/archery_range.glb",
-      "bytes": 7976180,
+      "bytes": 7979912,
       "triangles": 41996,
       "materials": 46,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "source": "sources/buildings/archery_range.blend",
       "shared_kit_instances": {
         "arrow": 12,
@@ -1021,10 +1045,12 @@
     },
     {
       "file": "exports/buildings/metal_mine.glb",
-      "bytes": 7098484,
+      "bytes": 7102128,
       "triangles": 37138,
       "materials": 43,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "source": "sources/buildings/metal_mine.blend",
       "shared_kit_instances": {
         "crate": 2,
@@ -1040,10 +1066,12 @@
     },
     {
       "file": "exports/buildings/research_tower.glb",
-      "bytes": 7518420,
+      "bytes": 7521640,
       "triangles": 42766,
       "materials": 44,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "source": "sources/buildings/research_tower.blend",
       "shared_kit_instances": {
         "book": 6,
@@ -1059,10 +1087,12 @@
     },
     {
       "file": "exports/buildings/town_hall.glb",
-      "bytes": 12033036,
+      "bytes": 12036144,
       "triangles": 90379,
       "materials": 40,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "source": "sources/buildings/town_hall.blend",
       "shared_kit_instances": {
         "bench": 1,
@@ -1078,10 +1108,12 @@
     },
     {
       "file": "exports/buildings/weaver.glb",
-      "bytes": 7342764,
+      "bytes": 7345348,
       "triangles": 40278,
       "materials": 44,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "source": "sources/buildings/weaver.blend",
       "shared_kit_instances": {
         "lantern": 1,
@@ -1159,10 +1191,12 @@
     },
     {
       "file": "exports/environment/components/forest_foam.glb",
-      "bytes": 1520636,
+      "bytes": 1523504,
       "triangles": 704,
       "materials": 2,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "source": "sources/environment/shared_forest_kit.blend",
       "meshes": 8
     },
@@ -1177,10 +1211,12 @@
     },
     {
       "file": "exports/environment/components/forest_hex_stream.glb",
-      "bytes": 598892,
+      "bytes": 601444,
       "triangles": 216,
       "materials": 5,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "source": "sources/environment/shared_forest_kit.blend",
       "meshes": 12
     },
@@ -1312,10 +1348,12 @@
     },
     {
       "file": "exports/environment/components/forest_waterfall.glb",
-      "bytes": 1475008,
+      "bytes": 1477772,
       "triangles": 168,
       "materials": 3,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "source": "sources/environment/shared_forest_kit.blend",
       "meshes": 8
     },
@@ -1422,10 +1460,12 @@
     },
     {
       "file": "exports/environment/hex_lantern_bridge.glb",
-      "bytes": 11035700,
+      "bytes": 11045528,
       "triangles": 10078,
       "materials": 52,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "source": "sources/environment/hex_lantern_bridge.blend",
       "shared_kit_instances": {
         "forest_boulder": 9,
@@ -1500,10 +1540,12 @@
     },
     {
       "file": "exports/environment/hex_woodland_bridge.glb",
-      "bytes": 9953824,
+      "bytes": 9963684,
       "triangles": 11050,
       "materials": 60,
-      "animations": [],
+      "animations": [
+        "ambient"
+      ],
       "source": "sources/environment/hex_woodland_bridge.blend",
       "shared_kit_instances": {
         "forest_boulder": 9,
@@ -1778,38 +1820,46 @@
     },
     {
       "file": "exports/environment/hex_river_overlay_end.glb",
-      "bytes": 113436,
-      "meshes": 1,
-      "triangles": 469,
-      "materials": 1,
-      "animations": [],
+      "bytes": 194784,
+      "meshes": 2,
+      "triangles": 477,
+      "materials": 2,
+      "animations": [
+        "ambient"
+      ],
       "source": "sources/environment/hex_river_overlay_end.blend"
     },
     {
       "file": "exports/environment/hex_river_overlay_straight.glb",
-      "bytes": 108040,
-      "meshes": 1,
-      "triangles": 384,
-      "materials": 1,
-      "animations": [],
+      "bytes": 189368,
+      "meshes": 2,
+      "triangles": 392,
+      "materials": 2,
+      "animations": [
+        "ambient"
+      ],
       "source": "sources/environment/hex_river_overlay_straight.blend"
     },
     {
       "file": "exports/environment/hex_river_overlay_turn_120.glb",
-      "bytes": 117340,
-      "meshes": 1,
-      "triangles": 408,
-      "materials": 1,
-      "animations": [],
+      "bytes": 198720,
+      "meshes": 2,
+      "triangles": 416,
+      "materials": 2,
+      "animations": [
+        "ambient"
+      ],
       "source": "sources/environment/hex_river_overlay_turn_120.blend"
     },
     {
       "file": "exports/environment/hex_river_overlay_turn_60.glb",
-      "bytes": 117340,
-      "meshes": 1,
-      "triangles": 408,
-      "materials": 1,
-      "animations": [],
+      "bytes": 198720,
+      "meshes": 2,
+      "triangles": 416,
+      "materials": 2,
+      "animations": [
+        "ambient"
+      ],
       "source": "sources/environment/hex_river_overlay_turn_60.blend"
     }
   ]

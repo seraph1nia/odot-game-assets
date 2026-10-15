@@ -10,6 +10,7 @@ import bpy
 import numpy as np
 import vivid_refinement as vivid
 import art_style as style
+from tools.asset_pack.test_encoded_images import png
 
 
 class VividFixtures(unittest.TestCase):
@@ -63,6 +64,52 @@ class VividFixtures(unittest.TestCase):
             self.assertTrue(node.image.packed_file)
             self.assertAlmostEqual(shader.inputs['Emission Strength'].default_value, .16)
             self.assertGreater(float(result[:, :, 1].mean() - result[:, :, 0].mean()), .1)
+
+    def test_encoded_maps_reject_real_content_color_space_binding_mapping_and_use_changes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'guard.png'
+            rows = [bytes((31, 82, 170, 255) * 3), bytes((19, 99, 201, 125) * 3)]
+            path.write_bytes(png(rows, mode=4))
+            image = bpy.data.images.load(str(path), check_existing=False)
+            image.colorspace_settings.name = style.TEXTURES.data_space; image.pack()
+            mat = bpy.data.materials.new('guard material'); mat.use_nodes = True
+            node = mat.node_tree.nodes.new('ShaderNodeTexImage'); node.image = image
+            mapping = mat.node_tree.nodes.new('ShaderNodeMapping')
+            mat.node_tree.links.new(mapping.outputs['Vector'], node.inputs['Vector'])
+            shader = mat.node_tree.nodes.get('Principled BSDF')
+            mat.node_tree.links.new(node.outputs['Color'], shader.inputs['Roughness'])
+            key = mat.name + '/' + node.name
+            baseline = vivid.data_channels()
+            for _ in range(10):
+                self.assertEqual(vivid.data_channels(), baseline)
+            image.colorspace_settings.name = 'sRGB'
+            self.assertNotEqual(vivid.data_channels(), baseline)
+            image.colorspace_settings.name = style.TEXTURES.data_space
+            alternate = bpy.data.images.load(str(path), check_existing=False)
+            alternate.colorspace_settings.name = style.TEXTURES.data_space; alternate.pack()
+            node.image = alternate
+            changed = vivid.data_channels()
+            self.assertEqual(changed[key]['encoded'], baseline[key]['encoded'])
+            self.assertNotEqual(changed[key]['binding'], baseline[key]['binding'])
+            node.image = image
+            mapping.inputs['Scale'].default_value = (2, 1, 1)
+            self.assertNotEqual(vivid.data_channels(), baseline)
+            mapping.inputs['Scale'].default_value = (1, 1, 1)
+            node.mute = True
+            self.assertNotEqual(vivid.data_channels(), baseline)
+            node.mute = False
+            mat.node_tree.links.new(node.outputs['Color'], shader.inputs['Metallic'])
+            self.assertNotEqual(vivid.data_channels(), baseline)
+            mat.node_tree.links.remove(next(link for link in mat.node_tree.links if link.to_socket == shader.inputs['Metallic']))
+            self.assertEqual(vivid.data_channels(), baseline)
+            # Modify the actual persisted PNG with the same path/image/node identity.
+            changed_rows = [bytearray(r) for r in rows]; changed_rows[0][0] += 1
+            path.write_bytes(png(changed_rows, mode=4))
+            image.unpack(method='REMOVE'); image.reload(); image.pack()
+            observed = vivid.data_channels()
+            self.assertEqual(observed[key]['binding'], baseline[key]['binding'])
+            self.assertNotEqual(observed[key]['encoded']['packed_sha256'], baseline[key]['encoded']['packed_sha256'])
+            self.assertNotEqual(observed[key]['encoded']['samples_sha256'], baseline[key]['encoded']['samples_sha256'])
 
     def test_fine_color_detail_is_bounded_and_does_not_change_alpha(self):
         values = np.full((32, 32, 3), .5, dtype=np.float32)

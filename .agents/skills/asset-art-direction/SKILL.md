@@ -30,6 +30,7 @@ below, then that procedure's primary design rule. Do not load every leaf.
 | Harsh edges, flattened crystal faces, mushroom smoothing | [Normals/topology](blender/normals.md); shared edit → [library ownership](blender/libraries.md) |
 | Floating/repetitive vegetation or ground shading | [Environment](families/environment.md) → [contacts](blender/contacts.md) |
 | Glow hides form or water looks detached | [Emission/water](blender/emission-water.md) |
+| A small building detail or water loop | [Localized ambient motion](blender/ambient-motion.md) |
 | Unit proportions, crossbow grip, deformation or clips | [Units/equipment](families/units.md) → [rig/animation](blender/units.md) |
 | Change a prototype rather than one composition | [Library edit](blender/libraries.md) |
 | Set up comparable views | [Review scenes](blender/review-scenes.md) |

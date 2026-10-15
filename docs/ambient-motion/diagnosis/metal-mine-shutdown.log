@@ -1,0 +1,398 @@
+08:31:34 | INFO: Data are loaded, start creating Blender stuff
+08:31:34 | INFO: Blender create Mesh node Angular mine outcrop
+08:31:34 | INFO: Blender create Mesh node Angular mine outcrop.001
+08:31:34 | INFO: Blender create Mesh node Angular mine outcrop.002
+08:31:34 | INFO: Blender create Mesh node Angular mine outcrop.003
+08:31:34 | INFO: Blender create Mesh node Banner hanging rod.002
+08:31:34 | INFO: Blender create Mesh node Cart iron rail
+08:31:34 | INFO: Blender create Mesh node Cart iron rail.001
+08:31:34 | INFO: Blender create Mesh node Cloth heraldic banner.002
+08:31:34 | INFO: Blender create Mesh node Crate sling
+08:31:34 | INFO: Blender create Mesh node Crate sling.001
+08:31:34 | INFO: Blender create Mesh node Crate diagonal.002
+08:31:34 | INFO: Blender create Mesh node Crate diagonal.003
+08:31:34 | INFO: Blender create Mesh node Crate interior.001
+08:31:34 | INFO: Blender create Mesh node Crate lid.003
+08:31:34 | INFO: Blender create Mesh node Crate lid.004
+08:31:34 | INFO: Blender create Mesh node Crate lid.005
+08:31:34 | INFO: Blender create Mesh node Crate plank.012
+08:31:34 | INFO: Blender create Mesh node Crate plank.013
+08:31:34 | INFO: Blender create Mesh node Crate plank.014
+08:31:34 | INFO: Blender create Mesh node Crate plank.015
+08:31:34 | INFO: Blender create Mesh node Crate plank.016
+08:31:34 | INFO: Blender create Mesh node Crate plank.017
+08:31:34 | INFO: Blender create Mesh node Crate plank.018
+08:31:34 | INFO: Blender create Mesh node Crate plank.019
+08:31:34 | INFO: Blender create Mesh node Crate plank.020
+08:31:34 | INFO: Blender create Mesh node Crate plank.021
+08:31:34 | INFO: Blender create Mesh node Crate plank.022
+08:31:34 | INFO: Blender create Mesh node Crate plank.023
+08:31:34 | INFO: Blender create Mesh node Woodland shared curved ivy leaf.001
+08:31:34 | INFO: Blender create Mesh node Woodland shared moss cushion.001
+08:31:34 | INFO: Blender create Mesh node Crossed pick shaft
+08:31:34 | INFO: Blender create Mesh node Crossed pick shaft.001
+08:31:34 | INFO: Blender create Mesh node Curved miner pick blade
+08:31:34 | INFO: Blender create Mesh node Dark inset timber peg.036
+08:31:34 | INFO: Blender create Mesh node Dark inset timber peg.037
+08:31:34 | INFO: Blender create Mesh node Dark inset timber peg.038
+08:31:34 | INFO: Blender create Mesh node Dark inset timber peg.039
+08:31:34 | INFO: Blender create Mesh node Dark inset timber peg.040
+08:31:34 | INFO: Blender create Mesh node Dark inset timber peg.041
+08:31:34 | INFO: Blender create Mesh node Fence post.012
+08:31:34 | INFO: Blender create Mesh node Fence post.013
+08:31:34 | INFO: Blender create Mesh node Fence post.014
+08:31:34 | INFO: Blender create Mesh node Fence post.015
+08:31:34 | INFO: Blender create Mesh node Fence post.016
+08:31:34 | INFO: Blender create Mesh node Fence post.017
+08:31:34 | INFO: Blender create Mesh node Fence rail.008
+08:31:34 | INFO: Blender create Mesh node Fence rail.009
+08:31:34 | INFO: Blender create Mesh node Fence rail.010
+08:31:34 | INFO: Blender create Mesh node Fence rail.011
+08:31:34 | INFO: Blender create Mesh node Gold banner border.004
+08:31:34 | INFO: Blender create Mesh node Gold banner border.005
+08:31:34 | INFO: Blender create Mesh node Hoist pulley
+08:31:34 | INFO: Blender create Mesh node Hoist rope
+08:31:34 | INFO: Blender create Mesh node Lantern amber glass.002
+08:31:34 | INFO: Blender create Mesh node Lantern bottom.002
+08:31:34 | INFO: Blender create Mesh node Lantern corner.008
+08:31:34 | INFO: Blender create Mesh node Lantern corner.009
+08:31:34 | INFO: Blender create Mesh node Lantern corner.010
+08:31:34 | INFO: Blender create Mesh node Lantern corner.011
+08:31:34 | INFO: Blender create Mesh node Lantern hanger.002
+08:31:34 | INFO: Blender create Mesh node Lantern roof.002
+08:31:34 | INFO: Blender create Mesh node Woodland worn prop binding.001
+08:31:34 | INFO: Blender create Mesh node Iron ore load.005
+08:31:34 | INFO: Blender create Mesh node Iron ore load.006
+08:31:34 | INFO: Blender create Mesh node Iron ore load.007
+08:31:34 | INFO: Blender create Mesh node Iron ore load.008
+08:31:34 | INFO: Blender create Mesh node Iron ore load.009
+08:31:34 | INFO: Blender create Mesh node Mine cart axle.004
+08:31:34 | INFO: Blender create Mesh node Mine cart axle.005
+08:31:34 | INFO: Blender create Mesh node Mine cart axle.006
+08:31:34 | INFO: Blender create Mesh node Mine cart axle.007
+08:31:34 | INFO: Blender create Mesh node Mine cart iron wheel.004
+08:31:34 | INFO: Blender create Mesh node Mine cart iron wheel.005
+08:31:34 | INFO: Blender create Mesh node Mine cart iron wheel.006
+08:31:34 | INFO: Blender create Mesh node Mine cart iron wheel.007
+08:31:34 | INFO: Blender create Mesh node Open crate diagonal
+08:31:34 | INFO: Blender create Mesh node Open crate diagonal.001
+08:31:34 | INFO: Blender create Mesh node Open crate end plank
+08:31:34 | INFO: Blender create Mesh node Open crate end plank.001
+08:31:34 | INFO: Blender create Mesh node Open crate end plank.002
+08:31:34 | INFO: Blender create Mesh node Open crate end plank.003
+08:31:34 | INFO: Blender create Mesh node Open crate end plank.004
+08:31:34 | INFO: Blender create Mesh node Open crate end plank.005
+08:31:34 | INFO: Blender create Mesh node Open crate floor
+08:31:34 | INFO: Blender create Mesh node Open crate side plank
+08:31:34 | INFO: Blender create Mesh node Open crate side plank.001
+08:31:34 | INFO: Blender create Mesh node Open crate side plank.002
+08:31:34 | INFO: Blender create Mesh node Open crate side plank.003
+08:31:34 | INFO: Blender create Mesh node Open crate side plank.004
+08:31:34 | INFO: Blender create Mesh node Open crate side plank.005
+08:31:34 | INFO: Blender create Mesh node Mine cart iron corner strap.004
+08:31:34 | INFO: Blender create Mesh node Mine cart iron corner strap.005
+08:31:34 | INFO: Blender create Mesh node Mine cart iron corner strap.006
+08:31:34 | INFO: Blender create Mesh node Mine cart iron corner strap.007
+08:31:34 | INFO: Blender create Mesh node Mine cart strap rivet.008
+08:31:34 | INFO: Blender create Mesh node Mine cart strap rivet.009
+08:31:34 | INFO: Blender create Mesh node Mine cart strap rivet.010
+08:31:34 | INFO: Blender create Mesh node Mine cart strap rivet.011
+08:31:34 | INFO: Blender create Mesh node Mine cart strap rivet.012
+08:31:34 | INFO: Blender create Mesh node Mine cart strap rivet.013
+08:31:34 | INFO: Blender create Mesh node Mine cart strap rivet.014
+08:31:34 | INFO: Blender create Mesh node Mine cart strap rivet.015
+08:31:34 | INFO: Blender create Mesh node Mine entrance timber
+08:31:34 | INFO: Blender create Mesh node Mine entrance timber.001
+08:31:34 | INFO: Blender create Mesh node Mine lintel
+08:31:34 | INFO: Blender create Mesh node Arched window frame.003
+08:31:34 | INFO: Blender create Mesh node Carved roof verge.008
+08:31:34 | INFO: Blender create Mesh node Carved roof verge.009
+08:31:34 | INFO: Blender create Mesh node Carved roof verge.010
+08:31:34 | INFO: Blender create Mesh node Carved roof verge.011
+08:31:34 | INFO: Blender create Mesh node Chimney dark opening.001
+08:31:34 | INFO: Blender create Mesh node Chimney mortar joint.006
+08:31:34 | INFO: Blender create Mesh node Chimney mortar joint.007
+08:31:34 | INFO: Blender create Mesh node Chimney mortar joint.008
+08:31:34 | INFO: Blender create Mesh node Chimney mortar joint.009
+08:31:34 | INFO: Blender create Mesh node Chimney mortar joint.010
+08:31:34 | INFO: Blender create Mesh node Chimney mortar joint.011
+08:31:34 | INFO: Blender create Mesh node Chimney side mortar.006
+08:31:34 | INFO: Blender create Mesh node Chimney side mortar.007
+08:31:34 | INFO: Blender create Mesh node Chimney side mortar.008
+08:31:34 | INFO: Blender create Mesh node Chimney side mortar.009
+08:31:34 | INFO: Blender create Mesh node Chimney side mortar.010
+08:31:34 | INFO: Blender create Mesh node Chimney side mortar.011
+08:31:34 | INFO: Blender create Mesh node Chimney stone course.006
+08:31:34 | INFO: Blender create Mesh node Chimney stone course.007
+08:31:34 | INFO: Blender create Mesh node Chimney stone course.008
+08:31:34 | INFO: Blender create Mesh node Chimney stone course.009
+08:31:34 | INFO: Blender create Mesh node Chimney stone course.010
+08:31:34 | INFO: Blender create Mesh node Chimney stone course.011
+08:31:34 | INFO: Blender create Mesh node Chunky roof joinery.012
+08:31:34 | INFO: Blender create Mesh node Chunky roof joinery.013
+08:31:34 | INFO: Blender create Mesh node Chunky roof joinery.014
+08:31:34 | INFO: Blender create Mesh node Chunky roof joinery.015
+08:31:34 | INFO: Blender create Mesh node Chunky roof joinery.016
+08:31:34 | INFO: Blender create Mesh node Chunky roof joinery.017
+08:31:34 | INFO: Blender create Mesh node Corner upright.008
+08:31:34 | INFO: Blender create Mesh node Corner upright.009
+08:31:34 | INFO: Blender create Mesh node Corner upright.010
+08:31:34 | INFO: Blender create Mesh node Corner upright.011
+08:31:34 | INFO: Blender create Mesh node Cottage walls.002
+08:31:34 | INFO: Blender create Mesh node Dark inset timber peg.028
+08:31:34 | INFO: Blender create Mesh node Dark inset timber peg.029
+08:31:34 | INFO: Blender create Mesh node Dark inset timber peg.030
+08:31:34 | INFO: Blender create Mesh node Dark inset timber peg.031
+08:31:34 | INFO: Blender create Mesh node Dark inset timber peg.032
+08:31:34 | INFO: Blender create Mesh node Dark inset timber peg.033
+08:31:34 | INFO: Blender create Mesh node Dark inset timber peg.034
+08:31:34 | INFO: Blender create Mesh node Dark inset timber peg.035
+08:31:34 | INFO: Blender create Mesh node Eave knee brace.008
+08:31:34 | INFO: Blender create Mesh node Eave knee brace.009
+08:31:34 | INFO: Blender create Mesh node Eave knee brace.010
+08:31:34 | INFO: Blender create Mesh node Eave knee brace.011
+08:31:34 | INFO: Blender create Mesh node Front limestone block.040
+08:31:34 | INFO: Blender create Mesh node Front limestone block.041
+08:31:34 | INFO: Blender create Mesh node Front limestone block.042
+08:31:34 | INFO: Blender create Mesh node Front limestone block.043
+08:31:34 | INFO: Blender create Mesh node Front limestone block.044
+08:31:34 | INFO: Blender create Mesh node Front limestone block.045
+08:31:34 | INFO: Blender create Mesh node Front limestone block.046
+08:31:34 | INFO: Blender create Mesh node Front limestone block.047
+08:31:34 | INFO: Blender create Mesh node Front limestone block.048
+08:31:34 | INFO: Blender create Mesh node Front limestone block.049
+08:31:34 | INFO: Blender create Mesh node Front limestone block.050
+08:31:34 | INFO: Blender create Mesh node Front limestone block.051
+08:31:34 | INFO: Blender create Mesh node Front limestone block.052
+08:31:34 | INFO: Blender create Mesh node Front limestone block.053
+08:31:34 | INFO: Blender create Mesh node Front limestone block.054
+08:31:34 | INFO: Blender create Mesh node Front limestone block.055
+08:31:34 | INFO: Blender create Mesh node Front limestone block.056
+08:31:34 | INFO: Blender create Mesh node Front limestone block.057
+08:31:34 | INFO: Blender create Mesh node Front limestone block.058
+08:31:34 | INFO: Blender create Mesh node Front limestone block.059
+08:31:34 | INFO: Blender create Mesh node Gable brace.008
+08:31:34 | INFO: Blender create Mesh node Gable brace.009
+08:31:34 | INFO: Blender create Mesh node Gable brace.010
+08:31:34 | INFO: Blender create Mesh node Gable brace.011
+08:31:34 | INFO: Blender create Mesh node Gable king post.004
+08:31:34 | INFO: Blender create Mesh node Gable king post.005
+08:31:34 | INFO: Blender create Mesh node Gable tie beam.004
+08:31:34 | INFO: Blender create Mesh node Gable tie beam.005
+08:31:34 | INFO: Blender create Mesh node Gable vertical board.020
+08:31:34 | INFO: Blender create Mesh node Gable vertical board.021
+08:31:34 | INFO: Blender create Mesh node Gable vertical board.022
+08:31:34 | INFO: Blender create Mesh node Gable vertical board.023
+08:31:34 | INFO: Blender create Mesh node Gable vertical board.024
+08:31:34 | INFO: Blender create Mesh node Gable vertical board.025
+08:31:34 | INFO: Blender create Mesh node Gable vertical board.026
+08:31:34 | INFO: Blender create Mesh node Gable vertical board.027
+08:31:34 | INFO: Blender create Mesh node Gable vertical board.028
+08:31:34 | INFO: Blender create Mesh node Gable vertical board.029
+08:31:34 | INFO: Blender create Mesh node Heavy timber capital.008
+08:31:34 | INFO: Blender create Mesh node Heavy timber capital.009
+08:31:34 | INFO: Blender create Mesh node Heavy timber capital.010
+08:31:34 | INFO: Blender create Mesh node Heavy timber capital.011
+08:31:34 | INFO: Blender create Mesh node Open chimney rim.004
+08:31:34 | INFO: Blender create Mesh node Open chimney rim.005
+08:31:34 | INFO: Blender create Mesh node Open chimney rim.006
+08:31:34 | INFO: Blender create Mesh node Open chimney rim.007
+08:31:34 | INFO: Blender create Mesh node Projecting timber footing.008
+08:31:34 | INFO: Blender create Mesh node Projecting timber footing.009
+08:31:34 | INFO: Blender create Mesh node Projecting timber footing.010
+08:31:34 | INFO: Blender create Mesh node Projecting timber footing.011
+08:31:34 | INFO: Blender create Mesh node Ridge peg.006
+08:31:34 | INFO: Blender create Mesh node Ridge peg.007
+08:31:34 | INFO: Blender create Mesh node Ridge peg.008
+08:31:34 | INFO: Blender create Mesh node Ridge timber.002
+08:31:34 | INFO: Blender create Mesh node Roof eave.004
+08:31:34 | INFO: Blender create Mesh node Roof eave.005
+08:31:34 | INFO: Blender create Mesh node Roof timber underlay.004
+08:31:34 | INFO: Blender create Mesh node Roof timber underlay.005
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.088
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.088
+08:31:34 | INFO: Blender create Mesh node Soft edged blue roof tile.002
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.089
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.089
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.090
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.090
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.091
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.091
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.092
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.092
+08:31:34 | INFO: Blender create Mesh node Soft edged blue roof tile.002
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.093
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.093
+08:31:34 | INFO: Blender create Mesh node Soft edged blue roof tile.002
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.094
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.094
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.095
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.095
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.096
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.096
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.097
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.097
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.098
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.098
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.099
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.099
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.100
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.100
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.101
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.101
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.102
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.102
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.103
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.103
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.104
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.104
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.105
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.105
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.106
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.106
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.107
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.107
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.108
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.108
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.109
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.109
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.110
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.110
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.111
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.111
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.112
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.112
+08:31:34 | INFO: Blender create Mesh node Dark roof overlap seam.113
+08:31:34 | INFO: Blender create Mesh node Shingle reflected edge.113
+08:31:35 | INFO: Blender create Mesh node Dark roof overlap seam.114
+08:31:35 | INFO: Blender create Mesh node Shingle reflected edge.114
+08:31:35 | INFO: Blender create Mesh node Dark roof overlap seam.115
+08:31:35 | INFO: Blender create Mesh node Shingle reflected edge.115
+08:31:35 | INFO: Blender create Mesh node Dark roof overlap seam.116
+08:31:35 | INFO: Blender create Mesh node Shingle reflected edge.116
+08:31:35 | INFO: Blender create Mesh node Dark roof overlap seam.117
+08:31:35 | INFO: Blender create Mesh node Shingle reflected edge.117
+08:31:35 | INFO: Blender create Mesh node Dark roof overlap seam.118
+08:31:35 | INFO: Blender create Mesh node Shingle reflected edge.118
+08:31:35 | INFO: Blender create Mesh node Dark roof overlap seam.119
+08:31:35 | INFO: Blender create Mesh node Shingle reflected edge.119
+08:31:35 | INFO: Blender create Mesh node Dark roof overlap seam.120
+08:31:35 | INFO: Blender create Mesh node Shingle reflected edge.120
+08:31:35 | INFO: Blender create Mesh node Dark roof overlap seam.121
+08:31:35 | INFO: Blender create Mesh node Shingle reflected edge.121
+08:31:35 | INFO: Blender create Mesh node Dark roof overlap seam.122
+08:31:35 | INFO: Blender create Mesh node Shingle reflected edge.122
+08:31:35 | INFO: Blender create Mesh node Dark roof overlap seam.123
+08:31:35 | INFO: Blender create Mesh node Shingle reflected edge.123
+08:31:35 | INFO: Blender create Mesh node Dark roof overlap seam.124
+08:31:35 | INFO: Blender create Mesh node Shingle reflected edge.124
+08:31:35 | INFO: Blender create Mesh node Dark roof overlap seam.125
+08:31:35 | INFO: Blender create Mesh node Shingle reflected edge.125
+08:31:35 | INFO: Blender create Mesh node Dark roof overlap seam.126
+08:31:35 | INFO: Blender create Mesh node Shingle reflected edge.126
+08:31:35 | INFO: Blender create Mesh node Dark roof overlap seam.127
+08:31:35 | INFO: Blender create Mesh node Shingle reflected edge.127
+08:31:35 | INFO: Blender create Mesh node Side limestone block.080
+08:31:35 | INFO: Blender create Mesh node Side limestone block.081
+08:31:35 | INFO: Blender create Mesh node Side limestone block.082
+08:31:35 | INFO: Blender create Mesh node Side limestone block.083
+08:31:35 | INFO: Blender create Mesh node Side limestone block.084
+08:31:35 | INFO: Blender create Mesh node Side limestone block.085
+08:31:35 | INFO: Blender create Mesh node Side limestone block.086
+08:31:35 | INFO: Blender create Mesh node Side limestone block.087
+08:31:35 | INFO: Blender create Mesh node Side limestone block.088
+08:31:35 | INFO: Blender create Mesh node Side limestone block.089
+08:31:35 | INFO: Blender create Mesh node Side limestone block.090
+08:31:35 | INFO: Blender create Mesh node Side limestone block.091
+08:31:35 | INFO: Blender create Mesh node Side limestone block.092
+08:31:35 | INFO: Blender create Mesh node Side limestone block.093
+08:31:35 | INFO: Blender create Mesh node Side limestone block.094
+08:31:35 | INFO: Blender create Mesh node Side limestone block.095
+08:31:35 | INFO: Blender create Mesh node Side limestone block.096
+08:31:35 | INFO: Blender create Mesh node Side limestone block.097
+08:31:35 | INFO: Blender create Mesh node Side limestone block.098
+08:31:35 | INFO: Blender create Mesh node Side limestone block.099
+08:31:35 | INFO: Blender create Mesh node Side limestone block.100
+08:31:35 | INFO: Blender create Mesh node Side limestone block.101
+08:31:35 | INFO: Blender create Mesh node Side limestone block.102
+08:31:35 | INFO: Blender create Mesh node Side limestone block.103
+08:31:35 | INFO: Blender create Mesh node Side limestone block.104
+08:31:35 | INFO: Blender create Mesh node Side limestone block.105
+08:31:35 | INFO: Blender create Mesh node Side limestone block.106
+08:31:35 | INFO: Blender create Mesh node Side limestone block.107
+08:31:35 | INFO: Blender create Mesh node Side limestone block.108
+08:31:35 | INFO: Blender create Mesh node Side limestone block.109
+08:31:35 | INFO: Blender create Mesh node Side limestone block.110
+08:31:35 | INFO: Blender create Mesh node Side limestone block.111
+08:31:35 | INFO: Blender create Mesh node Side limestone block.112
+08:31:35 | INFO: Blender create Mesh node Side limestone block.113
+08:31:35 | INFO: Blender create Mesh node Side limestone block.114
+08:31:35 | INFO: Blender create Mesh node Side limestone block.115
+08:31:35 | INFO: Blender create Mesh node Side limestone block.116
+08:31:35 | INFO: Blender create Mesh node Side limestone block.117
+08:31:35 | INFO: Blender create Mesh node Side limestone block.118
+08:31:35 | INFO: Blender create Mesh node Side limestone block.119
+08:31:35 | INFO: Blender create Mesh node Side wall diagonal.004
+08:31:35 | INFO: Blender create Mesh node Side wall diagonal.005
+08:31:35 | INFO: Blender create Mesh node Side wall lower tie.004
+08:31:35 | INFO: Blender create Mesh node Side wall lower tie.005
+08:31:35 | INFO: Blender create Mesh node Timber gable.004
+08:31:35 | INFO: Blender create Mesh node Timber gable.005
+08:31:35 | INFO: Blender create Mesh node Wall cross beam.008
+08:31:35 | INFO: Blender create Mesh node Wall cross beam.009
+08:31:35 | INFO: Blender create Mesh node Wall cross beam.010
+08:31:35 | INFO: Blender create Mesh node Wall cross beam.011
+08:31:35 | INFO: Blender create Mesh node Warm arched window.003
+08:31:35 | INFO: Blender create Mesh node Window dark recess.003
+08:31:35 | INFO: Blender create Mesh node Window golden intensity pane.006
+08:31:35 | INFO: Blender create Mesh node Window golden intensity pane.007
+08:31:35 | INFO: Blender create Mesh node Window lower amber shade.003
+08:31:35 | INFO: Blender create Mesh node Window mullion.003
+08:31:35 | INFO: Blender create Mesh node Window sill.003
+08:31:35 | INFO: Blender create Mesh node Window transom.003
+08:31:35 | INFO: Blender create Mesh node Mine tunnel darkness
+08:31:35 | INFO: Blender create Mesh node Ore hoist arm.001
+08:31:35 | INFO: Blender create Mesh node Ore hoist upright.001
+08:31:35 | INFO: Blender create Mesh node Ore ingot polished top
+08:31:35 | INFO: Blender create Mesh node Ore ingot polished top.001
+08:31:35 | INFO: Blender create Mesh node Ore ingot polished top.002
+08:31:35 | INFO: Blender create Mesh node Pick blade
+08:31:35 | INFO: Blender create Mesh node Pick blade.001
+08:31:35 | INFO: Blender create Mesh node Rail sleeper
+08:31:35 | INFO: Blender create Mesh node Rail sleeper.001
+08:31:35 | INFO: Blender create Mesh node Rail sleeper.002
+08:31:35 | INFO: Blender create Mesh node Rail sleeper.003
+08:31:35 | INFO: Blender create Mesh node Rail sleeper.004
+08:31:35 | INFO: Blender create Mesh node Rail sleeper.005
+08:31:35 | INFO: Blender create Mesh node Rail sleeper.006
+08:31:35 | INFO: Blender create Mesh node Resting miner pick shaft
+08:31:35 | INFO: Blender create Mesh node Leaf cluster.032
+08:31:35 | INFO: Blender create Mesh node Leaf cluster.033
+08:31:35 | INFO: Blender create Mesh node Leaf cluster.034
+08:31:35 | INFO: Blender create Mesh node Leaf cluster.035
+08:31:35 | INFO: Blender create Mesh node Woodland shared curved ivy leaf
+08:31:35 | INFO: Blender create Mesh node Stacked iron ingot
+08:31:35 | INFO: Blender create Mesh node Stacked iron ingot.001
+08:31:35 | INFO: Blender create Mesh node Stacked iron ingot.002
+08:31:35 | INFO: Blender create Mesh node Stacked iron ingot.003
+08:31:35 | INFO: Blender create Mesh node Woodland joint-following vine
+08:31:35 | INFO: Blender create Mesh node Woodland joint-following vine.001
+08:31:35 | INFO: Blender create Mesh node Woodland joint-following vine.002
+08:31:35 | INFO: Blender create Mesh node Woodland joint-following vine.003
+08:31:35 | INFO: Blender create Mesh node Woodland joint-following vine.004
+08:31:35 | INFO: Blender create Mesh node Woodland joint-following vine.005
+08:31:35 | INFO: Blender create Mesh node Woodland railside ore stack
+08:31:35 | INFO: Blender create Mesh node Woodland railside ore stack.001
+08:31:35 | INFO: Blender create Mesh node Woodland railside ore stack.002
+08:31:35 | INFO: Blender create Mesh node Woodland shared curved ivy leaf.002
+08:31:35 | INFO: Blender create Mesh node Woodland shared moss cushion
+08:31:35 | INFO: glTF import finished in 1.09s
+00:05.908  render           | Saved: '/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/setup/buildings/metal_mine.png'
+00:11.013  render           | Saved: '/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/docs/ambient-motion/evidence/buildings/metal_mine/frame-001.png'
+00:16.315  render           | Saved: '/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/docs/ambient-motion/evidence/buildings/metal_mine/frame-025.png'
+00:21.443  render           | Saved: '/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/docs/ambient-motion/evidence/buildings/metal_mine/frame-049.png'
+00:26.501  render           | Saved: '/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/docs/ambient-motion/evidence/buildings/metal_mine/frame-073.png'
+00:32.002  render           | Saved: '/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/docs/ambient-motion/evidence/buildings/metal_mine/frame-097.png'
+Matched actual exported ambient poses: buildings/metal_mine
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+Writing: /tmp/blender.crash.txt

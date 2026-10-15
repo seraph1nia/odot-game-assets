@@ -5,6 +5,11 @@ not the landed organic overgrowth or selective quality refinements. Baseline is
 `cfdb114`. The first and second overhaul ledgers remain historical read-only
 records; their hashes are not current acceptance bindings.
 
+The additional authorized [localized-motion delivery](../ambient-motion/README.md)
+adds actual `ambient` clips to all 16 buildings and nine water entries. The color
+checkpoint is `ac41b74`; final neutral pairs below are refreshed from the final
+exports. Motion has separate strict preservation, playback and evidence receipts.
+
 ## Reference-led observations and implementation
 
 The original supplied village board has blue/terracotta roofs, honey timber,
@@ -50,11 +55,14 @@ commissioned artist acceptance.
 | Props | Warm shafts, straps, crates and handles distinguish metal/tool parts; heraldic signals recover blue/red and gold. | Original functional silhouettes, wraps, relief, root/grip ownership and prototype reuse remain unchanged. |
 | Native UI | Parchment, leaves and violet ornament regain color while readable dark panels and existing state hierarchy stay intact. | Six SVG palettes only; all path geometry, opacity, native code/layout/theme metrics, APIs, topology and original seal bytes retained. |
 
-All 118 pairs retain the exact active mesh/primitive/triangle-instance and skin
-joint counts. Mesh-definition, triangle-definition, material and animation counts
-also agree. Export byte changes are recorded in `renders.json::facts`; increased
-packed color companions and persistent orphan source data are costs, not GPU
-performance claims. The [serialization diagnosis](diagnosis/README.md) explains
+The color-only checkpoint retains all original geometry/material/animation
+counts. The final cohesive delivery preserves all original geometry and skin
+joint counts, adds 25 explicitly inventoried ambient clips and sixteen detail
+pivots, plus exactly four new water-shimmer mesh/material definitions and instances
+(**32 triangle definitions/instances total**). No other geometry grows. Counts
+and export bytes are recorded in `renders.json::facts` and `summary.json`;
+packed color companions, persistent orphan source data and the small clips/maps
+are costs, not GPU performance claims. The [serialization diagnosis](diagnosis/README.md) explains
 why zero-user authored variants/prototypes now have fake-user persistence rather
 than being lost on ordinary saves. Independent read-only comparison covers every
 saved source, including those unused authored IDs.
@@ -62,7 +70,9 @@ saved source, including those unused authored IDs.
 ## Evidence ownership
 
 `baseline.json` binds all 118 model IDs and 67 saved source owners before editing.
-`authored.json` records material decisions and saved-source structural preservation.
+`authored.json` records material decisions and strict palette-checkpoint source
+preservation; `../ambient-motion/authored.json` chains the 23 intentionally edited
+motion sources to their final hashes. Unaffected sources still bind directly.
 `inventory.json` accounts for every catalog ID, including retained UI subparts.
 `renders.json` binds newly rendered representative actual before/after GLBs using
 the unchanged canonical renderer, plus full-catalog contact-sheet inspection.
@@ -95,9 +105,12 @@ procedure.
 [decal alpha](decals.json) and [standalone browser review](browser-review.json)
 separate mechanical results from visual judgments.
 
-- `mise run check`: 104 fast tests plus Ruff, Python/JS syntax and worker safety.
-- `mise run style-tests`: shared Blender fixtures; three additional focused
-  `test_vivid_blender.py` fixtures cover color/alpha and orphan persistence.
+- `mise run check`: fast tests plus Ruff, Python/JS syntax and worker safety;
+  the exact final count/log is bound in `../ambient-motion/checks.json`.
+- `mise run style-tests`: 27 shared Blender fixtures; four additional focused
+  `test_vivid_blender.py` fixtures cover color/alpha, orphan persistence and exact
+  encoded-map/binding negative controls. Five ambient Blender fixtures cover
+  localized ownership, rejection boundaries and presentation-buffer classification.
 - `python3 -m tools.asset_pack.check --all --blender /path/to/blender`:
   118 saved-source exports and geometry/material/rig round-trip checks.
 - `verify_style_blender.py --all`: all 118 authored selections.
@@ -105,15 +118,23 @@ separate mechanical results from visual judgments.
   embedded Base Color/Roughness/Normal/Emission channels where authored.
 - `verify_forest_blender.py`: all eleven tile compositions retain footprint,
   river interfaces, shared component geometry and library freshness.
-- `verify_vivid_blender.py`: independent before/current comparison of 67 saved
-  sources; all object structure, original IDs, all-material Non-Color pixels,
-  all texture alpha and physical defaults/emission strengths retained.
+- `verify_vivid_blender.py`: independent comparison of 67 saved sources against
+  their palette checkpoint (or unchanged final source), composed with the fresh
+  independent motion audit for the 23 later edited owners. Original structure,
+  IDs, Non-Color pixels, texture alpha and physical defaults/emission strengths
+  survive; declared ambient pivots/new shimmer geometry are not disguised as old.
+  [Exact packed/encoded PNG proofs](../ambient-motion/README.md#exact-image-preservation-not-normalized-float-hashes)
+  replace unstable Blender-normalized float hashing, without epsilon or omitted
+  maps; per-map byte/sample/alpha/binding hashes cover every protected channel.
 - Native qualification: 3,626 checks / 121 actual captures, fourteen current
   catalog captures, independent 175-file/eleven-scene UI-only load and a directly
   loaded **fresh current ZIP**, bound in `../ui/worldtree-validation.json`.
 - 118 canonical neutral actual render pairs, 192/96 derivatives and refreshed
-  catalog thumbnails; 35 saved-source presentation previews, without source saves.
-  Neutral renderer bytes are unchanged. Its auto-fit is not a game-camera claim.
+  catalog thumbnails. The 35 saved-source presentation previews are explicitly
+  **palette-checkpoint views**, without source saves; `presentation.json` retains
+  their original source/image bindings, not falsely rebound final hashes. They
+  are not motion evidence. Final neutral/motion GLB renders qualify the current
+  output. Neutral renderer bytes are unchanged; auto-fit is not a game camera.
 - Standalone task-private Chrome reviewed the portable Lavish export at desktop
   and narrow widths; all 63 displayed images loaded with no horizontal overflow.
   Project reference-library tokens/serif hierarchy supplied the page design.

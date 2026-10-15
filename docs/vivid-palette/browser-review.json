@@ -1,53 +1,69 @@
 {
-  "scope": "Task-private standalone asset report and portable Lavish export; not game/GPU/artist acceptance",
-  "design_source": "Project reference-library CSS tokens and serif hierarchy (existing subject design, not a CDN/new design system)",
-  "page": "docs/vivid-palette/actual-review.html",
-  "page_sha256": "8397557d8a42307ec512f261a072c17ff11135809b3c8402706562789fc0e220",
-  "portable_export_sha256": "cb6d9d10b925510fd5d9dadfdb565043666c88a7376a646a59a17cfa6ef5aa16",
-  "portable_export_unresolved_local_assets": 0,
-  "lavish_session": "http://desktop.tail449e9e.ts.net:4387/session/6aafd1f03ff4b28e",
-  "handoff": "lavish-axi reply accepted; no untracked background poll or discretionary aesthetic approval gate",
-  "viewports": [
-    {
-      "width": 1440,
-      "height": 1000,
-      "displayed_images": 63,
-      "loaded": 63,
-      "horizontal_overflow": false
+  "scope": "Task-private standalone current color/motion reports and actual catalog playback, not game/GPU/artist acceptance",
+  "design_source": "Existing project reference-library CSS colors/serif hierarchy; no new CDN/design dependency",
+  "reports": {
+    "color": {
+      "page": "docs/vivid-palette/actual-review.html",
+      "page_sha256": "5f80bf38239b6946e43d712f8481c58b200ebf8a6334501238676f4ff5f21543",
+      "portable_sha256": "aa5384b73779aaff11170a92f6ec443a08b2eccc8a5d82144bc026f921e5b743",
+      "viewports": {
+        "desktop": {
+          "images": 63,
+          "loaded": 63,
+          "overflow": false,
+          "width": 1440,
+          "height": 1000
+        },
+        "mobile": {
+          "images": 63,
+          "loaded": 63,
+          "overflow": false,
+          "width": 390,
+          "height": 844
+        }
+      },
+      "screenshots": {
+        "docs/vivid-palette/evidence/browser/desktop.png": "d051636f3eaf727f5ad1539bd614fc370e18a0058de62fc32bf6227597ed0bac",
+        "docs/vivid-palette/evidence/browser/mobile.png": "a99dadd7f39f8e7481b0c612d3d60f7dd2dd1dcdec4186e4f4238c1be28096a1",
+        "docs/vivid-palette/evidence/browser/desktop-focal.png": "87405e5407a0f669c1b1d1645a46dd77b2255b559d3fd321e9d8dce387c6fd3a"
+      },
+      "lavish_receipt": ".cache/ambient-motion/lavish-color.toon",
+      "lavish_reply_receipt": ".cache/ambient-motion/lavish-color-reply.toon"
     },
-    {
-      "width": 390,
-      "height": 844,
-      "displayed_images": 63,
-      "loaded": 63,
-      "horizontal_overflow": false
+    "motion": {
+      "page": "docs/ambient-motion/review.html",
+      "page_sha256": "648025072c5d53e2ea4655c5fba5042ddd24d0071e6043cae756a3be5d63a52f",
+      "portable_sha256": "4a7e7b98da264068e0401c1b2c22b5a4d872a011d94d86330fecba9983d92a1d",
+      "viewports": {
+        "desktop": {
+          "title": "Small living details \u00b7 actual exported motion",
+          "images": 50,
+          "loaded": 50,
+          "overflow": false,
+          "width": 1440,
+          "height": 1000
+        },
+        "mobile": {
+          "images": 50,
+          "loaded": 50,
+          "overflow": false,
+          "width": 390,
+          "height": 844
+        }
+      },
+      "screenshots": {
+        "docs/ambient-motion/evidence/browser/motion-desktop.png": "f4dcd37c1c70afa12d03950952cc2c67fac93ef20f1b8f05396221a02b9dae66",
+        "docs/ambient-motion/evidence/browser/motion-mobile.png": "1636b3fceb535007d36feb52200b5fcf519c7b05a3e8e3cc9c2a01ca4937da3e",
+        "docs/ambient-motion/evidence/browser/motion-mobile-focal.png": "90dd379628eb02034877bf6138be4cc5cbc3c5e126be208096c221206217e726"
+      },
+      "lavish_receipt": ".cache/ambient-motion/lavish-motion.toon",
+      "lavish_reply_receipt": ".cache/ambient-motion/lavish-motion-reply.toon"
     }
-  ],
-  "screenshots": {
-    "desktop": {
-      "path": "docs/vivid-palette/evidence/browser/desktop.png",
-      "sha256": "8943cc7cf69dccfd3a95bb506cb8d79083f31f48651d401a3a2a4d9c0cda252b"
-    },
-    "mobile": {
-      "path": "docs/vivid-palette/evidence/browser/mobile.png",
-      "sha256": "c533ba126f72016856f12628721362c98ffc9330f9649af7cc80207ec34c9cda"
-    }
   },
-  "browser": {
-    "path": ".cache/quality-round-two/browser/chrome-linux64/chrome",
-    "version": "Google Chrome for Testing 155.0.8059.79",
-    "sha256": "58957d0e74a9073626131018aabf17d97318227cca9b5dbdf5dee16345f2d211",
-    "provisioning": "Previously approved official distribution, retained unchanged; docs/quality-round-two/browser-provenance.json",
-    "previous_provenance_sha256": "8c62f7ec446416e16ba7b9c87742a4449d3b4a9b41b5080e60523d75533f833b"
+  "actual_catalog_playback": {
+    "receipt": "docs/ambient-motion/browser-playback.json",
+    "sha256": "7fb4be4595595c71efa8e18e6f2f3b5d45edacc8f047a4d043d423d216bc4456",
+    "assets": 25
   },
-  "mcp": {
-    "path": "/home/bart/.npm/_npx/15c61037b1978c83/node_modules/chrome-devtools-mcp/build/src/bin/chrome-devtools-mcp.js",
-    "sha256": "9f380d06e1ac05b257e27e708c0cc4b4ba190e285ed6eb6c8aa50978d98a12c5",
-    "mode": "Existing installed MCP via task-local executablePath adapter/private profile/named axi session; no dependency installation"
-  },
-  "limits": [
-    "Lavish sandbox iframe disallows top-level DOM inspection; untokened direct artifact route expired. Those diagnostics are not acceptance. Official portable export was directly reviewed instead.",
-    "All eleven full-catalog sheets and focal actual images inspected by implementation agent; not commissioned artist approval.",
-    "No game repository/process, global configuration, purchase or new dependency."
-  ]
+  "native_zip_sha256": "840b69d7c91d743608ea01c8a9e10bdfb82c8050abda1bf93d798b171b2bc2a9"
 }

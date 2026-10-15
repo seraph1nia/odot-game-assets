@@ -1,0 +1,311 @@
+{
+  "source": ".cache/ambient-motion/isolation/palette/sources/environment/hex_crystal_shrine.blend",
+  "image": "painted_crystal_roughness.025",
+  "space": "Non-Color",
+  "packed_sha256": "f77479390a57c8623dd652f33b93d4867f5e552c7b65dc5652a6433c012d16fc",
+  "png_bit_depth": 8,
+  "rows": [
+    {
+      "method": "empty",
+      "iteration": 0,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "zeros",
+      "iteration": 0,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "owned_slice",
+      "iteration": 0,
+      "hash": "d8ee3d31f91725afba9caf8ac5fbcddfae272afec1da9296ff142342e7c2e0fd",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "empty",
+      "iteration": 1,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "zeros",
+      "iteration": 1,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "owned_slice",
+      "iteration": 1,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "empty",
+      "iteration": 2,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "zeros",
+      "iteration": 2,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "owned_slice",
+      "iteration": 2,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "empty",
+      "iteration": 3,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "zeros",
+      "iteration": 3,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "owned_slice",
+      "iteration": 3,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "empty",
+      "iteration": 4,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "zeros",
+      "iteration": 4,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "owned_slice",
+      "iteration": 4,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "empty",
+      "iteration": 5,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "zeros",
+      "iteration": 5,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "owned_slice",
+      "iteration": 5,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "empty",
+      "iteration": 6,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "zeros",
+      "iteration": 6,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "owned_slice",
+      "iteration": 6,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "empty",
+      "iteration": 7,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "zeros",
+      "iteration": 7,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "owned_slice",
+      "iteration": 7,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "empty",
+      "iteration": 8,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "zeros",
+      "iteration": 8,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "owned_slice",
+      "iteration": 8,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "empty",
+      "iteration": 9,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "zeros",
+      "iteration": 9,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "owned_slice",
+      "iteration": 9,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "empty",
+      "iteration": 10,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "zeros",
+      "iteration": 10,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "owned_slice",
+      "iteration": 10,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "empty",
+      "iteration": 11,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "zeros",
+      "iteration": 11,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    },
+    {
+      "method": "owned_slice",
+      "iteration": 11,
+      "hash": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+      "address_mod_64": 0,
+      "length": 4194304,
+      "nonfinite": 0
+    }
+  ],
+  "differences_from_owned_slice": {
+    "zeros-1": {
+      "count": 1,
+      "max": 1.1920928955078125e-07,
+      "examples": [
+        {
+          "index": 3947840,
+          "observed": 0.2274508774280548,
+          "reference": 0.22745099663734436,
+          "float32_ulp_delta": -8
+        }
+      ]
+    }
+  }
+}

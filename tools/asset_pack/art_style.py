@@ -278,6 +278,30 @@ class VividStyle:
 VIVID = VividStyle()
 
 
+@dataclass(frozen=True)
+class AmbientStyle:
+    """Small authored object-action loops; unrelated to the six unit clips."""
+    clip: str = 'ambient'
+    fps: int = 24
+    frames: tuple = (1, 25, 49, 73, 97)
+    swing_degrees: float = 2.0
+    crystal_degrees: float = 10.0
+    shuttle_travel: float = .035
+    current_travel: float = .025
+    foam_travel: float = .012
+    waterfall_travel: float = .008
+    shimmer_length: float = .22
+    shimmer_width: float = .007
+    shimmer_clearance: float = .0008
+    shimmer_color: tuple = (.28, .57, .59)
+    detail_camera_direction: tuple = (1, -1.5, .9)
+    low_detail_camera_direction: tuple = (0, -1.5, .08)
+    low_detail_camera_assets: tuple = ('buildings/town_hall',)
+
+
+AMBIENT = AmbientStyle()
+
+
 def woodland_color(color, *, accent=False, skin=False):
     """Grade encoded sRGB while retaining relative hues and surface variation."""
     spec = WHISPERWOOD

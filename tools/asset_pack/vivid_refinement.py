@@ -16,6 +16,7 @@ import bpy
 import numpy as np
 import art_style as style
 from woodland_refinement import decode, encode
+from tools.asset_pack.encoded_images import image_proof
 
 ROOT = Path(__file__).resolve().parents[2]
 DOCS = ROOT / 'docs/vivid-palette'
@@ -32,12 +33,18 @@ def pixels(image):
     return values.reshape(image.size[1], image.size[0], 4)
 
 
-def structure():
-    """Fingerprint geometry/UVs/reuse/hierarchy/rigs/animation, excluding colors."""
+def structure(*, object_transforms=None):
+    """Fingerprint preserved content; motion audit may normalize checked rest binds.
+
+    Overrides are only for a separate audit that independently checks every real
+    rest matrix and the explicitly allowed inserted pivot parents first.
+    """
     result = {}
     for obj in bpy.data.objects:
-        item = [obj.type, obj.parent.name if obj.parent else None, obj.parent_type,
-                obj.parent_bone, list(map(list, obj.matrix_world)),
+        parent, matrix = (object_transforms or {}).get(obj.name,
+            (obj.parent.name if obj.parent else None, list(map(list, obj.matrix_world))))
+        item = [obj.type, parent, obj.parent_type,
+                obj.parent_bone, matrix,
                 sorted(c.name for c in obj.users_collection),
                 [(m.name, m.type, getattr(m, 'object', None).name if getattr(m, 'object', None) else None)
                  for m in obj.modifiers]]
@@ -82,8 +89,38 @@ def preserve_orphans():
     return protected
 
 
+def data_binding(mat, node):
+    """Preserve image identity, coordinate mapping, routing and sampler use-state."""
+    def values(owner, names):
+        result = {}
+        for name in names:
+            if hasattr(owner, name):
+                value = getattr(owner, name)
+                result[name] = value if isinstance(value, (str, bool, int, float)) else tuple(value)
+        return result
+    upstream = {}; pending = [node]
+    while pending:
+        current = pending.pop()
+        if current.name in upstream:
+            continue
+        upstream[current.name] = {'type': current.bl_idname, 'mute': current.mute,
+            'properties': values(current, ('uv_map', 'attribute_name', 'layer_name', 'vector_type',
+                                           'projection', 'projection_blend', 'interpolation', 'extension')),
+            'inputs': [(socket.name, values(socket, ('default_value',))) for socket in current.inputs]}
+        if hasattr(current, 'texture_mapping'):
+            upstream[current.name]['mapping'] = values(current.texture_mapping,
+                ('vector_type', 'mapping_x', 'mapping_y', 'mapping_z', 'translation', 'rotation', 'scale',
+                 'min', 'max', 'use_min', 'use_max'))
+        pending.extend(link.from_node for socket in current.inputs for link in socket.links)
+    return {'image': node.image.name, 'material_uses_nodes': mat.use_nodes, 'coordinate_graph': upstream,
+            'routing': sorted((link.from_node.name, link.from_socket.name, link.to_node.name, link.to_socket.name)
+                              for link in mat.node_tree.links),
+            'image_user': values(node.image_user, ('frame_duration', 'frame_start', 'frame_offset', 'use_cyclic', 'use_auto_refresh'))}
+
+
 def data_channels():
-    return {m.name + '/' + n.name: sha_bytes(pixels(n.image).tobytes())
+    """Exact source-data proof, never hashes of Blender-normalized float buffers."""
+    return {m.name + '/' + n.name: {'encoded': image_proof(n.image), 'binding': data_binding(m, n)}
             for m in bpy.data.materials if m.use_nodes for n in m.node_tree.nodes
             if n.type == 'TEX_IMAGE' and n.image and n.image.colorspace_settings.name == style.TEXTURES.data_space}
 

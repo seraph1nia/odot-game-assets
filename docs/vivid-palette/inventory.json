@@ -11,7 +11,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/archery_range.blend",
-      "source_sha256": "62cc698cd49eea2ce903752e1793f74d64a23e5c51fc1897aeddd95b54c8dfb5",
+      "source_sha256": "816c124d57621a7f635548abbc2168e9c5950789bb20cc9a27e176b41a11341b",
       "evidence": {
         "before": {
           "export_sha256": "2bd606ca2953e5f329b7abf55f100d73717df17ba7262d97365792a5db1be297",
@@ -46,26 +46,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/archery_range.png",
-          "image_sha256": "ed50420e10c7798f3fc49f167ecf9be2487019d7c0e02856dc625788de77bf14",
-          "source_sha256": "62cc698cd49eea2ce903752e1793f74d64a23e5c51fc1897aeddd95b54c8dfb5",
-          "export_sha256": "4591ed697318b226be6071093927a41b338fb88e672bb172a4271fa138d686bc",
+          "image_sha256": "6d96149964e2efd6dca381623abaeacf78671e70e282625e5311f388c6caf0aa",
+          "source_sha256": "816c124d57621a7f635548abbc2168e9c5950789bb20cc9a27e176b41a11341b",
+          "export_sha256": "851fad1ec3b310163d40c090b1b51b17eea539e041af299ccd30611e04af3106",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/archery_range-192.png": "8844199132003d3deed5a1bb1b9ceb3057a2f56a24841d5f818597b23e92eebd",
-            "docs/vivid-palette/evidence/after/buildings/archery_range-96.png": "bd9c05e0c424772b2cf8989cc4dac0d6225c22c206240194d636e1f5d667321b"
+            "docs/vivid-palette/evidence/after/buildings/archery_range-192.png": "30c18373bd00f049ddedac979e7568ed517fedb8d80595104997e09eca80e57c",
+            "docs/vivid-palette/evidence/after/buildings/archery_range-96.png": "a166c7467ff597fcf5710972dd2eae898ee6b9b8036abdfc39109875af299371"
           },
           "job": {
             "job": "vivid-render-buildings-archery_range",
-            "seconds": 15.05,
+            "seconds": 6.9,
             "log": ".cache/asset-check/logs/vivid-render-buildings-archery_range.log"
           },
           "facts": {
-            "bytes": 7976180,
+            "bytes": 7979912,
             "meshes": 453,
             "triangles": 41996,
             "materials": 46,
-            "animations": [],
-            "version": "4591ed697318b226be6071093927a41b338fb88e672bb172a4271fa138d686bc"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "851fad1ec3b310163d40c090b1b51b17eea539e041af299ccd30611e04af3106"
           }
         },
         "resources_before": {
@@ -130,7 +136,7 @@
         "wood_light.001"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -140,7 +146,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/arrow_tower.blend",
-      "source_sha256": "4870f3cdc91ebcb031b98064d568e15f0870b5ba079c060ce74fead21679494e",
+      "source_sha256": "362adaf78ebf4d19aa23b7e50c1aa4bc0597a2a7b8d3421584aefc214ab8a642",
       "evidence": {
         "before": {
           "export_sha256": "dfa58adc5ff7bb517506aca5873d15a9a4495c7caba644d8ac935346af988595",
@@ -175,26 +181,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/arrow_tower.png",
-          "image_sha256": "3db40c736340ede848f5192c3c6720354b09fe6adaecbcc688d700eb8e9d9d86",
-          "source_sha256": "4870f3cdc91ebcb031b98064d568e15f0870b5ba079c060ce74fead21679494e",
-          "export_sha256": "802febd7f30be08d773e07bc2cc89ee9f47ff99412267e5f20cf483cc5eba771",
+          "image_sha256": "04ee083327b5748676f220abee2dbe3e3f81eb1edf96faa6a958ff5dfbc2c705",
+          "source_sha256": "362adaf78ebf4d19aa23b7e50c1aa4bc0597a2a7b8d3421584aefc214ab8a642",
+          "export_sha256": "7734a3dcd5deb492d9eb6537707507b9cd3600afed0d185dae22522f1a3f9c82",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/arrow_tower-192.png": "f2377e96ea5b39c1abcf7e0a89dd8e64b956234876fe1a9544fefbde71331ec6",
-            "docs/vivid-palette/evidence/after/buildings/arrow_tower-96.png": "3a6b975b81516b7548647921a10bf045c8dedf2771bf96a6499733aa16a53dfd"
+            "docs/vivid-palette/evidence/after/buildings/arrow_tower-192.png": "a83e963fcaf36a04a71fb6bbf7f81e741bccb05ebbfeb86f317bb57fad6d4c7f",
+            "docs/vivid-palette/evidence/after/buildings/arrow_tower-96.png": "542314192339bfb300254ce6ec8a95e4ae5e8dff7ca572acee306034d9625acb"
           },
           "job": {
             "job": "vivid-render-buildings-arrow_tower",
-            "seconds": 5.14,
+            "seconds": 5.21,
             "log": ".cache/asset-check/logs/vivid-render-buildings-arrow_tower.log"
           },
           "facts": {
-            "bytes": 3540860,
+            "bytes": 3544476,
             "meshes": 250,
             "triangles": 22237,
             "materials": 44,
-            "animations": [],
-            "version": "802febd7f30be08d773e07bc2cc89ee9f47ff99412267e5f20cf483cc5eba771"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "7734a3dcd5deb492d9eb6537707507b9cd3600afed0d185dae22522f1a3f9c82"
           }
         },
         "resources_before": {
@@ -257,7 +269,7 @@
         "wood_light.002"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -267,7 +279,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/bakery.blend",
-      "source_sha256": "a25400d130ee25eb8e57e53c194a4a29596a53e429725684081404a3e085f137",
+      "source_sha256": "b2830d71c9d608a863371e503115789b2fd42b95ee15ee046d4b6d56488ca51d",
       "evidence": {
         "before": {
           "image": "docs/vivid-palette/evidence/before/buildings/bakery.png",
@@ -301,26 +313,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/bakery.png",
-          "image_sha256": "bf002da4cc8ee788c06dd9e80fdc6605900f1d4f437a327ede0b14e29abe5ba9",
-          "source_sha256": "a25400d130ee25eb8e57e53c194a4a29596a53e429725684081404a3e085f137",
-          "export_sha256": "875a9c3360ad00aaa6b9cf9a33fe618a4a06a0f81352a80ad3caf5fc6914c84a",
+          "image_sha256": "73f6e58caf36db1c5232412514797e352b2e0c128340e551f9acde800362b3d7",
+          "source_sha256": "b2830d71c9d608a863371e503115789b2fd42b95ee15ee046d4b6d56488ca51d",
+          "export_sha256": "cc49074b879a1b03ab9b52135d8d93e467a0f07c355466ea4ee02890b7638e66",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/bakery-192.png": "c97b0e333948f98dd5b667896de71160896bb90fb041a0435d3b27a35b0230b1",
-            "docs/vivid-palette/evidence/after/buildings/bakery-96.png": "dfe3d8b563a806bf952c9718d08c68172a1a5fbc26139796df1feab31e717eaf"
+            "docs/vivid-palette/evidence/after/buildings/bakery-192.png": "375d2c741454d5ca69f43e780b20d56020a2d8bba25501dd9038987cc3a707d4",
+            "docs/vivid-palette/evidence/after/buildings/bakery-96.png": "cd05c22cbeb97b0dae47f274bc78c9a3cc0ddd34a124714fe7d53329b24876a4"
           },
           "job": {
             "job": "vivid-render-buildings-bakery",
-            "seconds": 8.95,
+            "seconds": 3.83,
             "log": ".cache/asset-check/logs/vivid-render-buildings-bakery.log"
           },
           "facts": {
-            "bytes": 3467876,
+            "bytes": 3471496,
             "meshes": 363,
             "triangles": 30343,
             "materials": 22,
-            "animations": [],
-            "version": "875a9c3360ad00aaa6b9cf9a33fe618a4a06a0f81352a80ad3caf5fc6914c84a"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "cc49074b879a1b03ab9b52135d8d93e467a0f07c355466ea4ee02890b7638e66"
           }
         },
         "resources_before": {
@@ -363,7 +381,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -373,7 +391,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/barracks.blend",
-      "source_sha256": "eaa16a0e380b8fdf7b0dc0c3e25811ec5161a7dadb087f1881bb4afb66a03bb2",
+      "source_sha256": "f9c684de835843fb26c18c8de7e6c471e2251ac954225f8774d1ea4e506ad788",
       "evidence": {
         "before": {
           "export_sha256": "e611ccde8dd3d372df2ab4eda4c5b170fc2bac177ebffdfab6c25eb0514b1c2c",
@@ -408,26 +426,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/barracks.png",
-          "image_sha256": "cf3cc49d6258f736d79b84bdf63d7d8a323b0691e68ff8e75016edae83391aa4",
-          "source_sha256": "eaa16a0e380b8fdf7b0dc0c3e25811ec5161a7dadb087f1881bb4afb66a03bb2",
-          "export_sha256": "ca601c574289b1a96434ea55f7b9568754203e5267061180d1b987df5a4a817e",
+          "image_sha256": "818528fe57e51751a09c3b63226745326178b84411d36a5cdf1f5a5974cdfddb",
+          "source_sha256": "f9c684de835843fb26c18c8de7e6c471e2251ac954225f8774d1ea4e506ad788",
+          "export_sha256": "8755cd7db358bb0f4518b05dc3de7f4781d0d4aa5212beca710e40009c6f27c7",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/barracks-192.png": "fc4811b07eb32027d01dd1f0ee9260da924d27b9fb3834ab0169eac7a4d277d6",
-            "docs/vivid-palette/evidence/after/buildings/barracks-96.png": "d26cf88213780a692ec32fdf3cb64b412387f801998067d4a179d2cc2986ac9a"
+            "docs/vivid-palette/evidence/after/buildings/barracks-192.png": "d64c7750b770added4ecd09f966e0bee277552eddaf123673a197967c7d5160c",
+            "docs/vivid-palette/evidence/after/buildings/barracks-96.png": "2f785add3e274a9f49ead2e1165152d1c5f21b664f6ffbf70691f963a691832d"
           },
           "job": {
             "job": "vivid-render-buildings-barracks",
-            "seconds": 14.0,
+            "seconds": 6.11,
             "log": ".cache/asset-check/logs/vivid-render-buildings-barracks.log"
           },
           "facts": {
-            "bytes": 4435264,
+            "bytes": 4438192,
             "meshes": 289,
             "triangles": 26643,
             "materials": 45,
-            "animations": [],
-            "version": "ca601c574289b1a96434ea55f7b9568754203e5267061180d1b987df5a4a817e"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "8755cd7db358bb0f4518b05dc3de7f4781d0d4aa5212beca710e40009c6f27c7"
           }
         },
         "resources_before": {
@@ -490,7 +514,7 @@
         "wood_light.003"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -500,7 +524,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/bombarding_tower.blend",
-      "source_sha256": "c5d6240bbd757b4fa6b00a800c72d7f1ec4bf3352f397f662b78cdb6689e490d",
+      "source_sha256": "90cd17ebb43fa0d182146b7707e26534366667bfeb5408f78a22ad4853d99a1a",
       "evidence": {
         "before": {
           "export_sha256": "06ac8ca3b47754b86f067055294f0b99d2542d620835ee02d1895781fcc99ab2",
@@ -535,26 +559,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/bombarding_tower.png",
-          "image_sha256": "25a1c40146b635dd3d506328746ae7bb04b9815fe731722327f2032f63809a2f",
-          "source_sha256": "c5d6240bbd757b4fa6b00a800c72d7f1ec4bf3352f397f662b78cdb6689e490d",
-          "export_sha256": "068e2b446730c503e46b3634cbac45fefb62e6ce7aa5ce3086593c83cf529b7d",
+          "image_sha256": "660a88ff7bf7fcfe9df75800bc303cbddae5ecb1e8c14d0f214178188e2b702d",
+          "source_sha256": "90cd17ebb43fa0d182146b7707e26534366667bfeb5408f78a22ad4853d99a1a",
+          "export_sha256": "68e4c0df67ed7d54d0ee904e129073e8252e8393b1b90a38df6ebcb32c99555d",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/bombarding_tower-192.png": "7dc68c5ff0479cb0a377147814befdc04e87f5f4c449d1d18085aed3cfc5a155",
-            "docs/vivid-palette/evidence/after/buildings/bombarding_tower-96.png": "02d1f3def95d7b3ed40b49b745a850fde03af3dd3b90e9a35b8c188a7f53d86d"
+            "docs/vivid-palette/evidence/after/buildings/bombarding_tower-192.png": "67fd66af51088af7295fe3b001b5675f1ef2a81d1a796185f0d505c0847ce6ab",
+            "docs/vivid-palette/evidence/after/buildings/bombarding_tower-96.png": "fb0cbb9c38e47195b5df7934791ea564717c6b0631d1b8729a16731166410380"
           },
           "job": {
             "job": "vivid-render-buildings-bombarding_tower",
-            "seconds": 11.42,
+            "seconds": 5.42,
             "log": ".cache/asset-check/logs/vivid-render-buildings-bombarding_tower.log"
           },
           "facts": {
-            "bytes": 3704000,
+            "bytes": 3707636,
             "meshes": 210,
             "triangles": 19445,
             "materials": 37,
-            "animations": [],
-            "version": "068e2b446730c503e46b3634cbac45fefb62e6ce7aa5ce3086593c83cf529b7d"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "68e4c0df67ed7d54d0ee904e129073e8252e8393b1b90a38df6ebcb32c99555d"
           }
         },
         "resources_before": {
@@ -611,7 +641,7 @@
         "wood_light.005"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -621,7 +651,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/gold_mine.blend",
-      "source_sha256": "14d7a53b35a3aade1d615421d71b94032080f96a9ebd1058e202440c435c23e5",
+      "source_sha256": "f00b0aad15664205e0e304fbaebe8a7ca24b21cf3caf4311da470ebb5d7aa9fd",
       "evidence": {
         "before": {
           "export_sha256": "6f0aac0808817e112ecef9c333a84f6d4c9185eceb4262f125d025ad4ce273d3",
@@ -656,26 +686,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/gold_mine.png",
-          "image_sha256": "4c9cff3950df9293690c41e692653c71b991b525d225e736623594c7ef93d92e",
-          "source_sha256": "14d7a53b35a3aade1d615421d71b94032080f96a9ebd1058e202440c435c23e5",
-          "export_sha256": "063c8315aff0197791e9ba0ac6d893253c6f65e067abc41c3bd9d39378fe6d0c",
+          "image_sha256": "902420ce19004b6bf541b9bc06a3ffc00988f81f78a5af19336fce3cb1e95359",
+          "source_sha256": "f00b0aad15664205e0e304fbaebe8a7ca24b21cf3caf4311da470ebb5d7aa9fd",
+          "export_sha256": "5efe302a4a62d23c301c787410d58a3fe7013c54931362664aa997f441233d3b",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/gold_mine-192.png": "0708096f16064c24d0c727c6df25e72f5c7bb24a1917c02369e146a60bf1f16a",
-            "docs/vivid-palette/evidence/after/buildings/gold_mine-96.png": "af4f47f7363da965156a6ee595828eca6530ed01c921c75a4a68662e7b82ec37"
+            "docs/vivid-palette/evidence/after/buildings/gold_mine-192.png": "829d86e0e1f6836a027dece58d96e84a830e70b15e883d7ebfe84d79e3f92f79",
+            "docs/vivid-palette/evidence/after/buildings/gold_mine-96.png": "a12d91c3eff3c64655b3e67a37ac100aa9e3d163afbbc8a0e9b1365feafdb1cb"
           },
           "job": {
             "job": "vivid-render-buildings-gold_mine",
-            "seconds": 3.4,
+            "seconds": 3.24,
             "log": ".cache/asset-check/logs/vivid-render-buildings-gold_mine.log"
           },
           "facts": {
-            "bytes": 1800432,
+            "bytes": 1804216,
             "meshes": 148,
             "triangles": 13266,
             "materials": 19,
-            "animations": [],
-            "version": "063c8315aff0197791e9ba0ac6d893253c6f65e067abc41c3bd9d39378fe6d0c"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "5efe302a4a62d23c301c787410d58a3fe7013c54931362664aa997f441233d3b"
           }
         },
         "resources_before": {
@@ -715,7 +751,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -725,7 +761,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/magic_academy.blend",
-      "source_sha256": "95333ce349033e7332315bc2c59006a33ed10108a6e7f7c2b5b37f561f052133",
+      "source_sha256": "3cd5d8cbde136e5ca725d375754ac3dc22dfadf4ba9254c67276c24f731e0930",
       "evidence": {
         "before": {
           "image": "docs/vivid-palette/evidence/before/buildings/magic_academy.png",
@@ -759,26 +795,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/magic_academy.png",
-          "image_sha256": "d4386633fd7fd47bd62d315736762e0ad250b90c49038414aa9a2284e8ffe789",
-          "source_sha256": "95333ce349033e7332315bc2c59006a33ed10108a6e7f7c2b5b37f561f052133",
-          "export_sha256": "b7c7ccfb6ba47a93628aed215e5bc8d723dd705463d27efd5aa9786d5b5c727b",
+          "image_sha256": "07cc32d32abeea16472a8fdbf5b062f16af799c53bca8f66320db6203e640ba0",
+          "source_sha256": "3cd5d8cbde136e5ca725d375754ac3dc22dfadf4ba9254c67276c24f731e0930",
+          "export_sha256": "7fee44b3b088347689553accc8027cb03e5a441d0dfdfc8201365564b9bb62ca",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/magic_academy-192.png": "acbf663aa84fc7e282b4725edc018621b14a96471209387faa937b810a413797",
-            "docs/vivid-palette/evidence/after/buildings/magic_academy-96.png": "66ef3cfa03f913a602f05349f2a33e13f6cdbc6edb780dd1e036227f3216fa9d"
+            "docs/vivid-palette/evidence/after/buildings/magic_academy-192.png": "aa2f71db80324dc14ad95af95cda55f231f03b4c809ce5c8c560d5c55b5c307e",
+            "docs/vivid-palette/evidence/after/buildings/magic_academy-96.png": "86f5448a45d88cd160c642439d30ee1b923724f5b87771a88c8a88c4ec3e12c5"
           },
           "job": {
             "job": "vivid-render-buildings-magic_academy",
-            "seconds": 14.71,
+            "seconds": 7.36,
             "log": ".cache/asset-check/logs/vivid-render-buildings-magic_academy.log"
           },
           "facts": {
-            "bytes": 5399820,
+            "bytes": 5402740,
             "meshes": 313,
             "triangles": 28350,
             "materials": 42,
-            "animations": [],
-            "version": "b7c7ccfb6ba47a93628aed215e5bc8d723dd705463d27efd5aa9786d5b5c727b"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "7fee44b3b088347689553accc8027cb03e5a441d0dfdfc8201365564b9bb62ca"
           }
         },
         "resources_before": {
@@ -840,7 +882,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -850,7 +892,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/metal_mine.blend",
-      "source_sha256": "9cb9e36524b5f218f23757afc163d222197c0a0501e05255c47790f639ac4e3c",
+      "source_sha256": "24feea0c264f3d84fa972c4e972b7374d861bba990afabab86a2ad423f582ee7",
       "evidence": {
         "before": {
           "export_sha256": "404a25e42a4d71acc55a2211887264c1824a876561b678dbb2a314cab9778bab",
@@ -885,26 +927,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/metal_mine.png",
-          "image_sha256": "e4c6cecbc49cabd0e9661cbc3a8cc1833e863541410e4715ff04a122d0b9729c",
-          "source_sha256": "9cb9e36524b5f218f23757afc163d222197c0a0501e05255c47790f639ac4e3c",
-          "export_sha256": "0b71823e967f8c1642d2257304231757479fc9a8a3278f78c20e7ac2df0201a8",
+          "image_sha256": "d52641c25e77199b32809733feb5d865fd542b34af2cb079153ae36d6f398157",
+          "source_sha256": "24feea0c264f3d84fa972c4e972b7374d861bba990afabab86a2ad423f582ee7",
+          "export_sha256": "ce0ccecf59d0fa2a8ab326f7eeca29495c643999e8e6bdaf133b5eb99bb7f198",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/metal_mine-192.png": "5d5f9493129fcc4659dafa5f8cc57f6fbe7b424812c6d1706506142248c8eb27",
-            "docs/vivid-palette/evidence/after/buildings/metal_mine-96.png": "21a334a6e7d983134a7341148ec7877ace37d5f6abdbca956aaa1ac2920b06bc"
+            "docs/vivid-palette/evidence/after/buildings/metal_mine-192.png": "2e101a50b7ae7873fef097cd17f821e045d9fd1acaf3f479f5922775290d2c84",
+            "docs/vivid-palette/evidence/after/buildings/metal_mine-96.png": "41d627cf7e9e94a07b799745049f4863777d75088183e8dddd59ed946128a054"
           },
           "job": {
             "job": "vivid-render-buildings-metal_mine",
-            "seconds": 11.32,
+            "seconds": 5.57,
             "log": ".cache/asset-check/logs/vivid-render-buildings-metal_mine.log"
           },
           "facts": {
-            "bytes": 7098484,
+            "bytes": 7102128,
             "meshes": 387,
             "triangles": 37138,
             "materials": 43,
-            "animations": [],
-            "version": "0b71823e967f8c1642d2257304231757479fc9a8a3278f78c20e7ac2df0201a8"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "ce0ccecf59d0fa2a8ab326f7eeca29495c643999e8e6bdaf133b5eb99bb7f198"
           }
         },
         "resources_before": {
@@ -967,7 +1015,7 @@
         "wood_light.004"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -977,7 +1025,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/research_tower.blend",
-      "source_sha256": "f58fc18649467ce7c206315df8f028309d261935ac4b42eee6d61f2a7756f457",
+      "source_sha256": "fabdc01a6fd1172ba8904d76de69275deada64fcfe260e47eade38e69e6a995b",
       "evidence": {
         "before": {
           "export_sha256": "019364121d0b250d7b261ff19d1c289405d5c0d9529239d2b86efbd9f3bf356d",
@@ -1012,26 +1060,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/research_tower.png",
-          "image_sha256": "9b7c8cdb8ae0f078ddb529586ad56e4cf27271529f3f03c42a2ecfd4293adaa2",
-          "source_sha256": "f58fc18649467ce7c206315df8f028309d261935ac4b42eee6d61f2a7756f457",
-          "export_sha256": "97d77af6bde6817258c8ac121a2b2655190b37f5d3a60c3caa2b66b3e6f90161",
+          "image_sha256": "5e5c635c2cbd2711daa543713f7c9704bc6f4dd08263d74da0ad7562ca5068de",
+          "source_sha256": "fabdc01a6fd1172ba8904d76de69275deada64fcfe260e47eade38e69e6a995b",
+          "export_sha256": "b38a8ed0e9d0cea91e8548811159e3f432d1e2377b6ff63db923513e1536af80",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/research_tower-192.png": "1195b4e4ce3de0c697b45568a019dc38a80bba41853cb4bf5522190330d14ac5",
-            "docs/vivid-palette/evidence/after/buildings/research_tower-96.png": "6ae377350be284bcf84dca1f57eb6e23cafa19c119f51add31dad6f95e186505"
+            "docs/vivid-palette/evidence/after/buildings/research_tower-192.png": "ac718c3e6f2d1aa951e6b6f7e741827b0a82df780e90e4e0b8b3f53ca875e9e3",
+            "docs/vivid-palette/evidence/after/buildings/research_tower-96.png": "d691b5d1910491d86a3ba45197e6bc3cb10060d6920a372f103f09fa6d95fb25"
           },
           "job": {
             "job": "vivid-render-buildings-research_tower",
-            "seconds": 9.69,
+            "seconds": 5.7,
             "log": ".cache/asset-check/logs/vivid-render-buildings-research_tower.log"
           },
           "facts": {
-            "bytes": 7518420,
+            "bytes": 7521640,
             "meshes": 432,
             "triangles": 42766,
             "materials": 44,
-            "animations": [],
-            "version": "97d77af6bde6817258c8ac121a2b2655190b37f5d3a60c3caa2b66b3e6f90161"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "b38a8ed0e9d0cea91e8548811159e3f432d1e2377b6ff63db923513e1536af80"
           }
         },
         "resources_before": {
@@ -1095,7 +1149,7 @@
         "wood_light.002"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -1105,7 +1159,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/stone_cutter.blend",
-      "source_sha256": "fa476ef1677085eeb00f0312548bf7ace708945948581efac4f687633c6be123",
+      "source_sha256": "5b495c5d0ce4b5751276448d2ec153389a57df5801a3ed9ec6469a6d4dab0d59",
       "evidence": {
         "before": {
           "export_sha256": "7530d59ea8b401683d5d89c09373645d38d84967abe6d595d6c317f2eb83143e",
@@ -1140,26 +1194,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/stone_cutter.png",
-          "image_sha256": "07a97d32574b05ca1a5d1469af92a4b37c7c3c2b9c40833424423c94df4e6790",
-          "source_sha256": "fa476ef1677085eeb00f0312548bf7ace708945948581efac4f687633c6be123",
-          "export_sha256": "5233dfd20828d9c354a96ee6f3e081a68a9965907e0311371882b600068ddc80",
+          "image_sha256": "7b26378932ef5d67be73f8bebda82f738c6200297b4851552e6eadf6db1602a6",
+          "source_sha256": "5b495c5d0ce4b5751276448d2ec153389a57df5801a3ed9ec6469a6d4dab0d59",
+          "export_sha256": "3d6fd9d045843fb19f6b60da624dbd8dd182e43e6c9e2c9f69ebaa6e09084515",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/stone_cutter-192.png": "bc1b69811e3b149aa676185e4d98b82b62d7fd74934593373eacf0259c91aec0",
-            "docs/vivid-palette/evidence/after/buildings/stone_cutter-96.png": "367fc1e738d96961716cf87c3100691807cd1def08eb5c7aa869756e9b829b32"
+            "docs/vivid-palette/evidence/after/buildings/stone_cutter-192.png": "676ef94fa7f9f431a6d4cbe6b19ea7e0c712890b53c0eabca48c49ccc33b1993",
+            "docs/vivid-palette/evidence/after/buildings/stone_cutter-96.png": "086fa871d19d93b1fa767f4f6b5fc028b3325ee4ffc6494c5fb586e36c776954"
           },
           "job": {
             "job": "vivid-render-buildings-stone_cutter",
-            "seconds": 5.16,
+            "seconds": 5.47,
             "log": ".cache/asset-check/logs/vivid-render-buildings-stone_cutter.log"
           },
           "facts": {
-            "bytes": 3347716,
+            "bytes": 3350668,
             "meshes": 275,
             "triangles": 23245,
             "materials": 34,
-            "animations": [],
-            "version": "5233dfd20828d9c354a96ee6f3e081a68a9965907e0311371882b600068ddc80"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "3d6fd9d045843fb19f6b60da624dbd8dd182e43e6c9e2c9f69ebaa6e09084515"
           }
         },
         "resources_before": {
@@ -1214,7 +1274,7 @@
         "wood_light.004"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -1224,7 +1284,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/tavern.blend",
-      "source_sha256": "64a8656f3f92cb305a7e20bbdd2fdc88b08fd006cf36ec6c7c800c4fdc59fb34",
+      "source_sha256": "8a40e32440ab9848e9cd8952e9ed5653257dee68465950c3014035cc2ffbb19f",
       "evidence": {
         "before": {
           "export_sha256": "b6ad4251c49517642f8c586334765a227b77fae3b5eace019fb7b80c088fd370",
@@ -1259,26 +1319,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/tavern.png",
-          "image_sha256": "f32effc8331de20a8484c9255cf297bbbc48a7870d0036a346838b3b88075139",
-          "source_sha256": "64a8656f3f92cb305a7e20bbdd2fdc88b08fd006cf36ec6c7c800c4fdc59fb34",
-          "export_sha256": "3cd62eb480274ebca3297551e8507e9f8c5eedbf01ddbf166591b860ffe35fdc",
+          "image_sha256": "39c9283939e9ffe05c955298ac9f0e0a3a248f64cd8d897893d46312f9889b22",
+          "source_sha256": "8a40e32440ab9848e9cd8952e9ed5653257dee68465950c3014035cc2ffbb19f",
+          "export_sha256": "d08fd692fa5bf1fbc541948bb30dc749505bfd7dd00dc0fd2494755696bf77b4",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/tavern-192.png": "247cf8ebe8d89973c7a6243c8bb7143a6e7f62c440f4dfa5a92f1406e1603b1d",
-            "docs/vivid-palette/evidence/after/buildings/tavern-96.png": "b8650af0180802bf3ab7e4b600f299de0d90ab8fec8d496fffb4d6b4a9c24915"
+            "docs/vivid-palette/evidence/after/buildings/tavern-192.png": "1ab209af06f49167b1908f23197e363dc8761385d8142fe654cb0f72b7dad088",
+            "docs/vivid-palette/evidence/after/buildings/tavern-96.png": "936e7bc9bc72147285214f35b7d83f502c5285e041f929e0967b8eebda083144"
           },
           "job": {
             "job": "vivid-render-buildings-tavern",
-            "seconds": 4.76,
+            "seconds": 4.93,
             "log": ".cache/asset-check/logs/vivid-render-buildings-tavern.log"
           },
           "facts": {
-            "bytes": 3864084,
+            "bytes": 3867640,
             "meshes": 342,
             "triangles": 29764,
             "materials": 43,
-            "animations": [],
-            "version": "3cd62eb480274ebca3297551e8507e9f8c5eedbf01ddbf166591b860ffe35fdc"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "d08fd692fa5bf1fbc541948bb30dc749505bfd7dd00dc0fd2494755696bf77b4"
           }
         },
         "resources_before": {
@@ -1341,7 +1407,7 @@
         "wood_light.003"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -1351,7 +1417,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/town_hall.blend",
-      "source_sha256": "7fdc1e85eed0adc557e0c80c1b7fa5341084b448826634d6b7efcbfca9ec599b",
+      "source_sha256": "edc63e99ba51dd1ef90cb11bf4466ce524379fb241be8227a214de226fb348aa",
       "evidence": {
         "before": {
           "image": "docs/vivid-palette/evidence/before/buildings/town_hall.png",
@@ -1385,26 +1451,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/town_hall.png",
-          "image_sha256": "79585cd71287d8b0162494be5d69929d96ab8927d8cbb81e38cbda0f397232ec",
-          "source_sha256": "7fdc1e85eed0adc557e0c80c1b7fa5341084b448826634d6b7efcbfca9ec599b",
-          "export_sha256": "2b53b674b940136bd8e1a1c3891aaaadcb72a3d05bca19e66c0778c1f4996f8a",
+          "image_sha256": "21a0101974d7c2da4fb0f035a0e54b59812273796b5873a5c487a028bdbac698",
+          "source_sha256": "edc63e99ba51dd1ef90cb11bf4466ce524379fb241be8227a214de226fb348aa",
+          "export_sha256": "6b10ca5a42080e686e41717cef4283cf05c63299061d1728b441dbb5b435cf07",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/town_hall-192.png": "43b81167e29ae55e98d6853abd43a74d4c173c31809dc0c3fef6d879edd97579",
-            "docs/vivid-palette/evidence/after/buildings/town_hall-96.png": "dfb4cf9006f3d3ef90c2a357ad42be5642cbdd012633cc6f4027da7a3a79cceb"
+            "docs/vivid-palette/evidence/after/buildings/town_hall-192.png": "64ba7f4688e1d3293216eb54e526e48a5822f3c207767e53eeca52c9c7f84e1e",
+            "docs/vivid-palette/evidence/after/buildings/town_hall-96.png": "7e287d9924e0da7eb767cf0ea86f73139cfcb4a7889f8acf80b3503717cbc6bc"
           },
           "job": {
             "job": "vivid-render-buildings-town_hall",
-            "seconds": 18.03,
+            "seconds": 9.44,
             "log": ".cache/asset-check/logs/vivid-render-buildings-town_hall.log"
           },
           "facts": {
-            "bytes": 12033036,
+            "bytes": 12036144,
             "meshes": 899,
             "triangles": 90379,
             "materials": 40,
-            "animations": [],
-            "version": "2b53b674b940136bd8e1a1c3891aaaadcb72a3d05bca19e66c0778c1f4996f8a"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "6b10ca5a42080e686e41717cef4283cf05c63299061d1728b441dbb5b435cf07"
           }
         },
         "resources_before": {
@@ -1463,7 +1535,7 @@
         "wood_light.006"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -1473,7 +1545,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/trade_market.blend",
-      "source_sha256": "8fca66c865a507847b8af4d7f9c6b15bacbe9c42d6a35d301e755fdf0e045b2a",
+      "source_sha256": "aa5b2ac702c91bcd6b91e15d8349febc41385f1fb860c786d1fd63597efc31eb",
       "evidence": {
         "before": {
           "export_sha256": "777f16c0e7e7f972a9f35a43acdb215f5da0a0ebf5f5f4ff4fcfd76d02412a05",
@@ -1508,26 +1580,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/trade_market.png",
-          "image_sha256": "4badd102f27e68ba641de501d932496de68f75d4c57260f05206002a1f905a30",
-          "source_sha256": "8fca66c865a507847b8af4d7f9c6b15bacbe9c42d6a35d301e755fdf0e045b2a",
-          "export_sha256": "da21c12994ccca9f2f13ab0bb81bbee5b3d51a292509e1a229e7a508aa83f176",
+          "image_sha256": "fc28492a684e20f3546854d4be1fe8805c29860871e9133422b1b4aa7324c29f",
+          "source_sha256": "aa5b2ac702c91bcd6b91e15d8349febc41385f1fb860c786d1fd63597efc31eb",
+          "export_sha256": "d6ecffd6ff4312f494c0e72a6365cf35e7a9230f69ca3a34527051ab46aaae11",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/trade_market-192.png": "409a4ca362599ae2aba76015e89a153e9035dc6613430e2b787fb6d535c3dc4f",
-            "docs/vivid-palette/evidence/after/buildings/trade_market-96.png": "72ace1a86be76d2de1956a71149dac3d115837ac835810995002c9ea31ce12ac"
+            "docs/vivid-palette/evidence/after/buildings/trade_market-192.png": "90f26f4e81a452a57be6e58de6e36cd07eceba01baa5ac301265532e23c67a2c",
+            "docs/vivid-palette/evidence/after/buildings/trade_market-96.png": "14a077ec2032fcf4e12726ebe80c2f29b6a2d092e799810f92b7eb03201fa5cc"
           },
           "job": {
             "job": "vivid-render-buildings-trade_market",
-            "seconds": 9.87,
+            "seconds": 5.28,
             "log": ".cache/asset-check/logs/vivid-render-buildings-trade_market.log"
           },
           "facts": {
-            "bytes": 3464136,
+            "bytes": 3467968,
             "meshes": 289,
             "triangles": 23814,
             "materials": 39,
-            "animations": [],
-            "version": "da21c12994ccca9f2f13ab0bb81bbee5b3d51a292509e1a229e7a508aa83f176"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "d6ecffd6ff4312f494c0e72a6365cf35e7a9230f69ca3a34527051ab46aaae11"
           }
         },
         "resources_before": {
@@ -1585,7 +1663,7 @@
         "woodland_cloth"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -1595,7 +1673,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/tree_house.blend",
-      "source_sha256": "9c3147ba4501e263c451472d9184f262dbd5a28cb59955b465d1c42e3a926a7b",
+      "source_sha256": "6abd5547aa9674f002e472fdbde16156e718cfe33ba1c120ae4dafe1547c70a2",
       "evidence": {
         "before": {
           "export_sha256": "d39032fc8f6db4d993252dcc69ee6e5ce53620eebfb4833c5edd349df901ff2c",
@@ -1630,26 +1708,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/tree_house.png",
-          "image_sha256": "f262ff3e1620dff987461f01663cd0eda2d585281b6ed473225b7c23c7d73428",
-          "source_sha256": "9c3147ba4501e263c451472d9184f262dbd5a28cb59955b465d1c42e3a926a7b",
-          "export_sha256": "fe1e40d59bd4bc334f79e22676141dcd886fe3e4b48275617763518c11a96f54",
+          "image_sha256": "7364668545d9fdba1328b3069bfb3c87f204e710d52d8babee78564111147ad0",
+          "source_sha256": "6abd5547aa9674f002e472fdbde16156e718cfe33ba1c120ae4dafe1547c70a2",
+          "export_sha256": "273dd115d53250ffa3f2cb14dab55392655d2a8212ed3e1c5b36cc81a8117267",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/tree_house-192.png": "a967ea321a81abd5e681e42efcc5a4f8d33fd5c3244618273a6a9041694243be",
-            "docs/vivid-palette/evidence/after/buildings/tree_house-96.png": "dee81500470d9a9872aa7eb40e35c3b2038ce39a9450f67dc8cac8dadba5f579"
+            "docs/vivid-palette/evidence/after/buildings/tree_house-192.png": "3b25a570ec6aaaa405400039c83df636adaa9e845dbd8ec7cde0cf41b313de46",
+            "docs/vivid-palette/evidence/after/buildings/tree_house-96.png": "e5deb71505cc296669a827dc79836af108b34cd130f31ae6bed1fb2b3f1c6f47"
           },
           "job": {
             "job": "vivid-render-buildings-tree_house",
-            "seconds": 6.05,
+            "seconds": 3.05,
             "log": ".cache/asset-check/logs/vivid-render-buildings-tree_house.log"
           },
           "facts": {
-            "bytes": 1959760,
+            "bytes": 1963044,
             "meshes": 154,
             "triangles": 13273,
             "materials": 20,
-            "animations": [],
-            "version": "fe1e40d59bd4bc334f79e22676141dcd886fe3e4b48275617763518c11a96f54"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "273dd115d53250ffa3f2cb14dab55392655d2a8212ed3e1c5b36cc81a8117267"
           }
         },
         "resources_before": {
@@ -1689,7 +1773,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -1699,7 +1783,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/weaver.blend",
-      "source_sha256": "4f074f37a8648f10efed49f2c01da8b5272b7547b6c07087733c365fe87ffe0c",
+      "source_sha256": "9be2fc7dda0b83040858dbc8f4094d98a0079a1ee44ecebf50da000062aa5fae",
       "evidence": {
         "before": {
           "image": "docs/vivid-palette/evidence/before/buildings/weaver.png",
@@ -1733,26 +1817,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/weaver.png",
-          "image_sha256": "c5b81126d46ae606d688ca5d990e3f56ca9d9b361cd81af8e3ccba2fe87bab40",
-          "source_sha256": "4f074f37a8648f10efed49f2c01da8b5272b7547b6c07087733c365fe87ffe0c",
-          "export_sha256": "9e5a98e92af8b4c5a9971890aa4f918a2fe6a66edb2e75ed57981f22e17871f7",
+          "image_sha256": "5107ad43d2e0aa6620119f2db082d8314cc27d0e2d6c3e328500fd24e922a6b1",
+          "source_sha256": "9be2fc7dda0b83040858dbc8f4094d98a0079a1ee44ecebf50da000062aa5fae",
+          "export_sha256": "373a6349226cf3ab7878b7f17404f8e262c03b39aa2981a226e841a2cb69812a",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/weaver-192.png": "b4803b81d29baaff820fbef14baba4227170b5b117337268120f4f11dec6ffd7",
-            "docs/vivid-palette/evidence/after/buildings/weaver-96.png": "4ea37e2ccedcb9c6757913553795de3f774a83f8f446eacf365dd053dce7b3c6"
+            "docs/vivid-palette/evidence/after/buildings/weaver-192.png": "540c7ea0ae04b68bdd188320a02854da81cc5fa826a6c10707da239777ce9124",
+            "docs/vivid-palette/evidence/after/buildings/weaver-96.png": "ec5deb63245830776d81f26b1353451609647a333f17bc9016748c41310142bc"
           },
           "job": {
             "job": "vivid-render-buildings-weaver",
-            "seconds": 10.26,
+            "seconds": 5.68,
             "log": ".cache/asset-check/logs/vivid-render-buildings-weaver.log"
           },
           "facts": {
-            "bytes": 7342764,
+            "bytes": 7345348,
             "meshes": 467,
             "triangles": 40278,
             "materials": 44,
-            "animations": [],
-            "version": "9e5a98e92af8b4c5a9971890aa4f918a2fe6a66edb2e75ed57981f22e17871f7"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "373a6349226cf3ab7878b7f17404f8e262c03b39aa2981a226e841a2cb69812a"
           }
         },
         "resources_before": {
@@ -1816,7 +1906,7 @@
         "wood_light.005"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -1826,7 +1916,7 @@
       "status": "refined",
       "reason": "Recover warm timber, distinct roof/cloth colors and amber craft accents; retain dense planted ivy/moss, working signatures and all second-round focal shapes/rest lanes.",
       "source": "sources/buildings/woodcutter_hut.blend",
-      "source_sha256": "ab5ba1d12edf065dec47d76ec5701a5e811459bac13ba520c36d5d285a93990e",
+      "source_sha256": "d60e0bb23aa4bb4fc8ea0501eab13a0c801d6e91379701ba95fdca63ddf59065",
       "evidence": {
         "before": {
           "image": "docs/vivid-palette/evidence/before/buildings/woodcutter_hut.png",
@@ -1860,26 +1950,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/buildings/woodcutter_hut.png",
-          "image_sha256": "26044a73ed3f5198624df4a0d3c5b06d4b5b5a99198e646805881a394819ec89",
-          "source_sha256": "ab5ba1d12edf065dec47d76ec5701a5e811459bac13ba520c36d5d285a93990e",
-          "export_sha256": "7973f55b35a4b816ff1099c3d84665529310b33f62138e0b1de0353f96dcbbb1",
+          "image_sha256": "34ab75eb9c62a015214005149c3c50eaf53f20675979b027152293ed8955c828",
+          "source_sha256": "d60e0bb23aa4bb4fc8ea0501eab13a0c801d6e91379701ba95fdca63ddf59065",
+          "export_sha256": "6bf55306adc772d9ed09232da5fe40f06fb0bda7e1dc2a58807cc3ed3e74c9bd",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/buildings/woodcutter_hut-192.png": "8100e3fbc054e6e3aadb5c1c83d5898faabc22bed3cd5f961a1a2c2421587034",
-            "docs/vivid-palette/evidence/after/buildings/woodcutter_hut-96.png": "8e7a83f4f9caa4632fd147ec57d7b8c32289617aec8150246da63d08539f5e9a"
+            "docs/vivid-palette/evidence/after/buildings/woodcutter_hut-192.png": "eccaf20a3321581e2c0198c8e51edee1f7eb833fb4b8884e7ce282447f7aecce",
+            "docs/vivid-palette/evidence/after/buildings/woodcutter_hut-96.png": "99da45bf51d6ad07cba2fa45bd39c86268f31693446823db0a6db5840254333c"
           },
           "job": {
             "job": "vivid-render-buildings-woodcutter_hut",
-            "seconds": 6.9,
+            "seconds": 4.05,
             "log": ".cache/asset-check/logs/vivid-render-buildings-woodcutter_hut.log"
           },
           "facts": {
-            "bytes": 3532724,
+            "bytes": 3535952,
             "meshes": 366,
             "triangles": 28069,
             "materials": 25,
-            "animations": [],
-            "version": "7973f55b35a4b816ff1099c3d84665529310b33f62138e0b1de0353f96dcbbb1"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "6bf55306adc772d9ed09232da5fe40f06fb0bda7e1dc2a58807cc3ed3e74c9bd"
           }
         },
         "resources_before": {
@@ -1924,7 +2020,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -2089,7 +2185,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -2257,7 +2353,7 @@
         "wood_light.001"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -2423,7 +2519,7 @@
         "wood_dark"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -2589,7 +2685,7 @@
         "wood_dark"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -2753,7 +2849,7 @@
         "wood_dark"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -2927,7 +3023,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -3092,7 +3188,7 @@
         "woodland_cloth"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -3257,7 +3353,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -3267,7 +3363,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "4305229422a42fd688eb452c2bcb0f157dddc8e29eda8ffa95da88d0d485c8b5",
@@ -3303,7 +3399,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_boulder.png",
           "image_sha256": "43194dec2f944a2a71498384644c754b85f6107eeb2ffa5f5442ddd6de1a2071",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "99105883aade6b08636b341e6da2980b5244fed296ce8a074d2ee116c2f43300",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -3348,7 +3444,7 @@
         "stone_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -3358,7 +3454,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "7d5e1acd2ef0be5ea496c5ef9814df7ea19e1000887474a82a586a9d1c1ad711",
@@ -3394,7 +3490,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_bridge_plank.png",
           "image_sha256": "eb0ef4eb224cb0d304473f3a485e7bd565693c530f40794e6a0be57cb4e4e07a",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "843d0128afdea04b0666b13ce5ebb2ce53e1f4875664217203973d8e2a57ecfa",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -3439,7 +3535,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -3449,7 +3545,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "095ab8f20c52fcdec493985b0d88c942e6e810a32a544c4176676aad3c3515c5",
@@ -3485,7 +3581,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_bridge_post.png",
           "image_sha256": "0896012507a8ddb98e6ad992a17be6baa7ab1540ca346dcc42919a2ce41127c2",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "5e841b4e83796fa7473bd8c58da1c5fb4cc173ce78d1bb4b11dbaa9919a722f6",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -3531,7 +3627,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -3541,7 +3637,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "a3ca41eb2c5edbadd090db450f24d9789d1ab152cf29ed246a99a0a1bfe6b966",
@@ -3577,7 +3673,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_bridge_rail.png",
           "image_sha256": "91ca6a2cc6fbeabc8b52f7e86e91a3de9c20440de566ea2c31dfe1a3f02a65ab",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "a6bf9c1a6e802504c4a3d864ff28638b61dd4e11c4278955b23ef0d1e6b49542",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -3621,7 +3717,7 @@
         "wood_edge"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -3710,7 +3806,7 @@
         "wing_lilac"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -3799,7 +3895,7 @@
         "wing_lilac"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -3809,7 +3905,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "35ada80006733cb5904a248e8fd1222501619dcf28f71d862fd61baff186059d",
@@ -3845,7 +3941,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_crystal_blue.png",
           "image_sha256": "fb8b3b2a8cdd7dec9c305c5413651106ed3ed0ad9bd25ec09fe8b32179eadd13",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "331229096c15a2e1fc52a96ee881d6f2527c0417cc70b5ae4c7320cb03353d47",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -3890,7 +3986,7 @@
         "moss_woodland"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -3900,7 +3996,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "f2db0a6f0de1a339140dbabe44cc2e9c7364cbaf308045af42585dda4c14ec10",
@@ -3936,7 +4032,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_crystal_purple.png",
           "image_sha256": "dece498517467d0a92608290b6a56ee70359f29993836b18e97e1b8c507e951f",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "006c7d247bd30fa3c00106ac242714dda5318679e2fe78a4cc731e72dc2c5e84",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -3980,7 +4076,7 @@
         "moss_woodland"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -3990,7 +4086,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "ff82e579deb0602754234925a7370d61a5caeacc124a65f72a2b5da6e1fd4629",
@@ -4026,7 +4122,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_fern.png",
           "image_sha256": "80982d0b3d8250d3f075f9da905e4300684779f2d7eca9dc3c569230bc4c2dfd",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "79f7282ab45854a84c13702ed22de2a3a6df4dcd93c75df55ba1058c418ab803",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -4069,7 +4165,7 @@
         "forest_leaf_woodland_tip"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -4079,7 +4175,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "f5b45ba28c528b655d295ed0c541c01e48401aaef33076918819ad648aba88a8",
@@ -4114,26 +4210,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_foam.png",
-          "image_sha256": "c986e49a5cce270db648e4b50957f745d8e9f9a6de24b5012882b699cd2d4b0c",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
-          "export_sha256": "d50de4fb974c5c014daa3740f31e699c18f34c9b84242f2503e42f70c7bdbd91",
+          "image_sha256": "686cb128b7648fa2a1242e90814243493afa43913c0772fc4ad6bb17cd91507c",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
+          "export_sha256": "ba79ef146d10df22a626f77b4710132c918f3a66df2e63169c1870e46de0771b",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/environment/components/forest_foam-192.png": "f380519928fb4cfbb1695531ae1af7f7d6855ce6f15085737d70813713c8a10e",
-            "docs/vivid-palette/evidence/after/environment/components/forest_foam-96.png": "e65620d35d7eb391083573a2b4ef4163aa04fd8accee6164d7b3ee14b0eceef8"
+            "docs/vivid-palette/evidence/after/environment/components/forest_foam-192.png": "46384dd37db13c0853935bb37a56739307953d888acceaaef29e8abd2e946b3d",
+            "docs/vivid-palette/evidence/after/environment/components/forest_foam-96.png": "51d50a88e6aecd29fa1ad51668a7134e8573d2f09bc22d2c081d7614dba0f272"
           },
           "job": {
             "job": "vivid-render-environment-components-forest_foam",
-            "seconds": 4.59,
+            "seconds": 2.15,
             "log": ".cache/asset-check/logs/vivid-render-environment-components-forest_foam.log"
           },
           "facts": {
-            "bytes": 1520636,
+            "bytes": 1523504,
             "meshes": 8,
             "triangles": 704,
             "materials": 2,
-            "animations": [],
-            "version": "d50de4fb974c5c014daa3740f31e699c18f34c9b84242f2503e42f70c7bdbd91"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "ba79ef146d10df22a626f77b4710132c918f3a66df2e63169c1870e46de0771b"
           }
         },
         "resources_before": {
@@ -4156,7 +4258,7 @@
         "water_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -4166,7 +4268,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "b9b8690b744c28e788ebabdc301b591b96e6d269aeca6610b9abff0572dee7b2",
@@ -4202,7 +4304,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_hex_meadow.png",
           "image_sha256": "fc283218319acd9c6bf02104536eb300d4750947f1a94316c075caaa9cbc1948",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "e8f316a15f8a322dacbd9c19e5301e357110dc4b9b099e309fe1748caa4815fb",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -4245,7 +4347,7 @@
         "soil"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -4255,7 +4357,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "e67bfd7628cce90f4e1112c48cf0aae4437da35d2161c2fd8876b85f4352b37e",
@@ -4290,26 +4392,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_hex_stream.png",
-          "image_sha256": "2501f483cedfed5d857b30dab2e8d37d532720ebb2fd83eb4b746270b8ff95c5",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
-          "export_sha256": "2668320419dff997e3c8fb36bfacad442d5fc5edfdd6d0dc9474b23b087e880d",
+          "image_sha256": "9e19b919cac1a8c9f7cf5195dffd81209d0211ab648ece0d78281a4adf07c522",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
+          "export_sha256": "513d8445201c5300366f9dcc1727b8265efbd452ff79f1170c5575c2285db2b3",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/environment/components/forest_hex_stream-192.png": "2540092981775108eaacc34d2ea5a1837533ea09996e930913e81390246a8e2b",
-            "docs/vivid-palette/evidence/after/environment/components/forest_hex_stream-96.png": "a6351d1086c1b8cfda1a87887e3d42a52f59056d702efe1af6695b94f429fa74"
+            "docs/vivid-palette/evidence/after/environment/components/forest_hex_stream-192.png": "e8045db7697394ef5d35b0efd8939aca99723f174c0c0fa26c2825b8455b7b7b",
+            "docs/vivid-palette/evidence/after/environment/components/forest_hex_stream-96.png": "ca01a917026184c9556e4536b32608733d7624fa709f257a08fdfb42972bbf4a"
           },
           "job": {
             "job": "vivid-render-environment-components-forest_hex_stream",
-            "seconds": 5.45,
+            "seconds": 2.38,
             "log": ".cache/asset-check/logs/vivid-render-environment-components-forest_hex_stream.log"
           },
           "facts": {
-            "bytes": 598892,
+            "bytes": 601444,
             "meshes": 12,
             "triangles": 216,
             "materials": 5,
-            "animations": [],
-            "version": "2668320419dff997e3c8fb36bfacad442d5fc5edfdd6d0dc9474b23b087e880d"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "513d8445201c5300366f9dcc1727b8265efbd452ff79f1170c5575c2285db2b3"
           }
         },
         "resources_before": {
@@ -4335,7 +4443,7 @@
         "water_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -4430,7 +4538,7 @@
         "rune_glow"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -4521,7 +4629,7 @@
         "wood_edge"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -4611,7 +4719,7 @@
         "window_hot"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -4621,7 +4729,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "ed86fddc41e8d75c577a2e8788e4360dc1ae6ac418f7a57d104d88b9dee48cb7",
@@ -4657,7 +4765,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_lantern_post.png",
           "image_sha256": "095bf77ea04271336a7d055337d7d6070a6cbe045163b0e167dda805c66c572e",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "7fb358bbe7e9484df8789c5426c87e9d3a81944447577fe1459c092bf596919b",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -4705,7 +4813,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -4796,7 +4904,7 @@
         "window_hot"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -4806,7 +4914,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "bd6ed2bacebe8ebb83e4e1feee834be066d51db63c025fc44fc9d6191809c66e",
@@ -4842,7 +4950,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_leaf_clump.png",
           "image_sha256": "42cf2d8045d8f110618ab777313eeb51835a195b40809c4576a24dbca0f6e67e",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "91c75f0915614779ea55cd9fbe92e833d6d57230d24994e0068bebbb6d62ed1c",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -4885,7 +4993,7 @@
         "forest_leaf_woodland_tip"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -4973,7 +5081,7 @@
         "wing_moon"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -4983,7 +5091,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "7b09f2de7ac9204f3ad7dfcfe8f97425374b7096c8b157a635b19f92ed0e48a8",
@@ -5019,7 +5127,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_moss.png",
           "image_sha256": "0d93c58e34c1e88f4725a02a3e883e45d7546607b8fe11b45df21f8ea1d32bde",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "706985df034a73df7026c748cbc16e4fbaf5a0413063fe6e6dd49fd348778905",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -5062,7 +5170,7 @@
         "moss"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -5072,7 +5180,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "3cdd89ef877aaa1ddc7bf2c1c09b6979720926d2d2ab31b9617f5e3e8a49a02c",
@@ -5108,7 +5216,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_mushroom_blue.png",
           "image_sha256": "5b4aff5f0d3a4309d9f954560c3c300717e1fb89ab283b489ad0695c3864ed6c",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "2570b13d5e1f5b67c97a645e2ce30a67520eadad939a944b31e4a47a8fbd5444",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -5155,7 +5263,7 @@
         "rune_glow"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -5165,7 +5273,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "f16e9845fca2a464b8358babe84326f34c33f28e861a527be96a1d86f7e54bd1",
@@ -5201,7 +5309,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_mushroom_purple.png",
           "image_sha256": "694e6b8b82faef853dfe16d7a9dffa4cb54f0ededb3d602b448c523c1484287e",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "6b235895306e95fbfc130e1efd6f1d8e6cf74017db7878b392685f75eaa1e8dc",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -5248,7 +5356,7 @@
         "rune_glow"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -5258,7 +5366,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "f4eeec12819646a28b06436e1dff2d0824f05b7a67f91f85fe6d745ddb9bb79e",
@@ -5294,7 +5402,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_mushroom_small.png",
           "image_sha256": "a97cc0c1ce46c1dfd8978b5e3ef97109704a12abe45952560b37c112ee59e934",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "b43f583a46b047e84bca31c8c9bec9ce0bab3cd28daf7efdd4237b2fb5111485",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -5341,7 +5449,7 @@
         "rune_glow"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -5351,7 +5459,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "5ff4b9411c1cea77be4f9bf1d9b172c02f07017d3ae00ee941b0dae3dfca6a34",
@@ -5387,7 +5495,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_root.png",
           "image_sha256": "d7b31aff0d6a6c6b23af5d763c4d9e4b35df97e11f0743a6a6b753b1815b9846",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "4085d32857d59416250953377ad0b329a7e82b0bcb70a53c3dc923d673d64129",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -5432,7 +5540,7 @@
         "wood_dark"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -5442,7 +5550,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "7bee675345fa2220fea31212462ca473a3f97515803008bf38899983ee05883f",
@@ -5478,7 +5586,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_rune_circle.png",
           "image_sha256": "54dc4c3d2df0f534ddcbe592810ca47c0b33331dc3499fe4a3283157a62b5b66",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "b054522aa348ce104c57004e5b48f9c9b1929217749ae710da4c7c648693c404",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -5519,7 +5627,7 @@
         "rune_glow"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -5529,7 +5637,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "46212f5d63fffa3d5493fc449e257088ad270e010b74c4ccea3c8b9542fcea79",
@@ -5565,7 +5673,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_rune_diamond.png",
           "image_sha256": "2b316a68f2aec470e3078f62a7434adb71fedc314c71f68816d36108348f6f49",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "99b26802fcdcbac6c3610cd52973d87baabec0f71dea4a268928174237498baf",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -5606,7 +5714,7 @@
         "rune_glow"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -5616,7 +5724,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "a3874c018c3eba546d94621bea6a51a321412eb3aee74a8ef110dff2f9104539",
@@ -5652,7 +5760,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_rune_monolith.png",
           "image_sha256": "405bc4ec95e61cbf841734f56892e23bd2462ace95c52a133787384bcb76b0ae",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "201eda4204d9624bcad186b59b02207504dc2144af64015dd9ffea67ee7951ad",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -5697,7 +5805,7 @@
         "stone_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -5707,7 +5815,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "212412375d381bd72aab0b8d1658c50d72ffb45170ecb059d7c82402115c9173",
@@ -5743,7 +5851,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_shrine_plinth.png",
           "image_sha256": "a0e3ee8383f476f3ebd3d215806e8d594477ca7e37319e6e598b47cbb04bea7a",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "602a16c12d237f680cafded4bee5bdf84ffbf6f11c9ae25c751176c0a4862058",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -5788,7 +5896,7 @@
         "stone_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -5877,7 +5985,7 @@
         "forest_leaf_woodland_tip"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -5971,7 +6079,7 @@
         "moss_woodland"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -5981,7 +6089,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "e7220197e8e3203cde9fd3a5eda2869523ebe759f4aea4ecc776895e10e7b1f8",
@@ -6017,7 +6125,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_stone_arch_block.png",
           "image_sha256": "6aa4def3ff9e93dd9e1f94e0288185d3bf7e4142b05221f9bdae830bd4cc1d6b",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "1ddd7360aa38da2c2855fe1a6093691df30666be152be3fff8410571ca76878e",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -6060,7 +6168,7 @@
         "stone_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -6070,7 +6178,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "a4f8a8584f411de468d767ab319fb9353022cf0752bf19c8368b0a841d91c16d",
@@ -6106,7 +6214,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_stone_block.png",
           "image_sha256": "b3022dce09f16fb654dfbdbe9b96fcaff4523a5e184a2fe583456f1c7349015e",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "02d2cf4f429d8ce27479d7c73511bcc90f9d22bbc85adf6cc7c03fad4242103a",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -6149,7 +6257,7 @@
         "stone_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -6159,7 +6267,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "a4db2302139ae98961a36ee4aa8407b03de4cb519f3414776fbfb17af78096b6",
@@ -6195,7 +6303,7 @@
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_tree_snag.png",
           "image_sha256": "7ef2eadbb9da615751bb82313cc308a57def06ffcf6a653d0c013723c44543e4",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
           "export_sha256": "0020c8c5a9b03d81943ce69c6d146b6441a916837338a059333de2b1ff61a5c9",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
@@ -6240,7 +6348,7 @@
         "wood_dark"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -6250,7 +6358,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/shared_forest_kit.blend",
-      "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+      "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
       "evidence": {
         "before": {
           "export_sha256": "c0828f3f66a0046a0586d841fbb57494f102f3bfa7df2e054ca48c73a6865927",
@@ -6285,26 +6393,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/components/forest_waterfall.png",
-          "image_sha256": "c1d8cd35eba5d30e4d1f210d9cdd1bbbe2452f5be822508679fdbe09f1d57440",
-          "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
-          "export_sha256": "378aff11ad9950663fe1bd1f1bf1efdc852c073937d6903f1a55bc0bd28c563d",
+          "image_sha256": "d90fed6338ad6e5956767dac74b2c36e735b31bf324a27c021665c3b24375ce7",
+          "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
+          "export_sha256": "d55bc6540ba4a7d8114f333e740fc02cce6f87b4e62dab4bb32e9a781d105fb6",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/environment/components/forest_waterfall-192.png": "124b87f9eed32930e90776cbd7ca6b500a75a291744523657835bcc25461768a",
-            "docs/vivid-palette/evidence/after/environment/components/forest_waterfall-96.png": "0f48f4213bbbabd224ca79314e1a404e47702fcfcf81fd6e506094d5e06d82a3"
+            "docs/vivid-palette/evidence/after/environment/components/forest_waterfall-192.png": "ee8b723a03fb6cf7428fb5b9e585359d34cf2730f2c3dfe4cce6815db611f466",
+            "docs/vivid-palette/evidence/after/environment/components/forest_waterfall-96.png": "907efd33cf48735319f728248d4262ae866382475d2fc36c661b3160514cdce2"
           },
           "job": {
             "job": "vivid-render-environment-components-forest_waterfall",
-            "seconds": 5.98,
+            "seconds": 2.75,
             "log": ".cache/asset-check/logs/vivid-render-environment-components-forest_waterfall.log"
           },
           "facts": {
-            "bytes": 1475008,
+            "bytes": 1477772,
             "meshes": 8,
             "triangles": 168,
             "materials": 3,
-            "animations": [],
-            "version": "378aff11ad9950663fe1bd1f1bf1efdc852c073937d6903f1a55bc0bd28c563d"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "d55bc6540ba4a7d8114f333e740fc02cce6f87b4e62dab4bb32e9a781d105fb6"
           }
         },
         "resources_before": {
@@ -6328,7 +6442,7 @@
         "water_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -6458,7 +6572,7 @@
         "wood_dark.003"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -6595,7 +6709,7 @@
         "wing_moon.001"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -6723,7 +6837,7 @@
         "stone_light.002"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -6855,7 +6969,7 @@
         "stone_light.010"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -7002,7 +7116,7 @@
         "wood_edge.001"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -7127,7 +7241,7 @@
         "stone_light.007"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -7214,7 +7328,7 @@
         "floor_foundation"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -7301,7 +7415,7 @@
         "floor_grass"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -7388,7 +7502,7 @@
         "floor_leaf_litter"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -7475,7 +7589,7 @@
         "floor_moss"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -7562,7 +7676,7 @@
         "floor_pine_duff"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -7705,7 +7819,7 @@
         "wing_moon.001"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -7715,7 +7829,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/hex_lantern_bridge.blend",
-      "source_sha256": "fedd1991e0e027f71aaf0f4181a2450c99d148759a2698a3c210f2c04f97b6b2",
+      "source_sha256": "59fe27e96459d5b6e80638c2bdb21a8b0172f836efd8af455757d307bad08cd0",
       "evidence": {
         "before": {
           "export_sha256": "e44c604dbc68aff65581a9cc76aba386fd6e5e980bddd5378599ddab34e5dfdc",
@@ -7750,26 +7864,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/hex_lantern_bridge.png",
-          "image_sha256": "4a929a03579802b89b7b7ce1f1f8b655195107047a3bcd82fb7a7504e80c047f",
-          "source_sha256": "fedd1991e0e027f71aaf0f4181a2450c99d148759a2698a3c210f2c04f97b6b2",
-          "export_sha256": "d651209a908d12b50e9166106f6128b32a5cc6597e14b31c9819384171a36f6d",
+          "image_sha256": "53487cea30ba52ec468f2075d46509fe3951ba35b1b5056ac4dcdb1e9d6ed24a",
+          "source_sha256": "59fe27e96459d5b6e80638c2bdb21a8b0172f836efd8af455757d307bad08cd0",
+          "export_sha256": "c8b19401f6e47abe587248a181890dfeb7bf7f9656f96f5fc16373d2efe2abb3",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/environment/hex_lantern_bridge-192.png": "a871c706ea6256f2bb45f601d813983a96c14c452776bc5155a588958c23231f",
-            "docs/vivid-palette/evidence/after/environment/hex_lantern_bridge-96.png": "39f5be45eb12bdc21fea8a4b8f9370803bcbd01d520ba421dcb9c8f30d0f7dcd"
+            "docs/vivid-palette/evidence/after/environment/hex_lantern_bridge-192.png": "40b8d37dfd1cd52c40b868c739bb7f7a6514bec69ea0ce8ab2758b71431cca18",
+            "docs/vivid-palette/evidence/after/environment/hex_lantern_bridge-96.png": "e9e35c0290b330b14749f38df20dd04dd68fcc6aa38e95440378c8254cf5343d"
           },
           "job": {
             "job": "vivid-render-environment-hex_lantern_bridge",
-            "seconds": 11.49,
+            "seconds": 7.28,
             "log": ".cache/asset-check/logs/vivid-render-environment-hex_lantern_bridge.log"
           },
           "facts": {
-            "bytes": 11035700,
+            "bytes": 11045528,
             "meshes": 229,
             "triangles": 10078,
             "materials": 52,
-            "animations": [],
-            "version": "d651209a908d12b50e9166106f6128b32a5cc6597e14b31c9819384171a36f6d"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "c8b19401f6e47abe587248a181890dfeb7bf7f9656f96f5fc16373d2efe2abb3"
           }
         },
         "resources_before": {
@@ -7842,7 +7962,7 @@
         "wood_light.002"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -7941,7 +8061,7 @@
         "stone_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -8037,7 +8157,7 @@
         "stone_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -8162,7 +8282,7 @@
         "stone_light.003"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -8248,7 +8368,7 @@
         "floor_path"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -8334,7 +8454,7 @@
         "floor_path"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -8420,7 +8540,7 @@
         "floor_path"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -8506,7 +8626,7 @@
         "floor_path"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -8516,7 +8636,7 @@
       "status": "refined",
       "reason": "Recover living ground/ochre litter or teal water colors and related fine washes; preserve flat occupation planes, footprint, alpha and connector endpoints.",
       "source": "sources/environment/hex_river_overlay_end.blend",
-      "source_sha256": "d9a16df454a5025dd398fec95519d6864a56871c46b253a0b75127917bc61d12",
+      "source_sha256": "1244857e5c62435025e240a41b9a2749652cc328c0d63c1e056c54a5ca5d4294",
       "evidence": {
         "before": {
           "export_sha256": "85222728bf1dcd5f36d3bfada70dd0e3fcbb8a8866b3d3443d833a9570d1e01e",
@@ -8551,26 +8671,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/hex_river_overlay_end.png",
-          "image_sha256": "2e28235d6a348395406156ad012e299cdf5c271ee7b777b89f6bc14fa3935414",
-          "source_sha256": "d9a16df454a5025dd398fec95519d6864a56871c46b253a0b75127917bc61d12",
-          "export_sha256": "666a8cb29055ad677d71c4b2fe280d55256301a4833c75658a0ae120c394fec3",
+          "image_sha256": "8a2f5c64eaa3b5f3938fcb15d6ec5ab0f10ba812c2ded6fed0ddd52affd0ffa1",
+          "source_sha256": "1244857e5c62435025e240a41b9a2749652cc328c0d63c1e056c54a5ca5d4294",
+          "export_sha256": "533c50274c29a6febd01530dfa8a7bfcc60e923fbcb9458e2e6f27f851957731",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_end-192.png": "2ed5cbff0f58ec86ebc34c87aa17360c83f5b93bd956de8f5fc5f7850f73ba88",
-            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_end-96.png": "1537a9d58f723ecc3c61edf9c2ff68026abaca2ec1fc2c6e8b94a0ce77489dfc"
+            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_end-192.png": "8bea49cc3774bc8330607d07dedd1c4929d1fd1454835b0dc4d6b3496fa8c7b0",
+            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_end-96.png": "1013bfb71e65bd0f010be3ee4176283868e63123248ba84d10e22ca60de6fd4a"
           },
           "job": {
             "job": "vivid-render-environment-hex_river_overlay_end",
-            "seconds": 4.7,
+            "seconds": 2.17,
             "log": ".cache/asset-check/logs/vivid-render-environment-hex_river_overlay_end.log"
           },
           "facts": {
-            "bytes": 113436,
-            "meshes": 1,
-            "triangles": 469,
-            "materials": 1,
-            "animations": [],
-            "version": "666a8cb29055ad677d71c4b2fe280d55256301a4833c75658a0ae120c394fec3"
+            "bytes": 194784,
+            "meshes": 2,
+            "triangles": 477,
+            "materials": 2,
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "533c50274c29a6febd01530dfa8a7bfcc60e923fbcb9458e2e6f27f851957731"
           }
         },
         "resources_before": {
@@ -8581,9 +8707,9 @@
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
         },
         "resources_after": {
-          "active_mesh_nodes": 1,
-          "active_primitive_instances": 1,
-          "active_triangle_instances": 469,
+          "active_mesh_nodes": 2,
+          "active_primitive_instances": 2,
+          "active_triangle_instances": 477,
           "skin_joint_counts": [],
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
         }
@@ -8592,7 +8718,7 @@
         "floor_river"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -8602,7 +8728,7 @@
       "status": "refined",
       "reason": "Recover living ground/ochre litter or teal water colors and related fine washes; preserve flat occupation planes, footprint, alpha and connector endpoints.",
       "source": "sources/environment/hex_river_overlay_straight.blend",
-      "source_sha256": "eefa8018f32426a9f85b1ff4962251140ac1d952da7e977efcc0e0d05836f5e4",
+      "source_sha256": "db305a40e335cecf5a7cacc57f86b876f4b654815d5d0c25da429688a3e97749",
       "evidence": {
         "before": {
           "export_sha256": "bf1a2dc96ed3df2e866179e324db7cb38b98f370714216cbba89c61874463cce",
@@ -8637,26 +8763,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/hex_river_overlay_straight.png",
-          "image_sha256": "80adce98f3af0ac33c8296377f245efc74b146eb63ee1d3244c1c9553ed14ea7",
-          "source_sha256": "eefa8018f32426a9f85b1ff4962251140ac1d952da7e977efcc0e0d05836f5e4",
-          "export_sha256": "de7b4b4447b74c646f49cbaa8ad48f80a98902bd9237a543e6bf4352b3dbc29d",
+          "image_sha256": "2c446fc68fe66075aa1cae720df38f2639382a8fb74f5cda4a63c2ed70cf24af",
+          "source_sha256": "db305a40e335cecf5a7cacc57f86b876f4b654815d5d0c25da429688a3e97749",
+          "export_sha256": "9b5da586b925c1f5b69b8634ecd21facbe41b710142e6cbd60449ccf1b2c6e42",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_straight-192.png": "495ecf8837db64cb5a14d80ecbc2d98cbe6558970f999723f0ce3c37ad609634",
-            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_straight-96.png": "4b63620e64bd3e0751134f13de43c9a900aace45f5c75406365c7cdd3d7a1a3a"
+            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_straight-192.png": "9a275ef5f1b176aaadae0cd00c18019bd871968bbe89407b225366c847909a2c",
+            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_straight-96.png": "6db39691d723f8b9027dd8cff2c2313cfc12dc908d1ccf65c09f3e33b2bcea99"
           },
           "job": {
             "job": "vivid-render-environment-hex_river_overlay_straight",
-            "seconds": 3.67,
+            "seconds": 3.08,
             "log": ".cache/asset-check/logs/vivid-render-environment-hex_river_overlay_straight.log"
           },
           "facts": {
-            "bytes": 108040,
-            "meshes": 1,
-            "triangles": 384,
-            "materials": 1,
-            "animations": [],
-            "version": "de7b4b4447b74c646f49cbaa8ad48f80a98902bd9237a543e6bf4352b3dbc29d"
+            "bytes": 189368,
+            "meshes": 2,
+            "triangles": 392,
+            "materials": 2,
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "9b5da586b925c1f5b69b8634ecd21facbe41b710142e6cbd60449ccf1b2c6e42"
           }
         },
         "resources_before": {
@@ -8667,9 +8799,9 @@
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
         },
         "resources_after": {
-          "active_mesh_nodes": 1,
-          "active_primitive_instances": 1,
-          "active_triangle_instances": 384,
+          "active_mesh_nodes": 2,
+          "active_primitive_instances": 2,
+          "active_triangle_instances": 392,
           "skin_joint_counts": [],
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
         }
@@ -8678,7 +8810,7 @@
         "floor_river"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -8688,7 +8820,7 @@
       "status": "refined",
       "reason": "Recover living ground/ochre litter or teal water colors and related fine washes; preserve flat occupation planes, footprint, alpha and connector endpoints.",
       "source": "sources/environment/hex_river_overlay_turn_120.blend",
-      "source_sha256": "8d016c1d31d32756401157bdf0c589521d8bb5ac8e4735eb47f9d2f36f25454f",
+      "source_sha256": "fb8cb2f0df5b2c95820a0c0786c25ee6f7fb87a7a3b2d204eb01b380221ae0aa",
       "evidence": {
         "before": {
           "export_sha256": "b1ce2c5aff84fdedf26b4260b0d2a36e99bfafc34d25440ed0c6d03275463eb7",
@@ -8723,26 +8855,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/hex_river_overlay_turn_120.png",
-          "image_sha256": "d226c4899148018ecacd62e0523163ea6a8e3e2df6cc43d1c404e7ec44a392ef",
-          "source_sha256": "8d016c1d31d32756401157bdf0c589521d8bb5ac8e4735eb47f9d2f36f25454f",
-          "export_sha256": "bdb3067f3f01ab4ce2f43f6d10bfd564da5e525b2f8729795a5cfc77a7ce9c64",
+          "image_sha256": "4f58252b1d2a83f36f87e3a18ddef6183298e0ad26b67a4358044d6737b69e33",
+          "source_sha256": "fb8cb2f0df5b2c95820a0c0786c25ee6f7fb87a7a3b2d204eb01b380221ae0aa",
+          "export_sha256": "fbaf4cf17e18a49cf7143c24668da7069b9b6b150e14cd38f15a6424f95f0e40",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_turn_120-192.png": "83f648e0a577f6f9f26d3a06e1ebe502615887d534e816dcb0cfddec77a2f5b8",
-            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_turn_120-96.png": "85ae39288c870a952a4ae638faa740a6257fc568382794e8773d94e77985cef1"
+            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_turn_120-192.png": "58f627f7c58fe916eb9d5997b4348077e3da2920c5af44cbcaa72c269b390c70",
+            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_turn_120-96.png": "2435bfd00614252686b65afe5f838af2b8d75deb6cd4649c0068dfb1a22f5068"
           },
           "job": {
             "job": "vivid-render-environment-hex_river_overlay_turn_120",
-            "seconds": 3.53,
+            "seconds": 3.07,
             "log": ".cache/asset-check/logs/vivid-render-environment-hex_river_overlay_turn_120.log"
           },
           "facts": {
-            "bytes": 117340,
-            "meshes": 1,
-            "triangles": 408,
-            "materials": 1,
-            "animations": [],
-            "version": "bdb3067f3f01ab4ce2f43f6d10bfd564da5e525b2f8729795a5cfc77a7ce9c64"
+            "bytes": 198720,
+            "meshes": 2,
+            "triangles": 416,
+            "materials": 2,
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "fbaf4cf17e18a49cf7143c24668da7069b9b6b150e14cd38f15a6424f95f0e40"
           }
         },
         "resources_before": {
@@ -8753,9 +8891,9 @@
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
         },
         "resources_after": {
-          "active_mesh_nodes": 1,
-          "active_primitive_instances": 1,
-          "active_triangle_instances": 408,
+          "active_mesh_nodes": 2,
+          "active_primitive_instances": 2,
+          "active_triangle_instances": 416,
           "skin_joint_counts": [],
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
         }
@@ -8764,7 +8902,7 @@
         "floor_river"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -8774,7 +8912,7 @@
       "status": "refined",
       "reason": "Recover living ground/ochre litter or teal water colors and related fine washes; preserve flat occupation planes, footprint, alpha and connector endpoints.",
       "source": "sources/environment/hex_river_overlay_turn_60.blend",
-      "source_sha256": "223ea012c744d9f72e099ade453a295b225bb8bc691e5c03a7918a787c323fb5",
+      "source_sha256": "e276306f31f5bbe4cfa049d0847bac0a6f1b1c59803d787eb12dc9ee4c2aab88",
       "evidence": {
         "before": {
           "export_sha256": "f8e33b50aa34bcad8409bd5e2d048544764858428b6b50a89437cfd02e8d3730",
@@ -8809,26 +8947,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/hex_river_overlay_turn_60.png",
-          "image_sha256": "ec7c9ab84859a23d0bbb0516b1090aa8d33218899c08594697dfb95f681203e6",
-          "source_sha256": "223ea012c744d9f72e099ade453a295b225bb8bc691e5c03a7918a787c323fb5",
-          "export_sha256": "b28bed74b3d25f20b200e4e23be5044ffcbbf75cbb7a0ad2799bcdc8930302a5",
+          "image_sha256": "9fcab35189a1fea595e2be1f429915fcad4ee54534a456161d25d4e43a78fc6c",
+          "source_sha256": "e276306f31f5bbe4cfa049d0847bac0a6f1b1c59803d787eb12dc9ee4c2aab88",
+          "export_sha256": "fe554f74f112b9588409ef7daf65a3e3ee65f71ff735307598c05b8c71a2f58e",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_turn_60-192.png": "351ac1e05128d0ac635c702288de4ce0eec2091c15c8c5b7c36e66ace0caa13e",
-            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_turn_60-96.png": "326c9fd3b3e769f84fc5fac4065bba82445eba0e5d3a79b99223156ece59d1e5"
+            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_turn_60-192.png": "b04ef1c86bc4d131e6553c314bf75af4f803fcaa57715e8e986e24860d5f4871",
+            "docs/vivid-palette/evidence/after/environment/hex_river_overlay_turn_60-96.png": "98c94c84e35b1156579efe584bfa01c409fcb7ad36b740ea103b2ab8a35a59a5"
           },
           "job": {
             "job": "vivid-render-environment-hex_river_overlay_turn_60",
-            "seconds": 4.56,
+            "seconds": 3.18,
             "log": ".cache/asset-check/logs/vivid-render-environment-hex_river_overlay_turn_60.log"
           },
           "facts": {
-            "bytes": 117340,
-            "meshes": 1,
-            "triangles": 408,
-            "materials": 1,
-            "animations": [],
-            "version": "b28bed74b3d25f20b200e4e23be5044ffcbbf75cbb7a0ad2799bcdc8930302a5"
+            "bytes": 198720,
+            "meshes": 2,
+            "triangles": 416,
+            "materials": 2,
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "fe554f74f112b9588409ef7daf65a3e3ee65f71ff735307598c05b8c71a2f58e"
           }
         },
         "resources_before": {
@@ -8839,9 +8983,9 @@
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
         },
         "resources_after": {
-          "active_mesh_nodes": 1,
-          "active_primitive_instances": 1,
-          "active_triangle_instances": 408,
+          "active_mesh_nodes": 2,
+          "active_primitive_instances": 2,
+          "active_triangle_instances": 416,
           "skin_joint_counts": [],
           "scope": "Exported scene instances at mesh-definition topology; not GPU draw calls, animated bounds or performance qualification"
         }
@@ -8850,7 +8994,7 @@
         "floor_river"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -8982,7 +9126,7 @@
         "wood_light.001"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -8992,7 +9136,7 @@
       "status": "refined",
       "reason": "Recover green/teal foliage, blue/violet shaded magic and warm wood/fauna accents with fine related variation; preserve planted overgrowth, facets, shared prototypes and tile composition.",
       "source": "sources/environment/hex_woodland_bridge.blend",
-      "source_sha256": "6cafde58a0de06606c020183c25878f921c31af094d839e85396a45ca2a7bb0c",
+      "source_sha256": "09effba907416f47529e5ecb959313d2342d495f97ffe3fa40da31d411f4a414",
       "evidence": {
         "before": {
           "export_sha256": "686d27486090192bd4d5a0f205051a7c0801a77bf7dfbb17386ba20ebf3b4789",
@@ -9027,26 +9171,32 @@
         },
         "after": {
           "image": "docs/vivid-palette/evidence/after/environment/hex_woodland_bridge.png",
-          "image_sha256": "01b29e9ee0526c6327a2441303bf56249849fb72fb417773d541d2fe3bbcc415",
-          "source_sha256": "6cafde58a0de06606c020183c25878f921c31af094d839e85396a45ca2a7bb0c",
-          "export_sha256": "16bc3c09125b9e35190cfdf8f60143905669c55e4f8d3d4320ef8e6397e79aa5",
+          "image_sha256": "53ba36c7098f422238c721c530c99ed2bfef3cd942563ec156c15340389c2dca",
+          "source_sha256": "09effba907416f47529e5ecb959313d2342d495f97ffe3fa40da31d411f4a414",
+          "export_sha256": "d5cfc873b80093cf746038e403ca2223fc8301b966d3d0a052fbe250e2440f3e",
           "renderer_sha256": "9bb23b1a1a7950504abd85c516f902a22e3df26467473a613fa07463faffa81f",
           "derived_images": {
-            "docs/vivid-palette/evidence/after/environment/hex_woodland_bridge-192.png": "6438b8e47a5ff86cccc3d634c140cc6690424655fe94c6a62dedb37d894370fd",
-            "docs/vivid-palette/evidence/after/environment/hex_woodland_bridge-96.png": "836af058ab939fb7ebefec4345c6b06da3f73b4996f8d6f9f12c2dd75d3ca76f"
+            "docs/vivid-palette/evidence/after/environment/hex_woodland_bridge-192.png": "7a3b32dc0d79a0fe486644ede6c71be5918072b386e08d3faeeca1de39e435f0",
+            "docs/vivid-palette/evidence/after/environment/hex_woodland_bridge-96.png": "cef00a3e01ed7a722cf2d07bfbae5aee7b5af72e23184b0648b2fbc233815708"
           },
           "job": {
             "job": "vivid-render-environment-hex_woodland_bridge",
-            "seconds": 8.31,
+            "seconds": 5.18,
             "log": ".cache/asset-check/logs/vivid-render-environment-hex_woodland_bridge.log"
           },
           "facts": {
-            "bytes": 9953824,
+            "bytes": 9963684,
             "meshes": 244,
             "triangles": 11050,
             "materials": 60,
-            "animations": [],
-            "version": "16bc3c09125b9e35190cfdf8f60143905669c55e4f8d3d4320ef8e6397e79aa5"
+            "animations": [
+              {
+                "name": "ambient",
+                "duration": 4.041666666666667,
+                "loop": true
+              }
+            ],
+            "version": "d5cfc873b80093cf746038e403ca2223fc8301b966d3d0a052fbe250e2440f3e"
           }
         },
         "resources_before": {
@@ -9127,7 +9277,7 @@
         "wood_light.005"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -9215,7 +9365,7 @@
         "wood_edge"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -9306,7 +9456,7 @@
         "wood_light.001"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -9397,7 +9547,7 @@
         "wood_light.001"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -9485,7 +9635,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -9578,7 +9728,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -9670,7 +9820,7 @@
         "wood_dark"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -9762,7 +9912,7 @@
         "wood_dark"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -9849,7 +9999,7 @@
         "fire_core"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -9938,7 +10088,7 @@
         "leather"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -10030,7 +10180,7 @@
         "wood_dark"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -10119,7 +10269,7 @@
         "leather"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -10207,7 +10357,7 @@
         "wood_edge"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -10298,7 +10448,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -10390,7 +10540,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -10481,7 +10631,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -10571,7 +10721,7 @@
         "leather"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -10657,7 +10807,7 @@
         "iron"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -10748,7 +10898,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -10837,7 +10987,7 @@
         "wood_dark"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -10927,7 +11077,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -11019,7 +11169,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -11110,7 +11260,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -11198,7 +11348,7 @@
         "rope"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -11288,7 +11438,7 @@
         "pine_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -11377,7 +11527,7 @@
         "roof_blue"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -11467,7 +11617,7 @@
         "leaf_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -11554,7 +11704,7 @@
         "bone"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -11642,7 +11792,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -11728,7 +11878,7 @@
         "evil_edge"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -11817,7 +11967,7 @@
         "wall_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -11906,7 +12056,7 @@
         "wood_edge"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -11996,7 +12146,7 @@
         "silver_dark"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -12088,7 +12238,7 @@
         "wood_light"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
@@ -12177,7 +12327,7 @@
         "wood_dark"
       ],
       "retained_subparts": [
-        "all original and added geometry/UVs/root hierarchy/reuse/rigs/actions",
+        "original geometry/UVs/root ownership/reuse/rigs/unit actions; explicit ambient pivots and four 8-triangle shimmer strips are accounted separately",
         "all roughness/normal image pixels, alpha and emission strength",
         "unlinked authored prototypes/materials protected from serialization loss"
       ]
