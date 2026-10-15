@@ -226,7 +226,11 @@ class ForestFinish:
 
 @dataclass(frozen=True)
 class WoodlandStyle:
-    """Explicit saved-source overhaul; never regenerates an authored map."""
+    """Historical first-round grade, retained only to reproduce its evidence.
+
+    Current authoring uses VIVID below; do not apply this rejected grey treatment
+    to new or saved assets.
+    """
     version: str = 'whisperwood_v1'
     saturation: float = .38
     value: float = .86
@@ -250,6 +254,52 @@ class WoodlandStyle:
 
 
 WHISPERWOOD = WoodlandStyle()
+
+
+@dataclass(frozen=True)
+class VividStyle:
+    """Current color recovery: named material roles, not a preview grade."""
+    version: str = 'vivid_painted_v1'
+    moss_color: tuple = (.34, .49, .20)
+    leaf_color: tuple = (.26, .51, .29)
+    leaf_tip: tuple = (.53, .65, .28)
+    root_color: tuple = (.40, .25, .13)
+    lichen_color: tuple = (.57, .61, .32)
+    cloth_color: tuple = (.22, .44, .65)
+    porch_ochre: tuple = (.66, .35, .13)
+    porch_rim: tuple = (.84, .67, .38)
+    orb_color: tuple = (.56, .25, .82)
+    # Encoded RGB amplitudes: broad related washes, not speckle/highlights.
+    wash_strength: float = .012
+    leaf_vein_strength: float = .009
+    grain_strength: float = .004
+
+
+VIVID = VividStyle()
+
+
+@dataclass(frozen=True)
+class AmbientStyle:
+    """Small authored object-action loops; unrelated to the six unit clips."""
+    clip: str = 'ambient'
+    fps: int = 24
+    frames: tuple = (1, 25, 49, 73, 97)
+    swing_degrees: float = 2.0
+    crystal_degrees: float = 10.0
+    shuttle_travel: float = .035
+    current_travel: float = .025
+    foam_travel: float = .012
+    waterfall_travel: float = .008
+    shimmer_length: float = .22
+    shimmer_width: float = .007
+    shimmer_clearance: float = .0008
+    shimmer_color: tuple = (.28, .57, .59)
+    detail_camera_direction: tuple = (1, -1.5, .9)
+    low_detail_camera_direction: tuple = (0, -1.5, .08)
+    low_detail_camera_assets: tuple = ('buildings/town_hall',)
+
+
+AMBIENT = AmbientStyle()
 
 
 def woodland_color(color, *, accent=False, skin=False):

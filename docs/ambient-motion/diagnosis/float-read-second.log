@@ -1,0 +1,100 @@
+00:00.680  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/woodcutter_hut.blend"
+/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_vivid_blender.py:19: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not mat.use_nodes:
+00:01.313  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/woodcutter_hut.blend"
+Strict independent preservation: sources/buildings/woodcutter_hut.blend
+00:01.858  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/environment/hex_glowing_mushrooms.blend"
+00:04.686  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/sources/environment/hex_glowing_mushrooms.blend"
+Strict independent preservation: sources/environment/hex_glowing_mushrooms.blend
+00:07.167  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/characters/knight.blend"
+00:07.499  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/sources/characters/knight.blend"
+Strict independent preservation: sources/characters/knight.blend
+00:07.885  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/archery_range.blend"
+00:12.551  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/archery_range.blend"
+Strict independent preservation: sources/buildings/archery_range.blend
+00:17.245  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/arrow_tower.blend"
+00:20.538  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/arrow_tower.blend"
+Strict independent preservation: sources/buildings/arrow_tower.blend
+00:23.215  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/bakery.blend"
+00:24.041  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/bakery.blend"
+Strict independent preservation: sources/buildings/bakery.blend
+00:24.899  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/barracks.blend"
+00:29.301  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/barracks.blend"
+Strict independent preservation: sources/buildings/barracks.blend
+00:33.762  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/bombarding_tower.blend"
+00:37.821  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/bombarding_tower.blend"
+Strict independent preservation: sources/buildings/bombarding_tower.blend
+00:41.648  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/gold_mine.blend"
+00:41.983  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/gold_mine.blend"
+Strict independent preservation: sources/buildings/gold_mine.blend
+00:42.430  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/magic_academy.blend"
+00:48.844  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/magic_academy.blend"
+Strict independent preservation: sources/buildings/magic_academy.blend
+00:54.903  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/metal_mine.blend"
+00:56.586  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/metal_mine.blend"
+Strict independent preservation: sources/buildings/metal_mine.blend
+00:58.920  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/research_tower.blend"
+01:01.062  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/research_tower.blend"
+Strict independent preservation: sources/buildings/research_tower.blend
+01:02.975  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/stone_cutter.blend"
+01:04.947  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/stone_cutter.blend"
+Strict independent preservation: sources/buildings/stone_cutter.blend
+01:06.296  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/tavern.blend"
+01:07.665  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/tavern.blend"
+Strict independent preservation: sources/buildings/tavern.blend
+01:09.622  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/town_hall.blend"
+01:15.157  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/town_hall.blend"
+Strict independent preservation: sources/buildings/town_hall.blend
+01:20.622  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/trade_market.blend"
+01:21.744  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/trade_market.blend"
+Strict independent preservation: sources/buildings/trade_market.blend
+01:23.358  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/tree_house.blend"
+01:23.712  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/tree_house.blend"
+Strict independent preservation: sources/buildings/tree_house.blend
+01:24.096  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/buildings/weaver.blend"
+01:26.053  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/weaver.blend"
+Strict independent preservation: sources/buildings/weaver.blend
+01:27.811  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/characters/archer.blend"
+01:28.070  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/sources/characters/archer.blend"
+Strict independent preservation: sources/characters/archer.blend
+01:28.304  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/characters/berserker.blend"
+01:28.570  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/sources/characters/berserker.blend"
+Strict independent preservation: sources/characters/berserker.blend
+01:28.843  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/characters/evil_berserker_unit.blend"
+01:29.110  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/sources/characters/evil_berserker_unit.blend"
+Strict independent preservation: sources/characters/evil_berserker_unit.blend
+01:29.382  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/characters/evil_mage_unit.blend"
+01:29.658  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/sources/characters/evil_mage_unit.blend"
+Strict independent preservation: sources/characters/evil_mage_unit.blend
+01:29.954  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/characters/evil_melee_unit.blend"
+01:30.202  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/sources/characters/evil_melee_unit.blend"
+Strict independent preservation: sources/characters/evil_melee_unit.blend
+01:30.388  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/characters/evil_ranged_unit.blend"
+01:30.548  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/sources/characters/evil_ranged_unit.blend"
+Strict independent preservation: sources/characters/evil_ranged_unit.blend
+01:30.701  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/characters/mage.blend"
+01:30.836  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/sources/characters/mage.blend"
+Strict independent preservation: sources/characters/mage.blend
+01:31.001  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/environment/hex_bioluminescent_grove.blend"
+01:32.457  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/sources/environment/hex_bioluminescent_grove.blend"
+Strict independent preservation: sources/environment/hex_bioluminescent_grove.blend
+01:34.885  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/environment/hex_butterfly_glade.blend"
+01:36.306  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/sources/environment/hex_butterfly_glade.blend"
+Strict independent preservation: sources/environment/hex_butterfly_glade.blend
+01:37.965  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/environment/hex_crystal_grove.blend"
+01:40.295  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/sources/environment/hex_crystal_grove.blend"
+Strict independent preservation: sources/environment/hex_crystal_grove.blend
+01:41.956  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/vivid-palette/before/sources/environment/hex_crystal_shrine.blend"
+01:44.115  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/sources/environment/hex_crystal_shrine.blend"
+Traceback (most recent call last):
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_vivid_blender.py", line 74, in <module>
+    main()
+    ~~~~^^
+  File "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_vivid_blender.py", line 56, in main
+    raise ValueError(path + '/' + field + ': ' + json.dumps(diff))
+ValueError: sources/environment/hex_crystal_shrine.blend/data_channels: {"crystal_light.022/Image Texture.001": {"expected": "34c9a6b9a2d23f3bac584404c31dcc4befd605d3b2188d6cb2ef84b62a1e54d6", "observed": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40"}}
+
+Error: script failed, file: '/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/tools/asset_pack/verify_vivid_blender.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

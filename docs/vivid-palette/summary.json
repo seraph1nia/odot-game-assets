@@ -1,0 +1,52 @@
+{
+  "counting": "Per-export definition/instance sums, not globally deduplicated resources, draw calls or GPU performance. Each canonical source owner is counted once.",
+  "models": 118,
+  "sources": 67,
+  "counts": {
+    "assessed": 133,
+    "refined": 128,
+    "retained": 5
+  },
+  "geometry_delta": {
+    "active_mesh_nodes": 4,
+    "active_primitive_instances": 4,
+    "active_triangle_instances": 32
+  },
+  "definition_delta": {
+    "meshes": 4,
+    "triangles": 32,
+    "materials": 4
+  },
+  "animation_definition_delta": 25,
+  "source_bytes": {
+    "before": 188368109,
+    "after": 318481990
+  },
+  "export_bytes": {
+    "before": 220437552,
+    "after": 252677688
+  },
+  "orphan_ids_protected": 779,
+  "motion": {
+    "buildings": 16,
+    "water_entries": 9,
+    "source_owners": 23,
+    "keys_per_channel": 5,
+    "new_pivots": 16,
+    "new_water_strip_vertices": 40,
+    "new_water_strip_triangles": 32,
+    "exported_animation_samples_per_sampler": 97
+  },
+  "preservation": {
+    "method": "Exact packed PNG bytes and independently decoded 8-bit samples/alpha, metadata and binding/mapping/use-state; unsupported maps fail closed",
+    "protected_source_channel_references": 1587,
+    "unsupported_maps": 0,
+    "max_original_rest_matrix_error": 4.76837158203125e-07,
+    "max_source_export_pose_error_m": 1.259126065633609e-06
+  },
+  "limits": [
+    "Standalone CPU/browser/native-UI checks only; game import/camera/playback, GPU cost and artist acceptance remain separate.",
+    "Palette-only presentation previews retain ac41b74 source bindings, not final-motion bindings.",
+    "Blender normalized-float instability mechanism remains unproven; raw observations and failures retained; no epsilon or mismatch waiver."
+  ]
+}

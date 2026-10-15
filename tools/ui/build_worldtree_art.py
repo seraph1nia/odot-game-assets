@@ -75,8 +75,8 @@ def main():
         body = '<path d="M52 94Q58 60 40 34M52 70Q31 61 25 45M49 80Q74 60 78 34" fill="none" stroke="#6d6741" stroke-width="2"/>'
         leaves = ((41,35,-20),(30,49,-60),(48,59,5),(64,59,60),(75,39,30),(40,70,-50)) if alive else ((41,35,-20),(64,59,60),(40,70,-50))
         for x,y,r in leaves:
-            color = '#84916e' if alive else '#514b3a'
-            body += f'<g transform="translate({x} {y}) rotate({r})"><path d="M0 10Q-18-7 0-22Q16-6 0 10" fill="{color}" stroke="#272f2a"/><path d="M0 8V-18" stroke="#b3b48c" opacity=".4"/></g>'
+            color = '#9baf56' if alive else '#514b3a'
+            body += f'<g transform="translate({x} {y}) rotate({r})"><path d="M0 10Q-18-7 0-22Q16-6 0 10" fill="{color}" stroke="#272f2a"/><path d="M0 8V-18" stroke="#d0bf68" opacity=".4"/></g>'
         if alive:
             body += '<path d="M76 94L77 79M77 80Q60 80 63 72Q75 57 87 73Q91 80 77 80" fill="#6a96a0" stroke="#263b42" stroke-width="2"/><path d="M69 72L72 71M81 71L83 73" stroke="#d9e5cc" stroke-width="3"/>'
             for x,y in ((26,38),(61,51)):
@@ -119,7 +119,7 @@ def main():
         living += f'<path d="{d}" fill="none" stroke="#f9b95d" stroke-width="3" opacity=".55"/><path d="{d}" fill="none" stroke="#ffe6a0" stroke-width="1" opacity=".6"/>'
     living += '<path d="M240 143Q245 98 220 85M404 148Q420 111 443 97" fill="none" stroke="#68794b" stroke-width="3"/>'
     for x,y,r in ((239,123,-40),(224,94,-30),(254,110,40),(420,128,35),(440,102,45),(405,132,-40)):
-        living += f'<g transform="translate({x} {y}) rotate({r})"><path d="M0 10Q-18-7 0-22Q16-6 0 10" fill="#70815d" stroke="#314133"/><path d="M0 8V-18" stroke="#a0a780" opacity=".5"/></g>'
+        living += f'<g transform="translate({x} {y}) rotate({r})"><path d="M0 10Q-18-7 0-22Q16-6 0 10" fill="#879d50" stroke="#314133"/><path d="M0 8V-18" stroke="#bdba6d" opacity=".5"/></g>'
     living += '<path d="M175 151V131M164 130Q164 111 177 116Q192 119 191 131Z M463 149V136M453 135Q456 117 468 122Q479 125 479 136Z" fill="#6d97a4" stroke="#263c42" stroke-width="2"/><path d="M170 123H173M182 124H185M460 127H463" stroke="#cfe2d3" stroke-width="3"/>'
     save('roots_alive.svg',svg(living,640,180))
     save('twig.svg', svg('<path d="M37 89Q29 58 40 29L33 8M36 48L18 33L12 13M35 59L55 43L60 27M40 29L54 18" fill="none" stroke="#393d35" stroke-width="5" stroke-linecap="round"/><path d="M37 89Q29 58 40 29L33 8M36 48L18 33L12 13M35 59L55 43L60 27" fill="none" stroke="#85735a" stroke-width="1.3"/>',72,96))

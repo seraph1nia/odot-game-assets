@@ -1,8 +1,9 @@
 # Visual standard index
 
 Read this to locate a visual criterion, not to load all rules. Guidance baseline:
-**2026-10-13**, overgrown, muted and gloomy painted woodland miniature style
-led by the [W0 Whisperwood board](../references/index.md#whisperwood). The qualitative
+**2026-10-15**, vivid soft painted woodland miniatures: original supplied
+village/unit/forest hues with retained [W0 planted overgrowth and role silhouettes](../references/index.md#whisperwood).
+The muted/grey palette direction is superseded. The qualitative
 starting direction is adopted; examples are inspected existing pictures, not a
 new artist-accepted asset pass. Numeric calibration and actual game view sizes
 are not established. This document does not change executable defaults.
@@ -36,6 +37,13 @@ silently migrate saved sources or increment paint/style versions. New creative
 motifs, numeric targets or production quality work need separately scoped approval.
 
 ## Revision record
+
+- 2026-10-15: color recovery supersedes D03's grey/desaturated body mandate.
+  Original supplied references again inform rich hue/chroma separation; retain
+  W0 organic overgrowth, distinct roles and second-round focal refinements.
+  Softness comes from painted variation and material/light transitions, not
+  removing color. Actual matched source/export renders qualify this iteration;
+  historical illustrations and earlier grey acceptance do not.
 
 - 2026-10-14: authorized second quality round clarifies D05: recover quiet planes
   and working-cue negative space within the retained abundant woodland growth;

@@ -12,10 +12,13 @@ Use isolated workers for authorized operations; keep desktop Blender for review.
 
 For the current overgrown woodland direction, first read
 [W0 authority](references/index.md#whisperwood) and the applicable D01/D03/D05
-rule owners: stronger individual role caricature, muted weathered bodies and
-substantially layered planted growth. Distinguish authored adaptation from
-illustrative fidelity. [The overhaul inventory](../../../docs/whisperwood/README.md)
-tracks actual outputs; guidance installation is not completion.
+rule owners: stronger individual role caricature, vivid coherent material hues,
+soft related surface variation and substantially layered planted growth. The
+rejected muted/grey palette is historical, not an authoring target. Use original
+village/unit/forest images for color inspiration and actual matched renders for
+acceptance evidence. Distinguish authored adaptation from illustrative fidelity.
+[The color-recovery record](../../../docs/vivid-palette/README.md) tracks current
+outputs and links historical overhaul evidence; guidance installation is not completion.
 
 Resolve the selected canonical asset ID and intended picture through the
 [reference index](references/index.md). Read the relevant family and procedure
@@ -28,6 +31,7 @@ below, then that procedure's primary design rule. Do not load every leaf.
 | Harsh edges, flattened crystal faces, mushroom smoothing | [Normals/topology](blender/normals.md); shared edit → [library ownership](blender/libraries.md) |
 | Floating/repetitive vegetation or ground shading | [Environment](families/environment.md) → [contacts](blender/contacts.md) |
 | Glow hides form or water looks detached | [Emission/water](blender/emission-water.md) |
+| A small building detail or water loop | [Localized ambient motion](blender/ambient-motion.md) |
 | Unit proportions, crossbow grip, deformation or clips | [Units/equipment](families/units.md) → [rig/animation](blender/units.md) |
 | Change a prototype rather than one composition | [Library edit](blender/libraries.md) |
 | Set up comparable views | [Review scenes](blender/review-scenes.md) |

@@ -1,0 +1,13 @@
+{
+  "scope": "Final composed local validation; original palette-stage report remains in ac41b74 history. Not no-mistakes/forge CI or game/GPU/artist acceptance.",
+  "final_report": "../ambient-motion/checks.json",
+  "final_report_sha256": "2400ab3a021399b4fd5b461d267a24def04deebc8ac44f54813b9e26a2749b0a",
+  "counts": {
+    "assessed": 133,
+    "refined": 128,
+    "retained": 5
+  },
+  "source_preservation_sha256": "a3b8d45ab38a2227a85453157ee2ecd8fd86728770a10d357be1fc994cde7150",
+  "renders_sha256": "f73fc9d4c15fea6f153e82cddc7a0856a8e5fc26f0bd0b8458b02a3b950180d4",
+  "browser_sha256": "bd58ca34f4d84784cbd4f626058b0f00924185f086300ce0914c9501d9656472"
+}

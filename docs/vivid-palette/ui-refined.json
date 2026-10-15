@@ -1,0 +1,42 @@
+{
+  "artwork": [
+    {
+      "path": "art/woodland/branch_frame.svg",
+      "before": "8551d9ce037fe931bbf482e30ea1026dad866fcdc50b49dbf6a033f0b6cd3657",
+      "after": "09b1f374d4cda303d2e73cf4d34e03830dd0060f92cd3fe3339200dc3c3beada",
+      "geometry_and_alpha_unchanged": true
+    },
+    {
+      "path": "art/woodland/woodland_corners.svg",
+      "before": "aaaa2be06b9a920e0a2478b49a16bc52488c5a30254f32b9d55c808f52b688a1",
+      "after": "fb0368d3baaecddd2ddde184042e86429f38170d27ed9a3b03e7e01a64f2b253",
+      "geometry_and_alpha_unchanged": true
+    },
+    {
+      "path": "art/woodland/parchment_button.svg",
+      "before": "bd36470e0318302584f040bcb5e57f6d0f54782535aaac9fe9370935120f6613",
+      "after": "98398d1e0bc3f811bcc205a61726e30c2162d3159368e146f542203bfc674e5e",
+      "geometry_and_alpha_unchanged": true
+    },
+    {
+      "path": "art/woodland/resource_icons.svg",
+      "before": "68dd1e8623b8144bf558f3a575872175a31a776f0bafb53b454a22fe3e2588be",
+      "after": "5c6506c29d9b111f4c78633fcbf422fd28c15aea961d8aac36a578bd950138cd",
+      "geometry_and_alpha_unchanged": true
+    },
+    {
+      "path": "art/worldtree/foliage_alive.svg",
+      "before": "595088562f27f3f25238125a03ca0704cff93b93ab6b660b26a6d0d7999092b9",
+      "after": "a4e5b862175483d32ed5e3c0375de6a3e552658279f616d6b139e903c9c13a5d",
+      "geometry_and_alpha_unchanged": true
+    },
+    {
+      "path": "art/worldtree/roots_alive.svg",
+      "before": "9888f2613d6bf33c6c613cd177ded2116387fa87eb5a235d7f8efae81963b3d4",
+      "after": "b8aaa47b4919d5e3a85f5c7d57cc546c25f92cdc97f1a32a289677957b8752b1",
+      "geometry_and_alpha_unchanged": true
+    }
+  ],
+  "seal_sha256": "cf3e2ceb4510be6d6a052e882597c2313216e2268a9aaa61fdf1d7e1308d2ced",
+  "retained": "All other native files, interfaces, styles, interactions, SVG geometry/opacity and original seal"
+}

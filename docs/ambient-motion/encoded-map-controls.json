@@ -1,0 +1,817 @@
+{
+  "scope": "Exact independently decoded encoded samples and packed bytes; separately loaded baseline/palette/final; original float mechanism unproven",
+  "sources": {
+    "sources/environment/shared_forest_kit.blend": {
+      "baseline": {
+        "source_sha256": "b6f0aa9e6f05b2c0b2d6dda33d7cfb1a802d4916030ddccc546eafa107f95859",
+        "map": "mushroom_purple/Image Texture.001",
+        "image": "dreamlike_forest_v1_mushroom_purple_roughness",
+        "encoded": {
+          "method": "packed_png8_exact_v1",
+          "packed_sha256": "fa6b8c198fb6e537299fbf3bc205ce5258c9de08de0623839aff5e15ecb89a88",
+          "samples_sha256": "0df206cd018d8f2ac07b7bde4f1bc9f312ef795e3efc5fc293fb45daa5b3e0fe",
+          "alpha_sha256": "3b874d3ba46c638fc3094f8e92fb744ca974893873f8885f54e23760f9b6311b",
+          "dimensions": [
+            512,
+            512
+          ],
+          "channels": 3,
+          "bit_depth": 8,
+          "color_type": 2,
+          "interlace": 0,
+          "decoded_alpha_samples": 262144,
+          "color_space": "Non-Color",
+          "alpha_mode": "STRAIGHT",
+          "source": "FILE",
+          "is_float": false,
+          "use_view_as_render": false
+        },
+        "binding": {
+          "image": "dreamlike_forest_v1_mushroom_purple_roughness",
+          "material_uses_nodes": true,
+          "coordinate_graph": {
+            "Image Texture.001": {
+              "type": "ShaderNodeTexImage",
+              "mute": false,
+              "properties": {
+                "projection": "FLAT",
+                "projection_blend": 0.0,
+                "interpolation": "Linear",
+                "extension": "REPEAT"
+              },
+              "inputs": [
+                [
+                  "Vector",
+                  {
+                    "default_value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                ]
+              ],
+              "mapping": {
+                "vector_type": "POINT",
+                "mapping_x": "X",
+                "mapping_y": "Y",
+                "mapping_z": "Z",
+                "translation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "min": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "max": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "use_min": false,
+                "use_max": false
+              }
+            }
+          },
+          "routing": [
+            [
+              "Image Texture",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Image Texture.001",
+              "Color",
+              "Principled BSDF",
+              "Roughness"
+            ],
+            [
+              "Image Texture.002",
+              "Color",
+              "Principled BSDF",
+              "Emission Color"
+            ],
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ]
+          ],
+          "image_user": {
+            "frame_duration": 100,
+            "frame_start": 1,
+            "frame_offset": 0,
+            "use_cyclic": false,
+            "use_auto_refresh": false
+          }
+        },
+        "repeated_identical_reads": 20,
+        "job": {
+          "job": "encoded-control-shared_forest_kit-baseline",
+          "seconds": 1.24,
+          "log": ".cache/asset-check/logs/encoded-control-shared_forest_kit-baseline.log"
+        },
+        "snapshot_sha256": "50248c687148b095de880bbb7353c8816f7cc6e4277a506dc32ac8c5626c7ec1"
+      },
+      "palette": {
+        "source_sha256": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+        "map": "mushroom_purple/Image Texture.001",
+        "image": "dreamlike_forest_v1_mushroom_purple_roughness",
+        "encoded": {
+          "method": "packed_png8_exact_v1",
+          "packed_sha256": "fa6b8c198fb6e537299fbf3bc205ce5258c9de08de0623839aff5e15ecb89a88",
+          "samples_sha256": "0df206cd018d8f2ac07b7bde4f1bc9f312ef795e3efc5fc293fb45daa5b3e0fe",
+          "alpha_sha256": "3b874d3ba46c638fc3094f8e92fb744ca974893873f8885f54e23760f9b6311b",
+          "dimensions": [
+            512,
+            512
+          ],
+          "channels": 3,
+          "bit_depth": 8,
+          "color_type": 2,
+          "interlace": 0,
+          "decoded_alpha_samples": 262144,
+          "color_space": "Non-Color",
+          "alpha_mode": "STRAIGHT",
+          "source": "FILE",
+          "is_float": false,
+          "use_view_as_render": false
+        },
+        "binding": {
+          "image": "dreamlike_forest_v1_mushroom_purple_roughness",
+          "material_uses_nodes": true,
+          "coordinate_graph": {
+            "Image Texture.001": {
+              "type": "ShaderNodeTexImage",
+              "mute": false,
+              "properties": {
+                "projection": "FLAT",
+                "projection_blend": 0.0,
+                "interpolation": "Linear",
+                "extension": "REPEAT"
+              },
+              "inputs": [
+                [
+                  "Vector",
+                  {
+                    "default_value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                ]
+              ],
+              "mapping": {
+                "vector_type": "POINT",
+                "mapping_x": "X",
+                "mapping_y": "Y",
+                "mapping_z": "Z",
+                "translation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "min": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "max": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "use_min": false,
+                "use_max": false
+              }
+            }
+          },
+          "routing": [
+            [
+              "Image Texture",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Image Texture.001",
+              "Color",
+              "Principled BSDF",
+              "Roughness"
+            ],
+            [
+              "Image Texture.002",
+              "Color",
+              "Principled BSDF",
+              "Emission Color"
+            ],
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ]
+          ],
+          "image_user": {
+            "frame_duration": 100,
+            "frame_start": 1,
+            "frame_offset": 0,
+            "use_cyclic": false,
+            "use_auto_refresh": false
+          }
+        },
+        "repeated_identical_reads": 20,
+        "negative_controls": {
+          "one_encoded_sample_mutated": true,
+          "changed_encoded": {
+            "method": "packed_png8_exact_v1",
+            "packed_sha256": "7acd9ce487fd4197666ba6c39573636a71b454b0575edbe3146a27ac22d6755e",
+            "samples_sha256": "ce43f51c2c728f6c6e8fa395c40525a4a987baac28cdd0b30a3e19f552792449",
+            "alpha_sha256": "3b874d3ba46c638fc3094f8e92fb744ca974893873f8885f54e23760f9b6311b",
+            "dimensions": [
+              512,
+              512
+            ],
+            "channels": 3,
+            "bit_depth": 8,
+            "color_type": 2,
+            "interlace": 0,
+            "decoded_alpha_samples": 262144,
+            "color_space": "Non-Color",
+            "alpha_mode": "STRAIGHT",
+            "source": "FILE",
+            "is_float": false,
+            "use_view_as_render": false
+          },
+          "color_space_change_detected": true,
+          "identical_map_different_binding_detected": true,
+          "same_binding_for_content_mutation": true
+        },
+        "job": {
+          "job": "encoded-control-shared_forest_kit-palette",
+          "seconds": 0.96,
+          "log": ".cache/asset-check/logs/encoded-control-shared_forest_kit-palette.log"
+        },
+        "snapshot_sha256": "fb5f2c83a4f07ed1e354d560ad9d49519ecd1950480718c6e6d501952869b5a1"
+      },
+      "final": {
+        "source_sha256": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46",
+        "map": "mushroom_purple/Image Texture.001",
+        "image": "dreamlike_forest_v1_mushroom_purple_roughness",
+        "encoded": {
+          "method": "packed_png8_exact_v1",
+          "packed_sha256": "fa6b8c198fb6e537299fbf3bc205ce5258c9de08de0623839aff5e15ecb89a88",
+          "samples_sha256": "0df206cd018d8f2ac07b7bde4f1bc9f312ef795e3efc5fc293fb45daa5b3e0fe",
+          "alpha_sha256": "3b874d3ba46c638fc3094f8e92fb744ca974893873f8885f54e23760f9b6311b",
+          "dimensions": [
+            512,
+            512
+          ],
+          "channels": 3,
+          "bit_depth": 8,
+          "color_type": 2,
+          "interlace": 0,
+          "decoded_alpha_samples": 262144,
+          "color_space": "Non-Color",
+          "alpha_mode": "STRAIGHT",
+          "source": "FILE",
+          "is_float": false,
+          "use_view_as_render": false
+        },
+        "binding": {
+          "image": "dreamlike_forest_v1_mushroom_purple_roughness",
+          "material_uses_nodes": true,
+          "coordinate_graph": {
+            "Image Texture.001": {
+              "type": "ShaderNodeTexImage",
+              "mute": false,
+              "properties": {
+                "projection": "FLAT",
+                "projection_blend": 0.0,
+                "interpolation": "Linear",
+                "extension": "REPEAT"
+              },
+              "inputs": [
+                [
+                  "Vector",
+                  {
+                    "default_value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                ]
+              ],
+              "mapping": {
+                "vector_type": "POINT",
+                "mapping_x": "X",
+                "mapping_y": "Y",
+                "mapping_z": "Z",
+                "translation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "min": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "max": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "use_min": false,
+                "use_max": false
+              }
+            }
+          },
+          "routing": [
+            [
+              "Image Texture",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Image Texture.001",
+              "Color",
+              "Principled BSDF",
+              "Roughness"
+            ],
+            [
+              "Image Texture.002",
+              "Color",
+              "Principled BSDF",
+              "Emission Color"
+            ],
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ]
+          ],
+          "image_user": {
+            "frame_duration": 100,
+            "frame_start": 1,
+            "frame_offset": 0,
+            "use_cyclic": false,
+            "use_auto_refresh": false
+          }
+        },
+        "repeated_identical_reads": 20,
+        "job": {
+          "job": "encoded-control-shared_forest_kit-final",
+          "seconds": 0.67,
+          "log": ".cache/asset-check/logs/encoded-control-shared_forest_kit-final.log"
+        },
+        "snapshot_sha256": "cf2c9abcd09655ef81bfc635f37c26034dd75dfb09aaeb97f19b6c8151543145"
+      }
+    },
+    "sources/environment/hex_crystal_shrine.blend": {
+      "baseline": {
+        "source_sha256": "2a1753a92b7fc24d69c0b2469cea8a1ec9069e01478ec837b781cb030887f506",
+        "map": "crystal_light.022/Image Texture.001",
+        "image": "painted_crystal_roughness.025",
+        "encoded": {
+          "method": "packed_png8_exact_v1",
+          "packed_sha256": "f77479390a57c8623dd652f33b93d4867f5e552c7b65dc5652a6433c012d16fc",
+          "samples_sha256": "b6ac1c995002b72c83555d9e109aa53fcdff54085b26d17260be9588b9799951",
+          "alpha_sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "channels": 3,
+          "bit_depth": 8,
+          "color_type": 2,
+          "interlace": 0,
+          "decoded_alpha_samples": 1048576,
+          "color_space": "Non-Color",
+          "alpha_mode": "STRAIGHT",
+          "source": "FILE",
+          "is_float": false,
+          "use_view_as_render": false
+        },
+        "binding": {
+          "image": "painted_crystal_roughness.025",
+          "material_uses_nodes": true,
+          "coordinate_graph": {
+            "Image Texture.001": {
+              "type": "ShaderNodeTexImage",
+              "mute": false,
+              "properties": {
+                "projection": "FLAT",
+                "projection_blend": 0.0,
+                "interpolation": "Linear",
+                "extension": "REPEAT"
+              },
+              "inputs": [
+                [
+                  "Vector",
+                  {
+                    "default_value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                ]
+              ],
+              "mapping": {
+                "vector_type": "POINT",
+                "mapping_x": "X",
+                "mapping_y": "Y",
+                "mapping_z": "Z",
+                "translation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "min": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "max": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "use_min": false,
+                "use_max": false
+              }
+            }
+          },
+          "routing": [
+            [
+              "Image Texture",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Image Texture.001",
+              "Color",
+              "Principled BSDF",
+              "Roughness"
+            ],
+            [
+              "Image Texture.002",
+              "Color",
+              "Principled BSDF",
+              "Emission Color"
+            ],
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ]
+          ],
+          "image_user": {
+            "frame_duration": 100,
+            "frame_start": 1,
+            "frame_offset": 0,
+            "use_cyclic": false,
+            "use_auto_refresh": false
+          }
+        },
+        "repeated_identical_reads": 20,
+        "job": {
+          "job": "encoded-control-hex_crystal_shrine-baseline",
+          "seconds": 0.88,
+          "log": ".cache/asset-check/logs/encoded-control-hex_crystal_shrine-baseline.log"
+        },
+        "snapshot_sha256": "1089436008dd0232d9fc5d36bf1426728293e6f69aa1dd527739f431f990dea3"
+      },
+      "palette": {
+        "source_sha256": "5a92dff03cf2babfeee015faab4a3ba2b8dc4f5ec7da0138ae60a6209b3b9ab2",
+        "map": "crystal_light.022/Image Texture.001",
+        "image": "painted_crystal_roughness.025",
+        "encoded": {
+          "method": "packed_png8_exact_v1",
+          "packed_sha256": "f77479390a57c8623dd652f33b93d4867f5e552c7b65dc5652a6433c012d16fc",
+          "samples_sha256": "b6ac1c995002b72c83555d9e109aa53fcdff54085b26d17260be9588b9799951",
+          "alpha_sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "channels": 3,
+          "bit_depth": 8,
+          "color_type": 2,
+          "interlace": 0,
+          "decoded_alpha_samples": 1048576,
+          "color_space": "Non-Color",
+          "alpha_mode": "STRAIGHT",
+          "source": "FILE",
+          "is_float": false,
+          "use_view_as_render": false
+        },
+        "binding": {
+          "image": "painted_crystal_roughness.025",
+          "material_uses_nodes": true,
+          "coordinate_graph": {
+            "Image Texture.001": {
+              "type": "ShaderNodeTexImage",
+              "mute": false,
+              "properties": {
+                "projection": "FLAT",
+                "projection_blend": 0.0,
+                "interpolation": "Linear",
+                "extension": "REPEAT"
+              },
+              "inputs": [
+                [
+                  "Vector",
+                  {
+                    "default_value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                ]
+              ],
+              "mapping": {
+                "vector_type": "POINT",
+                "mapping_x": "X",
+                "mapping_y": "Y",
+                "mapping_z": "Z",
+                "translation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "min": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "max": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "use_min": false,
+                "use_max": false
+              }
+            }
+          },
+          "routing": [
+            [
+              "Image Texture",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Image Texture.001",
+              "Color",
+              "Principled BSDF",
+              "Roughness"
+            ],
+            [
+              "Image Texture.002",
+              "Color",
+              "Principled BSDF",
+              "Emission Color"
+            ],
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ]
+          ],
+          "image_user": {
+            "frame_duration": 100,
+            "frame_start": 1,
+            "frame_offset": 0,
+            "use_cyclic": false,
+            "use_auto_refresh": false
+          }
+        },
+        "repeated_identical_reads": 20,
+        "negative_controls": {
+          "one_encoded_sample_mutated": true,
+          "changed_encoded": {
+            "method": "packed_png8_exact_v1",
+            "packed_sha256": "7dc463d3d4a9d6cce2d6b6f9e28d2e1613ae08da2e5d0c2eeb18fdd5d2c3050f",
+            "samples_sha256": "7fadab33edbe3a67a557868c20a12dc30cf8a599e4c5d52d29a76fccc3968569",
+            "alpha_sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
+            "dimensions": [
+              1024,
+              1024
+            ],
+            "channels": 3,
+            "bit_depth": 8,
+            "color_type": 2,
+            "interlace": 0,
+            "decoded_alpha_samples": 1048576,
+            "color_space": "Non-Color",
+            "alpha_mode": "STRAIGHT",
+            "source": "FILE",
+            "is_float": false,
+            "use_view_as_render": false
+          },
+          "color_space_change_detected": true,
+          "identical_map_different_binding_detected": true,
+          "same_binding_for_content_mutation": true
+        },
+        "job": {
+          "job": "encoded-control-hex_crystal_shrine-palette",
+          "seconds": 1.84,
+          "log": ".cache/asset-check/logs/encoded-control-hex_crystal_shrine-palette.log"
+        },
+        "snapshot_sha256": "861a93f445d553e6dabc058b0937e6230c67d7865879ae75e9f24f08201e9153"
+      },
+      "final": {
+        "source_sha256": "5a92dff03cf2babfeee015faab4a3ba2b8dc4f5ec7da0138ae60a6209b3b9ab2",
+        "map": "crystal_light.022/Image Texture.001",
+        "image": "painted_crystal_roughness.025",
+        "encoded": {
+          "method": "packed_png8_exact_v1",
+          "packed_sha256": "f77479390a57c8623dd652f33b93d4867f5e552c7b65dc5652a6433c012d16fc",
+          "samples_sha256": "b6ac1c995002b72c83555d9e109aa53fcdff54085b26d17260be9588b9799951",
+          "alpha_sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "channels": 3,
+          "bit_depth": 8,
+          "color_type": 2,
+          "interlace": 0,
+          "decoded_alpha_samples": 1048576,
+          "color_space": "Non-Color",
+          "alpha_mode": "STRAIGHT",
+          "source": "FILE",
+          "is_float": false,
+          "use_view_as_render": false
+        },
+        "binding": {
+          "image": "painted_crystal_roughness.025",
+          "material_uses_nodes": true,
+          "coordinate_graph": {
+            "Image Texture.001": {
+              "type": "ShaderNodeTexImage",
+              "mute": false,
+              "properties": {
+                "projection": "FLAT",
+                "projection_blend": 0.0,
+                "interpolation": "Linear",
+                "extension": "REPEAT"
+              },
+              "inputs": [
+                [
+                  "Vector",
+                  {
+                    "default_value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                ]
+              ],
+              "mapping": {
+                "vector_type": "POINT",
+                "mapping_x": "X",
+                "mapping_y": "Y",
+                "mapping_z": "Z",
+                "translation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "min": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "max": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "use_min": false,
+                "use_max": false
+              }
+            }
+          },
+          "routing": [
+            [
+              "Image Texture",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Image Texture.001",
+              "Color",
+              "Principled BSDF",
+              "Roughness"
+            ],
+            [
+              "Image Texture.002",
+              "Color",
+              "Principled BSDF",
+              "Emission Color"
+            ],
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ]
+          ],
+          "image_user": {
+            "frame_duration": 100,
+            "frame_start": 1,
+            "frame_offset": 0,
+            "use_cyclic": false,
+            "use_auto_refresh": false
+          }
+        },
+        "repeated_identical_reads": 20,
+        "job": {
+          "job": "encoded-control-hex_crystal_shrine-final",
+          "seconds": 0.92,
+          "log": ".cache/asset-check/logs/encoded-control-hex_crystal_shrine-final.log"
+        },
+        "snapshot_sha256": "d3fcfa5ee0c1155c772e5b9ca4125c25c50bf5af08e72ad337dd751d1435aa23"
+      }
+    }
+  }
+}

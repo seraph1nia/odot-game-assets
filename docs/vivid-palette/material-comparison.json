@@ -1,0 +1,389 @@
+[
+  {
+    "id": "buildings/woodcutter_hut",
+    "material": "roof_blue",
+    "original_linear_RGBA": [
+      0.01960664801299572,
+      0.09462962299585342,
+      0.2529500722885132,
+      1.0
+    ],
+    "landed_grey_linear_RGBA": [
+      0.038470152765512466,
+      0.06306897103786469,
+      0.09689994156360626,
+      1.0
+    ],
+    "recovered": {
+      "name": "roof_blue",
+      "status": "refined",
+      "basis": "historical material color",
+      "channels": [
+        {
+          "channel": "Base Color",
+          "linear_before": [
+            0.038470152765512466,
+            0.06306897103786469,
+            0.09689994156360626
+          ],
+          "linear_after": [
+            0.01960664801299572,
+            0.09462962299585342,
+            0.2529500722885132
+          ],
+          "map": null
+        },
+        {
+          "channel": "Emission Color",
+          "linear_before": [
+            0.038470152765512466,
+            0.06306897103786469,
+            0.09689994156360626
+          ],
+          "linear_after": [
+            0.01960664801299572,
+            0.09462962299585342,
+            0.2529500722885132
+          ],
+          "map": null
+        }
+      ]
+    },
+    "scope": "Actual saved-source Principled sockets and packed-map provenance, not sampled render RGB"
+  },
+  {
+    "id": "buildings/woodcutter_hut",
+    "material": "wood",
+    "original_linear_RGBA": [
+      0.15487249195575714,
+      0.04889732599258423,
+      0.012510408647358418,
+      1.0
+    ],
+    "landed_grey_linear_RGBA": [
+      0.06702497601509094,
+      0.042029984295368195,
+      0.028388693928718567,
+      1.0
+    ],
+    "recovered": {
+      "name": "wood",
+      "status": "refined",
+      "basis": "historical material color",
+      "channels": [
+        {
+          "channel": "Base Color",
+          "linear_before": [
+            0.06702497601509094,
+            0.042029984295368195,
+            0.028388693928718567
+          ],
+          "linear_after": [
+            0.15487249195575714,
+            0.04889732599258423,
+            0.012510408647358418
+          ],
+          "map": null
+        },
+        {
+          "channel": "Emission Color",
+          "linear_before": [
+            0.06702497601509094,
+            0.042029984295368195,
+            0.028388693928718567
+          ],
+          "linear_after": [
+            0.15487249195575714,
+            0.04889732599258423,
+            0.012510408647358418
+          ],
+          "map": null
+        }
+      ]
+    },
+    "scope": "Actual saved-source Principled sockets and packed-map provenance, not sampled render RGB"
+  },
+  {
+    "id": "buildings/woodcutter_hut",
+    "material": "forest_leaf_woodland",
+    "original_linear_RGBA": null,
+    "landed_grey_linear_RGBA": [
+      0.0889815241098404,
+      0.1399848908185959,
+      0.08353512734174728,
+      1.0
+    ],
+    "recovered": {
+      "name": "forest_leaf_woodland",
+      "status": "refined",
+      "basis": "explicit added role",
+      "channels": [
+        {
+          "channel": "Base Color",
+          "linear_before": [
+            0.0889815241098404,
+            0.1399848908185959,
+            0.08353512734174728
+          ],
+          "linear_after": [
+            0.0549717326875717,
+            0.22341399352485986,
+            0.06838485415816624
+          ],
+          "map": {
+            "before": "painted_forest_leaf_woodland_color",
+            "historical": null,
+            "after": "vivid_painted_v1_be95f207113ac2a0f32aa9be",
+            "method": "named role recolor retaining current painted spatial field",
+            "alpha_preserved": true,
+            "packed": true
+          }
+        },
+        {
+          "channel": "Emission Color",
+          "linear_before": [
+            0.0889815241098404,
+            0.1399848908185959,
+            0.08353512734174728
+          ],
+          "linear_after": [
+            0.0549717326875717,
+            0.22341399352485986,
+            0.06838485415816624
+          ],
+          "map": null
+        }
+      ]
+    },
+    "scope": "Actual saved-source Principled sockets and packed-map provenance, not sampled render RGB"
+  },
+  {
+    "id": "characters/knight",
+    "material": "blue",
+    "original_linear_RGBA": [
+      0.01960664801299572,
+      0.09462962299585342,
+      0.5225215554237366,
+      1.0
+    ],
+    "landed_grey_linear_RGBA": [
+      0.04127724468708038,
+      0.06679999083280563,
+      0.14779113233089447,
+      1.0
+    ],
+    "recovered": {
+      "name": "blue",
+      "status": "refined",
+      "basis": "historical material color",
+      "channels": [
+        {
+          "channel": "Base Color",
+          "linear_before": [
+            0.04127724468708038,
+            0.06679999083280563,
+            0.14779113233089447
+          ],
+          "linear_after": [
+            0.01960664801299572,
+            0.09462962299585342,
+            0.5225215554237366
+          ],
+          "map": null
+        },
+        {
+          "channel": "Emission Color",
+          "linear_before": [
+            0.04127724468708038,
+            0.06679999083280563,
+            0.14779113233089447
+          ],
+          "linear_after": [
+            0.01960664801299572,
+            0.09462962299585342,
+            0.5225215554237366
+          ],
+          "map": null
+        }
+      ]
+    },
+    "scope": "Actual saved-source Principled sockets and packed-map provenance, not sampled render RGB"
+  },
+  {
+    "id": "characters/knight",
+    "material": "skin",
+    "original_linear_RGBA": [
+      0.911407470703125,
+      0.4338795244693756,
+      0.10048151016235352,
+      1.0
+    ],
+    "landed_grey_linear_RGBA": [
+      0.7065755128860474,
+      0.4081067740917206,
+      0.1596846878528595,
+      1.0
+    ],
+    "recovered": {
+      "name": "skin",
+      "status": "refined",
+      "basis": "historical material color",
+      "channels": [
+        {
+          "channel": "Base Color",
+          "linear_before": [
+            0.7065755128860474,
+            0.4081067740917206,
+            0.1596846878528595
+          ],
+          "linear_after": [
+            0.911407470703125,
+            0.4338795244693756,
+            0.10048151016235352
+          ],
+          "map": null
+        },
+        {
+          "channel": "Emission Color",
+          "linear_before": [
+            0.7065755128860474,
+            0.4081067740917206,
+            0.1596846878528595
+          ],
+          "linear_after": [
+            0.911407470703125,
+            0.4338795244693756,
+            0.10048151016235352
+          ],
+          "map": null
+        }
+      ]
+    },
+    "scope": "Actual saved-source Principled sockets and packed-map provenance, not sampled render RGB"
+  },
+  {
+    "id": "environment/hex_glowing_mushrooms",
+    "material": "mushroom_blue.007",
+    "original_linear_RGBA": [
+      0.05087608844041824,
+      0.1259673833847046,
+      0.36724647879600525,
+      1.0
+    ],
+    "landed_grey_linear_RGBA": [
+      0.0652880072593689,
+      0.08851303160190582,
+      0.14060278236865997,
+      1.0
+    ],
+    "recovered": {
+      "name": "mushroom_blue.007",
+      "status": "refined",
+      "basis": "historical material color",
+      "channels": [
+        {
+          "channel": "Base Color",
+          "linear_before": [
+            0.0652880072593689,
+            0.08851303160190582,
+            0.14060278236865997
+          ],
+          "linear_after": [
+            0.05087608844041824,
+            0.1259673833847046,
+            0.36724647879600525
+          ],
+          "map": {
+            "before": "whisperwood_v1_955a1b0a8939eff3f73d",
+            "historical": "dreamlike_forest_v1_mushroom_blue_color",
+            "after": "vivid_painted_v1_81bdcea6c1678d798a974259",
+            "method": "original packed color map with restrained related wash",
+            "alpha_preserved": true,
+            "packed": true
+          }
+        },
+        {
+          "channel": "Emission Color",
+          "linear_before": [
+            0.05854121595621109,
+            0.07539336383342743,
+            0.16131167113780975
+          ],
+          "linear_after": [
+            0.04696420207619667,
+            0.10048151016235352,
+            0.5382355451583862
+          ],
+          "map": {
+            "before": "whisperwood_v1_98967aca39f34d6bf245",
+            "historical": "painted_mushroom_blue_emission.007",
+            "after": "vivid_painted_v1_1ab4623ee57aba87511adcc7",
+            "method": "original packed color map with restrained related wash",
+            "alpha_preserved": true,
+            "packed": true
+          }
+        }
+      ]
+    },
+    "scope": "Actual saved-source Principled sockets and packed-map provenance, not sampled render RGB"
+  },
+  {
+    "id": "environment/hex_glowing_mushrooms",
+    "material": "forest_leaf.007",
+    "original_linear_RGBA": [
+      0.06372379511594772,
+      0.2049017697572708,
+      0.10048151016235352,
+      1.0
+    ],
+    "landed_grey_linear_RGBA": [
+      0.0854603573679924,
+      0.1274707317352295,
+      0.09838249534368515,
+      1.0
+    ],
+    "recovered": {
+      "name": "forest_leaf.007",
+      "status": "refined",
+      "basis": "historical material color",
+      "channels": [
+        {
+          "channel": "Base Color",
+          "linear_before": [
+            0.0854603573679924,
+            0.1274707317352295,
+            0.09838249534368515
+          ],
+          "linear_after": [
+            0.06372379511594772,
+            0.2049017697572708,
+            0.10048151016235352
+          ],
+          "map": {
+            "before": "whisperwood_v1_c7def948695484d424f2",
+            "historical": "dreamlike_forest_v1_forest_leaf_color",
+            "after": "vivid_painted_v1_399bdb98091a94079a5c9150",
+            "method": "original packed color map with restrained related wash",
+            "alpha_preserved": true,
+            "packed": true
+          }
+        },
+        {
+          "channel": "Emission Color",
+          "linear_before": [
+            0.09996000677347183,
+            0.14565038681030273,
+            0.07168154418468475
+          ],
+          "linear_after": [
+            0.08353512734174728,
+            0.24286681413650513,
+            0.021980946883559227
+          ],
+          "map": null
+        }
+      ]
+    },
+    "scope": "Actual saved-source Principled sockets and packed-map provenance, not sampled render RGB"
+  }
+]

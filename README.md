@@ -11,7 +11,9 @@ invocable skills. Pi discovers project `.agents/skills/` entries on demand;
 `/skill:asset-art-direction` explicitly loads this entry. Other clients' discovery
 must be verified separately.
 
-- [Current selective quality round: full inventory, focal edits and actual evidence](docs/quality-round-two/README.md)
+- [Color recovery: current direction, inventory and actual comparisons](docs/vivid-palette/README.md)
+- [Localized building/water loops: 25 actual exported clips, coverage and playback](docs/ambient-motion/README.md)
+- [Landed selective quality round: focal edits and historical evidence](docs/quality-round-two/README.md)
 - [Landed first-round Whisperwood analysis, inventory and baseline evidence](docs/whisperwood/README.md)
 - [Reference authority and supplied-image inventory](.agents/skills/asset-art-direction/references/index.md)
 - [D01–D09 visual standards](.agents/skills/asset-art-direction/design/index.md)
@@ -19,11 +21,14 @@ must be verified separately.
 - [Existing pipeline owners and command side effects](.agents/skills/asset-art-direction/pipeline/index.md)
 - [Guidance verification and visual acceptance](.agents/skills/asset-art-direction/review/index.md)
 
-The current direction is substantially overgrown, muted and gloomy, with
-individual role caricature and layered functional detail. The supplied
-[Whisperwood board](sources/reference/whisperwood/direction.png) supersedes older
-bright/clean palette choices; it is illustrative guidance, not attained 3D
-fidelity. These qualitative standards preserve selective organic softness and broad planes;
+The current direction is colorful, soft painted fantasy with substantially
+overgrown structures, individual role caricature and layered functional detail.
+Restore rich blue/red roofs, warm timber, lively related greens and distinct
+cyan/violet magic inspired by the original supplied references; the rejected
+muted/grey treatment is not an acceptance target. The supplied
+[Whisperwood board](sources/reference/whisperwood/direction.png) still informs
+planted growth and working silhouettes, not desaturation. All boards are
+illustrative inspiration, not attained 3D fidelity. These qualitative standards preserve selective organic softness and broad planes;
 dreaming-forest assets are authored adaptations, not supplied-reference matches.
 Numeric art calibration and actual game occupied-pixel sizes remain provisional.
 Installing guidance changes no asset and authorizes no rebuild/render/export,
@@ -285,18 +290,20 @@ python3 -m unittest tools.asset_catalog.test_catalog tools.asset_catalog.test_bu
 
 ## Reference asset set
 
-Browse [the offline reference library](sources/reference/index.html) for the current
-Whisperwood direction plus five preserved historical functional reference sets,
-full-size images, and matching canonical source/render/export links.
+Browse [the offline reference library](sources/reference/index.html) for supplied
+images and matching canonical source/render/export links. The
+[reference authority](.agents/skills/asset-art-direction/references/index.md#authority)
+distinguishes current color inspiration from retained Whisperwood growth/role guidance.
 
 The three root overview assemblies below and their aggregate renders are
 **historical**, not synchronized Whisperwood outputs: they retain manual assembly
 edits rather than being blindly rebuilt. All 133 canonical catalog entries and
 additional dependency decisions are covered in the
-[first-round refinement ledger](docs/whisperwood/completion.json); the
-[current second-round inventory](docs/quality-round-two/inventory.json) supersedes
-its five changed building rows without rewriting historical renderer/image bindings.
-Individual sources, GLBs, thumbnails and authored presentation renders are refreshed.
+[historical first-round refinement ledger](docs/whisperwood/completion.json) and
+[second-round inventory](docs/quality-round-two/inventory.json). See the
+[current color-recovery record](docs/vivid-palette/README.md) for current inventory,
+export evidence and the limits of the palette-checkpoint presentation renders;
+[localized motion](docs/ambient-motion/README.md) owns final clip coverage and playback.
 The eight original PNGs from `new_autobattler_assets.zip` are preserved in
 `sources/reference/autobattler/`; its manifest records archive and image checksums.
 

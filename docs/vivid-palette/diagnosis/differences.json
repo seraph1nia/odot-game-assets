@@ -1,0 +1,3500 @@
+{
+  "buildings/gold_mine": {
+    "untouched_roundtrip": [
+      {
+        "field": "/objects/Woodland shared curved ivy leaf",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "collections": [],
+          "parent": null,
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "matrix_basis": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "matrix_parent_inverse": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/objects/Woodland shared moss cushion",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "collections": [],
+          "parent": null,
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "matrix_basis": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "matrix_parent_inverse": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/structure/Woodland shared curved ivy leaf",
+        "expected": "5d76c2cb28d1a14acfa6923c00ddbe580377d3700fec879f38daa7a74d0a48bd",
+        "observed": null
+      },
+      {
+        "field": "/structure/Woodland shared moss cushion",
+        "expected": "3ae72242548cce1ade0a5e97c8ba038501a53192ddb5a576c336e95a2bcf371f",
+        "observed": null
+      }
+    ],
+    "partial_palette": [
+      {
+        "field": "/images/painted_bark_woodland_color",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/painted_forest_leaf_woodland_color",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/painted_forest_leaf_woodland_tip_color",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/painted_moss_woodland_color",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/vivid_painted_v1_ab7731dbbbd9e12c3235e44c",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_be95f207113ac2a0f32aa9be",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_d80b6116394c29b57b8ab5d8",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_e518087cff7b51be105dd77d",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/materials/bark_woodland/nodes/Image Texture/image",
+        "expected": "painted_bark_woodland_color",
+        "observed": "vivid_painted_v1_ab7731dbbbd9e12c3235e44c"
+      },
+      {
+        "field": "/materials/bark_woodland/nodes/Image Texture/pixels",
+        "expected": "44eb5c5dd787e4993bed4dd13331eeb9daedc505e1cf55055d114072ae3d207e",
+        "observed": "df0f846de0679edbcb5693a21742529c506a733b5e88f0645cb9db0a7c0ca3a4"
+      },
+      {
+        "field": "/materials/forest_leaf_woodland/nodes/Image Texture/image",
+        "expected": "painted_forest_leaf_woodland_color",
+        "observed": "vivid_painted_v1_be95f207113ac2a0f32aa9be"
+      },
+      {
+        "field": "/materials/forest_leaf_woodland/nodes/Image Texture/pixels",
+        "expected": "37e8ac65d30022c70f7fdd215c613b6a92c9f04f0964c62f0d303914f4b47b6f",
+        "observed": "be2f45f40f942694002ef7e59c4683260cade16b1dbeeb535eb7c53e3dc3dbb4"
+      },
+      {
+        "field": "/materials/forest_leaf_woodland_tip/nodes/Image Texture/image",
+        "expected": "painted_forest_leaf_woodland_tip_color",
+        "observed": "vivid_painted_v1_e518087cff7b51be105dd77d"
+      },
+      {
+        "field": "/materials/forest_leaf_woodland_tip/nodes/Image Texture/pixels",
+        "expected": "02d43412b0e2fc80dab21c1868af0b7e87ab9ecc33539ef4fca719660766a884",
+        "observed": "0ee2d2176fbb3a8c75746b800e5370b287163dbe656518cbec5b54ecfc3a7458"
+      },
+      {
+        "field": "/materials/moss_woodland/nodes/Image Texture/image",
+        "expected": "painted_moss_woodland_color",
+        "observed": "vivid_painted_v1_d80b6116394c29b57b8ab5d8"
+      },
+      {
+        "field": "/materials/moss_woodland/nodes/Image Texture/pixels",
+        "expected": "9932717b4827a54155cb27f076e5a5400f3da4e5266ce8d84aa9376f0971f660",
+        "observed": "f80617214467d216d2ed2e9a3a533a610f05bf98083d8e7b9d43c5f0f352fe4a"
+      },
+      {
+        "field": "/objects/Woodland shared curved ivy leaf",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "collections": [],
+          "parent": null,
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "matrix_basis": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "matrix_parent_inverse": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/objects/Woodland shared moss cushion",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "collections": [],
+          "parent": null,
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "matrix_basis": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "matrix_parent_inverse": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/structure/Woodland shared curved ivy leaf",
+        "expected": "5d76c2cb28d1a14acfa6923c00ddbe580377d3700fec879f38daa7a74d0a48bd",
+        "observed": null
+      },
+      {
+        "field": "/structure/Woodland shared moss cushion",
+        "expected": "3ae72242548cce1ade0a5e97c8ba038501a53192ddb5a576c336e95a2bcf371f",
+        "observed": null
+      }
+    ]
+  },
+  "environment/hex_glowing_mushrooms": {
+    "untouched_roundtrip": [
+      {
+        "field": "/images/dreamlike_forest_v1_forest_leaf_light_roughness.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_forest_leaf_light_roughness.002/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_forest_leaf_roughness.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_forest_leaf_roughness.002/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_gill_glow_roughness.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_gill_glow_roughness.002/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_moss_roughness.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_moss_roughness.002/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_mushroom_blue_roughness.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_mushroom_blue_roughness.002/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_mushroom_purple_roughness.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_mushroom_purple_roughness.002/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_crystal_roughness",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/painted_crystal_roughness.001/users",
+        "expected": 5,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_forest_leaf_woodland_color.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_forest_leaf_woodland_tip_color.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_ground_roughness.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/painted_ground_roughness.002/users",
+        "expected": 3,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_leaf_normal.002/users",
+        "expected": 4,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_leaf_roughness.001/users",
+        "expected": 2,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_moss_roughness.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_moss_woodland_color.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_stone_normal",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/painted_stone_normal.001/users",
+        "expected": 3,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_stone_roughness",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/painted_stone_roughness.001/users",
+        "expected": 3,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_13da16550a83bf05ded2.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_1882e212a05c8939c40f.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_424ed0a62d2d78562fbe.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_5642b5579411a1c7ca9a.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_5750bc0c3310451f4ccb.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_658f8ebab72ae10c3ce3.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_6960e37e83b3470ba1cf.001/users",
+        "expected": 2,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_69f01347727b7be0a9a7.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_7666330fca97592dfe11.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_955a1b0a8939eff3f73d.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_96fbff77ad131aecc5d0.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_98967aca39f34d6bf245.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_992872cc7fa84b7ea12b.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_99a13ee75a4b271e5893.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_a7b97c377b645727ef36.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_bc8bd5125a34a73e79e2.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_bd08cc3c3e52689ba67d.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_bd19e142eb936941aadd.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_c7def948695484d424f2.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_cc04818bfff40702eed6.001/users",
+        "expected": 2,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_d64d542e115b8ee791cf.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_e3d148e6bf52c0ea87b8.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_e8f422f0e86afa6d76a4.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/materials/base.002",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {}
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/crystal_blue.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_992872cc7fa84b7ea12b.001",
+              "space": "sRGB",
+              "pixels": "c6cc5b0760c9f0824dbeeac7a0addb4c05462904e48ec095f1f77f19f551ea88",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_crystal_roughness.001",
+              "space": "Non-Color",
+              "pixels": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_d64d542e115b8ee791cf.001",
+              "space": "sRGB",
+              "pixels": "97d2c662c742c05af8c8355e71da705425a212b5b5227070cfe1122e37f94f74",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/crystal_cyan.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_5750bc0c3310451f4ccb.001",
+              "space": "sRGB",
+              "pixels": "c41ba76dfba65d1ef19a2786f0c6af3e5404bee2fcd177958d5e91fb3a8ab77b",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_crystal_roughness.001",
+              "space": "Non-Color",
+              "pixels": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_bd08cc3c3e52689ba67d.001",
+              "space": "sRGB",
+              "pixels": "20c4da719b45bb23885329701821dc14c4e6d352406aa9826957cdb383c8bfa1",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/crystal_light.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_1882e212a05c8939c40f.001",
+              "space": "sRGB",
+              "pixels": "6ffef3f463f675cde3d1d2dc03280f358c910d45f09e40689f1def535557ed72",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_crystal_roughness.001",
+              "space": "Non-Color",
+              "pixels": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_a7b97c377b645727ef36.001",
+              "space": "sRGB",
+              "pixels": "27487916dae06dcb3b0e0c301545d3c50d3260ffdc565d528ea517960852a915",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/crystal_lilac.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_cc04818bfff40702eed6.001",
+              "space": "sRGB",
+              "pixels": "bfe6ce9db007ee38328bdd4e2a7a9b2fc61aea3ca55a5dba9bb637dec22e82a9",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_crystal_roughness.001",
+              "space": "Non-Color",
+              "pixels": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_6960e37e83b3470ba1cf.001",
+              "space": "sRGB",
+              "pixels": "18c018bbe5add2dfceed52984c66e76c4271ce41da3bd0d2ef54fffa23265814",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/crystal_purple.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_cc04818bfff40702eed6.001",
+              "space": "sRGB",
+              "pixels": "bfe6ce9db007ee38328bdd4e2a7a9b2fc61aea3ca55a5dba9bb637dec22e82a9",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_crystal_roughness.001",
+              "space": "Non-Color",
+              "pixels": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_6960e37e83b3470ba1cf.001",
+              "space": "sRGB",
+              "pixels": "18c018bbe5add2dfceed52984c66e76c4271ce41da3bd0d2ef54fffa23265814",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/forest_leaf.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_c7def948695484d424f2.001",
+              "space": "sRGB",
+              "pixels": "cf0bda68ed12149a8e207ab189cf8942d343440b57d11ac9fd3017c87c87f825",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "dreamlike_forest_v1_forest_leaf_roughness.002",
+              "space": "Non-Color",
+              "pixels": "7e6c92fa8203251b6c6e61ed255d6d0f5f4580ffed04a1ed18c8d49da71c2668",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "painted_leaf_normal.002",
+              "space": "Non-Color",
+              "pixels": "ec818c1a1d6bea81dab454b950fc36418b4f4b6a2367885da323f810ccef671e",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/forest_leaf_light.002",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_658f8ebab72ae10c3ce3.001",
+              "space": "sRGB",
+              "pixels": "4d9b061687be73ff24333dbf85fb20b6eacf4429bd6852958839ce3be620a780",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "dreamlike_forest_v1_forest_leaf_light_roughness.002",
+              "space": "Non-Color",
+              "pixels": "7e6c92fa8203251b6c6e61ed255d6d0f5f4580ffed04a1ed18c8d49da71c2668",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "painted_leaf_normal.002",
+              "space": "Non-Color",
+              "pixels": "ec818c1a1d6bea81dab454b950fc36418b4f4b6a2367885da323f810ccef671e",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/forest_leaf_woodland.002",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "painted_forest_leaf_woodland_color.001",
+              "space": "sRGB",
+              "pixels": "37e8ac65d30022c70f7fdd215c613b6a92c9f04f0964c62f0d303914f4b47b6f",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_leaf_roughness.001",
+              "space": "Non-Color",
+              "pixels": "2948ddf78cd872b545879d4f2f9bc39ffcf05fa34cae3233a01531ad0bc59bbe",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "painted_leaf_normal.002",
+              "space": "Non-Color",
+              "pixels": "ec818c1a1d6bea81dab454b950fc36418b4f4b6a2367885da323f810ccef671e",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/forest_leaf_woodland_tip.002",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "painted_forest_leaf_woodland_tip_color.001",
+              "space": "sRGB",
+              "pixels": "02d43412b0e2fc80dab21c1868af0b7e87ab9ecc33539ef4fca719660766a884",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_leaf_roughness.001",
+              "space": "Non-Color",
+              "pixels": "2948ddf78cd872b545879d4f2f9bc39ffcf05fa34cae3233a01531ad0bc59bbe",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "painted_leaf_normal.002",
+              "space": "Non-Color",
+              "pixels": "ec818c1a1d6bea81dab454b950fc36418b4f4b6a2367885da323f810ccef671e",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/gill_glow.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_bc8bd5125a34a73e79e2.001",
+              "space": "sRGB",
+              "pixels": "ca96ad2d5ddfd310eb3204db0c691c55e2c6f161bb17fce9ab2893e1f334e71a",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "dreamlike_forest_v1_gill_glow_roughness.002",
+              "space": "Non-Color",
+              "pixels": "bce60968f97e9fe7700fbbc77d7dd25798de153f69bbc4180b425ca5bdaa880b",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_424ed0a62d2d78562fbe.001",
+              "space": "sRGB",
+              "pixels": "e1d24741c85022bcd710bb6f29310b4dfb5001ad999d5936bef258bf387c1e34",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/grass.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_99a13ee75a4b271e5893.001",
+              "space": "sRGB",
+              "pixels": "98d15406f5b48f0cb1aa9fb22170775cf975b452aebbbf4827c8aace9852a20b",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_ground_roughness.002",
+              "space": "Non-Color",
+              "pixels": "5135c7cfb10249cc3f6aa8dd2e7a76fefa9d6692f6c283d6cb5a7e19bb9d0e7f",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/grass_dark.002",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_5642b5579411a1c7ca9a.001",
+              "space": "sRGB",
+              "pixels": "5f716c25f34b12c88fefeead8b22a04b6d4fbc169ce18b0b73d52637551b5bf1",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_ground_roughness.002",
+              "space": "Non-Color",
+              "pixels": "5135c7cfb10249cc3f6aa8dd2e7a76fefa9d6692f6c283d6cb5a7e19bb9d0e7f",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/grass_light.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_e3d148e6bf52c0ea87b8.001",
+              "space": "sRGB",
+              "pixels": "b4f888acdd947ca551cda97654052795fec4b5093f556cc993e6eef07d449fdc",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_ground_roughness.002",
+              "space": "Non-Color",
+              "pixels": "5135c7cfb10249cc3f6aa8dd2e7a76fefa9d6692f6c283d6cb5a7e19bb9d0e7f",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/magic_core.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {}
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/moss.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_96fbff77ad131aecc5d0.001",
+              "space": "sRGB",
+              "pixels": "a47cb0f8eaf16712d1d8af2aacd280212863e7b83aff5a7038211175cfe48163",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "dreamlike_forest_v1_moss_roughness.002",
+              "space": "Non-Color",
+              "pixels": "79ac1dad4332e44ccc28dcb3875b8c8e92704fb5682a211227f920098051e2b1",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/moss_woodland.002",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "painted_moss_woodland_color.001",
+              "space": "sRGB",
+              "pixels": "9932717b4827a54155cb27f076e5a5400f3da4e5266ce8d84aa9376f0971f660",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_moss_roughness.001",
+              "space": "Non-Color",
+              "pixels": "2948ddf78cd872b545879d4f2f9bc39ffcf05fa34cae3233a01531ad0bc59bbe",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/mushroom_blue.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_955a1b0a8939eff3f73d.001",
+              "space": "sRGB",
+              "pixels": "0188bc41314963d522abf8fe72f76264186d0d8123452d20de258c8166dbba39",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "dreamlike_forest_v1_mushroom_blue_roughness.002",
+              "space": "Non-Color",
+              "pixels": "3f0a1c7da3edad721ba61059475d262e90c933c179e1d6568cad1f8731322c17",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_98967aca39f34d6bf245.001",
+              "space": "sRGB",
+              "pixels": "b80708497dd115641379078fe7d86094a4d9053ba878154a3ad156fac5cab1da",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/mushroom_purple.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_7666330fca97592dfe11.001",
+              "space": "sRGB",
+              "pixels": "b598dad608b9c45c5f28232709c8c7330a5d7145d96513c41889834a1c81af25",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "dreamlike_forest_v1_mushroom_purple_roughness.002",
+              "space": "Non-Color",
+              "pixels": "3f0a1c7da3edad721ba61059475d262e90c933c179e1d6568cad1f8731322c17",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_69f01347727b7be0a9a7.001",
+              "space": "sRGB",
+              "pixels": "2f050a1e0860dfaf15006c751bacc78dd3a5404301d8a4981143673427767f7c",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/rune_glow.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {}
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/soil.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {}
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/stone.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_bd19e142eb936941aadd.001",
+              "space": "sRGB",
+              "pixels": "bf50f13c601045b6cf26dbed098bed9658df01b3b3fa8d68ea3d34e8897e8151",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_stone_roughness.001",
+              "space": "Non-Color",
+              "pixels": "4e60beeba8019e941b403496d526655bc3a2afc9e45514c80fc14407d10dcabc",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "painted_stone_normal.001",
+              "space": "Non-Color",
+              "pixels": "3c82e1562e3c50b71f581dabbaf86aadfb2e5996c66e53d374150e05e3ffa110",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/stone_dark.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_13da16550a83bf05ded2.001",
+              "space": "sRGB",
+              "pixels": "10ce0eb9c4412d80f8d1eb3cbd3ffdf4cdd073f1d90743a200a1d9b6f2caa0b2",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_stone_roughness.001",
+              "space": "Non-Color",
+              "pixels": "4e60beeba8019e941b403496d526655bc3a2afc9e45514c80fc14407d10dcabc",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "painted_stone_normal.001",
+              "space": "Non-Color",
+              "pixels": "3c82e1562e3c50b71f581dabbaf86aadfb2e5996c66e53d374150e05e3ffa110",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/stone_light.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_e8f422f0e86afa6d76a4.001",
+              "space": "sRGB",
+              "pixels": "c22f92154e1315294e9134b167881422f88a83b8ea7822e63097b8bc1ff64faf",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_stone_roughness.001",
+              "space": "Non-Color",
+              "pixels": "4e60beeba8019e941b403496d526655bc3a2afc9e45514c80fc14407d10dcabc",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "painted_stone_normal.001",
+              "space": "Non-Color",
+              "pixels": "3c82e1562e3c50b71f581dabbaf86aadfb2e5996c66e53d374150e05e3ffa110",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      }
+    ],
+    "partial_palette": [
+      {
+        "field": "/images/dreamlike_forest_v1_forest_leaf_light_roughness.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_forest_leaf_light_roughness.002/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_forest_leaf_roughness.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_forest_leaf_roughness.002/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_gill_glow_roughness.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_gill_glow_roughness.002/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_moss_roughness.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_moss_roughness.002/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_mushroom_blue_roughness.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_mushroom_blue_roughness.002/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_mushroom_purple_roughness.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/dreamlike_forest_v1_mushroom_purple_roughness.002/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_crystal_roughness",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/painted_crystal_roughness.001/users",
+        "expected": 5,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_forest_leaf_woodland_color",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/painted_forest_leaf_woodland_color.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_forest_leaf_woodland_tip_color",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/painted_forest_leaf_woodland_tip_color.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_ground_roughness.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/painted_ground_roughness.002/users",
+        "expected": 3,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_leaf_normal.002/users",
+        "expected": 4,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_leaf_roughness.001/users",
+        "expected": 2,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_moss_roughness.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_moss_woodland_color",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/painted_moss_woodland_color.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_stone_normal",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/painted_stone_normal.001/users",
+        "expected": 3,
+        "observed": 0
+      },
+      {
+        "field": "/images/painted_stone_roughness",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "space": "Non-Color",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/painted_stone_roughness.001/users",
+        "expected": 3,
+        "observed": 0
+      },
+      {
+        "field": "/images/vivid_painted_v1_0f5f2e8b4042dc0f1cd57e72",
+        "expected": null,
+        "observed": {
+          "users": 2,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_1ab4623ee57aba87511adcc7",
+        "expected": null,
+        "observed": {
+          "users": 2,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_2290eb21f6e4b9e2ac16cf0e",
+        "expected": null,
+        "observed": {
+          "users": 3,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_28176213de98f5fe8f4eab8a",
+        "expected": null,
+        "observed": {
+          "users": 4,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_2ca91d3e2550a704eb47766f",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_399bdb98091a94079a5c9150",
+        "expected": null,
+        "observed": {
+          "users": 2,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_3c1640c7dee38792f45b1755",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_400f4de431db87657b685658",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_471c5a99dd30dbfd84e4581f",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_5258fbbf368914ece1f59665",
+        "expected": null,
+        "observed": {
+          "users": 4,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_609e7e234744a6d6f8c2ca77",
+        "expected": null,
+        "observed": {
+          "users": 3,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_68fb4bfe8043a1df86fd7b0a",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_6ed22a3a47f5a9d7f5cb7911",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_74f563b7f853b59061446611",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_81bdcea6c1678d798a974259",
+        "expected": null,
+        "observed": {
+          "users": 2,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_83cec052c60c4ff4059a5787",
+        "expected": null,
+        "observed": {
+          "users": 2,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_84c027191a4100f254e0351c",
+        "expected": null,
+        "observed": {
+          "users": 2,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_8fd7fa5e5dd808b9a5b1f5de",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_917c87396b23729d120c6f6a",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_bd7f7b04a1e262f16a95f0c9",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_be95f207113ac2a0f32aa9be",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_bef3937de36de47b358fa979",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_befc3437a3ac769f14f35af6",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_ce35af376a2f6e85d820eb42",
+        "expected": null,
+        "observed": {
+          "users": 3,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_d199e7edeb586cb997a0d3df",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_d80b6116394c29b57b8ab5d8",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_e518087cff7b51be105dd77d",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/vivid_painted_v1_f015f62603280b8d333c016c",
+        "expected": null,
+        "observed": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      {
+        "field": "/images/whisperwood_v1_13da16550a83bf05ded2",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_13da16550a83bf05ded2.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_1882e212a05c8939c40f",
+        "expected": {
+          "users": 4,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_1882e212a05c8939c40f.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_424ed0a62d2d78562fbe",
+        "expected": {
+          "users": 3,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_424ed0a62d2d78562fbe.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_5642b5579411a1c7ca9a",
+        "expected": {
+          "users": 2,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_5642b5579411a1c7ca9a.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_5750bc0c3310451f4ccb",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_5750bc0c3310451f4ccb.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_658f8ebab72ae10c3ce3",
+        "expected": {
+          "users": 3,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_658f8ebab72ae10c3ce3.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_6960e37e83b3470ba1cf",
+        "expected": {
+          "users": 2,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_6960e37e83b3470ba1cf.001/users",
+        "expected": 2,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_69f01347727b7be0a9a7",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_69f01347727b7be0a9a7.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_724bd7eeb3f6c629872d",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_7666330fca97592dfe11",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_7666330fca97592dfe11.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_955a1b0a8939eff3f73d",
+        "expected": {
+          "users": 2,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_955a1b0a8939eff3f73d.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_96fbff77ad131aecc5d0",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_96fbff77ad131aecc5d0.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_98967aca39f34d6bf245",
+        "expected": {
+          "users": 2,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_98967aca39f34d6bf245.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_992872cc7fa84b7ea12b",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_992872cc7fa84b7ea12b.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_99a13ee75a4b271e5893",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_99a13ee75a4b271e5893.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_a7b97c377b645727ef36",
+        "expected": {
+          "users": 4,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_a7b97c377b645727ef36.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_bc8bd5125a34a73e79e2",
+        "expected": {
+          "users": 3,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_bc8bd5125a34a73e79e2.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_bd08cc3c3e52689ba67d",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_bd08cc3c3e52689ba67d.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_bd19e142eb936941aadd",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_bd19e142eb936941aadd.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_c7def948695484d424f2",
+        "expected": {
+          "users": 2,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_c7def948695484d424f2.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_cc04818bfff40702eed6",
+        "expected": {
+          "users": 2,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_cc04818bfff40702eed6.001/users",
+        "expected": 2,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_d64d542e115b8ee791cf",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_d64d542e115b8ee791cf.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_e3d148e6bf52c0ea87b8",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_e3d148e6bf52c0ea87b8.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_e8f422f0e86afa6d76a4",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/images/whisperwood_v1_e8f422f0e86afa6d76a4.001/users",
+        "expected": 1,
+        "observed": 0
+      },
+      {
+        "field": "/images/whisperwood_v1_f8a653f6bad63553e773",
+        "expected": {
+          "users": 1,
+          "fake": false,
+          "space": "sRGB",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/Painted receiving ground hex_glowing_mushrooms/nodes/Image Texture.002/image",
+        "expected": "whisperwood_v1_f8a653f6bad63553e773",
+        "observed": "vivid_painted_v1_471c5a99dd30dbfd84e4581f"
+      },
+      {
+        "field": "/materials/Painted receiving ground hex_glowing_mushrooms/nodes/Image Texture.002/pixels",
+        "expected": "256b365b09bb87916aba49d04128e8830a2c513c320addf43ed1a2ccb1bcdf06",
+        "observed": "471c5a99dd30dbfd84e4581ff83af80c881eb51b898506ab24cc0b8033b1e65c"
+      },
+      {
+        "field": "/materials/Painted receiving ground hex_glowing_mushrooms/nodes/Image Texture.003/image",
+        "expected": "whisperwood_v1_724bd7eeb3f6c629872d",
+        "observed": "vivid_painted_v1_bd7f7b04a1e262f16a95f0c9"
+      },
+      {
+        "field": "/materials/Painted receiving ground hex_glowing_mushrooms/nodes/Image Texture.003/pixels",
+        "expected": "d886dc18db31115657cf8e361760e02f5bbf9f77875bd8480acc3edc077f7c15",
+        "observed": "bd7f7b04a1e262f16a95f0c9531290d1f6374d692d29e92c5a1488e5a3d9ca6f"
+      },
+      {
+        "field": "/materials/base.002",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {}
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/crystal_blue.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_992872cc7fa84b7ea12b.001",
+              "space": "sRGB",
+              "pixels": "c6cc5b0760c9f0824dbeeac7a0addb4c05462904e48ec095f1f77f19f551ea88",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_crystal_roughness.001",
+              "space": "Non-Color",
+              "pixels": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_d64d542e115b8ee791cf.001",
+              "space": "sRGB",
+              "pixels": "97d2c662c742c05af8c8355e71da705425a212b5b5227070cfe1122e37f94f74",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/crystal_blue.004/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_992872cc7fa84b7ea12b",
+        "observed": "vivid_painted_v1_8fd7fa5e5dd808b9a5b1f5de"
+      },
+      {
+        "field": "/materials/crystal_blue.004/nodes/Image Texture/pixels",
+        "expected": "c6cc5b0760c9f0824dbeeac7a0addb4c05462904e48ec095f1f77f19f551ea88",
+        "observed": "8fd7fa5e5dd808b9a5b1f5de7786b5beaee761407484d97c9e156e8adf47d015"
+      },
+      {
+        "field": "/materials/crystal_blue.004/nodes/Image Texture.002/image",
+        "expected": "whisperwood_v1_d64d542e115b8ee791cf",
+        "observed": "vivid_painted_v1_3c1640c7dee38792f45b1755"
+      },
+      {
+        "field": "/materials/crystal_blue.004/nodes/Image Texture.002/pixels",
+        "expected": "97d2c662c742c05af8c8355e71da705425a212b5b5227070cfe1122e37f94f74",
+        "observed": "3c1640c7dee38792f45b17552ea5b1111727cd483947e7a5475cde4e486c1517"
+      },
+      {
+        "field": "/materials/crystal_cyan.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_5750bc0c3310451f4ccb.001",
+              "space": "sRGB",
+              "pixels": "c41ba76dfba65d1ef19a2786f0c6af3e5404bee2fcd177958d5e91fb3a8ab77b",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_crystal_roughness.001",
+              "space": "Non-Color",
+              "pixels": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_bd08cc3c3e52689ba67d.001",
+              "space": "sRGB",
+              "pixels": "20c4da719b45bb23885329701821dc14c4e6d352406aa9826957cdb383c8bfa1",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/crystal_cyan.004/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_5750bc0c3310451f4ccb",
+        "observed": "vivid_painted_v1_400f4de431db87657b685658"
+      },
+      {
+        "field": "/materials/crystal_cyan.004/nodes/Image Texture/pixels",
+        "expected": "c41ba76dfba65d1ef19a2786f0c6af3e5404bee2fcd177958d5e91fb3a8ab77b",
+        "observed": "400f4de431db87657b6856589c568847fa9daeef1ab76e3fad562ebe6ad25bca"
+      },
+      {
+        "field": "/materials/crystal_cyan.004/nodes/Image Texture.002/image",
+        "expected": "whisperwood_v1_bd08cc3c3e52689ba67d",
+        "observed": "vivid_painted_v1_917c87396b23729d120c6f6a"
+      },
+      {
+        "field": "/materials/crystal_cyan.004/nodes/Image Texture.002/pixels",
+        "expected": "20c4da719b45bb23885329701821dc14c4e6d352406aa9826957cdb383c8bfa1",
+        "observed": "917c87396b23729d120c6f6add84383c9dba8a4272602d0b76696ffae5b752e2"
+      },
+      {
+        "field": "/materials/crystal_light.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_1882e212a05c8939c40f.001",
+              "space": "sRGB",
+              "pixels": "6ffef3f463f675cde3d1d2dc03280f358c910d45f09e40689f1def535557ed72",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_crystal_roughness.001",
+              "space": "Non-Color",
+              "pixels": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_a7b97c377b645727ef36.001",
+              "space": "sRGB",
+              "pixels": "27487916dae06dcb3b0e0c301545d3c50d3260ffdc565d528ea517960852a915",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/crystal_light.012/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_1882e212a05c8939c40f",
+        "observed": "vivid_painted_v1_5258fbbf368914ece1f59665"
+      },
+      {
+        "field": "/materials/crystal_light.012/nodes/Image Texture/pixels",
+        "expected": "6ffef3f463f675cde3d1d2dc03280f358c910d45f09e40689f1def535557ed72",
+        "observed": "5258fbbf368914ece1f596652e1e1b017c16a1580fdecd7c77ce835a8bd5ec2b"
+      },
+      {
+        "field": "/materials/crystal_light.012/nodes/Image Texture.002/image",
+        "expected": "whisperwood_v1_a7b97c377b645727ef36",
+        "observed": "vivid_painted_v1_28176213de98f5fe8f4eab8a"
+      },
+      {
+        "field": "/materials/crystal_light.012/nodes/Image Texture.002/pixels",
+        "expected": "27487916dae06dcb3b0e0c301545d3c50d3260ffdc565d528ea517960852a915",
+        "observed": "28176213de98f5fe8f4eab8a68b1d5227543a16949376cac1574e98196a825a5"
+      },
+      {
+        "field": "/materials/crystal_light.013/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_1882e212a05c8939c40f",
+        "observed": "vivid_painted_v1_5258fbbf368914ece1f59665"
+      },
+      {
+        "field": "/materials/crystal_light.013/nodes/Image Texture/pixels",
+        "expected": "6ffef3f463f675cde3d1d2dc03280f358c910d45f09e40689f1def535557ed72",
+        "observed": "5258fbbf368914ece1f596652e1e1b017c16a1580fdecd7c77ce835a8bd5ec2b"
+      },
+      {
+        "field": "/materials/crystal_light.013/nodes/Image Texture.002/image",
+        "expected": "whisperwood_v1_a7b97c377b645727ef36",
+        "observed": "vivid_painted_v1_28176213de98f5fe8f4eab8a"
+      },
+      {
+        "field": "/materials/crystal_light.013/nodes/Image Texture.002/pixels",
+        "expected": "27487916dae06dcb3b0e0c301545d3c50d3260ffdc565d528ea517960852a915",
+        "observed": "28176213de98f5fe8f4eab8a68b1d5227543a16949376cac1574e98196a825a5"
+      },
+      {
+        "field": "/materials/crystal_light.014/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_1882e212a05c8939c40f",
+        "observed": "vivid_painted_v1_5258fbbf368914ece1f59665"
+      },
+      {
+        "field": "/materials/crystal_light.014/nodes/Image Texture/pixels",
+        "expected": "6ffef3f463f675cde3d1d2dc03280f358c910d45f09e40689f1def535557ed72",
+        "observed": "5258fbbf368914ece1f596652e1e1b017c16a1580fdecd7c77ce835a8bd5ec2b"
+      },
+      {
+        "field": "/materials/crystal_light.014/nodes/Image Texture.002/image",
+        "expected": "whisperwood_v1_a7b97c377b645727ef36",
+        "observed": "vivid_painted_v1_28176213de98f5fe8f4eab8a"
+      },
+      {
+        "field": "/materials/crystal_light.014/nodes/Image Texture.002/pixels",
+        "expected": "27487916dae06dcb3b0e0c301545d3c50d3260ffdc565d528ea517960852a915",
+        "observed": "28176213de98f5fe8f4eab8a68b1d5227543a16949376cac1574e98196a825a5"
+      },
+      {
+        "field": "/materials/crystal_light.015/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_1882e212a05c8939c40f",
+        "observed": "vivid_painted_v1_5258fbbf368914ece1f59665"
+      },
+      {
+        "field": "/materials/crystal_light.015/nodes/Image Texture/pixels",
+        "expected": "6ffef3f463f675cde3d1d2dc03280f358c910d45f09e40689f1def535557ed72",
+        "observed": "5258fbbf368914ece1f596652e1e1b017c16a1580fdecd7c77ce835a8bd5ec2b"
+      },
+      {
+        "field": "/materials/crystal_light.015/nodes/Image Texture.002/image",
+        "expected": "whisperwood_v1_a7b97c377b645727ef36",
+        "observed": "vivid_painted_v1_28176213de98f5fe8f4eab8a"
+      },
+      {
+        "field": "/materials/crystal_light.015/nodes/Image Texture.002/pixels",
+        "expected": "27487916dae06dcb3b0e0c301545d3c50d3260ffdc565d528ea517960852a915",
+        "observed": "28176213de98f5fe8f4eab8a68b1d5227543a16949376cac1574e98196a825a5"
+      },
+      {
+        "field": "/materials/crystal_lilac.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_cc04818bfff40702eed6.001",
+              "space": "sRGB",
+              "pixels": "bfe6ce9db007ee38328bdd4e2a7a9b2fc61aea3ca55a5dba9bb637dec22e82a9",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_crystal_roughness.001",
+              "space": "Non-Color",
+              "pixels": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_6960e37e83b3470ba1cf.001",
+              "space": "sRGB",
+              "pixels": "18c018bbe5add2dfceed52984c66e76c4271ce41da3bd0d2ef54fffa23265814",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/crystal_lilac.003/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_cc04818bfff40702eed6",
+        "observed": "vivid_painted_v1_84c027191a4100f254e0351c"
+      },
+      {
+        "field": "/materials/crystal_lilac.003/nodes/Image Texture/pixels",
+        "expected": "bfe6ce9db007ee38328bdd4e2a7a9b2fc61aea3ca55a5dba9bb637dec22e82a9",
+        "observed": "84c027191a4100f254e0351c46294a092adef9d7259e04b4f4cd062fe19ac0d2"
+      },
+      {
+        "field": "/materials/crystal_lilac.003/nodes/Image Texture.002/image",
+        "expected": "whisperwood_v1_6960e37e83b3470ba1cf",
+        "observed": "vivid_painted_v1_83cec052c60c4ff4059a5787"
+      },
+      {
+        "field": "/materials/crystal_lilac.003/nodes/Image Texture.002/pixels",
+        "expected": "18c018bbe5add2dfceed52984c66e76c4271ce41da3bd0d2ef54fffa23265814",
+        "observed": "83cec052c60c4ff4059a57875327093b248169d901004d2f2a08ca3a08bd9f28"
+      },
+      {
+        "field": "/materials/crystal_purple.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_cc04818bfff40702eed6.001",
+              "space": "sRGB",
+              "pixels": "bfe6ce9db007ee38328bdd4e2a7a9b2fc61aea3ca55a5dba9bb637dec22e82a9",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_crystal_roughness.001",
+              "space": "Non-Color",
+              "pixels": "0051ce7dbf03f660c0f379964892704fa8d3ca0e474e34215554a3c05de83a40",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_6960e37e83b3470ba1cf.001",
+              "space": "sRGB",
+              "pixels": "18c018bbe5add2dfceed52984c66e76c4271ce41da3bd0d2ef54fffa23265814",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/crystal_purple.003/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_cc04818bfff40702eed6",
+        "observed": "vivid_painted_v1_84c027191a4100f254e0351c"
+      },
+      {
+        "field": "/materials/crystal_purple.003/nodes/Image Texture/pixels",
+        "expected": "bfe6ce9db007ee38328bdd4e2a7a9b2fc61aea3ca55a5dba9bb637dec22e82a9",
+        "observed": "84c027191a4100f254e0351c46294a092adef9d7259e04b4f4cd062fe19ac0d2"
+      },
+      {
+        "field": "/materials/crystal_purple.003/nodes/Image Texture.002/image",
+        "expected": "whisperwood_v1_6960e37e83b3470ba1cf",
+        "observed": "vivid_painted_v1_83cec052c60c4ff4059a5787"
+      },
+      {
+        "field": "/materials/crystal_purple.003/nodes/Image Texture.002/pixels",
+        "expected": "18c018bbe5add2dfceed52984c66e76c4271ce41da3bd0d2ef54fffa23265814",
+        "observed": "83cec052c60c4ff4059a57875327093b248169d901004d2f2a08ca3a08bd9f28"
+      },
+      {
+        "field": "/materials/forest_leaf.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_c7def948695484d424f2.001",
+              "space": "sRGB",
+              "pixels": "cf0bda68ed12149a8e207ab189cf8942d343440b57d11ac9fd3017c87c87f825",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "dreamlike_forest_v1_forest_leaf_roughness.002",
+              "space": "Non-Color",
+              "pixels": "7e6c92fa8203251b6c6e61ed255d6d0f5f4580ffed04a1ed18c8d49da71c2668",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "painted_leaf_normal.002",
+              "space": "Non-Color",
+              "pixels": "ec818c1a1d6bea81dab454b950fc36418b4f4b6a2367885da323f810ccef671e",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/forest_leaf.007/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_c7def948695484d424f2",
+        "observed": "vivid_painted_v1_399bdb98091a94079a5c9150"
+      },
+      {
+        "field": "/materials/forest_leaf.007/nodes/Image Texture/pixels",
+        "expected": "cf0bda68ed12149a8e207ab189cf8942d343440b57d11ac9fd3017c87c87f825",
+        "observed": "ffbf9ea85dddf1db4af7404b721f0d5ee577c75ff0d33bad32c007535f0557ae"
+      },
+      {
+        "field": "/materials/forest_leaf.008/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_c7def948695484d424f2",
+        "observed": "vivid_painted_v1_399bdb98091a94079a5c9150"
+      },
+      {
+        "field": "/materials/forest_leaf.008/nodes/Image Texture/pixels",
+        "expected": "cf0bda68ed12149a8e207ab189cf8942d343440b57d11ac9fd3017c87c87f825",
+        "observed": "ffbf9ea85dddf1db4af7404b721f0d5ee577c75ff0d33bad32c007535f0557ae"
+      },
+      {
+        "field": "/materials/forest_leaf_light/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_658f8ebab72ae10c3ce3",
+        "observed": "vivid_painted_v1_2290eb21f6e4b9e2ac16cf0e"
+      },
+      {
+        "field": "/materials/forest_leaf_light/nodes/Image Texture/pixels",
+        "expected": "4d9b061687be73ff24333dbf85fb20b6eacf4429bd6852958839ce3be620a780",
+        "observed": "c5676fbce164d5d221b465a3709e7a9208dee6f7931500f9b7b7868b4e06b429"
+      },
+      {
+        "field": "/materials/forest_leaf_light.002",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_658f8ebab72ae10c3ce3.001",
+              "space": "sRGB",
+              "pixels": "4d9b061687be73ff24333dbf85fb20b6eacf4429bd6852958839ce3be620a780",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "dreamlike_forest_v1_forest_leaf_light_roughness.002",
+              "space": "Non-Color",
+              "pixels": "7e6c92fa8203251b6c6e61ed255d6d0f5f4580ffed04a1ed18c8d49da71c2668",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "painted_leaf_normal.002",
+              "space": "Non-Color",
+              "pixels": "ec818c1a1d6bea81dab454b950fc36418b4f4b6a2367885da323f810ccef671e",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/forest_leaf_light.007/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_658f8ebab72ae10c3ce3",
+        "observed": "vivid_painted_v1_2290eb21f6e4b9e2ac16cf0e"
+      },
+      {
+        "field": "/materials/forest_leaf_light.007/nodes/Image Texture/pixels",
+        "expected": "4d9b061687be73ff24333dbf85fb20b6eacf4429bd6852958839ce3be620a780",
+        "observed": "c5676fbce164d5d221b465a3709e7a9208dee6f7931500f9b7b7868b4e06b429"
+      },
+      {
+        "field": "/materials/forest_leaf_light.008/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_658f8ebab72ae10c3ce3",
+        "observed": "vivid_painted_v1_2290eb21f6e4b9e2ac16cf0e"
+      },
+      {
+        "field": "/materials/forest_leaf_light.008/nodes/Image Texture/pixels",
+        "expected": "4d9b061687be73ff24333dbf85fb20b6eacf4429bd6852958839ce3be620a780",
+        "observed": "c5676fbce164d5d221b465a3709e7a9208dee6f7931500f9b7b7868b4e06b429"
+      },
+      {
+        "field": "/materials/forest_leaf_woodland.001/nodes/Image Texture/image",
+        "expected": "painted_forest_leaf_woodland_color",
+        "observed": "vivid_painted_v1_be95f207113ac2a0f32aa9be"
+      },
+      {
+        "field": "/materials/forest_leaf_woodland.001/nodes/Image Texture/pixels",
+        "expected": "37e8ac65d30022c70f7fdd215c613b6a92c9f04f0964c62f0d303914f4b47b6f",
+        "observed": "be2f45f40f942694002ef7e59c4683260cade16b1dbeeb535eb7c53e3dc3dbb4"
+      },
+      {
+        "field": "/materials/forest_leaf_woodland.002",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "painted_forest_leaf_woodland_color.001",
+              "space": "sRGB",
+              "pixels": "37e8ac65d30022c70f7fdd215c613b6a92c9f04f0964c62f0d303914f4b47b6f",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_leaf_roughness.001",
+              "space": "Non-Color",
+              "pixels": "2948ddf78cd872b545879d4f2f9bc39ffcf05fa34cae3233a01531ad0bc59bbe",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "painted_leaf_normal.002",
+              "space": "Non-Color",
+              "pixels": "ec818c1a1d6bea81dab454b950fc36418b4f4b6a2367885da323f810ccef671e",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/forest_leaf_woodland_tip.001/nodes/Image Texture/image",
+        "expected": "painted_forest_leaf_woodland_tip_color",
+        "observed": "vivid_painted_v1_e518087cff7b51be105dd77d"
+      },
+      {
+        "field": "/materials/forest_leaf_woodland_tip.001/nodes/Image Texture/pixels",
+        "expected": "02d43412b0e2fc80dab21c1868af0b7e87ab9ecc33539ef4fca719660766a884",
+        "observed": "0ee2d2176fbb3a8c75746b800e5370b287163dbe656518cbec5b54ecfc3a7458"
+      },
+      {
+        "field": "/materials/forest_leaf_woodland_tip.002",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "painted_forest_leaf_woodland_tip_color.001",
+              "space": "sRGB",
+              "pixels": "02d43412b0e2fc80dab21c1868af0b7e87ab9ecc33539ef4fca719660766a884",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_leaf_roughness.001",
+              "space": "Non-Color",
+              "pixels": "2948ddf78cd872b545879d4f2f9bc39ffcf05fa34cae3233a01531ad0bc59bbe",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "painted_leaf_normal.002",
+              "space": "Non-Color",
+              "pixels": "ec818c1a1d6bea81dab454b950fc36418b4f4b6a2367885da323f810ccef671e",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/gill_glow.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_bc8bd5125a34a73e79e2.001",
+              "space": "sRGB",
+              "pixels": "ca96ad2d5ddfd310eb3204db0c691c55e2c6f161bb17fce9ab2893e1f334e71a",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "dreamlike_forest_v1_gill_glow_roughness.002",
+              "space": "Non-Color",
+              "pixels": "bce60968f97e9fe7700fbbc77d7dd25798de153f69bbc4180b425ca5bdaa880b",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_424ed0a62d2d78562fbe.001",
+              "space": "sRGB",
+              "pixels": "e1d24741c85022bcd710bb6f29310b4dfb5001ad999d5936bef258bf387c1e34",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/gill_glow.009/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_bc8bd5125a34a73e79e2",
+        "observed": "vivid_painted_v1_ce35af376a2f6e85d820eb42"
+      },
+      {
+        "field": "/materials/gill_glow.009/nodes/Image Texture/pixels",
+        "expected": "ca96ad2d5ddfd310eb3204db0c691c55e2c6f161bb17fce9ab2893e1f334e71a",
+        "observed": "ce35af376a2f6e85d820eb42eae7730d858a67e3cfe7c07125a688b1ec30c6f5"
+      },
+      {
+        "field": "/materials/gill_glow.009/nodes/Image Texture.002/image",
+        "expected": "whisperwood_v1_424ed0a62d2d78562fbe",
+        "observed": "vivid_painted_v1_609e7e234744a6d6f8c2ca77"
+      },
+      {
+        "field": "/materials/gill_glow.009/nodes/Image Texture.002/pixels",
+        "expected": "e1d24741c85022bcd710bb6f29310b4dfb5001ad999d5936bef258bf387c1e34",
+        "observed": "609e7e234744a6d6f8c2ca77532a4bcbdad60d5a336d8722b4ae146edcaff0b3"
+      },
+      {
+        "field": "/materials/gill_glow.010/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_bc8bd5125a34a73e79e2",
+        "observed": "vivid_painted_v1_ce35af376a2f6e85d820eb42"
+      },
+      {
+        "field": "/materials/gill_glow.010/nodes/Image Texture/pixels",
+        "expected": "ca96ad2d5ddfd310eb3204db0c691c55e2c6f161bb17fce9ab2893e1f334e71a",
+        "observed": "ce35af376a2f6e85d820eb42eae7730d858a67e3cfe7c07125a688b1ec30c6f5"
+      },
+      {
+        "field": "/materials/gill_glow.010/nodes/Image Texture.002/image",
+        "expected": "whisperwood_v1_424ed0a62d2d78562fbe",
+        "observed": "vivid_painted_v1_609e7e234744a6d6f8c2ca77"
+      },
+      {
+        "field": "/materials/gill_glow.010/nodes/Image Texture.002/pixels",
+        "expected": "e1d24741c85022bcd710bb6f29310b4dfb5001ad999d5936bef258bf387c1e34",
+        "observed": "609e7e234744a6d6f8c2ca77532a4bcbdad60d5a336d8722b4ae146edcaff0b3"
+      },
+      {
+        "field": "/materials/gill_glow.011/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_bc8bd5125a34a73e79e2",
+        "observed": "vivid_painted_v1_ce35af376a2f6e85d820eb42"
+      },
+      {
+        "field": "/materials/gill_glow.011/nodes/Image Texture/pixels",
+        "expected": "ca96ad2d5ddfd310eb3204db0c691c55e2c6f161bb17fce9ab2893e1f334e71a",
+        "observed": "ce35af376a2f6e85d820eb42eae7730d858a67e3cfe7c07125a688b1ec30c6f5"
+      },
+      {
+        "field": "/materials/gill_glow.011/nodes/Image Texture.002/image",
+        "expected": "whisperwood_v1_424ed0a62d2d78562fbe",
+        "observed": "vivid_painted_v1_609e7e234744a6d6f8c2ca77"
+      },
+      {
+        "field": "/materials/gill_glow.011/nodes/Image Texture.002/pixels",
+        "expected": "e1d24741c85022bcd710bb6f29310b4dfb5001ad999d5936bef258bf387c1e34",
+        "observed": "609e7e234744a6d6f8c2ca77532a4bcbdad60d5a336d8722b4ae146edcaff0b3"
+      },
+      {
+        "field": "/materials/grass.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_99a13ee75a4b271e5893.001",
+              "space": "sRGB",
+              "pixels": "98d15406f5b48f0cb1aa9fb22170775cf975b452aebbbf4827c8aace9852a20b",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_ground_roughness.002",
+              "space": "Non-Color",
+              "pixels": "5135c7cfb10249cc3f6aa8dd2e7a76fefa9d6692f6c283d6cb5a7e19bb9d0e7f",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/grass.004/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_99a13ee75a4b271e5893",
+        "observed": "vivid_painted_v1_74f563b7f853b59061446611"
+      },
+      {
+        "field": "/materials/grass.004/nodes/Image Texture/pixels",
+        "expected": "98d15406f5b48f0cb1aa9fb22170775cf975b452aebbbf4827c8aace9852a20b",
+        "observed": "56ce2ededd3a819a2ebdd0bceccb0ed82ab6fe617cdeabc354883fc8a0350e34"
+      },
+      {
+        "field": "/materials/grass_dark/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_5642b5579411a1c7ca9a",
+        "observed": "vivid_painted_v1_0f5f2e8b4042dc0f1cd57e72"
+      },
+      {
+        "field": "/materials/grass_dark/nodes/Image Texture/pixels",
+        "expected": "5f716c25f34b12c88fefeead8b22a04b6d4fbc169ce18b0b73d52637551b5bf1",
+        "observed": "5b19d92aae6e0ad8a1d141d16864743a8a150018ff88cf3589e7749389f8397d"
+      },
+      {
+        "field": "/materials/grass_dark.002",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_5642b5579411a1c7ca9a.001",
+              "space": "sRGB",
+              "pixels": "5f716c25f34b12c88fefeead8b22a04b6d4fbc169ce18b0b73d52637551b5bf1",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_ground_roughness.002",
+              "space": "Non-Color",
+              "pixels": "5135c7cfb10249cc3f6aa8dd2e7a76fefa9d6692f6c283d6cb5a7e19bb9d0e7f",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/grass_dark.004/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_5642b5579411a1c7ca9a",
+        "observed": "vivid_painted_v1_0f5f2e8b4042dc0f1cd57e72"
+      },
+      {
+        "field": "/materials/grass_dark.004/nodes/Image Texture/pixels",
+        "expected": "5f716c25f34b12c88fefeead8b22a04b6d4fbc169ce18b0b73d52637551b5bf1",
+        "observed": "5b19d92aae6e0ad8a1d141d16864743a8a150018ff88cf3589e7749389f8397d"
+      },
+      {
+        "field": "/materials/grass_light.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_e3d148e6bf52c0ea87b8.001",
+              "space": "sRGB",
+              "pixels": "b4f888acdd947ca551cda97654052795fec4b5093f556cc993e6eef07d449fdc",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_ground_roughness.002",
+              "space": "Non-Color",
+              "pixels": "5135c7cfb10249cc3f6aa8dd2e7a76fefa9d6692f6c283d6cb5a7e19bb9d0e7f",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/grass_light.004/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_e3d148e6bf52c0ea87b8",
+        "observed": "vivid_painted_v1_bef3937de36de47b358fa979"
+      },
+      {
+        "field": "/materials/grass_light.004/nodes/Image Texture/pixels",
+        "expected": "b4f888acdd947ca551cda97654052795fec4b5093f556cc993e6eef07d449fdc",
+        "observed": "c1c81b7261bbd99fbaa1cf02394313c77b2719589a39322f1a31b4035904c033"
+      },
+      {
+        "field": "/materials/magic_core.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {}
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/moss.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_96fbff77ad131aecc5d0.001",
+              "space": "sRGB",
+              "pixels": "a47cb0f8eaf16712d1d8af2aacd280212863e7b83aff5a7038211175cfe48163",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "dreamlike_forest_v1_moss_roughness.002",
+              "space": "Non-Color",
+              "pixels": "79ac1dad4332e44ccc28dcb3875b8c8e92704fb5682a211227f920098051e2b1",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/moss.004/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_96fbff77ad131aecc5d0",
+        "observed": "vivid_painted_v1_2ca91d3e2550a704eb47766f"
+      },
+      {
+        "field": "/materials/moss.004/nodes/Image Texture/pixels",
+        "expected": "a47cb0f8eaf16712d1d8af2aacd280212863e7b83aff5a7038211175cfe48163",
+        "observed": "30238db3f8359cbb7b7a6d40ebf9a2bf24a1bce2f664411ccc9fb7da272a5d0a"
+      },
+      {
+        "field": "/materials/moss_woodland.001/nodes/Image Texture/image",
+        "expected": "painted_moss_woodland_color",
+        "observed": "vivid_painted_v1_d80b6116394c29b57b8ab5d8"
+      },
+      {
+        "field": "/materials/moss_woodland.001/nodes/Image Texture/pixels",
+        "expected": "9932717b4827a54155cb27f076e5a5400f3da4e5266ce8d84aa9376f0971f660",
+        "observed": "f80617214467d216d2ed2e9a3a533a610f05bf98083d8e7b9d43c5f0f352fe4a"
+      },
+      {
+        "field": "/materials/moss_woodland.002",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "painted_moss_woodland_color.001",
+              "space": "sRGB",
+              "pixels": "9932717b4827a54155cb27f076e5a5400f3da4e5266ce8d84aa9376f0971f660",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_moss_roughness.001",
+              "space": "Non-Color",
+              "pixels": "2948ddf78cd872b545879d4f2f9bc39ffcf05fa34cae3233a01531ad0bc59bbe",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/mushroom_blue.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_955a1b0a8939eff3f73d.001",
+              "space": "sRGB",
+              "pixels": "0188bc41314963d522abf8fe72f76264186d0d8123452d20de258c8166dbba39",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "dreamlike_forest_v1_mushroom_blue_roughness.002",
+              "space": "Non-Color",
+              "pixels": "3f0a1c7da3edad721ba61059475d262e90c933c179e1d6568cad1f8731322c17",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_98967aca39f34d6bf245.001",
+              "space": "sRGB",
+              "pixels": "b80708497dd115641379078fe7d86094a4d9053ba878154a3ad156fac5cab1da",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/mushroom_blue.007/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_955a1b0a8939eff3f73d",
+        "observed": "vivid_painted_v1_81bdcea6c1678d798a974259"
+      },
+      {
+        "field": "/materials/mushroom_blue.007/nodes/Image Texture/pixels",
+        "expected": "0188bc41314963d522abf8fe72f76264186d0d8123452d20de258c8166dbba39",
+        "observed": "c522d0596cf638e9484f1eb5429d6d8dc3ba9a4e61b53f7c8c94c5a2427871b5"
+      },
+      {
+        "field": "/materials/mushroom_blue.007/nodes/Image Texture.002/image",
+        "expected": "whisperwood_v1_98967aca39f34d6bf245",
+        "observed": "vivid_painted_v1_1ab4623ee57aba87511adcc7"
+      },
+      {
+        "field": "/materials/mushroom_blue.007/nodes/Image Texture.002/pixels",
+        "expected": "b80708497dd115641379078fe7d86094a4d9053ba878154a3ad156fac5cab1da",
+        "observed": "1ab4623ee57aba87511adcc7dde9c899f9325b9d5069fea9111b303a8a75912c"
+      },
+      {
+        "field": "/materials/mushroom_blue.008/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_955a1b0a8939eff3f73d",
+        "observed": "vivid_painted_v1_81bdcea6c1678d798a974259"
+      },
+      {
+        "field": "/materials/mushroom_blue.008/nodes/Image Texture/pixels",
+        "expected": "0188bc41314963d522abf8fe72f76264186d0d8123452d20de258c8166dbba39",
+        "observed": "c522d0596cf638e9484f1eb5429d6d8dc3ba9a4e61b53f7c8c94c5a2427871b5"
+      },
+      {
+        "field": "/materials/mushroom_blue.008/nodes/Image Texture.002/image",
+        "expected": "whisperwood_v1_98967aca39f34d6bf245",
+        "observed": "vivid_painted_v1_1ab4623ee57aba87511adcc7"
+      },
+      {
+        "field": "/materials/mushroom_blue.008/nodes/Image Texture.002/pixels",
+        "expected": "b80708497dd115641379078fe7d86094a4d9053ba878154a3ad156fac5cab1da",
+        "observed": "1ab4623ee57aba87511adcc7dde9c899f9325b9d5069fea9111b303a8a75912c"
+      },
+      {
+        "field": "/materials/mushroom_purple.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_7666330fca97592dfe11.001",
+              "space": "sRGB",
+              "pixels": "b598dad608b9c45c5f28232709c8c7330a5d7145d96513c41889834a1c81af25",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "dreamlike_forest_v1_mushroom_purple_roughness.002",
+              "space": "Non-Color",
+              "pixels": "3f0a1c7da3edad721ba61059475d262e90c933c179e1d6568cad1f8731322c17",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "whisperwood_v1_69f01347727b7be0a9a7.001",
+              "space": "sRGB",
+              "pixels": "2f050a1e0860dfaf15006c751bacc78dd3a5404301d8a4981143673427767f7c",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/mushroom_purple.003/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_7666330fca97592dfe11",
+        "observed": "vivid_painted_v1_d199e7edeb586cb997a0d3df"
+      },
+      {
+        "field": "/materials/mushroom_purple.003/nodes/Image Texture/pixels",
+        "expected": "b598dad608b9c45c5f28232709c8c7330a5d7145d96513c41889834a1c81af25",
+        "observed": "4344c5c80ee446e750bf6c5efc75dca0156333c1e99cc50898192f1ec67d8b52"
+      },
+      {
+        "field": "/materials/mushroom_purple.003/nodes/Image Texture.002/image",
+        "expected": "whisperwood_v1_69f01347727b7be0a9a7",
+        "observed": "vivid_painted_v1_68fb4bfe8043a1df86fd7b0a"
+      },
+      {
+        "field": "/materials/mushroom_purple.003/nodes/Image Texture.002/pixels",
+        "expected": "2f050a1e0860dfaf15006c751bacc78dd3a5404301d8a4981143673427767f7c",
+        "observed": "68fb4bfe8043a1df86fd7b0ad86ffb9aa3f203245d3498341961ef55aedd9f33"
+      },
+      {
+        "field": "/materials/rune_glow.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {}
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/soil.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {}
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/stone.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_bd19e142eb936941aadd.001",
+              "space": "sRGB",
+              "pixels": "bf50f13c601045b6cf26dbed098bed9658df01b3b3fa8d68ea3d34e8897e8151",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_stone_roughness.001",
+              "space": "Non-Color",
+              "pixels": "4e60beeba8019e941b403496d526655bc3a2afc9e45514c80fc14407d10dcabc",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "painted_stone_normal.001",
+              "space": "Non-Color",
+              "pixels": "3c82e1562e3c50b71f581dabbaf86aadfb2e5996c66e53d374150e05e3ffa110",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/stone.006/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_bd19e142eb936941aadd",
+        "observed": "vivid_painted_v1_6ed22a3a47f5a9d7f5cb7911"
+      },
+      {
+        "field": "/materials/stone.006/nodes/Image Texture/pixels",
+        "expected": "bf50f13c601045b6cf26dbed098bed9658df01b3b3fa8d68ea3d34e8897e8151",
+        "observed": "1da693a09b4d7d62ce9010f50182260166726f32caa07b29be0969bdc07fc3cc"
+      },
+      {
+        "field": "/materials/stone_dark.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_13da16550a83bf05ded2.001",
+              "space": "sRGB",
+              "pixels": "10ce0eb9c4412d80f8d1eb3cbd3ffdf4cdd073f1d90743a200a1d9b6f2caa0b2",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_stone_roughness.001",
+              "space": "Non-Color",
+              "pixels": "4e60beeba8019e941b403496d526655bc3a2afc9e45514c80fc14407d10dcabc",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "painted_stone_normal.001",
+              "space": "Non-Color",
+              "pixels": "3c82e1562e3c50b71f581dabbaf86aadfb2e5996c66e53d374150e05e3ffa110",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/stone_dark.005/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_13da16550a83bf05ded2",
+        "observed": "vivid_painted_v1_f015f62603280b8d333c016c"
+      },
+      {
+        "field": "/materials/stone_dark.005/nodes/Image Texture/pixels",
+        "expected": "10ce0eb9c4412d80f8d1eb3cbd3ffdf4cdd073f1d90743a200a1d9b6f2caa0b2",
+        "observed": "ba0c23ce7a5e33835a812036e2c6e58aa3251dbfe1fa4125bbcceaaa48053c9c"
+      },
+      {
+        "field": "/materials/stone_light.001",
+        "expected": {
+          "users": 0,
+          "fake": false,
+          "nodes": {
+            "Image Texture": {
+              "image": "whisperwood_v1_e8f422f0e86afa6d76a4.001",
+              "space": "sRGB",
+              "pixels": "c22f92154e1315294e9134b167881422f88a83b8ea7822e63097b8bc1ff64faf",
+              "packed": true
+            },
+            "Image Texture.001": {
+              "image": "painted_stone_roughness.001",
+              "space": "Non-Color",
+              "pixels": "4e60beeba8019e941b403496d526655bc3a2afc9e45514c80fc14407d10dcabc",
+              "packed": true
+            },
+            "Image Texture.002": {
+              "image": "painted_stone_normal.001",
+              "space": "Non-Color",
+              "pixels": "3c82e1562e3c50b71f581dabbaf86aadfb2e5996c66e53d374150e05e3ffa110",
+              "packed": true
+            }
+          }
+        },
+        "observed": null
+      },
+      {
+        "field": "/materials/stone_light.007/nodes/Image Texture/image",
+        "expected": "whisperwood_v1_e8f422f0e86afa6d76a4",
+        "observed": "vivid_painted_v1_befc3437a3ac769f14f35af6"
+      },
+      {
+        "field": "/materials/stone_light.007/nodes/Image Texture/pixels",
+        "expected": "c22f92154e1315294e9134b167881422f88a83b8ea7822e63097b8bc1ff64faf",
+        "observed": "321b8e95b416d7be680fcdb604453ce415b0ed8ca1cc1948d4c52a8c9ed51f61"
+      }
+    ]
+  }
+}

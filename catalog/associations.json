@@ -2,6 +2,7 @@
   "schema_version": 1,
   "assets": {
     "exports/buildings/tree_house.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Tree House",
       "reference": {
         "path": "sources/reference/fantasy_village.png",
@@ -15,6 +16,7 @@
       "preview": "exports/previews/tree_house.png"
     },
     "exports/buildings/bakery.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Bakery",
       "reference": {
         "path": "sources/reference/fantasy_village.png",
@@ -28,6 +30,7 @@
       "preview": "exports/previews/bakery.png"
     },
     "exports/buildings/gold_mine.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Gold Mine",
       "reference": {
         "path": "sources/reference/fantasy_village.png",
@@ -41,6 +44,7 @@
       "preview": "exports/previews/gold_mine.png"
     },
     "exports/buildings/woodcutter_hut.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Woodcutter’s Hut",
       "reference": {
         "path": "sources/reference/fantasy_village.png",
@@ -117,6 +121,7 @@
       }
     },
     "exports/buildings/arrow_tower.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Arrow Tower",
       "reference": {
         "path": "sources/reference/autobattler/arrow_tower.png"
@@ -124,6 +129,7 @@
       "preview": "exports/previews/arrow_tower.png"
     },
     "exports/buildings/barracks.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Barracks",
       "reference": {
         "path": "sources/reference/autobattler/barracks.png"
@@ -138,6 +144,7 @@
       "preview": "exports/previews/berserker.png"
     },
     "exports/buildings/bombarding_tower.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Bombarding Tower",
       "reference": {
         "path": "sources/reference/autobattler/bombarding_tower.png"
@@ -145,6 +152,7 @@
       "preview": "exports/previews/bombarding_tower.png"
     },
     "exports/buildings/magic_academy.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Magic Academy",
       "reference": {
         "path": "sources/reference/autobattler/magic_academy.png"
@@ -152,6 +160,7 @@
       "preview": "exports/previews/magic_academy.png"
     },
     "exports/buildings/stone_cutter.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Stone Cutter",
       "reference": {
         "path": "sources/reference/autobattler/stone_cutter.png"
@@ -159,6 +168,7 @@
       "preview": "exports/previews/stone_cutter.png"
     },
     "exports/buildings/tavern.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Tavern",
       "reference": {
         "path": "sources/reference/autobattler/tavern.png"
@@ -166,6 +176,7 @@
       "preview": "exports/previews/tavern.png"
     },
     "exports/buildings/trade_market.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Trade Market",
       "reference": {
         "path": "sources/reference/autobattler/trade_market.png"
@@ -179,6 +190,7 @@
       "export_collection": "DISPLAY_TERRAIN"
     },
     "exports/buildings/archery_range.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Archery Range",
       "reference": {
         "path": "sources/reference/more_buildings/low_poly_fantasy_archery_range.png"
@@ -186,6 +198,7 @@
       "preview": "exports/previews/archery_range.png"
     },
     "exports/buildings/research_tower.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Research Tower",
       "reference": {
         "path": "sources/reference/more_buildings/fantasy_observatory_cottage_diorama.png"
@@ -193,6 +206,7 @@
       "preview": "exports/previews/research_tower.png"
     },
     "exports/buildings/metal_mine.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Metal Mine",
       "reference": {
         "path": "sources/reference/more_buildings/low_poly_medieval_iron_mine_diorama.png"
@@ -200,6 +214,7 @@
       "preview": "exports/previews/metal_mine.png"
     },
     "exports/buildings/weaver.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Weaver",
       "reference": {
         "path": "sources/reference/more_buildings/cozy_fantasy_weaver_s_workshop.png"
@@ -207,6 +222,7 @@
       "preview": "exports/previews/weaver.png"
     },
     "exports/buildings/town_hall.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Town Hall",
       "reference": {
         "path": "sources/reference/more_buildings/fantasy_town_hall_diorama.png"
@@ -242,6 +258,7 @@
       "preview": "exports/previews/hex_glowing_mushrooms.png"
     },
     "exports/environment/hex_lantern_bridge.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Lantern Bridge",
       "reference": {
         "path": "sources/reference/magical_forest/enchanted_lantern_bridge_diorama.png"
@@ -256,6 +273,7 @@
       "preview": "exports/previews/hex_bioluminescent_grove.png"
     },
     "exports/environment/hex_woodland_bridge.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Woodland Bridge",
       "reference": {
         "path": "sources/reference/magical_forest/enchanted_woodland_bridge_diorama.png"
@@ -468,6 +486,7 @@
       "preview": null
     },
     "exports/environment/components/forest_hex_stream.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Forest hex stream",
       "source": "sources/environment/shared_forest_kit.blend",
       "export_collection": "forest_hex_stream",
@@ -477,6 +496,7 @@
       "preview": null
     },
     "exports/environment/components/forest_waterfall.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Forest waterfall",
       "source": "sources/environment/shared_forest_kit.blend",
       "export_collection": "forest_waterfall",
@@ -486,6 +506,7 @@
       "preview": null
     },
     "exports/environment/components/forest_foam.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Forest foam",
       "source": "sources/environment/shared_forest_kit.blend",
       "export_collection": "forest_foam",
@@ -618,24 +639,28 @@
       "preview": null
     },
     "exports/environment/hex_river_overlay_straight.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Surface River — Straight (Edges 0,3)",
       "source": "sources/environment/hex_river_overlay_straight.blend",
       "export_collection": "hex_river_overlay_straight",
       "preview": null
     },
     "exports/environment/hex_river_overlay_turn_120.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Surface River — Wide Turn (Edges 0,2)",
       "source": "sources/environment/hex_river_overlay_turn_120.blend",
       "export_collection": "hex_river_overlay_turn_120",
       "preview": null
     },
     "exports/environment/hex_river_overlay_turn_60.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Surface River — Tight Turn (Edges 0,1)",
       "source": "sources/environment/hex_river_overlay_turn_60.blend",
       "export_collection": "hex_river_overlay_turn_60",
       "preview": null
     },
     "exports/environment/hex_river_overlay_end.glb": {
+      "animation_policy": {"ambient": true},
       "title": "Surface River — Center End (Edge 0)",
       "source": "sources/environment/hex_river_overlay_end.blend",
       "export_collection": "hex_river_overlay_end",

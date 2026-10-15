@@ -1,0 +1,45 @@
+{
+  "landed": {
+    "image": "dreamlike_forest_v1_mushroom_purple_roughness",
+    "path": "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/textures/dreamlike_forest_v1_mushroom_purple_roughness.png",
+    "space": "Non-Color",
+    "packed": "fa6b8c198fb6e537299fbf3bc205ce5258c9de08de0623839aff5e15ecb89a88",
+    "pixels": "3f0a1c7da3edad721ba61059475d262e90c933c179e1d6568cad1f8731322c17",
+    "size": [
+      512,
+      512
+    ],
+    "min": 0.7921569347381592,
+    "max": 1.0
+  },
+  "palette": {
+    "image": "dreamlike_forest_v1_mushroom_purple_roughness",
+    "path": "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/textures/dreamlike_forest_v1_mushroom_purple_roughness.png",
+    "space": "Non-Color",
+    "packed": "fa6b8c198fb6e537299fbf3bc205ce5258c9de08de0623839aff5e15ecb89a88",
+    "pixels": "3f0a1c7da3edad721ba61059475d262e90c933c179e1d6568cad1f8731322c17",
+    "size": [
+      512,
+      512
+    ],
+    "min": 0.7921569347381592,
+    "max": 1.0
+  },
+  "current": {
+    "image": "dreamlike_forest_v1_mushroom_purple_roughness",
+    "path": "/home/bart/.treehouse/odot-game-assets-86a3a5/2/odot-game-assets/sources/environment/textures/dreamlike_forest_v1_mushroom_purple_roughness.png",
+    "space": "Non-Color",
+    "packed": "fa6b8c198fb6e537299fbf3bc205ce5258c9de08de0623839aff5e15ecb89a88",
+    "pixels": "3f0a1c7da3edad721ba61059475d262e90c933c179e1d6568cad1f8731322c17",
+    "size": [
+      512,
+      512
+    ],
+    "min": 0.7921569347381592,
+    "max": 1.0
+  },
+  "difference": {
+    "count": 0,
+    "max": 0.0
+  }
+}

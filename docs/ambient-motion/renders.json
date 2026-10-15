@@ -1,0 +1,602 @@
+{
+  "buildings/archery_range": {
+    "export_sha256": "851fad1ec3b310163d40c090b1b51b17eea539e041af299ccd30611e04af3106",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-archery_range",
+      "seconds": 40.76,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-archery_range.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/archery_range/frame-001.png": "3b22774461f68fa3df4844ea5c74d5796769b0cd3b72579b77edfb49b7ab3e45",
+      "docs/ambient-motion/evidence/buildings/archery_range/frame-025.png": "1ed58e35fcc7a46081ce94fa70881ad0d41e750b1ebf3b1a30cc3c44e8195ad4",
+      "docs/ambient-motion/evidence/buildings/archery_range/frame-049.png": "443ed5f89dc6a73c4b590f8bf08ac1a3511198c1013197bf00ce6ef3a55d8ac6",
+      "docs/ambient-motion/evidence/buildings/archery_range/frame-073.png": "4e91e45fe92d50f451be3ab0727da343236d7899fba84e2fedb6983abde612c8",
+      "docs/ambient-motion/evidence/buildings/archery_range/frame-097.png": "dca59521eb6879f7a7da813d1f1becd277fddd1fa4fc127090272cc6c37d8d85",
+      "docs/ambient-motion/evidence/buildings/archery_range/camera.json": "1bbba8d4f793d214749c06b77e5dc5c6f06988d8b233159df6bfee70fdacea33",
+      "docs/ambient-motion/evidence/buildings/archery_range/key-poses.gif": "39e8d357f546edbc678a1d4889a1835e8cfe8c1e9ee0980d94004e64ae81a81d",
+      "docs/ambient-motion/evidence/buildings/archery_range/key-poses.png": "069598969285ca58533a264091750e5589579616faf2d09d49bfb899305c1667"
+    }
+  },
+  "buildings/arrow_tower": {
+    "export_sha256": "7734a3dcd5deb492d9eb6537707507b9cd3600afed0d185dae22522f1a3f9c82",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-arrow_tower",
+      "seconds": 23.93,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-arrow_tower.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/arrow_tower/frame-001.png": "d4e38cdbd4cd683d3f6d20fd919be9168a37f656dc0f2d3b59a25703044eb2bc",
+      "docs/ambient-motion/evidence/buildings/arrow_tower/frame-025.png": "9f483fc771c34bd144eb1a9cc15b7110e0b688c4602564d2a3b3e403fdd210b6",
+      "docs/ambient-motion/evidence/buildings/arrow_tower/frame-049.png": "87b2637b49820bddd75494df46b6dbcc568ce599d53a943fec1d8ddedc399b28",
+      "docs/ambient-motion/evidence/buildings/arrow_tower/frame-073.png": "bc8101bb948a9b79a757a602864c37b74d005a56f8f75d856ed011a4e4982a01",
+      "docs/ambient-motion/evidence/buildings/arrow_tower/frame-097.png": "596b7f006522aa5b98bf14b5b1c340e94507615e49025fa4c00c1eed83a39e72",
+      "docs/ambient-motion/evidence/buildings/arrow_tower/camera.json": "d35c4dc05665cb973ff46d6ec0f2d380e49b3ddf64e07d0a2d7713901e5f0bda",
+      "docs/ambient-motion/evidence/buildings/arrow_tower/key-poses.gif": "7ae1d9b81b1139cbe8d5cc92a3e6a3c2414912a2e379dd610b6a2a70fd82436c",
+      "docs/ambient-motion/evidence/buildings/arrow_tower/key-poses.png": "616f624802e8886c60b84582e45b59f6aba2e272e013b446ca092820912cd1bd"
+    }
+  },
+  "buildings/bakery": {
+    "export_sha256": "cc49074b879a1b03ab9b52135d8d93e467a0f07c355466ea4ee02890b7638e66",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-bakery",
+      "seconds": 25.59,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-bakery.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/bakery/frame-001.png": "f1d69fb52d906a42686d4aae418a3c85e00386f2b6b358dc9940b2e9bcdfa431",
+      "docs/ambient-motion/evidence/buildings/bakery/frame-025.png": "5367026cf963d09a5ad3476e03b90b4e2cf1efb2e64cb1fafb0f5dedee691b58",
+      "docs/ambient-motion/evidence/buildings/bakery/frame-049.png": "52f30ebe35af3968f70cb39c47c519d3640f1c640e4392460f2b42af908c61ac",
+      "docs/ambient-motion/evidence/buildings/bakery/frame-073.png": "616771bc7f7e8f93a7eb5e86795407fd30be425db7d49b1c7bda03c527825088",
+      "docs/ambient-motion/evidence/buildings/bakery/frame-097.png": "a297604f10c2e0051e3eab35f281deaaa30a1a51e5dc36dc8546de48cf2c0070",
+      "docs/ambient-motion/evidence/buildings/bakery/camera.json": "dcfff9760450c465be81be5e9559b399d80044430302cc2aa25814d5bc196ea4",
+      "docs/ambient-motion/evidence/buildings/bakery/key-poses.gif": "84aa687f0ef28839a7260f53478798ef2200757c730eca380ef9db71c2a720bf",
+      "docs/ambient-motion/evidence/buildings/bakery/key-poses.png": "cf4425d2214adf0e9c8cca7f5bc951dce832ffa41706f5a8e548b21d9029ae12"
+    }
+  },
+  "buildings/barracks": {
+    "export_sha256": "8755cd7db358bb0f4518b05dc3de7f4781d0d4aa5212beca710e40009c6f27c7",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-barracks",
+      "seconds": 24.04,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-barracks.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/barracks/frame-001.png": "d4e2e8168b5002c0630b4d90247689c8e8a517e4d415bcc7d6a4f457e59db716",
+      "docs/ambient-motion/evidence/buildings/barracks/frame-025.png": "10e8a45a33621262d6aa91fd4093a92e9f43fdac310f2c12d38d8a3d745e7762",
+      "docs/ambient-motion/evidence/buildings/barracks/frame-049.png": "f6c578c0a2223e8171948f492fda10ffa5145ffc53135729008a7ac8c0f01499",
+      "docs/ambient-motion/evidence/buildings/barracks/frame-073.png": "2058df981aceaf5777c0785f57571863f52e90d4b819d7bb12340320d0c67744",
+      "docs/ambient-motion/evidence/buildings/barracks/frame-097.png": "eefa848287751ad253454c0fff1dc09a2c1760ce534baaddbc1d291f1d8d4d50",
+      "docs/ambient-motion/evidence/buildings/barracks/camera.json": "4f4575d3a459a8c7527dda71cfee5a9757b3d0ca370ef043e0281f124cf0dd99",
+      "docs/ambient-motion/evidence/buildings/barracks/key-poses.gif": "af62e9bfffe801d63a9cf802e72379b7f99eb340f6a2cb08595d455b7a7db69b",
+      "docs/ambient-motion/evidence/buildings/barracks/key-poses.png": "e03346e0717391c080554162e7256f2057b8a07cd255c78d4259c87108386687"
+    }
+  },
+  "buildings/bombarding_tower": {
+    "export_sha256": "68e4c0df67ed7d54d0ee904e129073e8252e8393b1b90a38df6ebcb32c99555d",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-bombarding_tower",
+      "seconds": 34.67,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-bombarding_tower.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/bombarding_tower/frame-001.png": "53dd51de5bff9c528b2bad1e3ef8741f49c7a6ecd03a2d6545b2da67dbb9a949",
+      "docs/ambient-motion/evidence/buildings/bombarding_tower/frame-025.png": "521718115835f6ad458d81511b3183e616e37ed7ec5b399dcc383a93a0b01352",
+      "docs/ambient-motion/evidence/buildings/bombarding_tower/frame-049.png": "d283fa62971cf146658e777b7eafef3bf39c6f4486c2825be1257047e4e74809",
+      "docs/ambient-motion/evidence/buildings/bombarding_tower/frame-073.png": "2c748eefc5f0f864a6615346ca275d374e0734bce7f201dd8175333944e6ea46",
+      "docs/ambient-motion/evidence/buildings/bombarding_tower/frame-097.png": "927f6aa5544de9ce66e900a0e5c511de2225a2fa52b18615531e5e2f76da6cb7",
+      "docs/ambient-motion/evidence/buildings/bombarding_tower/camera.json": "d55abe756c64cc7706c3f7f5460c586d0d532f0f0425d2a5b7ebcbcdce78aa8c",
+      "docs/ambient-motion/evidence/buildings/bombarding_tower/key-poses.gif": "a5a67c10647c74f4754524ae1d211ad58fe1f13e92c0a523ba22238c23a35198",
+      "docs/ambient-motion/evidence/buildings/bombarding_tower/key-poses.png": "d66a9778313bc8bb30406741f919c58235b52522e4cfd03d802059b9df51cf71"
+    }
+  },
+  "buildings/gold_mine": {
+    "export_sha256": "5efe302a4a62d23c301c787410d58a3fe7013c54931362664aa997f441233d3b",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-gold_mine",
+      "seconds": 23.25,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-gold_mine.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/gold_mine/frame-001.png": "b5de4aabbab8b6d2bd56a92b607e8ae27c2f879a6a5f3f424bd4f1d653354b48",
+      "docs/ambient-motion/evidence/buildings/gold_mine/frame-025.png": "52e6dac2b6fe127a37fcf574578d787e6689060dc06652eac09aee1116d82ee1",
+      "docs/ambient-motion/evidence/buildings/gold_mine/frame-049.png": "c6ca84360376ead9c0c38cf76d63dc4e09ddad699ac2e92beb90b654b9348343",
+      "docs/ambient-motion/evidence/buildings/gold_mine/frame-073.png": "895b962cc8e4790c211eea7ce5daf314b94b0c0dd90aabea3c275f317c058bc9",
+      "docs/ambient-motion/evidence/buildings/gold_mine/frame-097.png": "4b61e04e6e7d684afffc4255a44d6b7fdd2bc114eba678aefe55982e29e76079",
+      "docs/ambient-motion/evidence/buildings/gold_mine/camera.json": "f95bf3e310ce940aedcb7544e21ec20574345e05e9e535dd34f76ae481ebe3e5",
+      "docs/ambient-motion/evidence/buildings/gold_mine/key-poses.gif": "0d524d1b0d01455970f46a22fb04b60ff47687fbc28402ccddcb77ba2b6b8fc2",
+      "docs/ambient-motion/evidence/buildings/gold_mine/key-poses.png": "e173bead11163639405879907b750308e1946bf1ca2656057bf09819756f4945"
+    }
+  },
+  "buildings/magic_academy": {
+    "export_sha256": "7fee44b3b088347689553accc8027cb03e5a441d0dfdfc8201365564b9bb62ca",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-magic_academy",
+      "seconds": 18.7,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-magic_academy.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/magic_academy/frame-001.png": "29e8bebbd2f4cbc582c7987ec318946c972edb28c10d7eaa828d45ae78c60a8d",
+      "docs/ambient-motion/evidence/buildings/magic_academy/frame-025.png": "2a4d0a61a5fdbd3066962122cfc691dcf40ac5d304a36e8e77347eed640438cf",
+      "docs/ambient-motion/evidence/buildings/magic_academy/frame-049.png": "5901448761cbf1bd0409e835e295939cc791505e5b345d89f904bf4afe133adf",
+      "docs/ambient-motion/evidence/buildings/magic_academy/frame-073.png": "8148afaccbfc3a2fe0617e9cbd592be9127d1531e43050823772c1a487da5fc7",
+      "docs/ambient-motion/evidence/buildings/magic_academy/frame-097.png": "44bca326926c21bc43044514abfdc10ae8f061b88dd80f9ca5833b1d2f8283b4",
+      "docs/ambient-motion/evidence/buildings/magic_academy/camera.json": "4704f4413538e9f29e002c208b4d40bc6b03a630f31c5f8c4f8fa44f98624470",
+      "docs/ambient-motion/evidence/buildings/magic_academy/key-poses.gif": "4225b6cf1d8eac06c82e912c7c46be2c5fd52380f911f5f07e7783d12ae32a44",
+      "docs/ambient-motion/evidence/buildings/magic_academy/key-poses.png": "6934d81e847f733e494bda3d9d3cf36d71cd7cf3d8ebcc8880463eae191cdffc"
+    }
+  },
+  "buildings/metal_mine": {
+    "export_sha256": "ce0ccecf59d0fa2a8ab326f7eeca29495c643999e8e6bdaf133b5eb99bb7f198",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-metal_mine",
+      "seconds": 25.02,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-metal_mine.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/metal_mine/frame-001.png": "86b77f2b75da58d4a5d1569da2817bed9233c24cecc30fef7656694fb59f562e",
+      "docs/ambient-motion/evidence/buildings/metal_mine/frame-025.png": "eb1f3f32264d3ef4cc9139a28138f7aa0848f69ece39204684e6d651de586db5",
+      "docs/ambient-motion/evidence/buildings/metal_mine/frame-049.png": "c41c7a8ba5f524ca7fe857f915d5e0e9d0eba54ceb5058035774977ef3f9f5f7",
+      "docs/ambient-motion/evidence/buildings/metal_mine/frame-073.png": "4e26100aaa12321996bba2dd396adcc91796e9e404e7bc73a03bd1154b988a7d",
+      "docs/ambient-motion/evidence/buildings/metal_mine/frame-097.png": "5862563a112f5bc4deec7a0e690900056b685d33983e05699b1be5362ce85a87",
+      "docs/ambient-motion/evidence/buildings/metal_mine/camera.json": "7d2c75e25317d5f98ae5d8cdda4b7505464e8faa9001e772b468b54d947a30e0",
+      "docs/ambient-motion/evidence/buildings/metal_mine/key-poses.gif": "5eefd0263c71c5006a4bf4a63ac95f3881b2787e0d14588413da07ee4545f104",
+      "docs/ambient-motion/evidence/buildings/metal_mine/key-poses.png": "70e07218f4d753120b605695256d783bec6e554ead8007d59f6274027b709b90"
+    }
+  },
+  "buildings/research_tower": {
+    "export_sha256": "b38a8ed0e9d0cea91e8548811159e3f432d1e2377b6ff63db923513e1536af80",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-research_tower",
+      "seconds": 25.17,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-research_tower.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/research_tower/frame-001.png": "c5b2bf5331a54c9bb0374550683d8f180bfe02a8154e5d2465f8b55ebda4f6af",
+      "docs/ambient-motion/evidence/buildings/research_tower/frame-025.png": "96f722687cd907232ad35fbce02068556d350c597625933ad1f1bf59aa206b69",
+      "docs/ambient-motion/evidence/buildings/research_tower/frame-049.png": "20c337ba981890fb6ac6274c3df0dca61ed746081d2c4f73738d55a63d2c6523",
+      "docs/ambient-motion/evidence/buildings/research_tower/frame-073.png": "50fc84d0089e92d7d1df58c1483d6c1d3248179c45315a3e14821161701dd069",
+      "docs/ambient-motion/evidence/buildings/research_tower/frame-097.png": "f6071e9775d857e9a977b11d1951389b13bee2770e5658a4004fc9ea4815ada7",
+      "docs/ambient-motion/evidence/buildings/research_tower/camera.json": "81c9dcfe8deb2b6bf20b57ad3fecee8ecbb672aab5d16535d44f67ad9ae687d2",
+      "docs/ambient-motion/evidence/buildings/research_tower/key-poses.gif": "5092daece45a8c1fbd38a3352f8690d3966dbfe27897c4d291bd7020883f9cb7",
+      "docs/ambient-motion/evidence/buildings/research_tower/key-poses.png": "5789a85b54f7cd4a642c9e1458f1418230a673ec9fc58322c3b3d144c41832ea"
+    }
+  },
+  "buildings/stone_cutter": {
+    "export_sha256": "3d6fd9d045843fb19f6b60da624dbd8dd182e43e6c9e2c9f69ebaa6e09084515",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-stone_cutter",
+      "seconds": 17.15,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-stone_cutter.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/stone_cutter/frame-001.png": "585879294fdb0556042499f95d3fdebc23d968a50f07a9418381407daacbf294",
+      "docs/ambient-motion/evidence/buildings/stone_cutter/frame-025.png": "920a1c839f1a39b33a03a0e353a57e355731f345d128945d9ee037759fef6756",
+      "docs/ambient-motion/evidence/buildings/stone_cutter/frame-049.png": "536d95bf70147c6db5fbcbb833499549d718fc6c0d03650b0b126cb57bdaec59",
+      "docs/ambient-motion/evidence/buildings/stone_cutter/frame-073.png": "1935e0b91c20d0b672cfdcf5328aa30fec5cec496618d49d52e58d5e5a8a3132",
+      "docs/ambient-motion/evidence/buildings/stone_cutter/frame-097.png": "ac1a99b77b099ad568e978084a83b1faa3dd75db3e94d593be090ad657aacf53",
+      "docs/ambient-motion/evidence/buildings/stone_cutter/camera.json": "42dc2ed0df0f9ed1832322fa7e0f5dc46888509bb73d51a354461e50330c39c8",
+      "docs/ambient-motion/evidence/buildings/stone_cutter/key-poses.gif": "8bae5af5f3897a122a5282fe230f803e50626225851975a5898eb4d1dea98bb0",
+      "docs/ambient-motion/evidence/buildings/stone_cutter/key-poses.png": "70883a2cee18757d9e2d0a7313bb08fbeb67c9127304dad2951b2697078e96f4"
+    }
+  },
+  "buildings/tavern": {
+    "export_sha256": "d08fd692fa5bf1fbc541948bb30dc749505bfd7dd00dc0fd2494755696bf77b4",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-tavern",
+      "seconds": 15.66,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-tavern.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/tavern/frame-001.png": "5aa23523c2d703ce309bee3e86886b88d770bdca66b4b5495a51cbad5fa04349",
+      "docs/ambient-motion/evidence/buildings/tavern/frame-025.png": "90c5208ebd9ac7661866c11f1de04f8249cca974936cb76a7952cf726f76f42c",
+      "docs/ambient-motion/evidence/buildings/tavern/frame-049.png": "4762142593ebeb421710283f74394e87e8f050a7eee780ca02db868312a15e81",
+      "docs/ambient-motion/evidence/buildings/tavern/frame-073.png": "13e833d8f5cde0533bffa1efbb908419451a15ab578464e05d5221ec6d2d092f",
+      "docs/ambient-motion/evidence/buildings/tavern/frame-097.png": "04453c2793a5a621eba89632aef16ea4c109613ea2da7c9925c6ead941a2e6a4",
+      "docs/ambient-motion/evidence/buildings/tavern/camera.json": "2d59b28df2af9657f4eb4a33cfaf07d0e986f2a03bcbfda421705c75683a2b52",
+      "docs/ambient-motion/evidence/buildings/tavern/key-poses.gif": "31b723b87bc611fb1d07af4c8962063e6b950f8b375e2ed2146b45a898b4bd4b",
+      "docs/ambient-motion/evidence/buildings/tavern/key-poses.png": "e35acf93b9eb174366ecc12456d8aeb12548896a8e9b119f6266cb2e06edcde3"
+    }
+  },
+  "buildings/town_hall": {
+    "export_sha256": "6b10ca5a42080e686e41717cef4283cf05c63299061d1728b441dbb5b435cf07",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-town_hall",
+      "seconds": 29.71,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-town_hall.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/town_hall/frame-001.png": "c7e8285eff2eead0733dfa076b4926be4d435fb8b329e85ba5469ae79b1684f6",
+      "docs/ambient-motion/evidence/buildings/town_hall/frame-025.png": "62d9a48e01f71f4e2741e4e154407d17bada9cb9f976d51c3a867c19470c8d38",
+      "docs/ambient-motion/evidence/buildings/town_hall/frame-049.png": "a935245b9d26bfc84dfc63e80de305c2b0e2e810c81c2c76608ad8d255a5a2f2",
+      "docs/ambient-motion/evidence/buildings/town_hall/frame-073.png": "28648ce98328d414cdf56fa1904a19e5b4cd0ed8d539f51a636f55ddcb773ef5",
+      "docs/ambient-motion/evidence/buildings/town_hall/frame-097.png": "2299ad30e5c37548bc9746494a53d597e50b57154bfa1938d7e6726715cdabb2",
+      "docs/ambient-motion/evidence/buildings/town_hall/camera.json": "e5d0bcd58448bde1da52d1092f3d0425dd66b28f8eea0d014825dbfe10c3fa42",
+      "docs/ambient-motion/evidence/buildings/town_hall/key-poses.gif": "d8f25199adaecceaf9519f33c542bf8b69c0556eb932107cd6a98c05c153fd74",
+      "docs/ambient-motion/evidence/buildings/town_hall/key-poses.png": "edf40bdbf4e4096ec7d15d995d4e5847c6dfafb5ac8811ab8bf7771d1dcd3868"
+    }
+  },
+  "buildings/trade_market": {
+    "export_sha256": "d6ecffd6ff4312f494c0e72a6365cf35e7a9230f69ca3a34527051ab46aaae11",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-trade_market",
+      "seconds": 20.86,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-trade_market.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/trade_market/frame-001.png": "ad9f3883915801167636aa73f664486929a8d9b6708c56ab2ce0b5c8c207bf06",
+      "docs/ambient-motion/evidence/buildings/trade_market/frame-025.png": "cc854ce01d66fac2dbaee5cb4193d089067574eac71a6e76dde1f3402b482b74",
+      "docs/ambient-motion/evidence/buildings/trade_market/frame-049.png": "4756243fedb59a3091124b760cda4e3d1b12c8f99c8efb6d5aac3ab57c2712a9",
+      "docs/ambient-motion/evidence/buildings/trade_market/frame-073.png": "38037c7e502eb10c7a84aa0c60fc5b25760aa17c9bca8546804bd5ca761bb850",
+      "docs/ambient-motion/evidence/buildings/trade_market/frame-097.png": "4036adafd059d52f827b6f8569ef8153606b50f6bf410cc24f396fefd96b123b",
+      "docs/ambient-motion/evidence/buildings/trade_market/camera.json": "5f5656e22c7a8151705d75e8d7f3354ea62d0041d1ca7d9f9236029341cf8656",
+      "docs/ambient-motion/evidence/buildings/trade_market/key-poses.gif": "9af1c186ebb6b61ca1130bfbbe82364f7aa0919eae478e695544ca96e7bbf94a",
+      "docs/ambient-motion/evidence/buildings/trade_market/key-poses.png": "5a1c454f71cb1885274dc7657543f2aff066574526d94a8742a9e780f0e37e32"
+    }
+  },
+  "buildings/tree_house": {
+    "export_sha256": "273dd115d53250ffa3f2cb14dab55392655d2a8212ed3e1c5b36cc81a8117267",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-tree_house",
+      "seconds": 17.44,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-tree_house.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/tree_house/frame-001.png": "c74362cbed63cc47c81de0e9e9ba8f031ef615b3bd0b6893ab3e7dfb656c3791",
+      "docs/ambient-motion/evidence/buildings/tree_house/frame-025.png": "605a7ed260cff761635b234b8fa682b90a5a7278e9d746d1b61310a58c57b027",
+      "docs/ambient-motion/evidence/buildings/tree_house/frame-049.png": "decee6f58569914b3d64cf263268ae86b2707f8dacf498fb49575e47f8d08452",
+      "docs/ambient-motion/evidence/buildings/tree_house/frame-073.png": "eb160f4a89aac2201705ddb4121dcf19bf886319bffe9e599339c56bd20430ad",
+      "docs/ambient-motion/evidence/buildings/tree_house/frame-097.png": "23ec7afcd6c98fe6bec22e8bf5732db2149e204915c4d94c9258a46d1d5488c7",
+      "docs/ambient-motion/evidence/buildings/tree_house/camera.json": "613f354d0fdabcbbd8bd679b4ad875700c17e1f1b2e8ddfdd754e46fc692f456",
+      "docs/ambient-motion/evidence/buildings/tree_house/key-poses.gif": "457323ab2056a2c2b7f8d95930cea5a6e9ddf26f8efbc2735d78b266b9477a25",
+      "docs/ambient-motion/evidence/buildings/tree_house/key-poses.png": "feaf0a6b5a6544b722ce5b7541d25832346e8abd248fa6d123c640dcc1180b25"
+    }
+  },
+  "buildings/weaver": {
+    "export_sha256": "373a6349226cf3ab7878b7f17404f8e262c03b39aa2981a226e841a2cb69812a",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-weaver",
+      "seconds": 24.6,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-weaver.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/weaver/frame-001.png": "34a6844b9f44dc1e08e0fb9e914b1d19dc1ae5ae48b908a021d8bfde9accfd70",
+      "docs/ambient-motion/evidence/buildings/weaver/frame-025.png": "3098bccf5bf960f32c5e64039308e50918a68e5a7b596fc7fd914e04a1e69610",
+      "docs/ambient-motion/evidence/buildings/weaver/frame-049.png": "13107a47d0b5e1dfc53ccd033cd71aac2373321dd9b5aa2ec7e516c587d16069",
+      "docs/ambient-motion/evidence/buildings/weaver/frame-073.png": "c2e8076662a5ec0581b0cf2941c4ec4a72ca4c5d16b90ff483a93c1eb1454a70",
+      "docs/ambient-motion/evidence/buildings/weaver/frame-097.png": "9dc2cb774d7ecc8abb7cd49b9b548ff99b33a0515fbcbb5278e4b3906da0f524",
+      "docs/ambient-motion/evidence/buildings/weaver/camera.json": "1e04b818127c8d2a8611e18a3f34c64cf7e58bedbe21635ad2ac02c06307e55f",
+      "docs/ambient-motion/evidence/buildings/weaver/key-poses.gif": "8d09030a9a4c658a3c4bd15be94ea4ac203ffd50ca66c37ef42d7abe81201a52",
+      "docs/ambient-motion/evidence/buildings/weaver/key-poses.png": "325d180757c741e769dd2e2200a4d531bd23359480e8c6df878f22106ff7f921"
+    }
+  },
+  "buildings/woodcutter_hut": {
+    "export_sha256": "6bf55306adc772d9ed09232da5fe40f06fb0bda7e1dc2a58807cc3ed3e74c9bd",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-buildings-woodcutter_hut",
+      "seconds": 15.86,
+      "log": ".cache/asset-check/logs/ambient-render-buildings-woodcutter_hut.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/buildings/woodcutter_hut/frame-001.png": "d6c1bd5368eb7be91e89c98fa84288ff0f54ce17a7cfa119b25df6b86493f215",
+      "docs/ambient-motion/evidence/buildings/woodcutter_hut/frame-025.png": "1f9007b17e699a796fa3e027b9d6916ee7a8f4ce0a85081b767ae1b1d8799e30",
+      "docs/ambient-motion/evidence/buildings/woodcutter_hut/frame-049.png": "fc72c0526153609099acaf841355be496ebec8df1830b875fbf02459a5bacb14",
+      "docs/ambient-motion/evidence/buildings/woodcutter_hut/frame-073.png": "80f36708d354556e86c432408c2bb45dc7cfd0156e02817045f5f45dfed1fd1d",
+      "docs/ambient-motion/evidence/buildings/woodcutter_hut/frame-097.png": "11b59483fedb805452cbf19fbbb4b60cafc67a068bfb12dcb2ed0a76542e5774",
+      "docs/ambient-motion/evidence/buildings/woodcutter_hut/camera.json": "4d44f5b46f03b5d48b3f5a079330b9159e63b3bfbb7df7e11f622eff9eee6e2c",
+      "docs/ambient-motion/evidence/buildings/woodcutter_hut/key-poses.gif": "07918d3bba43477334b7e1942bb567fa2fc4fa513d1d7c6f57e8f0089491622d",
+      "docs/ambient-motion/evidence/buildings/woodcutter_hut/key-poses.png": "342940dfc2e2a5a127070d3b3f734aa20cca3b9ce5f2f59d9ce51aa6b54ce054"
+    }
+  },
+  "environment/components/forest_hex_stream": {
+    "export_sha256": "513d8445201c5300366f9dcc1727b8265efbd452ff79f1170c5575c2285db2b3",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-environment-components-forest_hex_stream",
+      "seconds": 9.77,
+      "log": ".cache/asset-check/logs/ambient-render-environment-components-forest_hex_stream.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/environment/components/forest_hex_stream/frame-001.png": "09ba4c5986aab5e7ade6267a4e0b2febc7e04c28c7b18b4e10be64301eaac603",
+      "docs/ambient-motion/evidence/environment/components/forest_hex_stream/frame-025.png": "fb665b24dbbc6ac026bd7331403745600c0d78bfa23af5dbf6c2dc03c6f3e1d5",
+      "docs/ambient-motion/evidence/environment/components/forest_hex_stream/frame-049.png": "4e497dd44705923e14fcacc8e7fb61d64174da5dba9ab20647f334241363168a",
+      "docs/ambient-motion/evidence/environment/components/forest_hex_stream/frame-073.png": "46e2fecba49dbe3ec05a454c646d10176e46d5a81e5526ba24f6ed07950d1d98",
+      "docs/ambient-motion/evidence/environment/components/forest_hex_stream/frame-097.png": "76b5a03ac0131123cd08a63aa9f47a744cd934f2fef1b411f9199861094be248",
+      "docs/ambient-motion/evidence/environment/components/forest_hex_stream/camera.json": "2f4194e3f5248c810e923a41a85bad5c2a5a6dc5dc7672b30640b08ca5886d97",
+      "docs/ambient-motion/evidence/environment/components/forest_hex_stream/key-poses.gif": "34015278eb47d5d163fcbbdf58b156fc9da4835e50755a408af12cb39163b55a",
+      "docs/ambient-motion/evidence/environment/components/forest_hex_stream/key-poses.png": "f142081d0d7a1328b836d18be4e9bc333fb230ecd351c845264252451404c3ce"
+    }
+  },
+  "environment/components/forest_foam": {
+    "export_sha256": "ba79ef146d10df22a626f77b4710132c918f3a66df2e63169c1870e46de0771b",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-environment-components-forest_foam",
+      "seconds": 8.22,
+      "log": ".cache/asset-check/logs/ambient-render-environment-components-forest_foam.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/environment/components/forest_foam/frame-001.png": "f7a583e952beada07474cab6c72d23a078999c143f0be00bea43bbcce05976f7",
+      "docs/ambient-motion/evidence/environment/components/forest_foam/frame-025.png": "a0b7b0e841631ffa595d2c6f55efdfcedb79e94e6bd9eec3d5ffd5499426e1c2",
+      "docs/ambient-motion/evidence/environment/components/forest_foam/frame-049.png": "6cc8abbfc01e6eb8529c448007067883ccf2abfb79e6aebaa25880b8cc1c5715",
+      "docs/ambient-motion/evidence/environment/components/forest_foam/frame-073.png": "ef8b7f48a7af04df64cdd853436544686e4b5c5691ae89b4e274e97478c94337",
+      "docs/ambient-motion/evidence/environment/components/forest_foam/frame-097.png": "ea86bfb5c10aa5b2b3f0e381f8b71b2d85b750a97614a55e146c1e563c43935f",
+      "docs/ambient-motion/evidence/environment/components/forest_foam/camera.json": "109b5da5f848a99d6021ffffd7010ddacddcbd4b165a5e6ab58e11854af56c42",
+      "docs/ambient-motion/evidence/environment/components/forest_foam/key-poses.gif": "855fd6b17259016b34c5177cca4e144528a7ff2fb61523629169a8045af3b477",
+      "docs/ambient-motion/evidence/environment/components/forest_foam/key-poses.png": "3e321459c2a6110b981f552e3696583a2f49ab738446805b1f763ba347104d1c"
+    }
+  },
+  "environment/components/forest_waterfall": {
+    "export_sha256": "d55bc6540ba4a7d8114f333e740fc02cce6f87b4e62dab4bb32e9a781d105fb6",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-environment-components-forest_waterfall",
+      "seconds": 10.17,
+      "log": ".cache/asset-check/logs/ambient-render-environment-components-forest_waterfall.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/environment/components/forest_waterfall/frame-001.png": "05b406e44ee9cebc6e8f8fd8b5c6f59afec4933b4d0835b5d5d13377521313e0",
+      "docs/ambient-motion/evidence/environment/components/forest_waterfall/frame-025.png": "d2a71e85215e6aa49d9f87ac8493fe86f05ede08122f2517d8cbcf1dba320f65",
+      "docs/ambient-motion/evidence/environment/components/forest_waterfall/frame-049.png": "fced1f48ebf1ec20132d3d4874b292a22e4f5a9179bac5fcdc63f5d724782f77",
+      "docs/ambient-motion/evidence/environment/components/forest_waterfall/frame-073.png": "52956e6233f5d59a364c4a60af00119acc23184764fea0fa90aeec37c794b5b6",
+      "docs/ambient-motion/evidence/environment/components/forest_waterfall/frame-097.png": "0f7146278eb8dd8aa24f2b310c4c601329e3d2fe98f9508f734e1778ed6b39d1",
+      "docs/ambient-motion/evidence/environment/components/forest_waterfall/camera.json": "31bfae247d5a8176b797491fa404f404ea2b304f2f1c61aa4c09d144f6fe7b2c",
+      "docs/ambient-motion/evidence/environment/components/forest_waterfall/key-poses.gif": "045bdc2c8c33f621e52a040211e9c59444e72f5f061abb986a438917ea3b0d98",
+      "docs/ambient-motion/evidence/environment/components/forest_waterfall/key-poses.png": "b61fca7ddf052823f5047f27c79820c06cb1637b92af6f8bf44b008cdee27d65"
+    }
+  },
+  "environment/hex_woodland_bridge": {
+    "export_sha256": "d5cfc873b80093cf746038e403ca2223fc8301b966d3d0a052fbe250e2440f3e",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-environment-hex_woodland_bridge",
+      "seconds": 15.02,
+      "log": ".cache/asset-check/logs/ambient-render-environment-hex_woodland_bridge.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/environment/hex_woodland_bridge/frame-001.png": "ee3551cf30936d1cac43e3c2cb8b1a303c077062eacff40edc27a7fb14bd7b68",
+      "docs/ambient-motion/evidence/environment/hex_woodland_bridge/frame-025.png": "3717c44bcff1127b03690c7a358bbe4126a8620c4f2c18a8a8f420b0d2d79f52",
+      "docs/ambient-motion/evidence/environment/hex_woodland_bridge/frame-049.png": "f6d05f530e47ef516a8a8a4e087eb16ed67f82525e4459cbb90d58a45c96a7b6",
+      "docs/ambient-motion/evidence/environment/hex_woodland_bridge/frame-073.png": "9c0e7af8e4e03b5899c62b524730d772f56554a952580d26d9977d99b2fce41e",
+      "docs/ambient-motion/evidence/environment/hex_woodland_bridge/frame-097.png": "cee8831c526c427ef1542e5c06221cc23713f86a4e66b841a23170d1f34b8e42",
+      "docs/ambient-motion/evidence/environment/hex_woodland_bridge/camera.json": "0d1df3cb763f7a476a0c91cd1fde96ea14c3ec91c7b2c33580c0193e8ca5ed90",
+      "docs/ambient-motion/evidence/environment/hex_woodland_bridge/key-poses.gif": "7290c33396dd75cda9ca3f7cbc14d8efa3c780f8891319b2caa06fedcaed2f93",
+      "docs/ambient-motion/evidence/environment/hex_woodland_bridge/key-poses.png": "5472a1e64d1231da81bc2ae1eb574a225f6c1d6e1e7ca30bcf7b03e635f3ecb7"
+    }
+  },
+  "environment/hex_lantern_bridge": {
+    "export_sha256": "c8b19401f6e47abe587248a181890dfeb7bf7f9656f96f5fc16373d2efe2abb3",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-environment-hex_lantern_bridge",
+      "seconds": 18.39,
+      "log": ".cache/asset-check/logs/ambient-render-environment-hex_lantern_bridge.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/environment/hex_lantern_bridge/frame-001.png": "bcca14426cb8d1fa34a23b81344ac1b761f49ce738d1484333d3bff0818141e2",
+      "docs/ambient-motion/evidence/environment/hex_lantern_bridge/frame-025.png": "5de3db05b6df9d37f95724a2aef83f6e1df84e4b6f352f7657e34134c42254f3",
+      "docs/ambient-motion/evidence/environment/hex_lantern_bridge/frame-049.png": "ec100de03289d48ea2d8fe836f9a6f481753d3c0fb1bbb9b04dbd57afa98aa7f",
+      "docs/ambient-motion/evidence/environment/hex_lantern_bridge/frame-073.png": "1c5c873c611eec44e449f8f113f2f36e0944d4c0e1297b96207159d50a4b9aed",
+      "docs/ambient-motion/evidence/environment/hex_lantern_bridge/frame-097.png": "7ac8cb4044dbc10112c165428991e1b64f533c5fa5023c410563d1a3e9860fa6",
+      "docs/ambient-motion/evidence/environment/hex_lantern_bridge/camera.json": "0d1df3cb763f7a476a0c91cd1fde96ea14c3ec91c7b2c33580c0193e8ca5ed90",
+      "docs/ambient-motion/evidence/environment/hex_lantern_bridge/key-poses.gif": "e06a58488832eb417833afd2dad70a35d941e91f698f3bb96285350208e08619",
+      "docs/ambient-motion/evidence/environment/hex_lantern_bridge/key-poses.png": "860deba475b15a1a47ef0e682d442be3bcc9ca5a14558c8e7d3ae5d0b3febfb7"
+    }
+  },
+  "environment/hex_river_overlay_straight": {
+    "export_sha256": "9b5da586b925c1f5b69b8634ecd21facbe41b710142e6cbd60449ccf1b2c6e42",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-environment-hex_river_overlay_straight",
+      "seconds": 12.95,
+      "log": ".cache/asset-check/logs/ambient-render-environment-hex_river_overlay_straight.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_straight/frame-001.png": "a9d4ee8a14549c41288d7b90c08dec67dac48adb2aad1101aafbe66bd10f3f43",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_straight/frame-025.png": "f566fcdbe708ad39734e2ffce678820dc01b3ef38ef0706419c496f7399957a8",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_straight/frame-049.png": "e7f966fad27f7be77a33cdaa589c03116ad174387a3946d4edc0a784b8b80586",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_straight/frame-073.png": "363e10f8dcc847044ef32e077b4d7a958c5fba98e57e90e3dd09d56fc6251036",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_straight/frame-097.png": "23d66a2e486dec28316835134c9a0bd3c4424cb14290c2b94b795561778d29b3",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_straight/camera.json": "5e20c06f208f4fe706bfe4116f0d906b56151f4d99b08542f2ac677b9a244412",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_straight/key-poses.gif": "72c4099c1a32202f635a6580906f386e0a8ab8805dc5f0d869c3e5dad75b5096",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_straight/key-poses.png": "bb7eaff0171e6b550d8fdc210e0025ebcddac1570f6ba9db3f50dee6d562003f"
+    }
+  },
+  "environment/hex_river_overlay_turn_60": {
+    "export_sha256": "fe554f74f112b9588409ef7daf65a3e3ee65f71ff735307598c05b8c71a2f58e",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-environment-hex_river_overlay_turn_60",
+      "seconds": 12.35,
+      "log": ".cache/asset-check/logs/ambient-render-environment-hex_river_overlay_turn_60.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_60/frame-001.png": "9914c14121844262c3fe05386a9927c9f19d56a61acd0fe2e94321e24ca29618",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_60/frame-025.png": "b03153c25ec17ccf729127017ccc9c7c9e2a40a648c91817872b3821c69eda72",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_60/frame-049.png": "37cf9dc08cd8bdcbf7819ff6d702cf641dd07fab46cb6c6396a8e22f59cbcf41",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_60/frame-073.png": "a869f0a8d10832e6399384f207c7c6bba3cabf95220128cf7df58c85525ece53",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_60/frame-097.png": "64814dbca5e8184986982373984d539a597cf37efbc4e24e70f5c4e937c9ba2e",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_60/camera.json": "3e406c3f111beadd2be1ac5a4051ee6a195253cf269cfe8b7caabf6cf043f539",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_60/key-poses.gif": "0d28590cb9c30aa6b29af952770244320508317f70ed40837f0d3ac2fd335f92",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_60/key-poses.png": "71ac1d6a12f52b816eebeb425fe73d355c5388db71b398a2c0d33182cc619646"
+    }
+  },
+  "environment/hex_river_overlay_turn_120": {
+    "export_sha256": "fbaf4cf17e18a49cf7143c24668da7069b9b6b150e14cd38f15a6424f95f0e40",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-environment-hex_river_overlay_turn_120",
+      "seconds": 12.51,
+      "log": ".cache/asset-check/logs/ambient-render-environment-hex_river_overlay_turn_120.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_120/frame-001.png": "a64519f790cefb9e16dbd6c32df87d05fa1d00649ef73b85117b97591b76573a",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_120/frame-025.png": "19d08b16c888ae5e35ae13038c2301d1a170503fe5198ece9a7f1cc66c120f75",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_120/frame-049.png": "3877bef90b834feac77610ef603773ddaddba61b6f6e1969f66eb0f28c84a2fb",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_120/frame-073.png": "ec053cc18120c15ee1ce1fc5512f5eb9c456e75377b127beeff1890d2b71bdcf",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_120/frame-097.png": "ffd4a6226b3b23394e390f09be86136ee6cd937d6ac7238f436c18b3f07ef2f2",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_120/camera.json": "96e5771b3ddeb8314f248f164f42104591cb5020150e2636cdef5d042391f70f",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_120/key-poses.gif": "0756e488be0091733fa2b8842e9d7b195acff00c869bbb676ecbaf845607d31e",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_turn_120/key-poses.png": "dc487883e430a2439cdcfd8329bc8ca989df8e9c667905d2adc19197bd9552cc"
+    }
+  },
+  "environment/hex_river_overlay_end": {
+    "export_sha256": "533c50274c29a6febd01530dfa8a7bfcc60e923fbcb9458e2e6f27f851957731",
+    "renderer_sha256": "0925a73b4f61c2b5c9b70a79fcdcaaf6d311f551256a084785d04e8233845c90",
+    "job": {
+      "job": "ambient-render-environment-hex_river_overlay_end",
+      "seconds": 10.09,
+      "log": ".cache/asset-check/logs/ambient-render-environment-hex_river_overlay_end.log"
+    },
+    "clip": {
+      "name": "ambient",
+      "duration": 4.041666666666667,
+      "loop": true
+    },
+    "files": {
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_end/frame-001.png": "95a2c77c92d6fdd715e1c4984c5a4b6b25deae27591c20c7d30ef6574e9a0a59",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_end/frame-025.png": "686d4ea1b121a95e0f59ea375d3282395a98e6c127f517a087bfb11ea6aa72f3",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_end/frame-049.png": "482f67a28232734d530ef2577a310e81399d2f441bbcb238b2eb730aa2ef7e35",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_end/frame-073.png": "0076d2ea94e1995539198cad329daa33fa16edacbbc9fa3ca7a961c1788ef75d",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_end/frame-097.png": "a8fd5dddd7895571c755ac6625339d087d16b1a7bea29bac3d691b5af39611ad",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_end/camera.json": "eb72da63f0c13b981e8b6e6834bd649344d4d8ae55f13567355bccbe1105e292",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_end/key-poses.gif": "2a8115142d663591804a72d8dc4d8ff839da6138591e412eb67e9f244b322464",
+      "docs/ambient-motion/evidence/environment/hex_river_overlay_end/key-poses.png": "5a523eb37ea82897e0afa5288f4c4abfbe54e98fa6a2263d5f0035656ac0ecc6"
+    }
+  }
+}

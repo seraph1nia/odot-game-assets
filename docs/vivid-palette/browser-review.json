@@ -1,0 +1,69 @@
+{
+  "scope": "Task-private standalone current color/motion reports and actual catalog playback, not game/GPU/artist acceptance",
+  "design_source": "Existing project reference-library CSS colors/serif hierarchy; no new CDN/design dependency",
+  "reports": {
+    "color": {
+      "page": "docs/vivid-palette/actual-review.html",
+      "page_sha256": "5f80bf38239b6946e43d712f8481c58b200ebf8a6334501238676f4ff5f21543",
+      "portable_sha256": "aa5384b73779aaff11170a92f6ec443a08b2eccc8a5d82144bc026f921e5b743",
+      "viewports": {
+        "desktop": {
+          "images": 63,
+          "loaded": 63,
+          "overflow": false,
+          "width": 1440,
+          "height": 1000
+        },
+        "mobile": {
+          "images": 63,
+          "loaded": 63,
+          "overflow": false,
+          "width": 390,
+          "height": 844
+        }
+      },
+      "screenshots": {
+        "docs/vivid-palette/evidence/browser/desktop.png": "d051636f3eaf727f5ad1539bd614fc370e18a0058de62fc32bf6227597ed0bac",
+        "docs/vivid-palette/evidence/browser/mobile.png": "a99dadd7f39f8e7481b0c612d3d60f7dd2dd1dcdec4186e4f4238c1be28096a1",
+        "docs/vivid-palette/evidence/browser/desktop-focal.png": "87405e5407a0f669c1b1d1645a46dd77b2255b559d3fd321e9d8dce387c6fd3a"
+      },
+      "lavish_receipt": ".cache/ambient-motion/lavish-color.toon",
+      "lavish_reply_receipt": ".cache/ambient-motion/lavish-color-reply.toon"
+    },
+    "motion": {
+      "page": "docs/ambient-motion/review.html",
+      "page_sha256": "648025072c5d53e2ea4655c5fba5042ddd24d0071e6043cae756a3be5d63a52f",
+      "portable_sha256": "4a7e7b98da264068e0401c1b2c22b5a4d872a011d94d86330fecba9983d92a1d",
+      "viewports": {
+        "desktop": {
+          "title": "Small living details \u00b7 actual exported motion",
+          "images": 50,
+          "loaded": 50,
+          "overflow": false,
+          "width": 1440,
+          "height": 1000
+        },
+        "mobile": {
+          "images": 50,
+          "loaded": 50,
+          "overflow": false,
+          "width": 390,
+          "height": 844
+        }
+      },
+      "screenshots": {
+        "docs/ambient-motion/evidence/browser/motion-desktop.png": "f4dcd37c1c70afa12d03950952cc2c67fac93ef20f1b8f05396221a02b9dae66",
+        "docs/ambient-motion/evidence/browser/motion-mobile.png": "1636b3fceb535007d36feb52200b5fcf519c7b05a3e8e3cc9c2a01ca4937da3e",
+        "docs/ambient-motion/evidence/browser/motion-mobile-focal.png": "90dd379628eb02034877bf6138be4cc5cbc3c5e126be208096c221206217e726"
+      },
+      "lavish_receipt": ".cache/ambient-motion/lavish-motion.toon",
+      "lavish_reply_receipt": ".cache/ambient-motion/lavish-motion-reply.toon"
+    }
+  },
+  "actual_catalog_playback": {
+    "receipt": "docs/ambient-motion/browser-playback.json",
+    "sha256": "7fb4be4595595c71efa8e18e6f2f3b5d45edacc8f047a4d043d423d216bc4456",
+    "assets": 25
+  },
+  "native_zip_sha256": "840b69d7c91d743608ea01c8a9e10bdfb82c8050abda1bf93d798b171b2bc2a9"
+}

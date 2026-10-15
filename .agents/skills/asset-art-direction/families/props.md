@@ -30,8 +30,9 @@ variants stay with their existing code owner, not this leaf's new color table.
 
 ## Woodland adaptation
 
-[W0](../references/index.md#whisperwood) governs weathered low-saturation bodies,
-not a supplied prop turnaround. Add function-led detail: stave/strap/tie layers
+[W0](../references/index.md#whisperwood) informs woodland adaptation,
+not a supplied prop turnaround; color relationships follow
+[D03](../design/palette.md#d03). Add function-led detail: stave/strap/tie layers
 for containers, carved bindings and worn wraps for equipment, damp lichen on
 standing masonry, dense overlapping leaves on plant prototypes. Preserve grips,
 blade facets, cannonball/arrow readability and reusable placement pivots. Do not

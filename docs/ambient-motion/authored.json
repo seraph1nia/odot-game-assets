@@ -1,0 +1,2167 @@
+{
+  "sources/buildings/arrow_tower.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "4870f3cdc91ebcb031b98064d568e15f0870b5ba079c060ce74fead21679494e",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/arrow_tower",
+        "description": "One suspended lantern rocks from its top hanger",
+        "targets": [
+          "Lantern amber glass.001",
+          "Lantern bottom.001",
+          "Lantern corner.004",
+          "Lantern corner.005",
+          "Lantern corner.006",
+          "Lantern corner.007",
+          "Lantern hanger.001",
+          "Lantern roof.001"
+        ],
+        "original_parents": {
+          "Lantern amber glass.001": "lantern_instance",
+          "Lantern bottom.001": "lantern_instance",
+          "Lantern corner.004": "lantern_instance",
+          "Lantern corner.005": "lantern_instance",
+          "Lantern corner.006": "lantern_instance",
+          "Lantern corner.007": "lantern_instance",
+          "Lantern hanger.001": "lantern_instance",
+          "Lantern roof.001": "lantern_instance"
+        },
+        "pivot": "Ambient arrow_tower detail pivot",
+        "channels": [
+          {
+            "object": "Ambient arrow_tower detail pivot",
+            "path": "rotation_euler",
+            "axis": 0,
+            "amplitude": [
+              0.03490658503988659,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "362adaf78ebf4d19aa23b7e50c1aa4bc0597a2a7b8d3421584aefc214ab8a642"
+  },
+  "sources/buildings/archery_range.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "62cc698cd49eea2ce903752e1793f74d64a23e5c51fc1897aeddd95b54c8dfb5",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/archery_range",
+        "description": "Small heraldic banner and its attached arrow sway together",
+        "targets": [
+          "Arrow fletching",
+          "Arrow fletching.001",
+          "Cloth heraldic banner",
+          "Gold banner border",
+          "Gold banner border.001",
+          "Heraldic pointed blade",
+          "Heraldic shaft"
+        ],
+        "original_parents": {
+          "Arrow fletching": "Woodland role proportions",
+          "Arrow fletching.001": "Woodland role proportions",
+          "Cloth heraldic banner": "Woodland role proportions",
+          "Gold banner border": "Woodland role proportions",
+          "Gold banner border.001": "Woodland role proportions",
+          "Heraldic pointed blade": "Woodland role proportions",
+          "Heraldic shaft": "Woodland role proportions"
+        },
+        "pivot": "Ambient archery_range detail pivot",
+        "channels": [
+          {
+            "object": "Ambient archery_range detail pivot",
+            "path": "rotation_euler",
+            "axis": 0,
+            "amplitude": [
+              0.03490658503988659,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "816c124d57621a7f635548abbc2168e9c5950789bb20cc9a27e176b41a11341b"
+  },
+  "sources/buildings/bakery.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "a25400d130ee25eb8e57e53c194a4a29596a53e429725684081404a3e085f137",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/bakery",
+        "description": "The existing warm entrance lantern rocks gently",
+        "targets": [
+          "Lantern amber glass",
+          "Lantern bottom",
+          "Lantern corner",
+          "Lantern corner.001",
+          "Lantern corner.002",
+          "Lantern corner.003",
+          "Lantern hanger",
+          "Lantern roof"
+        ],
+        "original_parents": {
+          "Lantern amber glass": "Woodland role proportions",
+          "Lantern bottom": "Woodland role proportions",
+          "Lantern corner": "Woodland role proportions",
+          "Lantern corner.001": "Woodland role proportions",
+          "Lantern corner.002": "Woodland role proportions",
+          "Lantern corner.003": "Woodland role proportions",
+          "Lantern hanger": "Woodland role proportions",
+          "Lantern roof": "Woodland role proportions"
+        },
+        "pivot": "Ambient bakery detail pivot",
+        "channels": [
+          {
+            "object": "Ambient bakery detail pivot",
+            "path": "rotation_euler",
+            "axis": 0,
+            "amplitude": [
+              0.03490658503988659,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "b2830d71c9d608a863371e503115789b2fd42b95ee15ee046d4b6d56488ca51d"
+  },
+  "sources/buildings/barracks.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "eaa16a0e380b8fdf7b0dc0c3e25811ec5161a7dadb087f1881bb4afb66a03bb2",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/barracks",
+        "description": "Small blue lookout flag pivots at its pole edge",
+        "targets": [
+          "Barracks blue flag"
+        ],
+        "original_parents": {
+          "Barracks blue flag": "Woodland role proportions"
+        },
+        "pivot": "Ambient barracks detail pivot",
+        "channels": [
+          {
+            "object": "Ambient barracks detail pivot",
+            "path": "rotation_euler",
+            "axis": 1,
+            "amplitude": [
+              0,
+              0.03490658503988659,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "f9c684de835843fb26c18c8de7e6c471e2251ac954225f8774d1ea4e506ad788"
+  },
+  "sources/buildings/bombarding_tower.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "c5d6240bbd757b4fa6b00a800c72d7f1ec4bf3352f397f662b78cdb6689e490d",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/bombarding_tower",
+        "description": "One suspended lantern rocks; cannon and carriage stay fixed",
+        "targets": [
+          "Lantern amber glass.001",
+          "Lantern bottom.001",
+          "Lantern corner.004",
+          "Lantern corner.005",
+          "Lantern corner.006",
+          "Lantern corner.007",
+          "Lantern hanger.001",
+          "Lantern roof.001"
+        ],
+        "original_parents": {
+          "Lantern amber glass.001": "lantern_instance",
+          "Lantern bottom.001": "lantern_instance",
+          "Lantern corner.004": "lantern_instance",
+          "Lantern corner.005": "lantern_instance",
+          "Lantern corner.006": "lantern_instance",
+          "Lantern corner.007": "lantern_instance",
+          "Lantern hanger.001": "lantern_instance",
+          "Lantern roof.001": "lantern_instance"
+        },
+        "pivot": "Ambient bombarding_tower detail pivot",
+        "channels": [
+          {
+            "object": "Ambient bombarding_tower detail pivot",
+            "path": "rotation_euler",
+            "axis": 0,
+            "amplitude": [
+              0.03490658503988659,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "90cd17ebb43fa0d182146b7707e26534366667bfeb5408f78a22ad4853d99a1a"
+  },
+  "sources/buildings/gold_mine.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "14d7a53b35a3aade1d615421d71b94032080f96a9ebd1058e202440c435c23e5",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/gold_mine",
+        "description": "One front mine lantern rocks; carts and tracks stay fixed",
+        "targets": [
+          "Lantern amber glass",
+          "Lantern bottom",
+          "Lantern corner",
+          "Lantern corner.001",
+          "Lantern corner.002",
+          "Lantern corner.003",
+          "Lantern hanger",
+          "Lantern roof"
+        ],
+        "original_parents": {
+          "Lantern amber glass": "Woodland role proportions",
+          "Lantern bottom": "Woodland role proportions",
+          "Lantern corner": "Woodland role proportions",
+          "Lantern corner.001": "Woodland role proportions",
+          "Lantern corner.002": "Woodland role proportions",
+          "Lantern corner.003": "Woodland role proportions",
+          "Lantern hanger": "Woodland role proportions",
+          "Lantern roof": "Woodland role proportions"
+        },
+        "pivot": "Ambient gold_mine detail pivot",
+        "channels": [
+          {
+            "object": "Ambient gold_mine detail pivot",
+            "path": "rotation_euler",
+            "axis": 0,
+            "amplitude": [
+              0.03490658503988659,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "f00b0aad15664205e0e304fbaebe8a7ca24b21cf3caf4311da470ebb5d7aa9fd"
+  },
+  "sources/buildings/magic_academy.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "95333ce349033e7332315bc2c59006a33ed10108a6e7f7c2b5b37f561f052133",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/magic_academy",
+        "description": "Crown crystal turns gently about its own vertical center",
+        "targets": [
+          "Academy purple crystal"
+        ],
+        "original_parents": {
+          "Academy purple crystal": "Woodland role proportions"
+        },
+        "pivot": "Ambient magic_academy detail pivot",
+        "channels": [
+          {
+            "object": "Ambient magic_academy detail pivot",
+            "path": "rotation_euler",
+            "axis": 2,
+            "amplitude": [
+              0,
+              0,
+              0.17453292519943295
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "3cd5d8cbde136e5ca725d375754ac3dc22dfadf4ba9254c67276c24f731e0930"
+  },
+  "sources/buildings/metal_mine.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "9cb9e36524b5f218f23757afc163d222197c0a0501e05255c47790f639ac4e3c",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/metal_mine",
+        "description": "One hanging mine lantern rocks; hoist, rope and loaded cart stay fixed",
+        "targets": [
+          "Lantern amber glass.001",
+          "Lantern bottom.001",
+          "Lantern corner.004",
+          "Lantern corner.005",
+          "Lantern corner.006",
+          "Lantern corner.007",
+          "Lantern hanger.001",
+          "Lantern roof.001"
+        ],
+        "original_parents": {
+          "Lantern amber glass.001": "lantern_instance",
+          "Lantern bottom.001": "lantern_instance",
+          "Lantern corner.004": "lantern_instance",
+          "Lantern corner.005": "lantern_instance",
+          "Lantern corner.006": "lantern_instance",
+          "Lantern corner.007": "lantern_instance",
+          "Lantern hanger.001": "lantern_instance",
+          "Lantern roof.001": "lantern_instance"
+        },
+        "pivot": "Ambient metal_mine detail pivot",
+        "channels": [
+          {
+            "object": "Ambient metal_mine detail pivot",
+            "path": "rotation_euler",
+            "axis": 0,
+            "amplitude": [
+              0.03490658503988659,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "24feea0c264f3d84fa972c4e972b7374d861bba990afabab86a2ad423f582ee7"
+  },
+  "sources/buildings/research_tower.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "f58fc18649467ce7c206315df8f028309d261935ac4b42eee6d61f2a7756f457",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/research_tower",
+        "description": "Armillary rings turn gently around their fixed center; telescope and tower stay fixed",
+        "targets": [
+          "Armillary outer orbit",
+          "Armillary tilted orbit"
+        ],
+        "original_parents": {
+          "Armillary outer orbit": "Woodland role proportions",
+          "Armillary tilted orbit": "Woodland role proportions"
+        },
+        "pivot": "Ambient research_tower detail pivot",
+        "channels": [
+          {
+            "object": "Ambient research_tower detail pivot",
+            "path": "rotation_euler",
+            "axis": 2,
+            "amplitude": [
+              0,
+              0,
+              0.03490658503988659
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "fabdc01a6fd1172ba8904d76de69275deada64fcfe260e47eade38e69e6a995b"
+  },
+  "sources/buildings/stone_cutter.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "fa476ef1677085eeb00f0312548bf7ace708945948581efac4f687633c6be123",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/stone_cutter",
+        "description": "Suspended hoist hook sways below the fixed rope",
+        "targets": [
+          "Hoist iron hook"
+        ],
+        "original_parents": {
+          "Hoist iron hook": "Woodland role proportions"
+        },
+        "pivot": "Ambient stone_cutter detail pivot",
+        "channels": [
+          {
+            "object": "Ambient stone_cutter detail pivot",
+            "path": "rotation_euler",
+            "axis": 0,
+            "amplitude": [
+              0.03490658503988659,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "5b495c5d0ce4b5751276448d2ec153389a57df5801a3ed9ec6469a6d4dab0d59"
+  },
+  "sources/buildings/tavern.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "64a8656f3f92cb305a7e20bbdd2fdc88b08fd006cf36ec6c7c800c4fdc59fb34",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/tavern",
+        "description": "Beer sign and attached mug ornament sway; bracket remains fixed",
+        "targets": [
+          "Carved hanging sign",
+          "Foamy mug sign emblem",
+          "Sign foam",
+          "Sign foam.001",
+          "Sign foam.002",
+          "Sign mug handle"
+        ],
+        "original_parents": {
+          "Carved hanging sign": "Oversized beer hanging sign",
+          "Foamy mug sign emblem": "Oversized beer hanging sign",
+          "Sign foam": "Oversized beer hanging sign",
+          "Sign foam.001": "Oversized beer hanging sign",
+          "Sign foam.002": "Oversized beer hanging sign",
+          "Sign mug handle": "Oversized beer hanging sign"
+        },
+        "pivot": "Ambient tavern detail pivot",
+        "channels": [
+          {
+            "object": "Ambient tavern detail pivot",
+            "path": "rotation_euler",
+            "axis": 0,
+            "amplitude": [
+              0.03490658503988659,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "8a40e32440ab9848e9cd8952e9ed5653257dee68465950c3014035cc2ffbb19f"
+  },
+  "sources/buildings/town_hall.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "7fdc1e85eed0adc557e0c80c1b7fa5341084b448826634d6b7efcbfca9ec599b",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/town_hall",
+        "description": "Civic bell and clapper rock very slightly on their suspension",
+        "targets": [
+          "Bell clapper",
+          "Golden civic bell"
+        ],
+        "original_parents": {
+          "Bell clapper": "Civic bell tower",
+          "Golden civic bell": "Civic bell tower"
+        },
+        "pivot": "Ambient town_hall detail pivot",
+        "channels": [
+          {
+            "object": "Ambient town_hall detail pivot",
+            "path": "rotation_euler",
+            "axis": 0,
+            "amplitude": [
+              0.03490658503988659,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "edc63e99ba51dd1ef90cb11bf4466ce524379fb241be8227a214de226fb348aa"
+  },
+  "sources/buildings/trade_market.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "8fca66c865a507847b8af4d7f9c6b15bacbe9c42d6a35d301e755fdf0e045b2a",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/trade_market",
+        "description": "Scales sign and attached balance ornament sway together",
+        "targets": [
+          "Carved hanging sign",
+          "Scale pan emblem",
+          "Scale pan emblem.001",
+          "Scale sign crossarm",
+          "Scale sign rope",
+          "Scale sign rope.001",
+          "Scale sign upright"
+        ],
+        "original_parents": {
+          "Carved hanging sign": "Oversized scales hanging sign",
+          "Scale pan emblem": "Oversized scales hanging sign",
+          "Scale pan emblem.001": "Oversized scales hanging sign",
+          "Scale sign crossarm": "Oversized scales hanging sign",
+          "Scale sign rope": "Oversized scales hanging sign",
+          "Scale sign rope.001": "Oversized scales hanging sign",
+          "Scale sign upright": "Oversized scales hanging sign"
+        },
+        "pivot": "Ambient trade_market detail pivot",
+        "channels": [
+          {
+            "object": "Ambient trade_market detail pivot",
+            "path": "rotation_euler",
+            "axis": 0,
+            "amplitude": [
+              0.03490658503988659,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "aa5b2ac702c91bcd6b91e15d8349febc41385f1fb860c786d1fd63597efc31eb"
+  },
+  "sources/buildings/tree_house.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "9c3147ba4501e263c451472d9184f262dbd5a28cb59955b465d1c42e3a926a7b",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/tree_house",
+        "description": "Blue banner and white tree emblem breathe together below their top edge",
+        "targets": [
+          "Banner white tree emblem",
+          "Banner white tree emblem.001",
+          "Banner white tree emblem.002",
+          "Blue treehouse banner"
+        ],
+        "original_parents": {
+          "Banner white tree emblem": "Woodland role proportions",
+          "Banner white tree emblem.001": "Woodland role proportions",
+          "Banner white tree emblem.002": "Woodland role proportions",
+          "Blue treehouse banner": "Woodland role proportions"
+        },
+        "pivot": "Ambient tree_house detail pivot",
+        "channels": [
+          {
+            "object": "Ambient tree_house detail pivot",
+            "path": "rotation_euler",
+            "axis": 0,
+            "amplitude": [
+              0.03490658503988659,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "6abd5547aa9674f002e472fdbde16156e718cfe33ba1c120ae4dafe1547c70a2"
+  },
+  "sources/buildings/weaver.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "4f074f37a8648f10efed49f2c01da8b5272b7547b6c07087733c365fe87ffe0c",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/weaver",
+        "description": "Loom shuttle travels a few centimeters; threads and cloth remain fixed",
+        "targets": [
+          "Loom shuttle"
+        ],
+        "original_parents": {
+          "Loom shuttle": "Working loom"
+        },
+        "pivot": "Ambient weaver detail pivot",
+        "channels": [
+          {
+            "object": "Ambient weaver detail pivot",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.03824301064014435,
+              0.0,
+              0.0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "9be2fc7dda0b83040858dbc8f4094d98a0079a1ee44ecebf50da000062aa5fae"
+  },
+  "sources/buildings/woodcutter_hut.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "ab5ba1d12edf065dec47d76ec5701a5e811459bac13ba520c36d5d285a93990e",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "buildings/woodcutter_hut",
+        "description": "Carved log sign and its relief sway; saw, supports and vegetation stay fixed",
+        "targets": [
+          "Log sign endgrain",
+          "Raised log sign emblem",
+          "Woodcutter hanging log sign"
+        ],
+        "original_parents": {
+          "Log sign endgrain": "Woodland role proportions",
+          "Raised log sign emblem": "Woodland role proportions",
+          "Woodcutter hanging log sign": "Woodland role proportions"
+        },
+        "pivot": "Ambient woodcutter_hut detail pivot",
+        "channels": [
+          {
+            "object": "Ambient woodcutter_hut detail pivot",
+            "path": "rotation_euler",
+            "axis": 0,
+            "amplitude": [
+              0.03490658503988659,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "d60e0bb23aa4bb4fc8ea0501eab13a0c801d6e91379701ba95fdca63ddf59065"
+  },
+  "sources/environment/shared_forest_kit.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "225c4e09c91d66645875bb553000d5d74e1f1189994988dd9055ac9a838dbe2b",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "environment/components/forest_foam",
+        "description": "Existing foam rings and beads drift softly together",
+        "targets": [],
+        "original_parents": {},
+        "pivot": null,
+        "channels": [
+          {
+            "object": "Foam bead",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.001",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.002",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.003",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.004",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.001",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.002",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      },
+      {
+        "asset": "environment/components/forest_hex_stream",
+        "description": "Existing reflected-current highlights drift; channel, depth and endpoints stay fixed",
+        "targets": [],
+        "original_parents": {},
+        "pivot": null,
+        "channels": [
+          {
+            "object": "River reflected current",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0,
+              0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River reflected current.001",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0,
+              0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River reflected current.002",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0,
+              0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River reflected current.003",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0,
+              0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River reflected current.004",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0,
+              0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      },
+      {
+        "asset": "environment/components/forest_waterfall",
+        "description": "Existing waterfall streaks shimmer sideways; the falling sheet stays fixed",
+        "targets": [],
+        "original_parents": {},
+        "pivot": null,
+        "channels": [
+          {
+            "object": "Waterfall fine streak",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall fine streak.001",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall fine streak.002",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall foam streak",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall foam streak.001",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall foam streak.002",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall foam streak.003",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "d6c19e9a462eefcee84d794bd9082bf1ecea1b1723e171c8f87c33030e88cb46"
+  },
+  "sources/environment/hex_lantern_bridge.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "fedd1991e0e027f71aaf0f4181a2450c99d148759a2698a3c210f2c04f97b6b2",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "environment/hex_lantern_bridge",
+        "description": "Existing channel highlights, pool foam and waterfall streaks drift; banks, bridge and water sheets stay fixed",
+        "targets": [],
+        "original_parents": {},
+        "pivot": null,
+        "channels": [
+          {
+            "object": "Foam bead.005",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.006",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.007",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.008",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.009",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.010",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.011",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.012",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.013",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.014",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.015",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.016",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.017",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.018",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.019",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.003",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.004",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.005",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.006",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.007",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.008",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.009",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.010",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.011",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River reflected current.005",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0,
+              0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River reflected current.006",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0,
+              0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River reflected current.007",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0,
+              0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River reflected current.008",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0,
+              0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River reflected current.009",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0,
+              0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall fine streak.003",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall fine streak.004",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall fine streak.005",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall foam streak.004",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall foam streak.005",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall foam streak.006",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall foam streak.007",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "59fe27e96459d5b6e80638c2bdb21a8b0172f836efd8af455757d307bad08cd0"
+  },
+  "sources/environment/hex_river_overlay_end.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "d9a16df454a5025dd398fec95519d6864a56871c46b253a0b75127917bc61d12",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "environment/hex_river_overlay_end",
+        "description": "One tiny interior shimmer strip drifts; original painted ribbon, banks, alpha, width and exact connector profile stay fixed",
+        "targets": [],
+        "original_parents": {},
+        "pivot": null,
+        "channels": [
+          {
+            "object": "Ambient interior water shimmer",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.0,
+              -0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": {
+          "object": "Ambient interior water shimmer",
+          "mesh": "Shared ambient water shimmer strip",
+          "material": "water_ambient_shimmer",
+          "vertices": 10,
+          "triangles": 8,
+          "images": [
+            "painted_water_ambient_shimmer_color",
+            "painted_water_roughness"
+          ]
+        }
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "1244857e5c62435025e240a41b9a2749652cc328c0d63c1e056c54a5ca5d4294",
+    "revisions": [
+      {
+        "before": "ece85678f3d376dd428e261d503230d9e53f21337514479353b2d2bc931e64aa",
+        "reason": "New shimmer material gets required packed painted Base Color and Roughness; original materials/maps unchanged"
+      }
+    ]
+  },
+  "sources/environment/hex_river_overlay_straight.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "eefa8018f32426a9f85b1ff4962251140ac1d952da7e977efcc0e0d05836f5e4",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "environment/hex_river_overlay_straight",
+        "description": "One tiny interior shimmer strip drifts; original painted ribbon, banks, alpha, width and exact connector profile stay fixed",
+        "targets": [],
+        "original_parents": {},
+        "pivot": null,
+        "channels": [
+          {
+            "object": "Ambient interior water shimmer",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.0,
+              -0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": {
+          "object": "Ambient interior water shimmer",
+          "mesh": "Shared ambient water shimmer strip",
+          "material": "water_ambient_shimmer",
+          "vertices": 10,
+          "triangles": 8,
+          "images": [
+            "painted_water_ambient_shimmer_color",
+            "painted_water_roughness"
+          ]
+        }
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "db305a40e335cecf5a7cacc57f86b876f4b654815d5d0c25da429688a3e97749",
+    "revisions": [
+      {
+        "before": "30d8ea66093285a041cd535eefa6c7cfe94dbf4192f8727e722ec01c1147adca",
+        "reason": "New shimmer material gets required packed painted Base Color and Roughness; original materials/maps unchanged"
+      }
+    ]
+  },
+  "sources/environment/hex_river_overlay_turn_120.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "8d016c1d31d32756401157bdf0c589521d8bb5ac8e4735eb47f9d2f36f25454f",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "environment/hex_river_overlay_turn_120",
+        "description": "One tiny interior shimmer strip drifts; original painted ribbon, banks, alpha, width and exact connector profile stay fixed",
+        "targets": [],
+        "original_parents": {},
+        "pivot": null,
+        "channels": [
+          {
+            "object": "Ambient interior water shimmer",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              -0.0125,
+              -0.021650635094610966,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": {
+          "object": "Ambient interior water shimmer",
+          "mesh": "Shared ambient water shimmer strip",
+          "material": "water_ambient_shimmer",
+          "vertices": 10,
+          "triangles": 8,
+          "images": [
+            "painted_water_ambient_shimmer_color",
+            "painted_water_roughness"
+          ]
+        }
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "fb8cb2f0df5b2c95820a0c0786c25ee6f7fb87a7a3b2d204eb01b380221ae0aa",
+    "revisions": [
+      {
+        "before": "b65dcf7e0f7c1d1294a02be68fd521029d08c24201b95106940878c77d9c3143",
+        "reason": "New shimmer material gets required packed painted Base Color and Roughness; original materials/maps unchanged"
+      }
+    ]
+  },
+  "sources/environment/hex_river_overlay_turn_60.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "223ea012c744d9f72e099ade453a295b225bb8bc691e5c03a7918a787c323fb5",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "environment/hex_river_overlay_turn_60",
+        "description": "One tiny interior shimmer strip drifts; original painted ribbon, banks, alpha, width and exact connector profile stay fixed",
+        "targets": [],
+        "original_parents": {},
+        "pivot": null,
+        "channels": [
+          {
+            "object": "Ambient interior water shimmer",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              -0.02165063509461097,
+              -0.0125,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": {
+          "object": "Ambient interior water shimmer",
+          "mesh": "Shared ambient water shimmer strip",
+          "material": "water_ambient_shimmer",
+          "vertices": 10,
+          "triangles": 8,
+          "images": [
+            "painted_water_ambient_shimmer_color",
+            "painted_water_roughness"
+          ]
+        }
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "e276306f31f5bbe4cfa049d0847bac0a6f1b1c59803d787eb12dc9ee4c2aab88",
+    "revisions": [
+      {
+        "before": "45078f3a9158d0ba8d1ccabc37327c2ae6be8e13d413f3b6bff9af24e7522f54",
+        "reason": "New shimmer material gets required packed painted Base Color and Roughness; original materials/maps unchanged"
+      }
+    ]
+  },
+  "sources/environment/hex_woodland_bridge.blend": {
+    "palette_checkpoint_commit": "ac41b74",
+    "sha256_before": "6cafde58a0de06606c020183c25878f921c31af094d839e85396a45ca2a7bb0c",
+    "clip": "ambient",
+    "loop": true,
+    "fps": 24,
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      97
+    ],
+    "features": [
+      {
+        "asset": "environment/hex_woodland_bridge",
+        "description": "Existing channel highlights, pool foam and waterfall streaks drift; banks, bridge and water sheets stay fixed",
+        "targets": [],
+        "original_parents": {},
+        "pivot": null,
+        "channels": [
+          {
+            "object": "Foam bead.005",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.006",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.007",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.008",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.009",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.010",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.011",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.012",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.013",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.014",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.015",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.016",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.017",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.018",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Foam bead.019",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.003",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.004",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.005",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.006",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.007",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.008",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.009",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.010",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River foam ripple.011",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.012,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River reflected current.005",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0,
+              0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River reflected current.006",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0,
+              0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River reflected current.007",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0,
+              0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River reflected current.008",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0,
+              0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "River reflected current.009",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0,
+              0.025,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall fine streak.003",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall fine streak.004",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall fine streak.005",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall foam streak.004",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall foam streak.005",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall foam streak.006",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          },
+          {
+            "object": "Waterfall foam streak.007",
+            "path": "location",
+            "axis": null,
+            "amplitude": [
+              0.008,
+              0,
+              0
+            ],
+            "keys_per_channel": 5
+          }
+        ],
+        "added_geometry": null
+      }
+    ],
+    "protected_orphan_ids": [],
+    "preservation_verified_after_reload": true,
+    "sha256_after": "09effba907416f47529e5ecb959313d2342d495f97ffe3fa40da31d411f4a414"
+  }
+}

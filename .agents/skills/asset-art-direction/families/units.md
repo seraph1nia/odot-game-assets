@@ -15,7 +15,7 @@ Read [rig/animation](../blender/units.md), whose primary visual owner is
 - E4: horned skull helmet, broad bare arms and dual axes.
 
 The [W0 direction](../references/index.md#whisperwood) supplies no unit art.
-Adapt it through muted travel-worn cloth/armor, layered role equipment and stronger
+Adapt it through colorful travel-worn cloth/armor, soft related shade variation, layered role equipment and stronger
 individual proportions: proud shield/plume knight; crooked scholarly hat and
 scrolls mage; rangy quiver/hood archer; heavy fur/trophy berserker; bone-faced
 shield sentinel; horned flame occultist; scarf/crossbow ambusher; massive horned

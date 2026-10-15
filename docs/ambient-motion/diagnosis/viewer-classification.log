@@ -1,0 +1,5 @@
+00:00.266  blend            | Read blend: "/home/bart/.treehouse/odot-game-assets-86a3a5/1/odot-game-assets/.cache/ambient-motion/before/sources/buildings/arrow_tower.blend"
+[{"name": "Render Result", "type": "RENDER_RESULT", "source": "VIEWER", "size": [0, 0], "is_float": false, "packed": false, "users": []}, {"name": "Viewer Node", "type": "COMPOSITING", "source": "VIEWER", "size": [256, 256], "is_float": true, "packed": false, "users": []}]
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

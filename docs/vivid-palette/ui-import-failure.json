@@ -1,0 +1,10 @@
+{
+  "initial_import_failure": "Two concurrently launched commands failed in the same initial attempt: missing explicit DOTNET_ROOT caused the mise shim to fail. No dependency was installed. Retry used verified absolute Godot/dotnet paths and serial native drivers. Full logs retained locally.",
+  "files": {
+    ".cache/ui-catalog/vivid-palette/import.log": "576020a20aa4a3d1660e9a027e0bd7f329c9035b8d8e95c55fa200ef0547e425",
+    ".cache/ui/vivid-palette/import.log": "576020a20aa4a3d1660e9a027e0bd7f329c9035b8d8e95c55fa200ef0547e425",
+    ".cache/vivid-palette/ui-explicit.log": "5e7c525752343f7c365c09e27f87095382072b48d8e34f766fc127c3a5839ceb",
+    ".cache/vivid-palette/ui-current-package.log": "70c4e8efe64eac734b3fbf35185b2518494fa6e85f52a60cdde78a6f79e7ae2b"
+  },
+  "stale_dist_package": "Initial direct load accidentally tested the existing grey dist ZIP 4df648...; disconfirmed by comparison with current generated package bytes. Rebuilt through official catalog build, directly loaded current 840b69... archive, exact member/ZIP bindings in current worldtree-validation.json. No stale load is claimed as current qualification."
+}

@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="240" height="112" viewBox="0 0 240 112">
 <!-- Original reusable corner vignette: owl, leaves, violet fungi/crystals and hanging lantern. Transparent, no UI labels. -->
 <defs>
- <linearGradient id="wood" x2=".3" y2="1"><stop stop-color="#87735f"/><stop offset=".6" stop-color="#594c40"/><stop offset="1" stop-color="#332e2d"/></linearGradient>
+ <linearGradient id="wood" x2=".3" y2="1"><stop stop-color="#a87346"/><stop offset=".6" stop-color="#654333"/><stop offset="1" stop-color="#33282c"/></linearGradient>
  <linearGradient id="feather" x2=".8" y2="1"><stop stop-color="#c58a58"/><stop offset=".6" stop-color="#79554a"/><stop offset="1" stop-color="#49394d"/></linearGradient>
- <linearGradient id="leaf" x2=".5" y2="1"><stop stop-color="#9ea17d"/><stop offset=".5" stop-color="#5e7156"/><stop offset="1" stop-color="#34483b"/></linearGradient>
- <linearGradient id="magic" x2=".7" y2="1"><stop stop-color="#c8c0d0"/><stop offset=".3" stop-color="#87718f"/><stop offset="1" stop-color="#514d64"/></linearGradient>
+ <linearGradient id="leaf" x2=".5" y2="1"><stop stop-color="#c5b668"/><stop offset=".5" stop-color="#638346"/><stop offset="1" stop-color="#264738"/></linearGradient>
+ <linearGradient id="magic" x2=".7" y2="1"><stop stop-color="#e1c7ff"/><stop offset=".3" stop-color="#a667dc"/><stop offset="1" stop-color="#424081"/></linearGradient>
  <radialGradient id="glow"><stop stop-color="#ffc67a" stop-opacity=".42"/><stop offset="1" stop-color="#ec9b37" stop-opacity="0"/></radialGradient>
  <linearGradient id="flame" x2="0" y2="1"><stop stop-color="#fff3bb"/><stop offset=".5" stop-color="#ffd05b"/><stop offset="1" stop-color="#d76a20"/></linearGradient>
 </defs>
@@ -18,7 +18,7 @@
 <path d="M65 48Q68 72 82 74Q100 66 101 47Q85 39 65 48Z" fill="#c69b6a"/>
 <path d="M61 42Q52 60 65 71L72 63Z M103 42Q116 58 101 71L95 61Z" fill="#604951" stroke="#332b37"/>
 <path d="M67 35Q72 27 80 34L85 42L91 32Q99 28 103 36L100 49Q90 55 84 46Q75 55 65 47Z" fill="#e2cba0"/>
-<g fill="#597e86" stroke="#283247" stroke-width="1.8"><ellipse cx="75" cy="41" rx="6" ry="8"/><ellipse cx="95" cy="41" rx="6" ry="8"/></g>
+<g fill="#358bb0" stroke="#283247" stroke-width="1.8"><ellipse cx="75" cy="41" rx="6" ry="8"/><ellipse cx="95" cy="41" rx="6" ry="8"/></g>
 <g fill="#142239"><ellipse cx="76" cy="41" rx="3" ry="5"/><ellipse cx="94" cy="41" rx="3" ry="5"/></g><g fill="#e9f2eb"><circle cx="77" cy="38" r="1.8"/><circle cx="95" cy="38" r="1.8"/></g>
 <path d="M80 47L88 47L84 55Z" fill="#e0af4d"/><path d="M75 58L79 62 M85 58L89 62 M78 66L82 69 M91 65L94 67" stroke="#836249" stroke-width="1.2"/>
 <path d="M73 77L70 81L80 80 M92 77L88 81L99 79" fill="none" stroke="#d6a14e" stroke-width="2"/>

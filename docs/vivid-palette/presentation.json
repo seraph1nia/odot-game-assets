@@ -1,0 +1,422 @@
+{
+  "buildings/archery_range": {
+    "source_sha256": "62cc698cd49eea2ce903752e1793f74d64a23e5c51fc1897aeddd95b54c8dfb5",
+    "image": "exports/previews/archery_range.png",
+    "sha256": "ecfd4baf464c805cf842845640fe2faa8923fc4d6bb63e6aa672d5b8f6a9988b",
+    "job": {
+      "job": "vivid-presentation-buildings-archery_range",
+      "seconds": 167.15,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-archery_range.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "buildings/arrow_tower": {
+    "source_sha256": "4870f3cdc91ebcb031b98064d568e15f0870b5ba079c060ce74fead21679494e",
+    "image": "exports/previews/arrow_tower.png",
+    "sha256": "ec5277352cb5f4e433dfda158180c893eeff2097a4c18ea55bdd791812a2777b",
+    "job": {
+      "job": "vivid-presentation-buildings-arrow_tower",
+      "seconds": 46.34,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-arrow_tower.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "buildings/bakery": {
+    "source_sha256": "a25400d130ee25eb8e57e53c194a4a29596a53e429725684081404a3e085f137",
+    "image": "exports/previews/bakery.png",
+    "sha256": "40763b235dcc1cc4918f0d0aac0dadf4d46704b778a024582080694f3610366f",
+    "job": {
+      "job": "vivid-presentation-buildings-bakery",
+      "seconds": 45.99,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-bakery.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "buildings/barracks": {
+    "source_sha256": "eaa16a0e380b8fdf7b0dc0c3e25811ec5161a7dadb087f1881bb4afb66a03bb2",
+    "image": "exports/previews/barracks.png",
+    "sha256": "e4f03bcc6b7351fbb50b36ddd89d6dc15347364e5ecb27de9d64efb29970e164",
+    "job": {
+      "job": "vivid-presentation-buildings-barracks",
+      "seconds": 42.77,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-barracks.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "buildings/bombarding_tower": {
+    "source_sha256": "c5d6240bbd757b4fa6b00a800c72d7f1ec4bf3352f397f662b78cdb6689e490d",
+    "image": "exports/previews/bombarding_tower.png",
+    "sha256": "76fb5d97b100b0fecfb0d8dbebde5eb8e8c9aa39f248006be61d3f1f75d96cc8",
+    "job": {
+      "job": "vivid-presentation-buildings-bombarding_tower",
+      "seconds": 41.23,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-bombarding_tower.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "buildings/gold_mine": {
+    "source_sha256": "14d7a53b35a3aade1d615421d71b94032080f96a9ebd1058e202440c435c23e5",
+    "image": "exports/previews/gold_mine.png",
+    "sha256": "ad9d2f34ea5777d8f7572f5ddc48cdb2c49ddcfd36259d5cf97779383b32a497",
+    "job": {
+      "job": "vivid-presentation-buildings-gold_mine",
+      "seconds": 40.15,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-gold_mine.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "buildings/magic_academy": {
+    "source_sha256": "95333ce349033e7332315bc2c59006a33ed10108a6e7f7c2b5b37f561f052133",
+    "image": "exports/previews/magic_academy.png",
+    "sha256": "781a027a745c84affe58bc96e35db9102adf6c5e6a0beb722fbf8ea6b8a2097d",
+    "job": {
+      "job": "vivid-presentation-buildings-magic_academy",
+      "seconds": 47.47,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-magic_academy.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "buildings/metal_mine": {
+    "source_sha256": "9cb9e36524b5f218f23757afc163d222197c0a0501e05255c47790f639ac4e3c",
+    "image": "exports/previews/metal_mine.png",
+    "sha256": "d8405999d67de9e2c800b60525ae6c4f204a898d908a3cad87b6036bd23bdfac",
+    "job": {
+      "job": "vivid-presentation-buildings-metal_mine",
+      "seconds": 112.28,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-metal_mine.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "buildings/research_tower": {
+    "source_sha256": "f58fc18649467ce7c206315df8f028309d261935ac4b42eee6d61f2a7756f457",
+    "image": "exports/previews/research_tower.png",
+    "sha256": "74cceb749b8c89c61c66c072a9f3ba11a5ef04522c7293bf8ee2ad5127eb2e18",
+    "job": {
+      "job": "vivid-presentation-buildings-research_tower",
+      "seconds": 110.07,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-research_tower.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "buildings/stone_cutter": {
+    "source_sha256": "fa476ef1677085eeb00f0312548bf7ace708945948581efac4f687633c6be123",
+    "image": "exports/previews/stone_cutter.png",
+    "sha256": "f2bb733e223d736afab74f76ecbc72bc14446f705c9dbf1701cd1ff093d0b48d",
+    "job": {
+      "job": "vivid-presentation-buildings-stone_cutter",
+      "seconds": 29.91,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-stone_cutter.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "buildings/tavern": {
+    "source_sha256": "64a8656f3f92cb305a7e20bbdd2fdc88b08fd006cf36ec6c7c800c4fdc59fb34",
+    "image": "exports/previews/tavern.png",
+    "sha256": "5a942c471c93844bdedfb9d334fd82c9a294e882ab69896233756169cc2627af",
+    "job": {
+      "job": "vivid-presentation-buildings-tavern",
+      "seconds": 28.85,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-tavern.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "buildings/town_hall": {
+    "source_sha256": "7fdc1e85eed0adc557e0c80c1b7fa5341084b448826634d6b7efcbfca9ec599b",
+    "image": "exports/previews/town_hall.png",
+    "sha256": "7b2c0b1305258ad54c5f4ada0b3b8269e9377d4f95657e6922131310f3cf1b53",
+    "job": {
+      "job": "vivid-presentation-buildings-town_hall",
+      "seconds": 135.08,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-town_hall.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "buildings/trade_market": {
+    "source_sha256": "8fca66c865a507847b8af4d7f9c6b15bacbe9c42d6a35d301e755fdf0e045b2a",
+    "image": "exports/previews/trade_market.png",
+    "sha256": "4e17ef161d8e2256b9f791123430ff9526409f3885f45fce245f774e181cd5df",
+    "job": {
+      "job": "vivid-presentation-buildings-trade_market",
+      "seconds": 28.36,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-trade_market.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "buildings/tree_house": {
+    "source_sha256": "9c3147ba4501e263c451472d9184f262dbd5a28cb59955b465d1c42e3a926a7b",
+    "image": "exports/previews/tree_house.png",
+    "sha256": "c2456625ff72a8ad4f6f42f5828b2944502b7808b2a5031179df58d947940151",
+    "job": {
+      "job": "vivid-presentation-buildings-tree_house",
+      "seconds": 35.81,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-tree_house.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "buildings/weaver": {
+    "source_sha256": "4f074f37a8648f10efed49f2c01da8b5272b7547b6c07087733c365fe87ffe0c",
+    "image": "exports/previews/weaver.png",
+    "sha256": "6ae4df8b479873d36365ad76d424dcbd859b16727937370c7ad99e9c090cecc8",
+    "job": {
+      "job": "vivid-presentation-buildings-weaver",
+      "seconds": 115.49,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-weaver.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "buildings/woodcutter_hut": {
+    "source_sha256": "ab5ba1d12edf065dec47d76ec5701a5e811459bac13ba520c36d5d285a93990e",
+    "image": "exports/previews/woodcutter_hut.png",
+    "sha256": "7168e1ca6e08e5df95cafef5d866099f4622f798959c962ff3d39e84f5ac7bd4",
+    "job": {
+      "job": "vivid-presentation-buildings-woodcutter_hut",
+      "seconds": 30.43,
+      "log": ".cache/asset-check/logs/vivid-presentation-buildings-woodcutter_hut.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "characters/archer": {
+    "source_sha256": "d0deb9b5ba581f260e3b683fcf23e74eaf201896bd89a379a6f3f741b64bc438",
+    "image": "exports/previews/archer.png",
+    "sha256": "cd230933d1172781f3e5327208de54160a35d057b8336d9cc190c190d28b94ad",
+    "job": {
+      "job": "vivid-presentation-characters-archer",
+      "seconds": 22.53,
+      "log": ".cache/asset-check/logs/vivid-presentation-characters-archer.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "characters/berserker": {
+    "source_sha256": "3e8e3521be37232a32d6a8d73ba08655211f4b2cfec1a113b09ff088cfa22d19",
+    "image": "exports/previews/berserker.png",
+    "sha256": "55f7ee06e32f14e468b31dc97523c1aa65591295217b3e3a379b98ff1f26bfd0",
+    "job": {
+      "job": "vivid-presentation-characters-berserker",
+      "seconds": 22.05,
+      "log": ".cache/asset-check/logs/vivid-presentation-characters-berserker.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "characters/evil_berserker_unit": {
+    "source_sha256": "9476a9b985b31aa39d3e31e1ed340009bd339d186156c4b9aada90a1cdbc6510",
+    "image": "exports/previews/evil_berserker_unit.png",
+    "sha256": "3f4c665234312b6c9027c19e12ffd7d9318e170973b17137d5e5d91403083ff1",
+    "job": {
+      "job": "vivid-presentation-characters-evil_berserker_unit",
+      "seconds": 22.94,
+      "log": ".cache/asset-check/logs/vivid-presentation-characters-evil_berserker_unit.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "characters/evil_mage_unit": {
+    "source_sha256": "9ef3b90580c104bf226f558b14431ebed21c770ce7b535ebcb927c026cbf5efe",
+    "image": "exports/previews/evil_mage_unit.png",
+    "sha256": "7d61489995d550c5919edf8bb8dcff694f37b8c16eadbc22f59e1005d4370643",
+    "job": {
+      "job": "vivid-presentation-characters-evil_mage_unit",
+      "seconds": 22.56,
+      "log": ".cache/asset-check/logs/vivid-presentation-characters-evil_mage_unit.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "characters/evil_melee_unit": {
+    "source_sha256": "104b8c1685eb42a5d6a03fb5f84579aa9419dcb62caf3c75c1ff52d433084dd5",
+    "image": "exports/previews/evil_melee_unit.png",
+    "sha256": "3ca5274c38d40ada7c307a982c617012b5d8c27afb0b6a91094e7265dd97a0f7",
+    "job": {
+      "job": "vivid-presentation-characters-evil_melee_unit",
+      "seconds": 23.06,
+      "log": ".cache/asset-check/logs/vivid-presentation-characters-evil_melee_unit.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "characters/evil_ranged_unit": {
+    "source_sha256": "bc6823ffe4f76a63c6353496c00890932c02f4bef3a89a48bed0cd46da48493b",
+    "image": "exports/previews/evil_ranged_unit.png",
+    "sha256": "9ee5ee601e075871b8e30e06e12eea166d790f6a8317aad003eacf00f30b4c9f",
+    "job": {
+      "job": "vivid-presentation-characters-evil_ranged_unit",
+      "seconds": 22.03,
+      "log": ".cache/asset-check/logs/vivid-presentation-characters-evil_ranged_unit.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "characters/knight": {
+    "source_sha256": "dfb12f30ce7a13682587a8f835a4c29a671d15fc7ce1eeef0e9f53a5ba06794b",
+    "image": "exports/previews/knight.png",
+    "sha256": "c354f4a90fd4d6afc5d2a3c23289733d2e4b4d14667f011ec9364605d890621c",
+    "job": {
+      "job": "vivid-presentation-characters-knight",
+      "seconds": 21.33,
+      "log": ".cache/asset-check/logs/vivid-presentation-characters-knight.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "characters/mage": {
+    "source_sha256": "b02f293f4ff9af844c7a3ee81c85493c328855cad9637fdc297adbb22e528f50",
+    "image": "exports/previews/mage.png",
+    "sha256": "d658d8e4df8212ed77fa33abe280a284476214bdabc1fe2b9e8f179195c9a786",
+    "job": {
+      "job": "vivid-presentation-characters-mage",
+      "seconds": 22.52,
+      "log": ".cache/asset-check/logs/vivid-presentation-characters-mage.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "environment/hex_bioluminescent_grove": {
+    "source_sha256": "2332b5f91f7070a419d26e39278cc77c5d6e2f8ffc8f7cecf58c53bea8d247d2",
+    "image": "exports/previews/hex_bioluminescent_grove.png",
+    "sha256": "fc3491851824d643af66f4ccd3e1dbe657dfc02118795c63f9c84c6adfc4aee7",
+    "job": {
+      "job": "vivid-presentation-environment-hex_bioluminescent_grove",
+      "seconds": 83.98,
+      "log": ".cache/asset-check/logs/vivid-presentation-environment-hex_bioluminescent_grove.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "environment/hex_butterfly_glade": {
+    "source_sha256": "dd73ed3061d5340902dc0b25d860008a5bbe955294c124176fd77a9bf936e677",
+    "image": "exports/previews/hex_butterfly_glade.png",
+    "sha256": "cea9508104f30a3bd7612c3ab9f1be494f36bf5014bcf73ef36aaee1c9cfb7fa",
+    "job": {
+      "job": "vivid-presentation-environment-hex_butterfly_glade",
+      "seconds": 73.15,
+      "log": ".cache/asset-check/logs/vivid-presentation-environment-hex_butterfly_glade.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "environment/hex_crystal_grove": {
+    "source_sha256": "a3f841bcc3b7fab3a74eaa814ef2eec845b5e81bad779fe7ab6625a8e8f0e3a6",
+    "image": "exports/previews/hex_crystal_grove.png",
+    "sha256": "d83ba002fd5ff380c61cb91c8a1c9ef018776a54993a0cc64d548642207464d3",
+    "job": {
+      "job": "vivid-presentation-environment-hex_crystal_grove",
+      "seconds": 77.8,
+      "log": ".cache/asset-check/logs/vivid-presentation-environment-hex_crystal_grove.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "environment/hex_crystal_shrine": {
+    "source_sha256": "5a92dff03cf2babfeee015faab4a3ba2b8dc4f5ec7da0138ae60a6209b3b9ab2",
+    "image": "exports/previews/hex_crystal_shrine.png",
+    "sha256": "2bcb1d6814112bd282554f978f9297a1b0a3d4b72527fc7a50ad4e4ba3a439e8",
+    "job": {
+      "job": "vivid-presentation-environment-hex_crystal_shrine",
+      "seconds": 76.04,
+      "log": ".cache/asset-check/logs/vivid-presentation-environment-hex_crystal_shrine.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "environment/hex_dream_menagerie": {
+    "source_sha256": "a855b675e38c2d91c214b6d2c3c1ffe8920c9bb7f42d424a2d5fcaf2320e1e83",
+    "image": "exports/previews/hex_dream_menagerie.png",
+    "sha256": "9277bdcdc00caee63638d5714ddea8ac491f125381ce6a33a162707ea6d5555c",
+    "job": {
+      "job": "vivid-presentation-environment-hex_dream_menagerie",
+      "seconds": 70.0,
+      "log": ".cache/asset-check/logs/vivid-presentation-environment-hex_dream_menagerie.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "environment/hex_glowing_mushrooms": {
+    "source_sha256": "961895137c84ed31325962987d60d4feb06c62ac2725b26c27b0c8bfbe744a6e",
+    "image": "exports/previews/hex_glowing_mushrooms.png",
+    "sha256": "fd6a5c3087a6e35cd994c15949f5998409f5f5b21ac9cd660efa4cefa3f51a94",
+    "job": {
+      "job": "vivid-presentation-environment-hex_glowing_mushrooms",
+      "seconds": 78.18,
+      "log": ".cache/asset-check/logs/vivid-presentation-environment-hex_glowing_mushrooms.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "environment/hex_hollow_watchers": {
+    "source_sha256": "7b734f3653634bbd359602e0a5ffdfad773fa93f7926002be9647879081a4fdd",
+    "image": "exports/previews/hex_hollow_watchers.png",
+    "sha256": "720ec2eb6ccb9cbfd1a268397c4050ff61966a0845fd1fdc86a9e6dfc2751855",
+    "job": {
+      "job": "vivid-presentation-environment-hex_hollow_watchers",
+      "seconds": 74.25,
+      "log": ".cache/asset-check/logs/vivid-presentation-environment-hex_hollow_watchers.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "environment/hex_lantern_bridge": {
+    "source_sha256": "fedd1991e0e027f71aaf0f4181a2450c99d148759a2698a3c210f2c04f97b6b2",
+    "image": "exports/previews/hex_lantern_bridge.png",
+    "sha256": "df411cb14aa7725d854c693e656b047fd359e876e2ef579c93ad899f9feb6311",
+    "job": {
+      "job": "vivid-presentation-environment-hex_lantern_bridge",
+      "seconds": 80.98,
+      "log": ".cache/asset-check/logs/vivid-presentation-environment-hex_lantern_bridge.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "environment/hex_mystical_grove": {
+    "source_sha256": "54560815be65e73dd0cc47b39455ec6b475f599691ad2975ccc167d6f655044c",
+    "image": "exports/previews/hex_mystical_grove.png",
+    "sha256": "8ec629f51b2152d32e6c43dcec5465cf688db33e7593d6482acd89da54f048f7",
+    "job": {
+      "job": "vivid-presentation-environment-hex_mystical_grove",
+      "seconds": 78.59,
+      "log": ".cache/asset-check/logs/vivid-presentation-environment-hex_mystical_grove.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "environment/hex_rune_shrine": {
+    "source_sha256": "ec95a57611c8acdc58a885c0937d4e428cdb1db73605e2936c1183b8afdcaa82",
+    "image": "exports/previews/hex_rune_shrine.png",
+    "sha256": "4d710207682d77f4ab669e1e194e079b43826f7f59fa493369e1f83e7df11a28",
+    "job": {
+      "job": "vivid-presentation-environment-hex_rune_shrine",
+      "seconds": 82.09,
+      "log": ".cache/asset-check/logs/vivid-presentation-environment-hex_rune_shrine.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  },
+  "environment/hex_woodland_bridge": {
+    "source_sha256": "6cafde58a0de06606c020183c25878f921c31af094d839e85396a45ca2a7bb0c",
+    "image": "exports/previews/hex_woodland_bridge.png",
+    "sha256": "75ca34b4e4e132ca15f2850ac34661d9e4add7584478438abad0b571c7f52adf",
+    "job": {
+      "job": "vivid-presentation-environment-hex_woodland_bridge",
+      "seconds": 61.95,
+      "log": ".cache/asset-check/logs/vivid-presentation-environment-hex_woodland_bridge.log"
+    },
+    "stage": "palette checkpoint, not motion evidence",
+    "source_revision": "ac41b74"
+  }
+}
