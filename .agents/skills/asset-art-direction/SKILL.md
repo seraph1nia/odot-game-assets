@@ -16,8 +16,9 @@ rule owners: stronger individual role caricature, vivid coherent material hues,
 soft related surface variation and substantially layered planted growth. The
 rejected muted/grey palette is historical, not an authoring target. Use original
 village/unit/forest images for color inspiration and actual matched renders for
-acceptance evidence. Distinguish authored adaptation from illustrative fidelity. [The overhaul inventory](../../../docs/whisperwood/README.md)
-tracks actual outputs; guidance installation is not completion.
+acceptance evidence. Distinguish authored adaptation from illustrative fidelity.
+[The color-recovery record](../../../docs/vivid-palette/README.md) tracks current
+outputs and links historical overhaul evidence; guidance installation is not completion.
 
 Resolve the selected canonical asset ID and intended picture through the
 [reference index](references/index.md). Read the relevant family and procedure

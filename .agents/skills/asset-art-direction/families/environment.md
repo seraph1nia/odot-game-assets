@@ -13,8 +13,9 @@ leaf support; F3: rune monolith/steps; F4/F6: dominant luminous mushroom with
 varied smaller caps; F5: stone arch/lantern stream; F7: curved wooden bridge;
 F8: central floating crystal/stone ring and open approach.
 Under [W0](../references/index.md#whisperwood), increase rooted undergrowth,
-layered moss and creeping leaves at rocks, tree feet and bridge/shrine supports;
-mute colored bodies and retain smaller luminous undersides/runes. Protect each
+layered moss and creeping leaves at rocks, tree feet and bridge/shrine supports.
+Body colors follow [D03](../design/palette.md#d03); retain smaller luminous
+undersides/runes. Protect each
 focal mass/negative space, rather than making every tile a uniformly dense
 collection of glowing components. Static fauna receive quieter painted fur/wing
 and role-appropriate anatomy/detail, not building ornaments. Flat detailed-ground
