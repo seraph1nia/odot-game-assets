@@ -1,15 +1,21 @@
-"""Isolated cache/transition fixtures; creates only temporary maps and materials."""
+"""Isolated cache, transition and saved-source material preservation fixtures."""
+from contextlib import contextmanager
+import json
 import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import bpy
 import numpy as np
 
+from tools.asset_pack import ai_texture_blender as textures
 from tools.asset_pack.ai_texture_blender import managed_image, ground_color
+from tools.asset_pack.verify_ambient_blender import capture
+import geometry
 
 
 class TextureFixtures(unittest.TestCase):
@@ -51,7 +57,138 @@ class TextureFixtures(unittest.TestCase):
         self.assertLess(floor[0, 0, 0], floor[64, 64, 0])
 
 
+class ApplyPreservation(unittest.TestCase):
+    def write_input(self, directory, family, value):
+        directory.mkdir(parents=True, exist_ok=True)
+        image = textures.painted_finish.image_map(
+            family + '_basecolor', np.full((32, 32, 3), value, dtype=np.float32), directory)
+        bpy.data.images.remove(image)
+
+    @contextmanager
+    def source(self, asset_id, material_name, *, linked=True):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            cache = root / '.cache/ai-textures'
+            with patch.multiple(textures, ROOT=root, CACHE=cache):
+                bpy.ops.wm.read_factory_settings(use_empty=True)
+                collection = bpy.data.collections.new(asset_id.split('/')[-1])
+                bpy.context.scene.collection.children.link(collection)
+                mesh = bpy.data.meshes.new('authored_mesh')
+                mesh.from_pydata([(0, 0, 0), (1, 0, 0), (0, 1, 0)], [], [(0, 1, 2)])
+                obj = bpy.data.objects.new('authored_object', mesh)
+                collection.objects.link(obj)
+                mat = geometry.material(material_name, (.2, .3, .4))
+                mesh.materials.append(mat)
+                original = textures.painted_finish.image_map(
+                    'authored_color', np.full((32, 32, 3), .2, dtype=np.float32), root)
+                original.use_fake_user = True
+                if linked:
+                    node = mat.node_tree.nodes.new('ShaderNodeTexImage')
+                    node.image = original
+                    shader = next(n for n in mat.node_tree.nodes if n.type == 'BSDF_PRINCIPLED')
+                    mat.node_tree.links.new(node.outputs['Color'], shader.inputs['Base Color'])
+                building = asset_id == 'buildings/archery_range'
+                folder = 'buildings/textures/ai_archery' if building else 'environment/textures/ai_ground'
+                family = textures.ARCHERY[material_name][0] if building else material_name.removeprefix('floor_')
+                inputs = root / 'sources' / folder / 'input/textures'
+                self.write_input(inputs, family, .5)
+                (inputs.parent.parent / 'managed').mkdir()
+                path = root / 'sources' / (asset_id + '.blend')
+                path.parent.mkdir(parents=True, exist_ok=True)
+                bpy.ops.wm.save_as_mainfile(filepath=str(path))
+                bpy.ops.wm.open_mainfile(filepath=str(path))
+                bpy.context.view_layer.update()
+                audit = cache / 'audit' / (asset_id.replace('/', '_') + '.json')
+                audit.parent.mkdir(parents=True)
+                audit.write_text(json.dumps({'id': asset_id, 'source_sha256': textures.sha(path),
+                                             'signature': textures.signature()}))
+                try:
+                    yield root, path, inputs, family
+                finally:
+                    bpy.ops.wm.read_factory_settings(use_empty=True)
+
+    def test_baseline_reapply_committed_receipt_and_texture_update(self):
+        cases = [('environment/hex_ground_moss', 'floor_' + family, True)
+                 for family in ('moss', 'grass', 'dirt', 'leaf_litter', 'pine_duff', 'foundation', 'path', 'river')]
+        cases += [('buildings/archery_range', 'wood', True),
+                  ('buildings/archery_range', 'blue', False)]
+        for aid, material, linked in cases:
+            with self.subTest(material=material), self.source(aid, material, linked=linked) as (root, path, inputs, family):
+                textures.apply(aid)
+                first = capture()
+                receipt = textures.CACHE / 'applied' / (aid.replace('/', '_') + '.json')
+                self.assertEqual(json.loads(receipt.read_text())['source_sha256'], textures.sha(path))
+                textures.apply(aid)
+                self.assertEqual(capture(), first)
+                validation = root / 'docs/ai-textures/validation.json'
+                validation.parent.mkdir(parents=True)
+                validation.write_text(json.dumps({'assets': {aid: {'source_after_sha256': textures.sha(path)}}}))
+                receipt.unlink()
+                textures.apply(aid)
+                self.assertEqual(capture(), first)
+                self.write_input(inputs, family, .8)
+                textures.apply(aid)
+                updated = capture()
+                self.assertEqual(updated['structure'], first['structure'])
+                self.assertEqual(updated['images']['authored_color'], first['images']['authored_color'])
+                self.assertNotEqual(updated['materials'][material], first['materials'][material])
+                textures.apply(aid)
+                self.assertEqual(capture(), updated)
+
+    def test_manual_bindings_metadata_and_packed_edits_are_rejected_before_writes(self):
+        cases = [('environment/hex_ground_moss', 'floor_moss', True),
+                 ('buildings/archery_range', 'wood', True),
+                 ('buildings/archery_range', 'blue', False)]
+        for aid, material, linked in cases:
+            for edit in ('binding', 'original_metadata', 'original_pixels', 'managed_pixels'):
+                with self.subTest(material=material, edit=edit), self.source(aid, material, linked=linked) as (root, path, _, _):
+                    textures.apply(aid)
+                    applied = capture()
+                    edited_image = None
+                    mat = bpy.data.materials[material]
+                    shader = next(n for n in mat.node_tree.nodes if n.type == 'BSDF_PRINCIPLED')
+                    node = shader.inputs['Base Color'].links[0].from_node
+                    if edit == 'binding':
+                        manual = textures.painted_finish.image_map(
+                            'manual_color', np.full((32, 32, 3), .7, dtype=np.float32), root)
+                        node.image = manual
+                    elif edit == 'original_metadata':
+                        mat['ai_original_color_image'] = 'manual_original'
+                    else:
+                        image = bpy.data.images['authored_color'] if edit == 'original_pixels' else node.image
+                        image.pixels[0] = .9
+                        image.pack()
+                        edited_image = image.name
+                    bpy.ops.wm.save_as_mainfile(filepath=str(path))
+                    bpy.ops.wm.open_mainfile(filepath=str(path))
+                    authored = capture()
+                    if edited_image:
+                        self.assertNotEqual(authored['images'][edited_image], applied['images'][edited_image])
+                    else:
+                        self.assertNotEqual(authored['materials'][material], applied['materials'][material])
+                    saved = path.read_bytes()
+                    companions = {p: p.read_bytes() for p in root.rglob('*.png')}
+                    receipt = textures.CACHE / 'applied' / (aid.replace('/', '_') + '.json')
+                    last_applied = receipt.read_bytes()
+                    for committed in (False, True):
+                        if committed:
+                            validation = root / 'docs/ai-textures/validation.json'
+                            validation.parent.mkdir(parents=True)
+                            validation.write_text(json.dumps({'assets': {aid: {
+                                'source_after_sha256': json.loads(last_applied)['source_sha256']}}}))
+                            receipt.unlink()
+                        with self.assertRaisesRegex(AssertionError, 'refusing to overwrite manual edits'):
+                            textures.apply(aid)
+                        self.assertEqual(path.read_bytes(), saved)
+                        self.assertEqual(capture(), authored)
+                        self.assertEqual({p: p.read_bytes() for p in root.rglob('*.png')}, companions)
+                        if not committed:
+                            self.assertEqual(receipt.read_bytes(), last_applied)
+                        else:
+                            self.assertFalse(receipt.exists())
+
+
 if __name__ == '__main__':
-    suite = unittest.defaultTestLoader.loadTestsFromTestCase(TextureFixtures)
+    suite = unittest.defaultTestLoader.loadTestsFromModule(sys.modules[__name__])
     if not unittest.TextTestRunner(verbosity=2).run(suite).wasSuccessful():
         raise SystemExit(1)

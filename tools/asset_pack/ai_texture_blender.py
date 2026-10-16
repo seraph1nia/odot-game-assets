@@ -229,6 +229,16 @@ def bind_archery(mat, source_path):
 def apply(asset_id):
     path = ROOT / 'sources' / (asset_id + '.blend')
     baseline = json.loads((CACHE / 'audit' / (asset_id.replace('/', '_') + '.json')).read_text())
+    if sha(path) != baseline['source_sha256']:
+        receipt = CACHE / 'applied' / (asset_id.replace('/', '_') + '.json')
+        if receipt.is_file():
+            applied = json.loads(receipt.read_text())
+            assert applied['id'] == asset_id, 'Applied receipt asset mismatch'
+            expected = applied['source_sha256']
+        else:
+            applied = json.loads((ROOT / 'docs/ai-textures/validation.json').read_text())['assets'][asset_id]
+            expected = applied['source_after_sha256']
+        assert sha(path) == expected, 'Source changed since audited baseline or last application; refusing to overwrite manual edits'
     bpy.ops.wm.open_mainfile(filepath=str(path))
     bpy.context.view_layer.update()
     assert json.loads(json.dumps(signature())) == baseline['signature'], 'Source geometry/UV/slots/physical state changed since audit'

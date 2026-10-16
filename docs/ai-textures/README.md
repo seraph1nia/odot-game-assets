@@ -9,11 +9,17 @@ The existing catalog still loads the changed canonical exports normally:
 library's dark olive/parchment colors and serif hierarchy rather than introducing
 another catalog or review service.
 
-**Status:** implemented asset-side POC; **actual Godot/game/GPU acceptance remains
-pending** with the separate game integration worker, after an immutable asset
-revision lands on assets `main`. CPU Blender renders do not prove water-motion
-appearance, game-camera improvement, GPU timings or production art approval.
-No game checkout was modified or used as a private import path.
+**Status: partial assets-first milestone, not completion of the end-to-end POC.**
+The authorized delivery order is to land this asset PR on assets `main`, then ship
+the already-filed dependent game work **`odot-ai-textures-game`**. That work must
+update the explicit immutable asset pin and hash/derived manifest metadata, then
+perform actual-GPU acceptance in settlement, forest, river and path views,
+including placement, tile connections, water motion and asset loading. Include
+Archery Range settlement acceptance if its material stage is visually acceptable.
+**Do not declare the overall request complete until that game work lands with
+acceptance evidence.** CPU Blender renders do not prove game-camera improvement,
+GPU timings or production art approval. No game checkout was modified or used as
+a private import path.
 
 ## Scope and safety
 
@@ -236,8 +242,15 @@ current sources. `audit-baseline` reads the preserved baseline source copies dir
 `python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label ai-audit audit-baseline`.
 Both audit routes require the recorded original source hashes and refuse to overwrite
 the original audit with already changed source bytes.
-`apply` requires the original geometry/physical signature and retains the original
-color image for deterministic reapplication. `idempotence` validates a second apply.
+Before opening or mutating the source, `apply` requires its exact SHA-256 to match
+the audited baseline or last-applied receipt. The local `.cache/ai-textures/applied/`
+receipt takes precedence; without it, the committed `validation.json` source-after
+hash is the delivered receipt. Unrecognized source changes, including later manual
+color bindings, original-image metadata and packed-image edits, are refused without
+saving. Preserve those edits separately rather than relabeling them as applied.
+The original geometry/physical signature is also required, and the original color
+image is retained for deterministic reapplication. Recognized sources can accept
+updated input textures; `idempotence` validates an unchanged second apply.
 Every application saves the isolated source and can change its file hash; rerun
 selected export, audit and comparisons afterwards. Do not relabel stale renders.
 The report command uses installed ImageMagick only to label/assemble real renders;
@@ -254,10 +267,15 @@ the game. Recheck each file and every extracted embedded-image dependency with t
 existing game import tools; update all revision/hash/derived metadata together.
 Never copy private-branch models into the game while retaining stale pin metadata.
 
-The separate game worker must test its actual settlement, forest, path and connected
-river views, water motion, placement, loading and Archery Range. Existing old recessed
-river versus shallow surface-stream incompatibility remains; this POC adds no new
-transition and changes no renderer/gameplay contract. No release/deployment is requested.
+The already-filed dependent game ship **`odot-ai-textures-game`** owns the pending
+pin/manifest update and actual-GPU acceptance in settlement, forest, path and
+connected river views, including tile connections, water motion, placement and
+loading. It must also test Archery Range in the settlement if the material stage
+is visually acceptable. This assets-first PR is only a partial milestone: the
+overall end-to-end request remains incomplete until that game work lands with
+acceptance evidence. Existing old recessed river versus shallow surface-stream
+incompatibility remains; this POC adds no new transition and changes no
+renderer/gameplay contract. No release/deployment is requested.
 
 For rollback, revert this asset change as one coherent Git change (sources, prepared
 maps, exports, manifest/validation and successor receipts), retaining any later user

@@ -92,7 +92,7 @@
   },
   "game_gpu_acceptance": {
     "status": "PENDING",
-    "reason": "Separate game worker must import exact validated exports from landed assets-main, update the pinned/hash/derived manifest consistently and test actual views/water motion on the authorized renderer."
+    "reason": "Partial assets-first milestone. After this asset PR lands on assets main, dependent game ship odot-ai-textures-game must import the exact validated exports, update the explicit immutable pin and hash/derived manifest metadata, and complete actual-GPU acceptance in settlement, forest, river and path views, including placement, tile connections, water motion and asset loading; include Archery Range settlement acceptance if its material stage is visually acceptable. Do not declare the overall request complete until that game work lands with acceptance evidence."
   },
   "retained_failed_diagnostics": [
     ".cache/ai-textures/check.log",

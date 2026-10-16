@@ -4,7 +4,7 @@
   "contentIdentity": "702a679862bb25a1e4f7152b2ea97190ba1c3b14b467398dbaa71af725011635",
   "baselineRevision": "133c7cdeb368cada408d1c95c9414e08488371a9",
   "revisionRule": "Import only the immutable assets-main commit containing this exact manifest after the asset PR merges. Resolve that full commit SHA, verify it is an ancestor of origin/main, and pin it explicitly in the game manifest. This content manifest is not permission to import a private branch.",
-  "gameAcceptance": "Pending separate game-worker import and graphical acceptance; no actual-game improvement claim yet.",
+  "gameAcceptance": "Partial assets-first milestone. After this asset PR lands on assets main, dependent game ship odot-ai-textures-game must update the explicit immutable pin and hash/derived manifest metadata, then complete actual-GPU acceptance in settlement, forest, river and path views, including placement, tile connections, water motion and asset loading; include Archery Range settlement acceptance if its material stage is visually acceptable. Do not declare the overall request complete until that game work lands with acceptance evidence. No actual-game improvement claim yet.",
   "files": [
     {
       "id": "environment/hex_ground_moss",
