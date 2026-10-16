@@ -156,16 +156,29 @@ def main():
                      for slot in obj.material_slots if slot.material}
         source_pixels = {}
         for mat in materials:
-            assert set(source_channels(mat)) == {'baseColorTexture', 'metallicRoughnessTexture', 'normalTexture'}
-            for node in mat.node_tree.nodes:
-                if node.type != 'TEX_IMAGE':
+            # Localized ambient motion added a separate interior shimmer. Its
+            # two-channel contract is distinct from the three-channel ribbon.
+            shimmer = mat.name == 'water_ambient_shimmer'
+            expected = {'baseColorTexture', 'metallicRoughnessTexture'}
+            if not shimmer:
+                expected.add('normalTexture')
+            assert set(source_channels(mat)) == expected
+            shader = next(node for node in mat.node_tree.nodes if node.type == 'BSDF_PRINCIPLED')
+            for socket, field in (('Base Color', 'color'), ('Roughness', 'roughness'), ('Normal', 'normal')):
+                if shimmer and field == 'normal':
+                    assert not shader.inputs[socket].is_linked
                     continue
-                expected_space = 'sRGB' if node.image.name.endswith('base_color') else 'Non-Color'
+                node = shader.inputs[socket].links[0].from_node
+                if field == 'normal':
+                    assert node.type == 'NORMAL_MAP' and node.space == 'TANGENT'
+                    node = node.inputs['Color'].links[0].from_node
+                assert node.type == 'TEX_IMAGE'
+                expected_space = 'sRGB' if field == 'color' else 'Non-Color'
                 assert node.image.colorspace_settings.name == expected_space
-                field = 'color' if node.image.name.endswith('base_color') else 'normal' if node.image.name.endswith('normal') else 'roughness'
                 source_pixels[(mat.name, field)] = np.array(node.image.pixels[:]).reshape(-1, 4)[:, :3]
-                # No variation at either endpoint, and symmetric cross-profile.
-                if source['extras']['ground_layer'] == 'overlay':
+                # No variation at either connector endpoint, symmetric cross-profile.
+                # The interior moving accent does not touch any connector.
+                if source['extras']['ground_layer'] == 'overlay' and not shimmer:
                     pixels = np.array(node.image.pixels[:]).reshape(node.image.size[1], node.image.size[0], 4)
                     assert np.max(abs(pixels[0]-pixels[-1])) < .009, (job['id'], node.image.name, 'endpoint texture seam')
                     assert np.max(abs(pixels[0]-pixels[0, ::-1])) < .009
@@ -183,6 +196,10 @@ def main():
             shader = next(node for node in mat.node_tree.nodes if node.type == 'BSDF_PRINCIPLED')
             source_name = next(name for name, field in source_pixels if mat.name == name or mat.name.startswith(name+'.'))
             for socket, field in (('Base Color', 'color'), ('Normal', 'normal'), ('Roughness', 'roughness')):
+                if (source_name, field) not in source_pixels:
+                    assert source_name == 'water_ambient_shimmer' and field == 'normal'
+                    assert not shader.inputs[socket].is_linked
+                    continue
                 node = shader.inputs[socket].links[0].from_node
                 while node.type != 'TEX_IMAGE':
                     linked = next(inp for inp in node.inputs if inp.links)
@@ -245,7 +262,9 @@ def main():
               'limitations': ['Surface-stream overlays do not match old recessed river elevation.',
                               'Normal depth tests and occupant contact placement required.',
                               'Counts are not native GPU performance; RGBA8 excludes mips.']}
-    path = ROOT/'docs/detailed-ground/verification.json'
+    # Keep landed evidence immutable when inspecting a later material revision.
+    path = ROOT / (sys.argv[sys.argv.index('--output')+1] if '--output' in sys.argv
+                   else 'docs/detailed-ground/verification.json')
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(result, indent=2)+'\n')
     print('All 15 pairs + six ends per family, source/GLB seams and 40 stacks passed')

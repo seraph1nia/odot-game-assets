@@ -11,6 +11,7 @@ invocable skills. Pi discovers project `.agents/skills/` entries on demand;
 `/skill:asset-art-direction` explicitly loads this entry. Other clients' discovery
 must be verified separately.
 
+- [AI texture POC: matched GLB gallery, preserved sources, resource costs and main-only game handoff](docs/ai-textures/README.md)
 - [Color recovery: current direction, inventory and actual comparisons](docs/vivid-palette/README.md)
 - [Localized building/water loops: 25 actual exported clips, coverage and playback](docs/ambient-motion/README.md)
 - [Runtime exports: consolidated building scenes, matched renders, all25 fidelity/loops and headless costs](docs/runtime-optimization/README.md)

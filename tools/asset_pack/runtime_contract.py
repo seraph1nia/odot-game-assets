@@ -2,8 +2,6 @@
 import json
 from pathlib import Path
 
-from tools.asset_pack.ambient_contract import sha
-
 
 def export_chain(root, aid, landed_sha):
     """Require exact landed identity and current hash-bound independent validation.
@@ -12,7 +10,8 @@ def export_chain(root, aid, landed_sha):
     runtime renders. A changed successor is accepted only through its own checks.
     """
     root = Path(root)
-    current = sha(root/'exports'/(aid+'.glb'))
+    from tools.asset_pack.ai_texture_contract import predecessor, source_predecessor
+    current = predecessor(root, aid, 'exports')
     if current == landed_sha:
         return None
     baseline = json.loads((root/'docs/runtime-optimization/baseline.json').read_text())
@@ -21,7 +20,7 @@ def export_chain(root, aid, landed_sha):
     assert original['facts']['version'] == landed_sha, aid + ': landed export differs'
     assert result['glb_sha256'] == current, aid + ': stale runtime validation'
     source = original['job']['source']
-    assert sha(root/source) == baseline['sources'][source] == result['source_sha256'], aid + ': source changed'
+    assert source_predecessor(root, source) == baseline['sources'][source] == result['source_sha256'], aid + ': source changed'
     surfaces = result['serialized_surfaces']
     assert surfaces['one_to_one_transformed_triangle_attributes_equal'] and surfaces['zero_area_triangles_not_filtered'], aid
     for name in ('source_to_raw_buffers', 'source_to_exported_buffers', 'reimport'):

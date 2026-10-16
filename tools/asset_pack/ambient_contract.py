@@ -46,7 +46,9 @@ def receipts(root):
 
 def source_chain(root, path, palette_sha):
     """Require exact palette -> localized-motion -> current-byte continuity."""
-    current = sha(Path(root) / path)
+    from tools.asset_pack.ai_texture_contract import predecessor
+    aid = Path(path).relative_to('sources').with_suffix('').as_posix()
+    current = predecessor(root, aid, 'sources')
     if current == palette_sha:
         return None
     record = receipts(root)[path]

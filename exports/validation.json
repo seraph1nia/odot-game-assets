@@ -294,8 +294,8 @@
     "asset_id": "buildings/archery_range",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "816c124d57621a7f635548abbc2168e9c5950789bb20cc9a27e176b41a11341b",
-    "glb_sha256": "c6bedd11449586116abbdc74405f742f668be7fa249a4bb95116ffb55288595c",
+    "source_sha256": "12df620058ac47b0e9da9390d4d3e6c643e7006ab558c8598fc4914795529e3c",
+    "glb_sha256": "b10479a00e15116e1d3b09d017cf55c0dc8d1570e78064c5033aea6176a8d231",
     "shared_kit_instances": {
       "arrow": 12,
       "lantern": 1,
@@ -906,104 +906,104 @@
     "asset_id": "environment/hex_ground_dirt",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "e58ec4f12651a09d6d5e7b6d287b0c8e16fcdb23df09ae71136fd2d0e10cfed6",
-    "glb_sha256": "1047b6db6b37d989c1e602fef8f61fd11379b801bdcd7d59a517df2932f01fc2"
+    "source_sha256": "232e69b60b1d7b546d1d92fe3f3eba7364547b6faf65d36f3ef00610d19a9bd1",
+    "glb_sha256": "6d8a2a895b8558cbe8a4d7b2da79b131eaf554eee562297232996f129e09fa33"
   },
   {
     "asset": "environment/hex_ground_grass",
     "asset_id": "environment/hex_ground_grass",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "f06ba20e2ef318b5e7ad5f818e99e5f551d7ef08edb1015622378d92c42539e1",
-    "glb_sha256": "348b6b2fbeab5bed0dad3389ed8eae881473a51e89f42fa4a5e2df21979a6584"
+    "source_sha256": "d9560771a098d58c54ac7d6f450fc870e3ea06d3ce48dfeb049140e6284f8ab6",
+    "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
   },
   {
     "asset": "environment/hex_ground_leaf_litter",
     "asset_id": "environment/hex_ground_leaf_litter",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "e1fdfc3811ae8e44c006ec5f75a8560657cc01fa4b56b8bfdae8b7eb5c1ca0b7",
-    "glb_sha256": "cd799e48f11c755e7944432de6ab0cb0041794a7ca54738c0e435c1fba6e50d5"
+    "source_sha256": "56f113493aba8348aaea2c61477900cd4d5259e3152c6a01f3cf0269dbfd19f7",
+    "glb_sha256": "b0aff9370b43e97cc5a376cc6e390e8a9c510fc4a258f912cfa9245723aaa16f"
   },
   {
     "asset": "environment/hex_ground_moss",
     "asset_id": "environment/hex_ground_moss",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "ff24c6bfa63c460294b37f979ebc5ab5af83a06518b6019c4f5bbd4a536f713e",
-    "glb_sha256": "b9640f362c4f5ac9993eb291955732214f876e6fbe824d75b8ac32b06fbbed3a"
+    "source_sha256": "53d351814394334c35febce99fc1ccec0f058e802671038611f4310fbc0278e3",
+    "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
   },
   {
     "asset": "environment/hex_ground_pine_duff",
     "asset_id": "environment/hex_ground_pine_duff",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "2ab9df3da6e77b57e1944d122675bbffe7a705700d37713206f64a462c49a002",
-    "glb_sha256": "70c8d0bc648be7585df77e9cfd5eb601c49d34bb13973f389a407e88ce57eefd"
+    "source_sha256": "1f04d9f940d74480fd411633e5d9620f4307d82a66f72c7d6cb3625094ac7a25",
+    "glb_sha256": "fcd251444db55664911c4d5b4e3be70486d24030b8417f53b6bd02ff163f885c"
   },
   {
     "asset": "environment/hex_path_end",
     "asset_id": "environment/hex_path_end",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "39924aaf68249b8f99c8f1447d63dd5740470e44657bf87c761dab407793414f",
-    "glb_sha256": "962194b63cc76fc33d8f123a37fc84642e78c7f1c15120940cb8c5fd3461f842"
+    "source_sha256": "dc8eeefd6691222d936e38c2aba6956ad2293f94a0e791138556f0ecbf82a6de",
+    "glb_sha256": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d"
   },
   {
     "asset": "environment/hex_path_straight",
     "asset_id": "environment/hex_path_straight",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "2a4547e352d6d3ced2c0304ec632955715114f961a7648fd2970bd1b3a0825cf",
-    "glb_sha256": "0691ac4723ea9a666417e76bf6216707c305a7bc36fef98f90e50d8e1c70d941"
+    "source_sha256": "ab6c908440e275abc5e7dbf56a000718a48b90c4fb89ab91a008736d4309df95",
+    "glb_sha256": "f9f341dc4f86854c3376b9ae01c7d4890519ac8ff9ca2c670e29a4666261c35a"
   },
   {
     "asset": "environment/hex_path_turn_120",
     "asset_id": "environment/hex_path_turn_120",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "c8a93365afe6941eaf48be4fc208c1f0fbfdc8b45f06bc925e1769febcc8dec3",
-    "glb_sha256": "9a8b51697b877d265c07ab1234fa2b74aede06e037f9adb1e39344c73de1f902"
+    "source_sha256": "709e078630f4a04539aa36df1cc02bc33c6eef50d9b51f5cbbf68ce3fd22b33e",
+    "glb_sha256": "5b2b385c1ea35597c13ceacdf327c002c005b849f0df1f40f41db91c6491e149"
   },
   {
     "asset": "environment/hex_path_turn_60",
     "asset_id": "environment/hex_path_turn_60",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "c4805679698823f56f1f5fe71b549924da4ace6a53fceb8af0f37f3a9ad588d9",
-    "glb_sha256": "95f1ce4d80385c1ab74edb29979d8e73fac58928dd3a677b2f8a98497f7c4b01"
+    "source_sha256": "9dfcb3f98d8a46c0a6a338c07f145dd425367a29ba47cd09dd423deed863799d",
+    "glb_sha256": "0f7a5c775d34f49029353e98dbe2081bd9492d3467a1fe3076d10c193f229642"
   },
   {
     "asset": "environment/hex_river_overlay_end",
     "asset_id": "environment/hex_river_overlay_end",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "1244857e5c62435025e240a41b9a2749652cc328c0d63c1e056c54a5ca5d4294",
-    "glb_sha256": "533c50274c29a6febd01530dfa8a7bfcc60e923fbcb9458e2e6f27f851957731"
+    "source_sha256": "7ad3c67361296d5246e9b235a0ec30abd603cae7fea5f2a49030a531ec5d4426",
+    "glb_sha256": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c"
   },
   {
     "asset": "environment/hex_river_overlay_straight",
     "asset_id": "environment/hex_river_overlay_straight",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "db305a40e335cecf5a7cacc57f86b876f4b654815d5d0c25da429688a3e97749",
-    "glb_sha256": "9b5da586b925c1f5b69b8634ecd21facbe41b710142e6cbd60449ccf1b2c6e42"
+    "source_sha256": "157540a5322dc64c9a9560f33af71b0bf9a07c8c3ea01e5779e5cb821c0d7b47",
+    "glb_sha256": "6ef4464cd942b99222db78d166eaf0097c6207a3f2f7b55cb298066346f74b54"
   },
   {
     "asset": "environment/hex_river_overlay_turn_120",
     "asset_id": "environment/hex_river_overlay_turn_120",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "fb8cb2f0df5b2c95820a0c0786c25ee6f7fb87a7a3b2d204eb01b380221ae0aa",
-    "glb_sha256": "fbaf4cf17e18a49cf7143c24668da7069b9b6b150e14cd38f15a6424f95f0e40"
+    "source_sha256": "8ca2585491bd40f7fef9ad7018eff6b0ebfc838e4e6d651a2a607630559d3c4b",
+    "glb_sha256": "7bdd54af841f3794e1578165c1f2e174f7f86eeecb497ccf506ff845ef058a70"
   },
   {
     "asset": "environment/hex_river_overlay_turn_60",
     "asset_id": "environment/hex_river_overlay_turn_60",
     "round_trip_max_bounds_error": 0.0,
     "geometry_finite": true,
-    "source_sha256": "e276306f31f5bbe4cfa049d0847bac0a6f1b1c59803d787eb12dc9ee4c2aab88",
-    "glb_sha256": "fe554f74f112b9588409ef7daf65a3e3ee65f71ff735307598c05b8c71a2f58e"
+    "source_sha256": "5c1d31fd0d88f0fb07722f64783cf028ff36418ff87b576d99dc07363ce7fcaf",
+    "glb_sha256": "491a64fdef47a1bc1d889c6609f42b5a73d961c8563cd99908873208614125d1"
   },
   {
     "asset": "environment/hex_meadow_building",

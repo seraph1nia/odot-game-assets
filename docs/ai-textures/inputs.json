@@ -1,0 +1,398 @@
+[
+  {
+    "archive": "odot_ground_tiles_poc.zip",
+    "sha256": "480daa26bab573ac7bf422933ed5089389192586970de8c642dc3844c337c0ae",
+    "bytes": 14475044,
+    "unpacked_bytes": 14617775,
+    "files": [
+      {
+        "path": "odot_ground_tiles_poc/asset_recipe.json",
+        "bytes": 5337,
+        "sha256": "5d22b0915488cfb63a7cf089196fc0d498f831256c07f033232d4d106b7dd0ef"
+      },
+      {
+        "path": "odot_ground_tiles_poc/README.md",
+        "bytes": 2071,
+        "sha256": "5f91d46adcd2fb4e441bdb974f95c7ec8619f2408ba3145a5631563548c5500b"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/grass_normal.png",
+        "bytes": 111640,
+        "sha256": "56101b7575d971418afcab66f224f5660d965678f2ba86012c6ed70fc1374e34"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/leaf_litter_roughness.png",
+        "bytes": 137590,
+        "sha256": "3a328e5bcae378a3c2aa41187958f9b31eb324a632b83418a63a7dd3bc33ac00"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/moss_basecolor.png",
+        "bytes": 892931,
+        "sha256": "c1fc2f4ff9b9681102aa3f270e73117b5b4ace7d588236116b9f0f29be037f35"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/grass_basecolor.png",
+        "bytes": 884606,
+        "sha256": "7189bbe8c4e27589d0ea3eda4b23000a94b0901236c1f1b9d371660b96cc320f"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/foundation_roughness.png",
+        "bytes": 116949,
+        "sha256": "052d650c32a96c51ca5838bacc2a88b333142b7535736a7b280ce1dc5ff168f3"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/river_roughness.png",
+        "bytes": 2432,
+        "sha256": "c22757a21df4573fc6491ad6c4e21c1ed1dc5d492c5621226e0544c8015633f5"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/leaf_litter_normal.png",
+        "bytes": 99305,
+        "sha256": "ab5801d255bc4e29755d0f97f5cdb5c22a4e9cb2f2f778c7dfd218f9cd711513"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/river_normal.png",
+        "bytes": 158134,
+        "sha256": "ab4ec654665d94276bf6702291783b3093b10da04df10106cc6d5a1dbf571022"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/dirt_normal.png",
+        "bytes": 109831,
+        "sha256": "2c0500b242c7ca59639d1b24551b1092c22d3c2612cba9bb100b462a2c9107f8"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/river_basecolor.png",
+        "bytes": 805106,
+        "sha256": "3315fdeec9fd486b7bf4a5bee78e4e71958c11da140a59478e7a9f8d70875483"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/dirt_basecolor.png",
+        "bytes": 708533,
+        "sha256": "de69111f944e5dba3531a75b4cda404c25247e2f59f7d1976d78a87cd3841d24"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/foundation_basecolor.png",
+        "bytes": 726202,
+        "sha256": "2a7c0f59b63e91c86b5bb629249e44f50cdf89ab99d6d3a0e9419f2a4f661711"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/leaf_litter_basecolor.png",
+        "bytes": 802556,
+        "sha256": "ec2f67f711cb6d12158322de620a0409903784c2d4dabbd854a1b35b9393780a"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/foundation_normal.png",
+        "bytes": 132513,
+        "sha256": "16aa9e3c61e927d175504e952355fdafe5c0fcc6879c5023e7010b58bba7a4dd"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/grass_roughness.png",
+        "bytes": 150641,
+        "sha256": "6382096f95da6fd03d4a8f3c55984ccfc61b2b07710f0cce84ee8f9286fb1add"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/dirt_roughness.png",
+        "bytes": 118192,
+        "sha256": "80ad752872a069a480ca4712425abd7c4dbefd69729f1c7216070de03ca6b5b3"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/pine_duff_normal.png",
+        "bytes": 110642,
+        "sha256": "115a376935302d38f16073808465bafb8133a1f53558c42c560406328f842c28"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/pine_duff_roughness.png",
+        "bytes": 131301,
+        "sha256": "1640206293525b00c0b06a0618ac026dd2a9369acde2cc08bcbda65a1c874284"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/path_normal.png",
+        "bytes": 109637,
+        "sha256": "6b0252fd38eb8adfb76524118d90fe62d7a1278b5b2502dd8df99dcbb4621303"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/pine_duff_basecolor.png",
+        "bytes": 825548,
+        "sha256": "bdb6b59f9663bef16fae308fe2fc68bde613b815e684d33483d3f0a70c3770d1"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/moss_roughness.png",
+        "bytes": 152949,
+        "sha256": "45e42363060646eb6ba783221b1d32edd796abf6f3293137684b562eadd408e6"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/path_roughness.png",
+        "bytes": 122036,
+        "sha256": "df802941323597d4a373c27eb6c19c083286a5604eb0dbb0d9cef1c22fee8bc2"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/path_basecolor.png",
+        "bytes": 805004,
+        "sha256": "d3fe332f95f588d7d9b8dfdf77625d12ab83d03d510013adcc1cf1977cf2d3e0"
+      },
+      {
+        "path": "odot_ground_tiles_poc/textures/moss_normal.png",
+        "bytes": 123018,
+        "sha256": "9d58068c5914195d18980259335c467c250b63b66c14b9220517d0f5ec8a816a"
+      },
+      {
+        "path": "odot_ground_tiles_poc/source_sheets/a_clean_professional_game_asset_texture_atlas_m.png",
+        "bytes": 2761204,
+        "sha256": "2e05f2ce8820f68cf981e286453909e4b8da94fe15f4853f728c329b12102d34"
+      },
+      {
+        "path": "odot_ground_tiles_poc/source_sheets/a_clean_high_resolution_game_art_style_texture_a.png",
+        "bytes": 2614280,
+        "sha256": "0c9ad733403fb9b1f9183dce64021a551b905ad6e9253b914a396e8566cf19b6"
+      },
+      {
+        "path": "odot_ground_tiles_poc/previews/contact_sheet.png",
+        "bytes": 892811,
+        "sha256": "9c51f71463fdf2711ddd07f7a7dd665dd9167a251da488e587bd4d9fcc34f673"
+      },
+      {
+        "path": "odot_ground_tiles_poc/docs/AGENT_HANDOFF.md",
+        "bytes": 2333,
+        "sha256": "121c16d651af7728c388ebec1be63e909ec50c316e861cadbd3c1dc461e24421"
+      },
+      {
+        "path": "odot_ground_tiles_poc/masks/river_bank_weight.png",
+        "bytes": 2443,
+        "sha256": "d96c9e1cde2cb269988ca10bc5683f0d249b38245611c9b8d46c864f8f812f65"
+      }
+    ]
+  },
+  {
+    "archive": "odot_archery_range_texture_poc.zip",
+    "sha256": "e0e9a47b74e9e9f1e21e16d48fc62f273a2f6a8ecc636b60bea7ef7c224da443",
+    "bytes": 31546219,
+    "unpacked_bytes": 31740460,
+    "files": [
+      {
+        "path": "odot_archery_range_texture_poc/README.md",
+        "bytes": 3607,
+        "sha256": "d29858e440a68edc62ffc5f994a48e61734e367e8278359a4fb480c7b86d4f64"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/asset_recipe.json",
+        "bytes": 6733,
+        "sha256": "44d1167f6c571026add3574d407c29c5157b76ae5afdb64c0d6da43786e144e8"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/decals/archery_bullseye_rgba.png",
+        "bytes": 353541,
+        "sha256": "403dbebc07295b7a2ac8fac58e74ebe40f2d0805e069ca8d189ca886ebb38eaa"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/docs/BLENDER_AGENT_TASK.md",
+        "bytes": 3990,
+        "sha256": "982dd52bc3c19b44d01894188ec49d1b24e1f6039f87debcbf2320cb742a6f1a"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/docs/PAINTOVER_PROMPT.md",
+        "bytes": 2082,
+        "sha256": "43cd655dc294412c1dc2a5eb98175b3c251a14b2c9fd19182810d8b373b3db84"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/previews/material_contact_sheet.png",
+        "bytes": 1374986,
+        "sha256": "ef3ec0fbe89b1e044a6aeabf0551abd73d0fcd0e21a40d2e1dd32e81e4658dfa"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/source_sheets/detail_inspiration_board.png",
+        "bytes": 2640230,
+        "sha256": "12a59ab7ac2de4bce837be7279db6cdb5ce2d6e97c9cf6428a91374946af45ea"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/source_sheets/main_4_materials.png",
+        "bytes": 3226136,
+        "sha256": "af5837770d44e47296d2e51d011608efcbad4eedd8a7caa703f78cda4783a4bf"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/source_sheets/supporting_4_materials.png",
+        "bytes": 3531532,
+        "sha256": "da5f775130885cca137d2065c9885bc9efb3acb4accd573b0a9ecb5bf5d28c17"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/cloth_cobalt_weave_basecolor.png",
+        "bytes": 1931517,
+        "sha256": "8590bfae82ed5c01de70d5e5374cfa22c001983827d2e6a0ddac319d8c088aaf"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/cloth_cobalt_weave_normal.png",
+        "bytes": 284574,
+        "sha256": "69059157dde5b368aeaadc9f309e09764e5879e35de6846252e6692a14ae484b"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/cloth_cobalt_weave_roughness.png",
+        "bytes": 420919,
+        "sha256": "1258a0d6e36c61125d890e9562ad5c66285067ca936ed42cc31f0a8b7ca775d8"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/cloth_draped_blue_basecolor.png",
+        "bytes": 245593,
+        "sha256": "359c39e49f345abc16aa4ab45771cc20f7579b704d8a5bd77e6aa6cebe4d8e28"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/cloth_draped_blue_normal.png",
+        "bytes": 57471,
+        "sha256": "a0aa15ca1c49895da5a7aff097f0ab10187cca878bf926d04f0204ab6284de82"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/cloth_draped_blue_roughness.png",
+        "bytes": 51015,
+        "sha256": "380eb1fef3d2932363d109d3aad6b1353da9c75f420ef5d00b2378eabb13b3ad"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/dirt_ground_basecolor.png",
+        "bytes": 325229,
+        "sha256": "9f7e2edaae9f158b6c30aa56b5eb9d8ed4e77db7a7bf83874f3f37334d39affd"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/dirt_ground_normal.png",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/dirt_ground_roughness.png",
+        "bytes": 70852,
+        "sha256": "8b6f719f99c345812dfdeba4263cdbf2f50a8336594eb711cd1e02aa8a05a434"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/grass_ground_basecolor.png",
+        "bytes": 373774,
+        "sha256": "331f106872e09b678b8ea712faffb8505a089cd9b4841a3ae41d3f8fcb2ecc0d"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/grass_ground_normal.png",
+        "bytes": 62023,
+        "sha256": "d4205c525289295b1f2cf7153d1d570e9544c3c08d4e1f47010b496583725531"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/grass_ground_roughness.png",
+        "bytes": 53763,
+        "sha256": "1cec39d445a44103d998c51abebf8fcdaf22300865f817658638ed70229f2249"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/ivy_moss_foliage_basecolor.png",
+        "bytes": 1866350,
+        "sha256": "4f7cdb0700d9bfd0f44b353424afc0f58c13590719c1044d889ccb945a162543"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/ivy_moss_foliage_normal.png",
+        "bytes": 341978,
+        "sha256": "0fe381d9d260333f8e4676ad1121576d98808feb9b125a1f68cf4777c67ff82b"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/ivy_moss_foliage_roughness.png",
+        "bytes": 360233,
+        "sha256": "faf227ae8844a46eaa2bb12ee929784cd36b21f2c47ea6c1f86e603fea920a52"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/metal_patinated_basecolor.png",
+        "bytes": 1786556,
+        "sha256": "c7ed52ccf95358313c4760ddf786182a30116ab3f0486f85f7e72d146bf45f96"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/metal_patinated_normal.png",
+        "bytes": 351932,
+        "sha256": "e7f1efb0e01f8de301b8bbbb4c115ff2c251fd5963434a7c3e7dec5bbc653d83"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/metal_patinated_roughness.png",
+        "bytes": 387811,
+        "sha256": "617403430f16878cee034f175455319f5adf9cca90aee2f39249b554e2f4e9dd"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/plaster_warm_basecolor.png",
+        "bytes": 1719241,
+        "sha256": "7a5ad7bccf7bceb826714a3116cfeab111c50fde691d50f16453af2ff0bdf81e"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/plaster_warm_normal.png",
+        "bytes": 200693,
+        "sha256": "af6bdc4251f4b1999f77a0f08dff4e3a85619dabf060bdbefa4ae3a15f387026"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/plaster_warm_roughness.png",
+        "bytes": 371141,
+        "sha256": "c7c3b1dafde40a3cdd00a812fd1d88311589765608d87480ab38d6cdc9aab9f1"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/roof_blue_shingles_basecolor.png",
+        "bytes": 1429537,
+        "sha256": "bb624b4f5a2ddda482aa3adddf09bc54b15eafa587ca786d44c33f5cc79c9db1"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/roof_blue_shingles_normal.png",
+        "bytes": 353670,
+        "sha256": "2f3aae48041c72d1061441ce8ee0a80abc3d08024f05a19c73f3977d93b71fbf"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/roof_blue_shingles_roughness.png",
+        "bytes": 287222,
+        "sha256": "01e0d04e4ef97a40b971858ee0ce190c8d5af9a858441514631d41ae82bf8968"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/stone_mossy_masonry_basecolor.png",
+        "bytes": 1892697,
+        "sha256": "126de27861c4c6f0544a250547124940b531299baf9321099bb310bf6e27d652"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/stone_mossy_masonry_normal.png",
+        "bytes": 514212,
+        "sha256": "975bf8ee0d6d8aa685ff854c23ae88bf40893eb28cb485a1de6a43b38af9f1d3"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/stone_mossy_masonry_roughness.png",
+        "bytes": 418989,
+        "sha256": "26a6139d7aa89cce56e3e8b76766114e88e8decdd2ad507b9be01a6985107f9a"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/wood_dark_aged_basecolor.png",
+        "bytes": 1490828,
+        "sha256": "5b86d73c7bc91ee3dbc8f730cec74fe67758e93cc10b91346dde05835c4fda45"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/wood_dark_aged_normal.png",
+        "bytes": 322292,
+        "sha256": "2d6750da86d7356e408a95241d337efac73c591602e4d8ba99d362cb6c915df7"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/wood_dark_aged_roughness.png",
+        "bytes": 312716,
+        "sha256": "d00b8223f63d79d6343c10118d8a15faa681db7dba4abd92b8f14c80054a1709"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/wood_horizontal_planks_basecolor.png",
+        "bytes": 240030,
+        "sha256": "a504b15bb3371c9a24560d8579e4648d8df11f456bbfdfa10ce3d537f690050a"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/wood_horizontal_planks_normal.png",
+        "bytes": 52568,
+        "sha256": "d5590de977f4805021b92d6409643131e25477b1f7da02e45123eeb1179edc90"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/wood_horizontal_planks_roughness.png",
+        "bytes": 50100,
+        "sha256": "933e134d478a769a87e662e5342f86e7c54d808dcae294cc515b72cb0d8ac87b"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/wood_warm_planks_basecolor.png",
+        "bytes": 1393557,
+        "sha256": "38c17a1a92374c5267a39382757c0adfab139276f85039331e3678e024046e63"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/wood_warm_planks_normal.png",
+        "bytes": 288274,
+        "sha256": "08f4837a2131eac50043f6ea69b3a2a23dc38dd292f99f18c23dd0c35d28a358"
+      },
+      {
+        "path": "odot_archery_range_texture_poc/textures/wood_warm_planks_roughness.png",
+        "bytes": 288266,
+        "sha256": "a36d0d93b4cde9a83001ca99392b3557c4186dce6ee87f440f672ddfeb171eda"
+      }
+    ]
+  }
+]

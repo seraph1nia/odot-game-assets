@@ -1,0 +1,107 @@
+{
+  "runtime": "Blender 5.2.2 LTS / d13f752e3b9c",
+  "checks": [
+    {
+      "purpose": "selected export and round trip",
+      "command": "python3 -m tools.asset_pack.check <all14>",
+      "result": "PASS: 14 unchanged and current hash-bound verified results; prior final export/verify workers completed 14 assets",
+      "log": ".cache/ai-textures/asset-check-final.log",
+      "log_sha256": "9e38b13336c2511df1fe9a7d00a49b3c462f66a88d5b094ec8a6c2dd409d14e7"
+    },
+    {
+      "purpose": "independent source/export preservation",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_ai_textures_blender.py --label ai-independent-preservation",
+      "result": "PASS: 14 current source/export successors; all protected source state, PNGs, triangle corners/normals/UVs and exact clip samples",
+      "log": ".cache/asset-check/logs/ai-independent-preservation.log",
+      "log_sha256": "8ef78ba2cf5ac24d3291cd7d20d7135976ac5d0507b9e8b5eb935fca18ee9dcc"
+    },
+    {
+      "purpose": "ground coverage",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_ground_blender.py --label ai-ground-contracts --output docs/ai-textures/ground-verification.json",
+      "result": "PASS: source/imported GLB through-pairs, ends, matching neighbor interfaces, 48 actual root rotations and 40 stacks",
+      "log": ".cache/asset-check/logs/ai-ground-contracts.log",
+      "log_sha256": "015e52229c9c0abe529663d1cfc24d7449b15ac4990e2ef148827d07f2791b10"
+    },
+    {
+      "purpose": "source style",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_style_blender.py --label ai-final-style <all14>",
+      "result": "PASS: all14",
+      "log": ".cache/asset-check/logs/ai-final-style.log",
+      "log_sha256": "06d1b87e017738a02a2521be0d7dde798cc373e1cb940499b4ce7bb8560d1172"
+    },
+    {
+      "purpose": "packed portable images",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_painted_blender.py --label ai-final-painted <all14>",
+      "result": "PASS: all14 source/GLB channel coverage and UVs",
+      "log": ".cache/asset-check/logs/ai-final-painted.log",
+      "log_sha256": "5df27e1c3c2cacb10a88c96179e0c6b16fa392c6732a8e725134d50927072c64"
+    },
+    {
+      "purpose": "idempotence",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label ai-idempotence idempotence",
+      "result": "PASS: all14 second-application full capture equality, no datablock growth",
+      "log": ".cache/asset-check/logs/ai-idempotence.log",
+      "log_sha256": "ce59fdcafd2b1b5ecdb31cf2f44b887c729f502b9cf643b5394bb5b6cc31a173"
+    },
+    {
+      "purpose": "new fixtures",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/test_ai_textures_blender.py --label ai-final-fixtures",
+      "result": "PASS: 3 Blender fixtures for content-cache ownership/staleness and transition/river bank behavior",
+      "log": ".cache/asset-check/logs/ai-final-fixtures.log",
+      "log_sha256": "1a0bf6cf32b307517d9013f6637ca646a034b8f2356f50fde233de21896cb301"
+    },
+    {
+      "purpose": "shared style fixtures",
+      "command": "mise run style-tests",
+      "result": "PASS: 27 fixtures, including actual source-preserving selected export",
+      "log": ".cache/asset-check/logs/style-tests.log",
+      "log_sha256": "339937909d2bc64a501da0bf202bc940fb0be34d975aeb84e70706e30b985af9"
+    },
+    {
+      "purpose": "baseline audit reproduction",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label ai-baseline-audit-reproduction audit-baseline environment/hex_ground_moss",
+      "result": "PASS: opens preserved baseline source and enforces original hash",
+      "log": ".cache/asset-check/logs/ai-baseline-audit-reproduction.log",
+      "log_sha256": "b330a3d709c0b1c50fdd260b27f4489df83bd771572a40171c588ef7007d44fe"
+    },
+    {
+      "purpose": "final original GLB renders",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_review.py --label ai-final-before before <all14> mixed neighbors",
+      "result": "PASS: 37 images, 102.59s CPU Cycles; exact profiles/hashes committed",
+      "log": ".cache/asset-check/logs/ai-final-before.log",
+      "log_sha256": "0bf2125eaf3943bc63f007d4137f5bea382ee855358c0d0e1d217489dccae568"
+    },
+    {
+      "purpose": "final textured GLB renders",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_review.py --label ai-final-after after <all14> mixed neighbors",
+      "result": "PASS: 37 matched images, 103.02s CPU Cycles; implementation-worker visual inspection retained",
+      "log": ".cache/asset-check/logs/ai-final-after.log",
+      "log_sha256": "483a9c72bec6577928177e64e3443046a13bfd6f480d15409956fe58e6af8eb9"
+    },
+    {
+      "purpose": "fast lint/syntax/behavior/output contracts",
+      "command": "mise run check",
+      "result": "PASS: 139 tests, Ruff, Python/JS syntax and worker guards; includes static gallery/link/PNG/profile/handoff checks",
+      "log": ".cache/ai-textures/check-final-delivery.log",
+      "log_sha256": "3268dac7fcdce964bf6f67f90d534b40bcd21cfba7b48b8390b6e2b8e47d3c06"
+    }
+  ],
+  "browser_interactivity": {
+    "status": "UNEXECUTED",
+    "reason": "Two own named-session chrome-devtools-axi attempts returned BRIDGE_NOT_READY (attached CDP target gone). Optional bridge check scoped out by firstmate; no browser pass claimed. Static gallery correctness checks pass separately."
+  },
+  "game_gpu_acceptance": {
+    "status": "PENDING",
+    "reason": "Separate game worker must import exact validated exports from landed assets-main, update the pinned/hash/derived manifest consistently and test actual views/water motion on the authorized renderer."
+  },
+  "retained_failed_diagnostics": [
+    ".cache/ai-textures/check.log",
+    ".cache/ai-textures/check-final.log",
+    ".cache/ai-textures/check-receipt-correction.log (final corrected pass; initial failure described in local checkpoint)"
+  ],
+  "notes": [
+    "Earlier stale historical receipt tests were corrected through explicit validated predecessor chains, not weakened or relabeled.",
+    "Initial static gallery PNG test exposed ImageMagick 16-bit montage output; comparison producer now explicitly writes 8-bit derivatives matching its existing PNG audit contract. Original render/map bytes unchanged.",
+    "Logs remain local under the disposable cache; committed reports bind current source, export and image hashes independently."
+  ]
+}
