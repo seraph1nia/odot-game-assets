@@ -157,7 +157,13 @@ of the most important final criterion: improvement in the actual game.
 ## Validation and observed costs
 
 [`validation.json`](validation.json), [`ground-verification.json`](ground-verification.json)
-and [`resources.json`](resources.json) bind the current sources/exports:
+and [`resources.json`](resources.json) bind the current sources/exports.
+Report packaging requires the ground receipt to cover all thirteen ground IDs
+exactly once and match every current source and GLB hash before writing outputs.
+The superseded pre-final-save ground receipt remains available in Git at
+`69d1e6eda5122c11a2e75665300da9f0fd6379e2:docs/ai-textures/ground-verification.json`;
+its earlier run is historical, not evidence for the final saved source bytes.
+Final-source verification is recorded separately in [`checks.json`](checks.json).
 
 - All fourteen selected source-preserving exports and GLB round trips pass.
 - All fourteen source-style and packed-image/UV/embedded-channel audits pass.

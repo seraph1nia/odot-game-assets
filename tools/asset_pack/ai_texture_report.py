@@ -10,6 +10,7 @@ import subprocess
 from pathlib import Path
 
 from tools.asset_pack.ai_texture_contract import ASSETS, predecessor, sha
+from tools.asset_pack.hex_ground import IDS
 from tools.asset_catalog.runtime_glb import read
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -30,8 +31,18 @@ def encoded_images(path):
     return result
 
 
+def validate_ground_receipt(root, receipt):
+    rows = receipt['resources']
+    assert len(rows) == len(IDS) and {row['asset_id'] for row in rows} == set(IDS), 'Incomplete ground receipt coverage'
+    for row in rows:
+        aid = row['asset_id']
+        assert row['source_sha256'] == sha(root / 'sources' / (aid + '.blend')), (aid, 'stale ground source')
+        assert row['version'] == sha(root / 'exports' / (aid + '.glb')), (aid, 'stale ground export')
+
+
 def main():
     validation = json.loads((DOCS / 'validation.json').read_text())
+    validate_ground_receipt(ROOT, json.loads((DOCS / 'ground-verification.json').read_text()))
     profiles = {stage: {p['name']: p for p in json.loads((DOCS / 'renders' / stage / 'profiles.json').read_text())}
                 for stage in ('before', 'after')}
     assert profiles['before'].keys() == profiles['after'].keys()

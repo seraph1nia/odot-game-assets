@@ -1,4 +1,5 @@
 """Executable archive safety and current texture successor/evidence contracts."""
+import copy
 import hashlib
 from html.parser import HTMLParser
 import json
@@ -8,6 +9,7 @@ import tempfile
 import unittest
 import zipfile
 from pathlib import Path
+from unittest.mock import patch
 
 from tools.asset_pack.ai_texture_contract import ASSETS, predecessor, source_predecessor, sha
 from tools.asset_pack.runtime_contract import export_chain
@@ -15,6 +17,8 @@ from tools.asset_pack.ambient_contract import source_chain
 from tools.asset_pack.encoded_images import _png
 from tools.asset_catalog.runtime_glb import read
 from tools.asset_pack.ai_texture_inputs import extract
+from tools.asset_pack import ai_texture_report as texture_report
+from tools.asset_pack.hex_ground import IDS
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -143,6 +147,57 @@ class GalleryDOM(HTMLParser):
 
 
 class ReviewOutputs(unittest.TestCase):
+    def test_ground_receipt_matches_current_sources_exports_validation_and_handoff(self):
+        docs = ROOT / 'docs/ai-textures'
+        receipt = json.loads((docs / 'ground-verification.json').read_text())
+        texture_report.validate_ground_receipt(ROOT, receipt)
+        validation = json.loads((docs / 'validation.json').read_text())['assets']
+        handoff = {row['id']: row for row in json.loads((docs / 'handoff.json').read_text())['files']}
+        for row in receipt['resources']:
+            aid = row['asset_id']
+            self.assertEqual(row['source_sha256'], validation[aid]['source_after_sha256'])
+            self.assertEqual(row['version'], validation[aid]['export_preservation']['after']['version'])
+            self.assertEqual(row['source_sha256'], handoff[aid]['source_blend_sha256'])
+            self.assertEqual(row['version'], handoff[aid]['sha256'])
+
+    def test_report_rejects_stale_or_incomplete_ground_evidence_before_writing(self):
+        docs = ROOT / 'docs/ai-textures'
+        receipt = json.loads((docs / 'ground-verification.json').read_text())
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            output = root / 'docs/ai-textures'
+            output.mkdir(parents=True)
+            shutil.copyfile(docs / 'validation.json', output / 'validation.json')
+            for aid in IDS:
+                for kind, suffix in (('sources', '.blend'), ('exports', '.glb')):
+                    relative = Path(kind) / (aid + suffix)
+                    target = root / relative
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copyfile(ROOT / relative, target)
+            texture_report.validate_ground_receipt(root, receipt)
+            mutations = [(aid, field) for aid in IDS for field in ('source_sha256', 'version')]
+            mutations += [(None, kind) for kind in ('missing', 'duplicate', 'extra')]
+            for aid, field in mutations:
+                with self.subTest(asset=aid, field=field):
+                    stale = copy.deepcopy(receipt)
+                    rows = stale['resources']
+                    if aid:
+                        next(row for row in rows if row['asset_id'] == aid)[field] = '0' * 64
+                        error = 'stale ground source' if field == 'source_sha256' else 'stale ground export'
+                    else:
+                        if field == 'missing':
+                            rows.pop()
+                        elif field == 'duplicate':
+                            rows[-1] = copy.deepcopy(rows[0])
+                        else:
+                            rows.append({**rows[0], 'asset_id': 'environment/not_in_ground_suite'})
+                        error = 'Incomplete ground receipt coverage'
+                    (output / 'ground-verification.json').write_text(json.dumps(stale))
+                    before = {p.relative_to(output): p.read_bytes() for p in output.rglob('*') if p.is_file()}
+                    with patch.multiple(texture_report, ROOT=root, DOCS=output), self.assertRaisesRegex(AssertionError, error):
+                        texture_report.main()
+                    self.assertEqual({p.relative_to(output): p.read_bytes() for p in output.rglob('*') if p.is_file()}, before)
+
     def test_static_gallery_local_links_images_and_png_metadata_are_complete(self):
         docs = ROOT / 'docs/ai-textures'
         dom = GalleryDOM()

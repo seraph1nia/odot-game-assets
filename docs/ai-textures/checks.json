@@ -16,7 +16,8 @@
       "log_sha256": "8ef78ba2cf5ac24d3291cd7d20d7135976ac5d0507b9e8b5eb935fca18ee9dcc"
     },
     {
-      "purpose": "ground coverage",
+      "purpose": "ground coverage (historical pre-final-save sources)",
+      "receipt_revision": "69d1e6eda5122c11a2e75665300da9f0fd6379e2:docs/ai-textures/ground-verification.json",
       "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_ground_blender.py --label ai-ground-contracts --output docs/ai-textures/ground-verification.json",
       "result": "PASS: source/imported GLB through-pairs, ends, matching neighbor interfaces, 48 actual root rotations and 40 stacks",
       "log": ".cache/asset-check/logs/ai-ground-contracts.log",
@@ -84,6 +85,15 @@
       "result": "PASS: 139 tests, Ruff, Python/JS syntax and worker guards; includes static gallery/link/PNG/profile/handoff checks",
       "log": ".cache/ai-textures/check-final-delivery.log",
       "log_sha256": "3268dac7fcdce964bf6f67f90d534b40bcd21cfba7b48b8390b6e2b8e47d3c06"
+    },
+    {
+      "purpose": "ground coverage (current final delivered sources and GLBs)",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_ground_blender.py --label ai-review-current-ground --output docs/ai-textures/ground-verification.json",
+      "result": "PASS: 13 current saved sources and GLBs; source/imported-GLB rotation and neighbor-seam coverage, 48 actual root rotations and 40 base/overlay stacks; all 26 delivered input hashes unchanged",
+      "receipt": "docs/ai-textures/ground-verification.json",
+      "receipt_sha256": "a2bc37ae1743b26bcc65bcceec11ea294e2c37dc452b4e6afcde6241bcb7a218",
+      "log": ".cache/asset-check/logs/ai-review-current-ground.log",
+      "log_sha256": "933a5d26ae70c78b3d3b9847c185be4d856bff9b3f70c1c2ae232aa53d7b4e7f"
     }
   ],
   "browser_interactivity": {
