@@ -13,6 +13,7 @@ import bpy
 import numpy as np
 
 from tools.asset_pack import ai_texture_blender as textures
+from tools.asset_pack import verify_ai_textures_blender as verification
 from tools.asset_pack.ai_texture_blender import managed_image, ground_color
 from tools.asset_pack.verify_ambient_blender import capture
 import geometry
@@ -69,7 +70,7 @@ class ApplyPreservation(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             cache = root / '.cache/ai-textures'
-            with patch.multiple(textures, ROOT=root, CACHE=cache):
+            with patch.multiple(textures, ROOT=root, CACHE=cache), patch.multiple(verification, ROOT=root, CACHE=cache):
                 bpy.ops.wm.read_factory_settings(use_empty=True)
                 collection = bpy.data.collections.new(asset_id.split('/')[-1])
                 bpy.context.scene.collection.children.link(collection)
@@ -102,10 +103,19 @@ class ApplyPreservation(unittest.TestCase):
                 audit.parent.mkdir(parents=True)
                 audit.write_text(json.dumps({'id': asset_id, 'source_sha256': textures.sha(path),
                                              'signature': textures.signature()}))
+                baseline = cache / 'before/sources' / (asset_id + '.blend')
+                baseline.parent.mkdir(parents=True)
+                baseline.write_bytes(path.read_bytes())
                 try:
                     yield root, path, inputs, family
                 finally:
                     bpy.ops.wm.read_factory_settings(use_empty=True)
+
+    def verify(self, asset_id):
+        receipt = textures.CACHE / 'applied' / (asset_id.replace('/', '_') + '.json')
+        result = verification.source_preservation(asset_id, json.loads(receipt.read_text()))
+        bpy.ops.wm.open_mainfile(filepath=str(textures.ROOT / 'sources' / (asset_id + '.blend')))
+        return result
 
     def test_baseline_reapply_committed_receipt_and_texture_update(self):
         cases = [('environment/hex_ground_moss', 'floor_' + family, True)
@@ -116,6 +126,8 @@ class ApplyPreservation(unittest.TestCase):
             with self.subTest(material=material), self.source(aid, material, linked=linked) as (root, path, inputs, family):
                 textures.apply(aid)
                 first = capture()
+                first_report = self.verify(aid)
+                self.assertEqual(first_report['retained_owned_image_proofs'], {})
                 receipt = textures.CACHE / 'applied' / (aid.replace('/', '_') + '.json')
                 self.assertEqual(json.loads(receipt.read_text())['source_sha256'], textures.sha(path))
                 textures.apply(aid)
@@ -134,6 +146,60 @@ class ApplyPreservation(unittest.TestCase):
                 self.assertNotEqual(updated['materials'][material], first['materials'][material])
                 textures.apply(aid)
                 self.assertEqual(capture(), updated)
+                report = self.verify(aid)
+                self.assertEqual(report['new_image_count'], first_report['new_image_count'] + 1)
+                predecessors = set(first['images']) - {'authored_color'}
+                self.assertEqual(set(report['retained_owned_image_proofs']), predecessors)
+                for name in predecessors:
+                    self.assertEqual(report['retained_owned_image_proofs'][name], first['images'][name])
+                self.assertEqual(capture(), updated)
+
+    def test_verification_rejects_forged_predecessors_and_baseline_damage(self):
+        for aid, material in (('environment/hex_ground_moss', 'floor_moss'),
+                              ('buildings/archery_range', 'wood')):
+            for damage in ('unowned', 'forged', 'wrong_path', 'predecessor_pixels', 'predecessor_channel',
+                           'baseline_pixels', 'missing_baseline', 'active_pixels', 'unexplained_orphan', 'retained_has_users'):
+                with self.subTest(material=material, damage=damage), self.source(aid, material) as (root, path, inputs, family):
+                    textures.apply(aid)
+                    receipt = textures.CACHE / 'applied' / (aid.replace('/', '_') + '.json')
+                    predecessor = json.loads(receipt.read_text())['materials'][0]['image']
+                    self.write_input(inputs, family, .8)
+                    textures.apply(aid)
+                    self.verify(aid)
+                    applied = json.loads(receipt.read_text())
+                    image = bpy.data.images[predecessor]
+                    if damage == 'unowned':
+                        del image['ai_texture_owner']
+                    elif damage == 'forged':
+                        image.copy().use_fake_user = True
+                    elif damage == 'wrong_path':
+                        image.filepath = str(root / 'authored_color.png')
+                    elif damage in ('predecessor_pixels', 'baseline_pixels', 'active_pixels'):
+                        if damage == 'baseline_pixels':
+                            image = bpy.data.images['authored_color']
+                        elif damage == 'active_pixels':
+                            image = bpy.data.images[applied['materials'][0]['image']]
+                        image.pixels[0] = .9
+                        image.pack()
+                    elif damage == 'predecessor_channel':
+                        image.colorspace_settings.name = 'Non-Color'
+                    elif damage == 'missing_baseline':
+                        bpy.data.images.remove(bpy.data.images['authored_color'])
+                    elif damage == 'unexplained_orphan':
+                        orphan = textures.painted_finish.image_map(
+                            'manual_orphan', np.full((32, 32, 3), .4, dtype=np.float32), root)
+                        orphan.use_fake_user = True
+                    else:
+                        node = bpy.data.materials[material].node_tree.nodes.new('ShaderNodeTexImage')
+                        node.image = image
+                    bpy.ops.wm.save_as_mainfile(filepath=str(path))
+                    saved = path.read_bytes()
+                    with self.assertRaisesRegex(AssertionError, 'Source changed since application'):
+                        verification.source_preservation(aid, applied)
+                    applied['source_sha256'] = textures.sha(path)
+                    with self.assertRaises(AssertionError):
+                        verification.source_preservation(aid, applied)
+                    self.assertEqual(path.read_bytes(), saved)
 
     def test_manual_bindings_metadata_and_packed_edits_are_rejected_before_writes(self):
         cases = [('environment/hex_ground_moss', 'floor_moss', True),

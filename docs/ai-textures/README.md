@@ -251,6 +251,13 @@ saving. Preserve those edits separately rather than relabeling them as applied.
 The original geometry/physical signature is also required, and the original color
 image is retained for deterministic reapplication. Recognized sources can accept
 updated input textures; `idempotence` validates an unchanged second apply.
+Superseded managed maps are retained as source-only predecessors, not deleted.
+The independent verifier checks current owned bindings separately from these
+unreferenced predecessors: explicit owner/content-key/input provenance, canonical
+managed companion paths, sRGB state and exact packed/companion bytes are required.
+Unexplained additions and predecessors with real users are rejected; every baseline
+image must still exist unchanged. Retained images are reported separately in
+`source_preservation.retained_owned_image_proofs` and included in `new_image_count`.
 Every application saves the isolated source and can change its file hash; rerun
 selected export, audit and comparisons afterwards. Do not relabel stale renders.
 The report command uses installed ImageMagick only to label/assemble real renders;

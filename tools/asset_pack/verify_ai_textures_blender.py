@@ -20,6 +20,7 @@ from tools.asset_pack.encoded_images import image_proof, png_proof
 from tools.asset_pack.hex_ground import IDS
 from tools.asset_pack.verify_ambient_blender import capture
 from tools.asset_pack.verify_runtime_blender import serialized_samples, compare_samples, material_key, samples
+import art_style as style
 
 ROOT = Path(__file__).resolve().parents[2]
 CACHE = ROOT / '.cache/ai-textures'
@@ -43,23 +44,49 @@ def capture_source():
     return result
 
 
+def owned_image_proof(image, directory, families):
+    assert image.get('ai_texture_owner') == style.AI_TEXTURE.version, (image.name, 'unowned image')
+    for field in ('ai_texture_values_sha256', 'input_sha256'):
+        value = image.get(field)
+        assert isinstance(value, str) and len(value) == 64 and all(c in '0123456789abcdef' for c in value), (image.name, field)
+    key = image['ai_texture_values_sha256'][:24]
+    assert image.name in {f'{style.AI_TEXTURE.version}_{family}_{key}_base_color' for family in families}, (image.name, 'owned image identity')
+    companion = directory / (image.name + '.png')
+    assert Path(bpy.path.abspath(image.filepath)).resolve() == companion.resolve(), (image.name, 'owned companion path')
+    assert not image.is_dirty and image.colorspace_settings.name == 'sRGB', (image.name, 'owned color state')
+    proof = image_proof(image)
+    assert proof['packed_sha256'] == sha(companion), (image.name, 'owned packed/companion mismatch')
+    return proof
+
+
 def source_preservation(aid, applied):
+    assert applied['source_sha256'] == sha(ROOT / 'sources' / (aid + '.blend')), 'Source changed since application'
     before_path = CACHE / 'before/sources' / (aid + '.blend')
     bpy.ops.wm.open_mainfile(filepath=str(before_path))
     before = capture_source()
     bpy.ops.wm.open_mainfile(filepath=str(ROOT / 'sources' / (aid + '.blend')))
+    assert set(before['images']) <= set(bpy.data.images.keys()), (aid, 'missing original image')
     # Prove the live owned Base Color image before normalizing it for comparison.
-    new_images = set()
+    directory = ROOT / 'sources' / ('buildings/textures/ai_archery/managed' if aid == 'buildings/archery_range'
+                                    else 'environment/textures/ai_ground/managed')
+    families = {c.get('family', c['material'].removeprefix('floor_')) for c in applied['materials']}
+    new_images = {c['image'] for c in applied['materials']}
+    retained = {}
+    for image in bpy.data.images:
+        if image.name not in before['images'] and image.name not in new_images:
+            assert image.use_fake_user and image.users == 1, (image.name, 'retained image has real users')
+            retained[image.name] = owned_image_proof(image, directory, families)
     for change in applied['materials']:
         mat = bpy.data.materials[change['material']]
         shader = next(n for n in mat.node_tree.nodes if n.type == 'BSDF_PRINCIPLED')
         node = shader.inputs['Base Color'].links[0].from_node
         assert node.type == 'TEX_IMAGE' and node.image.name == change['image']
         image = node.image
-        assert image.colorspace_settings.name == 'sRGB' and image.packed_file
-        assert image_proof(image)['packed_sha256'] == change['packed_sha256']
-        assert sha(Path(bpy.path.abspath(image.filepath))) == change['packed_sha256']
-        new_images.add(image.name)
+        family = change.get('family', change['material'].removeprefix('floor_'))
+        assert owned_image_proof(image, directory, {family})['packed_sha256'] == change['packed_sha256']
+        assert image['input_sha256'] == change['input_sha256']
+        assert sha(directory.parent / 'input/textures' / (family + '_basecolor.png')) == change['input_sha256']
+        assert mat['ai_texture_profile'] == style.AI_TEXTURE.version
         old_name = mat['ai_original_color_image']
         if old_name:
             node.image = bpy.data.images[old_name]
@@ -75,7 +102,7 @@ def source_preservation(aid, applied):
     for field in protected:
         assert before[field] == actual[field], (aid, 'protected source field', field)
     for kind in before['ids']:
-        assert set(actual['ids'][kind]) == set(before['ids'][kind]) | (new_images if kind == 'images' else set()), (aid, kind)
+        assert set(actual['ids'][kind]) == set(before['ids'][kind]) | (new_images | set(retained) if kind == 'images' else set()), (aid, kind)
     for name, proof in before['images'].items():
         assert actual['images'][name] == proof, (aid, 'original packed image changed', name)
     return {'geometry_uv_slots_hierarchy_actions_equal': True,
@@ -84,7 +111,8 @@ def source_preservation(aid, applied):
             'signature_before': digest({k: before[k] for k in protected}),
             'signature_after_normalized': digest({k: actual[k] for k in protected}),
             'original_image_proofs': before['images'],
-            'original_image_count': len(before['images']), 'new_image_count': len(new_images)}
+            'original_image_count': len(before['images']),
+            'new_image_count': len(new_images | set(retained)), 'retained_owned_image_proofs': retained}
 
 
 def encoded(doc, binary, image):
@@ -183,7 +211,6 @@ def main():
               'runtime': bpy.app.version_string, 'assets': {}}
     for aid in (*IDS, 'buildings/archery_range'):
         applied = json.loads((CACHE / 'applied' / (aid.replace('/', '_') + '.json')).read_text())
-        assert applied['source_sha256'] == sha(ROOT / 'sources' / (aid + '.blend'))
         report['assets'][aid] = {'source_before_sha256': sha(CACHE / 'before/sources' / (aid + '.blend')),
             'source_after_sha256': applied['source_sha256'],
             'source_preservation': source_preservation(aid, applied),

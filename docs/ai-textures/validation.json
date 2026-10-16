@@ -200,7 +200,8 @@
           }
         },
         "original_image_count": 10,
-        "new_image_count": 2
+        "new_image_count": 2,
+        "retained_owned_image_proofs": {}
       },
       "export_preservation": {
         "all_serialized_triangle_corners_normals_uvs_equal": {
@@ -458,7 +459,8 @@
           }
         },
         "original_image_count": 10,
-        "new_image_count": 2
+        "new_image_count": 2,
+        "retained_owned_image_proofs": {}
       },
       "export_preservation": {
         "all_serialized_triangle_corners_normals_uvs_equal": {
@@ -716,7 +718,8 @@
           }
         },
         "original_image_count": 10,
-        "new_image_count": 2
+        "new_image_count": 2,
+        "retained_owned_image_proofs": {}
       },
       "export_preservation": {
         "all_serialized_triangle_corners_normals_uvs_equal": {
@@ -974,7 +977,8 @@
           }
         },
         "original_image_count": 10,
-        "new_image_count": 2
+        "new_image_count": 2,
+        "retained_owned_image_proofs": {}
       },
       "export_preservation": {
         "all_serialized_triangle_corners_normals_uvs_equal": {
@@ -1232,7 +1236,8 @@
           }
         },
         "original_image_count": 10,
-        "new_image_count": 2
+        "new_image_count": 2,
+        "retained_owned_image_proofs": {}
       },
       "export_preservation": {
         "all_serialized_triangle_corners_normals_uvs_equal": {
@@ -1410,7 +1415,8 @@
           }
         },
         "original_image_count": 6,
-        "new_image_count": 1
+        "new_image_count": 1,
+        "retained_owned_image_proofs": {}
       },
       "export_preservation": {
         "all_serialized_triangle_corners_normals_uvs_equal": {
@@ -1578,7 +1584,8 @@
           }
         },
         "original_image_count": 6,
-        "new_image_count": 1
+        "new_image_count": 1,
+        "retained_owned_image_proofs": {}
       },
       "export_preservation": {
         "all_serialized_triangle_corners_normals_uvs_equal": {
@@ -1746,7 +1753,8 @@
           }
         },
         "original_image_count": 6,
-        "new_image_count": 1
+        "new_image_count": 1,
+        "retained_owned_image_proofs": {}
       },
       "export_preservation": {
         "all_serialized_triangle_corners_normals_uvs_equal": {
@@ -1914,7 +1922,8 @@
           }
         },
         "original_image_count": 6,
-        "new_image_count": 1
+        "new_image_count": 1,
+        "retained_owned_image_proofs": {}
       },
       "export_preservation": {
         "all_serialized_triangle_corners_normals_uvs_equal": {
@@ -2122,7 +2131,8 @@
           }
         },
         "original_image_count": 8,
-        "new_image_count": 1
+        "new_image_count": 1,
+        "retained_owned_image_proofs": {}
       },
       "export_preservation": {
         "all_serialized_triangle_corners_normals_uvs_equal": {
@@ -2342,7 +2352,8 @@
           }
         },
         "original_image_count": 8,
-        "new_image_count": 1
+        "new_image_count": 1,
+        "retained_owned_image_proofs": {}
       },
       "export_preservation": {
         "all_serialized_triangle_corners_normals_uvs_equal": {
@@ -2562,7 +2573,8 @@
           }
         },
         "original_image_count": 8,
-        "new_image_count": 1
+        "new_image_count": 1,
+        "retained_owned_image_proofs": {}
       },
       "export_preservation": {
         "all_serialized_triangle_corners_normals_uvs_equal": {
@@ -2782,7 +2794,8 @@
           }
         },
         "original_image_count": 8,
-        "new_image_count": 1
+        "new_image_count": 1,
+        "retained_owned_image_proofs": {}
       },
       "export_preservation": {
         "all_serialized_triangle_corners_normals_uvs_equal": {
@@ -4462,7 +4475,8 @@
           }
         },
         "original_image_count": 81,
-        "new_image_count": 17
+        "new_image_count": 17,
+        "retained_owned_image_proofs": {}
       },
       "export_preservation": {
         "all_serialized_triangle_corners_normals_uvs_equal": {
@@ -5028,5 +5042,5 @@
       ]
     }
   },
-  "verifier_sha256": "5d7d78dabeecca09b4e234bb28f0c590cfce634cd988918cb3c3b31ae547dd56"
+  "verifier_sha256": "bf212f6d93fc0c309984feaf593d0b2f06f537c8a506a67032eaf865708ff1eb"
 }
