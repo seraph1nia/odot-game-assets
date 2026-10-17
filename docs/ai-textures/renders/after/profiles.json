@@ -1,0 +1,4554 @@
+[
+  {
+    "name": "environment_hex_ground_moss",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "19f3791858b739bbf2e373f261eaff6c68c55e46edf2f836b321ef471f82d50d",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_ground_moss_close",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "2a1d1e968e7349afb4b2c8a3ba6058e2d9280a3def8f0db91c4d61984efd3d9d",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_ground_grass",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "85259b930e58e2efd44a5a03bf8a6681087654cf2a0f0bdf8fbc1da3945e8767",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_ground_grass_close",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "c0eb85d488e8d2c1d02fbcdf8db616ef43b540a9c0506b1da7c580b7ad84d1e1",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_ground_dirt",
+    "assets": [
+      {
+        "id": "environment/hex_ground_dirt",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "6d8a2a895b8558cbe8a4d7b2da79b131eaf554eee562297232996f129e09fa33"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "8db4ab8162075353e3155d4c59d0a848d113b126d012a5a1fec5d96315662463",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_ground_dirt_close",
+    "assets": [
+      {
+        "id": "environment/hex_ground_dirt",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "6d8a2a895b8558cbe8a4d7b2da79b131eaf554eee562297232996f129e09fa33"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "ed65aa8bff76e64b8207f614194b087558deda58abedb9c207e1630e8634ec52",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_ground_leaf_litter",
+    "assets": [
+      {
+        "id": "environment/hex_ground_leaf_litter",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "b0aff9370b43e97cc5a376cc6e390e8a9c510fc4a258f912cfa9245723aaa16f"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "533b5a0405cd848cc4ffe89795dc9bc805ba5a0210351d7525365d9338513aaf",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_ground_leaf_litter_close",
+    "assets": [
+      {
+        "id": "environment/hex_ground_leaf_litter",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "b0aff9370b43e97cc5a376cc6e390e8a9c510fc4a258f912cfa9245723aaa16f"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "af45f2868c19c4ebccc1d99d800d053b171e4e7d6c1b61ca2ea7023e956b4237",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_ground_pine_duff",
+    "assets": [
+      {
+        "id": "environment/hex_ground_pine_duff",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "fcd251444db55664911c4d5b4e3be70486d24030b8417f53b6bd02ff163f885c"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "791fadfe77f17881d2120746aa0fa335ca93981f67115336c89183d9efb71421",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_ground_pine_duff_close",
+    "assets": [
+      {
+        "id": "environment/hex_ground_pine_duff",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "fcd251444db55664911c4d5b4e3be70486d24030b8417f53b6bd02ff163f885c"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "a36e324e96635b0c930325d92bb0dd17a550a1e43b7fd8d6ccd438d32e3d0b01",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_path_straight",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_path_straight",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "f9f341dc4f86854c3376b9ae01c7d4890519ac8ff9ca2c670e29a4666261c35a"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "04c818d6b63a2cf03b73f2091718187574da6e2fb41316ce54a1e3a48ca35768",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_path_straight_close",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_path_straight",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "f9f341dc4f86854c3376b9ae01c7d4890519ac8ff9ca2c670e29a4666261c35a"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "fd80112b31bd86188c6bc6849f9dbb4b76d16b46f65513992b175808494598a0",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_path_turn_120",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_path_turn_120",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "5b2b385c1ea35597c13ceacdf327c002c005b849f0df1f40f41db91c6491e149"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "66c6170116a5dbb3448a7685e52465b81b6208bb7076aebe20bc04c30eca7d49",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_path_turn_120_close",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_path_turn_120",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "5b2b385c1ea35597c13ceacdf327c002c005b849f0df1f40f41db91c6491e149"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "93d20836b08bdfe4e22bf21ea7088eca034de209edf4c3a7c2b26d20decd9497",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_path_turn_60",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_path_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "0f7a5c775d34f49029353e98dbe2081bd9492d3467a1fe3076d10c193f229642"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "3edc2da17ddfa3b9f5b7c6a075ac246c40a870fb2beed8700dbfbc3826e6d88f",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_path_turn_60_close",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_path_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "0f7a5c775d34f49029353e98dbe2081bd9492d3467a1fe3076d10c193f229642"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "c86594eadc633afdacc790ae0afb08997626cdbdd6fb40dc17941a3ae89633c2",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_path_end",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "30699a507d00653b486e6e1c1c286dcb2f0b79a7eb64a633c312801b81f8a1e5",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_path_end_close",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "5b0763c7699ea9849b15829a34154411a509e042d00cf9c679cea8ea98017f0b",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_river_overlay_straight",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_river_overlay_straight",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "6ef4464cd942b99222db78d166eaf0097c6207a3f2f7b55cb298066346f74b54"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "23916cc0dc3e6d0b0f1f06388d2234f193e42ce5033e28a155777e7e3da651f6",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_river_overlay_straight_close",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_river_overlay_straight",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "6ef4464cd942b99222db78d166eaf0097c6207a3f2f7b55cb298066346f74b54"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "300170d2d4585a0c435092c5b5cdeca62d1faf43f96cd51b7523b570e6bf697c",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_river_overlay_turn_120",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_river_overlay_turn_120",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "7bdd54af841f3794e1578165c1f2e174f7f86eeecb497ccf506ff845ef058a70"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "8327f0170842999ed8288e07de9152a9e29e017d1e593abff087e85546ab2451",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_river_overlay_turn_120_close",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_river_overlay_turn_120",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "7bdd54af841f3794e1578165c1f2e174f7f86eeecb497ccf506ff845ef058a70"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "aaf962911d0bf0b3e3a09c1b8d7f7dd80c8f436627941ae250e58133768627ae",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_river_overlay_turn_60",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_river_overlay_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "491a64fdef47a1bc1d889c6609f42b5a73d961c8563cd99908873208614125d1"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "90b7afae53accd6bf5d315b51d5fd6240b4f8160ce2564d63fcf61cec1e02792",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_river_overlay_turn_60_close",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_river_overlay_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "491a64fdef47a1bc1d889c6609f42b5a73d961c8563cd99908873208614125d1"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "3858986b7b047db69b80a3bb9dd7a87d23b0b7359be4f23765774d1f9342a9c9",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_river_overlay_end",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 6.599999904632568,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      61.46397590637207,
+      71.27413749694824,
+      338.53604793548584,
+      296.6844081878662
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "0a3edbb60fe48215fb63fe0dd87aa50ae65d02c001c6f7590cc86aec18990ebb",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "environment_hex_river_overlay_end_close",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      10.180000305175781
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -126.54919624328613,
+      -103.42525243759155,
+      526.549243927002,
+      427.8989315032959
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "fcf050c6c89a774810d45f2d84797105c76325d7b22484c04f330ef357b69c24",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "mixed",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          -4.416729559300636,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          -4.416729559300636,
+          0
+        ],
+        "glb_sha256": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c"
+      },
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          0.0,
+          0
+        ],
+        "glb_sha256": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      {
+        "id": "environment/hex_river_overlay_straight",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          0.0,
+          0
+        ],
+        "glb_sha256": "6ef4464cd942b99222db78d166eaf0097c6207a3f2f7b55cb298066346f74b54"
+      },
+      {
+        "id": "environment/hex_ground_dirt",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "6d8a2a895b8558cbe8a4d7b2da79b131eaf554eee562297232996f129e09fa33"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 180,
+        "position": [
+          0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c"
+      },
+      {
+        "id": "environment/hex_ground_leaf_litter",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          -2.208364779650318,
+          0
+        ],
+        "glb_sha256": "b0aff9370b43e97cc5a376cc6e390e8a9c510fc4a258f912cfa9245723aaa16f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          -2.208364779650318,
+          0
+        ],
+        "glb_sha256": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d"
+      },
+      {
+        "id": "environment/hex_ground_pine_duff",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          2.208364779650318,
+          0
+        ],
+        "glb_sha256": "fcd251444db55664911c4d5b4e3be70486d24030b8417f53b6bd02ff163f885c"
+      },
+      {
+        "id": "environment/hex_path_straight",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          2.208364779650318,
+          0
+        ],
+        "glb_sha256": "f9f341dc4f86854c3376b9ae01c7d4890519ac8ff9ca2c670e29a4666261c35a"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          6.625094338950954,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 180,
+        "position": [
+          3.8249999999999997,
+          6.625094338950954,
+          0
+        ],
+        "glb_sha256": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d"
+      }
+    ],
+    "camera_location": [
+      1.912500023841858,
+      -3.895817756652832,
+      11.82800006866455
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 24.287830352783203,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      202.41024017333984,
+      30.090254545211792,
+      437.58975982666016,
+      409.7476029396057
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "296897a592eb0e63e71933507ecb0173b6e93ac0bfa04f3402566de7084710de",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "buildings_archery_range",
+    "assets": [
+      {
+        "id": "buildings/archery_range",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "b10479a00e15116e1d3b09d017cf55c0dc8d1570e78064c5033aea6176a8d231"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      11.0
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 7.300000190734863,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      72.68584370613098,
+      83.05789828300476,
+      325.51937103271484,
+      368.927001953125
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "3b71023212d738564bbbeaed5aa9cb180ae90118a41e09b74fdf2c553950bf47",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "buildings_archery_range_close",
+    "assets": [
+      {
+        "id": "buildings/archery_range",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "b10479a00e15116e1d3b09d017cf55c0dc8d1570e78064c5033aea6176a8d231"
+      }
+    ],
+    "camera_location": [
+      6.0,
+      -9.0,
+      11.0
+    ],
+    "camera_rotation": [
+      0.8246088624000549,
+      8.178631105693057e-10,
+      0.588002622127533
+    ],
+    "ortho_scale": 2.799999952316284,
+    "resolution": [
+      400,
+      400
+    ],
+    "projected_geometry_box_pixels": [
+      -131.9262146949768,
+      -104.88477945327759,
+      527.2469520568848,
+      640.4168128967285
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "af79c55bcc559a81b01f373b6419524b99424893b302aa2b6f3908ed57e06ae8",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "neighbors_path_straight",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_path_straight",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "f9f341dc4f86854c3376b9ae01c7d4890519ac8ff9ca2c670e29a4666261c35a"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -5.408933717497024e-16,
+          -4.416729559300636,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 0,
+        "position": [
+          -5.408933717497024e-16,
+          -4.416729559300636,
+          0
+        ],
+        "glb_sha256": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d"
+      }
+    ],
+    "camera_location": [
+      0.0,
+      -5.0,
+      11.826000213623047
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 20.975282669067383,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      242.1941375732422,
+      31.221295297145844,
+      397.8058624267578,
+      408.6378741264343
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "d2fae58d762da35443a8d95a64aa062b2edde25c8b964c5e6bae0a6a47fb6e9b",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "neighbors_path_turn_120",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_path_turn_120",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "5b2b385c1ea35597c13ceacdf327c002c005b849f0df1f40f41db91c6491e149"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -3.8249999999999993,
+          -2.208364779650317,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 300,
+        "position": [
+          -3.8249999999999993,
+          -2.208364779650317,
+          0
+        ],
+        "glb_sha256": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d"
+      }
+    ],
+    "camera_location": [
+      -1.912500023841858,
+      -3.895817518234253,
+      11.826000213623047
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 17.662734985351562,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      158.30363273620605,
+      32.748739421367645,
+      481.6963577270508,
+      407.0840334892273
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "455094076964317173f4352c593b2ff523bbc48e38a40365c6dba618321252db",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "neighbors_path_turn_60",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_path_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "0f7a5c775d34f49029353e98dbe2081bd9492d3467a1fe3076d10c193f229642"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -3.824999999999999,
+          2.2083647796503185,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 240,
+        "position": [
+          -3.824999999999999,
+          2.2083647796503185,
+          0
+        ],
+        "glb_sha256": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d"
+      }
+    ],
+    "camera_location": [
+      -1.912500023841858,
+      -2.791635036468506,
+      11.826000213623047
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 14.350188255310059,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      120.97821235656738,
+      34.98134285211563,
+      519.0217971801758,
+      404.8128318786621
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "cf14e944e61ea46c810eab8b34c3496463b45c0a79b46d39b18a3d9e65dbaf69",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "neighbors_path_end",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_path_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d"
+      }
+    ],
+    "camera_location": [
+      0.0,
+      -2.791635036468506,
+      11.826000213623047
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 14.350188255310059,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      206.2732696533203,
+      34.98134285211563,
+      433.7267303466797,
+      404.8128318786621
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "9dfa29b1eacbdc9a8af0270044b1f96deb6670b72e972e343819540a83087392",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "neighbors_river_straight",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_river_overlay_straight",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "6ef4464cd942b99222db78d166eaf0097c6207a3f2f7b55cb298066346f74b54"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -5.408933717497024e-16,
+          -4.416729559300636,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 0,
+        "position": [
+          -5.408933717497024e-16,
+          -4.416729559300636,
+          0
+        ],
+        "glb_sha256": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c"
+      }
+    ],
+    "camera_location": [
+      0.0,
+      -5.0,
+      11.82800006866455
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 20.975282669067383,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      242.1941375732422,
+      31.197826266288757,
+      397.8058624267578,
+      408.6144018173218
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "97232f34a1d0812117bf1a24acf356f432c23cfb6cfa8d31d6c95311c98118a6",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "neighbors_river_turn_120",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_river_overlay_turn_120",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "7bdd54af841f3794e1578165c1f2e174f7f86eeecb497ccf506ff845ef058a70"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -3.8249999999999993,
+          -2.208364779650317,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 300,
+        "position": [
+          -3.8249999999999993,
+          -2.208364779650317,
+          0
+        ],
+        "glb_sha256": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c"
+      }
+    ],
+    "camera_location": [
+      -1.912500023841858,
+      -3.895817518234253,
+      11.82800006866455
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 17.662734985351562,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      158.30363273620605,
+      32.72087097167969,
+      481.6963577270508,
+      407.05615520477295
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "3ccebd4165bc1d68b405d4801c501b2c53976043fc8fde4c9385ce13cc617f81",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "neighbors_river_turn_60",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_river_overlay_turn_60",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "491a64fdef47a1bc1d889c6609f42b5a73d961c8563cd99908873208614125d1"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -3.824999999999999,
+          2.2083647796503185,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 240,
+        "position": [
+          -3.824999999999999,
+          2.2083647796503185,
+          0
+        ],
+        "glb_sha256": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c"
+      }
+    ],
+    "camera_location": [
+      -1.912500023841858,
+      -2.791635036468506,
+      11.82800006866455
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 14.350188255310059,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      120.97821235656738,
+      34.9470391869545,
+      519.0217971801758,
+      404.778528213501
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "91e34f025896eb53efdb13cd3b566dd576a771106dd9533576f3834ce267bd6b",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  },
+  {
+    "name": "neighbors_river_end",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "glb_sha256": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      {
+        "id": "environment/hex_river_overlay_end",
+        "source_z_degrees": 180,
+        "position": [
+          -0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c"
+      }
+    ],
+    "camera_location": [
+      0.0,
+      -2.791635036468506,
+      11.82800006866455
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 14.350188255310059,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      206.2732696533203,
+      34.9470391869545,
+      433.7267303466797,
+      404.778528213501
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "ccda20a690557ab9638305cd13b0af52583ef5e00b95a25a271740ef44868079",
+    "revision": "after",
+    "baseline_revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+    "render_worker_sha256": "36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    },
+    "renderer_device": "CPU; portable evidence, not actual Godot/GPU acceptance"
+  }
+]

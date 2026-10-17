@@ -4,6 +4,7 @@ import unittest
 from pathlib import Path
 
 from tools.asset_pack.ambient_contract import ASSETS, sha
+from tools.asset_pack.ai_texture_contract import predecessor, source_predecessor
 from tools.asset_pack.runtime_contract import export_chain
 from tools.asset_pack.runtime_review import metrics, FOCAL
 
@@ -12,7 +13,7 @@ DOCS=ROOT/'docs/runtime-optimization'
 
 
 class RuntimeContracts(unittest.TestCase):
-    def test_all25_actual_exports_bind_strict_current_fidelity_and_localized_loops(self):
+    def test_all25_runtime_predecessors_chain_to_strict_current_fidelity_and_loops(self):
         baseline=json.loads((DOCS/'baseline.json').read_text())
         report=json.loads((DOCS/'validation.json').read_text())
         self.assertEqual(set(report['assets']),set(ASSETS))
@@ -20,8 +21,8 @@ class RuntimeContracts(unittest.TestCase):
             with self.subTest(asset=aid):
                 original=baseline['assets'][aid];record=report['assets'][aid]
                 export_chain(ROOT,aid,original['facts']['version'])
-                self.assertEqual(record['glb_sha256'],sha(ROOT/'exports'/(aid+'.glb')))
-                self.assertEqual(record['source_sha256'],sha(ROOT/original['job']['source']))
+                self.assertEqual(record['glb_sha256'],predecessor(ROOT,aid,'exports'))
+                self.assertEqual(record['source_sha256'],source_predecessor(ROOT,original['job']['source']))
                 for key in ('source_to_raw_buffers','source_to_exported_buffers','reimport'):
                     check=record[key]
                     self.assertEqual(check['normals_asserted'],key != 'reimport')
@@ -44,7 +45,7 @@ class RuntimeContracts(unittest.TestCase):
                     self.assertLess(after['mesh_nodes'],before_nodes*.15)
                 self.assertLessEqual(after['triangle_instances'],original['resources']['active_triangle_instances'])
 
-    def test_all50_real_godot_import_measurements_and_clips_bind_exact_glbs(self):
+    def test_all50_historical_godot_measurements_bind_exact_validated_predecessors(self):
         report=json.loads((DOCS/'godot.json').read_text())
         samples={s['path']:s for s in report['samples']}
         self.assertEqual(len(samples),50)
@@ -52,7 +53,7 @@ class RuntimeContracts(unittest.TestCase):
         for aid in ASSETS:
             for stage in ('before','after'):
                 path='res://'+stage+'/'+aid+'.glb';sample=samples[path]
-                expected=baseline['assets'][aid]['facts']['version'] if stage=='before' else sha(ROOT/'exports'/(aid+'.glb'))
+                expected=baseline['assets'][aid]['facts']['version'] if stage=='before' else predecessor(ROOT,aid,'exports')
                 self.assertEqual(report['source_glb_sha256'][path],expected)
                 self.assertEqual(len(sample['instantiate_us']),11)
                 self.assertEqual(sample['median_instantiate_us'],sorted(sample['instantiate_us'])[5])
@@ -60,10 +61,10 @@ class RuntimeContracts(unittest.TestCase):
                 self.assertTrue(sample['all_track_targets_resolve'])
                 self.assertGreater(sample['moving_meshes'],0)
 
-    def test_eight_matched_actual_render_pairs_bind_current_bytes_and_derivatives(self):
+    def test_eight_historical_render_pairs_bind_validated_predecessors_and_derivatives(self):
         for aid in FOCAL:
             record=json.loads((DOCS/'evidence'/aid/'render.json').read_text())
-            self.assertEqual(record['after_glb_sha256'],sha(ROOT/'exports'/(aid+'.glb')))
+            self.assertEqual(record['after_glb_sha256'],predecessor(ROOT,aid,'exports'))
             self.assertEqual(record['renderer_sha256'],sha(ROOT/'tools/asset_pack/render_runtime_blender.py'))
             self.assertEqual(record['neutral_setup_sha256'],sha(ROOT/'tools/asset_catalog/render_blender.py'))
             self.assertEqual(len(record['images']),6)

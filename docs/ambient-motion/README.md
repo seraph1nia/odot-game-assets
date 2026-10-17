@@ -13,7 +13,7 @@ they are **not** evidence of runtime frame rate or smooth game playback. These
 and the [neutral full-catalog comparisons](../vivid-palette/actual-review.html)
 are immutable snapshots of the detailed exports at `9a69b514`, not current optimized
 render bindings. See the [runtime successor record](../runtime-optimization/README.md)
-for current export evidence and verification.
+for optimization evidence and successor verification.
 
 ## Clip and playback contract
 

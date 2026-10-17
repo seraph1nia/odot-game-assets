@@ -1088,7 +1088,7 @@
     },
     {
       "file": "exports/buildings/archery_range.glb",
-      "bytes": 14875208,
+      "bytes": 17619280,
       "triangles": 122408,
       "materials": 42,
       "animations": [
@@ -1847,7 +1847,7 @@
     },
     {
       "file": "exports/environment/hex_ground_dirt.glb",
-      "bytes": 1762544,
+      "bytes": 1691708,
       "meshes": 3,
       "triangles": 22,
       "materials": 2,
@@ -1856,7 +1856,7 @@
     },
     {
       "file": "exports/environment/hex_ground_grass.glb",
-      "bytes": 2229484,
+      "bytes": 2141964,
       "meshes": 3,
       "triangles": 22,
       "materials": 2,
@@ -1865,7 +1865,7 @@
     },
     {
       "file": "exports/environment/hex_ground_leaf_litter.glb",
-      "bytes": 2225992,
+      "bytes": 2057852,
       "meshes": 3,
       "triangles": 22,
       "materials": 2,
@@ -1874,7 +1874,7 @@
     },
     {
       "file": "exports/environment/hex_ground_moss.glb",
-      "bytes": 2175404,
+      "bytes": 2039604,
       "meshes": 3,
       "triangles": 22,
       "materials": 2,
@@ -1883,7 +1883,7 @@
     },
     {
       "file": "exports/environment/hex_ground_pine_duff.glb",
-      "bytes": 1911940,
+      "bytes": 1891364,
       "meshes": 3,
       "triangles": 22,
       "materials": 2,
@@ -1892,7 +1892,7 @@
     },
     {
       "file": "exports/environment/hex_path_end.glb",
-      "bytes": 286904,
+      "bytes": 355760,
       "meshes": 1,
       "triangles": 307,
       "materials": 1,
@@ -1901,7 +1901,7 @@
     },
     {
       "file": "exports/environment/hex_path_straight.glb",
-      "bytes": 282800,
+      "bytes": 351656,
       "meshes": 1,
       "triangles": 256,
       "materials": 1,
@@ -1910,7 +1910,7 @@
     },
     {
       "file": "exports/environment/hex_path_turn_120.glb",
-      "bytes": 291864,
+      "bytes": 360720,
       "meshes": 1,
       "triangles": 272,
       "materials": 1,
@@ -1919,7 +1919,7 @@
     },
     {
       "file": "exports/environment/hex_path_turn_60.glb",
-      "bytes": 291860,
+      "bytes": 360716,
       "meshes": 1,
       "triangles": 272,
       "materials": 1,
@@ -1928,7 +1928,7 @@
     },
     {
       "file": "exports/environment/hex_river_overlay_end.glb",
-      "bytes": 194784,
+      "bytes": 348436,
       "meshes": 2,
       "triangles": 477,
       "materials": 2,
@@ -1939,7 +1939,7 @@
     },
     {
       "file": "exports/environment/hex_river_overlay_straight.glb",
-      "bytes": 189368,
+      "bytes": 343024,
       "meshes": 2,
       "triangles": 392,
       "materials": 2,
@@ -1950,7 +1950,7 @@
     },
     {
       "file": "exports/environment/hex_river_overlay_turn_120.glb",
-      "bytes": 198720,
+      "bytes": 352376,
       "meshes": 2,
       "triangles": 416,
       "materials": 2,
@@ -1961,7 +1961,7 @@
     },
     {
       "file": "exports/environment/hex_river_overlay_turn_60.glb",
-      "bytes": 198720,
+      "bytes": 352372,
       "meshes": 2,
       "triangles": 416,
       "materials": 2,

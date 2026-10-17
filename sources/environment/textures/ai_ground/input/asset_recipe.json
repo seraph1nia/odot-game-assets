@@ -1,0 +1,176 @@
+{
+  "title": "Odot canonical ground POC",
+  "schema_version": 1,
+  "asset_repo": "seraph1nia/odot-game-assets",
+  "source_owner": "tools/asset_pack/ground_tiles.py",
+  "maps": [
+    {
+      "family": "moss",
+      "material": "floor_moss",
+      "kind": "base_hex",
+      "files": {
+        "basecolor": "textures/moss_basecolor.png",
+        "roughness": "textures/moss_roughness.png",
+        "normal": "textures/moss_normal.png"
+      },
+      "original_crop_xyxy": [
+        608,
+        260,
+        779,
+        419
+      ],
+      "note": "Illustrated material input; normal and roughness are heuristic, not scanned PBR."
+    },
+    {
+      "family": "grass",
+      "material": "floor_grass",
+      "kind": "base_hex",
+      "files": {
+        "basecolor": "textures/grass_basecolor.png",
+        "roughness": "textures/grass_roughness.png",
+        "normal": "textures/grass_normal.png"
+      },
+      "original_crop_xyxy": [
+        77,
+        195,
+        218,
+        310
+      ],
+      "note": "Illustrated material input; normal and roughness are heuristic, not scanned PBR."
+    },
+    {
+      "family": "dirt",
+      "material": "floor_dirt",
+      "kind": "base_hex",
+      "files": {
+        "basecolor": "textures/dirt_basecolor.png",
+        "roughness": "textures/dirt_roughness.png",
+        "normal": "textures/dirt_normal.png"
+      },
+      "original_crop_xyxy": [
+        238,
+        195,
+        374,
+        310
+      ],
+      "note": "Illustrated material input; normal and roughness are heuristic, not scanned PBR."
+    },
+    {
+      "family": "leaf_litter",
+      "material": "floor_leaf_litter",
+      "kind": "base_hex",
+      "files": {
+        "basecolor": "textures/leaf_litter_basecolor.png",
+        "roughness": "textures/leaf_litter_roughness.png",
+        "normal": "textures/leaf_litter_normal.png"
+      },
+      "original_crop_xyxy": [
+        399,
+        195,
+        534,
+        310
+      ],
+      "note": "Illustrated material input; normal and roughness are heuristic, not scanned PBR."
+    },
+    {
+      "family": "pine_duff",
+      "material": "floor_pine_duff",
+      "kind": "base_hex",
+      "files": {
+        "basecolor": "textures/pine_duff_basecolor.png",
+        "roughness": "textures/pine_duff_roughness.png",
+        "normal": "textures/pine_duff_normal.png"
+      },
+      "original_crop_xyxy": [
+        399,
+        195,
+        534,
+        310
+      ],
+      "note": "Illustrated material input; normal and roughness are heuristic, not scanned PBR."
+    },
+    {
+      "family": "foundation",
+      "material": "floor_foundation",
+      "kind": "foundation_sides",
+      "files": {
+        "basecolor": "textures/foundation_basecolor.png",
+        "roughness": "textures/foundation_roughness.png",
+        "normal": "textures/foundation_normal.png"
+      },
+      "original_crop_xyxy": [
+        786,
+        260,
+        943,
+        419
+      ],
+      "note": "Illustrated material input; normal and roughness are heuristic, not scanned PBR."
+    },
+    {
+      "family": "river",
+      "material": "floor_river",
+      "kind": "ribbon_overlay",
+      "files": {
+        "basecolor": "textures/river_basecolor.png",
+        "roughness": "textures/river_roughness.png",
+        "normal": "textures/river_normal.png"
+      },
+      "original_crop_xyxy": null,
+      "note": "Illustrated material input; normal and roughness are heuristic, not scanned PBR."
+    },
+    {
+      "family": "path",
+      "material": "floor_path",
+      "kind": "ribbon_overlay",
+      "files": {
+        "basecolor": "textures/path_basecolor.png",
+        "roughness": "textures/path_roughness.png",
+        "normal": "textures/path_normal.png"
+      },
+      "original_crop_xyxy": null,
+      "note": "Illustrated material input; normal and roughness are heuristic, not scanned PBR."
+    }
+  ],
+  "base_assets": [
+    "environment/hex_ground_moss",
+    "environment/hex_ground_grass",
+    "environment/hex_ground_dirt",
+    "environment/hex_ground_leaf_litter",
+    "environment/hex_ground_pine_duff"
+  ],
+  "path_assets": [
+    "environment/hex_path_straight",
+    "environment/hex_path_turn_60",
+    "environment/hex_path_turn_120",
+    "environment/hex_path_end"
+  ],
+  "river_assets": [
+    "environment/hex_river_overlay_straight",
+    "environment/hex_river_overlay_turn_60",
+    "environment/hex_river_overlay_turn_120",
+    "environment/hex_river_overlay_end"
+  ],
+  "uv": {
+    "base": "existing PaintedUV from planar local coordinates",
+    "overlay": "U across width, V along river/path; keep per-end radial adjustment",
+    "river_water_center_u": [
+      0.09375,
+      0.90625
+    ],
+    "hex_radius": 2.55,
+    "surface_z": 0,
+    "bottom_z": -0.36
+  },
+  "color_space": {
+    "basecolor": "sRGB",
+    "roughness": "Non-Color",
+    "normal": "Non-Color"
+  },
+  "limitations": [
+    "1024-pixel exports upsample small AI atlas swatches (~135\u2013171 pixels each); not true 1024px generated detail",
+    "Normals and roughness are heuristic derivatives, not measured PBR maps",
+    "Edge-matching per texture does not guarantee visually seamless joins across different hex materials",
+    "Pine duff is a modified AI leaf-litter image plus procedural needle details",
+    "No source blend/GLB/game import changed; check actual UV and animated river in Blender/Godot"
+  ]
+}

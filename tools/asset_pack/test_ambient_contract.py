@@ -10,6 +10,7 @@ from pathlib import Path
 from tools.asset_pack import art_style as style
 from tools.asset_pack.encoded_images import png_proof
 from tools.asset_pack.runtime_contract import export_chain
+from tools.asset_pack.ai_texture_contract import source_predecessor
 from tools.asset_pack.ambient_contract import ASSETS, BUILDINGS, WATER, expected_resource_delta, receipts, sha, source_chain
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -50,7 +51,7 @@ class AmbientContracts(unittest.TestCase):
                     self.assertTrue(all(math.isfinite(v) for v in accessor['min'] + accessor['max']))
                     self.assertAlmostEqual(accessor['max'][0] - accessor['min'][0], 4.0, places=6)
 
-    def test_source_edit_and_independent_playback_receipts_bind_current_bytes(self):
+    def test_historical_source_playback_receipts_chain_to_audited_current_bytes(self):
         authored = receipts(ROOT)
         validation = json.loads((DOCS / 'validation.json').read_text())
         palette = json.loads((ROOT / 'docs/vivid-palette/authored.json').read_text())
@@ -63,7 +64,7 @@ class AmbientContracts(unittest.TestCase):
             source_chain(ROOT, path, palette[path]['sha256_after'])
             verified = validation['sources'][path]
             self.assertEqual(verified['sha256_before'], record['sha256_before'])
-            self.assertEqual(verified['sha256_after'], sha(ROOT / path))
+            self.assertEqual(verified['sha256_after'], source_predecessor(ROOT, path))
             self.assertTrue(verified['all_original_ids_retained'])
             self.assertTrue(verified['all_original_full_materials_and_images_equal'])
             self.assertTrue(verified['original_geometry_uv_reuse_rigs_actions_equal'])

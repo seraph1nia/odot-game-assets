@@ -4,7 +4,10 @@ Start from landed vivid/ambient revision
 `9a69b514e9fd7b101bf75d358e202da822bbe2c0`, not historical mesh-count prose.
 [Actual fixed-camera comparisons and all25 costs](actual-review.html),
 [per-asset metrics](metrics.json), [fidelity/loop validation](validation.json),
-and [headless Godot measurements](godot.json) bind the exported files by SHA-256.
+and [headless Godot measurements](godot.json) bind this optimization revision's
+exported files by SHA-256. These receipts remain historical for assets subsequently
+changed by the [AI texture POC](../ai-textures/README.md), which owns their current
+material-successor evidence and handoff; old costs and renders are not relabeled.
 
 ## What changes, and what does not
 
@@ -31,9 +34,9 @@ for the 16 animated buildings and two dense bridge tiles:
 6. Replace the GLB atomically, restore every temporary source binding/modifier,
    and never save the `.blend`.
 
-All **23 selected editable source files are byte-identical** to the landed
-baseline, including packed maps, original detailed meshes, collection/kit reuse,
-UVs, material overrides, animation actions and presentation scenes. Temporary
+This optimization pass left all **23 selected editable source files byte-identical**
+to its landed baseline, including packed maps, original detailed meshes,
+collection/kit reuse, UVs, material overrides, animation actions and presentation scenes. Temporary
 runtime variants are removed even on exceptions. Character rigs/equipment and
 unselected assets never enter the optimization hook.
 

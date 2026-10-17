@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "asset_id": "buildings/archery_range",
+  "source_blend": "sources/buildings/archery_range.blend",
+  "reference_in_repository": "sources/reference/more_buildings/low_poly_fantasy_archery_range.png",
+  "material_entries": [
+    {
+      "id": "cloth_cobalt_weave",
+      "maps": {
+        "basecolor": "textures/cloth_cobalt_weave_basecolor.png",
+        "roughness": "textures/cloth_cobalt_weave_roughness.png",
+        "normal": "textures/cloth_cobalt_weave_normal.png"
+      },
+      "size": [
+        1024,
+        1024
+      ],
+      "candidate_materials": [
+        "blue",
+        "blue_dark"
+      ],
+      "notes": "Candidates only; confirm actual current source material and UV ownership before binding"
+    },
+    {
+      "id": "cloth_draped_blue",
+      "maps": {
+        "basecolor": "textures/cloth_draped_blue_basecolor.png",
+        "roughness": "textures/cloth_draped_blue_roughness.png",
+        "normal": "textures/cloth_draped_blue_normal.png"
+      },
+      "size": [
+        512,
+        512
+      ],
+      "candidate_materials": [
+        "blue",
+        "blue_dark"
+      ],
+      "notes": "Candidates only; confirm actual current source material and UV ownership before binding"
+    },
+    {
+      "id": "dirt_ground",
+      "maps": {
+        "basecolor": "textures/dirt_ground_basecolor.png",
+        "roughness": "textures/dirt_ground_roughness.png",
+        "normal": "textures/dirt_ground_normal.png"
+      },
+      "size": [
+        512,
+        512
+      ],
+      "candidate_materials": [
+        "dirt"
+      ],
+      "notes": "Candidates only; confirm actual current source material and UV ownership before binding"
+    },
+    {
+      "id": "grass_ground",
+      "maps": {
+        "basecolor": "textures/grass_ground_basecolor.png",
+        "roughness": "textures/grass_ground_roughness.png",
+        "normal": "textures/grass_ground_normal.png"
+      },
+      "size": [
+        512,
+        512
+      ],
+      "candidate_materials": [
+        "grass"
+      ],
+      "notes": "Candidates only; confirm actual current source material and UV ownership before binding"
+    },
+    {
+      "id": "ivy_moss_foliage",
+      "maps": {
+        "basecolor": "textures/ivy_moss_foliage_basecolor.png",
+        "roughness": "textures/ivy_moss_foliage_roughness.png",
+        "normal": "textures/ivy_moss_foliage_normal.png"
+      },
+      "size": [
+        1024,
+        1024
+      ],
+      "candidate_materials": [
+        "leaf",
+        "moss"
+      ],
+      "notes": "Candidates only; confirm actual current source material and UV ownership before binding"
+    },
+    {
+      "id": "metal_patinated",
+      "maps": {
+        "basecolor": "textures/metal_patinated_basecolor.png",
+        "roughness": "textures/metal_patinated_roughness.png",
+        "normal": "textures/metal_patinated_normal.png"
+      },
+      "size": [
+        1024,
+        1024
+      ],
+      "candidate_materials": [
+        "metal",
+        "iron"
+      ],
+      "notes": "Candidates only; confirm actual current source material and UV ownership before binding"
+    },
+    {
+      "id": "plaster_warm",
+      "maps": {
+        "basecolor": "textures/plaster_warm_basecolor.png",
+        "roughness": "textures/plaster_warm_roughness.png",
+        "normal": "textures/plaster_warm_normal.png"
+      },
+      "size": [
+        1024,
+        1024
+      ],
+      "candidate_materials": [
+        "wall",
+        "wall_light"
+      ],
+      "notes": "Candidates only; confirm actual current source material and UV ownership before binding"
+    },
+    {
+      "id": "roof_blue_shingles",
+      "maps": {
+        "basecolor": "textures/roof_blue_shingles_basecolor.png",
+        "roughness": "textures/roof_blue_shingles_roughness.png",
+        "normal": "textures/roof_blue_shingles_normal.png"
+      },
+      "size": [
+        1024,
+        1024
+      ],
+      "candidate_materials": [
+        "roof_blue",
+        "roof_blue_light",
+        "roof_blue_dark"
+      ],
+      "notes": "Candidates only; confirm actual current source material and UV ownership before binding"
+    },
+    {
+      "id": "stone_mossy_masonry",
+      "maps": {
+        "basecolor": "textures/stone_mossy_masonry_basecolor.png",
+        "roughness": "textures/stone_mossy_masonry_roughness.png",
+        "normal": "textures/stone_mossy_masonry_normal.png"
+      },
+      "size": [
+        1024,
+        1024
+      ],
+      "candidate_materials": [
+        "stone",
+        "stone_dark",
+        "stone_light"
+      ],
+      "notes": "Candidates only; confirm actual current source material and UV ownership before binding"
+    },
+    {
+      "id": "wood_dark_aged",
+      "maps": {
+        "basecolor": "textures/wood_dark_aged_basecolor.png",
+        "roughness": "textures/wood_dark_aged_roughness.png",
+        "normal": "textures/wood_dark_aged_normal.png"
+      },
+      "size": [
+        1024,
+        1024
+      ],
+      "candidate_materials": [
+        "wood_dark",
+        "bark"
+      ],
+      "notes": "Candidates only; confirm actual current source material and UV ownership before binding"
+    },
+    {
+      "id": "wood_horizontal_planks",
+      "maps": {
+        "basecolor": "textures/wood_horizontal_planks_basecolor.png",
+        "roughness": "textures/wood_horizontal_planks_roughness.png",
+        "normal": "textures/wood_horizontal_planks_normal.png"
+      },
+      "size": [
+        512,
+        512
+      ],
+      "candidate_materials": [
+        "wood",
+        "wood_edge"
+      ],
+      "notes": "Candidates only; confirm actual current source material and UV ownership before binding"
+    },
+    {
+      "id": "wood_warm_planks",
+      "maps": {
+        "basecolor": "textures/wood_warm_planks_basecolor.png",
+        "roughness": "textures/wood_warm_planks_roughness.png",
+        "normal": "textures/wood_warm_planks_normal.png"
+      },
+      "size": [
+        1024,
+        1024
+      ],
+      "candidate_materials": [
+        "wood",
+        "wood_light",
+        "wood_edge"
+      ],
+      "notes": "Candidates only; confirm actual current source material and UV ownership before binding"
+    }
+  ],
+  "decals": [
+    "decals/archery_bullseye_rgba.png"
+  ],
+  "color_spaces": {
+    "basecolor": "sRGB",
+    "normal": "Non-Color",
+    "roughness": "Non-Color"
+  },
+  "limits": [
+    "Color images cropped from generated texture sheets, with edge-pixel corrections; aesthetic seamlessness is unverified",
+    "Normal and roughness maps are approximate image-derived companions",
+    "Image material slot candidates not verified against currently opened source",
+    "No aligned camera paintover, render masks, or tested Blender source modification included",
+    "No Godot render/import has been run"
+  ]
+}

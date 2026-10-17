@@ -11,6 +11,7 @@ invocable skills. Pi discovers project `.agents/skills/` entries on demand;
 `/skill:asset-art-direction` explicitly loads this entry. Other clients' discovery
 must be verified separately.
 
+- [Partial assets-first AI texture POC: matched GLB gallery, preserved sources, resource costs and pending main-only game handoff](docs/ai-textures/README.md)
 - [Color recovery: current direction, inventory and actual comparisons](docs/vivid-palette/README.md)
 - [Localized building/water loops: 25 actual exported clips, coverage and playback](docs/ambient-motion/README.md)
 - [Runtime exports: consolidated building scenes, matched renders, all25 fidelity/loops and headless costs](docs/runtime-optimization/README.md)
@@ -310,8 +311,9 @@ additional dependency decisions are covered in the
 [current color-recovery record](docs/vivid-palette/README.md) for current inventory,
 landed export evidence and the limits of the palette-checkpoint presentation renders;
 [localized motion](docs/ambient-motion/README.md) owns clip coverage and playback.
-[Runtime optimization](docs/runtime-optimization/README.md) owns current optimized
-export evidence and consumer handoff.
+[Runtime optimization](docs/runtime-optimization/README.md) owns runtime serialization
+and its optimization evidence; the [AI texture POC](docs/ai-textures/README.md)
+owns the later scoped material-successor evidence and handoff.
 The eight original PNGs from `new_autobattler_assets.zip` are preserved in
 `sources/reference/autobattler/`; its manifest records archive and image checksums.
 
@@ -527,9 +529,10 @@ existing terrain or forest-library source:
   shallow surface streams with narrow painted banks, not opaque full-hex cards.
 
 These are **authored adaptations**, using F3/F5 for thematic context rather than
-claiming a supplied bare-floor reference match. Packed portable maps and editable
-PNG companions live in `sources/environment/textures/ground/`. Sources retain
-matched collections and ground-zero roots; associations use the existing selector.
+claiming a supplied bare-floor reference match. Original generated maps live in
+`sources/environment/textures/ground/`; the later [AI texture POC](docs/ai-textures/README.md#what-changed)
+owns current texture bindings and prepared PNG locations. Sources retain matched
+collections and ground-zero roots; associations use the existing selector.
 
 Place a base and one overlay at the same origin with unit scale and **no extra Z
 translation**. Source is Z-up; GLB is Y-up through the existing exporter. Edge 0 is
@@ -561,11 +564,12 @@ close/tile-scale sheets, seams, all ground-family stacks and occupied examples.
 python3 -m tools.asset_pack.worker tools/asset_pack/ground_tiles.py --label detailed-ground-build
 # Check/export saved sources only; pass any canonical IDs above, or all 13:
 python3 -m tools.asset_pack.check $(python3 -c 'from tools.asset_pack.hex_ground import IDS; print(" ".join(IDS))')
-python3 -m tools.asset_pack.worker tools/asset_pack/verify_ground_blender.py --label detailed-ground-verification
-# CPU GLB evidence, no source saves/rebuilds:
-python3 -m tools.asset_pack.worker tools/asset_pack/ground_review.py --label detailed-ground-review
-bash tools/asset_pack/ground_review_sheets.sh
+python3 -m tools.asset_pack.worker tools/asset_pack/verify_ground_blender.py --label detailed-ground-verification --output .cache/asset-check/ground-verification.json
 ```
+
+For current matched CPU GLB comparisons, follow the
+[AI POC reproduction procedure](docs/ai-textures/README.md#reproduce-without-rebuilding-geometry)
+rather than overwriting the original detailed-ground render/verification receipts.
 
 The scoped verifier loads real sources and reimported GLBs, validates typed root
 extras/UVs/effective texture pixels, every rotated interface, all matching neighbor
@@ -711,9 +715,11 @@ required animation names, attack clips and `handslot.r` weapon attachment.
 Terrain needs consistent hex footprints and authored origins; buildings and
 props need sensible ground-contact pivots.
 
-Finished exports can be copied into `../odot-game/src/Game/Assets/` and wired
-into the game's asset mappings. Exporting here does not update the game
-automatically. The existing KayKit and TrioUI assets remain in the game repo.
+Exporting here does not update the game automatically. Follow the
+[landed-revision import contract](docs/runtime-optimization/README.md#downstream-import-handoff),
+not loose file copies; for the changed texture assets, use the
+[AI POC handoff and rollback](docs/ai-textures/README.md#main-only-game-handoff-and-rollback).
+The existing KayKit and TrioUI assets remain in the game repo.
 Keep the source URL, author and license beside any third-party asset you bring
 in, for example `gold_mine.provenance.md`, and retain its license text.
 

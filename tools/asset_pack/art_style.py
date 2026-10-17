@@ -337,6 +337,17 @@ FOREST_MATERIALS = MappingProxyType({
     'gill_glow': MaterialStyle((.76, .72, .78), .78, emission=FOREST.gill_emission),
 })
 
+@dataclass(frozen=True)
+class AITextureStyle:
+    """Explicit texture-only trial; not applied by any procedural builder."""
+    version: str = 'ai_texture_poc_v1'
+    ground_blend: float = .75
+    ground_edge_fade: float = .18
+    ground_edge_color: tuple = (.37, .38, .23)
+    building_blend: float = .55
+
+
+AI_TEXTURE = AITextureStyle()
 GROUND = GroundStyle()
 TEXTURES = TextureStyle()
 GEOMETRY = GeometryStyle()

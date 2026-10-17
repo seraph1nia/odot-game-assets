@@ -1,0 +1,159 @@
+{
+  "revision": "133c7cdeb368cada408d1c95c9414e08488371a9",
+  "assets": [
+    {
+      "id": "environment/hex_ground_moss",
+      "sources": {
+        "sha256": "ff24c6bfa63c460294b37f979ebc5ab5af83a06518b6019c4f5bbd4a536f713e",
+        "bytes": 3141844
+      },
+      "exports": {
+        "sha256": "b9640f362c4f5ac9993eb291955732214f876e6fbe824d75b8ac32b06fbbed3a",
+        "bytes": 2175404
+      }
+    },
+    {
+      "id": "environment/hex_ground_grass",
+      "sources": {
+        "sha256": "f06ba20e2ef318b5e7ad5f818e99e5f551d7ef08edb1015622378d92c42539e1",
+        "bytes": 3196312
+      },
+      "exports": {
+        "sha256": "348b6b2fbeab5bed0dad3389ed8eae881473a51e89f42fa4a5e2df21979a6584",
+        "bytes": 2229484
+      }
+    },
+    {
+      "id": "environment/hex_ground_dirt",
+      "sources": {
+        "sha256": "e58ec4f12651a09d6d5e7b6d287b0c8e16fcdb23df09ae71136fd2d0e10cfed6",
+        "bytes": 2518170
+      },
+      "exports": {
+        "sha256": "1047b6db6b37d989c1e602fef8f61fd11379b801bdcd7d59a517df2932f01fc2",
+        "bytes": 1762544
+      }
+    },
+    {
+      "id": "environment/hex_ground_leaf_litter",
+      "sources": {
+        "sha256": "e1fdfc3811ae8e44c006ec5f75a8560657cc01fa4b56b8bfdae8b7eb5c1ca0b7",
+        "bytes": 3168543
+      },
+      "exports": {
+        "sha256": "cd799e48f11c755e7944432de6ab0cb0041794a7ca54738c0e435c1fba6e50d5",
+        "bytes": 2225992
+      }
+    },
+    {
+      "id": "environment/hex_ground_pine_duff",
+      "sources": {
+        "sha256": "2ab9df3da6e77b57e1944d122675bbffe7a705700d37713206f64a462c49a002",
+        "bytes": 2697344
+      },
+      "exports": {
+        "sha256": "70c8d0bc648be7585df77e9cfd5eb601c49d34bb13973f389a407e88ce57eefd",
+        "bytes": 1911940
+      }
+    },
+    {
+      "id": "environment/hex_path_straight",
+      "sources": {
+        "sha256": "2a4547e352d6d3ced2c0304ec632955715114f961a7648fd2970bd1b3a0825cf",
+        "bytes": 501205
+      },
+      "exports": {
+        "sha256": "0691ac4723ea9a666417e76bf6216707c305a7bc36fef98f90e50d8e1c70d941",
+        "bytes": 282800
+      }
+    },
+    {
+      "id": "environment/hex_path_turn_120",
+      "sources": {
+        "sha256": "c8a93365afe6941eaf48be4fc208c1f0fbfdc8b45f06bc925e1769febcc8dec3",
+        "bytes": 502354
+      },
+      "exports": {
+        "sha256": "9a8b51697b877d265c07ab1234fa2b74aede06e037f9adb1e39344c73de1f902",
+        "bytes": 291864
+      }
+    },
+    {
+      "id": "environment/hex_path_turn_60",
+      "sources": {
+        "sha256": "c4805679698823f56f1f5fe71b549924da4ace6a53fceb8af0f37f3a9ad588d9",
+        "bytes": 502332
+      },
+      "exports": {
+        "sha256": "95f1ce4d80385c1ab74edb29979d8e73fac58928dd3a677b2f8a98497f7c4b01",
+        "bytes": 291860
+      }
+    },
+    {
+      "id": "environment/hex_path_end",
+      "sources": {
+        "sha256": "39924aaf68249b8f99c8f1447d63dd5740470e44657bf87c761dab407793414f",
+        "bytes": 501572
+      },
+      "exports": {
+        "sha256": "962194b63cc76fc33d8f123a37fc84642e78c7f1c15120940cb8c5fd3461f842",
+        "bytes": 286904
+      }
+    },
+    {
+      "id": "environment/hex_river_overlay_straight",
+      "sources": {
+        "sha256": "db305a40e335cecf5a7cacc57f86b876f4b654815d5d0c25da429688a3e97749",
+        "bytes": 307916
+      },
+      "exports": {
+        "sha256": "9b5da586b925c1f5b69b8634ecd21facbe41b710142e6cbd60449ccf1b2c6e42",
+        "bytes": 189368
+      }
+    },
+    {
+      "id": "environment/hex_river_overlay_turn_120",
+      "sources": {
+        "sha256": "fb8cb2f0df5b2c95820a0c0786c25ee6f7fb87a7a3b2d204eb01b380221ae0aa",
+        "bytes": 309590
+      },
+      "exports": {
+        "sha256": "fbaf4cf17e18a49cf7143c24668da7069b9b6b150e14cd38f15a6424f95f0e40",
+        "bytes": 198720
+      }
+    },
+    {
+      "id": "environment/hex_river_overlay_turn_60",
+      "sources": {
+        "sha256": "e276306f31f5bbe4cfa049d0847bac0a6f1b1c59803d787eb12dc9ee4c2aab88",
+        "bytes": 309474
+      },
+      "exports": {
+        "sha256": "fe554f74f112b9588409ef7daf65a3e3ee65f71ff735307598c05b8c71a2f58e",
+        "bytes": 198720
+      }
+    },
+    {
+      "id": "environment/hex_river_overlay_end",
+      "sources": {
+        "sha256": "1244857e5c62435025e240a41b9a2749652cc328c0d63c1e056c54a5ca5d4294",
+        "bytes": 309147
+      },
+      "exports": {
+        "sha256": "533c50274c29a6febd01530dfa8a7bfcc60e923fbcb9458e2e6f27f851957731",
+        "bytes": 194784
+      }
+    },
+    {
+      "id": "buildings/archery_range",
+      "sources": {
+        "sha256": "816c124d57621a7f635548abbc2168e9c5950789bb20cc9a27e176b41a11341b",
+        "bytes": 9959872
+      },
+      "exports": {
+        "sha256": "c6bedd11449586116abbdc74405f742f668be7fa249a4bb95116ffb55288595c",
+        "bytes": 14875208
+      }
+    }
+  ]
+}
