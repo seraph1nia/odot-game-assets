@@ -598,6 +598,15 @@ command uses the installed Python module or `uvx` without installing mise tools.
 CI runs the same checks before exporting sources, followed by attachment regression
 tests and source-to-GLB verification for models, standalone props, and terrain.
 
+Persistent diagnostic PNGs also have an explicit [retention policy and measured
+cleanup report](docs/repository-cleanup.md#persistent-evidence-policy).
+Use ignored `scratch/` or `.cache/` for disposable captures. Stage hash-bound
+capture generators in isolated checkouts, then review necessary evidence and its
+real binding records before promotion; do not refresh generators/receipts merely
+to prune history. `python3 -m tools.evidence_retention` checks the retained paths
+and byte caps; `mise run check` includes it. Budget increases require a reviewed
+purpose/provenance edit, not automatic baseline regeneration.
+
 ```sh
 mise run asset-check -- berserker
 mise run asset-check -- evil_melee_unit props/kit_skull
