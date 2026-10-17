@@ -273,7 +273,11 @@ saving. Preserve those edits separately rather than relabeling them as applied.
 The original geometry/physical signature is also required, and the original color
 image is retained for deterministic reapplication. Recognized sources can accept
 updated input textures; `idempotence` validates an unchanged second apply.
-Superseded managed maps are retained as source-only predecessors, not deleted.
+Original and previously delivered managed maps remain source-only predecessors.
+The five rejected unpublished edge trials were separately archived with exact
+packed-source copies before their authorized exclusion from delivery; see the
+[cleanup receipt](seams/review-r1-cleanup.json). Reapplication retains predecessors
+and never performs a broad orphan purge.
 The independent verifier checks current owned bindings separately from these
 unreferenced predecessors: explicit owner/content-key/input provenance, canonical
 managed companion paths, sRGB state and exact packed/companion bytes are required.

@@ -512,7 +512,7 @@
       "version": "fd3043fc16880b7110fd01d4c769ae414efb068dc927a9f80f8d2841f3777bc9",
       "images": 6,
       "decoded_rgba8_image_bytes": 15728640,
-      "source_sha256": "516b6f02b7c469cd1a69280d8ac93e812f45ee54171b236aabd14e27ca3736f3"
+      "source_sha256": "58bd724c11171ebe16dc4480d8ea2e68a152520a9a8409e910dcecaadaf4e6da"
     },
     {
       "asset_id": "environment/hex_ground_grass",
@@ -524,7 +524,7 @@
       "version": "dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887",
       "images": 6,
       "decoded_rgba8_image_bytes": 15728640,
-      "source_sha256": "31777b3e755e04ecf596fa5b89a421ed0f658b8b8fed5faff1900eed65b25257"
+      "source_sha256": "0fee2223bf889d4b054935d7ed4935029951a2d559003e7bce4af299853ecdb9"
     },
     {
       "asset_id": "environment/hex_ground_leaf_litter",
@@ -536,7 +536,7 @@
       "version": "18fd0e594b0447e0e3a6c66b175049880604ff4a2bc5ef824e1dfc03633d4665",
       "images": 6,
       "decoded_rgba8_image_bytes": 15728640,
-      "source_sha256": "7a395496828a6bf154a0fe60c660e2f6a5fe4fb9b669f0de24d8ae0bdc9cf8ba"
+      "source_sha256": "5e0d84b5fb7e1a3567f4d960b48b048a7b3163d9b718c632f39c82d9c27346c3"
     },
     {
       "asset_id": "environment/hex_ground_moss",
@@ -548,7 +548,7 @@
       "version": "36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2",
       "images": 6,
       "decoded_rgba8_image_bytes": 15728640,
-      "source_sha256": "df59d2a838420eb8365f790b4fa64c7aac583fd6d248fe771ce41ab82bbca382"
+      "source_sha256": "fe816562aac45f5a793cdc186f3b6bdccaaf1d9bdb6aae5c3c701c57e97c41f9"
     },
     {
       "asset_id": "environment/hex_ground_pine_duff",
@@ -560,7 +560,7 @@
       "version": "200eabf0233bc157ceeb74dd1b75a32b8cbe35ae1568c7c1e421cbdd3510a251",
       "images": 6,
       "decoded_rgba8_image_bytes": 15728640,
-      "source_sha256": "13a313cdecb2fdf0ec8b0a38cfef6b6d6798121b6fb7e6718bae38e2375c7097"
+      "source_sha256": "a39b6c2146fab525b9be1d1eff4767a3d6ae38ca29df94f72b4ebc74e79a242b"
     },
     {
       "asset_id": "environment/hex_path_end",

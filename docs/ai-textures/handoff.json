@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "https://github.com/seraph1nia/odot-game-assets.git",
-  "contentIdentity": "587f61f75acbd58a358e8b98eba7a009978ccb659e35990f7172946bc155c04d",
+  "contentIdentity": "62ba705d9dd5e26d4ed6fd0b0c7e64337fc064629148420737f55a5e9057c8a7",
   "baselineRevision": "133c7cdeb368cada408d1c95c9414e08488371a9",
   "revisionRule": "Import only the immutable assets-main commit containing this exact manifest after the asset PR merges. Resolve that full commit SHA, verify it is an ancestor of origin/main, and pin it explicitly in the game manifest. This content manifest is not permission to import a private branch.",
   "gameAcceptance": "Partial assets-first milestone. After this asset PR lands on assets main, dependent game ship odot-ai-textures-game must update the explicit immutable pin and hash/derived manifest metadata, then complete actual-GPU acceptance in settlement, forest, river and path views, including placement, tile connections, water motion and asset loading; include Archery Range settlement acceptance if its material stage is visually acceptable. Do not declare the overall request complete until that game work lands with acceptance evidence. No actual-game improvement claim yet.",
@@ -75,7 +75,7 @@
           "decoded_rgba8_bytes": 4194304
         }
       ],
-      "source_blend_sha256": "df59d2a838420eb8365f790b4fa64c7aac583fd6d248fe771ce41ab82bbca382"
+      "source_blend_sha256": "fe816562aac45f5a793cdc186f3b6bdccaaf1d9bdb6aae5c3c701c57e97c41f9"
     },
     {
       "id": "environment/hex_ground_grass",
@@ -146,7 +146,7 @@
           "decoded_rgba8_bytes": 4194304
         }
       ],
-      "source_blend_sha256": "31777b3e755e04ecf596fa5b89a421ed0f658b8b8fed5faff1900eed65b25257"
+      "source_blend_sha256": "0fee2223bf889d4b054935d7ed4935029951a2d559003e7bce4af299853ecdb9"
     },
     {
       "id": "environment/hex_ground_dirt",
@@ -217,7 +217,7 @@
           "decoded_rgba8_bytes": 4194304
         }
       ],
-      "source_blend_sha256": "516b6f02b7c469cd1a69280d8ac93e812f45ee54171b236aabd14e27ca3736f3"
+      "source_blend_sha256": "58bd724c11171ebe16dc4480d8ea2e68a152520a9a8409e910dcecaadaf4e6da"
     },
     {
       "id": "environment/hex_ground_leaf_litter",
@@ -288,7 +288,7 @@
           "decoded_rgba8_bytes": 4194304
         }
       ],
-      "source_blend_sha256": "7a395496828a6bf154a0fe60c660e2f6a5fe4fb9b669f0de24d8ae0bdc9cf8ba"
+      "source_blend_sha256": "5e0d84b5fb7e1a3567f4d960b48b048a7b3163d9b718c632f39c82d9c27346c3"
     },
     {
       "id": "environment/hex_ground_pine_duff",
@@ -359,7 +359,7 @@
           "decoded_rgba8_bytes": 4194304
         }
       ],
-      "source_blend_sha256": "13a313cdecb2fdf0ec8b0a38cfef6b6d6798121b6fb7e6718bae38e2375c7097"
+      "source_blend_sha256": "a39b6c2146fab525b9be1d1eff4767a3d6ae38ca29df94f72b4ebc74e79a242b"
     },
     {
       "id": "environment/hex_path_straight",

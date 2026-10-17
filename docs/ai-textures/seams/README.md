@@ -73,8 +73,12 @@ All settings live in `art_style.AI_TEXTURE`; the existing content-keyed image
 owner namespace remains `ai_texture_poc_v1`. New names carry new prepared-pixel
 hashes, not a stale name-only cache hit. The strict exact-source guard was not
 weakened. All original and initially delivered packed images remain unchanged;
-unused owned predecessor maps (including the private edge trial) are explicitly
-verified as source-only fake-user images, never additional GLB dependencies.
+unused originally delivered owned predecessor maps are explicitly verified as
+source-only fake-user images, never additional GLB dependencies. The five rejected
+private-edge-trial maps and their exact packed-source copies were preserved in a
+verified owner-only archive before removing only those trial datablocks and
+external companions from delivery. No original or previously delivered map was
+removed; [review-r1-cleanup.json](review-r1-cleanup.json) binds the scoped change.
 New Base Color images are sRGB. Existing Roughness/Normal maps stay Non-Color,
 with the original tangent-space Normal Map connections.
 
@@ -133,14 +137,17 @@ criterion is already met. Reopen actual GPU acceptance on the landed content set
   fourteen-asset set grows **30,266,832 → 32,293,232 bytes** (+2,026,400, about
   1.93 MiB), entirely in the five base GLBs. Image count, summed decoded RGBA8
   estimate (**152,043,520 bytes**, no mips), triangle/material/mesh counts remain
-  unchanged from delivered exports. Editable sources grow **38,842,329 →
-  50,161,946 bytes** (+11,319,617), including retained source-only maps from both
-  the delivered predecessor and intermediate trial. More detailed PNGs compress
-  less; these source-only predecessors are not loaded by the GLBs. No GPU-time
-  or FPS claim is made from CPU renders.
+  unchanged from delivered exports. [../resources.json](../resources.json) records
+  exact editable-source sizes after excluding the privately archived trial maps;
+  the originally delivered source set was **38,842,329 bytes**. More detailed PNGs
+  compress less; retained original/delivered source-only predecessors are not
+  loaded by the GLBs. No GPU-time or FPS claim is made from CPU renders.
 - [checks.json](checks.json) records actual current-source commands/results;
-  every receipt is generated after the final save/export. Historical evidence
-  is not relabeled as final-source validation.
+  current-source receipts are regenerated after the cleanup save/export. Earlier
+  executions remain anchored to their exact pre-cleanup revision in
+  [review-r1-before-checks.json](review-r1-before-checks.json), rather than relabeled
+  as current passes. Unchanged GLB renders retain their original execution profiles
+  and pixel hashes; refreshed galleries bind them to the new source content set.
 
 ## Reproduce / review / rollback
 
@@ -154,7 +161,7 @@ committed sources/maps and a verified original audit cache:
 BASES='environment/hex_ground_moss environment/hex_ground_grass environment/hex_ground_dirt environment/hex_ground_leaf_litter environment/hex_ground_pine_duff'
 IDS="$(python3 -c 'from tools.asset_pack.hex_ground import IDS; print(" ".join(IDS))')"
 python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label seams-idempotence idempotence $BASES
-python3 -m tools.asset_pack.check $IDS
+python3 -m tools.asset_pack.check $BASES
 python3 -m tools.asset_pack.worker tools/asset_pack/verify_ai_textures_blender.py --label seams-preservation
 python3 -m tools.asset_pack.worker tools/asset_pack/verify_style_blender.py --label seams-style $IDS
 python3 -m tools.asset_pack.worker tools/asset_pack/verify_painted_blender.py --label seams-painted $IDS

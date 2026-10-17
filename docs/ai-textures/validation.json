@@ -4,7 +4,7 @@
   "assets": {
     "environment/hex_ground_moss": {
       "source_before_sha256": "ff24c6bfa63c460294b37f979ebc5ab5af83a06518b6019c4f5bbd4a536f713e",
-      "source_after_sha256": "df59d2a838420eb8365f790b4fa64c7aac583fd6d248fe771ce41ab82bbca382",
+      "source_after_sha256": "fe816562aac45f5a793cdc186f3b6bdccaaf1d9bdb6aae5c3c701c57e97c41f9",
       "source_preservation": {
         "geometry_uv_slots_hierarchy_actions_equal": true,
         "all_other_nodes_defaults_render_settings_equal": true,
@@ -200,28 +200,8 @@
           }
         },
         "original_image_count": 10,
-        "new_image_count": 4,
+        "new_image_count": 3,
         "retained_owned_image_proofs": {
-          "ai_texture_poc_v1_moss_07e8e5450f85992c0139d47e_base_color": {
-            "method": "packed_png8_exact_v1",
-            "packed_sha256": "78c17856d238be55343bce8daca101e373b22294b29e6f751a3a4d546f0af6cc",
-            "samples_sha256": "c96e00b04014c97fdf543b8c477f499d8c3c7382a66840f1f0f26a90c7b67ae7",
-            "alpha_sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
-            "dimensions": [
-              1024,
-              1024
-            ],
-            "channels": 3,
-            "bit_depth": 8,
-            "color_type": 2,
-            "interlace": 0,
-            "decoded_alpha_samples": 1048576,
-            "color_space": "sRGB",
-            "alpha_mode": "STRAIGHT",
-            "source": "FILE",
-            "is_float": false,
-            "use_view_as_render": false
-          },
           "ai_texture_poc_v1_moss_ed30dd0aef9701202bbeffa9_base_color": {
             "method": "packed_png8_exact_v1",
             "packed_sha256": "3cddea1022d0e5bec5abcc7bbbe6ba31b9ace7bcd697013225fc033dd86eb11d",
@@ -574,7 +554,7 @@
     },
     "environment/hex_ground_grass": {
       "source_before_sha256": "f06ba20e2ef318b5e7ad5f818e99e5f551d7ef08edb1015622378d92c42539e1",
-      "source_after_sha256": "31777b3e755e04ecf596fa5b89a421ed0f658b8b8fed5faff1900eed65b25257",
+      "source_after_sha256": "0fee2223bf889d4b054935d7ed4935029951a2d559003e7bce4af299853ecdb9",
       "source_preservation": {
         "geometry_uv_slots_hierarchy_actions_equal": true,
         "all_other_nodes_defaults_render_settings_equal": true,
@@ -770,28 +750,8 @@
           }
         },
         "original_image_count": 10,
-        "new_image_count": 4,
+        "new_image_count": 3,
         "retained_owned_image_proofs": {
-          "ai_texture_poc_v1_grass_65af47ea7871995b2332890a_base_color": {
-            "method": "packed_png8_exact_v1",
-            "packed_sha256": "5b9a256b089be2abd1d17cbb0cad1da7deb32c8623eb1195a192ea817ca3844b",
-            "samples_sha256": "0500c9f4550adcd49e5f4aba0fdbf9b54b0acaa4b2ab98ecf21836d55972b1be",
-            "alpha_sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
-            "dimensions": [
-              1024,
-              1024
-            ],
-            "channels": 3,
-            "bit_depth": 8,
-            "color_type": 2,
-            "interlace": 0,
-            "decoded_alpha_samples": 1048576,
-            "color_space": "sRGB",
-            "alpha_mode": "STRAIGHT",
-            "source": "FILE",
-            "is_float": false,
-            "use_view_as_render": false
-          },
           "ai_texture_poc_v1_grass_82367c4e08670ffc439a2085_base_color": {
             "method": "packed_png8_exact_v1",
             "packed_sha256": "f19097befd7adea74e763daa3ad070a07e8e74e25cfb1b3b18dcf52fd2c10bea",
@@ -1144,7 +1104,7 @@
     },
     "environment/hex_ground_dirt": {
       "source_before_sha256": "e58ec4f12651a09d6d5e7b6d287b0c8e16fcdb23df09ae71136fd2d0e10cfed6",
-      "source_after_sha256": "516b6f02b7c469cd1a69280d8ac93e812f45ee54171b236aabd14e27ca3736f3",
+      "source_after_sha256": "58bd724c11171ebe16dc4480d8ea2e68a152520a9a8409e910dcecaadaf4e6da",
       "source_preservation": {
         "geometry_uv_slots_hierarchy_actions_equal": true,
         "all_other_nodes_defaults_render_settings_equal": true,
@@ -1340,32 +1300,12 @@
           }
         },
         "original_image_count": 10,
-        "new_image_count": 4,
+        "new_image_count": 3,
         "retained_owned_image_proofs": {
           "ai_texture_poc_v1_dirt_73a3f7f38918363257637188_base_color": {
             "method": "packed_png8_exact_v1",
             "packed_sha256": "517c953ae826190504038e6b9929fd90b97d4d8e9ff71b583cc34da8ab9fe7d1",
             "samples_sha256": "e6558e56f293a71db53ec310bace5d571531a9f81d9784d8df5bae8543037e75",
-            "alpha_sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
-            "dimensions": [
-              1024,
-              1024
-            ],
-            "channels": 3,
-            "bit_depth": 8,
-            "color_type": 2,
-            "interlace": 0,
-            "decoded_alpha_samples": 1048576,
-            "color_space": "sRGB",
-            "alpha_mode": "STRAIGHT",
-            "source": "FILE",
-            "is_float": false,
-            "use_view_as_render": false
-          },
-          "ai_texture_poc_v1_dirt_7f5fec242f671e1d6da69dea_base_color": {
-            "method": "packed_png8_exact_v1",
-            "packed_sha256": "f88bce2750380f75b4a8d655c8819daa8efe0d8d2f2c0206e72ffd16b877d1eb",
-            "samples_sha256": "15620e1bd716800345ee3e77cbc70fcd7fa02b3215ccfdc7462ca416b50852b1",
             "alpha_sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
             "dimensions": [
               1024,
@@ -1714,7 +1654,7 @@
     },
     "environment/hex_ground_leaf_litter": {
       "source_before_sha256": "e1fdfc3811ae8e44c006ec5f75a8560657cc01fa4b56b8bfdae8b7eb5c1ca0b7",
-      "source_after_sha256": "7a395496828a6bf154a0fe60c660e2f6a5fe4fb9b669f0de24d8ae0bdc9cf8ba",
+      "source_after_sha256": "5e0d84b5fb7e1a3567f4d960b48b048a7b3163d9b718c632f39c82d9c27346c3",
       "source_preservation": {
         "geometry_uv_slots_hierarchy_actions_equal": true,
         "all_other_nodes_defaults_render_settings_equal": true,
@@ -1910,32 +1850,12 @@
           }
         },
         "original_image_count": 10,
-        "new_image_count": 4,
+        "new_image_count": 3,
         "retained_owned_image_proofs": {
           "ai_texture_poc_v1_leaf_litter_4a839095d5504662e786c90a_base_color": {
             "method": "packed_png8_exact_v1",
             "packed_sha256": "5b86ec50ae7f3efc5ae7e6471743b5499463d6460abb00c051a40da02ab5299f",
             "samples_sha256": "1958b429e0eec95bd9a6f42b603408f7ac56447561efd5491d35d8b9d6ed8d0c",
-            "alpha_sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
-            "dimensions": [
-              1024,
-              1024
-            ],
-            "channels": 3,
-            "bit_depth": 8,
-            "color_type": 2,
-            "interlace": 0,
-            "decoded_alpha_samples": 1048576,
-            "color_space": "sRGB",
-            "alpha_mode": "STRAIGHT",
-            "source": "FILE",
-            "is_float": false,
-            "use_view_as_render": false
-          },
-          "ai_texture_poc_v1_leaf_litter_9b36249d7c92ad190038826d_base_color": {
-            "method": "packed_png8_exact_v1",
-            "packed_sha256": "680aae5edb246d154eba0089aa1ab8a68c3ab860cbe75eeaf50ed40c419129a7",
-            "samples_sha256": "71e1bdf7daa83f8e97be7b80c4f55b5863c4692f91482f46ccda375aa9ce6386",
             "alpha_sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
             "dimensions": [
               1024,
@@ -2284,7 +2204,7 @@
     },
     "environment/hex_ground_pine_duff": {
       "source_before_sha256": "2ab9df3da6e77b57e1944d122675bbffe7a705700d37713206f64a462c49a002",
-      "source_after_sha256": "13a313cdecb2fdf0ec8b0a38cfef6b6d6798121b6fb7e6718bae38e2375c7097",
+      "source_after_sha256": "a39b6c2146fab525b9be1d1eff4767a3d6ae38ca29df94f72b4ebc74e79a242b",
       "source_preservation": {
         "geometry_uv_slots_hierarchy_actions_equal": true,
         "all_other_nodes_defaults_render_settings_equal": true,
@@ -2480,32 +2400,12 @@
           }
         },
         "original_image_count": 10,
-        "new_image_count": 4,
+        "new_image_count": 3,
         "retained_owned_image_proofs": {
           "ai_texture_poc_v1_pine_duff_1a2b50f62f17bba29404383f_base_color": {
             "method": "packed_png8_exact_v1",
             "packed_sha256": "4fa470be1060519a35ffb3d46818273d8b32163c073cd5ea019e7bcddbc04b67",
             "samples_sha256": "a4fdb3892d66f27cca3a833ae8bb9279bf0b48e4eff04a65436c6e95d2448d8e",
-            "alpha_sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
-            "dimensions": [
-              1024,
-              1024
-            ],
-            "channels": 3,
-            "bit_depth": 8,
-            "color_type": 2,
-            "interlace": 0,
-            "decoded_alpha_samples": 1048576,
-            "color_space": "sRGB",
-            "alpha_mode": "STRAIGHT",
-            "source": "FILE",
-            "is_float": false,
-            "use_view_as_render": false
-          },
-          "ai_texture_poc_v1_pine_duff_82a58f9299de5184cb6c7b47_base_color": {
-            "method": "packed_png8_exact_v1",
-            "packed_sha256": "5dae00a758ee6cbba923642b2d9fe454371f5204b7d548dc50a63dbc6d838a1c",
-            "samples_sha256": "82e7d033051acdefe6da91c4d237b725acef98ca97ff2a975a2406f8f2f7911c",
             "alpha_sha256": "f5fb04aa5b882706b9309e885f19477261336ef76a150c3b4d3489dfac3953ec",
             "dimensions": [
               1024,

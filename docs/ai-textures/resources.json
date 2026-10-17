@@ -21,9 +21,9 @@
       "before_decoded_rgba8_bytes_no_mips": 15728640,
       "after_decoded_rgba8_bytes_no_mips": 15728640,
       "source_bytes_before": 3141844,
-      "source_bytes_after": 6484333,
+      "source_bytes_after": 5311297,
       "retained_original_source_image_count": 10,
-      "added_source_color_images": 4
+      "added_source_color_images": 3
     },
     {
       "id": "environment/hex_ground_grass",
@@ -46,9 +46,9 @@
       "before_decoded_rgba8_bytes_no_mips": 15728640,
       "after_decoded_rgba8_bytes_no_mips": 15728640,
       "source_bytes_before": 3196312,
-      "source_bytes_after": 6545423,
+      "source_bytes_after": 5387914,
       "retained_original_source_image_count": 10,
-      "added_source_color_images": 4
+      "added_source_color_images": 3
     },
     {
       "id": "environment/hex_ground_dirt",
@@ -71,9 +71,9 @@
       "before_decoded_rgba8_bytes_no_mips": 15728640,
       "after_decoded_rgba8_bytes_no_mips": 15728640,
       "source_bytes_before": 2518170,
-      "source_bytes_after": 5324159,
+      "source_bytes_after": 4349935,
       "retained_original_source_image_count": 10,
-      "added_source_color_images": 4
+      "added_source_color_images": 3
     },
     {
       "id": "environment/hex_ground_leaf_litter",
@@ -96,9 +96,9 @@
       "before_decoded_rgba8_bytes_no_mips": 15728640,
       "after_decoded_rgba8_bytes_no_mips": 15728640,
       "source_bytes_before": 3168543,
-      "source_bytes_after": 6348062,
+      "source_bytes_after": 5238087,
       "retained_original_source_image_count": 10,
-      "added_source_color_images": 4
+      "added_source_color_images": 3
     },
     {
       "id": "environment/hex_ground_pine_duff",
@@ -121,9 +121,9 @@
       "before_decoded_rgba8_bytes_no_mips": 15728640,
       "after_decoded_rgba8_bytes_no_mips": 15728640,
       "source_bytes_before": 2697344,
-      "source_bytes_after": 5919690,
+      "source_bytes_after": 4774966,
       "retained_original_source_image_count": 10,
-      "added_source_color_images": 4
+      "added_source_color_images": 3
     },
     {
       "id": "environment/hex_path_straight",

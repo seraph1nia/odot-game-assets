@@ -1,138 +1,154 @@
 {
   "runtime": "Blender 5.2.2 LTS / d13f752e3b9c",
-  "scope": "Bounded five-base-ground correction; other9 sources/GLBs unchanged from delivered predecessor.",
+  "scope": "Review R1/review-1 preservation-first exclusion of five unused new trial maps; export only five base sources, read-only inspection of other9.",
+  "source_sha256": {
+    "environment/hex_ground_moss": "fe816562aac45f5a793cdc186f3b6bdccaaf1d9bdb6aae5c3c701c57e97c41f9",
+    "environment/hex_ground_grass": "0fee2223bf889d4b054935d7ed4935029951a2d559003e7bce4af299853ecdb9",
+    "environment/hex_ground_dirt": "58bd724c11171ebe16dc4480d8ea2e68a152520a9a8409e910dcecaadaf4e6da",
+    "environment/hex_ground_leaf_litter": "5e0d84b5fb7e1a3567f4d960b48b048a7b3163d9b718c632f39c82d9c27346c3",
+    "environment/hex_ground_pine_duff": "a39b6c2146fab525b9be1d1eff4767a3d6ae38ca29df94f72b4ebc74e79a242b",
+    "environment/hex_path_straight": "ab6c908440e275abc5e7dbf56a000718a48b90c4fb89ab91a008736d4309df95",
+    "environment/hex_path_turn_120": "709e078630f4a04539aa36df1cc02bc33c6eef50d9b51f5cbbf68ce3fd22b33e",
+    "environment/hex_path_turn_60": "9dfcb3f98d8a46c0a6a338c07f145dd425367a29ba47cd09dd423deed863799d",
+    "environment/hex_path_end": "dc8eeefd6691222d936e38c2aba6956ad2293f94a0e791138556f0ecbf82a6de",
+    "environment/hex_river_overlay_straight": "157540a5322dc64c9a9560f33af71b0bf9a07c8c3ea01e5779e5cb821c0d7b47",
+    "environment/hex_river_overlay_turn_120": "8ca2585491bd40f7fef9ad7018eff6b0ebfc838e4e6d651a2a607630559d3c4b",
+    "environment/hex_river_overlay_turn_60": "5c1d31fd0d88f0fb07722f64783cf028ff36418ff87b576d99dc07363ce7fcaf",
+    "environment/hex_river_overlay_end": "7ad3c67361296d5246e9b235a0ec30abd603cae7fea5f2a49030a531ec5d4426",
+    "buildings/archery_range": "12df620058ac47b0e9da9390d4d3e6c643e7006ab558c8598fc4914795529e3c"
+  },
+  "export_sha256": {
+    "environment/hex_ground_moss": "36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2",
+    "environment/hex_ground_grass": "dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887",
+    "environment/hex_ground_dirt": "fd3043fc16880b7110fd01d4c769ae414efb068dc927a9f80f8d2841f3777bc9",
+    "environment/hex_ground_leaf_litter": "18fd0e594b0447e0e3a6c66b175049880604ff4a2bc5ef824e1dfc03633d4665",
+    "environment/hex_ground_pine_duff": "200eabf0233bc157ceeb74dd1b75a32b8cbe35ae1568c7c1e421cbdd3510a251",
+    "environment/hex_path_straight": "f9f341dc4f86854c3376b9ae01c7d4890519ac8ff9ca2c670e29a4666261c35a",
+    "environment/hex_path_turn_120": "5b2b385c1ea35597c13ceacdf327c002c005b849f0df1f40f41db91c6491e149",
+    "environment/hex_path_turn_60": "0f7a5c775d34f49029353e98dbe2081bd9492d3467a1fe3076d10c193f229642",
+    "environment/hex_path_end": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d",
+    "environment/hex_river_overlay_straight": "6ef4464cd942b99222db78d166eaf0097c6207a3f2f7b55cb298066346f74b54",
+    "environment/hex_river_overlay_turn_120": "7bdd54af841f3794e1578165c1f2e174f7f86eeecb497ccf506ff845ef058a70",
+    "environment/hex_river_overlay_turn_60": "491a64fdef47a1bc1d889c6609f42b5a73d961c8563cd99908873208614125d1",
+    "environment/hex_river_overlay_end": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c",
+    "buildings/archery_range": "b10479a00e15116e1d3b09d017cf55c0dc8d1570e78064c5033aea6176a8d231"
+  },
   "checks": [
     {
-      "purpose": "Selected export and round trip (ground only)",
-      "command": "python3 -m tools.asset_pack.check $IDS",
-      "result": "PASS: 13 source-preserving exports and GLB round trips; unrelated delivered artifacts preserved",
-      "log": ".cache/ai-textures-seams/final.log",
-      "log_sha256": "a0b52c2373d020c1fab363c343c3770afca586ea0db94734f885b86f4a6fa1a0"
+      "purpose": "Export and round-trip only the five cleaned base sources",
+      "command": "BLENDER=/home/bart/.local/opt/blender-5.2.2-linux-x64/blender python3 -m tools.asset_pack.check --force environment/hex_ground_moss environment/hex_ground_grass environment/hex_ground_dirt environment/hex_ground_leaf_litter environment/hex_ground_pine_duff",
+      "started_utc": "2026-10-17T01:40:50.750023+00:00",
+      "result": "PASS",
+      "log": ".cache/asset-check/logs/review-r1-five-base-export.log",
+      "log_sha256": "bf34b6818432bf39e268897ee3ff725c9824fa929ed6cfb8cdc37e09dd2197e4"
     },
     {
-      "purpose": "Full-source semantic idempotence, corrected five bases",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label seams-idempotence-final idempotence $BASES",
-      "result": "PASS: 5 complete captures equal, no datablock growth",
-      "log": ".cache/asset-check/logs/seams-idempotence-final.log",
-      "log_sha256": "3d117b1d4cb6d2b73094f5332ebbb87dce9c67193cef5e0ea6160151d423c5b5"
+      "purpose": "Independent original and delivered predecessor preservation, all14",
+      "command": "BLENDER=/home/bart/.local/opt/blender-5.2.2-linux-x64/blender python3 -m tools.asset_pack.worker tools/asset_pack/verify_ai_textures_blender.py --label review-r1-preservation",
+      "started_utc": "2026-10-17T01:40:54.674178+00:00",
+      "result": "PASS",
+      "log": ".cache/asset-check/logs/review-r1-preservation-command.log",
+      "log_sha256": "ebaddcef2ac231c9511b54839e0a25657c89777725a6cd56c6e30fb2c2b15f24"
     },
     {
-      "purpose": "Original and immediate predecessor preservation",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_ai_textures_blender.py --label seams-preservation-final",
-      "result": "PASS: all14 original source/export and immediate-delivered-predecessor audits; exact old maps, protected source state, geometry/UVs/non-color channels/animation",
-      "log": ".cache/asset-check/logs/seams-preservation-final.log",
-      "log_sha256": "cf34e861a7fbdd2f3a2df7263d13d87097ead89474d5eb6091d60857ae295006"
+      "purpose": "Read-only saved-source style inspection, all14",
+      "command": "BLENDER=/home/bart/.local/opt/blender-5.2.2-linux-x64/blender python3 -m tools.asset_pack.worker tools/asset_pack/verify_style_blender.py --label review-r1-style environment/hex_ground_moss environment/hex_ground_grass environment/hex_ground_dirt environment/hex_ground_leaf_litter environment/hex_ground_pine_duff environment/hex_path_straight environment/hex_path_turn_120 environment/hex_path_turn_60 environment/hex_path_end environment/hex_river_overlay_straight environment/hex_river_overlay_turn_120 environment/hex_river_overlay_turn_60 environment/hex_river_overlay_end buildings/archery_range",
+      "started_utc": "2026-10-17T01:42:01.592852+00:00",
+      "result": "PASS",
+      "log": ".cache/asset-check/logs/review-r1-style-command.log",
+      "log_sha256": "11e380dc46c41efa73aa5b545dde773dc6e7f42633c01ea62f3bd1904da50296"
     },
     {
-      "purpose": "Source style",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_style_blender.py --label seams-all14-style $ALL14",
-      "result": "PASS: all14 saved sources and current GLBs",
-      "log": ".cache/asset-check/logs/seams-all14-style.log",
-      "log_sha256": "d03e4af7508404a06199bca8c3939228ee55ed310e41007ec468fe1d1cd1f011"
+      "purpose": "Read-only packed images, UVs and portable channels, all14",
+      "command": "BLENDER=/home/bart/.local/opt/blender-5.2.2-linux-x64/blender python3 -m tools.asset_pack.worker tools/asset_pack/verify_painted_blender.py --label review-r1-painted environment/hex_ground_moss environment/hex_ground_grass environment/hex_ground_dirt environment/hex_ground_leaf_litter environment/hex_ground_pine_duff environment/hex_path_straight environment/hex_path_turn_120 environment/hex_path_turn_60 environment/hex_path_end environment/hex_river_overlay_straight environment/hex_river_overlay_turn_120 environment/hex_river_overlay_turn_60 environment/hex_river_overlay_end buildings/archery_range",
+      "started_utc": "2026-10-17T01:42:03.456984+00:00",
+      "result": "PASS",
+      "log": ".cache/asset-check/logs/review-r1-painted-command.log",
+      "log_sha256": "7fe4b39be154938c87da6e460915a614c8ee4dc4a842dfe9ec1e49e288094987"
     },
     {
-      "purpose": "Packed images / UV / portable channels",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_painted_blender.py --label seams-all14-painted $ALL14",
-      "result": "PASS: all14 saved sources and current GLBs",
-      "log": ".cache/asset-check/logs/seams-all14-painted.log",
-      "log_sha256": "7a6d161052b5c5355df257768f27386a25eb1680a9265b375979bab3285ba678"
+      "purpose": "Current-source ground, rotations, connectors and stacks, all13",
+      "command": "BLENDER=/home/bart/.local/opt/blender-5.2.2-linux-x64/blender python3 -m tools.asset_pack.worker tools/asset_pack/verify_ground_blender.py --label review-r1-ground --output docs/ai-textures/ground-verification.json",
+      "started_utc": "2026-10-17T01:42:05.207312+00:00",
+      "result": "PASS",
+      "log": ".cache/asset-check/logs/review-r1-ground-command.log",
+      "log_sha256": "7b29a5f057a86f814545a6e60767d0f4f06f24d5de7284ce9483728005d578ea"
     },
     {
-      "purpose": "Current-source ground and imported geometry interfaces",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_ground_blender.py --label seams-ground-final --output docs/ai-textures/ground-verification.json",
-      "result": "PASS: all13 current source/GLB bounds, rotated interfaces, matching neighbors, 48 real root rotations and 40 stacks",
-      "log": ".cache/asset-check/logs/seams-ground-final.log",
-      "log_sha256": "398544b6faf09a7b7e1d9682639702320d4c37fba2a077ecb51378a799cd5e0b"
+      "purpose": "Isolated texture ownership, manual-edit guards and pixel recipe fixtures",
+      "command": "BLENDER=/home/bart/.local/opt/blender-5.2.2-linux-x64/blender python3 -m tools.asset_pack.worker tools/asset_pack/test_ai_textures_blender.py --label review-r1-fixtures",
+      "started_utc": "2026-10-17T01:42:19.005410+00:00",
+      "result": "PASS",
+      "log": ".cache/asset-check/logs/review-r1-fixtures-command.log",
+      "log_sha256": "0adeb261ea5d16be608207c97343e6f8587c93b1f26d42b7ce9ef52e966bc458"
     },
     {
-      "purpose": "Texture guards and pixel-recipe regressions",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/test_ai_textures_blender.py --label seams-fixtures-final",
-      "result": "PASS: 7 fixtures, including manual-binding/image edit refusal, predecessor proof, atlas-frame exclusion, smaller motifs, no constant dark edge on flat input",
-      "log": ".cache/asset-check/logs/seams-fixtures-final.log",
-      "log_sha256": "3249c869c467dcc24ede6b847d15c016e9a2388b52fb06ffcb708cf5fb6e3a34"
+      "purpose": "Refresh source-dependent handoff, resources, pair gallery and render manifest",
+      "command": "BLENDER=/home/bart/.local/opt/blender-5.2.2-linux-x64/blender python3 .cache/review-r1-package.py",
+      "started_utc": "2026-10-17T01:42:25.275417+00:00",
+      "result": "PASS",
+      "log": ".cache/asset-check/logs/review-r1-report.log",
+      "log_sha256": "d331c19e561bf097a6e5e817f77d1fa4f028b4569fb373b110a65cf62f4622a6"
     },
     {
-      "purpose": "Shared style fixtures",
-      "command": "mise run style-tests",
-      "result": "PASS: existing shared style/export fixtures",
-      "log": ".cache/asset-check/logs/style-tests.log",
-      "log_sha256": "3696b5bcce36e678f84d1c7edec21c03b139654128f01b24ec788426a3dbea77"
+      "purpose": "Refresh three-revision gallery identity while retaining exact render profiles",
+      "command": "BLENDER=/home/bart/.local/opt/blender-5.2.2-linux-x64/blender python3 -m tools.asset_pack.ai_texture_seams_report",
+      "started_utc": "2026-10-17T01:42:30.309920+00:00",
+      "result": "PASS",
+      "log": ".cache/asset-check/logs/review-r1-seams-report.log",
+      "log_sha256": "42b862e1f6108195cab6344f519aa0909b604ba5e6e20e0c31d5e4e42385efb9"
     },
     {
-      "purpose": "Final corrected actual GLB studio views",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_review.py --label seams-after-final after $IDS mixed neighbors",
-      "result": "PASS: 35 ground images refreshed; 2 unchanged Archery views retain their original GLB/profile identity",
-      "log": ".cache/asset-check/logs/seams-after-final.log",
-      "log_sha256": "ee1870341db60c03ecca577796ce21ea1603eeb8e01661d0db5ada911e255939"
-    },
-    {
-      "purpose": "Actual repeated/mixed GLB grids: before",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_seams_review.py --label seams-grids-before before",
-      "result": "PASS: all5 same-family grids and mixed ground grid with matched settings; implementation-worker inspected final pixels",
-      "log": ".cache/asset-check/logs/seams-grids-before.log",
-      "log_sha256": "2a823d5dd787feb8d21ec921548dc2309a30b46247ebbe2387ed41da3f491aa9"
-    },
-    {
-      "purpose": "Actual repeated/mixed GLB grids: pr14",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_seams_review.py --label seams-grids-pr14 pr14",
-      "result": "PASS: all5 same-family grids and mixed ground grid with matched settings; implementation-worker inspected final pixels",
-      "log": ".cache/asset-check/logs/seams-grids-pr14.log",
-      "log_sha256": "81a506d31442af30d8308bc4e417e475972e289591715a34e03171dd2671ce10"
-    },
-    {
-      "purpose": "Actual repeated/mixed GLB grids: after",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_seams_review.py --label seams-grids-final after",
-      "result": "PASS: all5 same-family grids and mixed ground grid with matched settings; implementation-worker inspected final pixels",
-      "log": ".cache/asset-check/logs/seams-grids-final.log",
-      "log_sha256": "6cb8f0c10a758094c144fcb4307259cefe6045bb910ee873a5440884eb18a33c"
-    },
-    {
-      "purpose": "Full fast suite / lint / syntax / gallery/hash contracts",
-      "command": "mise run check",
-      "result": "PASS: 144 tests and 2 inline JavaScript programs; no check exclusions or waivers",
-      "log": ".cache/ai-textures-seams/check-final-delivery.log",
-      "log_sha256": "6292920070fd84613b2fe9df0dbd65a13a5c2ac4e8b824feb2bac2d17803d317"
-    },
-    {
-      "purpose": "Final pair/triple packaging and derived sheets",
-      "command": "python3 -m tools.asset_pack.ai_texture_report && python3 -m tools.asset_pack.ai_texture_seams_report; magick montage -label %f <documented current terrain render groups> -tile <3x2/2x4/4x2> -geometry <320x320/480x330>+4+4 -depth 8 <sheet.png>",
-      "result": "PASS: fresh pair/triple galleries and current ground/neighbor/overlay sheets; delivered sheets retained in seams/pr14-sheets",
-      "log": ".cache/ai-textures-seams/report-final.log",
-      "log_sha256": "62f9d8096204bc0dba43b01b618deb2adee3a7039998f88d2c2e9713bfcb6f93"
+      "purpose": "Focused executable texture contracts, hash-bound receipts and gallery consumers",
+      "command": "BLENDER=/home/bart/.local/opt/blender-5.2.2-linux-x64/blender python3 -m unittest tools.asset_pack.test_ai_textures",
+      "started_utc": "2026-10-17T01:42:30.510057+00:00",
+      "result": "PASS",
+      "log": ".cache/asset-check/logs/review-r1-texture-contracts.log",
+      "log_sha256": "47a0ced0e88a55369af73ba4710d46904631ff7a6c1d4905986de2d4aef6827a"
     }
   ],
   "artifact_sha256": {
-    "validation.json": "f9fc43e0b17f0aa8b61c26e41e11d4a3f22675c09102876ee3e16dec21d44e0f",
-    "ground-verification.json": "d064b76b5fb6edd99579218f07e9a6a14142e8a3c07d4d7d0807885a007fd436",
-    "handoff.json": "272da552326c6c6a2ee16e5d4790f240721cbd94ec12c4d3e6d14a59322e263f",
-    "resources.json": "fbde8fcacb8d0669171f9b54f0bab0355288ba21099a76e0a08081cc07dac46d",
-    "renders.json": "21144c662e7bae234bf4e710b63e38b01830505648ca1b63f07f1bdccdd673c3",
-    "seams/comparisons.json": "df1891c58375f91da3ae663441bd6624d7c77e451b06b2e1234e1bd3791188d1",
+    "validation.json": "27891b5bd9c1699a96ac0890d934ef8b6f80a5c207f6f88ff591983059a4c5d2",
+    "ground-verification.json": "4c3f635d07aeb8836b41341a966f3c5434dec43b4dfcce455321ccc506d3eca2",
+    "handoff.json": "0005558998451f929fcd5ccc845cb501f2e64b4d4db6540613e42f04a279dbfc",
+    "resources.json": "c7a633f39c3528a2c39881d0cfafe08c13380424abe3973d3fce21a6cb2b1f82",
+    "renders.json": "966af91edbcd349c2f27d29673c1afc6a6068305272126f0f233d0f6418413cf",
+    "seams/comparisons.json": "b48a5f05383ed1a597078e7bd23a472e72ab55ab2e739efd1ae309c90790066c",
     "seams/baseline.json": "5c6583752951c440a6e9d6d594d461e3060f9d43886d89b46ae5db94997bfa23",
     "ground-sheet.png": "ed628cd9bb575d20f752f1e3ee9f5199e134d7b9c291dd0e1a8b7a523544d3b9",
     "neighbor-sheet.png": "771a6852a2a66d4002e77456a2d31249e09b2c3502890e8d3e248de9f4d45090",
     "overlay-sheet.png": "565208a41e056037c2458849824dd3372134981677fe64b66865c26ec456040e",
-    "review.html": "ca3d1f2f28bfac235a05dc59281a3aeffbb650cab252a2044c7717de5e626439",
-    "seams/review.html": "47ad8a8d5e3cb6f2f5ea0e76f377fcfa2d3ca4c0d125bc41bb0f0d7f88425d26",
-    "seams/game-diagnosis.json": "6dcc20bb25d27df95428d6240d0261ad3545e9eaec30ac9bd481e9d81399d7db"
+    "review.html": "d935fabd0957c29c91866bb8f9f4aea3789892083381abbbcee7a58e2de5cb09",
+    "seams/review.html": "6475b9dae4502cc61a6b73040586508bd958c04f99f59fef28f3d246c6af3dc8",
+    "seams/game-diagnosis.json": "6dcc20bb25d27df95428d6240d0261ad3545e9eaec30ac9bd481e9d81399d7db",
+    "seams/review-r1-cleanup.json": "bc8d7c022db89c141626063ba96fa37d6c7f63bd5c6f5b2e82615055e826db8b"
   },
+  "historical_execution_receipts": [
+    {
+      "path": "seams/review-r1-before-checks.json",
+      "sha256": "665f8c8ee87e0ac8c8d5a720410e8fc509df5cae98c0a0dc21b98b3c5f71525c",
+      "revision": "dbb4a74e34a450cb5a5bc4c38cd9544c1e8ce48f"
+    },
+    {
+      "path": "seams/review-r1-before-poc-checks.json",
+      "sha256": "665f8c8ee87e0ac8c8d5a720410e8fc509df5cae98c0a0dc21b98b3c5f71525c",
+      "revision": "dbb4a74e34a450cb5a5bc4c38cd9544c1e8ce48f"
+    }
+  ],
+  "retained_render_evidence": "All14 GLBs byte-identical before/after cleanup. Every original, PR14 and current render/profile/grid remains byte-identical; no new render execution claimed. Source-dependent content identities regenerated by the report consumers.",
   "game_gpu_acceptance": {
     "status": "PENDING",
     "reason": "Successor must land on assets main before separate game task re-pins and performs actual GPU acceptance. This is not a waiver of the prior dark-border/repetition finding."
   },
-  "retained_failed_diagnostics": [
-    {
-      "log": ".cache/ai-textures-seams/check.log",
-      "reason": "Unnecessary all14 export reproduced 170 low-byte UV differences in scoped-out Archery GLB; fast hashes correctly rejected stale receipts. Identical prior JSON and unchanged source/images confirmed; original delivered GLB/validation row restored from verified predecessor. No Archery change ships. Final 144-test run passes without relaxing any contract."
-    },
-    {
-      "path": ".cache/ai-textures-seams/trial-edge",
-      "reason": "Stronger intermediate hue mixing made pale green dirt seams; reduced before final export and current evidence."
-    }
-  ],
   "notes": [
-    "All older checks retained separately in seams/pr14-checks.json; they are historical, not current passes.",
-    "Logs stay local in the disposable cache; image/source/export artifacts and hashes are committed.",
-    "No browser bridge, GPU successor game run, new install, builder, shared terrain system or unrelated art change."
+    "Private archive re-read and every inventory entry verified before removal; exact archive/source/trial bytes remain outside delivery.",
+    "Each cleaned source saved once; full capture and image-property equality checked against exactly one removed datablock before and after reload.",
+    "No source guard or independent ownership assertion changed; no broad orphan purge, builder, install or unrelated export.",
+    "ImageMagick initially rewrote only timestamp metadata in two derived foundation crops; exact prior bytes restored and retained after independent generated sample/alpha equality checks. No historical render/profile relabeled.",
+    "Only the focused texture checks ran in this review round; full repository Test/lint/publication remain with the outer executor."
+  ],
+  "resolved_findings": [
+    "R1",
+    "review-1"
   ]
 }
