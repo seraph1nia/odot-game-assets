@@ -101,6 +101,7 @@ class TextureSuccessors(unittest.TestCase):
             root = Path(temp)
             aid = 'environment/hex_ground_moss'
             for name in ('docs/ai-textures/baseline.json', 'docs/ai-textures/validation.json',
+                         'docs/ai-textures/seams/baseline.json',
                          'tools/asset_pack/verify_ai_textures_blender.py',
                          'sources/' + aid + '.blend', 'exports/' + aid + '.glb'):
                 target = root / name
@@ -118,6 +119,7 @@ class TextureSuccessors(unittest.TestCase):
             root = Path(temp)
             aid = 'environment/hex_ground_moss'
             for name in ('docs/ai-textures/baseline.json', 'docs/ai-textures/validation.json',
+                         'docs/ai-textures/seams/baseline.json',
                          'tools/asset_pack/verify_ai_textures_blender.py',
                          'sources/' + aid + '.blend', 'exports/' + aid + '.glb'):
                 target = root / name
@@ -265,6 +267,81 @@ class ReviewOutputs(unittest.TestCase):
         self.assertEqual(len(invalid), 1)
         self.assertEqual(invalid[0]['bytes'], 0)
         self.assertEqual(invalid[0]['decoded_rgba8_bytes'], 0)
+
+
+class SeamCorrectionOutputs(unittest.TestCase):
+    def test_delivered_predecessor_cannot_be_removed_or_rebound(self):
+        aid = 'environment/hex_ground_moss'
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            for name in ('docs/ai-textures/baseline.json', 'docs/ai-textures/validation.json',
+                         'docs/ai-textures/seams/baseline.json', 'tools/asset_pack/verify_ai_textures_blender.py',
+                         'sources/' + aid + '.blend', 'exports/' + aid + '.glb'):
+                target = root / name
+                target.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(ROOT / name, target)
+            path = root / 'docs/ai-textures/validation.json'
+            report = json.loads(path.read_text())
+            predecessor(root, aid, 'sources')
+            for damage in ('missing', 'source_sha256', 'source_signature_before', 'all_predecessor_images_exact'):
+                broken = copy.deepcopy(report)
+                row = broken['assets'][aid]
+                if damage == 'missing':
+                    del row['immediate_predecessor']
+                else:
+                    row['immediate_predecessor'][damage] = False if damage == 'all_predecessor_images_exact' else '0' * 64
+                path.write_text(json.dumps(broken))
+                with self.subTest(damage=damage), self.assertRaises(AssertionError):
+                    predecessor(root, aid, 'sources')
+
+    def test_three_revision_evidence_binds_pixels_profiles_and_export_sets(self):
+        from tools.asset_pack.ai_texture_seams_report import comparison
+        docs = ROOT / 'docs/ai-textures'
+        report = json.loads((docs / 'seams/comparisons.json').read_text())
+        self.assertEqual(len(report['comparisons']), 41)
+        delivered = json.loads((docs / 'seams/baseline.json').read_text())
+        original = json.loads((docs / 'baseline.json').read_text())
+        manifests = {
+            'before': {a['id']: a['exports']['sha256'] for a in original['assets']},
+            'pr14': {a['id']: a['exports']['sha256'] for a in delivered['assets']},
+            'after': {aid: sha(ROOT / 'exports' / (aid + '.glb')) for aid in IDS}}
+        for row in report['comparisons']:
+            paths = {s: (docs / 'seams' / p).parent for s, p in row['images'].items()}
+            worker = ('tools/asset_pack/ai_texture_seams_review.py' if row['kind'] == 'neighbors'
+                      else 'tools/asset_pack/ai_texture_review.py')
+            comparison(ROOT, paths, row['name'], row['profiles'], manifests, worker)
+        self.assertEqual(report['correction_content_identity'], json.loads((docs / 'handoff.json').read_text())['contentIdentity'])
+        dom = GalleryDOM()
+        dom.feed((docs / 'seams/review.html').read_text())
+        self.assertEqual(dom.article_count, 41)
+        self.assertEqual(len(dom.images), 123)
+        for link in dom.links + [im['src'] for im in dom.images]:
+            path = (docs / 'seams' / link).resolve()
+            self.assertTrue(path.is_relative_to(docs))
+            self.assertTrue(path.is_file(), link)
+        for row in report['resources']:
+            self.assertEqual(row['image_count_delta'], 0)
+            self.assertEqual(row['decoded_rgba8_delta_no_mips'], 0)
+            self.assertEqual(row['delivered']['materials'], row['correction']['materials'])
+            self.assertEqual(row['delivered']['triangles'], row['correction']['triangles'])
+
+    def test_three_revision_packaging_refuses_stale_pixels_glbs_and_settings(self):
+        from tools.asset_pack.ai_texture_seams_report import comparison
+        docs = ROOT / 'docs/ai-textures'
+        row = json.loads((docs / 'seams/comparisons.json').read_text())['comparisons'][0]
+        paths = {s: (docs / 'seams' / p).parent for s, p in row['images'].items()}
+        manifests = {s: {a['id']: a['glb_sha256'] for a in p['assets']} for s, p in row['profiles'].items()}
+        worker = 'tools/asset_pack/ai_texture_review.py'
+        comparison(ROOT, paths, row['name'], row['profiles'], manifests, worker)
+        for field in ('png_sha256', 'render_worker_sha256', 'shared_review_sha256', 'ortho_scale'):
+            profiles = copy.deepcopy(row['profiles'])
+            profiles['after'][field] = 'stale'
+            with self.subTest(field=field), self.assertRaises(AssertionError):
+                comparison(ROOT, paths, row['name'], profiles, manifests, worker)
+        bad = copy.deepcopy(manifests)
+        bad['after'][next(iter(bad['after']))] = '0' * 64
+        with self.assertRaises(AssertionError):
+            comparison(ROOT, paths, row['name'], row['profiles'], bad, worker)
 
 
 if __name__ == '__main__':

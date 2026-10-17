@@ -118,6 +118,45 @@ def managed_image(name, values, directory):
     return image
 
 
+def ground_detail(supplied):
+    """Bake smaller overlapping art patches, excluding the illustrated atlas frame.
+
+    Only pixels change: authored UVs and the portable single-image material stay
+    intact. Fixed patch offsets/quarter-turns avoid a new square repeat inside the
+    hex; this is not runtime stochastic texturing or a new terrain contract.
+    """
+    size = len(supplied)
+    v, u = np.mgrid[0:size, 0:size].astype(np.float32) / (size - 1)
+    result = np.zeros_like(supplied)
+    total = np.zeros((size, size), dtype=np.float32)
+    rng = np.random.default_rng(418)
+    spacing = style.AI_TEXTURE.detail_spacing
+    extent = style.AI_TEXTURE.detail_extent
+    margin = style.AI_TEXTURE.input_frame_crop
+    for row in range(-1, int(1 / spacing) + 2):
+        for col in range(-1, int(1 / spacing) + 2):
+            x = (u - col * spacing) / extent + .5
+            y = (v - row * spacing) / extent + .5
+            weight = (np.sin(np.pi * np.clip(x, 0, 1)) ** 2 *
+                      np.sin(np.pi * np.clip(y, 0, 1)) ** 2)
+            patch = np.rot90(supplied, int(rng.integers(4)))
+            if rng.integers(2):
+                patch = patch[:, ::-1]
+            # Bilinear sampling keeps feathered brushwork rather than nearest
+            # neighbor steps in the small supplied (upsampled) illustrations.
+            xx = (margin + np.clip(x, 0, 1) * (1 - 2 * margin)) * (size - 1)
+            yy = (margin + np.clip(y, 0, 1) * (1 - 2 * margin)) * (size - 1)
+            ix, iy = xx.astype(int), yy.astype(int)
+            fx, fy = (xx - ix)[:, :, None], (yy - iy)[:, :, None]
+            jx, jy = np.minimum(ix + 1, size - 1), np.minimum(iy + 1, size - 1)
+            value = ((patch[iy, ix] * (1 - fx) + patch[iy, jx] * fx) * (1 - fy) +
+                     (patch[jy, ix] * (1 - fx) + patch[jy, jx] * fx) * fy)
+            result += value * weight[:, :, None]
+            total += weight
+    assert total.min() > .01, 'Uncovered painted patch'
+    return result / total[:, :, None]
+
+
 def ground_color(family, original, supplied):
     size = len(original)
     result = original * (1 - style.AI_TEXTURE.ground_blend) + supplied * style.AI_TEXTURE.ground_blend
@@ -126,10 +165,28 @@ def ground_color(family, original, supplied):
         x, y = (u - .5) * 2 * style.HEX.radius, (v - .5) * 2 * style.HEX.radius
         distance = np.minimum.reduce([style.HEX.half_height + x * np.sin(e * np.pi / 3)
                                       - y * np.cos(e * np.pi / 3) for e in range(6)])
-        keep = np.clip(distance / style.AI_TEXTURE.ground_edge_fade, 0, 1)
+        detail = ground_detail(supplied)
+        # Preserve authored family readability without the old repeating cushion
+        # composition or a whole illustrated swatch stretched across each tile.
+        center = original[size//4:3*size//4, size//4:3*size//4].mean(axis=(0, 1))
+        authored = style.AI_TEXTURE.authored_family_mean
+        target = center * authored + detail.mean(axis=(0, 1)) * (1 - authored)
+        mean = detail.mean(axis=(0, 1))
+        detail = detail * (target / np.maximum(mean, .001))
+        result = target + (detail - target) * style.AI_TEXTURE.detail_contrast
+        keep = np.clip(distance / style.AI_TEXTURE.corrected_edge_fade, 0, 1)
         keep = keep * keep * (3 - 2 * keep)
+        # The former fixed dark olive edge was below the body luminance and made
+        # a hex-shaped trench. Shift only edge hue, NOT brightness; retain paint
+        # variation there instead of replacing it with a uniform line.
+        luma = np.array((.2126, .7152, .0722))
         edge = np.array(style.srgb_to_linear(style.AI_TEXTURE.ground_edge_color))
-        result = edge * (1 - keep[:, :, None]) + result * keep[:, :, None]
+        edge *= np.dot(target, luma) / np.dot(edge, luma)
+        mix = style.AI_TEXTURE.edge_hue_mix
+        edge = target * (1 - mix) + edge * mix
+        edge_detail = edge + (result - target) * style.AI_TEXTURE.edge_detail_contrast
+        result = edge_detail * (1 - keep[:, :, None]) + result * keep[:, :, None]
+        result = np.clip(result, 0, 1)
     elif family in ('path', 'river'):
         # Exact symmetric cross-profile at BOTH endpoints. The supplied border
         # matching is not symmetric across U, so retain authored connector paint.

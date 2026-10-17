@@ -54,8 +54,30 @@ class TextureFixtures(unittest.TestCase):
             if family == 'river':
                 np.testing.assert_array_equal(result[:, 0], original[:, 0])
                 np.testing.assert_array_equal(result[:, -1], original[:, -1])
+        # A flat painted input must not acquire the old dark perimeter trench.
         floor = ground_color('moss', original, supplied)
-        self.assertLess(floor[0, 0, 0], floor[64, 64, 0])
+        luma = np.array((.2126, .7152, .0722))
+        np.testing.assert_allclose(floor @ luma, np.full((128, 128), floor[64, 64] @ luma), atol=1e-6)
+
+    def test_preparation_excludes_atlas_frame_and_reduces_whole_tile_feature_scale(self):
+        size = 128
+        y, x = np.mgrid[0:size, 0:size] / (size - 1)
+        supplied = np.full((size, size, 3), .1, dtype=np.float32)
+        supplied[(x - .5)**2 + (y - .5)**2 < .16**2] = .8
+        detail = textures.ground_detail(supplied)
+        np.testing.assert_array_equal(detail, textures.ground_detail(supplied))
+        damaged = supplied.copy()
+        damaged[:10] = damaged[-10:] = 0
+        damaged[:, :10] = damaged[:, -10:] = 0
+        np.testing.assert_array_equal(detail, textures.ground_detail(damaged))
+        # Along a row the former single broad mark becomes multiple smaller
+        # painted marks. Test the emitted pixel field, not implementation text.
+        row = detail[size // 2, :, 0] > .35
+        runs = np.diff(np.r_[False, row, False].astype(int))
+        starts, ends = np.flatnonzero(runs == 1), np.flatnonzero(runs == -1)
+        self.assertGreater(len(starts), 1)
+        self.assertLess(max(ends - starts), size * .20)
+        self.assertGreater(float(detail.std()), .05)
 
 
 class ApplyPreservation(unittest.TestCase):

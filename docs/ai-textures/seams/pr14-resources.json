@@ -1,0 +1,1152 @@
+{
+  "assets": [
+    {
+      "id": "environment/hex_ground_moss",
+      "before": {
+        "bytes": 2175404,
+        "meshes": 3,
+        "triangles": 22,
+        "materials": 2,
+        "animations": [],
+        "version": "b9640f362c4f5ac9993eb291955732214f876e6fbe824d75b8ac32b06fbbed3a"
+      },
+      "after": {
+        "bytes": 2039604,
+        "meshes": 3,
+        "triangles": 22,
+        "materials": 2,
+        "animations": [],
+        "version": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+      },
+      "before_decoded_rgba8_bytes_no_mips": 15728640,
+      "after_decoded_rgba8_bytes_no_mips": 15728640,
+      "source_bytes_before": 3141844,
+      "source_bytes_after": 4093794,
+      "retained_original_source_image_count": 10,
+      "added_source_color_images": 2
+    },
+    {
+      "id": "environment/hex_ground_grass",
+      "before": {
+        "bytes": 2229484,
+        "meshes": 3,
+        "triangles": 22,
+        "materials": 2,
+        "animations": [],
+        "version": "348b6b2fbeab5bed0dad3389ed8eae881473a51e89f42fa4a5e2df21979a6584"
+      },
+      "after": {
+        "bytes": 2141964,
+        "meshes": 3,
+        "triangles": 22,
+        "materials": 2,
+        "animations": [],
+        "version": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+      },
+      "before_decoded_rgba8_bytes_no_mips": 15728640,
+      "after_decoded_rgba8_bytes_no_mips": 15728640,
+      "source_bytes_before": 3196312,
+      "source_bytes_after": 4183209,
+      "retained_original_source_image_count": 10,
+      "added_source_color_images": 2
+    },
+    {
+      "id": "environment/hex_ground_dirt",
+      "before": {
+        "bytes": 1762544,
+        "meshes": 3,
+        "triangles": 22,
+        "materials": 2,
+        "animations": [],
+        "version": "1047b6db6b37d989c1e602fef8f61fd11379b801bdcd7d59a517df2932f01fc2"
+      },
+      "after": {
+        "bytes": 1691708,
+        "meshes": 3,
+        "triangles": 22,
+        "materials": 2,
+        "animations": [],
+        "version": "6d8a2a895b8558cbe8a4d7b2da79b131eaf554eee562297232996f129e09fa33"
+      },
+      "before_decoded_rgba8_bytes_no_mips": 15728640,
+      "after_decoded_rgba8_bytes_no_mips": 15728640,
+      "source_bytes_before": 2518170,
+      "source_bytes_after": 3341185,
+      "retained_original_source_image_count": 10,
+      "added_source_color_images": 2
+    },
+    {
+      "id": "environment/hex_ground_leaf_litter",
+      "before": {
+        "bytes": 2225992,
+        "meshes": 3,
+        "triangles": 22,
+        "materials": 2,
+        "animations": [],
+        "version": "cd799e48f11c755e7944432de6ab0cb0041794a7ca54738c0e435c1fba6e50d5"
+      },
+      "after": {
+        "bytes": 2057852,
+        "meshes": 3,
+        "triangles": 22,
+        "materials": 2,
+        "animations": [],
+        "version": "b0aff9370b43e97cc5a376cc6e390e8a9c510fc4a258f912cfa9245723aaa16f"
+      },
+      "before_decoded_rgba8_bytes_no_mips": 15728640,
+      "after_decoded_rgba8_bytes_no_mips": 15728640,
+      "source_bytes_before": 3168543,
+      "source_bytes_after": 4093829,
+      "retained_original_source_image_count": 10,
+      "added_source_color_images": 2
+    },
+    {
+      "id": "environment/hex_ground_pine_duff",
+      "before": {
+        "bytes": 1911940,
+        "meshes": 3,
+        "triangles": 22,
+        "materials": 2,
+        "animations": [],
+        "version": "70c8d0bc648be7585df77e9cfd5eb601c49d34bb13973f389a407e88ce57eefd"
+      },
+      "after": {
+        "bytes": 1891364,
+        "meshes": 3,
+        "triangles": 22,
+        "materials": 2,
+        "animations": [],
+        "version": "fcd251444db55664911c4d5b4e3be70486d24030b8417f53b6bd02ff163f885c"
+      },
+      "before_decoded_rgba8_bytes_no_mips": 15728640,
+      "after_decoded_rgba8_bytes_no_mips": 15728640,
+      "source_bytes_before": 2697344,
+      "source_bytes_after": 3590033,
+      "retained_original_source_image_count": 10,
+      "added_source_color_images": 2
+    },
+    {
+      "id": "environment/hex_path_straight",
+      "before": {
+        "bytes": 282800,
+        "meshes": 1,
+        "triangles": 256,
+        "materials": 1,
+        "animations": [],
+        "version": "0691ac4723ea9a666417e76bf6216707c305a7bc36fef98f90e50d8e1c70d941"
+      },
+      "after": {
+        "bytes": 351656,
+        "meshes": 1,
+        "triangles": 256,
+        "materials": 1,
+        "animations": [],
+        "version": "f9f341dc4f86854c3376b9ae01c7d4890519ac8ff9ca2c670e29a4666261c35a"
+      },
+      "before_decoded_rgba8_bytes_no_mips": 3145728,
+      "after_decoded_rgba8_bytes_no_mips": 3145728,
+      "source_bytes_before": 501205,
+      "source_bytes_after": 730590,
+      "retained_original_source_image_count": 6,
+      "added_source_color_images": 1
+    },
+    {
+      "id": "environment/hex_path_turn_120",
+      "before": {
+        "bytes": 291864,
+        "meshes": 1,
+        "triangles": 272,
+        "materials": 1,
+        "animations": [],
+        "version": "9a8b51697b877d265c07ab1234fa2b74aede06e037f9adb1e39344c73de1f902"
+      },
+      "after": {
+        "bytes": 360720,
+        "meshes": 1,
+        "triangles": 272,
+        "materials": 1,
+        "animations": [],
+        "version": "5b2b385c1ea35597c13ceacdf327c002c005b849f0df1f40f41db91c6491e149"
+      },
+      "before_decoded_rgba8_bytes_no_mips": 3145728,
+      "after_decoded_rgba8_bytes_no_mips": 3145728,
+      "source_bytes_before": 502354,
+      "source_bytes_after": 732479,
+      "retained_original_source_image_count": 6,
+      "added_source_color_images": 1
+    },
+    {
+      "id": "environment/hex_path_turn_60",
+      "before": {
+        "bytes": 291860,
+        "meshes": 1,
+        "triangles": 272,
+        "materials": 1,
+        "animations": [],
+        "version": "95f1ce4d80385c1ab74edb29979d8e73fac58928dd3a677b2f8a98497f7c4b01"
+      },
+      "after": {
+        "bytes": 360716,
+        "meshes": 1,
+        "triangles": 272,
+        "materials": 1,
+        "animations": [],
+        "version": "0f7a5c775d34f49029353e98dbe2081bd9492d3467a1fe3076d10c193f229642"
+      },
+      "before_decoded_rgba8_bytes_no_mips": 3145728,
+      "after_decoded_rgba8_bytes_no_mips": 3145728,
+      "source_bytes_before": 502332,
+      "source_bytes_after": 731979,
+      "retained_original_source_image_count": 6,
+      "added_source_color_images": 1
+    },
+    {
+      "id": "environment/hex_path_end",
+      "before": {
+        "bytes": 286904,
+        "meshes": 1,
+        "triangles": 307,
+        "materials": 1,
+        "animations": [],
+        "version": "962194b63cc76fc33d8f123a37fc84642e78c7f1c15120940cb8c5fd3461f842"
+      },
+      "after": {
+        "bytes": 355760,
+        "meshes": 1,
+        "triangles": 307,
+        "materials": 1,
+        "animations": [],
+        "version": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d"
+      },
+      "before_decoded_rgba8_bytes_no_mips": 3145728,
+      "after_decoded_rgba8_bytes_no_mips": 3145728,
+      "source_bytes_before": 501572,
+      "source_bytes_after": 731001,
+      "retained_original_source_image_count": 6,
+      "added_source_color_images": 1
+    },
+    {
+      "id": "environment/hex_river_overlay_straight",
+      "before": {
+        "bytes": 189368,
+        "meshes": 2,
+        "triangles": 392,
+        "materials": 2,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "9b5da586b925c1f5b69b8634ecd21facbe41b710142e6cbd60449ccf1b2c6e42"
+      },
+      "after": {
+        "bytes": 343024,
+        "meshes": 2,
+        "triangles": 392,
+        "materials": 2,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "6ef4464cd942b99222db78d166eaf0097c6207a3f2f7b55cb298066346f74b54"
+      },
+      "before_decoded_rgba8_bytes_no_mips": 5242880,
+      "after_decoded_rgba8_bytes_no_mips": 5242880,
+      "source_bytes_before": 307916,
+      "source_bytes_after": 509505,
+      "retained_original_source_image_count": 8,
+      "added_source_color_images": 1
+    },
+    {
+      "id": "environment/hex_river_overlay_turn_120",
+      "before": {
+        "bytes": 198720,
+        "meshes": 2,
+        "triangles": 416,
+        "materials": 2,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "fbaf4cf17e18a49cf7143c24668da7069b9b6b150e14cd38f15a6424f95f0e40"
+      },
+      "after": {
+        "bytes": 352376,
+        "meshes": 2,
+        "triangles": 416,
+        "materials": 2,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "7bdd54af841f3794e1578165c1f2e174f7f86eeecb497ccf506ff845ef058a70"
+      },
+      "before_decoded_rgba8_bytes_no_mips": 5242880,
+      "after_decoded_rgba8_bytes_no_mips": 5242880,
+      "source_bytes_before": 309590,
+      "source_bytes_after": 511555,
+      "retained_original_source_image_count": 8,
+      "added_source_color_images": 1
+    },
+    {
+      "id": "environment/hex_river_overlay_turn_60",
+      "before": {
+        "bytes": 198720,
+        "meshes": 2,
+        "triangles": 416,
+        "materials": 2,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "fe554f74f112b9588409ef7daf65a3e3ee65f71ff735307598c05b8c71a2f58e"
+      },
+      "after": {
+        "bytes": 352372,
+        "meshes": 2,
+        "triangles": 416,
+        "materials": 2,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "491a64fdef47a1bc1d889c6609f42b5a73d961c8563cd99908873208614125d1"
+      },
+      "before_decoded_rgba8_bytes_no_mips": 5242880,
+      "after_decoded_rgba8_bytes_no_mips": 5242880,
+      "source_bytes_before": 309474,
+      "source_bytes_after": 511452,
+      "retained_original_source_image_count": 8,
+      "added_source_color_images": 1
+    },
+    {
+      "id": "environment/hex_river_overlay_end",
+      "before": {
+        "bytes": 194784,
+        "meshes": 2,
+        "triangles": 477,
+        "materials": 2,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "533c50274c29a6febd01530dfa8a7bfcc60e923fbcb9458e2e6f27f851957731"
+      },
+      "after": {
+        "bytes": 348436,
+        "meshes": 2,
+        "triangles": 477,
+        "materials": 2,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c"
+      },
+      "before_decoded_rgba8_bytes_no_mips": 5242880,
+      "after_decoded_rgba8_bytes_no_mips": 5242880,
+      "source_bytes_before": 309147,
+      "source_bytes_after": 510848,
+      "retained_original_source_image_count": 8,
+      "added_source_color_images": 1
+    },
+    {
+      "id": "buildings/archery_range",
+      "before": {
+        "bytes": 14875208,
+        "meshes": 45,
+        "triangles": 122408,
+        "materials": 42,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "c6bedd11449586116abbdc74405f742f668be7fa249a4bb95116ffb55288595c"
+      },
+      "after": {
+        "bytes": 17619280,
+        "meshes": 45,
+        "triangles": 122408,
+        "materials": 42,
+        "animations": [
+          {
+            "name": "ambient",
+            "duration": 4.041666666666667,
+            "loop": true
+          }
+        ],
+        "version": "b10479a00e15116e1d3b09d017cf55c0dc8d1570e78064c5033aea6176a8d231"
+      },
+      "before_decoded_rgba8_bytes_no_mips": 37748736,
+      "after_decoded_rgba8_bytes_no_mips": 39845888,
+      "source_bytes_before": 9959872,
+      "source_bytes_after": 14570870,
+      "retained_original_source_image_count": 81,
+      "added_source_color_images": 17
+    }
+  ],
+  "input_maps": [
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/dirt_basecolor.png",
+      "sha256": "de69111f944e5dba3531a75b4cda404c25247e2f59f7d1976d78a87cd3841d24",
+      "bytes": 708533,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/dirt_normal.png",
+      "sha256": "2c0500b242c7ca59639d1b24551b1092c22d3c2612cba9bb100b462a2c9107f8",
+      "bytes": 109831,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/dirt_roughness.png",
+      "sha256": "80ad752872a069a480ca4712425abd7c4dbefd69729f1c7216070de03ca6b5b3",
+      "bytes": 118192,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/foundation_basecolor.png",
+      "sha256": "2a7c0f59b63e91c86b5bb629249e44f50cdf89ab99d6d3a0e9419f2a4f661711",
+      "bytes": 726202,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/foundation_normal.png",
+      "sha256": "16aa9e3c61e927d175504e952355fdafe5c0fcc6879c5023e7010b58bba7a4dd",
+      "bytes": 132513,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/foundation_roughness.png",
+      "sha256": "052d650c32a96c51ca5838bacc2a88b333142b7535736a7b280ce1dc5ff168f3",
+      "bytes": 116949,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/grass_basecolor.png",
+      "sha256": "7189bbe8c4e27589d0ea3eda4b23000a94b0901236c1f1b9d371660b96cc320f",
+      "bytes": 884606,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/grass_normal.png",
+      "sha256": "56101b7575d971418afcab66f224f5660d965678f2ba86012c6ed70fc1374e34",
+      "bytes": 111640,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/grass_roughness.png",
+      "sha256": "6382096f95da6fd03d4a8f3c55984ccfc61b2b07710f0cce84ee8f9286fb1add",
+      "bytes": 150641,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/leaf_litter_basecolor.png",
+      "sha256": "ec2f67f711cb6d12158322de620a0409903784c2d4dabbd854a1b35b9393780a",
+      "bytes": 802556,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/leaf_litter_normal.png",
+      "sha256": "ab5801d255bc4e29755d0f97f5cdb5c22a4e9cb2f2f778c7dfd218f9cd711513",
+      "bytes": 99305,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/leaf_litter_roughness.png",
+      "sha256": "3a328e5bcae378a3c2aa41187958f9b31eb324a632b83418a63a7dd3bc33ac00",
+      "bytes": 137590,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/moss_basecolor.png",
+      "sha256": "c1fc2f4ff9b9681102aa3f270e73117b5b4ace7d588236116b9f0f29be037f35",
+      "bytes": 892931,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/moss_normal.png",
+      "sha256": "9d58068c5914195d18980259335c467c250b63b66c14b9220517d0f5ec8a816a",
+      "bytes": 123018,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/moss_roughness.png",
+      "sha256": "45e42363060646eb6ba783221b1d32edd796abf6f3293137684b562eadd408e6",
+      "bytes": 152949,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/path_basecolor.png",
+      "sha256": "d3fe332f95f588d7d9b8dfdf77625d12ab83d03d510013adcc1cf1977cf2d3e0",
+      "bytes": 805004,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/path_normal.png",
+      "sha256": "6b0252fd38eb8adfb76524118d90fe62d7a1278b5b2502dd8df99dcbb4621303",
+      "bytes": 109637,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/path_roughness.png",
+      "sha256": "df802941323597d4a373c27eb6c19c083286a5604eb0dbb0d9cef1c22fee8bc2",
+      "bytes": 122036,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/pine_duff_basecolor.png",
+      "sha256": "bdb6b59f9663bef16fae308fe2fc68bde613b815e684d33483d3f0a70c3770d1",
+      "bytes": 825548,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/pine_duff_normal.png",
+      "sha256": "115a376935302d38f16073808465bafb8133a1f53558c42c560406328f842c28",
+      "bytes": 110642,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/pine_duff_roughness.png",
+      "sha256": "1640206293525b00c0b06a0618ac026dd2a9369acde2cc08bcbda65a1c874284",
+      "bytes": 131301,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/river_basecolor.png",
+      "sha256": "3315fdeec9fd486b7bf4a5bee78e4e71958c11da140a59478e7a9f8d70875483",
+      "bytes": 805106,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/river_normal.png",
+      "sha256": "ab4ec654665d94276bf6702291783b3093b10da04df10106cc6d5a1dbf571022",
+      "bytes": 158134,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/environment/textures/ai_ground/input/textures/river_roughness.png",
+      "sha256": "c22757a21df4573fc6491ad6c4e21c1ed1dc5d492c5621226e0544c8015633f5",
+      "bytes": 2432,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/decals/archery_bullseye_rgba.png",
+      "sha256": "403dbebc07295b7a2ac8fac58e74ebe40f2d0805e069ca8d189ca886ebb38eaa",
+      "bytes": 353541,
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba8_bytes": 1048576,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/cloth_cobalt_weave_basecolor.png",
+      "sha256": "8590bfae82ed5c01de70d5e5374cfa22c001983827d2e6a0ddac319d8c088aaf",
+      "bytes": 1931517,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/cloth_cobalt_weave_normal.png",
+      "sha256": "69059157dde5b368aeaadc9f309e09764e5879e35de6846252e6692a14ae484b",
+      "bytes": 284574,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/cloth_cobalt_weave_roughness.png",
+      "sha256": "1258a0d6e36c61125d890e9562ad5c66285067ca936ed42cc31f0a8b7ca775d8",
+      "bytes": 420919,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/cloth_draped_blue_basecolor.png",
+      "sha256": "359c39e49f345abc16aa4ab45771cc20f7579b704d8a5bd77e6aa6cebe4d8e28",
+      "bytes": 245593,
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba8_bytes": 1048576,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/cloth_draped_blue_normal.png",
+      "sha256": "a0aa15ca1c49895da5a7aff097f0ab10187cca878bf926d04f0204ab6284de82",
+      "bytes": 57471,
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba8_bytes": 1048576,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/cloth_draped_blue_roughness.png",
+      "sha256": "380eb1fef3d2932363d109d3aad6b1353da9c75f420ef5d00b2378eabb13b3ad",
+      "bytes": 51015,
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba8_bytes": 1048576,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/dirt_ground_basecolor.png",
+      "sha256": "9f7e2edaae9f158b6c30aa56b5eb9d8ed4e77db7a7bf83874f3f37334d39affd",
+      "bytes": 325229,
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba8_bytes": 1048576,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/dirt_ground_normal.png",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "dimensions": [
+        0,
+        0
+      ],
+      "decoded_rgba8_bytes": 0,
+      "valid_png_header": false,
+      "issue": "Invalid/empty supplied map; retained as original input only, never loaded or embedded."
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/dirt_ground_roughness.png",
+      "sha256": "8b6f719f99c345812dfdeba4263cdbf2f50a8336594eb711cd1e02aa8a05a434",
+      "bytes": 70852,
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba8_bytes": 1048576,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/grass_ground_basecolor.png",
+      "sha256": "331f106872e09b678b8ea712faffb8505a089cd9b4841a3ae41d3f8fcb2ecc0d",
+      "bytes": 373774,
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba8_bytes": 1048576,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/grass_ground_normal.png",
+      "sha256": "d4205c525289295b1f2cf7153d1d570e9544c3c08d4e1f47010b496583725531",
+      "bytes": 62023,
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba8_bytes": 1048576,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/grass_ground_roughness.png",
+      "sha256": "1cec39d445a44103d998c51abebf8fcdaf22300865f817658638ed70229f2249",
+      "bytes": 53763,
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba8_bytes": 1048576,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/ivy_moss_foliage_basecolor.png",
+      "sha256": "4f7cdb0700d9bfd0f44b353424afc0f58c13590719c1044d889ccb945a162543",
+      "bytes": 1866350,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/ivy_moss_foliage_normal.png",
+      "sha256": "0fe381d9d260333f8e4676ad1121576d98808feb9b125a1f68cf4777c67ff82b",
+      "bytes": 341978,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/ivy_moss_foliage_roughness.png",
+      "sha256": "faf227ae8844a46eaa2bb12ee929784cd36b21f2c47ea6c1f86e603fea920a52",
+      "bytes": 360233,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/metal_patinated_basecolor.png",
+      "sha256": "c7ed52ccf95358313c4760ddf786182a30116ab3f0486f85f7e72d146bf45f96",
+      "bytes": 1786556,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/metal_patinated_normal.png",
+      "sha256": "e7f1efb0e01f8de301b8bbbb4c115ff2c251fd5963434a7c3e7dec5bbc653d83",
+      "bytes": 351932,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/metal_patinated_roughness.png",
+      "sha256": "617403430f16878cee034f175455319f5adf9cca90aee2f39249b554e2f4e9dd",
+      "bytes": 387811,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/plaster_warm_basecolor.png",
+      "sha256": "7a5ad7bccf7bceb826714a3116cfeab111c50fde691d50f16453af2ff0bdf81e",
+      "bytes": 1719241,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/plaster_warm_normal.png",
+      "sha256": "af6bdc4251f4b1999f77a0f08dff4e3a85619dabf060bdbefa4ae3a15f387026",
+      "bytes": 200693,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/plaster_warm_roughness.png",
+      "sha256": "c7c3b1dafde40a3cdd00a812fd1d88311589765608d87480ab38d6cdc9aab9f1",
+      "bytes": 371141,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/roof_blue_shingles_basecolor.png",
+      "sha256": "bb624b4f5a2ddda482aa3adddf09bc54b15eafa587ca786d44c33f5cc79c9db1",
+      "bytes": 1429537,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/roof_blue_shingles_normal.png",
+      "sha256": "2f3aae48041c72d1061441ce8ee0a80abc3d08024f05a19c73f3977d93b71fbf",
+      "bytes": 353670,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/roof_blue_shingles_roughness.png",
+      "sha256": "01e0d04e4ef97a40b971858ee0ce190c8d5af9a858441514631d41ae82bf8968",
+      "bytes": 287222,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/stone_mossy_masonry_basecolor.png",
+      "sha256": "126de27861c4c6f0544a250547124940b531299baf9321099bb310bf6e27d652",
+      "bytes": 1892697,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/stone_mossy_masonry_normal.png",
+      "sha256": "975bf8ee0d6d8aa685ff854c23ae88bf40893eb28cb485a1de6a43b38af9f1d3",
+      "bytes": 514212,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/stone_mossy_masonry_roughness.png",
+      "sha256": "26a6139d7aa89cce56e3e8b76766114e88e8decdd2ad507b9be01a6985107f9a",
+      "bytes": 418989,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/wood_dark_aged_basecolor.png",
+      "sha256": "5b86d73c7bc91ee3dbc8f730cec74fe67758e93cc10b91346dde05835c4fda45",
+      "bytes": 1490828,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/wood_dark_aged_normal.png",
+      "sha256": "2d6750da86d7356e408a95241d337efac73c591602e4d8ba99d362cb6c915df7",
+      "bytes": 322292,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/wood_dark_aged_roughness.png",
+      "sha256": "d00b8223f63d79d6343c10118d8a15faa681db7dba4abd92b8f14c80054a1709",
+      "bytes": 312716,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/wood_horizontal_planks_basecolor.png",
+      "sha256": "a504b15bb3371c9a24560d8579e4648d8df11f456bbfdfa10ce3d537f690050a",
+      "bytes": 240030,
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba8_bytes": 1048576,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/wood_horizontal_planks_normal.png",
+      "sha256": "d5590de977f4805021b92d6409643131e25477b1f7da02e45123eeb1179edc90",
+      "bytes": 52568,
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba8_bytes": 1048576,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/wood_horizontal_planks_roughness.png",
+      "sha256": "933e134d478a769a87e662e5342f86e7c54d808dcae294cc515b72cb0d8ac87b",
+      "bytes": 50100,
+      "dimensions": [
+        512,
+        512
+      ],
+      "decoded_rgba8_bytes": 1048576,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/wood_warm_planks_basecolor.png",
+      "sha256": "38c17a1a92374c5267a39382757c0adfab139276f85039331e3678e024046e63",
+      "bytes": 1393557,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/wood_warm_planks_normal.png",
+      "sha256": "08f4837a2131eac50043f6ea69b3a2a23dc38dd292f99f18c23dd0c35d28a358",
+      "bytes": 288274,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    },
+    {
+      "path": "sources/buildings/textures/ai_archery/input/textures/wood_warm_planks_roughness.png",
+      "sha256": "a36d0d93b4cde9a83001ca99392b3557c4186dce6ee87f440f672ddfeb171eda",
+      "bytes": 288266,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "decoded_rgba8_bytes": 4194304,
+      "valid_png_header": true,
+      "issue": null
+    }
+  ],
+  "limitations": [
+    "RGBA8 estimates exclude mipmaps, compression, renderer deduplication and allocation overhead.",
+    "No GPU timing, frame-rate or actual-game acceptance is inferred from CPU renders."
+  ]
+}

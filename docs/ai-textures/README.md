@@ -1,6 +1,14 @@
 # AI-generated texture POC — actual assets, not a concept mockup
 
-**Review:** open [`review.html`](review.html) directly in a browser. It is an offline,
+**Current bounded ground correction:** open [`seams/review.html`](seams/review.html)
+for **original → initially delivered → corrected** GLBs, all five repeated-family
+and mixed grids, and connected path/river comparisons. [Its report](seams/README.md)
+records the retained actual-game regression, source-only correction, costs and
+pending successor GPU acceptance. The five base-ground color maps supersede the
+initial floor treatment described below; foundation, overlays and Archery remain
+unchanged. The correction does not treat the earlier game regression as accepted.
+
+**Original/current pairs:** open [`review.html`](review.html) directly in a browser. It is an offline,
 side-by-side gallery of the original and changed **GLBs**, with close-ups, 96px
 representative views, shared-foundation detail, mixed floors, paths and connected
 river scenes. No server, download, image model or game checkout is needed.
@@ -49,7 +57,12 @@ license, production certification or new redistribution right is invented here.
 
 ## What changed
 
-### Phases 1–2: floors and foundation
+### Phases 1–2: floors and foundation (initial delivery, superseded for five bases)
+
+The following two paragraphs describe the historical first painted delivery.
+Current floors instead use the [bounded smaller-feature/luminance-preserving
+edge recipe](seams/README.md#small-source-preserving-fix). Historical first-delivery
+maps and PNGs are preserved; this text is not a claim that the dark outline passed.
 
 The moss-only trial was exported, checked and visually inspected before expanding
 to `hex_ground_{moss,grass,dirt,leaf_litter,pine_duff}` and `floor_foundation`.
@@ -127,7 +140,11 @@ ambient target or source physical rendering property changed. Building color ble
 retain original role means and shade relationships. At small scale the benefit is
 subtle; the plentiful authored growth still dominates the silhouette.
 
-## Visual review — candid, provisional
+## Initial-delivery visual review — historical, provisional
+
+The five floor judgments below predate the game-discovered regression. Current
+correction judgments and three-revision evidence are in [seams/README.md](seams/README.md#image-inspection--acceptance-conclusions).
+No historical praise waives actual-game acceptance.
 
 Implementation-worker inspection of actual full/close sheets and mixed/neighbor
 renders, against D03 palette, D04 surfaces, D05 contacts and D09 resource restraint:
@@ -190,8 +207,10 @@ asset images were inspected directly; actual-game acceptance remains separate. G
 material and mesh counts are unchanged, including the Archery Range's optimized
 45 meshes / 42 materials / 122,408 primitive triangles. New source PNGs coexist
 with preserved originals, increasing editable `.blend` storage intentionally.
-Across the fourteen GLBs, bytes increase from **27,115,592 to 30,266,832**
-(+3,151,240, about 3.01 MiB). Summed embedded RGBA8 estimates increase from
+The initial delivery increased fourteen GLBs from **27,115,592 to 30,266,832**
+(+3,151,240, about 3.01 MiB); this is historical, not the corrected total.
+Current source/export costs and exact changes from that delivered predecessor
+are in [`seams/comparisons.json`](seams/comparisons.json) and [`resources.json`](resources.json). Summed embedded RGBA8 estimates increase from
 **149,946,368 to 152,043,520 bytes** (+2 MiB), entirely in Archery Range: its
 embedded images increase from 36 to 38. Previously scalar blue cloth now has a
 color map, and prepared material variations no longer share every old color image.
@@ -213,38 +232,23 @@ Use the installed pinned **Blender 5.2.2 LTS** and existing workers. No installs
 GUI scene mutations, broad rebuilds, or legacy `build_pack.py` / `ground_tiles.py`
 are needed. Run in an isolated copy, never over someone else's uncommitted sources.
 
+Follow the [current correction reproduction procedure](seams/README.md#reproduce--review--rollback)
+for reapplication, export, verification and matched comparisons, including its
+cache, predecessor-image and local-receipt prerequisites. The original-only
+application sequence from the initial POC is no longer sufficient.
+
+Optional input-provenance inspection, into fresh private destinations:
+
 ```sh
-# Optional: re-inspect original Downloads archives into a fresh private destination.
 python3 -m tools.asset_pack.ai_texture_inputs ~/Downloads/odot_ground_tiles_poc.zip .cache/ai-textures/reextract-ground
 python3 -m tools.asset_pack.ai_texture_inputs ~/Downloads/odot_archery_range_texture_poc.zip .cache/ai-textures/reextract-archery
-
-# In an isolated POC checkout/copy (with these tools and input maps), preserve
-# all14 baseline source/GLB bytes in .cache/ai-textures/before/{sources,exports}/
-# using baseline.json hashes first. Restore those baseline sources into sources/.
-# Then audit BEFORE authoring. Never replace an existing baseline audit with new bytes.
-python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label ai-audit audit
-python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label ai-apply apply
-python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label ai-idempotence idempotence
-IDS="$(python3 -c 'from tools.asset_pack.hex_ground import IDS; print(" ".join(IDS), "buildings/archery_range")')"
-python3 -m tools.asset_pack.check $IDS
-python3 -m tools.asset_pack.worker tools/asset_pack/verify_style_blender.py --label ai-style $IDS
-python3 -m tools.asset_pack.worker tools/asset_pack/verify_painted_blender.py --label ai-painted $IDS
-python3 -m tools.asset_pack.worker tools/asset_pack/verify_ai_textures_blender.py --label ai-preservation
-python3 -m tools.asset_pack.worker tools/asset_pack/verify_ground_blender.py --label ai-ground --output docs/ai-textures/ground-verification.json
-python3 -m tools.asset_pack.worker tools/asset_pack/test_ai_textures_blender.py --label ai-fixtures
-python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_review.py --label ai-before before $IDS mixed neighbors
-python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_review.py --label ai-after after $IDS mixed neighbors
-python3 -m tools.asset_pack.ai_texture_report
-mise run check
 ```
 
-If starting from the delivered POC rather than baseline, restore the baseline bytes
-into a **separate private comparison cache**, restore baseline audit JSON from the
-retained local cache (or produce audits by opening baseline copies), and retain
-current sources. `audit-baseline` reads the preserved baseline source copies directly:
+Restore baseline audit JSON from the retained local cache, or produce audits by
+opening verified baseline copies. `audit-baseline` reads those copies directly:
 `python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label ai-audit audit-baseline`.
-Both audit routes require the recorded original source hashes and refuse to overwrite
-the original audit with already changed source bytes.
+Both `audit` and `audit-baseline` require the recorded original source hashes and
+refuse to overwrite the original audit with already changed source bytes.
 Before opening or mutating the source, `apply` requires its exact SHA-256 to match
 the audited baseline or last-applied receipt. The local `.cache/ai-textures/applied/`
 receipt takes precedence; without it, the committed `validation.json` source-after
@@ -254,7 +258,10 @@ saving. Preserve those edits separately rather than relabeling them as applied.
 The original geometry/physical signature is also required, and the original color
 image is retained for deterministic reapplication. Recognized sources can accept
 updated input textures; `idempotence` validates an unchanged second apply.
-Superseded managed maps are retained as source-only predecessors, not deleted.
+Original and previously delivered managed maps remain source-only predecessors.
+The [correction's preservation record](seams/README.md#small-source-preserving-fix)
+owns the narrowly scoped private-trial exclusion. Reapplication retains predecessors
+and never performs a broad orphan purge.
 The independent verifier checks current owned bindings separately from these
 unreferenced predecessors: explicit owner/content-key/input provenance, canonical
 managed companion paths, sRGB state and exact packed/companion bytes are required.
@@ -287,9 +294,7 @@ acceptance evidence. Existing old recessed river versus shallow surface-stream
 incompatibility remains; this POC adds no new transition and changes no
 renderer/gameplay contract. No release/deployment is requested.
 
-For rollback, revert this asset change as one coherent Git change (sources, prepared
-maps, exports, manifest/validation and successor receipts), retaining any later user
-edits rather than force-resetting. The game worker separately restores its prior
-asset pin `133c7cdeb368cada408d1c95c9414e08488371a9` and its matching manifest/dependencies.
-The baseline cache and committed before PNGs preserve original review evidence.
-No cleanup command should delete original source images or overwrite a manual edit.
+For the current bounded correction, follow the [correction rollback procedure](seams/README.md#reproduce--review--rollback),
+not a rollback of the entire initial POC to the original baseline. The baseline
+cache and committed before PNGs preserve original review evidence. No cleanup
+command should delete original source images or overwrite a manual edit.

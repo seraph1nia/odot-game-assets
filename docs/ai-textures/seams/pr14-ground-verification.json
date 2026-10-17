@@ -1,0 +1,703 @@
+{
+  "runtime": "5.2.2 LTS",
+  "real_imported_root_rotations_tested": 48,
+  "source_and_glb_rotation_coverage": {
+    "source": {
+      "path": {
+        "through_pairs": {
+          "0,3": {
+            "piece": "straight",
+            "source_z_degrees": 0
+          },
+          "1,4": {
+            "piece": "straight",
+            "source_z_degrees": 60
+          },
+          "2,5": {
+            "piece": "straight",
+            "source_z_degrees": 120
+          },
+          "0,2": {
+            "piece": "turn_120",
+            "source_z_degrees": 0
+          },
+          "1,3": {
+            "piece": "turn_120",
+            "source_z_degrees": 60
+          },
+          "2,4": {
+            "piece": "turn_120",
+            "source_z_degrees": 120
+          },
+          "3,5": {
+            "piece": "turn_120",
+            "source_z_degrees": 180
+          },
+          "0,4": {
+            "piece": "turn_120",
+            "source_z_degrees": 240
+          },
+          "1,5": {
+            "piece": "turn_120",
+            "source_z_degrees": 300
+          },
+          "0,1": {
+            "piece": "turn_60",
+            "source_z_degrees": 0
+          },
+          "1,2": {
+            "piece": "turn_60",
+            "source_z_degrees": 60
+          },
+          "2,3": {
+            "piece": "turn_60",
+            "source_z_degrees": 120
+          },
+          "3,4": {
+            "piece": "turn_60",
+            "source_z_degrees": 180
+          },
+          "4,5": {
+            "piece": "turn_60",
+            "source_z_degrees": 240
+          },
+          "0,5": {
+            "piece": "turn_60",
+            "source_z_degrees": 300
+          }
+        },
+        "center_ends": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "neighbor_seams_tested": 216
+      },
+      "river": {
+        "through_pairs": {
+          "0,3": {
+            "piece": "straight",
+            "source_z_degrees": 0
+          },
+          "1,4": {
+            "piece": "straight",
+            "source_z_degrees": 60
+          },
+          "2,5": {
+            "piece": "straight",
+            "source_z_degrees": 120
+          },
+          "0,2": {
+            "piece": "turn_120",
+            "source_z_degrees": 0
+          },
+          "1,3": {
+            "piece": "turn_120",
+            "source_z_degrees": 60
+          },
+          "2,4": {
+            "piece": "turn_120",
+            "source_z_degrees": 120
+          },
+          "3,5": {
+            "piece": "turn_120",
+            "source_z_degrees": 180
+          },
+          "0,4": {
+            "piece": "turn_120",
+            "source_z_degrees": 240
+          },
+          "1,5": {
+            "piece": "turn_120",
+            "source_z_degrees": 300
+          },
+          "0,1": {
+            "piece": "turn_60",
+            "source_z_degrees": 0
+          },
+          "1,2": {
+            "piece": "turn_60",
+            "source_z_degrees": 60
+          },
+          "2,3": {
+            "piece": "turn_60",
+            "source_z_degrees": 120
+          },
+          "3,4": {
+            "piece": "turn_60",
+            "source_z_degrees": 180
+          },
+          "4,5": {
+            "piece": "turn_60",
+            "source_z_degrees": 240
+          },
+          "0,5": {
+            "piece": "turn_60",
+            "source_z_degrees": 300
+          }
+        },
+        "center_ends": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "neighbor_seams_tested": 216
+      }
+    },
+    "glb": {
+      "path": {
+        "through_pairs": {
+          "0,3": {
+            "piece": "straight",
+            "source_z_degrees": 0
+          },
+          "1,4": {
+            "piece": "straight",
+            "source_z_degrees": 60
+          },
+          "2,5": {
+            "piece": "straight",
+            "source_z_degrees": 120
+          },
+          "0,2": {
+            "piece": "turn_120",
+            "source_z_degrees": 0
+          },
+          "1,3": {
+            "piece": "turn_120",
+            "source_z_degrees": 60
+          },
+          "2,4": {
+            "piece": "turn_120",
+            "source_z_degrees": 120
+          },
+          "3,5": {
+            "piece": "turn_120",
+            "source_z_degrees": 180
+          },
+          "0,4": {
+            "piece": "turn_120",
+            "source_z_degrees": 240
+          },
+          "1,5": {
+            "piece": "turn_120",
+            "source_z_degrees": 300
+          },
+          "0,1": {
+            "piece": "turn_60",
+            "source_z_degrees": 0
+          },
+          "1,2": {
+            "piece": "turn_60",
+            "source_z_degrees": 60
+          },
+          "2,3": {
+            "piece": "turn_60",
+            "source_z_degrees": 120
+          },
+          "3,4": {
+            "piece": "turn_60",
+            "source_z_degrees": 180
+          },
+          "4,5": {
+            "piece": "turn_60",
+            "source_z_degrees": 240
+          },
+          "0,5": {
+            "piece": "turn_60",
+            "source_z_degrees": 300
+          }
+        },
+        "center_ends": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "neighbor_seams_tested": 216
+      },
+      "river": {
+        "through_pairs": {
+          "0,3": {
+            "piece": "straight",
+            "source_z_degrees": 0
+          },
+          "1,4": {
+            "piece": "straight",
+            "source_z_degrees": 60
+          },
+          "2,5": {
+            "piece": "straight",
+            "source_z_degrees": 120
+          },
+          "0,2": {
+            "piece": "turn_120",
+            "source_z_degrees": 0
+          },
+          "1,3": {
+            "piece": "turn_120",
+            "source_z_degrees": 60
+          },
+          "2,4": {
+            "piece": "turn_120",
+            "source_z_degrees": 120
+          },
+          "3,5": {
+            "piece": "turn_120",
+            "source_z_degrees": 180
+          },
+          "0,4": {
+            "piece": "turn_120",
+            "source_z_degrees": 240
+          },
+          "1,5": {
+            "piece": "turn_120",
+            "source_z_degrees": 300
+          },
+          "0,1": {
+            "piece": "turn_60",
+            "source_z_degrees": 0
+          },
+          "1,2": {
+            "piece": "turn_60",
+            "source_z_degrees": 60
+          },
+          "2,3": {
+            "piece": "turn_60",
+            "source_z_degrees": 120
+          },
+          "3,4": {
+            "piece": "turn_60",
+            "source_z_degrees": 180
+          },
+          "4,5": {
+            "piece": "turn_60",
+            "source_z_degrees": 240
+          },
+          "0,5": {
+            "piece": "turn_60",
+            "source_z_degrees": 300
+          }
+        },
+        "center_ends": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "neighbor_seams_tested": 216
+      }
+    }
+  },
+  "base_overlay_stacks": [
+    {
+      "base": "environment/hex_ground_moss",
+      "overlay": "environment/hex_path_straight",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_moss",
+      "overlay": "environment/hex_path_turn_120",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_moss",
+      "overlay": "environment/hex_path_turn_60",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_moss",
+      "overlay": "environment/hex_path_end",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_moss",
+      "overlay": "environment/hex_river_overlay_straight",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_moss",
+      "overlay": "environment/hex_river_overlay_turn_120",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_moss",
+      "overlay": "environment/hex_river_overlay_turn_60",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_moss",
+      "overlay": "environment/hex_river_overlay_end",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_grass",
+      "overlay": "environment/hex_path_straight",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_grass",
+      "overlay": "environment/hex_path_turn_120",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_grass",
+      "overlay": "environment/hex_path_turn_60",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_grass",
+      "overlay": "environment/hex_path_end",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_grass",
+      "overlay": "environment/hex_river_overlay_straight",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_grass",
+      "overlay": "environment/hex_river_overlay_turn_120",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_grass",
+      "overlay": "environment/hex_river_overlay_turn_60",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_grass",
+      "overlay": "environment/hex_river_overlay_end",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_dirt",
+      "overlay": "environment/hex_path_straight",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_dirt",
+      "overlay": "environment/hex_path_turn_120",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_dirt",
+      "overlay": "environment/hex_path_turn_60",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_dirt",
+      "overlay": "environment/hex_path_end",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_dirt",
+      "overlay": "environment/hex_river_overlay_straight",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_dirt",
+      "overlay": "environment/hex_river_overlay_turn_120",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_dirt",
+      "overlay": "environment/hex_river_overlay_turn_60",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_dirt",
+      "overlay": "environment/hex_river_overlay_end",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_leaf_litter",
+      "overlay": "environment/hex_path_straight",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_leaf_litter",
+      "overlay": "environment/hex_path_turn_120",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_leaf_litter",
+      "overlay": "environment/hex_path_turn_60",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_leaf_litter",
+      "overlay": "environment/hex_path_end",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_leaf_litter",
+      "overlay": "environment/hex_river_overlay_straight",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_leaf_litter",
+      "overlay": "environment/hex_river_overlay_turn_120",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_leaf_litter",
+      "overlay": "environment/hex_river_overlay_turn_60",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_leaf_litter",
+      "overlay": "environment/hex_river_overlay_end",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_pine_duff",
+      "overlay": "environment/hex_path_straight",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_pine_duff",
+      "overlay": "environment/hex_path_turn_120",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_pine_duff",
+      "overlay": "environment/hex_path_turn_60",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_pine_duff",
+      "overlay": "environment/hex_path_end",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_pine_duff",
+      "overlay": "environment/hex_river_overlay_straight",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_pine_duff",
+      "overlay": "environment/hex_river_overlay_turn_120",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_pine_duff",
+      "overlay": "environment/hex_river_overlay_turn_60",
+      "minimum_geometric_clearance": 0.006
+    },
+    {
+      "base": "environment/hex_ground_pine_duff",
+      "overlay": "environment/hex_river_overlay_end",
+      "minimum_geometric_clearance": 0.006
+    }
+  ],
+  "resources": [
+    {
+      "asset_id": "environment/hex_ground_dirt",
+      "bytes": 1691708,
+      "meshes": 3,
+      "triangles": 22,
+      "materials": 2,
+      "animations": [],
+      "version": "6d8a2a895b8558cbe8a4d7b2da79b131eaf554eee562297232996f129e09fa33",
+      "images": 6,
+      "decoded_rgba8_image_bytes": 15728640,
+      "source_sha256": "232e69b60b1d7b546d1d92fe3f3eba7364547b6faf65d36f3ef00610d19a9bd1"
+    },
+    {
+      "asset_id": "environment/hex_ground_grass",
+      "bytes": 2141964,
+      "meshes": 3,
+      "triangles": 22,
+      "materials": 2,
+      "animations": [],
+      "version": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86",
+      "images": 6,
+      "decoded_rgba8_image_bytes": 15728640,
+      "source_sha256": "d9560771a098d58c54ac7d6f450fc870e3ea06d3ce48dfeb049140e6284f8ab6"
+    },
+    {
+      "asset_id": "environment/hex_ground_leaf_litter",
+      "bytes": 2057852,
+      "meshes": 3,
+      "triangles": 22,
+      "materials": 2,
+      "animations": [],
+      "version": "b0aff9370b43e97cc5a376cc6e390e8a9c510fc4a258f912cfa9245723aaa16f",
+      "images": 6,
+      "decoded_rgba8_image_bytes": 15728640,
+      "source_sha256": "56f113493aba8348aaea2c61477900cd4d5259e3152c6a01f3cf0269dbfd19f7"
+    },
+    {
+      "asset_id": "environment/hex_ground_moss",
+      "bytes": 2039604,
+      "meshes": 3,
+      "triangles": 22,
+      "materials": 2,
+      "animations": [],
+      "version": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f",
+      "images": 6,
+      "decoded_rgba8_image_bytes": 15728640,
+      "source_sha256": "53d351814394334c35febce99fc1ccec0f058e802671038611f4310fbc0278e3"
+    },
+    {
+      "asset_id": "environment/hex_ground_pine_duff",
+      "bytes": 1891364,
+      "meshes": 3,
+      "triangles": 22,
+      "materials": 2,
+      "animations": [],
+      "version": "fcd251444db55664911c4d5b4e3be70486d24030b8417f53b6bd02ff163f885c",
+      "images": 6,
+      "decoded_rgba8_image_bytes": 15728640,
+      "source_sha256": "1f04d9f940d74480fd411633e5d9620f4307d82a66f72c7d6cb3625094ac7a25"
+    },
+    {
+      "asset_id": "environment/hex_path_end",
+      "bytes": 355760,
+      "meshes": 1,
+      "triangles": 307,
+      "materials": 1,
+      "animations": [],
+      "version": "cad1a175eb4eddeb58cbb21010c499169b148410936a91e7799f55db2f76037d",
+      "images": 3,
+      "decoded_rgba8_image_bytes": 3145728,
+      "source_sha256": "dc8eeefd6691222d936e38c2aba6956ad2293f94a0e791138556f0ecbf82a6de"
+    },
+    {
+      "asset_id": "environment/hex_path_straight",
+      "bytes": 351656,
+      "meshes": 1,
+      "triangles": 256,
+      "materials": 1,
+      "animations": [],
+      "version": "f9f341dc4f86854c3376b9ae01c7d4890519ac8ff9ca2c670e29a4666261c35a",
+      "images": 3,
+      "decoded_rgba8_image_bytes": 3145728,
+      "source_sha256": "ab6c908440e275abc5e7dbf56a000718a48b90c4fb89ab91a008736d4309df95"
+    },
+    {
+      "asset_id": "environment/hex_path_turn_120",
+      "bytes": 360720,
+      "meshes": 1,
+      "triangles": 272,
+      "materials": 1,
+      "animations": [],
+      "version": "5b2b385c1ea35597c13ceacdf327c002c005b849f0df1f40f41db91c6491e149",
+      "images": 3,
+      "decoded_rgba8_image_bytes": 3145728,
+      "source_sha256": "709e078630f4a04539aa36df1cc02bc33c6eef50d9b51f5cbbf68ce3fd22b33e"
+    },
+    {
+      "asset_id": "environment/hex_path_turn_60",
+      "bytes": 360716,
+      "meshes": 1,
+      "triangles": 272,
+      "materials": 1,
+      "animations": [],
+      "version": "0f7a5c775d34f49029353e98dbe2081bd9492d3467a1fe3076d10c193f229642",
+      "images": 3,
+      "decoded_rgba8_image_bytes": 3145728,
+      "source_sha256": "9dfcb3f98d8a46c0a6a338c07f145dd425367a29ba47cd09dd423deed863799d"
+    },
+    {
+      "asset_id": "environment/hex_river_overlay_end",
+      "bytes": 348436,
+      "meshes": 2,
+      "triangles": 477,
+      "materials": 2,
+      "animations": [
+        {
+          "name": "ambient",
+          "duration": 4.041666666666667,
+          "loop": true
+        }
+      ],
+      "version": "2ba8279b3e5016b716abb27ed277a439558b2989fd828ce0e24db5866ff4b42c",
+      "images": 5,
+      "decoded_rgba8_image_bytes": 5242880,
+      "source_sha256": "7ad3c67361296d5246e9b235a0ec30abd603cae7fea5f2a49030a531ec5d4426"
+    },
+    {
+      "asset_id": "environment/hex_river_overlay_straight",
+      "bytes": 343024,
+      "meshes": 2,
+      "triangles": 392,
+      "materials": 2,
+      "animations": [
+        {
+          "name": "ambient",
+          "duration": 4.041666666666667,
+          "loop": true
+        }
+      ],
+      "version": "6ef4464cd942b99222db78d166eaf0097c6207a3f2f7b55cb298066346f74b54",
+      "images": 5,
+      "decoded_rgba8_image_bytes": 5242880,
+      "source_sha256": "157540a5322dc64c9a9560f33af71b0bf9a07c8c3ea01e5779e5cb821c0d7b47"
+    },
+    {
+      "asset_id": "environment/hex_river_overlay_turn_120",
+      "bytes": 352376,
+      "meshes": 2,
+      "triangles": 416,
+      "materials": 2,
+      "animations": [
+        {
+          "name": "ambient",
+          "duration": 4.041666666666667,
+          "loop": true
+        }
+      ],
+      "version": "7bdd54af841f3794e1578165c1f2e174f7f86eeecb497ccf506ff845ef058a70",
+      "images": 5,
+      "decoded_rgba8_image_bytes": 5242880,
+      "source_sha256": "8ca2585491bd40f7fef9ad7018eff6b0ebfc838e4e6d651a2a607630559d3c4b"
+    },
+    {
+      "asset_id": "environment/hex_river_overlay_turn_60",
+      "bytes": 352372,
+      "meshes": 2,
+      "triangles": 416,
+      "materials": 2,
+      "animations": [
+        {
+          "name": "ambient",
+          "duration": 4.041666666666667,
+          "loop": true
+        }
+      ],
+      "version": "491a64fdef47a1bc1d889c6609f42b5a73d961c8563cd99908873208614125d1",
+      "images": 5,
+      "decoded_rgba8_image_bytes": 5242880,
+      "source_sha256": "5c1d31fd0d88f0fb07722f64783cf028ff36418ff87b576d99dc07363ce7fcaf"
+    }
+  ],
+  "height_envelope": {
+    "base_surface": 0,
+    "base_bottom": -0.36,
+    "path": [
+      0.006,
+      0.012
+    ],
+    "surface_river": [
+      0.006,
+      0.016
+    ]
+  },
+  "limitations": [
+    "Surface-stream overlays do not match old recessed river elevation.",
+    "Normal depth tests and occupant contact placement required.",
+    "Counts are not native GPU performance; RGBA8 excludes mips."
+  ]
+}

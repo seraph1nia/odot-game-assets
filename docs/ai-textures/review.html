@@ -2,7 +2,7 @@
 :root{color-scheme:dark;--bg:#262724;--panel:#333530;--ink:#eee7d7;--muted:#c0b7a6;--line:#606353;--accent:#bdcb83}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,sans-serif}main{max-width:1200px;margin:auto;padding:32px 20px}h1,h2{font-family:Georgia,serif;font-weight:normal;line-height:1.2}h1{font-size:clamp(30px,5vw,56px)}h2{font-size:24px;overflow-wrap:anywhere}p{max-width:80ch;color:var(--muted)}a{color:var(--accent)}article{min-width:0;border:1px solid var(--line);background:var(--panel);padding:16px;margin:24px 0;border-radius:8px}.pair{display:block;width:100%;height:auto}.small{display:flex;flex-wrap:wrap;gap:20px}figure{margin:12px 0;min-width:0}figcaption{font-size:12px;color:var(--muted)}.small img{object-fit:contain}details,pre{min-width:0;overflow-wrap:anywhere}pre{white-space:pre-wrap;font:11px/1.4 monospace;max-height:420px;overflow:auto}code{overflow-wrap:anywhere}.status{border-left:4px solid var(--accent);padding:12px 18px;background:var(--panel)}a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:3px}</style><main><p>ODOТ / TEXTURE-ONLY TRIAL</p><h1>More painted surfaces.<br>The same authored assets.</h1>
 <div class="status"><strong>Partial assets-first milestone, not end-to-end completion.</strong> Matched original/new GLBs rendered through the existing Cycles studio on CPU. After this asset PR lands on assets main, dependent game ship <code>odot-ai-textures-game</code> must update the explicit immutable pin and hash/derived manifest metadata, then complete actual-GPU acceptance in settlement, forest, river and path views, including placement, tile connections, water motion and asset loading. Include Archery Range settlement acceptance if its material stage is visually acceptable. Do not declare the overall request complete until that game work lands with acceptance evidence.</div>
 <p>Reference-library palette and serif hierarchy, reused for this offline review. All images are actual GLB renders; no concept art is substituted. Click any pair for full resolution. The 96px views are representative diagnostics, not calibrated game captures.</p>
-<p><a href="README.md">Decisions, defects, reproduction &amp; rollback</a> · <a href="resources.json">Resource deltas</a> · <a href="validation.json">Independent preservation</a> · <a href="ground-verification.json">Connector / stack checks</a> · <a href="handoff.json">Assets-main-only handoff</a></p>
+<p><a href="README.md">Decisions, defects, reproduction &amp; rollback</a> · <a href="seams/review.html">Three-revision bounded ground correction</a> · <a href="resources.json">Resource deltas</a> · <a href="validation.json">Independent preservation</a> · <a href="ground-verification.json">Connector / stack checks</a> · <a href="handoff.json">Assets-main-only handoff</a></p>
 <p><strong>Observed:</strong> floors gain recognizable painted leaves, pebbles and grass; wood, stone and cloth gain restrained surface variation. <strong>Limits:</strong> the small enlarged ground swatches blur close-up, pine duff resembles leaf litter, repeated stamps remain visible, and connector endcaps stay quieter. The building change is mainly a close-view improvement; its preserved growth dominates small views. See the written review for per-family judgments.</p><article><h2>Shared foundation · sidewall detail</h2><img class="pair" src="comparisons/foundation_side.png" alt="Before and after sidewall pixel crop"><p>Same moss GLBs, same camera. A shallow course cropped from the supplied foundation atlas avoids squeezing several square block rows into the .36m sidewall. Unchanged UVs and base depth; the underside shares this material.</p></article><article><h2>environment hex ground moss</h2><a href="comparisons/environment_hex_ground_moss.png"><img class="pair" loading="lazy" src="comparisons/environment_hex_ground_moss.png" alt="Matched original and textured GLB: environment_hex_ground_moss"></a><div class="small"><figure><figcaption>Before · 96 px diagnostic</figcaption><img width="96" height="96" src="renders/before/environment_hex_ground_moss.png" alt="Before small view"></figure><figure><figcaption>After · 96 px diagnostic</figcaption><img width="96" height="96" src="renders/after/environment_hex_ground_moss.png" alt="After small view"></figure></div><details><summary>Exact assets, hashes &amp; render settings</summary><pre>{
   &quot;before&quot;: {
     &quot;name&quot;: &quot;environment_hex_ground_moss&quot;,
@@ -121,7 +121,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       }
     ],
     &quot;camera_location&quot;: [
@@ -147,14 +147,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;19f3791858b739bbf2e373f261eaff6c68c55e46edf2f836b321ef471f82d50d&quot;,
+    &quot;png_sha256&quot;: &quot;6a15bea7f3a2c0bb944efad2fa6b712258ed8f963f1de4f92b613b48803e790c&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -334,7 +334,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       }
     ],
     &quot;camera_location&quot;: [
@@ -360,14 +360,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;2a1d1e968e7349afb4b2c8a3ba6058e2d9280a3def8f0db91c4d61984efd3d9d&quot;,
+    &quot;png_sha256&quot;: &quot;14f324648ac59309418c9665d34d586f15a42fd001a400a5867c8c56d0868268&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -547,7 +547,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       }
     ],
     &quot;camera_location&quot;: [
@@ -573,14 +573,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;85259b930e58e2efd44a5a03bf8a6681087654cf2a0f0bdf8fbc1da3945e8767&quot;,
+    &quot;png_sha256&quot;: &quot;88b27c786dfeb2e7f4fbf972b864998c9fb60f7d9d4ee067087b3c26fc3fddd7&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -760,7 +760,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       }
     ],
     &quot;camera_location&quot;: [
@@ -786,14 +786,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;c0eb85d488e8d2c1d02fbcdf8db616ef43b540a9c0506b1da7c580b7ad84d1e1&quot;,
+    &quot;png_sha256&quot;: &quot;83a518ff88dcc7f5995958c7814be385a7e70d4a7a9a9366486fbd898b975425&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -973,7 +973,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;6d8a2a895b8558cbe8a4d7b2da79b131eaf554eee562297232996f129e09fa33&quot;
+        &quot;glb_sha256&quot;: &quot;fd3043fc16880b7110fd01d4c769ae414efb068dc927a9f80f8d2841f3777bc9&quot;
       }
     ],
     &quot;camera_location&quot;: [
@@ -999,14 +999,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;8db4ab8162075353e3155d4c59d0a848d113b126d012a5a1fec5d96315662463&quot;,
+    &quot;png_sha256&quot;: &quot;41ce353c9ecf45b35daf8b208c1df3e4a6954eeeae5b87e4c0ebb9d53358a06f&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -1186,7 +1186,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;6d8a2a895b8558cbe8a4d7b2da79b131eaf554eee562297232996f129e09fa33&quot;
+        &quot;glb_sha256&quot;: &quot;fd3043fc16880b7110fd01d4c769ae414efb068dc927a9f80f8d2841f3777bc9&quot;
       }
     ],
     &quot;camera_location&quot;: [
@@ -1212,14 +1212,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;ed65aa8bff76e64b8207f614194b087558deda58abedb9c207e1630e8634ec52&quot;,
+    &quot;png_sha256&quot;: &quot;d4714304b626ddc98c5a1b89bb6613afbe86935279d2642175e8a9f7faf8f0da&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -1399,7 +1399,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;b0aff9370b43e97cc5a376cc6e390e8a9c510fc4a258f912cfa9245723aaa16f&quot;
+        &quot;glb_sha256&quot;: &quot;18fd0e594b0447e0e3a6c66b175049880604ff4a2bc5ef824e1dfc03633d4665&quot;
       }
     ],
     &quot;camera_location&quot;: [
@@ -1425,14 +1425,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;533b5a0405cd848cc4ffe89795dc9bc805ba5a0210351d7525365d9338513aaf&quot;,
+    &quot;png_sha256&quot;: &quot;9921e1d43b71860d66d0d41cedcdec58bd90d2f9dd12c98dd87c9d85f4607204&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -1612,7 +1612,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;b0aff9370b43e97cc5a376cc6e390e8a9c510fc4a258f912cfa9245723aaa16f&quot;
+        &quot;glb_sha256&quot;: &quot;18fd0e594b0447e0e3a6c66b175049880604ff4a2bc5ef824e1dfc03633d4665&quot;
       }
     ],
     &quot;camera_location&quot;: [
@@ -1638,14 +1638,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;af45f2868c19c4ebccc1d99d800d053b171e4e7d6c1b61ca2ea7023e956b4237&quot;,
+    &quot;png_sha256&quot;: &quot;0a238fd266cf2a8b0d3ae1d9e84ff77de964f2e9d38636717cac00781780e995&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -1825,7 +1825,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;fcd251444db55664911c4d5b4e3be70486d24030b8417f53b6bd02ff163f885c&quot;
+        &quot;glb_sha256&quot;: &quot;200eabf0233bc157ceeb74dd1b75a32b8cbe35ae1568c7c1e421cbdd3510a251&quot;
       }
     ],
     &quot;camera_location&quot;: [
@@ -1851,14 +1851,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;791fadfe77f17881d2120746aa0fa335ca93981f67115336c89183d9efb71421&quot;,
+    &quot;png_sha256&quot;: &quot;8d6f54511f0db0fdd4b525f8ea801a138c67b1addd345ce212873f38c89d9d8c&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -2038,7 +2038,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;fcd251444db55664911c4d5b4e3be70486d24030b8417f53b6bd02ff163f885c&quot;
+        &quot;glb_sha256&quot;: &quot;200eabf0233bc157ceeb74dd1b75a32b8cbe35ae1568c7c1e421cbdd3510a251&quot;
       }
     ],
     &quot;camera_location&quot;: [
@@ -2064,14 +2064,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;a36e324e96635b0c930325d92bb0dd17a550a1e43b7fd8d6ccd438d32e3d0b01&quot;,
+    &quot;png_sha256&quot;: &quot;a507e22e7d9d17425f89b4972742b981c53597583fb29ee72a18fcca22f25778&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -2261,7 +2261,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_straight&quot;,
@@ -2297,14 +2297,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;04c818d6b63a2cf03b73f2091718187574da6e2fb41316ce54a1e3a48ca35768&quot;,
+    &quot;png_sha256&quot;: &quot;2a519f63ae348e2ca9237828fff8383902d10729184e214c265ec73b042d247e&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -2494,7 +2494,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_straight&quot;,
@@ -2530,14 +2530,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;fd80112b31bd86188c6bc6849f9dbb4b76d16b46f65513992b175808494598a0&quot;,
+    &quot;png_sha256&quot;: &quot;a5267c6c26dfefccfeb3b3b90942403008265e587175e770901f2a99f4dcb4eb&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -2727,7 +2727,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_turn_120&quot;,
@@ -2763,14 +2763,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;66c6170116a5dbb3448a7685e52465b81b6208bb7076aebe20bc04c30eca7d49&quot;,
+    &quot;png_sha256&quot;: &quot;c1d3e102d92483732bf367b747b2762952acb54642fec7a06899abde1cd0b927&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -2960,7 +2960,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_turn_120&quot;,
@@ -2996,14 +2996,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;93d20836b08bdfe4e22bf21ea7088eca034de209edf4c3a7c2b26d20decd9497&quot;,
+    &quot;png_sha256&quot;: &quot;067226f3566d918951889523e8839fe91f305748becd894399fda57c61019d5f&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -3193,7 +3193,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_turn_60&quot;,
@@ -3229,14 +3229,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;3edc2da17ddfa3b9f5b7c6a075ac246c40a870fb2beed8700dbfbc3826e6d88f&quot;,
+    &quot;png_sha256&quot;: &quot;86bd057ce52b5266f62a6c37c292db0f78becf345b9b516c870e32c4db4b51b4&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -3426,7 +3426,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_turn_60&quot;,
@@ -3462,14 +3462,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;c86594eadc633afdacc790ae0afb08997626cdbdd6fb40dc17941a3ae89633c2&quot;,
+    &quot;png_sha256&quot;: &quot;e26f6638e50bb05650ef8ca4876ebf2f668a341fc9089508592318924413deae&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -3659,7 +3659,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_end&quot;,
@@ -3695,14 +3695,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;30699a507d00653b486e6e1c1c286dcb2f0b79a7eb64a633c312801b81f8a1e5&quot;,
+    &quot;png_sha256&quot;: &quot;289ac985565f72c8e77f6287b1a857e40c77901c26e28dd2f594455778ea20be&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -3892,7 +3892,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_end&quot;,
@@ -3928,14 +3928,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;5b0763c7699ea9849b15829a34154411a509e042d00cf9c679cea8ea98017f0b&quot;,
+    &quot;png_sha256&quot;: &quot;706996c31372f6ae6d8e58a2168a55b98e5cd3a753f1c850cae9c6b932983bce&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -4125,7 +4125,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_straight&quot;,
@@ -4161,14 +4161,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;23916cc0dc3e6d0b0f1f06388d2234f193e42ce5033e28a155777e7e3da651f6&quot;,
+    &quot;png_sha256&quot;: &quot;c437ec78cb8c7727627fe2bc44ad09cc8c6db3c1c395cfba34497ffd96fe47f6&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -4358,7 +4358,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_straight&quot;,
@@ -4394,14 +4394,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;300170d2d4585a0c435092c5b5cdeca62d1faf43f96cd51b7523b570e6bf697c&quot;,
+    &quot;png_sha256&quot;: &quot;c8a63b67495b18bb7a3e537d46365ba8bade0e9727ec89df11a5264a8c0a7ee0&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -4591,7 +4591,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_turn_120&quot;,
@@ -4627,14 +4627,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;8327f0170842999ed8288e07de9152a9e29e017d1e593abff087e85546ab2451&quot;,
+    &quot;png_sha256&quot;: &quot;420586c9e28bc731d59722bb6a7b6df52f55f25eae9d78ba0c43033529d1d3ca&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -4824,7 +4824,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_turn_120&quot;,
@@ -4860,14 +4860,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;aaf962911d0bf0b3e3a09c1b8d7f7dd80c8f436627941ae250e58133768627ae&quot;,
+    &quot;png_sha256&quot;: &quot;5cd1cad2fbec3303365af70461ce70d363a26d23ac45909d8e75e998242206a5&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -5057,7 +5057,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_turn_60&quot;,
@@ -5093,14 +5093,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;90b7afae53accd6bf5d315b51d5fd6240b4f8160ce2564d63fcf61cec1e02792&quot;,
+    &quot;png_sha256&quot;: &quot;a36e19a5dd1884adbbff1ac82ee19c3a3aa03b6baada308a563a03cd3958e5d6&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -5290,7 +5290,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_turn_60&quot;,
@@ -5326,14 +5326,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;3858986b7b047db69b80a3bb9dd7a87d23b0b7359be4f23765774d1f9342a9c9&quot;,
+    &quot;png_sha256&quot;: &quot;e686a9a2b1f679b6696931c9bfe2911c780e8b266b598ff5ec0c8799ff5b3e85&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -5523,7 +5523,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_end&quot;,
@@ -5559,14 +5559,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;0a3edbb60fe48215fb63fe0dd87aa50ae65d02c001c6f7590cc86aec18990ebb&quot;,
+    &quot;png_sha256&quot;: &quot;96656fefef2d657bf3a9ab56a7248adbc32f4c45f775852844d972f15fc8158b&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -5756,7 +5756,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_end&quot;,
@@ -5792,14 +5792,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;fcf050c6c89a774810d45f2d84797105c76325d7b22484c04f330ef357b69c24&quot;,
+    &quot;png_sha256&quot;: &quot;b38706fa1fa40828461ddb00b6561c09b6364cbbf3f11883f146665f347da75b&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -6089,7 +6089,7 @@
           -4.416729559300636,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_end&quot;,
@@ -6109,7 +6109,7 @@
           0.0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86&quot;
+        &quot;glb_sha256&quot;: &quot;dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_straight&quot;,
@@ -6129,7 +6129,7 @@
           4.416729559300636,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;6d8a2a895b8558cbe8a4d7b2da79b131eaf554eee562297232996f129e09fa33&quot;
+        &quot;glb_sha256&quot;: &quot;fd3043fc16880b7110fd01d4c769ae414efb068dc927a9f80f8d2841f3777bc9&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_end&quot;,
@@ -6149,7 +6149,7 @@
           -2.208364779650318,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;b0aff9370b43e97cc5a376cc6e390e8a9c510fc4a258f912cfa9245723aaa16f&quot;
+        &quot;glb_sha256&quot;: &quot;18fd0e594b0447e0e3a6c66b175049880604ff4a2bc5ef824e1dfc03633d4665&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_end&quot;,
@@ -6169,7 +6169,7 @@
           2.208364779650318,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;fcd251444db55664911c4d5b4e3be70486d24030b8417f53b6bd02ff163f885c&quot;
+        &quot;glb_sha256&quot;: &quot;200eabf0233bc157ceeb74dd1b75a32b8cbe35ae1568c7c1e421cbdd3510a251&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_straight&quot;,
@@ -6189,7 +6189,7 @@
           6.625094338950954,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_end&quot;,
@@ -6225,14 +6225,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;296897a592eb0e63e71933507ecb0173b6e93ac0bfa04f3402566de7084710de&quot;,
+    &quot;png_sha256&quot;: &quot;059670ee45fe627d297577803490c835411de642db89f5ce464952df0d8719ff&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -6888,7 +6888,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_straight&quot;,
@@ -6908,7 +6908,7 @@
           4.416729559300636,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_end&quot;,
@@ -6928,7 +6928,7 @@
           -4.416729559300636,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_end&quot;,
@@ -6964,14 +6964,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;d2fae58d762da35443a8d95a64aa062b2edde25c8b964c5e6bae0a6a47fb6e9b&quot;,
+    &quot;png_sha256&quot;: &quot;88c6a99dd9359b2920f04c20cbde020fb9566d6958c8ee3f02067142022e29a8&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -7201,7 +7201,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_turn_120&quot;,
@@ -7221,7 +7221,7 @@
           4.416729559300636,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_end&quot;,
@@ -7241,7 +7241,7 @@
           -2.208364779650317,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_end&quot;,
@@ -7277,14 +7277,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;455094076964317173f4352c593b2ff523bbc48e38a40365c6dba618321252db&quot;,
+    &quot;png_sha256&quot;: &quot;745b245c67582a10b018e16f23249ad9a9ab59ad95a71bade743a9fd526261fe&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -7514,7 +7514,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_turn_60&quot;,
@@ -7534,7 +7534,7 @@
           4.416729559300636,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_end&quot;,
@@ -7554,7 +7554,7 @@
           2.2083647796503185,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_end&quot;,
@@ -7590,14 +7590,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;cf14e944e61ea46c810eab8b34c3496463b45c0a79b46d39b18a3d9e65dbaf69&quot;,
+    &quot;png_sha256&quot;: &quot;e99a72539b0a45d4b7a9fed422bfb2b3287e5f1aa0174ed413e980c989129967&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -7807,7 +7807,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_end&quot;,
@@ -7827,7 +7827,7 @@
           4.416729559300636,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_path_end&quot;,
@@ -7863,14 +7863,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;9dfa29b1eacbdc9a8af0270044b1f96deb6670b72e972e343819540a83087392&quot;,
+    &quot;png_sha256&quot;: &quot;04d932035f5700c770b69206083c3d9c6c5a91c06e092004831e07a2642db098&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -8100,7 +8100,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_straight&quot;,
@@ -8120,7 +8120,7 @@
           4.416729559300636,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_end&quot;,
@@ -8140,7 +8140,7 @@
           -4.416729559300636,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_end&quot;,
@@ -8176,14 +8176,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;97232f34a1d0812117bf1a24acf356f432c23cfb6cfa8d31d6c95311c98118a6&quot;,
+    &quot;png_sha256&quot;: &quot;9b3c0373237cb5524c462d5658763e2521821838347d72120336741d707321f5&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -8413,7 +8413,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_turn_120&quot;,
@@ -8433,7 +8433,7 @@
           4.416729559300636,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_end&quot;,
@@ -8453,7 +8453,7 @@
           -2.208364779650317,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_end&quot;,
@@ -8489,14 +8489,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;3ccebd4165bc1d68b405d4801c501b2c53976043fc8fde4c9385ce13cc617f81&quot;,
+    &quot;png_sha256&quot;: &quot;092b38f72e5ea20c2c60935ce48e68392a73c9909b9f0755b6624854cd55e66e&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -8726,7 +8726,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_turn_60&quot;,
@@ -8746,7 +8746,7 @@
           4.416729559300636,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_end&quot;,
@@ -8766,7 +8766,7 @@
           2.2083647796503185,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_end&quot;,
@@ -8802,14 +8802,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;91e34f025896eb53efdb13cd3b566dd576a771106dd9533576f3834ce267bd6b&quot;,
+    &quot;png_sha256&quot;: &quot;e6a72b9e89c9974c6c01744bc19fe26377470ec1b8b00cb7fcaf216e808a68b6&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -9019,7 +9019,7 @@
           0,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_end&quot;,
@@ -9039,7 +9039,7 @@
           4.416729559300636,
           0
         ],
-        &quot;glb_sha256&quot;: &quot;d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f&quot;
+        &quot;glb_sha256&quot;: &quot;36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2&quot;
       },
       {
         &quot;id&quot;: &quot;environment/hex_river_overlay_end&quot;,
@@ -9075,14 +9075,14 @@
     ],
     &quot;samples&quot;: 24,
     &quot;threads&quot;: 4,
-    &quot;style_sha256&quot;: &quot;e0f0547afe0a2771508434e733d6baf804a10c2bd020b87cd18cf384a9c342fd&quot;,
+    &quot;style_sha256&quot;: &quot;2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5&quot;,
     &quot;exposure&quot;: 0.0,
     &quot;glow&quot;: true,
     &quot;runtime&quot;: &quot;5.2.2 LTS&quot;,
     &quot;engine&quot;: &quot;CYCLES&quot;,
     &quot;transform&quot;: &quot;AgX&quot;,
     &quot;look&quot;: &quot;AgX - Medium High Contrast&quot;,
-    &quot;png_sha256&quot;: &quot;ccda20a690557ab9638305cd13b0af52583ef5e00b95a25a271740ef44868079&quot;,
+    &quot;png_sha256&quot;: &quot;f23a2ef8bc801b9268ce47e11248e752e9495ae1a7ba85afb0a61b0b45fde982&quot;,
     &quot;revision&quot;: &quot;after&quot;,
     &quot;baseline_revision&quot;: &quot;133c7cdeb368cada408d1c95c9414e08488371a9&quot;,
     &quot;render_worker_sha256&quot;: &quot;36a2cf1a4e529346bb1595b5f1b1a3c2c06092a5f4a0d5db8677479cda0fbf06&quot;,
@@ -9144,4 +9144,4 @@
     },
     &quot;renderer_device&quot;: &quot;CPU; portable evidence, not actual Godot/GPU acceptance&quot;
   }
-}</pre></details></article><footer>Baseline 133c7cdeb368cada408d1c95c9414e08488371a9 · POC content identity <code>702a679862bb25a1e4f7152b2ea97190ba1c3b14b467398dbaa71af725011635</code></footer></main></html>
+}</pre></details></article><footer>Baseline 133c7cdeb368cada408d1c95c9414e08488371a9 · POC content identity <code>62ba705d9dd5e26d4ed6fd0b0c7e64337fc064629148420737f55a5e9057c8a7</code></footer></main></html>
