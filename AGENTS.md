@@ -48,4 +48,5 @@
 - Art references and shared components: [README.md — Reference asset set](README.md#reference-asset-set).
 - Catalog metadata and export selection: [catalog/SCHEMA.md](catalog/SCHEMA.md).
 - Keep GUI Blender for review; run builds and tests in isolated workers. Check commands export existing sources and never regenerate their geometry.
+- Evidence retention and byte budgets: [docs/repository-cleanup.md](docs/repository-cleanup.md#persistent-evidence-policy). Keep disposable captures in ignored `scratch/` or `.cache/`; stage hash-bound generators in isolated checkouts. Promote only reviewed evidence and real binding records with explicit purpose/provenance/caps; policy edits never authorize recapture or pruning immutable history. `mise run check` validates retention.
 - Tool discovery should return names first; load one relevant schema. Print one result representation and short log tails. Full Blender logs are in `.cache/asset-check/logs/`.
