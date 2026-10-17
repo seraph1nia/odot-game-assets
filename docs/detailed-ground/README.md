@@ -2,8 +2,8 @@
 
 The placement/interface contracts below still apply. The renders and verification
 receipts describe the original suite, before the selective Whisperwood palette
-refresh; current source/export/image bindings are owned by
-[the overhaul ledger](../whisperwood/README.md).
+refresh; current source/export/image bindings and later comparisons are owned by
+[the AI texture POC](../ai-textures/README.md).
 
 ## Delivery and authority
 
@@ -30,10 +30,11 @@ Each ID has a matching `sources/environment/<stem>.blend` and
 
 Generated `resources` records in [verification.json](verification.json) own
 per-asset triangle counts, GLB bytes, material/image counts, decoded RGBA8 image
-bytes and source/export hashes. Regenerate them with the scoped verifier in the
-README after an authorized source/export change, rather than maintaining a prose
-copy. Compare the recorded hashes to the current files before treating the records
-as current. Map dimensions come from `art_style.TEXTURES` via `ground_tiles.py`.
+bytes and source/export hashes for the original suite. Preserve this historical
+receipt; use the [AI POC reproduction procedure](../ai-textures/README.md#reproduce-without-rebuilding-geometry)
+for the current revision's separate verifier output. Compare recorded hashes to
+the files being reviewed before treating any receipt as current. Original map
+dimensions come from `art_style.TEXTURES` via `ground_tiles.py`.
 
 RGBA8 is a decoded-image accounting convention, **not measured VRAM**. Summing
 `decoded_rgba8_image_bytes` counts each file's images independently; a consumer may
@@ -66,7 +67,8 @@ budget.
   streams. All existing stream IDs/geometry/dimensions/interfaces are preserved;
   no new-to-old transition, excavation, bridge, crossing or junction is supplied.
 - River is a shallow opaque painted surface stream, not volumetric/transparent
-  water. No animation, refraction, game renderer or generator integration is implied.
+  water. Its later localized motion follows the [ambient clip contract](../ambient-motion/README.md#clip-and-playback-contract);
+  refraction and game renderer/generator integration are not implied.
 
 ## Exact topology and transforms
 

@@ -11,7 +11,7 @@ checkpoint is `ac41b74`; neutral pairs below record the detailed exports landed 
 `9a69b514`. Motion has separate strict preservation, playback and evidence receipts.
 Those render/count ledgers are now immutable historical snapshots, not current
 optimized-export bindings; see the [runtime successor record](../runtime-optimization/README.md)
-for current comparisons and verification.
+for optimization comparisons and successor verification.
 
 ## Reference-led observations and implementation
 

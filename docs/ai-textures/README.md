@@ -10,14 +10,10 @@ library's dark olive/parchment colors and serif hierarchy rather than introducin
 another catalog or review service.
 
 **Status: partial assets-first milestone, not completion of the end-to-end POC.**
-The authorized delivery order is to land this asset PR on assets `main`, then ship
-the already-filed dependent game work **`odot-ai-textures-game`**. That work must
-update the explicit immutable asset pin and hash/derived manifest metadata, then
-perform actual-GPU acceptance in settlement, forest, river and path views,
-including placement, tile connections, water motion and asset loading. Include
-Archery Range settlement acceptance if its material stage is visually acceptable.
-**Do not declare the overall request complete until that game work lands with
-acceptance evidence.** CPU Blender renders do not prove game-camera improvement,
+The [main-only game handoff](#main-only-game-handoff-and-rollback) owns the delivery
+order and pending **`odot-ai-textures-game`** acceptance requirements. **The overall
+request remains incomplete until that game work lands with acceptance evidence.**
+CPU Blender renders do not prove game-camera improvement,
 GPU timings or production art approval. No game checkout was modified or used as
 a private import path.
 
@@ -222,8 +218,9 @@ are needed. Run in an isolated copy, never over someone else's uncommitted sourc
 python3 -m tools.asset_pack.ai_texture_inputs ~/Downloads/odot_ground_tiles_poc.zip .cache/ai-textures/reextract-ground
 python3 -m tools.asset_pack.ai_texture_inputs ~/Downloads/odot_archery_range_texture_poc.zip .cache/ai-textures/reextract-archery
 
-# In a baseline checkout/copy, preserve all14 baseline source/GLB bytes in
-# .cache/ai-textures/before/{sources,exports}/ using baseline.json hashes first.
+# In an isolated POC checkout/copy (with these tools and input maps), preserve
+# all14 baseline source/GLB bytes in .cache/ai-textures/before/{sources,exports}/
+# using baseline.json hashes first. Restore those baseline sources into sources/.
 # Then audit BEFORE authoring. Never replace an existing baseline audit with new bytes.
 python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label ai-audit audit
 python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label ai-apply apply
