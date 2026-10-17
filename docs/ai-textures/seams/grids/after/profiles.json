@@ -1,0 +1,926 @@
+[
+  {
+    "name": "same_moss",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          0.0,
+          0
+        ],
+        "glb_sha256": "36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          2.208364779650318,
+          0
+        ],
+        "glb_sha256": "36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          6.625094338950954,
+          0
+        ],
+        "glb_sha256": "36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          7.6499999999999995,
+          0.0,
+          0
+        ],
+        "glb_sha256": "36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          7.6499999999999995,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2"
+      }
+    ],
+    "camera_location": [
+      3.8249998092651367,
+      -1.687452793121338,
+      11.819999694824219
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 17.662734985351562,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      89.00519371032715,
+      32.832364439964294,
+      550.9947967529297,
+      407.16764211654663
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "4f6f1fd80f6a649c139ba9c69e5ff7fd75aa80d0829c1f918181349fd7413945",
+    "revision": "after",
+    "render_worker_sha256": "a66c9df2c701ed8b968785c236cf464a248970e6c547cb9633e5c5d06a695b11",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    }
+  },
+  {
+    "name": "same_grass",
+    "assets": [
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          0.0,
+          0
+        ],
+        "glb_sha256": "dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887"
+      },
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887"
+      },
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          2.208364779650318,
+          0
+        ],
+        "glb_sha256": "dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887"
+      },
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          6.625094338950954,
+          0
+        ],
+        "glb_sha256": "dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887"
+      },
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          7.6499999999999995,
+          0.0,
+          0
+        ],
+        "glb_sha256": "dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887"
+      },
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          7.6499999999999995,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887"
+      }
+    ],
+    "camera_location": [
+      3.8249998092651367,
+      -1.687452793121338,
+      11.819999694824219
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 17.662734985351562,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      89.00519371032715,
+      32.832364439964294,
+      550.9947967529297,
+      407.16764211654663
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "a1e23658c2b6421c1f5460fe54e8da1a31ddac02fb2944912b1df28a25c5fdd8",
+    "revision": "after",
+    "render_worker_sha256": "a66c9df2c701ed8b968785c236cf464a248970e6c547cb9633e5c5d06a695b11",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    }
+  },
+  {
+    "name": "same_dirt",
+    "assets": [
+      {
+        "id": "environment/hex_ground_dirt",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          0.0,
+          0
+        ],
+        "glb_sha256": "fd3043fc16880b7110fd01d4c769ae414efb068dc927a9f80f8d2841f3777bc9"
+      },
+      {
+        "id": "environment/hex_ground_dirt",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "fd3043fc16880b7110fd01d4c769ae414efb068dc927a9f80f8d2841f3777bc9"
+      },
+      {
+        "id": "environment/hex_ground_dirt",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          2.208364779650318,
+          0
+        ],
+        "glb_sha256": "fd3043fc16880b7110fd01d4c769ae414efb068dc927a9f80f8d2841f3777bc9"
+      },
+      {
+        "id": "environment/hex_ground_dirt",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          6.625094338950954,
+          0
+        ],
+        "glb_sha256": "fd3043fc16880b7110fd01d4c769ae414efb068dc927a9f80f8d2841f3777bc9"
+      },
+      {
+        "id": "environment/hex_ground_dirt",
+        "source_z_degrees": 0,
+        "position": [
+          7.6499999999999995,
+          0.0,
+          0
+        ],
+        "glb_sha256": "fd3043fc16880b7110fd01d4c769ae414efb068dc927a9f80f8d2841f3777bc9"
+      },
+      {
+        "id": "environment/hex_ground_dirt",
+        "source_z_degrees": 0,
+        "position": [
+          7.6499999999999995,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "fd3043fc16880b7110fd01d4c769ae414efb068dc927a9f80f8d2841f3777bc9"
+      }
+    ],
+    "camera_location": [
+      3.8249998092651367,
+      -1.687452793121338,
+      11.819999694824219
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 17.662734985351562,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      89.00519371032715,
+      32.832364439964294,
+      550.9947967529297,
+      407.16764211654663
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "b912ca797a6ecfba8af63132dd0a2ce64a6586a4cdeb1cfd0d33c4a66c0a48fc",
+    "revision": "after",
+    "render_worker_sha256": "a66c9df2c701ed8b968785c236cf464a248970e6c547cb9633e5c5d06a695b11",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    }
+  },
+  {
+    "name": "same_leaf_litter",
+    "assets": [
+      {
+        "id": "environment/hex_ground_leaf_litter",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          0.0,
+          0
+        ],
+        "glb_sha256": "18fd0e594b0447e0e3a6c66b175049880604ff4a2bc5ef824e1dfc03633d4665"
+      },
+      {
+        "id": "environment/hex_ground_leaf_litter",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "18fd0e594b0447e0e3a6c66b175049880604ff4a2bc5ef824e1dfc03633d4665"
+      },
+      {
+        "id": "environment/hex_ground_leaf_litter",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          2.208364779650318,
+          0
+        ],
+        "glb_sha256": "18fd0e594b0447e0e3a6c66b175049880604ff4a2bc5ef824e1dfc03633d4665"
+      },
+      {
+        "id": "environment/hex_ground_leaf_litter",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          6.625094338950954,
+          0
+        ],
+        "glb_sha256": "18fd0e594b0447e0e3a6c66b175049880604ff4a2bc5ef824e1dfc03633d4665"
+      },
+      {
+        "id": "environment/hex_ground_leaf_litter",
+        "source_z_degrees": 0,
+        "position": [
+          7.6499999999999995,
+          0.0,
+          0
+        ],
+        "glb_sha256": "18fd0e594b0447e0e3a6c66b175049880604ff4a2bc5ef824e1dfc03633d4665"
+      },
+      {
+        "id": "environment/hex_ground_leaf_litter",
+        "source_z_degrees": 0,
+        "position": [
+          7.6499999999999995,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "18fd0e594b0447e0e3a6c66b175049880604ff4a2bc5ef824e1dfc03633d4665"
+      }
+    ],
+    "camera_location": [
+      3.8249998092651367,
+      -1.687452793121338,
+      11.819999694824219
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 17.662734985351562,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      89.00519371032715,
+      32.832364439964294,
+      550.9947967529297,
+      407.16764211654663
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "e5cc652e4e2a0d7b59187078de102d2b3161fd866b70d4ab01607c5b0d51df9d",
+    "revision": "after",
+    "render_worker_sha256": "a66c9df2c701ed8b968785c236cf464a248970e6c547cb9633e5c5d06a695b11",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    }
+  },
+  {
+    "name": "same_pine_duff",
+    "assets": [
+      {
+        "id": "environment/hex_ground_pine_duff",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          0.0,
+          0
+        ],
+        "glb_sha256": "200eabf0233bc157ceeb74dd1b75a32b8cbe35ae1568c7c1e421cbdd3510a251"
+      },
+      {
+        "id": "environment/hex_ground_pine_duff",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "200eabf0233bc157ceeb74dd1b75a32b8cbe35ae1568c7c1e421cbdd3510a251"
+      },
+      {
+        "id": "environment/hex_ground_pine_duff",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          2.208364779650318,
+          0
+        ],
+        "glb_sha256": "200eabf0233bc157ceeb74dd1b75a32b8cbe35ae1568c7c1e421cbdd3510a251"
+      },
+      {
+        "id": "environment/hex_ground_pine_duff",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          6.625094338950954,
+          0
+        ],
+        "glb_sha256": "200eabf0233bc157ceeb74dd1b75a32b8cbe35ae1568c7c1e421cbdd3510a251"
+      },
+      {
+        "id": "environment/hex_ground_pine_duff",
+        "source_z_degrees": 0,
+        "position": [
+          7.6499999999999995,
+          0.0,
+          0
+        ],
+        "glb_sha256": "200eabf0233bc157ceeb74dd1b75a32b8cbe35ae1568c7c1e421cbdd3510a251"
+      },
+      {
+        "id": "environment/hex_ground_pine_duff",
+        "source_z_degrees": 0,
+        "position": [
+          7.6499999999999995,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "200eabf0233bc157ceeb74dd1b75a32b8cbe35ae1568c7c1e421cbdd3510a251"
+      }
+    ],
+    "camera_location": [
+      3.8249998092651367,
+      -1.687452793121338,
+      11.819999694824219
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 17.662734985351562,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      89.00519371032715,
+      32.832364439964294,
+      550.9947967529297,
+      407.16764211654663
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "dd4c8aa885e9a17b8d4f7f9fc5ee31dea4dbeb8574cc460f65be72f69f3fed80",
+    "revision": "after",
+    "render_worker_sha256": "a66c9df2c701ed8b968785c236cf464a248970e6c547cb9633e5c5d06a695b11",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    }
+  },
+  {
+    "name": "mixed",
+    "assets": [
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          0.0,
+          0
+        ],
+        "glb_sha256": "36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2"
+      },
+      {
+        "id": "environment/hex_ground_grass",
+        "source_z_degrees": 0,
+        "position": [
+          0.0,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887"
+      },
+      {
+        "id": "environment/hex_ground_dirt",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          2.208364779650318,
+          0
+        ],
+        "glb_sha256": "fd3043fc16880b7110fd01d4c769ae414efb068dc927a9f80f8d2841f3777bc9"
+      },
+      {
+        "id": "environment/hex_ground_leaf_litter",
+        "source_z_degrees": 0,
+        "position": [
+          3.8249999999999997,
+          6.625094338950954,
+          0
+        ],
+        "glb_sha256": "18fd0e594b0447e0e3a6c66b175049880604ff4a2bc5ef824e1dfc03633d4665"
+      },
+      {
+        "id": "environment/hex_ground_pine_duff",
+        "source_z_degrees": 0,
+        "position": [
+          7.6499999999999995,
+          0.0,
+          0
+        ],
+        "glb_sha256": "200eabf0233bc157ceeb74dd1b75a32b8cbe35ae1568c7c1e421cbdd3510a251"
+      },
+      {
+        "id": "environment/hex_ground_moss",
+        "source_z_degrees": 0,
+        "position": [
+          7.6499999999999995,
+          4.416729559300636,
+          0
+        ],
+        "glb_sha256": "36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2"
+      }
+    ],
+    "camera_location": [
+      3.8249998092651367,
+      -1.687452793121338,
+      11.819999694824219
+    ],
+    "camera_rotation": [
+      0.3947910964488983,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 17.662734985351562,
+    "resolution": [
+      640,
+      440
+    ],
+    "projected_geometry_box_pixels": [
+      89.00519371032715,
+      32.832364439964294,
+      550.9947967529297,
+      407.16764211654663
+    ],
+    "samples": 24,
+    "threads": 4,
+    "style_sha256": "2b7c1b7deab67cbd9fdd3a6de38b14a9cb683215ffc1804a7b2b9200fcecd5e5",
+    "exposure": 0.0,
+    "glow": true,
+    "runtime": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "png_sha256": "598690b4004b263a39b3c186eb523a2bcc69f937b083fa34bbd0e937b62d5340",
+    "revision": "after",
+    "render_worker_sha256": "a66c9df2c701ed8b968785c236cf464a248970e6c547cb9633e5c5d06a695b11",
+    "shared_review_sha256": "495a375e3cc0a154efba1c1342bcc2b51aa6dabc183f22205ffbe5654b4fa123",
+    "source_style_lights": [
+      {
+        "name": "Warm key",
+        "position": [
+          -3,
+          -4,
+          8
+        ],
+        "energy": 1012,
+        "size": 5.2,
+        "color": [
+          1,
+          0.86,
+          0.69
+        ]
+      },
+      {
+        "name": "Soft sky",
+        "position": [
+          5,
+          -1,
+          5
+        ],
+        "energy": 533,
+        "size": 5,
+        "color": [
+          0.72,
+          0.83,
+          1
+        ]
+      },
+      {
+        "name": "Leaf rim",
+        "position": [
+          1,
+          5,
+          7
+        ],
+        "energy": 1000,
+        "size": 4,
+        "color": [
+          1,
+          0.94,
+          0.73
+        ]
+      }
+    ],
+    "world": {
+      "color": [
+        0.2,
+        0.22,
+        0.25
+      ],
+      "strength": 0.32
+    }
+  }
+]

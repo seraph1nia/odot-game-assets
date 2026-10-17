@@ -1847,7 +1847,7 @@
     },
     {
       "file": "exports/environment/hex_ground_dirt.glb",
-      "bytes": 1691708,
+      "bytes": 2040296,
       "meshes": 3,
       "triangles": 22,
       "materials": 2,
@@ -1856,7 +1856,7 @@
     },
     {
       "file": "exports/environment/hex_ground_grass.glb",
-      "bytes": 2141964,
+      "bytes": 2526636,
       "meshes": 3,
       "triangles": 22,
       "materials": 2,
@@ -1865,7 +1865,7 @@
     },
     {
       "file": "exports/environment/hex_ground_leaf_litter.glb",
-      "bytes": 2057852,
+      "bytes": 2450124,
       "meshes": 3,
       "triangles": 22,
       "materials": 2,
@@ -1874,7 +1874,7 @@
     },
     {
       "file": "exports/environment/hex_ground_moss.glb",
-      "bytes": 2039604,
+      "bytes": 2477844,
       "meshes": 3,
       "triangles": 22,
       "materials": 2,
@@ -1883,7 +1883,7 @@
     },
     {
       "file": "exports/environment/hex_ground_pine_duff.glb",
-      "bytes": 1891364,
+      "bytes": 2353992,
       "meshes": 3,
       "triangles": 22,
       "materials": 2,

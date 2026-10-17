@@ -1,6 +1,14 @@
 # AI-generated texture POC — actual assets, not a concept mockup
 
-**Review:** open [`review.html`](review.html) directly in a browser. It is an offline,
+**Current bounded ground correction:** open [`seams/review.html`](seams/review.html)
+for **original → initially delivered → corrected** GLBs, all five repeated-family
+and mixed grids, and connected path/river comparisons. [Its report](seams/README.md)
+records the retained actual-game regression, source-only correction, costs and
+pending successor GPU acceptance. The five base-ground color maps supersede the
+initial floor treatment described below; foundation, overlays and Archery remain
+unchanged. The correction does not treat the earlier game regression as accepted.
+
+**Original/current pairs:** open [`review.html`](review.html) directly in a browser. It is an offline,
 side-by-side gallery of the original and changed **GLBs**, with close-ups, 96px
 representative views, shared-foundation detail, mixed floors, paths and connected
 river scenes. No server, download, image model or game checkout is needed.
@@ -49,7 +57,12 @@ license, production certification or new redistribution right is invented here.
 
 ## What changed
 
-### Phases 1–2: floors and foundation
+### Phases 1–2: floors and foundation (initial delivery, superseded for five bases)
+
+The following two paragraphs describe the historical first painted delivery.
+Current floors instead use the [bounded smaller-feature/luminance-preserving
+edge recipe](seams/README.md#small-source-preserving-fix). Historical first-delivery
+maps and PNGs are preserved; this text is not a claim that the dark outline passed.
 
 The moss-only trial was exported, checked and visually inspected before expanding
 to `hex_ground_{moss,grass,dirt,leaf_litter,pine_duff}` and `floor_foundation`.
@@ -127,7 +140,11 @@ ambient target or source physical rendering property changed. Building color ble
 retain original role means and shade relationships. At small scale the benefit is
 subtle; the plentiful authored growth still dominates the silhouette.
 
-## Visual review — candid, provisional
+## Initial-delivery visual review — historical, provisional
+
+The five floor judgments below predate the game-discovered regression. Current
+correction judgments and three-revision evidence are in [seams/README.md](seams/README.md#image-inspection--acceptance-conclusions).
+No historical praise waives actual-game acceptance.
 
 Implementation-worker inspection of actual full/close sheets and mixed/neighbor
 renders, against D03 palette, D04 surfaces, D05 contacts and D09 resource restraint:
@@ -190,8 +207,10 @@ asset images were inspected directly; actual-game acceptance remains separate. G
 material and mesh counts are unchanged, including the Archery Range's optimized
 45 meshes / 42 materials / 122,408 primitive triangles. New source PNGs coexist
 with preserved originals, increasing editable `.blend` storage intentionally.
-Across the fourteen GLBs, bytes increase from **27,115,592 to 30,266,832**
-(+3,151,240, about 3.01 MiB). Summed embedded RGBA8 estimates increase from
+The initial delivery increased fourteen GLBs from **27,115,592 to 30,266,832**
+(+3,151,240, about 3.01 MiB); this is historical, not the corrected total.
+Current source/export costs and exact changes from that delivered predecessor
+are in [`seams/comparisons.json`](seams/comparisons.json) and [`resources.json`](resources.json). Summed embedded RGBA8 estimates increase from
 **149,946,368 to 152,043,520 bytes** (+2 MiB), entirely in Archery Range: its
 embedded images increase from 36 to 38. Previously scalar blue cloth now has a
 color map, and prepared material variations no longer share every old color image.

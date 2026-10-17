@@ -344,6 +344,16 @@ class AITextureStyle:
     ground_blend: float = .75
     ground_edge_fade: float = .18
     ground_edge_color: tuple = (.37, .38, .23)
+    # Seam correction recipe v2. Ownership namespace stays v1 so preserved
+    # content-keyed predecessors remain auditable; no baseline map is replaced.
+    input_frame_crop: float = .085
+    detail_spacing: float = .28
+    detail_extent: float = .48
+    detail_contrast: float = .8
+    corrected_edge_fade: float = .48
+    authored_family_mean: float = .8
+    edge_hue_mix: float = .2
+    edge_detail_contrast: float = .85
     building_blend: float = .55
 
 

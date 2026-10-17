@@ -60,4 +60,23 @@ def predecessor(root, aid, kind):
     assert exported['before']['version'] == original['exports']['sha256']
     assert exported['after']['version'] == sha(root / 'exports' / (aid + '.glb')), 'stale texture export receipt'
     assert exported['after']['triangles'] == exported['before']['triangles']
+    if (root / 'docs/ai-textures/seams/baseline.json').exists() or 'immediate_predecessor' in record:
+        manifest = json.loads((root / 'docs/ai-textures/seams/baseline.json').read_text())
+        delivered = next(a for a in manifest['assets'] if a['id'] == aid)
+        assert 'immediate_predecessor' in record, 'Missing delivered predecessor proof'
+        immediate = record['immediate_predecessor']
+        assert immediate['revision'] == manifest['revision']
+        assert immediate['source_sha256'] == delivered['sources']['sha256']
+        assert immediate['export']['before']['version'] == delivered['exports']['sha256']
+        assert immediate['export']['after']['version'] == exported['after']['version']
+        assert immediate['source_signature_before'] == immediate['source_signature_after_normalized']
+        assert immediate['all_predecessor_images_exact']
+        for key in ('non_color_materials_and_embedded_data_maps_equal', 'exact_animation_targets_samples_loop_extras'):
+            assert immediate['export'][key], (aid, 'immediate predecessor', key)
+        immediate_geometry = immediate['export']['all_serialized_triangle_corners_normals_uvs_equal']
+        assert immediate_geometry['normals_asserted'] and immediate_geometry['all_triangle_corners_checked_bidirectionally']
+        assert immediate_geometry['one_to_one_source_triangle_connectivity_winding_equal']
+        assert immediate_geometry['per_material_triangle_multiplicity_equal']
+        assert max(immediate_geometry['max_position_error_m'], immediate_geometry['max_normal_component_error'],
+                   immediate_geometry['max_uv_error']) < .00002
     return original[kind]['sha256']

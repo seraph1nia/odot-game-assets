@@ -11,19 +11,19 @@
         "version": "b9640f362c4f5ac9993eb291955732214f876e6fbe824d75b8ac32b06fbbed3a"
       },
       "after": {
-        "bytes": 2039604,
+        "bytes": 2477844,
         "meshes": 3,
         "triangles": 22,
         "materials": 2,
         "animations": [],
-        "version": "d13366a078a3b20e523a616bf62cb8d740f5b854f49ca3d2378582be51c6061f"
+        "version": "36df3e216f7e7e415ecc7b8e048c608302b4d4b585a1455fcb56e3c1b3f69cb2"
       },
       "before_decoded_rgba8_bytes_no_mips": 15728640,
       "after_decoded_rgba8_bytes_no_mips": 15728640,
       "source_bytes_before": 3141844,
-      "source_bytes_after": 4093794,
+      "source_bytes_after": 6484333,
       "retained_original_source_image_count": 10,
-      "added_source_color_images": 2
+      "added_source_color_images": 4
     },
     {
       "id": "environment/hex_ground_grass",
@@ -36,19 +36,19 @@
         "version": "348b6b2fbeab5bed0dad3389ed8eae881473a51e89f42fa4a5e2df21979a6584"
       },
       "after": {
-        "bytes": 2141964,
+        "bytes": 2526636,
         "meshes": 3,
         "triangles": 22,
         "materials": 2,
         "animations": [],
-        "version": "a7eb5b33ae06dad227ff3de858ca0b521e5719550fd7b6b53d55e11200e13d86"
+        "version": "dfe938bc5f4b2d673c33e61216af6d54907767da93379b16c48ebb5df34a0887"
       },
       "before_decoded_rgba8_bytes_no_mips": 15728640,
       "after_decoded_rgba8_bytes_no_mips": 15728640,
       "source_bytes_before": 3196312,
-      "source_bytes_after": 4183209,
+      "source_bytes_after": 6545423,
       "retained_original_source_image_count": 10,
-      "added_source_color_images": 2
+      "added_source_color_images": 4
     },
     {
       "id": "environment/hex_ground_dirt",
@@ -61,19 +61,19 @@
         "version": "1047b6db6b37d989c1e602fef8f61fd11379b801bdcd7d59a517df2932f01fc2"
       },
       "after": {
-        "bytes": 1691708,
+        "bytes": 2040296,
         "meshes": 3,
         "triangles": 22,
         "materials": 2,
         "animations": [],
-        "version": "6d8a2a895b8558cbe8a4d7b2da79b131eaf554eee562297232996f129e09fa33"
+        "version": "fd3043fc16880b7110fd01d4c769ae414efb068dc927a9f80f8d2841f3777bc9"
       },
       "before_decoded_rgba8_bytes_no_mips": 15728640,
       "after_decoded_rgba8_bytes_no_mips": 15728640,
       "source_bytes_before": 2518170,
-      "source_bytes_after": 3341185,
+      "source_bytes_after": 5324159,
       "retained_original_source_image_count": 10,
-      "added_source_color_images": 2
+      "added_source_color_images": 4
     },
     {
       "id": "environment/hex_ground_leaf_litter",
@@ -86,19 +86,19 @@
         "version": "cd799e48f11c755e7944432de6ab0cb0041794a7ca54738c0e435c1fba6e50d5"
       },
       "after": {
-        "bytes": 2057852,
+        "bytes": 2450124,
         "meshes": 3,
         "triangles": 22,
         "materials": 2,
         "animations": [],
-        "version": "b0aff9370b43e97cc5a376cc6e390e8a9c510fc4a258f912cfa9245723aaa16f"
+        "version": "18fd0e594b0447e0e3a6c66b175049880604ff4a2bc5ef824e1dfc03633d4665"
       },
       "before_decoded_rgba8_bytes_no_mips": 15728640,
       "after_decoded_rgba8_bytes_no_mips": 15728640,
       "source_bytes_before": 3168543,
-      "source_bytes_after": 4093829,
+      "source_bytes_after": 6348062,
       "retained_original_source_image_count": 10,
-      "added_source_color_images": 2
+      "added_source_color_images": 4
     },
     {
       "id": "environment/hex_ground_pine_duff",
@@ -111,19 +111,19 @@
         "version": "70c8d0bc648be7585df77e9cfd5eb601c49d34bb13973f389a407e88ce57eefd"
       },
       "after": {
-        "bytes": 1891364,
+        "bytes": 2353992,
         "meshes": 3,
         "triangles": 22,
         "materials": 2,
         "animations": [],
-        "version": "fcd251444db55664911c4d5b4e3be70486d24030b8417f53b6bd02ff163f885c"
+        "version": "200eabf0233bc157ceeb74dd1b75a32b8cbe35ae1568c7c1e421cbdd3510a251"
       },
       "before_decoded_rgba8_bytes_no_mips": 15728640,
       "after_decoded_rgba8_bytes_no_mips": 15728640,
       "source_bytes_before": 2697344,
-      "source_bytes_after": 3590033,
+      "source_bytes_after": 5919690,
       "retained_original_source_image_count": 10,
-      "added_source_color_images": 2
+      "added_source_color_images": 4
     },
     {
       "id": "environment/hex_path_straight",

@@ -1,117 +1,138 @@
 {
   "runtime": "Blender 5.2.2 LTS / d13f752e3b9c",
+  "scope": "Bounded five-base-ground correction; other9 sources/GLBs unchanged from delivered predecessor.",
   "checks": [
     {
-      "purpose": "selected export and round trip",
-      "command": "python3 -m tools.asset_pack.check <all14>",
-      "result": "PASS: 14 unchanged and current hash-bound verified results; prior final export/verify workers completed 14 assets",
-      "log": ".cache/ai-textures/asset-check-final.log",
-      "log_sha256": "9e38b13336c2511df1fe9a7d00a49b3c462f66a88d5b094ec8a6c2dd409d14e7"
+      "purpose": "Selected export and round trip (ground only)",
+      "command": "python3 -m tools.asset_pack.check $IDS",
+      "result": "PASS: 13 source-preserving exports and GLB round trips; unrelated delivered artifacts preserved",
+      "log": ".cache/ai-textures-seams/final.log",
+      "log_sha256": "a0b52c2373d020c1fab363c343c3770afca586ea0db94734f885b86f4a6fa1a0"
     },
     {
-      "purpose": "independent source/export preservation",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_ai_textures_blender.py --label ai-independent-preservation",
-      "result": "PASS: 14 current source/export successors; all protected source state, PNGs, triangle corners/normals/UVs and exact clip samples",
-      "log": ".cache/asset-check/logs/ai-independent-preservation.log",
-      "log_sha256": "8ef78ba2cf5ac24d3291cd7d20d7135976ac5d0507b9e8b5eb935fca18ee9dcc"
+      "purpose": "Full-source semantic idempotence, corrected five bases",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label seams-idempotence-final idempotence $BASES",
+      "result": "PASS: 5 complete captures equal, no datablock growth",
+      "log": ".cache/asset-check/logs/seams-idempotence-final.log",
+      "log_sha256": "3d117b1d4cb6d2b73094f5332ebbb87dce9c67193cef5e0ea6160151d423c5b5"
     },
     {
-      "purpose": "ground coverage (historical pre-final-save sources)",
-      "receipt_revision": "69d1e6eda5122c11a2e75665300da9f0fd6379e2:docs/ai-textures/ground-verification.json",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_ground_blender.py --label ai-ground-contracts --output docs/ai-textures/ground-verification.json",
-      "result": "PASS: source/imported GLB through-pairs, ends, matching neighbor interfaces, 48 actual root rotations and 40 stacks",
-      "log": ".cache/asset-check/logs/ai-ground-contracts.log",
-      "log_sha256": "015e52229c9c0abe529663d1cfc24d7449b15ac4990e2ef148827d07f2791b10"
+      "purpose": "Original and immediate predecessor preservation",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_ai_textures_blender.py --label seams-preservation-final",
+      "result": "PASS: all14 original source/export and immediate-delivered-predecessor audits; exact old maps, protected source state, geometry/UVs/non-color channels/animation",
+      "log": ".cache/asset-check/logs/seams-preservation-final.log",
+      "log_sha256": "cf34e861a7fbdd2f3a2df7263d13d87097ead89474d5eb6091d60857ae295006"
     },
     {
-      "purpose": "source style",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_style_blender.py --label ai-final-style <all14>",
-      "result": "PASS: all14",
-      "log": ".cache/asset-check/logs/ai-final-style.log",
-      "log_sha256": "06d1b87e017738a02a2521be0d7dde798cc373e1cb940499b4ce7bb8560d1172"
+      "purpose": "Source style",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_style_blender.py --label seams-all14-style $ALL14",
+      "result": "PASS: all14 saved sources and current GLBs",
+      "log": ".cache/asset-check/logs/seams-all14-style.log",
+      "log_sha256": "d03e4af7508404a06199bca8c3939228ee55ed310e41007ec468fe1d1cd1f011"
     },
     {
-      "purpose": "packed portable images",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_painted_blender.py --label ai-final-painted <all14>",
-      "result": "PASS: all14 source/GLB channel coverage and UVs",
-      "log": ".cache/asset-check/logs/ai-final-painted.log",
-      "log_sha256": "5df27e1c3c2cacb10a88c96179e0c6b16fa392c6732a8e725134d50927072c64"
+      "purpose": "Packed images / UV / portable channels",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_painted_blender.py --label seams-all14-painted $ALL14",
+      "result": "PASS: all14 saved sources and current GLBs",
+      "log": ".cache/asset-check/logs/seams-all14-painted.log",
+      "log_sha256": "7a6d161052b5c5355df257768f27386a25eb1680a9265b375979bab3285ba678"
     },
     {
-      "purpose": "idempotence",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label ai-idempotence idempotence",
-      "result": "PASS: all14 second-application full capture equality, no datablock growth",
-      "log": ".cache/asset-check/logs/ai-idempotence.log",
-      "log_sha256": "ce59fdcafd2b1b5ecdb31cf2f44b887c729f502b9cf643b5394bb5b6cc31a173"
+      "purpose": "Current-source ground and imported geometry interfaces",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_ground_blender.py --label seams-ground-final --output docs/ai-textures/ground-verification.json",
+      "result": "PASS: all13 current source/GLB bounds, rotated interfaces, matching neighbors, 48 real root rotations and 40 stacks",
+      "log": ".cache/asset-check/logs/seams-ground-final.log",
+      "log_sha256": "398544b6faf09a7b7e1d9682639702320d4c37fba2a077ecb51378a799cd5e0b"
     },
     {
-      "purpose": "new fixtures",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/test_ai_textures_blender.py --label ai-final-fixtures",
-      "result": "PASS: 3 Blender fixtures for content-cache ownership/staleness and transition/river bank behavior",
-      "log": ".cache/asset-check/logs/ai-final-fixtures.log",
-      "log_sha256": "1a0bf6cf32b307517d9013f6637ca646a034b8f2356f50fde233de21896cb301"
+      "purpose": "Texture guards and pixel-recipe regressions",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/test_ai_textures_blender.py --label seams-fixtures-final",
+      "result": "PASS: 7 fixtures, including manual-binding/image edit refusal, predecessor proof, atlas-frame exclusion, smaller motifs, no constant dark edge on flat input",
+      "log": ".cache/asset-check/logs/seams-fixtures-final.log",
+      "log_sha256": "3249c869c467dcc24ede6b847d15c016e9a2388b52fb06ffcb708cf5fb6e3a34"
     },
     {
-      "purpose": "shared style fixtures",
+      "purpose": "Shared style fixtures",
       "command": "mise run style-tests",
-      "result": "PASS: 27 fixtures, including actual source-preserving selected export",
+      "result": "PASS: existing shared style/export fixtures",
       "log": ".cache/asset-check/logs/style-tests.log",
-      "log_sha256": "339937909d2bc64a501da0bf202bc940fb0be34d975aeb84e70706e30b985af9"
+      "log_sha256": "3696b5bcce36e678f84d1c7edec21c03b139654128f01b24ec788426a3dbea77"
     },
     {
-      "purpose": "baseline audit reproduction",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label ai-baseline-audit-reproduction audit-baseline environment/hex_ground_moss",
-      "result": "PASS: opens preserved baseline source and enforces original hash",
-      "log": ".cache/asset-check/logs/ai-baseline-audit-reproduction.log",
-      "log_sha256": "b330a3d709c0b1c50fdd260b27f4489df83bd771572a40171c588ef7007d44fe"
+      "purpose": "Final corrected actual GLB studio views",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_review.py --label seams-after-final after $IDS mixed neighbors",
+      "result": "PASS: 35 ground images refreshed; 2 unchanged Archery views retain their original GLB/profile identity",
+      "log": ".cache/asset-check/logs/seams-after-final.log",
+      "log_sha256": "ee1870341db60c03ecca577796ce21ea1603eeb8e01661d0db5ada911e255939"
     },
     {
-      "purpose": "final original GLB renders",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_review.py --label ai-final-before before <all14> mixed neighbors",
-      "result": "PASS: 37 images, 102.59s CPU Cycles; exact profiles/hashes committed",
-      "log": ".cache/asset-check/logs/ai-final-before.log",
-      "log_sha256": "0bf2125eaf3943bc63f007d4137f5bea382ee855358c0d0e1d217489dccae568"
+      "purpose": "Actual repeated/mixed GLB grids: before",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_seams_review.py --label seams-grids-before before",
+      "result": "PASS: all5 same-family grids and mixed ground grid with matched settings; implementation-worker inspected final pixels",
+      "log": ".cache/asset-check/logs/seams-grids-before.log",
+      "log_sha256": "2a823d5dd787feb8d21ec921548dc2309a30b46247ebbe2387ed41da3f491aa9"
     },
     {
-      "purpose": "final textured GLB renders",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_review.py --label ai-final-after after <all14> mixed neighbors",
-      "result": "PASS: 37 matched images, 103.02s CPU Cycles; implementation-worker visual inspection retained",
-      "log": ".cache/asset-check/logs/ai-final-after.log",
-      "log_sha256": "483a9c72bec6577928177e64e3443046a13bfd6f480d15409956fe58e6af8eb9"
+      "purpose": "Actual repeated/mixed GLB grids: pr14",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_seams_review.py --label seams-grids-pr14 pr14",
+      "result": "PASS: all5 same-family grids and mixed ground grid with matched settings; implementation-worker inspected final pixels",
+      "log": ".cache/asset-check/logs/seams-grids-pr14.log",
+      "log_sha256": "81a506d31442af30d8308bc4e417e475972e289591715a34e03171dd2671ce10"
     },
     {
-      "purpose": "fast lint/syntax/behavior/output contracts",
+      "purpose": "Actual repeated/mixed GLB grids: after",
+      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_seams_review.py --label seams-grids-final after",
+      "result": "PASS: all5 same-family grids and mixed ground grid with matched settings; implementation-worker inspected final pixels",
+      "log": ".cache/asset-check/logs/seams-grids-final.log",
+      "log_sha256": "6cb8f0c10a758094c144fcb4307259cefe6045bb910ee873a5440884eb18a33c"
+    },
+    {
+      "purpose": "Full fast suite / lint / syntax / gallery/hash contracts",
       "command": "mise run check",
-      "result": "PASS: 139 tests, Ruff, Python/JS syntax and worker guards; includes static gallery/link/PNG/profile/handoff checks",
-      "log": ".cache/ai-textures/check-final-delivery.log",
-      "log_sha256": "3268dac7fcdce964bf6f67f90d534b40bcd21cfba7b48b8390b6e2b8e47d3c06"
+      "result": "PASS: 144 tests and 2 inline JavaScript programs; no check exclusions or waivers",
+      "log": ".cache/ai-textures-seams/check-final-delivery.log",
+      "log_sha256": "6292920070fd84613b2fe9df0dbd65a13a5c2ac4e8b824feb2bac2d17803d317"
     },
     {
-      "purpose": "ground coverage (current final delivered sources and GLBs)",
-      "command": "python3 -m tools.asset_pack.worker tools/asset_pack/verify_ground_blender.py --label ai-review-current-ground --output docs/ai-textures/ground-verification.json",
-      "result": "PASS: 13 current saved sources and GLBs; source/imported-GLB rotation and neighbor-seam coverage, 48 actual root rotations and 40 base/overlay stacks; all 26 delivered input hashes unchanged",
-      "receipt": "docs/ai-textures/ground-verification.json",
-      "receipt_sha256": "a2bc37ae1743b26bcc65bcceec11ea294e2c37dc452b4e6afcde6241bcb7a218",
-      "log": ".cache/asset-check/logs/ai-review-current-ground.log",
-      "log_sha256": "933a5d26ae70c78b3d3b9847c185be4d856bff9b3f70c1c2ae232aa53d7b4e7f"
+      "purpose": "Final pair/triple packaging and derived sheets",
+      "command": "python3 -m tools.asset_pack.ai_texture_report && python3 -m tools.asset_pack.ai_texture_seams_report; magick montage -label %f <documented current terrain render groups> -tile <3x2/2x4/4x2> -geometry <320x320/480x330>+4+4 -depth 8 <sheet.png>",
+      "result": "PASS: fresh pair/triple galleries and current ground/neighbor/overlay sheets; delivered sheets retained in seams/pr14-sheets",
+      "log": ".cache/ai-textures-seams/report-final.log",
+      "log_sha256": "62f9d8096204bc0dba43b01b618deb2adee3a7039998f88d2c2e9713bfcb6f93"
     }
   ],
-  "browser_interactivity": {
-    "status": "UNEXECUTED",
-    "reason": "Two own named-session chrome-devtools-axi attempts returned BRIDGE_NOT_READY (attached CDP target gone). Optional bridge check scoped out by firstmate; no browser pass claimed. Static gallery correctness checks pass separately."
+  "artifact_sha256": {
+    "validation.json": "f9fc43e0b17f0aa8b61c26e41e11d4a3f22675c09102876ee3e16dec21d44e0f",
+    "ground-verification.json": "d064b76b5fb6edd99579218f07e9a6a14142e8a3c07d4d7d0807885a007fd436",
+    "handoff.json": "272da552326c6c6a2ee16e5d4790f240721cbd94ec12c4d3e6d14a59322e263f",
+    "resources.json": "fbde8fcacb8d0669171f9b54f0bab0355288ba21099a76e0a08081cc07dac46d",
+    "renders.json": "21144c662e7bae234bf4e710b63e38b01830505648ca1b63f07f1bdccdd673c3",
+    "seams/comparisons.json": "df1891c58375f91da3ae663441bd6624d7c77e451b06b2e1234e1bd3791188d1",
+    "seams/baseline.json": "5c6583752951c440a6e9d6d594d461e3060f9d43886d89b46ae5db94997bfa23",
+    "ground-sheet.png": "ed628cd9bb575d20f752f1e3ee9f5199e134d7b9c291dd0e1a8b7a523544d3b9",
+    "neighbor-sheet.png": "771a6852a2a66d4002e77456a2d31249e09b2c3502890e8d3e248de9f4d45090",
+    "overlay-sheet.png": "565208a41e056037c2458849824dd3372134981677fe64b66865c26ec456040e",
+    "review.html": "ca3d1f2f28bfac235a05dc59281a3aeffbb650cab252a2044c7717de5e626439",
+    "seams/review.html": "47ad8a8d5e3cb6f2f5ea0e76f377fcfa2d3ca4c0d125bc41bb0f0d7f88425d26",
+    "seams/game-diagnosis.json": "6dcc20bb25d27df95428d6240d0261ad3545e9eaec30ac9bd481e9d81399d7db"
   },
   "game_gpu_acceptance": {
     "status": "PENDING",
-    "reason": "Partial assets-first milestone. After this asset PR lands on assets main, dependent game ship odot-ai-textures-game must import the exact validated exports, update the explicit immutable pin and hash/derived manifest metadata, and complete actual-GPU acceptance in settlement, forest, river and path views, including placement, tile connections, water motion and asset loading; include Archery Range settlement acceptance if its material stage is visually acceptable. Do not declare the overall request complete until that game work lands with acceptance evidence."
+    "reason": "Successor must land on assets main before separate game task re-pins and performs actual GPU acceptance. This is not a waiver of the prior dark-border/repetition finding."
   },
   "retained_failed_diagnostics": [
-    ".cache/ai-textures/check.log",
-    ".cache/ai-textures/check-final.log",
-    ".cache/ai-textures/check-receipt-correction.log (final corrected pass; initial failure described in local checkpoint)"
+    {
+      "log": ".cache/ai-textures-seams/check.log",
+      "reason": "Unnecessary all14 export reproduced 170 low-byte UV differences in scoped-out Archery GLB; fast hashes correctly rejected stale receipts. Identical prior JSON and unchanged source/images confirmed; original delivered GLB/validation row restored from verified predecessor. No Archery change ships. Final 144-test run passes without relaxing any contract."
+    },
+    {
+      "path": ".cache/ai-textures-seams/trial-edge",
+      "reason": "Stronger intermediate hue mixing made pale green dirt seams; reduced before final export and current evidence."
+    }
   ],
   "notes": [
-    "Earlier stale historical receipt tests were corrected through explicit validated predecessor chains, not weakened or relabeled.",
-    "Initial static gallery PNG test exposed ImageMagick 16-bit montage output; comparison producer now explicitly writes 8-bit derivatives matching its existing PNG audit contract. Original render/map bytes unchanged.",
-    "Logs remain local under the disposable cache; committed reports bind current source, export and image hashes independently."
+    "All older checks retained separately in seams/pr14-checks.json; they are historical, not current passes.",
+    "Logs stay local in the disposable cache; image/source/export artifacts and hashes are committed.",
+    "No browser bridge, GPU successor game run, new install, builder, shared terrain system or unrelated art change."
   ]
 }

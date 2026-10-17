@@ -157,8 +157,8 @@ def geometry_samples(path, keys, *, new_uv_materials=()):
     return result, totals, empty
 
 
-def export_preservation(aid):
-    old_path = CACHE / 'before/exports' / (aid + '.glb')
+def export_preservation(aid, *, old_path=None):
+    old_path = old_path or CACHE / 'before/exports' / (aid + '.glb')
     new_path = ROOT / 'exports' / (aid + '.glb')
     old, old_bin = read(old_path)
     new, new_bin = read(new_path)
@@ -166,7 +166,8 @@ def export_preservation(aid):
     assert set(old_keys.values()) == set(new_keys.values()), (aid, 'non-color shader/channel contract')
     newly_textured = []
     added_uv_checks = {}
-    if aid == 'buildings/archery_range':
+    if aid == 'buildings/archery_range' and 'baseColorTexture' not in next(
+            m for m in old['materials'] if m['name'] == 'blue')['pbrMetallicRoughness']:
         # The old blue pennant/banner used a scalar color, so glTF omitted its
         # already-authored source UVs. New cloth must export precisely those UVs.
         mat = next(m for m in new['materials'] if m['name'] == 'blue')
@@ -206,6 +207,46 @@ def export_preservation(aid):
             'decoded_rgba8_bytes_no_mips': sum(p['dimensions'][0] * p['dimensions'][1] * 4 for p in images)}
 
 
+def immediate_predecessor(aid):
+    """Also prove the delivered painted source survives this bounded correction.
+
+    The original audit remains mandatory. This second proof catches damage to
+    maps/bindings introduced by the first painted revision, not just old inputs.
+    """
+    manifest = json.loads((ROOT / 'docs/ai-textures/seams/baseline.json').read_text())
+    expected = next(a for a in manifest['assets'] if a['id'] == aid)
+    cache = ROOT / '.cache/ai-textures-seams/pr14'
+    old_path = cache / 'sources' / (aid + '.blend')
+    old_export = cache / 'exports' / (aid + '.glb')
+    assert sha(old_path) == expected['sources']['sha256'], 'Changed immediate source predecessor'
+    assert sha(old_export) == expected['exports']['sha256'], 'Changed immediate export predecessor'
+    bpy.ops.wm.open_mainfile(filepath=str(old_path))
+    before = capture_source()
+    bindings = {}
+    for mat in bpy.data.materials:
+        if mat.get('ai_texture_profile'):
+            shader = next(n for n in mat.node_tree.nodes if n.type == 'BSDF_PRINCIPLED')
+            node = shader.inputs['Base Color'].links[0].from_node
+            bindings[mat.name] = node.image.name
+    bpy.ops.wm.open_mainfile(filepath=str(ROOT / 'sources' / (aid + '.blend')))
+    for material, image in bindings.items():
+        mat = bpy.data.materials[material]
+        shader = next(n for n in mat.node_tree.nodes if n.type == 'BSDF_PRINCIPLED')
+        shader.inputs['Base Color'].links[0].from_node.image = bpy.data.images[image]
+    after = capture_source()
+    protected = ('structure', 'transforms', 'settings', 'collections', 'materials',
+                 'material_render_properties', 'animation_bindings')
+    for field in protected:
+        assert before[field] == after[field], (aid, 'immediate predecessor', field)
+    for name, proof in before['images'].items():
+        assert after['images'][name] == proof, (aid, 'delivered painted image changed', name)
+    return {'revision': manifest['revision'], 'source_sha256': sha(old_path),
+            'source_signature_before': digest({k: before[k] for k in protected}),
+            'source_signature_after_normalized': digest({k: after[k] for k in protected}),
+            'all_predecessor_images_exact': True, 'predecessor_image_proofs': before['images'],
+            'export': export_preservation(aid, old_path=old_export)}
+
+
 def main():
     report = {'baseline_revision': '133c7cdeb368cada408d1c95c9414e08488371a9',
               'runtime': bpy.app.version_string, 'assets': {}}
@@ -215,6 +256,8 @@ def main():
             'source_after_sha256': applied['source_sha256'],
             'source_preservation': source_preservation(aid, applied),
             'export_preservation': export_preservation(aid), 'materials': applied['materials']}
+        if (ROOT / 'docs/ai-textures/seams/baseline.json').is_file():
+            report['assets'][aid]['immediate_predecessor'] = immediate_predecessor(aid)
         print('Exact texture-only source/export successor verified:', aid, flush=True)
     report['verifier_sha256'] = sha(__file__)
     out = ROOT / 'docs/ai-textures/validation.json'
