@@ -232,38 +232,23 @@ Use the installed pinned **Blender 5.2.2 LTS** and existing workers. No installs
 GUI scene mutations, broad rebuilds, or legacy `build_pack.py` / `ground_tiles.py`
 are needed. Run in an isolated copy, never over someone else's uncommitted sources.
 
+Follow the [current correction reproduction procedure](seams/README.md#reproduce--review--rollback)
+for reapplication, export, verification and matched comparisons, including its
+cache, predecessor-image and local-receipt prerequisites. The original-only
+application sequence from the initial POC is no longer sufficient.
+
+Optional input-provenance inspection, into fresh private destinations:
+
 ```sh
-# Optional: re-inspect original Downloads archives into a fresh private destination.
 python3 -m tools.asset_pack.ai_texture_inputs ~/Downloads/odot_ground_tiles_poc.zip .cache/ai-textures/reextract-ground
 python3 -m tools.asset_pack.ai_texture_inputs ~/Downloads/odot_archery_range_texture_poc.zip .cache/ai-textures/reextract-archery
-
-# In an isolated POC checkout/copy (with these tools and input maps), preserve
-# all14 baseline source/GLB bytes in .cache/ai-textures/before/{sources,exports}/
-# using baseline.json hashes first. Restore those baseline sources into sources/.
-# Then audit BEFORE authoring. Never replace an existing baseline audit with new bytes.
-python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label ai-audit audit
-python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label ai-apply apply
-python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label ai-idempotence idempotence
-IDS="$(python3 -c 'from tools.asset_pack.hex_ground import IDS; print(" ".join(IDS), "buildings/archery_range")')"
-python3 -m tools.asset_pack.check $IDS
-python3 -m tools.asset_pack.worker tools/asset_pack/verify_style_blender.py --label ai-style $IDS
-python3 -m tools.asset_pack.worker tools/asset_pack/verify_painted_blender.py --label ai-painted $IDS
-python3 -m tools.asset_pack.worker tools/asset_pack/verify_ai_textures_blender.py --label ai-preservation
-python3 -m tools.asset_pack.worker tools/asset_pack/verify_ground_blender.py --label ai-ground --output docs/ai-textures/ground-verification.json
-python3 -m tools.asset_pack.worker tools/asset_pack/test_ai_textures_blender.py --label ai-fixtures
-python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_review.py --label ai-before before $IDS mixed neighbors
-python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_review.py --label ai-after after $IDS mixed neighbors
-python3 -m tools.asset_pack.ai_texture_report
-mise run check
 ```
 
-If starting from the delivered POC rather than baseline, restore the baseline bytes
-into a **separate private comparison cache**, restore baseline audit JSON from the
-retained local cache (or produce audits by opening baseline copies), and retain
-current sources. `audit-baseline` reads the preserved baseline source copies directly:
+Restore baseline audit JSON from the retained local cache, or produce audits by
+opening verified baseline copies. `audit-baseline` reads those copies directly:
 `python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label ai-audit audit-baseline`.
-Both audit routes require the recorded original source hashes and refuse to overwrite
-the original audit with already changed source bytes.
+Both `audit` and `audit-baseline` require the recorded original source hashes and
+refuse to overwrite the original audit with already changed source bytes.
 Before opening or mutating the source, `apply` requires its exact SHA-256 to match
 the audited baseline or last-applied receipt. The local `.cache/ai-textures/applied/`
 receipt takes precedence; without it, the committed `validation.json` source-after
@@ -274,9 +259,8 @@ The original geometry/physical signature is also required, and the original colo
 image is retained for deterministic reapplication. Recognized sources can accept
 updated input textures; `idempotence` validates an unchanged second apply.
 Original and previously delivered managed maps remain source-only predecessors.
-The five rejected unpublished edge trials were separately archived with exact
-packed-source copies before their authorized exclusion from delivery; see the
-[cleanup receipt](seams/review-r1-cleanup.json). Reapplication retains predecessors
+The [correction's preservation record](seams/README.md#small-source-preserving-fix)
+owns the narrowly scoped private-trial exclusion. Reapplication retains predecessors
 and never performs a broad orphan purge.
 The independent verifier checks current owned bindings separately from these
 unreferenced predecessors: explicit owner/content-key/input provenance, canonical
@@ -310,9 +294,7 @@ acceptance evidence. Existing old recessed river versus shallow surface-stream
 incompatibility remains; this POC adds no new transition and changes no
 renderer/gameplay contract. No release/deployment is requested.
 
-For rollback, revert this asset change as one coherent Git change (sources, prepared
-maps, exports, manifest/validation and successor receipts), retaining any later user
-edits rather than force-resetting. The game worker separately restores its prior
-asset pin `133c7cdeb368cada408d1c95c9414e08488371a9` and its matching manifest/dependencies.
-The baseline cache and committed before PNGs preserve original review evidence.
-No cleanup command should delete original source images or overwrite a manual edit.
+For the current bounded correction, follow the [correction rollback procedure](seams/README.md#reproduce--review--rollback),
+not a rollback of the entire initial POC to the original baseline. The baseline
+cache and committed before PNGs preserve original review evidence. No cleanup
+command should delete original source images or overwrite a manual edit.

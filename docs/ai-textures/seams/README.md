@@ -82,10 +82,12 @@ removed; [review-r1-cleanup.json](review-r1-cleanup.json) binds the scoped chang
 New Base Color images are sRGB. Existing Roughness/Normal maps stay Non-Color,
 with the original tangent-space Normal Map connections.
 
-**Foundation, four paths, four rivers and Archery are byte-for-byte unchanged
-from the initially delivered GLBs and sources.** Their mapping/animation contracts
-need no further change to remove the base-ground dark outline. They are included
-in refreshed preservation/ground checks and the handoff, not silently rebuilt.
+**The four path, four river and Archery GLBs and sources are byte-for-byte
+unchanged from the initial delivery.** The shared foundation material and its
+packed maps are unchanged inside the five resaved base-ground sources; it has no
+separate source or GLB. These mapping/animation contracts need no further change
+to remove the base-ground dark outline. They are included in refreshed
+preservation/ground checks and the handoff, not silently rebuilt.
 Ribbon U-across/V-along, banks, endpoint paint, widths and moving shimmer survive.
 The existing quiet-to-detailed bands in paths are still a limitation of the first
 POC, not a new ground-boundary fix or justification for an unrelated redesign.
@@ -133,14 +135,15 @@ criterion is already met. Reopen actual GPU acceptance on the landed content set
   other source state, GLB triangle corners/normals/UVs, non-color channels and
   animation targets/samples must match. The immediate-source signature is
   normalized only for the five declared Base Color image bindings.
-- [comparisons.json](comparisons.json) gives exact per-asset byte deltas. The
-  fourteen-asset set grows **30,266,832 → 32,293,232 bytes** (+2,026,400, about
-  1.93 MiB), entirely in the five base GLBs. Image count, summed decoded RGBA8
-  estimate (**152,043,520 bytes**, no mips), triangle/material/mesh counts remain
-  unchanged from delivered exports. [../resources.json](../resources.json) records
-  exact editable-source sizes after excluding the privately archived trial maps;
-  the originally delivered source set was **38,842,329 bytes**. More detailed PNGs
-  compress less; retained original/delivered source-only predecessors are not
+- Generated [comparisons.json](comparisons.json) owns per-terrain-asset byte and
+  decoded-image deltas from the initial delivery; [../resources.json](../resources.json)
+  owns current sizes for the full set, including Archery and editable sources after
+  excluding the privately archived trial maps. Export growth is confined to the
+  five base GLBs; image count, decoded RGBA8 estimate (no mips) and
+  triangle/material/mesh counts remain unchanged from delivered exports.
+  Historical source sizes are in [pr14-resources.json](pr14-resources.json), not
+  current-source measurements. More detailed PNGs compress less; retained
+  original/delivered source-only predecessors are not
   loaded by the GLBs. No GPU-time or FPS claim is made from CPU renders.
 - [checks.json](checks.json) records actual current-source commands/results;
   current-source receipts are regenerated after the cleanup save/export. Earlier
@@ -154,10 +157,38 @@ criterion is already met. Reopen actual GPU acceptance on the landed content set
 Use existing pinned Blender 5.2.2 LTS/workers; no installs. Keep desktop Blender
 for review. Never run an old builder or overwrite a manually edited source.
 
-To inspect/reapply this delivered correction in an isolated copy with its
-committed sources/maps and a verified original audit cache:
+To inspect/reapply this delivered correction, use an isolated copy with its
+committed sources/maps. First reconstruct both predecessor caches as described
+below and obtain a verified original audit via the
+[original-cache audit procedure](../README.md#reproduce-without-rebuilding-geometry).
+Keep the delivered predecessor images in the current sources: the final recipe
+alone cannot recreate those historical maps from original-only sources.
+The verifier also reads local applied receipts for all fourteen assets, including
+unchanged overlays and Archery. The first command reconstructs missing receipts
+from committed validation data only after checking exact current source hashes;
+it refuses stale existing receipts rather than overwriting them.
 
 ```sh
+python3 - <<'PY'
+import json
+from pathlib import Path
+from tools.asset_pack.ai_texture_contract import ASSETS, sha
+
+validation = json.loads(Path('docs/ai-textures/validation.json').read_text())
+receipts = Path('.cache/ai-textures/applied')
+receipts.mkdir(parents=True, exist_ok=True)
+for aid in ASSETS:
+    row = validation['assets'][aid]
+    current = sha(Path('sources') / (aid + '.blend'))
+    assert current == row['source_after_sha256'], (aid, 'unrecognized source bytes')
+    path = receipts / (aid.replace('/', '_') + '.json')
+    if path.exists():
+        receipt = json.loads(path.read_text())
+        assert receipt['id'] == aid and receipt['source_sha256'] == current, (aid, 'stale local receipt')
+    else:
+        path.write_text(json.dumps({'id': aid, 'source_sha256': current,
+                                    'materials': row['materials']}, indent=2) + '\n')
+PY
 BASES='environment/hex_ground_moss environment/hex_ground_grass environment/hex_ground_dirt environment/hex_ground_leaf_litter environment/hex_ground_pine_duff'
 IDS="$(python3 -c 'from tools.asset_pack.hex_ground import IDS; print(" ".join(IDS))')"
 python3 -m tools.asset_pack.worker tools/asset_pack/ai_texture_blender.py --label seams-idempotence idempotence $BASES
@@ -176,22 +207,21 @@ python3 -m tools.asset_pack.ai_texture_seams_report
 mise run check
 ```
 
-Original cache reconstruction follows the existing `../README.md` audit-baseline
-procedure. Before any current→successor application, retain the exact delivered
+Before any current→successor application, retain the exact delivered
 bytes and applied receipt; the local last-applied receipt takes precedence over
 committed receipt data and refuses unknown later edits. For reconstruction from
 Git, populate `.cache/ai-textures-seams/pr14/{sources,exports}` from the full
 `2d88d355393f145aedfc19fa198960dac741c6fb` Git objects and verify `baseline.json`
 hashes; do not copy into production sources. Populate the original cache from
 `133c7cdeb368cada408d1c95c9414e08488371a9` the same way. `audit-baseline` opens only
-those verified original copies. Full regeneration from the original audited
-source uses the same final recipe, rather than weakening the current-source
-guard or pretending an intervening manual material edit is an owned predecessor.
+those verified original copies. Never weaken the current-source guard or treat
+an intervening manual material edit as an owned predecessor.
 Reapplication saves .blend bytes even when semantics are idempotent: always rerun
 export/check/report afterward; old handoff/source hashes must not be reused.
 
 Rollback is a coherent Git revert of this bounded correction, keeping all later
 manual edits. That restores the delivered source/maps/export/receipt content set,
-not an unrelated Archery or terrain builder. The game task separately controls
-its pin; it must never import an unpublished branch, swap GLBs under an old pin,
-or declare GPU acceptance from these source-review images.
+not an unrelated Archery or terrain builder. If the correction was imported, the
+game task separately restores its prior immutable assets-main pin and matching
+manifest/dependencies together; it must never import an unpublished branch, swap
+GLBs under an old pin, or declare GPU acceptance from these source-review images.
